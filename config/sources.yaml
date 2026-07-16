@@ -1,0 +1,132 @@
+site:
+  timezone: Asia/Tokyo
+  max_items: 8
+  candidate_pool_size: 18
+  lookback_hours: 48
+
+candidates_handoff:
+  ttl_hours: 8
+
+learning:
+  enabled: true
+  source_weight: 0.70
+  keyword_weight: 0.45
+  exploration_weight: 0.30
+  exploration_cap: 0.15
+  max_learning_bonus: 0.80
+  max_per_source: 5
+  editorial_reward_weight: 0.75
+  explicit_feedback_weight: 2.0
+
+research:
+  max_queries: 12
+  exploitation_ratio: 0.70
+  priority_areas:
+    - {name: AIによる設計, share: 30, scope: 生成設計・設計支援AI・最適化・MDO・サロゲートモデル}
+    - {name: 大手航空機メーカー, share: 25, scope: 民間・軍用航空機の設計・製造・認証・試験}
+    - {name: 航空機用エンジン, share: 25, scope: タービン・燃焼器・材料・推進・保守・設計解析}
+    - {name: CAD・CAE, share: 20, scope: CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド}
+  watchlist_coverage_days: 7
+  must_check_sources:
+    - {name: Siemens Digital Industries Software, category: CAD・CAE, domains: [sw.siemens.com, siemens.com]}
+    - {name: Ansys, category: CAD・CAE, domains: [ansys.com]}
+    - {name: "Dassault Systèmes", category: CAD・CAE, domains: [3ds.com]}
+    - {name: Hexagon AB, category: CAD・CAE, domains: [hexagon.com]}
+    - {name: Altair Engineering, category: CAD・CAE, domains: [altair.com, siemens.com]}
+    - {name: Cadence Design Systems, category: CAD・CAE, domains: [cadence.com]}
+    - {name: Autodesk, category: CAD・CAE, domains: [autodesk.com]}
+    - {name: MSC Software, category: CAD・CAE, domains: [cadence.com, hexagon.com, mscsoftware.com]}
+    - {name: COMSOL, category: CAD・CAE, domains: [comsol.com]}
+    - {name: ESI Group, category: CAD・CAE, domains: [esi-group.com, keysight.com]}
+    - {name: NUMECA International, category: CAD・CAE, domains: [cadence.com, numeca.de]}
+    - {name: Siemens Energy, category: ガスタービン・技術サービス, domains: [siemens-energy.com]}
+    - {name: Baker Hughes, category: ガスタービン・技術サービス, domains: [bakerhughes.com]}
+    - {name: Mitsubishi Power, category: ガスタービン・技術サービス, domains: [power.mhi.com, mhi.com]}
+    - {name: Solar Turbines, category: ガスタービン・技術サービス, domains: [solarturbines.com]}
+    - {name: Chromalloy, category: ガスタービン・技術サービス, domains: [chromalloy.com]}
+    - {name: Quest Global, category: 技術サービス, domains: [questglobal.com]}
+    - {name: Cyient, category: 技術サービス, domains: [cyient.com]}
+    - {name: Capgemini Engineering, category: 技術サービス, domains: [capgemini.com]}
+    - {name: GE Aerospace, category: 航空機エンジン, domains: [geaerospace.com]}
+    - {name: Rolls-Royce, category: 航空機エンジン, domains: [rolls-royce.com]}
+    - {name: "Pratt & Whitney", category: 航空機エンジン, domains: [rtx.com]}
+    - {name: Safran Aircraft Engines, category: 航空機エンジン, domains: [safran-group.com]}
+    - {name: MTU Aero Engines, category: 航空機エンジン, domains: [mtu.de]}
+    - {name: CFM International, category: 航空機エンジン, domains: [cfmaeroengines.com]}
+    - {name: Honeywell Aerospace, category: 航空機エンジン, domains: [honeywellaerospace.com, honeywell.com]}
+    - {name: RTX, category: 航空機エンジン, domains: [rtx.com]}
+    - {name: GKN Aerospace, category: 航空機・主要サプライヤー, domains: [gknaerospace.com]}
+    - {name: Mitsubishi Heavy Industries, category: 航空機・主要サプライヤー, domains: [mhi.com]}
+    - {name: Kawasaki Heavy Industries, category: 航空機・主要サプライヤー, domains: [global.kawasaki.com]}
+    - {name: SUBARU, category: 航空機・主要サプライヤー, domains: [subaru.co.jp]}
+    - {name: Kawasaki Heavy Industries Aerospace Systems Company, category: 航空機・主要サプライヤー, domains: [global.kawasaki.com]}
+    - {name: Hanwha Aerospace, category: 航空機・主要サプライヤー, domains: [hanwhaaerospace.com]}
+    - {name: Aero Engine Corporation of China (AECC), category: 航空機エンジン, domains: [aecc.cn]}
+    - {name: Aviation Industry Corporation of China (AVIC), category: 民間・軍用航空機, domains: [avic.com.cn]}
+    - {name: Airbus, category: 民間・軍用航空機, domains: [airbus.com]}
+    - {name: Boeing, category: 民間・軍用航空機, domains: [boeing.com]}
+    - {name: Lockheed Martin, category: 軍用航空機, domains: [lockheedmartin.com]}
+    - {name: Northrop Grumman, category: 軍用航空機, domains: [northropgrumman.com]}
+    - {name: BAE Systems, category: 軍用航空機, domains: [baesystems.com]}
+    - {name: Leonardo, category: 民間・軍用航空機, domains: [leonardo.com]}
+    - {name: Avio Aero, category: 航空機エンジン・部品, domains: [avioaero.com]}
+    - {name: Liebherr-Aerospace, category: 航空機エンジン・部品, domains: [liebherr.com]}
+    - {name: Woodward, category: 航空機エンジン・部品, domains: [woodward.com]}
+    - {name: Parker Aerospace, category: 航空機エンジン・部品, domains: [parker.com]}
+    - {name: Howmet Aerospace, category: 航空機材料・部品, domains: [howmet.com]}
+    - {name: Precision Castparts, category: 航空機材料・部品, domains: [precast.com]}
+    - {name: ATI (ATI Inc.), category: 航空機材料・部品, domains: [atimaterials.com]}
+    - {name: Spirit AeroSystems, category: 航空機・主要サプライヤー, domains: [spiritaero.com, boeing.com]}
+  exclude_terms: [drone, UAV, UAS, eVTOL, air taxi, urban air mobility, ドローン, 無人機, 空飛ぶクルマ]
+  priority_keywords:
+    [generative design, AI-assisted design, engineering optimization, aircraft design,
+     military aircraft, commercial aircraft, aircraft engine, jet engine, gas turbine,
+     CAD, CAE, CFD, FEA, digital engineering, digital twin, MDO, MBSE,
+     生成設計, 航空機設計, 航空機エンジン, 数値解析]
+  priority_boost: 0.30
+  seed_queries:
+    - AI generative design aerospace engineering optimization
+    - AI assisted CAD CAE engineering design
+    - surrogate model neural operator aerospace CAE
+    - multidisciplinary design optimization aircraft
+    - commercial aircraft design certification manufacturing technology
+    - military aircraft fighter bomber transport digital engineering
+    - aircraft engine turbine combustor materials digital twin
+    - jet engine generative design AI simulation
+    - CAD CAE CFD FEA digital thread aerospace
+    - 日本 航空機 設計 AI 最適化 技報
+    - 日本 航空機エンジン タービン 燃焼器 技報
+    - 日本 CAD CAE 数値解析 デジタルエンジニアリング
+  domain_groups:
+    ai_design_research: [ntrs.nasa.gov, nasa.gov, jaxa.jp, nims.go.jp, aist.go.jp, arc.aiaa.org, asmedigitalcollection.asme.org, sae.org]
+    civil_aircraft: [airbus.com, boeing.com, embraer.com, dassault-aviation.com, bombardier.com, comac.cc, mhi.com, subaru.co.jp, gknaerospace.com, spiritaero.com]
+    military_aircraft: [lockheedmartin.com, northropgrumman.com, boeing.com, airbus.com, baesystems.com, leonardo.com, saab.com, dassault-aviation.com, mhi.com, global.kawasaki.com, subaru.co.jp, avic.com.cn]
+    aircraft_engines: [geaerospace.com, rtx.com, rolls-royce.com, safran-group.com, mtu.de, ihi.co.jp, cfmaeroengines.com, honeywellaerospace.com, hanwhaaerospace.com, aecc.cn, avioaero.com]
+    cad_cae: [ansys.com, siemens.com, sw.siemens.com, 3ds.com, altair.com, cadence.com, comsol.com, esi-group.com, keysight.com, mscsoftware.com, numeca.de, hexagon.com, ptc.com, autodesk.com, nvidia.com]
+    engineering_services: [siemens-energy.com, bakerhughes.com, power.mhi.com, solarturbines.com, chromalloy.com, questglobal.com, cyient.com, capgemini.com]
+    aerospace_supply_chain: [gknaerospace.com, liebherr.com, woodward.com, parker.com, howmet.com, precast.com, atimaterials.com, spiritaero.com]
+
+topics:
+  - {name: AIによる設計, keywords: [generative design, AI-assisted design, engineering optimization, surrogate model, neural operator, MDO, 生成設計, 設計支援AI, 最適設計]}
+  - {name: 大手航空機メーカー, keywords: [commercial aircraft, military aircraft, fighter, bomber, transport aircraft, airliner, aircraft certification, 航空機, 戦闘機, 輸送機, 民間航空機]}
+  - {name: 航空機用エンジン, keywords: [aircraft engine, jet engine, gas turbine, turbofan, combustor, turbine blade, propulsion, 航空機エンジン, ジェットエンジン, 燃焼器, タービン]}
+  - {name: CAD・CAE, keywords: [CAD, CAE, CFD, FEA, PLM, MBSE, digital engineering, digital thread, digital twin, simulation, 数値解析, シミュレーション]}
+
+openclaw_scout:
+  enabled: true
+  path: .collector/scout.json
+  max_results: 80
+
+sources:
+  - name: AI設計・CAD・CAEニュース
+    url: "https://news.google.com/rss/search?q=%28%22generative%20design%22%20OR%20%22AI-assisted%20design%22%20OR%20CAD%20OR%20CAE%20OR%20CFD%20OR%20FEA%29%20-drone%20-UAV%20-eVTOL&hl=en-US&gl=US&ceid=US:en"
+    category: CAD・CAE
+    source_kind: news
+    weight: 1.3
+  - name: 大手航空機メーカー・航空機エンジンニュース
+    url: "https://news.google.com/rss/search?q=%28%22commercial%20aircraft%22%20OR%20%22military%20aircraft%22%20OR%20%22aircraft%20engine%22%20OR%20turbofan%29%20-drone%20-UAV%20-UAS%20-eVTOL&hl=en-US&gl=US&ceid=US:en"
+    category: 航空・推進
+    source_kind: news
+    weight: 1.4
+  - {name: arXiv AI, url: "https://rss.arxiv.org/rss/cs.AI", category: AI研究, source_kind: preprint, weight: 1.0}
+  - {name: NASA Breaking News, url: "https://www.nasa.gov/news-release/feed/", category: 公的研究, source_kind: press_release, weight: 1.0}

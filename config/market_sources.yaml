@@ -1,0 +1,55 @@
+site:
+  timezone: Asia/Tokyo
+  max_items: 12
+  candidate_pool_size: 20
+  lookback_hours: 36
+
+candidates_handoff:
+  ttl_hours: 6
+
+learning:
+  enabled: true
+  source_weight: 0.60
+  keyword_weight: 0.35
+  exploration_weight: 0.20
+  exploration_cap: 0.12
+  max_learning_bonus: 0.60
+  max_per_source: 6
+
+research:
+  max_queries: 6
+  exploitation_ratio: 0.75
+  seed_queries:
+    - 日本株 決算 上方修正 公式
+    - 日銀 金融政策 為替 企業業績
+    - aerospace materials Japan listed company earnings
+  domain_groups:
+    official_market: [jpx.co.jp, boj.or.jp, mof.go.jp, edinet-fsa.go.jp]
+    company_ir: [mhi.com, ihi.co.jp, subaru.co.jp]
+
+topics:
+  - {name: 日本株, keywords: [日経平均, TOPIX, 日本株, 東証, 決算, 株価, 注目銘柄]}
+  - {name: 金融政策, keywords: [日銀, 金利, 為替, ドル円, 財務省, 経済政策, インフレ]}
+  - {name: 海外市場, keywords: [S&P 500, NASDAQ, Dow, 米国株, 原油, gold, market]}
+
+openclaw_scout:
+  enabled: true
+  path: .collector/scout.json
+  max_results: 60
+
+sources:
+  - name: 日本株・日経平均ニュース
+    url: "https://news.google.com/rss/search?q=%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%20OR%20TOPIX%20OR%20%E6%97%A5%E6%9C%AC%E6%A0%AA&hl=ja&gl=JP&ceid=JP:ja"
+    category: 株式
+    source_kind: news
+    weight: 1.4
+  - name: JPXマーケットニュース
+    url: "https://www.jpx.co.jp/rss/markets_news.xml"
+    category: 株式・取引所
+    source_kind: official
+    weight: 1.3
+  - name: 米国市場ニュース
+    url: "https://news.google.com/rss/search?q=S%26P%20500%20OR%20NASDAQ%20OR%20Dow%20market&hl=en-US&gl=US&ceid=US:en"
+    category: 海外市場
+    source_kind: news
+    weight: 1.0

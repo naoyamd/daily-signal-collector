@@ -1,0 +1,19 @@
+[Unit]
+Description=Daily Signal independent collector (%i)
+After=docker.service network-online.target
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+User=ubuntu
+SupplementaryGroups=docker
+WorkingDirectory=/opt/openclaw/data/workspace/daily-signal-collector
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=-/etc/default/daily-signal-collector
+ExecStart=/opt/openclaw/data/workspace/daily-signal-collector/ops/run-collector.sh %i
+TimeoutStartSec=60min
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
