@@ -224,6 +224,54 @@ class CollectorPipelineTests(unittest.TestCase):
         self.assertEqual(payload["collection_counts"]["collected_items"], 1)
         self.assertEqual(warnings, [])
 
+    def test_pipeline_pools_but_does_not_reoffer_reviewed_items(self):
+        reviewed = make_item(
+            "reviewed",
+            "Previously reviewed CAE item",
+            "https://engineering.example/reviewed",
+        )
+        fresh = make_item(
+            "fresh",
+            "Fresh CAE item",
+            "https://engineering.example/fresh",
+        )
+        pooled = []
+        marked = []
+
+        with tempfile.TemporaryDirectory() as directory:
+            from scripts.adaptive_learning import open_database, record_editorial_feedback
+
+            root = Path(directory)
+            database = root / "learning.sqlite3"
+            connection = open_database(database)
+            record_editorial_feedback(
+                connection,
+                "editorial:reviewed",
+                "content/daily/reviewed.md",
+                [{
+                    "id": "reviewed",
+                    "relevance": 0.2,
+                    "quality": 0.3,
+                    "novelty": 0.1,
+                    "reason": "Already assessed and not suitable.",
+                }],
+                [],
+            )
+            connection.close()
+            payload = run_pipeline(
+                {"site": {"max_items": 8}},
+                vault_path=root / "vault",
+                output_path=root / "candidates.json",
+                learning_db=database,
+                now=NOW,
+                rss_collector=lambda _config, _now: [reviewed, fresh],
+                pool_factory=lambda path: FakePool(path, pooled, marked),
+                adaptive_ranker=lambda items, _config, _learning_db: list(items),
+            )
+
+        self.assertEqual({item.id for item in pooled}, {"reviewed", "fresh"})
+        self.assertEqual([item["id"] for item in payload["items"]], ["fresh"])
+
     def test_actual_adaptive_ranking_registers_learning_provenance(self):
         item = make_item(
             "learn-me",

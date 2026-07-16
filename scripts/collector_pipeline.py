@@ -234,6 +234,28 @@ def _adaptive_rank(
     return sorted(result, key=lambda item: (item.score, item.published_at, item.id), reverse=True)
 
 
+def _reviewed_item_ids(
+    learning_db: Path | None,
+    *,
+    warn: Callable[[str], None],
+) -> set[str]:
+    """Load completed editorial decisions so candidate slots are not recycled."""
+
+    if learning_db is None:
+        return set()
+    try:
+        from scripts.adaptive_learning import open_database, reviewed_item_ids
+
+        connection = open_database(learning_db)
+        try:
+            return reviewed_item_ids(connection)
+        finally:
+            connection.close()
+    except (ImportError, OSError, sqlite3.Error, TypeError, ValueError) as exc:
+        warn(f"could not load reviewed item IDs; continuing without history filter: {exc}")
+        return set()
+
+
 def _json_safe(value: Any, depth: int = 0) -> Any:
     if depth > 6:
         return str(value)
@@ -408,9 +430,15 @@ def run_pipeline(
     pool = pool_factory(vault_path)
     pooled_paths = pool.ingest(eligible, collected_at=now)
 
-    ranking_config = _without_exclude_terms(config)
-    base_ranked = rank(eligible, ranking_config, set(), now)
     learning_path = Path(learning_db) if learning_db is not None else None
+    reviewed_ids = _reviewed_item_ids(learning_path, warn=warning)
+    ranking_config = _without_exclude_terms(config)
+    base_ranked = rank(
+        [item for item in eligible if item.id not in reviewed_ids],
+        ranking_config,
+        set(),
+        now,
+    )
     if adaptive_ranker is None:
         ranked = _adaptive_rank(base_ranked, ranking_config, learning_path, warn=warning)
     else:

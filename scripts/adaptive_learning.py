@@ -452,6 +452,21 @@ def register_candidates(
     return changed
 
 
+def reviewed_item_ids(connection: sqlite3.Connection) -> set[str]:
+    """Return item IDs that already received a publisher editorial decision."""
+
+    reviewed: set[str] = set()
+    for row in connection.execute("SELECT assessments_json FROM editorial_runs"):
+        assessments = json.loads(row["assessments_json"])
+        if not isinstance(assessments, list):
+            raise ValueError("stored editorial assessments must be a list")
+        for assessment in assessments:
+            if not isinstance(assessment, Mapping):
+                raise ValueError("stored editorial assessment must be an object")
+            reviewed.add(_identifier(assessment.get("id"), "stored candidate feedback ID"))
+    return reviewed
+
+
 def _event_hash(value: Mapping[str, Any]) -> str:
     raw = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
