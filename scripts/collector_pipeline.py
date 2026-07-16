@@ -369,6 +369,7 @@ def run_pipeline(
     edition: str | None = None,
     rss_collector: Callable[[Mapping[str, Any], datetime], list[Item]] | None = None,
     scout_loader: Callable[..., list[Item]] | None = None,
+    scout_enabled: bool | None = None,
     pool_factory: Callable[[str | Path], Any] | None = None,
     adaptive_ranker: Callable[[Sequence[Item], Mapping[str, Any], Path | None], list[Item]] | None = None,
     warn: Callable[[str], None] | None = None,
@@ -384,9 +385,14 @@ def run_pipeline(
     scout_config = dict(_mapping(config.get("openclaw_scout") or config.get("scout")))
     if scout_path is not None:
         scout_config["path"] = str(scout_path)
+    use_scout = (
+        scout_config.get("enabled", True) is not False
+        if scout_enabled is None
+        else scout_enabled
+    )
     scout_items = (
         scout_fn(scout_config, now, warn=warning)
-        if scout_config.get("path") and scout_config.get("enabled", True) is not False
+        if scout_config.get("path") and use_scout
         else []
     )
     collected = [*rss_items, *scout_items]
@@ -447,7 +453,9 @@ def main(argv: Iterable[str] | None = None) -> int:
     parser.add_argument("--config", type=Path, default=Path("config/sources.yaml"))
     parser.add_argument("--vault", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--scout", type=Path)
+    scout_group = parser.add_mutually_exclusive_group()
+    scout_group.add_argument("--scout", type=Path)
+    scout_group.add_argument("--no-scout", action="store_true")
     parser.add_argument("--learning-db", type=Path)
     parser.add_argument("--edition")
     args = parser.parse_args(list(argv) if argv is not None else None)
@@ -463,6 +471,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         vault_path=vault,
         output_path=output,
         scout_path=scout,
+        scout_enabled=False if args.no_scout else None,
         learning_db=learning_db,
         edition=args.edition,
     )

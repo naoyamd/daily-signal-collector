@@ -191,6 +191,39 @@ class CollectorPipelineTests(unittest.TestCase):
         self.assertEqual(first["collection_counts"]["candidate_items"], 2)
         self.assertEqual(first["expires_at"], "2026-07-16T05:00:00+00:00")
 
+    def test_pipeline_explicitly_disables_configured_scout_without_warning(self):
+        item = make_item(
+            "rss-only",
+            "Aircraft engine update",
+            "https://engine.example/update",
+        )
+        config = {
+            "site": {"max_items": 1},
+            "openclaw_scout": {"enabled": True, "path": "/missing/scout.json"},
+        }
+        pooled = []
+        marked = []
+        warnings = []
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            payload = run_pipeline(
+                config,
+                vault_path=root / "vault",
+                output_path=root / "candidates.json",
+                scout_enabled=False,
+                now=NOW,
+                rss_collector=lambda _config, _now: [item],
+                scout_loader=lambda *_args, **_kwargs: self.fail("scout loader called"),
+                pool_factory=lambda path: FakePool(path, pooled, marked),
+                adaptive_ranker=lambda items, _config, _learning_db: list(items),
+                warn=warnings.append,
+            )
+
+        self.assertEqual(payload["collection_counts"]["scout_items"], 0)
+        self.assertEqual(payload["collection_counts"]["collected_items"], 1)
+        self.assertEqual(warnings, [])
+
     def test_actual_adaptive_ranking_registers_learning_provenance(self):
         item = make_item(
             "learn-me",

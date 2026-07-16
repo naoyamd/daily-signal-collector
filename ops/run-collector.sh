@@ -60,6 +60,7 @@ fi
   --config "$CONFIG" --output "$PLAN"
 
 rm -f "$SCOUT" "$WORK_DIR/scout-agent-result.json"
+SCOUT_ARGS=(--scout "$SCOUT")
 if [[ "$SCOUT_ENABLED" == "1" ]]; then
   if ! docker compose -f "$OPENCLAW_DIR/docker-compose.yml" run -T --rm openclaw-cli agent \
     --session-id "daily-signal-collector-${EDITION}-$(TZ=Asia/Tokyo date +%F)" \
@@ -71,13 +72,15 @@ if [[ "$SCOUT_ENABLED" == "1" ]]; then
     >"$WORK_DIR/scout-agent-result.json"; then
     echo "warning: web scout failed; continuing with RSS/Atom" >&2
   fi
+else
+  SCOUT_ARGS=(--no-scout)
 fi
 
 "$PYTHON" -m scripts.collector_pipeline \
   --config "$CONFIG" \
   --vault "$VAULT_DIR" \
   --learning-db "$LEARNING_DB" \
-  --scout "$SCOUT" \
+  "${SCOUT_ARGS[@]}" \
   --edition "$EDITION" \
   --output "$OUTPUT"
 
