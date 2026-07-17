@@ -43,6 +43,15 @@ adaptive ranking
 `config/sources.yaml`の49社は学習結果で脱落しない必須ウォッチリストです。7社ずつ確認し、
 7日で全社を一巡します。新規公開情報がなければ古いページで水増ししません。
 
+Webスカウトの受け渡しは`daily-signal-scout/v2`です。生成時刻、実行クエリ、当日担当企業ごとの
+`found / no_new_finding / unreachable`を必須にし、研究計画とのcoverageと鮮度を実行後に厳格検証します。
+不完全な場合は検証診断を渡して1回だけ修復し、なお不正ならその回はRSS / Atomだけで安全に継続します。
+同日再実行でも新しいOpenClaw sessionを使うため、古い会話状態を探索結果へ混入させません。
+
+RSS / Atomは一時障害を指数バックオフ付きで再試行し、レスポンスサイズとMIME typeを検査します。
+ETag / Last-Modifiedによる条件付き取得は`.collector/feed-http-cache.json`へ保存します。公開日が不明または
+未来すぎる情報を収集時刻で補完せず、鮮度加点を与えないため、古い常設ページが最新ニュースとして浮上しません。
+
 ## Obsidian pool
 
 正本は既定で`/opt/openclaw/data/workspace/daily-signal-vault`です。1情報を1 Markdownとして保存し、
@@ -68,6 +77,8 @@ pip install -r requirements.txt
 python -m unittest discover -s tests
 python -m scripts.adaptive_learning --db .collector/learning.sqlite3 plan \
   --config config/sources.yaml --output .collector/research-plan.json
+python -m scripts.web_scout validate .collector/scout.json \
+  --research-plan .collector/research-plan.json --max-age-hours 6
 python -m scripts.collector_pipeline --config config/sources.yaml \
   --vault .collector/vault --scout .collector/scout.json \
   --learning-db .collector/learning.sqlite3 --edition digest \
@@ -104,6 +115,10 @@ sudo systemctl enable --now \
 
 repo、Vault、state、JSON exchangeのパスと実行ユーザーはsystemd unitと同じ固定値を使用します。
 異なるパスが必要な場合は、runnerだけを環境変数で変更せず、unitとinstallerを一組で変更してください。
+Scoutの既定は本探索1800秒、修復探索900秒、最大2回、handoff鮮度6時間です。必要な場合だけ
+`/etc/default/daily-signal-collector`で`DAILY_SIGNAL_SCOUT_TIMEOUT`、
+`DAILY_SIGNAL_SCOUT_REPAIR_TIMEOUT`、`DAILY_SIGNAL_SCOUT_ATTEMPTS`を調整できます。
+handoff鮮度と件数上限は版別YAMLの`openclaw_scout`を変更します。
 
 blogの各systemd serviceは対応する`daily-signal-collector@<edition>.service`を`Requires`し、
 候補JSONの生成完了後にだけ編集・公開を開始します。手動確認は次のとおりです。

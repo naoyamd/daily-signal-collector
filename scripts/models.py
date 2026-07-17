@@ -4,11 +4,16 @@ from __future__ import annotations
 
 import hashlib
 import html
+import json
+import os
 import re
 import sys
+import tempfile
+import time
 from contextlib import nullcontext
-from dataclasses import dataclass, field, replace
+from dataclasses import asdict, dataclass, field, replace
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any, Callable, Iterable, Mapping
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -16,6 +21,19 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 TRACKING_PREFIXES = ("utm_", "ref_", "mc_")
 TRACKING_KEYS = {"fbclid", "gclid", "igshid", "cmpid", "campaign_id"}
 DEFAULT_USER_AGENT = "daily-signal-collector/1.0 (+https://github.com/naoyamd/daily-signal)"
+DEFAULT_FEED_MAX_BYTES = 2_000_000
+HARD_FEED_MAX_BYTES = 8_000_000
+DEFAULT_FEED_ATTEMPTS = 3
+HARD_FEED_ATTEMPTS = 5
+MAX_FUTURE_SKEW = timedelta(hours=6)
+ALLOWED_FEED_CONTENT_TYPES = (
+    "application/atom+xml",
+    "application/feed+json",
+    "application/json",
+    "application/rss+xml",
+    "application/xml",
+    "text/xml",
+)
 
 
 @dataclass
@@ -72,7 +90,14 @@ def item_id(url: str, title: str, doi: str = "") -> str:
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:20]
 
 
-def entry_datetime(entry: Mapping[str, Any], now: datetime) -> datetime:
+def entry_datetime(entry: Mapping[str, Any], now: datetime) -> datetime | None:
+    """Return a trustworthy entry timestamp, or ``None`` when it is unknown.
+
+    Missing dates used to be replaced by the collection time, which made old
+    undated pages look maximally fresh.  Keeping the uncertainty explicit lets
+    ranking penalize the entry instead.
+    """
+
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if parsed:
         try:
@@ -88,7 +113,7 @@ def entry_datetime(entry: Mapping[str, Any], now: datetime) -> datetime:
             return value.replace(tzinfo=value.tzinfo or timezone.utc).astimezone(timezone.utc)
         except ValueError:
             continue
-    return now.astimezone(timezone.utc)
+    return None
 
 
 def _entry_url(entry: Mapping[str, Any]) -> str:
@@ -149,6 +174,16 @@ def _feed_items(source: Mapping[str, Any], feed: Any, now: datetime) -> list[Ite
         if not url:
             continue
         published = entry_datetime(raw, now)
+        now_utc = now.replace(tzinfo=now.tzinfo or timezone.utc).astimezone(timezone.utc)
+        if published is None:
+            published_at = ""
+            published_quality = "unknown"
+        elif published > now_utc + MAX_FUTURE_SKEW:
+            published_at = ""
+            published_quality = "future_rejected"
+        else:
+            published_at = published.isoformat()
+            published_quality = "reported"
         source_kind = clean_text(source.get("source_kind") or "feed", 100)
         category = clean_text(source.get("category") or "Uncategorized", 200)
         configured_tags = source.get("tags") if isinstance(source.get("tags"), list) else []
@@ -160,8 +195,8 @@ def _feed_items(source: Mapping[str, Any], feed: Any, now: datetime) -> list[Ite
                 url=url,
                 source=clean_text(source.get("name") or source.get("url") or "Unknown source", 300),
                 category=category,
-                published_at=published.isoformat(),
-                excerpt=clean_text(raw.get("summary") or raw.get("description") or "", 20_000),
+                published_at=published_at,
+                excerpt=clean_text(raw.get("summary") or raw.get("description") or "", 4_000),
                 score=float(source.get("weight", 1.0) or 1.0),
                 source_kind=source_kind,
                 doi=doi,
@@ -170,6 +205,7 @@ def _feed_items(source: Mapping[str, Any], feed: Any, now: datetime) -> list[Ite
                 metadata={
                     "feed_url": canonical_url(str(source.get("url") or "")),
                     "feed_entry_id": clean_text(raw.get("id") or raw.get("guid") or "", 1_000),
+                    "published_at_quality": published_quality,
                 },
             )
         )
@@ -183,6 +219,7 @@ def collect(
     client: Any | None = None,
     feed_parser: Callable[[bytes], Any] | None = None,
     warn: Callable[[str], None] | None = None,
+    sleeper: Callable[[float], None] | None = None,
 ) -> list[Item]:
     """Collect all configured RSS/Atom feeds.
 
@@ -194,13 +231,26 @@ def collect(
         import feedparser  # type: ignore[import-not-found]
 
         feed_parser = feedparser.parse
+    http_config = config.get("feed_http") if isinstance(config.get("feed_http"), Mapping) else {}
+    timeout = float(http_config.get("timeout_seconds", config.get("http_timeout", 20)))
+    attempts = _bounded_int(http_config.get("max_attempts"), DEFAULT_FEED_ATTEMPTS, HARD_FEED_ATTEMPTS)
+    backoff = max(0.0, min(float(http_config.get("backoff_seconds", 1.0)), 30.0))
+    max_bytes = _bounded_int(
+        http_config.get("max_bytes"), DEFAULT_FEED_MAX_BYTES, HARD_FEED_MAX_BYTES, minimum=1_024,
+    )
+    sleeper = sleeper or time.sleep
+    cache_path_value = http_config.get("cache_path")
+    cache_path = Path(str(cache_path_value)).expanduser() if cache_path_value else None
+    cache = _load_feed_cache(cache_path)
+    cache_changed = False
+
     owned_client = client is None
     if owned_client:
         import httpx  # type: ignore[import-not-found]
 
         client = httpx.Client(
             headers={"User-Agent": DEFAULT_USER_AGENT},
-            timeout=float(config.get("http_timeout", 20)),
+            timeout=timeout,
             follow_redirects=True,
         )
     warning = warn or (lambda message: print(f"warning: {message}", file=sys.stderr))
@@ -210,24 +260,153 @@ def collect(
             if not isinstance(source, Mapping) or not source.get("url"):
                 continue
             name = clean_text(source.get("name") or source.get("url"), 300)
+            url = str(source["url"])
+            cache_key = canonical_url(url) or url
+            cached = cache.get(cache_key) if isinstance(cache.get(cache_key), Mapping) else {}
+            request_headers: dict[str, str] = {}
+            if cached.get("etag"):
+                request_headers["If-None-Match"] = str(cached["etag"])
+            if cached.get("last_modified"):
+                request_headers["If-Modified-Since"] = str(cached["last_modified"])
             try:
-                response = active_client.get(str(source["url"]))
-                response.raise_for_status()
-                feed = feed_parser(response.content)
+                response = None
+                replayed_items: list[Item] | None = None
+                last_error: Exception | None = None
+                for attempt in range(1, attempts + 1):
+                    retryable = True
+                    try:
+                        response = (
+                            active_client.get(url, headers=request_headers)
+                            if request_headers
+                            else active_client.get(url)
+                        )
+                        status_code = int(getattr(response, "status_code", 200))
+                        if status_code == 304:
+                            replayed_items = _cached_feed_items(cached)
+                            if replayed_items is None:
+                                # A validator-only cache from an older release
+                                # cannot replay the feed. Fetch once without a
+                                # conditional header instead of dropping items.
+                                response = active_client.get(url)
+                                response.raise_for_status()
+                            else:
+                                response = None
+                            break
+                        retryable = status_code in {408, 425, 429} or status_code >= 500
+                        response.raise_for_status()
+                        break
+                    except Exception as exc:
+                        last_error = exc
+                        if not retryable or attempt >= attempts:
+                            raise
+                        sleeper(backoff * (2 ** (attempt - 1)))
+                if replayed_items is not None:
+                    items.extend(replayed_items)
+                    continue
+                if response is None:
+                    if last_error is not None:
+                        raise last_error
+                    continue
+                content = bytes(response.content)
+                if len(content) > max_bytes:
+                    raise ValueError(f"response exceeds {max_bytes} byte limit")
+                headers = getattr(response, "headers", {})
+                content_type = str(headers.get("content-type", "")).split(";", 1)[0].strip().lower()
+                if content_type and content_type not in ALLOWED_FEED_CONTENT_TYPES:
+                    raise ValueError(f"unexpected content type: {content_type}")
+                feed = feed_parser(content)
                 entries = getattr(feed, "entries", feed.get("entries", []) if isinstance(feed, Mapping) else [])
                 if getattr(feed, "bozo", False) and not entries:
                     raise ValueError(str(getattr(feed, "bozo_exception", "invalid feed")))
-                items.extend(_feed_items(source, feed, now))
+                source_items = _feed_items(source, feed, now)
+                items.extend(source_items)
+                validators = {
+                    "etag": clean_text(headers.get("etag"), 500),
+                    "last_modified": clean_text(headers.get("last-modified"), 500),
+                    # Cache only the already bounded metadata Items. Raw feed
+                    # bodies are intentionally never persisted.
+                    "items": [asdict(item) for item in source_items],
+                }
+                has_validator = bool(validators["etag"] or validators["last_modified"])
+                if has_validator and validators != cached:
+                    cache[cache_key] = validators
+                    cache_changed = True
+                elif not has_validator and cache_key in cache:
+                    del cache[cache_key]
+                    cache_changed = True
             except Exception as exc:  # One broken publisher must not stop the collection run.
                 warning(f"could not read {name}: {exc}")
+    if cache_changed:
+        _write_feed_cache(cache_path, cache, warning)
     return items
 
 
-def _published(value: str, fallback: datetime) -> datetime:
+def _bounded_int(value: Any, default: int, maximum: int, minimum: int = 1) -> int:
+    try:
+        parsed = int(value)
+    except (TypeError, ValueError):
+        parsed = default
+    return max(minimum, min(parsed, maximum))
+
+
+def _load_feed_cache(path: Path | None) -> dict[str, Any]:
+    if path is None:
+        return {}
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError):
+        return {}
+    return dict(value) if isinstance(value, Mapping) else {}
+
+
+def _cached_feed_items(cache_entry: Mapping[str, Any]) -> list[Item] | None:
+    raw_items = cache_entry.get("items")
+    if not isinstance(raw_items, list) or len(raw_items) > 1_000:
+        return None
+    expected = set(Item.__dataclass_fields__)
+    items: list[Item] = []
+    for raw in raw_items:
+        if not isinstance(raw, Mapping) or set(raw) != expected:
+            return None
+        try:
+            item = Item(**raw)
+        except (TypeError, ValueError):
+            return None
+        if not isinstance(item.metadata, dict) or not isinstance(item.tags, list) or not isinstance(item.authors, list):
+            return None
+        items.append(item)
+    return items
+
+
+def _write_feed_cache(
+    path: Path | None, cache: Mapping[str, Any], warning: Callable[[str], None],
+) -> None:
+    if path is None:
+        return
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        descriptor, temporary_name = tempfile.mkstemp(
+            prefix=f".{path.name}.", suffix=".tmp", dir=path.parent,
+        )
+        temporary = Path(temporary_name)
+        try:
+            with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as handle:
+                json.dump(cache, handle, ensure_ascii=False, indent=2)
+                handle.write("\n")
+                handle.flush()
+                os.fsync(handle.fileno())
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
+    except OSError as exc:
+        warning(f"could not update feed HTTP cache: {exc}")
+
+
+def _published(value: str) -> datetime | None:
     try:
         result = datetime.fromisoformat(value.replace("Z", "+00:00"))
     except (AttributeError, ValueError):
-        return fallback
+        return None
     return result.replace(tzinfo=result.tzinfo or timezone.utc).astimezone(timezone.utc)
 
 
@@ -249,10 +428,15 @@ def rank(items: Iterable[Item], config: Mapping[str, Any], seen: set[str], now: 
     for original in items:
         if original.id in seen:
             continue
-        published = _published(original.published_at, now_utc)
-        age = now_utc - published
-        if age > lookback:
-            continue
+        published = _published(original.published_at)
+        if published is None:
+            age = lookback
+            date_quality_adjustment = float(research.get("unknown_date_penalty", -0.5))
+        else:
+            age = now_utc - published
+            if age > lookback or age < -MAX_FUTURE_SKEW:
+                continue
+            date_quality_adjustment = 0.0
         haystack = f"{original.title} {original.excerpt} {' '.join(original.tags)}".casefold()
         if any(term and term in haystack for term in exclude_terms):
             continue
@@ -269,6 +453,7 @@ def rank(items: Iterable[Item], config: Mapping[str, Any], seen: set[str], now: 
             + min(priority_hits, 8) * priority_boost
             + float(kind_boosts.get(original.source_kind, 0.0) or 0.0)
             + recency
+            + date_quality_adjustment
         )
         candidate = replace(original, score=round(score, 6))
         key = canonical_url(candidate.url) or candidate.id

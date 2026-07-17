@@ -7,6 +7,13 @@ site:
 candidates_handoff:
   ttl_hours: 8
 
+feed_http:
+  timeout_seconds: 20
+  max_attempts: 3
+  backoff_seconds: 1
+  max_bytes: 2000000
+  cache_path: .collector/feed-http-cache.json
+
 learning:
   enabled: true
   source_weight: 0.70
@@ -84,6 +91,7 @@ research:
      CAD, CAE, CFD, FEA, digital engineering, digital twin, MDO, MBSE,
      生成設計, 航空機設計, 航空機エンジン, 数値解析]
   priority_boost: 0.30
+  unknown_date_penalty: -0.50
   seed_queries:
     - AI generative design aerospace engineering optimization
     - AI assisted CAD CAE engineering design
@@ -116,6 +124,9 @@ openclaw_scout:
   enabled: true
   path: .collector/scout.json
   max_results: 80
+  strict: true
+  max_age_hours: 6
+  research_plan: .collector/research-plan.json
 
 sources:
   - name: AI設計・CAD・CAEニュース

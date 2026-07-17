@@ -1,20 +1,39 @@
 import unittest
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from types import SimpleNamespace
 
 from scripts.models import Item, canonical_url, collect, item_id, normalize_doi, rank
 
 
 class FakeResponse:
-    content = b"feed"
+    def __init__(self, content=b"feed", *, status_code=200, headers=None):
+        self.content = content
+        self.status_code = status_code
+        self.headers = headers or {}
 
     def raise_for_status(self):
-        return None
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
 
 
 class FakeClient:
     def get(self, _url):
         return FakeResponse()
+
+
+class SequenceClient:
+    def __init__(self, responses):
+        self.responses = list(responses)
+        self.calls = []
+
+    def get(self, url, headers=None):
+        self.calls.append((url, headers or {}))
+        response = self.responses.pop(0)
+        if isinstance(response, Exception):
+            raise response
+        return response
 
 
 class ModelTests(unittest.TestCase):
@@ -65,6 +84,78 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(items[0].authors, ["A. Researcher"])
         self.assertEqual(items[0].source_kind, "journal")
         self.assertNotIn("utm_", items[0].url)
+        self.assertEqual(items[0].metadata["published_at_quality"], "reported")
+
+    def test_collect_retries_bounds_responses_and_uses_conditional_get(self):
+        feed = SimpleNamespace(entries=[{
+            "title": "Retried feed item",
+            "link": "https://journal.test/retried",
+            "published": "2026-07-16T08:00:00Z",
+        }], bozo=False)
+        config = {
+            "feed_http": {"max_attempts": 2, "backoff_seconds": 0, "max_bytes": 1_024},
+            "sources": [{"name": "Resilient feed", "url": "https://feeds.test/rss"}],
+        }
+        client = SequenceClient([
+            FakeResponse(status_code=503),
+            FakeResponse(headers={"content-type": "application/rss+xml", "etag": '"v1"'}),
+        ])
+        with TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "feed-cache.json"
+            config["feed_http"]["cache_path"] = str(cache_path)
+            items = collect(config, self.now, client=client, feed_parser=lambda _content: feed)
+            conditional = SequenceClient([FakeResponse(status_code=304)])
+            unchanged = collect(config, self.now, client=conditional, feed_parser=lambda _content: feed)
+
+        self.assertEqual([item.title for item in items], ["Retried feed item"])
+        self.assertEqual(len(client.calls), 2)
+        self.assertEqual([item.title for item in unchanged], ["Retried feed item"])
+        self.assertEqual(conditional.calls[0][1], {"If-None-Match": '"v1"'})
+
+        warnings = []
+        oversized = SequenceClient([FakeResponse(content=b"x" * 1_025)])
+        result = collect(
+            config | {"feed_http": {"max_attempts": 1, "max_bytes": 1_024}},
+            self.now,
+            client=oversized,
+            feed_parser=lambda _content: feed,
+            warn=warnings.append,
+        )
+        self.assertEqual(result, [])
+        self.assertIn("response exceeds 1024 byte limit", warnings[0])
+
+        missing = SequenceClient([FakeResponse(status_code=404), FakeResponse()])
+        collect(config, self.now, client=missing, feed_parser=lambda _content: feed, warn=lambda _message: None)
+        self.assertEqual(len(missing.calls), 1)
+
+    def test_unknown_and_future_feed_dates_are_not_treated_as_current(self):
+        feed = SimpleNamespace(entries=[
+            {"title": "Undated", "link": "https://journal.test/undated"},
+            {
+                "title": "Future",
+                "link": "https://journal.test/future",
+                "published": "2026-07-18T09:00:00Z",
+            },
+        ], bozo=False)
+        items = collect(
+            {"sources": [{"name": "Dates", "url": "https://feeds.test/dates"}]},
+            self.now,
+            client=FakeClient(),
+            feed_parser=lambda _content: feed,
+        )
+
+        self.assertEqual([item.published_at for item in items], ["", ""])
+        self.assertEqual(
+            [item.metadata["published_at_quality"] for item in items],
+            ["unknown", "future_rejected"],
+        )
+
+        dated = Item(
+            "dated", "Dated", "https://journal.test/dated", "A", "R",
+            self.now.isoformat(), "", 1.0,
+        )
+        ranked = rank([items[0], dated], {"site": {"lookback_hours": 24}}, set(), self.now)
+        self.assertEqual([item.id for item in ranked], ["dated", items[0].id])
 
     def test_rank_prioritizes_research_and_excludes_out_of_scope(self):
         config = {

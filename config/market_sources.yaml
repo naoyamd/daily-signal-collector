@@ -7,6 +7,13 @@ site:
 candidates_handoff:
   ttl_hours: 6
 
+feed_http:
+  timeout_seconds: 20
+  max_attempts: 3
+  backoff_seconds: 1
+  max_bytes: 2000000
+  cache_path: .collector/feed-http-cache.json
+
 learning:
   enabled: true
   source_weight: 0.60
@@ -19,6 +26,7 @@ learning:
 research:
   max_queries: 6
   exploitation_ratio: 0.75
+  unknown_date_penalty: -0.50
   seed_queries:
     - 日本株 決算 上方修正 公式
     - 日銀 金融政策 為替 企業業績
@@ -36,6 +44,9 @@ openclaw_scout:
   enabled: true
   path: .collector/scout.json
   max_results: 60
+  strict: true
+  max_age_hours: 6
+  research_plan: .collector/research-plan.json
 
 sources:
   - name: 日本株・日経平均ニュース

@@ -15,14 +15,26 @@ LEARNING_DB="${STATE_DIR}/learning.sqlite3"
 WORK_DIR="${REPO_DIR}/.collector"
 PLAN="${WORK_DIR}/research-plan.json"
 SCOUT="${WORK_DIR}/scout.json"
+SCOUT_PREVIOUS="${WORK_DIR}/scout-invalid.json"
+SCOUT_VALIDATION="${WORK_DIR}/scout-validation.json"
 PROMPT="${CONTAINER_REPO}/ops/scout-prompt.md"
 LOCK_FILE="${STATE_DIR}/collector.lock"
 SCOUT_ENABLED="${DAILY_SIGNAL_SCOUT_ENABLED:-1}"
+SCOUT_ATTEMPTS="${DAILY_SIGNAL_SCOUT_ATTEMPTS:-2}"
+SCOUT_MAX_AGE_HOURS=6
+SCOUT_TIMEOUT="${DAILY_SIGNAL_SCOUT_TIMEOUT:-1800}"
+SCOUT_REPAIR_TIMEOUT="${DAILY_SIGNAL_SCOUT_REPAIR_TIMEOUT:-900}"
 
 case "$EDITION" in
-  digest|deep-dive) CONFIG="config/sources.yaml" ;;
-  market) CONFIG="config/market_sources.yaml" ;;
+  digest|deep-dive) CONFIG="config/sources.yaml"; DEFAULT_SCOUT_MAX_ITEMS=80 ;;
+  market) CONFIG="config/market_sources.yaml"; DEFAULT_SCOUT_MAX_ITEMS=60 ;;
   *) echo "Unsupported edition: $EDITION" >&2; exit 2 ;;
+esac
+SCOUT_MAX_ITEMS="$DEFAULT_SCOUT_MAX_ITEMS"
+
+case "$SCOUT_ATTEMPTS" in
+  1|2|3) ;;
+  *) echo "DAILY_SIGNAL_SCOUT_ATTEMPTS must be 1, 2, or 3." >&2; exit 2 ;;
 esac
 
 OUTPUT="${EXCHANGE_DIR}/candidates/${EDITION}.json"
@@ -41,7 +53,9 @@ cd "$REPO_DIR"
   echo "Refusing to collect with tracked local changes." >&2
   exit 1
 }
-git pull --ff-only origin main
+if ! git pull --ff-only origin main; then
+  echo "warning: repository update failed; continuing with installed clean revision $(git rev-parse --short HEAD)" >&2
+fi
 
 if ! "$PYTHON" -m scripts.adaptive_learning --db "$LEARNING_DB" ingest \
   --config "$CONFIG" --inbox "$FEEDBACK"; then
@@ -59,21 +73,48 @@ fi
 "$PYTHON" -m scripts.adaptive_learning --db "$LEARNING_DB" plan \
   --config "$CONFIG" --output "$PLAN"
 
-rm -f "$SCOUT" "$WORK_DIR/scout-agent-result.json"
-SCOUT_ARGS=(--scout "$SCOUT")
+rm -f "$SCOUT" "$SCOUT_PREVIOUS" "$SCOUT_VALIDATION" "$WORK_DIR"/scout-agent-result-*.json
+SCOUT_ARGS=(--no-scout)
 if [[ "$SCOUT_ENABLED" == "1" ]]; then
-  if ! docker compose -f "$OPENCLAW_DIR/docker-compose.yml" run -T --rm openclaw-cli agent \
-    --session-id "daily-signal-collector-${EDITION}-$(TZ=Asia/Tokyo date +%F)" \
-    --model "$MODEL" \
-    --thinking "$THINKING" \
-    --message-file "$PROMPT" \
-    --json \
-    --timeout 1800 \
-    >"$WORK_DIR/scout-agent-result.json"; then
-    echo "warning: web scout failed; continuing with RSS/Atom" >&2
+  scout_valid=0
+  run_token="$(date -u +%Y%m%dT%H%M%SZ)-$$"
+  for ((attempt=1; attempt<=SCOUT_ATTEMPTS; attempt++)); do
+    rm -f "$SCOUT"
+    attempt_timeout="$SCOUT_TIMEOUT"
+    [[ "$attempt" -gt 1 ]] && attempt_timeout="$SCOUT_REPAIR_TIMEOUT"
+    if ! docker compose -f "$OPENCLAW_DIR/docker-compose.yml" run -T --rm openclaw-cli agent \
+      --session-id "daily-signal-collector-${EDITION}-${run_token}-a${attempt}" \
+      --model "$MODEL" \
+      --thinking "$THINKING" \
+      --message-file "$PROMPT" \
+      --json \
+      --timeout "$attempt_timeout" \
+      >"$WORK_DIR/scout-agent-result-${attempt}.json"; then
+      echo "warning: web scout attempt ${attempt} failed" >&2
+      continue
+    fi
+    validation_tmp="${SCOUT_VALIDATION}.tmp"
+    if "$PYTHON" -m scripts.web_scout validate "$SCOUT" \
+      --research-plan "$PLAN" \
+      --max-age-hours "$SCOUT_MAX_AGE_HOURS" \
+      --max-items "$SCOUT_MAX_ITEMS" \
+      >"$validation_tmp"; then
+      mv -f "$validation_tmp" "$SCOUT_VALIDATION"
+      scout_valid=1
+      SCOUT_ARGS=(--scout "$SCOUT")
+      echo "Web scout strict validation passed on attempt ${attempt}:"
+      cat "$SCOUT_VALIDATION"
+      break
+    fi
+    mv -f "$validation_tmp" "$SCOUT_VALIDATION"
+    [[ -f "$SCOUT" ]] && mv -f "$SCOUT" "$SCOUT_PREVIOUS"
+    echo "warning: web scout attempt ${attempt} failed strict validation" >&2
+    cat "$SCOUT_VALIDATION" >&2
+  done
+  if [[ "$scout_valid" != "1" ]]; then
+    rm -f "$SCOUT"
+    echo "warning: no valid web scout handoff; continuing with RSS/Atom" >&2
   fi
-else
-  SCOUT_ARGS=(--no-scout)
 fi
 
 "$PYTHON" -m scripts.collector_pipeline \
