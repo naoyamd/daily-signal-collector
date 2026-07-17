@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RUNNER = ROOT / "ops" / "run-collector.sh"
+SCOUT_PROMPT = ROOT / "ops" / "scout-prompt.md"
 
 
 class RunnerTests(unittest.TestCase):
@@ -33,6 +34,13 @@ class RunnerTests(unittest.TestCase):
         self.assertIn('--name "$active_scout_container" openclaw-cli agent', runner)
         self.assertIn("      --local \\", runner)
         self.assertIn("trap cleanup_scout_container EXIT", runner)
+
+    def test_scout_prompt_bounds_unreachable_source_retries(self):
+        prompt = SCOUT_PROMPT.read_text(encoding="utf-8")
+
+        self.assertIn("Fetch each exact URL at most once per run", prompt)
+        self.assertIn("at most two official pages per watchlist source/domain", prompt)
+        self.assertIn("record the source as `unreachable` and continue", prompt)
 
 
 if __name__ == "__main__":
