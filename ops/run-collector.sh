@@ -24,6 +24,7 @@ SCOUT_ATTEMPTS="${DAILY_SIGNAL_SCOUT_ATTEMPTS:-2}"
 SCOUT_MAX_AGE_HOURS=6
 SCOUT_TIMEOUT="${DAILY_SIGNAL_SCOUT_TIMEOUT:-1800}"
 SCOUT_REPAIR_TIMEOUT="${DAILY_SIGNAL_SCOUT_REPAIR_TIMEOUT:-900}"
+SCOUT_WALL_CLOCK_GRACE=60
 
 case "$EDITION" in
   digest|deep-dive) CONFIG="config/sources.yaml"; DEFAULT_SCOUT_MAX_ITEMS=80 ;;
@@ -36,6 +37,14 @@ case "$SCOUT_ATTEMPTS" in
   1|2|3) ;;
   *) echo "DAILY_SIGNAL_SCOUT_ATTEMPTS must be 1, 2, or 3." >&2; exit 2 ;;
 esac
+[[ "$SCOUT_TIMEOUT" =~ ^[1-9][0-9]*$ ]] || {
+  echo "DAILY_SIGNAL_SCOUT_TIMEOUT must be a positive integer." >&2
+  exit 2
+}
+[[ "$SCOUT_REPAIR_TIMEOUT" =~ ^[1-9][0-9]*$ ]] || {
+  echo "DAILY_SIGNAL_SCOUT_REPAIR_TIMEOUT must be a positive integer." >&2
+  exit 2
+}
 
 OUTPUT="${EXCHANGE_DIR}/candidates/${EDITION}.json"
 FEEDBACK="${EXCHANGE_DIR}/feedback"
@@ -43,6 +52,15 @@ EXPLICIT_FEEDBACK="${WORK_DIR}/feedback-inbox"
 ARCHIVE="${EXCHANGE_DIR}/archive"
 
 mkdir -p "$WORK_DIR" "$EXPLICIT_FEEDBACK" "$VAULT_DIR" "$STATE_DIR" "$(dirname "$OUTPUT")" "$FEEDBACK" "$ARCHIVE"
+active_scout_container=""
+cleanup_scout_container() {
+  if [[ -n "$active_scout_container" ]]; then
+    docker rm -f "$active_scout_container" >/dev/null 2>&1 || true
+  fi
+}
+trap cleanup_scout_container EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
 exec 9>"$LOCK_FILE"
 flock 9
 
@@ -82,7 +100,12 @@ if [[ "$SCOUT_ENABLED" == "1" ]]; then
     rm -f "$SCOUT"
     attempt_timeout="$SCOUT_TIMEOUT"
     [[ "$attempt" -gt 1 ]] && attempt_timeout="$SCOUT_REPAIR_TIMEOUT"
-    if ! docker compose -f "$OPENCLAW_DIR/docker-compose.yml" run -T --rm openclaw-cli agent \
+    attempt_wall_timeout=$((attempt_timeout + SCOUT_WALL_CLOCK_GRACE))
+    active_scout_container="daily-signal-scout-${EDITION}-${run_token}-a${attempt}"
+    if ! timeout --foreground --kill-after=30s "${attempt_wall_timeout}s" \
+      docker compose -f "$OPENCLAW_DIR/docker-compose.yml" run -T --rm \
+      --name "$active_scout_container" openclaw-cli agent \
+      --local \
       --session-id "daily-signal-collector-${EDITION}-${run_token}-a${attempt}" \
       --model "$MODEL" \
       --thinking "$THINKING" \
@@ -90,9 +113,12 @@ if [[ "$SCOUT_ENABLED" == "1" ]]; then
       --json \
       --timeout "$attempt_timeout" \
       >"$WORK_DIR/scout-agent-result-${attempt}.json"; then
+      cleanup_scout_container
+      active_scout_container=""
       echo "warning: web scout attempt ${attempt} failed" >&2
       continue
     fi
+    active_scout_container=""
     validation_tmp="${SCOUT_VALIDATION}.tmp"
     if "$PYTHON" -m scripts.web_scout validate "$SCOUT" \
       --research-plan "$PLAN" \

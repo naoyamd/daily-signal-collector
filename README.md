@@ -47,6 +47,8 @@ Webスカウトの受け渡しは`daily-signal-scout/v2`です。生成時刻、
 `found / no_new_finding / unreachable`を必須にし、研究計画とのcoverageと鮮度を実行後に厳格検証します。
 不完全な場合は検証診断を渡して1回だけ修復し、なお不正ならその回はRSS / Atomだけで安全に継続します。
 同日再実行でも新しいOpenClaw sessionを使うため、古い会話状態を探索結果へ混入させません。
+OpenClawは埋め込みモードで直接実行し、Gateway待ちからの暗黙の二重実行を避けます。各試行には
+CLIの制限に加えて60秒の猶予を持つ外側の壁時計上限を設け、残留コンテナも終了時に削除します。
 
 RSS / Atomは一時障害を指数バックオフ付きで再試行し、レスポンスサイズとMIME typeを検査します。
 ETag / Last-Modifiedによる条件付き取得は`.collector/feed-http-cache.json`へ保存します。公開日が不明または
