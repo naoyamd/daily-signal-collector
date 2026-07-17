@@ -91,6 +91,42 @@ class KnowledgePoolTests(unittest.TestCase):
         self.assertEqual(rows["b"]["editorial_assessment"]["relevance"], 0.9)
         self.assertEqual(rows["b"]["article"], "articles/brief.md")
 
+    def test_editorial_feedback_scans_vault_a_constant_number_of_times(self):
+        class CountingPool(KnowledgePool):
+            def __init__(self, root: Path):
+                super().__init__(root)
+                self.record_scans = 0
+
+            def _records(self):
+                self.record_scans += 1
+                return super()._records()
+
+        pool = CountingPool(self.vault)
+        items = [self.item(f"item-{number}", f"Candidate {number}") for number in range(18)]
+        bundle = {
+            "generated_at": self.now.isoformat(),
+            "items": [item.__dict__ for item in items],
+        }
+        feedback = {
+            "items": [{"id": item.id} for item in items[:4]],
+            "candidate_feedback": [
+                {
+                    "id": item.id,
+                    "relevance": 0.8,
+                    "quality": 0.8,
+                    "novelty": 0.7,
+                    "reason": "reviewed",
+                }
+                for item in items
+            ],
+        }
+
+        outcome = pool.record_editorial_outcomes(bundle, feedback, "articles/brief.md")
+
+        self.assertEqual(pool.record_scans, 3)
+        self.assertEqual(len(outcome["selected"]), 4)
+        self.assertEqual(len(outcome["rejected"]), 14)
+
     def test_unsafe_input_cannot_escape_vault_and_content_is_bounded(self):
         item = self.item("../../outside", "x" * 1_000)
         path = self.pool.ingest([item], self.now)[0]

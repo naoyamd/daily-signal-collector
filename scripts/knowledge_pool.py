@@ -306,16 +306,23 @@ class KnowledgePool:
             written.append(path)
             touched.add(item_id)
         if touched:
-            self._write_daily_index(_day(now), touched)
+            self._write_daily_index(_day(now), touched, records=records)
         return written
 
     store = ingest
 
-    def _write_daily_index(self, day: str, include: set[str] | None = None) -> Path | None:
+    def _write_daily_index(
+        self,
+        day: str,
+        include: set[str] | None = None,
+        *,
+        records: Mapping[str, tuple[Path, dict[str, Any], str]] | None = None,
+    ) -> Path | None:
         if not day:
             return None
         selected: list[tuple[Path, dict[str, Any]]] = []
-        for path, metadata, _body in self._records().values():
+        active_records = records if records is not None else self._records()
+        for path, metadata, _body in active_records.values():
             active_days = {_day(metadata.get("first_collected_at")), _day(metadata.get("last_collected_at"))}
             if day in active_days or (include and metadata.get("id") in include):
                 selected.append((path, metadata))
@@ -348,13 +355,14 @@ class KnowledgePool:
         *,
         article: str = "",
         feedback: Mapping[str, Any] | None = None,
+        records: dict[str, tuple[Path, dict[str, Any], str]] | None = None,
     ) -> Path:
         if outcome not in {"candidate", "selected", "rejected"}:
             raise ValueError(f"unsupported outcome: {outcome}")
-        records = self._records()
-        if item_id not in records:
+        active_records = records if records is not None else self._records()
+        if item_id not in active_records:
             raise KeyError(f"item is not in pool: {item_id}")
-        path, metadata, body = records[item_id]
+        path, metadata, body = active_records[item_id]
         metadata["status"] = outcome
         if article and outcome == "selected":
             metadata["article"] = _text(article, MAX_URL, True)
@@ -371,6 +379,7 @@ class KnowledgePool:
                 assessment[field] = round(float(value), 4)
         metadata["editorial_assessment"] = assessment
         self._write(path, _dump_note(metadata, body))
+        active_records[item_id] = path, metadata, body
         return path
 
     def mark_candidates(self, bundle: Mapping[str, Any] | str | Path) -> list[Path]:
@@ -380,8 +389,17 @@ class KnowledgePool:
             raise ValueError("bundle.items must be a list")
         assessed_at = _iso(data.get("generated_at"), datetime.now(timezone.utc))
         self.ingest(items, assessed_at)
-        result = [self._outcome(_text(_mapping(item).get("id"), MAX_ID, True), "candidate", assessed_at) for item in items]
-        self._write_daily_index(_day(assessed_at))
+        records = self._records()
+        result = [
+            self._outcome(
+                _text(_mapping(item).get("id"), MAX_ID, True),
+                "candidate",
+                assessed_at,
+                records=records,
+            )
+            for item in items
+        ]
+        self._write_daily_index(_day(assessed_at), records=records)
         return result
 
     @staticmethod
@@ -424,13 +442,21 @@ class KnowledgePool:
         }
         assessed_at = _iso(feedback_data.get("generated_at") or bundle_data.get("generated_at"), datetime.now(timezone.utc))
         article_value = _text(article or feedback_data.get("article"), MAX_URL, True)
+        records = self._records()
         result: dict[str, list[Path]] = {"selected": [], "rejected": []}
         for item_id in candidate_ids:
             status = "selected" if item_id in selected else "rejected"
             result[status].append(
-                self._outcome(item_id, status, assessed_at, article=article_value, feedback=by_id.get(item_id))
+                self._outcome(
+                    item_id,
+                    status,
+                    assessed_at,
+                    article=article_value,
+                    feedback=by_id.get(item_id),
+                    records=records,
+                )
             )
-        self._write_daily_index(_day(assessed_at))
+        self._write_daily_index(_day(assessed_at), records=records)
         return result
 
     mark_editorial = record_editorial_outcomes
