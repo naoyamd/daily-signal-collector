@@ -1,0 +1,42 @@
+name: Validate GPT dry run
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "gpt_handoff/dry_runs/**/article-preview.md"
+      - "scripts/validate_dry_run.py"
+      - ".github/workflows/dry-run.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout collector
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install collector dependencies
+        run: pip install -r requirements.txt
+      - name: Validate Scout and Curator artifacts
+        run: python scripts/validate_dry_run.py
+      - name: Checkout Daily Signal validator
+        uses: actions/checkout@v4
+        with:
+          repository: naoyamd/daily-signal
+          path: .dry-run-blog
+          fetch-depth: 1
+      - name: Validate article preview with production article validator
+        run: |
+          preview=$(find gpt_handoff/dry_runs -mindepth 2 -maxdepth 2 -name article-preview.md | sort | tail -1)
+          test -n "$preview"
+          python .dry-run-blog/scripts/validate_gpt_articles.py "$preview"
