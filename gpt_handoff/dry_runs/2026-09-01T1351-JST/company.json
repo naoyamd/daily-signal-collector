@@ -1,6 +1,6 @@
 {
   "schema": "daily-signal-scout/v2",
-  "generated_at": "2026-09-01T13:58:00+09:00",
+  "generated_at": "2026-09-01T13:52:00+09:00",
   "items": [
     {
       "title": "Why Agentic AI Could Redefine the Future of Design and Verification",
@@ -93,46 +93,14 @@
     "Dassault Systèmes signal is an official career posting and is evidence of active R&D direction, not a product-release commitment."
   ],
   "checked_sources": [
-    {
-      "name": "Siemens Digital Industries Software",
-      "status": "found",
-      "query": "Siemens EDA agentic AI design verification August 2026"
-    },
-    {
-      "name": "Ansys",
-      "status": "no_new_finding",
-      "warning": "No qualifying new primary-source signal was found in the 30-day window with the executed query; older or undated material was not used as a new candidate."
-    },
-    {
-      "name": "Dassault Systèmes",
-      "status": "found",
-      "query": "Dassault Systemes AI simulation August 2026 engineering"
-    },
-    {
-      "name": "Hexagon AB",
-      "status": "found",
-      "query": "Hexagon August 2026 AI engineering simulation manufacturing"
-    },
-    {
-      "name": "Altair Engineering",
-      "status": "no_new_finding",
-      "warning": "A current training page referenced an August event, but no sufficiently dated new technical announcement was found; evergreen/event material was not promoted to a new signal."
-    },
-    {
-      "name": "Cadence Design Systems",
-      "status": "no_new_finding",
-      "warning": "Current agentic-AI product material was found but lacked a qualifying new publication date in the 30-day window; older June announcements were excluded."
-    },
-    {
-      "name": "Autodesk",
-      "status": "found",
-      "query": "Autodesk August 2026 AI design manufacturing Fusion"
-    },
-    {
-      "name": "COMSOL",
-      "status": "found",
-      "query": "COMSOL August 2026 simulation AI engineering"
-    }
+    {"name": "Siemens Digital Industries Software", "status": "found", "query": "Siemens EDA agentic AI design verification August 2026"},
+    {"name": "Ansys", "status": "no_new_finding", "warning": "No qualifying new primary-source signal was found in the 30-day window with the executed query; older or undated material was not used as a new candidate."},
+    {"name": "Dassault Systèmes", "status": "found", "query": "Dassault Systemes AI simulation August 2026 engineering"},
+    {"name": "Hexagon AB", "status": "found", "query": "Hexagon August 2026 AI engineering simulation manufacturing"},
+    {"name": "Altair Engineering", "status": "no_new_finding", "warning": "A current training page referenced an August event, but no sufficiently dated new technical announcement was found; evergreen/event material was not promoted to a new signal."},
+    {"name": "Cadence Design Systems", "status": "no_new_finding", "warning": "Current agentic-AI product material was found but lacked a qualifying new publication date in the 30-day window; older June announcements were excluded."},
+    {"name": "Autodesk", "status": "found", "query": "Autodesk August 2026 AI design manufacturing Fusion"},
+    {"name": "COMSOL", "status": "found", "query": "COMSOL August 2026 simulation AI engineering"}
   ],
   "research_plan": {
     "watchlist": {
@@ -152,7 +120,7 @@
       "policy_version": 2,
       "local_date": "2026-09-01",
       "started_at": "2026-09-01T13:51:00+09:00",
-      "completed_at": "2026-09-01T13:58:00+09:00",
+      "completed_at": "2026-09-01T13:52:00+09:00",
       "status": "complete",
       "planned_query_count": 8,
       "executed_query_count": 8
