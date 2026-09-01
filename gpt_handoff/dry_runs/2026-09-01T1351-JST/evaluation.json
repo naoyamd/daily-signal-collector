@@ -1,0 +1,137 @@
+{
+  "schema": "daily-signal-dry-run-evaluation/v1",
+  "run_key": "2026-09-01T1351-JST",
+  "evaluated_at": "2026-09-01T14:01:00+09:00",
+  "overall_status": "completed_with_ci_warning",
+  "publication_performed": false,
+  "artifacts": {
+    "company": {"path": "gpt_handoff/dry_runs/2026-09-01T1351-JST/company.json", "blob_sha": "659b399069f48759b8936ffb26e666097260c998"},
+    "research": {"path": "gpt_handoff/dry_runs/2026-09-01T1351-JST/research.json", "blob_sha": "9a613169498879c5ea64f132f9be4b420d42f938"},
+    "curated": {"path": "gpt_handoff/dry_runs/2026-09-01T1351-JST/curated.json", "blob_sha": "745495a86d2df903771ae1c2110bf40ec9261a63"},
+    "article_preview": {"path": "gpt_handoff/dry_runs/2026-09-01T1351-JST/article-preview.md", "blob_sha": "4b9b4ef8b7c28255ede2dcab7f33a044b4d92038", "utf8_bytes": 23383}
+  },
+  "stage_results": {
+    "company_scout": {
+      "status": "complete",
+      "watch_sources_checked": 8,
+      "mandatory_sources": 7,
+      "spillover_sources": 1,
+      "found": 5,
+      "no_new_finding": 3,
+      "unreachable": 0,
+      "candidate_items": 5,
+      "production_state_advanced": false
+    },
+    "research_scout": {
+      "status": "complete",
+      "planned_queries": 18,
+      "executed_queries": 30,
+      "recorded_queries": 20,
+      "candidate_items": 18,
+      "candidate_mix": {
+        "engineering_ai": 2,
+        "open_weight_and_model_economics": 4,
+        "enterprise_reports_and_operations": 8,
+        "scientific_ai": 3,
+        "agent_security": 1
+      }
+    },
+    "curator": {
+      "status": "ready",
+      "input_items": 23,
+      "deduplicated_items": 23,
+      "selected": 11,
+      "wildcards": 2,
+      "backlog": 8,
+      "rejected": 2,
+      "selected_only_rate": 0.4783,
+      "selected_plus_wildcard_rate": 0.5652,
+      "cross_scout_exact_duplicate_rate": 0.0,
+      "selected_source_domain_diversity": 1.0,
+      "semantic_verification_failures": 1,
+      "freshness_failures": 1
+    },
+    "writer_preview": {
+      "status": "complete",
+      "curated_selected_count": 11,
+      "published_selected_count": 11,
+      "curated_wildcard_count": 2,
+      "published_wildcard_count": 2,
+      "curated_claim_count": 28,
+      "published_claim_count": 28,
+      "dropped_item_ids": [],
+      "dropped_claim_count": 0,
+      "verification_failure_count": 0,
+      "report_metric_count": 10,
+      "published_report_metric_count": 10,
+      "article_character_count": null,
+      "article_utf8_bytes": 23383,
+      "selected_retention_ratio": 1.0,
+      "wildcard_retention_ratio": 1.0,
+      "claim_retention_ratio": 1.0,
+      "report_metric_retention_ratio": 1.0,
+      "character_count_note": "Exact Unicode code-point count was not available through the GitHub connector; UTF-8 byte size is recorded instead and this missing metric is retained as an explicit dry-run warning rather than estimated."
+    }
+  },
+  "quality_findings": [
+    {
+      "severity": "high",
+      "stage": "company_scout_to_curator",
+      "finding": "Autodesk cumulative release notes caused a false freshness attribution: a 7/17 natural-language bulk-editing entry and a different Intent Driven Design section were summarized as an August 17 signal.",
+      "disposition": "Curator rejected the candidate after opening the source and checking section context.",
+      "lesson": "Date plausibility validation is insufficient for cumulative changelog pages; semantic section-date association must be checked before selection."
+    },
+    {
+      "severity": "medium",
+      "stage": "scout_handoff",
+      "finding": "The first dry-run Scout artifacts were written with generated_at values later than the actual wall clock.",
+      "disposition": "The error was detected before curation and both artifacts were corrected and re-committed.",
+      "lesson": "Generated timestamps must come from the execution environment, not be projected manually."
+    },
+    {
+      "severity": "medium",
+      "stage": "coverage",
+      "finding": "The first company rotation was dominated by CAD/CAE vendors, producing fewer aerospace-engine OEM signals than the intended long-run topic balance.",
+      "disposition": "Accepted for this run because watchlist rotation is stateful; evaluate balance over a full rotation rather than one day.",
+      "lesson": "Daily composition should not be forced, but weekly coverage should be measured."
+    },
+    {
+      "severity": "medium",
+      "stage": "validation_infrastructure",
+      "finding": "The collector repository reports zero GitHub Actions workflow runs, and the newly added dry-run validation workflow did not auto-execute on push.",
+      "disposition": "A dry-run CI workflow and scripts/validate_dry_run.py were committed, but CI status is recorded as not_executed rather than falsely marked passed.",
+      "lesson": "Collector Actions availability/settings must be confirmed before relying on CI as the deterministic gate."
+    }
+  ],
+  "validator_status": {
+    "scout_contract_review": "passed_after_timestamp_correction",
+    "curated_contract_review": "passed",
+    "article_static_preflight": "passed_by_rule_review",
+    "github_actions_ci": "not_executed",
+    "github_actions_observed_run_count": 0,
+    "note": "The production article validator rules were read from naoyamd/daily-signal and the preview was built to those rules. The collector-side CI intended to execute both validators did not run, so this evaluation does not claim an executed CI pass."
+  },
+  "acceptance_criteria": {
+    "same_day_inputs": true,
+    "previous_day_fallback_used": false,
+    "mandatory_company_coverage_complete": true,
+    "curator_ready": true,
+    "selected_material_claims_unverified": 0,
+    "self_reported_claims_attributed": true,
+    "selected_retention_threshold_met": true,
+    "claim_retention_threshold_met": true,
+    "report_metric_retention_threshold_met": true,
+    "article_written_to_public_content_tree": false
+  },
+  "recommendations": [
+    "Add a source-page pattern rule or Curator check for cumulative release notes/changelogs so item dates must be associated with the exact section that supports the claim.",
+    "Record weekly topic coverage across a full company-watch rotation; do not compensate a CAD/CAE-heavy day by inventing unrelated aerospace items.",
+    "Confirm or enable GitHub Actions for naoyamd/daily-signal-collector, then require the dry-run workflow to pass before calling future runs fully validated.",
+    "Keep the current split: Scout preserves recall, Curator performs semantic date/evidence checks, Writer preserves claim density. The dry run found a real error specifically because these roles were separated."
+  ],
+  "warnings": [
+    "No article was written to naoyamd/daily-signal/content/daily and no publication receipt/index was modified.",
+    "Exact article_character_count is unavailable; UTF-8 byte size is recorded without estimating a false value.",
+    "CI was not executed; validator pass is not asserted beyond rule-level preflight."
+  ]
+}
