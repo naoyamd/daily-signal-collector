@@ -4,6 +4,12 @@ Scheduled ChatGPT tasks exchange bounded, auditable artifacts here. Hugo publica
 
 This file and `policy.yaml` are the canonical operating contract. Every scheduled stage must read both files before work. When a task prompt is less specific than these files, these files supply the missing detail. Never loosen a safety or evidence rule merely to produce an output.
 
+Reference artifacts:
+
+- `examples/scout-v2.example.json`: strict Scout envelope
+- `examples/curated-v1.example.json`: claim-level evidence and editorial-plan example
+- `DRY_RUN.md`: production-equivalent test procedure without publication
+
 ## Daily flow (Asia/Tokyo, weekdays)
 
 - 06:10 `Company Scout` -> `company/YYYY-MM-DD.json`
@@ -135,6 +141,8 @@ A claim may be `verified`, `partially_verified`, or `unverified`. Vendor benchma
 
 The Curator creates an `editorial_plan` with lead IDs, final order, central signals, important tensions/caveats, and desired depth. This is structural guidance, not publishable prose. It prevents the Writer from redoing selection and flattening every item to the same length.
 
+The Curator also writes `coverage_audit`, including input and deduplicated counts, source/organization diversity, geographic coverage, lane coverage, and known gaps. A polished selection without a coverage record is not a successful curation run.
+
 Use `state/published-index.json` plus recent receipts for duplicate control. Exact URLs remain suppressed for 90 days; the same semantic event is normally suppressed for 30 days. A repeat is allowed only for a material delta, and the delta must be explicit in provenance.
 
 ## Published receipt and index
@@ -153,6 +161,9 @@ After a Writer successfully commits an article, it writes `published/YYYY-MM-DD.
 - `organizations`
 - `tags`
 - `title`
+- `quality_metrics`
+
+`quality_metrics` records selected/wildcard retention, claim retention, report-metric retention, verification failures, dropped IDs/claims, and article character count. These metrics reveal whether the Writer has silently simplified the Curator output.
 
 It then updates `state/published-index.json`, retaining 180 days of compact history. Publication history is not article content; it exists for deterministic duplicate suppression and auditability.
 
