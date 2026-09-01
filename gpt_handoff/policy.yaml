@@ -112,6 +112,15 @@ company_scout:
     derive_from_recent_files_only_if_state_missing_or_invalid: true
     update_state_only_after_dated_handoff_commit_succeeds: true
     advance_for_all_checked_sources: true
+  state_required_fields:
+    - schema
+    - policy_version
+    - updated_at
+    - watchlist_hash
+    - next_index
+    - last_checked
+    - last_run
+    - warnings
   evidence_priority:
     - official
     - technical_report
@@ -191,6 +200,27 @@ curator:
     max_selected_from_same_organization: 2
     max_selected_about_general_model_releases: 3
     preserve_high_quality_report_when_available: true
+  required_top_level_fields:
+    - schema
+    - generated_at
+    - source_files
+    - status
+    - summary
+    - editorial_plan
+    - coverage_audit
+    - selected
+    - wildcards
+    - backlog
+    - rejected
+    - warnings
+  coverage_audit_fields:
+    - input_item_count
+    - deduplicated_item_count
+    - source_domain_count
+    - organization_count
+    - regions_observed
+    - lanes
+    - known_gaps
   required_selected_fields:
     - id
     - event_key
@@ -211,6 +241,7 @@ curator:
     - weighted_score
     - confidence
     - provenance
+  valid_tiers: [lead, standard, report]
   claim_fields:
     - text
     - source_url
@@ -265,9 +296,45 @@ writer:
     - no_existing_same_day_article
     - no_empty_or_invented_dates
     - report_methodology_and_caveats_preserved
+    - retention_metrics_calculated
+  required_quality_metrics:
+    - curated_selected_count
+    - published_selected_count
+    - curated_wildcard_count
+    - published_wildcard_count
+    - curated_claim_count
+    - published_claim_count
+    - dropped_item_ids
+    - dropped_claim_count
+    - verification_failure_count
+    - report_metric_count
+    - published_report_metric_count
+    - article_character_count
+  quality_warning_thresholds:
+    selected_retention_ratio_min: 0.80
+    wildcard_retention_ratio_min: 0.67
+    claim_retention_ratio_min: 0.75
+    report_metric_retention_ratio_min: 0.80
   publication_receipt_path: gpt_handoff/published/YYYY-MM-DD.json
   publication_index_path: gpt_handoff/state/published-index.json
   receipt_only_after_article_commit: true
+
+publication_receipt:
+  schema: daily-signal-published/v1
+  required_fields:
+    - schema
+    - published_at
+    - article_repository
+    - article_path
+    - article_commit
+    - curated_source
+    - published_item_ids
+    - event_keys
+    - primary_urls
+    - organizations
+    - tags
+    - title
+    - quality_metrics
 
 publication_index:
   schema: daily-signal-published-index/v1
@@ -283,3 +350,23 @@ publication_index:
     - title
     - organizations
     - tags
+
+evaluation:
+  purpose: measure_where_information_is_lost_instead_of_judging_by_style
+  daily_signals:
+    - scout_item_count_by_lane
+    - company_found_no_new_unreachable
+    - cross_scout_duplicate_rate
+    - curator_selection_rate
+    - selected_source_domain_diversity
+    - writer_selected_retention_ratio
+    - writer_claim_retention_ratio
+    - report_metric_retention_ratio
+    - writer_verification_failure_count
+    - blocked_stage_and_reason
+  interpretation:
+    high_cross_scout_duplicate_rate: reduce_overlap_or_improve_role_boundaries
+    low_curator_selection_rate: scout_noise_too_high_or_topics_too_broad
+    low_claim_retention_ratio: writer_is_overcompressing_or_curator_claims_are_weak
+    high_verification_failure_count: scout_or_curator_source_validation_is_insufficient
+    repeated_blocked_runs: schedule_gap_or_connector_reliability_is_insufficient
