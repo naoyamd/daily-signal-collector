@@ -1,0 +1,161 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-01T13:58:00+09:00",
+  "items": [
+    {
+      "title": "Why Agentic AI Could Redefine the Future of Design and Verification",
+      "url": "https://blogs.sw.siemens.com/verificationhorizons/2026/08/31/why-agentic-ai-could-redefine-the-future-of-design-and-verification/",
+      "source": "Siemens Digital Industries Software",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-31",
+      "excerpt": "Siemens EDA describes a shift from engineers operating individual tools toward orchestrating integrated, exploratory agentic design and verification workflows, framing an emerging Design & Verification Scientist role.",
+      "query": "Siemens EDA agentic AI design verification August 2026",
+      "tags": ["agentic AI", "EDA", "design verification", "engineering workflow"],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Structural Simulation AI Developer",
+      "url": "https://www.3ds.com/ja/careers/jobs/structural-simulation-ai-developer-549419",
+      "source": "Dassault Systèmes",
+      "source_kind": "official",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-13",
+      "excerpt": "A SIMULIA R&D role states that Dassault Systèmes is building and deploying Leo, an AI engineering assistant for 3DEXPERIENCE structural simulation, including prompt-driven automation of manual simulation setup tasks.",
+      "query": "Dassault Systemes AI simulation August 2026 engineering",
+      "tags": ["SIMULIA", "agentic AI", "structural simulation", "prompt-driven execution"],
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "document_type": "career posting",
+      "language": "en"
+    },
+    {
+      "title": "Towards factory deployment: How AEON is trained to perform",
+      "url": "https://hexagon.com/company/newsroom/press-releases/2026/towards-factory-deployment-how-aeon-is-trained-to-perform",
+      "source": "Hexagon",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-19",
+      "excerpt": "Hexagon Robotics and Schaeffler describe a Train–Validate–Deploy loop for the AEON humanoid in a dedicated industrial gym, supporting a planned rollout of at least 1,000 robots across Schaeffler manufacturing operations.",
+      "query": "Hexagon August 2026 AI engineering simulation manufacturing",
+      "tags": ["physical AI", "manufacturing", "robotics", "validation"],
+      "organization": "Hexagon AB",
+      "company": "Hexagon AB",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Fusion August 2026 release adds natural-language bulk property editing and Intent Driven Design API support",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-ReleaseNotes/files/FIC-REL-NOTES-INC.htm",
+      "source": "Autodesk",
+      "source_kind": "official",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-17",
+      "excerpt": "Autodesk Fusion added bulk component property editing through Autodesk Assistant using natural-language prompts and API support for Intent Driven Design, alongside manufacturing and data-management updates.",
+      "query": "Autodesk August 2026 AI design manufacturing Fusion",
+      "tags": ["Fusion", "Autodesk Assistant", "natural language", "Intent Driven Design"],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "release notes",
+      "language": "en"
+    },
+    {
+      "title": "Agentic AI Within the Simulation Engineering Space",
+      "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
+      "source": "COMSOL",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-27",
+      "excerpt": "COMSOL discusses AI-assisted simulation and Cosmon's engineering agent, including chatbot-driven COMSOL API code and agent workflows aimed at reducing repetitive model setup, troubleshooting, and postprocessing work.",
+      "query": "COMSOL August 2026 simulation AI engineering",
+      "tags": ["COMSOL", "agentic AI", "simulation automation", "engineering agent"],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical blog",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "Siemens EDA agentic AI design verification August 2026",
+    "Ansys AI simulation August 2026 engineering agent",
+    "Dassault Systemes AI simulation August 2026 engineering",
+    "Hexagon August 2026 AI engineering simulation manufacturing",
+    "Altair AI engineering simulation August 2026 Siemens Altair",
+    "Cadence AI EDA August 2026 agentic design",
+    "Autodesk August 2026 AI design manufacturing Fusion",
+    "COMSOL August 2026 simulation AI engineering"
+  ],
+  "warnings": [
+    "Dry-run only: production company-watch state was not advanced.",
+    "Dassault Systèmes signal is an official career posting and is evidence of active R&D direction, not a product-release commitment."
+  ],
+  "checked_sources": [
+    {
+      "name": "Siemens Digital Industries Software",
+      "status": "found",
+      "query": "Siemens EDA agentic AI design verification August 2026"
+    },
+    {
+      "name": "Ansys",
+      "status": "no_new_finding",
+      "warning": "No qualifying new primary-source signal was found in the 30-day window with the executed query; older or undated material was not used as a new candidate."
+    },
+    {
+      "name": "Dassault Systèmes",
+      "status": "found",
+      "query": "Dassault Systemes AI simulation August 2026 engineering"
+    },
+    {
+      "name": "Hexagon AB",
+      "status": "found",
+      "query": "Hexagon August 2026 AI engineering simulation manufacturing"
+    },
+    {
+      "name": "Altair Engineering",
+      "status": "no_new_finding",
+      "warning": "A current training page referenced an August event, but no sufficiently dated new technical announcement was found; evergreen/event material was not promoted to a new signal."
+    },
+    {
+      "name": "Cadence Design Systems",
+      "status": "no_new_finding",
+      "warning": "Current agentic-AI product material was found but lacked a qualifying new publication date in the 30-day window; older June announcements were excluded."
+    },
+    {
+      "name": "Autodesk",
+      "status": "found",
+      "query": "Autodesk August 2026 AI design manufacturing Fusion"
+    },
+    {
+      "name": "COMSOL",
+      "status": "found",
+      "query": "COMSOL August 2026 simulation AI engineering"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Siemens Digital Industries Software", "category": "CAD・CAE", "domains": ["sw.siemens.com", "siemens.com"]},
+        {"name": "Ansys", "category": "CAD・CAE", "domains": ["ansys.com"]},
+        {"name": "Dassault Systèmes", "category": "CAD・CAE", "domains": ["3ds.com"]},
+        {"name": "Hexagon AB", "category": "CAD・CAE", "domains": ["hexagon.com"]},
+        {"name": "Altair Engineering", "category": "CAD・CAE", "domains": ["altair.com", "siemens.com"]},
+        {"name": "Cadence Design Systems", "category": "CAD・CAE", "domains": ["cadence.com"]},
+        {"name": "Autodesk", "category": "CAD・CAE", "domains": ["autodesk.com"]},
+        {"name": "COMSOL", "category": "CAD・CAE", "domains": ["comsol.com"]}
+      ]
+    },
+    "execution": {
+      "stage": "company_scout_dry_run",
+      "policy_version": 2,
+      "local_date": "2026-09-01",
+      "started_at": "2026-09-01T13:51:00+09:00",
+      "completed_at": "2026-09-01T13:58:00+09:00",
+      "status": "complete",
+      "planned_query_count": 8,
+      "executed_query_count": 8
+    }
+  }
+}
