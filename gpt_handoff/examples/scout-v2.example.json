@@ -1,0 +1,52 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-02T06:35:00+09:00",
+  "items": [
+    {
+      "title": "Example technical release",
+      "url": "https://example.com/technical-release",
+      "source": "Example Organization",
+      "source_kind": "corporate_tech",
+      "category": "AI設計",
+      "published_at": "2026-09-01",
+      "excerpt": "The organization released a design-assistance system and reported the stated scope and validation conditions.",
+      "query": "example organization AI assisted design",
+      "tags": ["AI-assisted design"],
+      "organization": "Example Organization",
+      "document_type": "technical article",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "example organization AI assisted design"
+  ],
+  "warnings": [],
+  "checked_sources": [
+    {
+      "name": "Example Organization",
+      "status": "found",
+      "query": "example organization AI assisted design"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "Example Organization",
+          "category": "AI設計",
+          "domains": ["example.com"]
+        }
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-02",
+      "started_at": "2026-09-02T06:10:00+09:00",
+      "completed_at": "2026-09-02T06:35:00+09:00",
+      "status": "complete",
+      "planned_query_count": 3,
+      "executed_query_count": 3
+    }
+  }
+}
