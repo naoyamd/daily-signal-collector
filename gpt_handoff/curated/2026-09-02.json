@@ -1,0 +1,681 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-02T07:07:38+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-02.json",
+      "blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588",
+      "generated_at": "2026-09-02T06:07:20+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-02.json",
+      "blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8",
+      "generated_at": "2026-09-02T06:19:50+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "Engineering AI is moving from advisory use toward execution inside CAE, numerical-solver and operational digital-twin workflows.",
+      "supporting_ids": ["c-simscale-agent", "r-nows", "c-siemens-xdt"]
+    },
+    {
+      "signal": "Scientific AI is increasingly hybrid: learned components accelerate or constrain established physics workflows rather than simply replacing them.",
+      "supporting_ids": ["r-nows", "r-kfno-flame", "r-skala", "r-crysvcd"]
+    },
+    {
+      "signal": "Closed-loop materials R&D is beginning to combine autonomous experimentation with interpretable process-rule extraction, not optimization alone.",
+      "supporting_ids": ["c-ntt-autolab", "r-crysvcd"]
+    },
+    {
+      "signal": "Enterprise-agent value is shifting toward governed capability layers and workflow redesign; broad personal productivity gains still outpace reported enterprise financial impact.",
+      "supporting_ids": ["r-salesforce-headless360", "r-mckinsey-state-ai"]
+    },
+    {
+      "signal": "As agents gain access to physical devices and stronger cyber capabilities, identity, permission, interlock and approval boundaries become first-class engineering requirements.",
+      "supporting_ids": ["r-anthropic-mhs", "r-astra"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["c-simscale-agent", "r-nows", "c-ntt-autolab"],
+    "ordered_ids": [
+      "c-simscale-agent",
+      "r-nows",
+      "c-ntt-autolab",
+      "c-siemens-xdt",
+      "r-mckinsey-state-ai",
+      "r-kfno-flame",
+      "c-autodesk-backflip",
+      "r-anthropic-mhs",
+      "c-siemens-via",
+      "r-crysvcd",
+      "r-skala",
+      "r-salesforce-headless360"
+    ],
+    "central_signals": [
+      "Engineering AI is becoming a tool-execution layer around established simulation and physical workflows.",
+      "The strongest scientific-AI pattern keeps deterministic solvers, physical constraints and validation infrastructure in the loop.",
+      "Enterprise adoption increasingly depends on workflow redesign, governance and operating economics rather than model access alone."
+    ],
+    "tensions_or_caveats": [
+      "Vendor-reported performance and maturity claims require explicit attribution and should not be presented as independent validation.",
+      "Tool autonomy increases the consequence of permission, safety and verification-boundary failures.",
+      "Survey-reported productivity and deployment do not imply enterprise-level financial return."
+    ],
+    "desired_depth": {
+      "c-simscale-agent": "lead",
+      "r-nows": "lead",
+      "c-ntt-autolab": "lead",
+      "c-siemens-xdt": "standard",
+      "r-mckinsey-state-ai": "report",
+      "r-kfno-flame": "standard",
+      "c-autodesk-backflip": "standard",
+      "r-anthropic-mhs": "standard",
+      "c-siemens-via": "standard",
+      "r-crysvcd": "standard",
+      "r-skala": "standard",
+      "r-salesforce-headless360": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 44,
+    "deduplicated_item_count": 42,
+    "source_domain_count": 34,
+    "organization_count": 38,
+    "regions_observed": ["US", "Europe", "Japan", "China", "global"],
+    "lanes": {
+      "company_watch": "7 mandatory sources checked: 4 found, 3 no_new_finding; 4 discovery candidates retained by Company Scout.",
+      "engineering_ai": "covered; Research Scout candidate_count=4",
+      "agents_enterprise": "covered; Research Scout candidate_count=6",
+      "models_open_weights": "covered; Research Scout candidate_count=7",
+      "reports_surveys": "covered; Research Scout candidate_count=6",
+      "scientific_wildcards": "covered; Research Scout candidate_count=6",
+      "non_us_rotation": "covered; Research Scout candidate_count=8"
+    },
+    "known_gaps": [
+      "The first production company rotation was CAD/CAE-heavy and produced no fresh aircraft-engine OEM primary-source item; this should be evaluated over the full stateful rotation rather than filled artificially today.",
+      "No production publication receipts exist yet, so prior-publication semantic duplicate suppression could not be exercised.",
+      "Gartner direct source access was limited during Scout collection, so its survey remains backlog rather than selected.",
+      "Three related Dassault SIMULIA AI hiring signals were collapsed into one semantic wildcard cluster."
+    ]
+  },
+  "selected": [
+    {
+      "id": "c-simscale-agent",
+      "event_key": "simscale:engineering-ai-agent-community-release:2026-08-18",
+      "tier": "lead",
+      "title": "SimScale opens Engineering AI agent to its global community",
+      "primary_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+      "supporting_urls": [],
+      "published_at": "2026-08-18",
+      "organization": "SimScale",
+      "company": "SimScale",
+      "category": "AIによる設計",
+      "source_kind": "press_release",
+      "factual_points": [
+        "SimScale opened its Engineering AI agent to a community it describes as more than 900,000 engineers, designers and students.",
+        "The company says the agent can execute a workflow spanning CAD geometry cleanup, simulation setup, computation and output reporting.",
+        "The phrase 'validated output report' is a vendor claim and does not independently establish correctness for a specific engineering application."
+      ],
+      "claims": [
+        {
+          "text": "SimScale opened the Engineering AI agent to a community of more than 900,000 users.",
+          "source_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "release introduction"
+        },
+        {
+          "text": "SimScale says the agent can execute CAD cleanup, simulation setup and reporting as an end-to-end workflow.",
+          "source_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "workflow description"
+        }
+      ],
+      "why_it_matters": "This is a direct example of engineering AI moving from assistance into execution of established CAE infrastructure.",
+      "practical_implication": "Deployment should make solver configuration, validation criteria, tool permissions and human approval boundaries explicit rather than trusting an agent-generated report by default.",
+      "tags": ["CAE", "engineering agent", "simulation automation"],
+      "scores": {"novelty": 4.5, "source_quality": 4.0, "evidence_strength": 4.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.5, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.30,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 10}
+      ]
+    },
+    {
+      "id": "r-nows",
+      "event_key": "cma:nows-neural-operator-warm-starts:2026-08-15",
+      "tier": "lead",
+      "title": "NOWS: Neural Operator Warm Starts for accelerating iterative solvers",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0045782526002628",
+      "supporting_urls": ["https://github.com/eshaghi-ms/NOWS"],
+      "published_at": "2026-08-15",
+      "organization": "Computer Methods in Applied Mechanics and Engineering",
+      "company": "",
+      "category": "AIによる設計",
+      "source_kind": "journal",
+      "factual_points": [
+        "NOWS uses neural operators to generate initial guesses for classical Krylov iterative solvers rather than replacing the numerical solver.",
+        "The approach is presented with established discretizations including finite-difference, finite-element, isogeometric and finite-volume methods.",
+        "The authors report end-to-end runtime reductions of up to 90% across tested PDE benchmarks while retaining classical iterative convergence behavior."
+      ],
+      "claims": [
+        {
+          "text": "NOWS uses neural-operator warm starts for classical iterative solvers while retaining established numerical discretizations.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0045782526002628",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "abstract and method description"
+        },
+        {
+          "text": "The authors report runtime reductions of up to 90% on the evaluated benchmarks.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0045782526002628",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "results summary"
+        }
+      ],
+      "why_it_matters": "It demonstrates a practical hybrid pattern: use learning to accelerate a well-understood solver without discarding the solver's validation and convergence framework.",
+      "practical_implication": "For industrial CAE, learned warm starts, preconditioners or proposal stages may offer a lower-risk path than wholesale surrogate replacement.",
+      "tags": ["neural operator", "PDE", "iterative solver", "hybrid physics ML"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.65,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 0}
+      ]
+    },
+    {
+      "id": "c-ntt-autolab",
+      "event_key": "ntt:autonomous-beta-ga2o3-lab:2026-08-25",
+      "tier": "lead",
+      "title": "Autonomous thin-film R&D combines robotic experimentation with interpretable process-rule extraction",
+      "primary_url": "https://www.nature.com/articles/s41467-026-76533-0",
+      "supporting_urls": ["https://www.group.ntt/jp/newsrelease/2026/08/25/260825a.html"],
+      "published_at": "2026-08-13",
+      "organization": "NTT / Nature Communications",
+      "company": "NTT",
+      "category": "Scientific AI",
+      "source_kind": "journal",
+      "factual_points": [
+        "The peer-reviewed study reports a self-driving sputter-deposition workflow for beta-Ga2O3 using automated experimentation and machine learning.",
+        "The system performed 56 autonomous experiments and reached a reported 182 meV quality metric before extracting an interpretable deposition rule.",
+        "Human-guided re-optimization using the extracted rule reached a reported 163 meV result, showing knowledge transfer beyond black-box optimization.",
+        "NTT's later release describes roughly threefold faster deposition/evaluation cycles; some sample-transfer operations remain manual in the current setup."
+      ],
+      "claims": [
+        {
+          "text": "The underlying peer-reviewed study reports 56 autonomous experiments and interpretable rule extraction for beta-Ga2O3 thin-film growth.",
+          "source_url": "https://www.nature.com/articles/s41467-026-76533-0",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "results and discussion"
+        },
+        {
+          "text": "NTT reports roughly threefold faster deposition/evaluation cycles in the current autonomous platform.",
+          "source_url": "https://www.group.ntt/jp/newsrelease/2026/08/25/260825a.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "press release platform description"
+        }
+      ],
+      "why_it_matters": "The notable step is not only autonomous optimization but conversion of experimental data into human-interpretable, reusable process knowledge.",
+      "practical_implication": "Materials R&D automation should be evaluated on experiment throughput, knowledge extraction, transferability and human intervention points, not optimization speed alone.",
+      "tags": ["materials", "autonomous lab", "thin film", "interpretable ML", "AI for science"],
+      "scores": {"novelty": 5.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.60,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 13, "curation_note": "Primary source upgraded from NTT press release to the underlying peer-reviewed Nature Communications paper."}
+      ]
+    },
+    {
+      "id": "c-siemens-xdt",
+      "event_key": "siemens:executable-digital-twin-industrial-intelligence:2026-09-01",
+      "tier": "standard",
+      "title": "Siemens describes an AI-powered Executable Digital Twin architecture for operational industrial use",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/siemens-executable-digital-twin-for-industrial-intelligence/",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Siemens describes an Executable Digital Twin as a compact behavioral model derived from high-fidelity multiphysics simulation for operational use.",
+        "The architecture combines reduced-order modeling and AI with live plant data and physics-based state estimation.",
+        "The company also positions agents and knowledge graphs around the twin as an industrial-intelligence layer; this is vendor architecture guidance rather than independent deployment evidence."
+      ],
+      "claims": [
+        {
+          "text": "Siemens describes an Executable Digital Twin architecture that compresses high-fidelity multiphysics behavior for real-time operational use.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/siemens-executable-digital-twin-for-industrial-intelligence/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "architecture description"
+        }
+      ],
+      "why_it_matters": "It connects CAE model reduction, live operational data and agent interfaces into one digital-engineering architecture rather than treating digital twins as static visualization assets.",
+      "practical_implication": "Engineering organizations should distinguish offline high-fidelity models from reduced operational models and define validation boundaries for each transformation step.",
+      "tags": ["digital twin", "Simcenter", "reduced-order modeling", "industrial AI"],
+      "scores": {"novelty": 4.0, "source_quality": 4.0, "evidence_strength": 3.5, "engineering_relevance": 5.0, "enterprise_relevance": 4.0, "strategic_significance": 4.5, "reader_value": 4.0},
+      "weighted_score": 4.35,
+      "confidence": "medium-high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 0}
+      ]
+    },
+    {
+      "id": "r-mckinsey-state-ai",
+      "event_key": "mckinsey:state-of-ai-2026:2026-08-25",
+      "tier": "report",
+      "title": "The state of AI in 2026: On the road to ROI",
+      "primary_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "supporting_urls": [],
+      "published_at": "2026-08-25",
+      "organization": "McKinsey & Company",
+      "company": "McKinsey & Company",
+      "category": "企業AI",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "The online survey ran May 4 to June 8, 2026 and included 1,719 respondents in 97 nations; responses were weighted by national contribution to global GDP.",
+        "40% of respondents at organizations above $1 billion revenue report scaling AI agents, up from 27% the prior year; smaller organizations were flat at 22%.",
+        "32% report forgoing at least one software product or feature because agentic coding enabled internal development.",
+        "80% report personal productivity gains, while positive EBIT contribution remains essentially unchanged at 37%.",
+        "About one in five respondents report AI operating costs constraining use."
+      ],
+      "claims": [
+        {"text": "The survey included 1,719 respondents in 97 nations and used GDP weighting.", "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai", "verification_status": "verified", "attribution_type": "survey_result", "evidence_location": "About the research"},
+        {"text": "40% of large-organization respondents report scaling agents versus 27% the prior year, while smaller organizations remain at 22%.", "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai", "verification_status": "verified", "attribution_type": "survey_result", "evidence_location": "agent scaling section"},
+        {"text": "32% report forgoing at least one software purchase because agentic coding enabled in-house development.", "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai", "verification_status": "verified", "attribution_type": "survey_result", "evidence_location": "coding-agent section"},
+        {"text": "80% report individual productivity gains while 37% report positive EBIT contribution, essentially unchanged from the prior year.", "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai", "verification_status": "verified", "attribution_type": "survey_result", "evidence_location": "overview and value section"}
+      ],
+      "why_it_matters": "The report separates broad individual productivity from still-limited enterprise financial impact and shows large organizations accelerating agent deployment.",
+      "practical_implication": "Enterprise programs should measure workflow redesign, software insourcing, operating cost and financial outcomes rather than treating adoption itself as the endpoint.",
+      "tags": ["AI adoption", "ROI", "agents", "enterprise survey"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 3.0, "enterprise_relevance": 5.0, "strategic_significance": 5.0, "reader_value": 5.0},
+      "weighted_score": 4.47,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "McKinsey & Company",
+        "published_at": "2026-08-25",
+        "sample_size": 1719,
+        "methodology": "Online survey conducted May 4-June 8, 2026 across industries, organization sizes and functions; national response differences weighted by contribution to global GDP.",
+        "geographies": "97 nations",
+        "key_metrics": [
+          "40% of large-organization respondents report scaling agents, versus 27% prior year; smaller organizations remain at 22%.",
+          "32% report forgoing at least one software purchase due to agentic coding.",
+          "80% report personal productivity improvement.",
+          "37% report positive EBIT contribution, essentially unchanged year over year.",
+          "About 20% report AI operating costs constraining use."
+        ],
+        "comparison_to_previous": "Agent scaling rose sharply at large organizations while reported EBIT contribution was essentially unchanged.",
+        "practical_meaning": "The bottleneck is moving from access and individual usage toward workflow redesign, operating economics and enterprise value capture.",
+        "caveats": "Self-reported survey data; definitions of scaling, productivity and financial contribution may vary among respondents, and the survey is not a census of global enterprises."
+      },
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 15}
+      ]
+    },
+    {
+      "id": "r-kfno-flame",
+      "event_key": "computers-fluids:koopman-fno-flame-instability:2026-08-30",
+      "tier": "standard",
+      "title": "Koopman-inspired operator learning for intrinsic flame instabilities",
+      "primary_url": "https://doi.org/10.1016/j.compfluid.2026.107165",
+      "supporting_urls": [],
+      "published_at": "2026-08-30",
+      "organization": "Computers & Fluids",
+      "company": "",
+      "category": "AIによる設計",
+      "source_kind": "journal",
+      "factual_points": [
+        "The study evaluates a Koopman-inspired Fourier neural operator on DNS data for nonlinear intrinsic flame instabilities.",
+        "The authors report 2-6x lower errors than a standard FNO in the evaluated cases, with improved short-term prediction and long-term statistical fidelity.",
+        "The work is directly relevant to combustion/CFD surrogate modeling but remains benchmarked on the paper's specific DNS setting."
+      ],
+      "claims": [
+        {"text": "The paper evaluates a Koopman-inspired FNO on nonlinear flame-instability DNS data.", "source_url": "https://doi.org/10.1016/j.compfluid.2026.107165", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "abstract"},
+        {"text": "The authors report 2-6x lower errors than a standard FNO in tested cases.", "source_url": "https://doi.org/10.1016/j.compfluid.2026.107165", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "results summary"}
+      ],
+      "why_it_matters": "Combustion is a high-value, difficult regime for operator learning; retaining both transient and statistical behavior matters more than one-step error alone.",
+      "practical_implication": "Surrogate evaluation for engineering flows should include long-horizon statistics and out-of-distribution behavior, not only short-horizon field error.",
+      "tags": ["neural operator", "combustion", "CFD", "Koopman", "DNS"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 2.0, "strategic_significance": 4.0, "reader_value": 4.5},
+      "weighted_score": 4.45,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 1}
+      ]
+    },
+    {
+      "id": "c-autodesk-backflip",
+      "event_key": "autodesk:backflip-fusion-scan-to-cad:2026-08-19",
+      "tier": "standard",
+      "title": "Backflip AI add-in converts 3D scans into editable parametric Fusion models",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/backflip-add-in-autodesk-fusion/",
+      "supporting_urls": [],
+      "published_at": "2026-08-19",
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Autodesk describes the Backflip add-in as converting 3D scans and mesh files into editable parametric Fusion models with feature history.",
+        "The reconstructed model remains inside the same Fusion environment used for design, simulation and manufacturing workflows.",
+        "Claims that reconstruction drops from hours to minutes originate from the vendor/product description and are not independent benchmark evidence."
+      ],
+      "claims": [
+        {"text": "Backflip converts scan/mesh inputs into editable parametric Fusion models with feature history.", "source_url": "https://www.autodesk.com/products/fusion-360/blog/backflip-add-in-autodesk-fusion/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "product workflow description"},
+        {"text": "Autodesk/Backflip describes reconstruction time dropping from hours to minutes.", "source_url": "https://www.autodesk.com/products/fusion-360/blog/backflip-add-in-autodesk-fusion/", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "benefits section"}
+      ],
+      "why_it_matters": "AI-assisted reverse engineering becomes more useful when its output is editable CAD with design history rather than a static reconstructed surface.",
+      "practical_implication": "Scan-to-CAD evaluation should measure feature editability, geometric fidelity and downstream simulation/manufacturing compatibility, not reconstruction speed alone.",
+      "tags": ["Fusion", "scan-to-CAD", "AI-assisted design", "reverse engineering"],
+      "scores": {"novelty": 4.0, "source_quality": 4.0, "evidence_strength": 3.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 3.5, "reader_value": 4.5},
+      "weighted_score": 4.05,
+      "confidence": "medium-high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 8}
+      ]
+    },
+    {
+      "id": "r-anthropic-mhs",
+      "event_key": "anthropic:model-hardware-standard:2026-08-27",
+      "tier": "standard",
+      "title": "Anthropic previews the Model Hardware Standard for agent-operated physical devices",
+      "primary_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "supporting_urls": [],
+      "published_at": "2026-08-27",
+      "organization": "Anthropic",
+      "company": "Anthropic",
+      "category": "Scientific AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "MHS is a research-preview specification intended to let AI agents operate physical laboratory and manufacturing devices through standardized drivers.",
+        "Anthropic lists devices such as microscopes, liquid handlers and robotic arms and describes interfaces including MCP, CLI and code.",
+        "Device metadata and safety limits are part of the proposed interface model.",
+        "Anthropic claims bespoke hardware integration could fall from weeks/months to hours/minutes; this is an early proof-of-concept claim, not broad production evidence."
+      ],
+      "claims": [
+        {"text": "MHS is a research-preview specification for agent operation of physical laboratory and manufacturing devices.", "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "opening and architecture sections"},
+        {"text": "Anthropic says MHS can reduce bespoke hardware integration effort from weeks or months to hours or minutes.", "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "integration discussion"}
+      ],
+      "why_it_matters": "A common tool contract for physical instruments could make closed-loop research/manufacturing workflows composable in the same way software agents compose APIs.",
+      "practical_implication": "Physical-agent architectures need hard safety interlocks, device-state validation, permissions and human approval points in addition to model-level safeguards.",
+      "tags": ["MHS", "physical AI", "lab automation", "manufacturing", "agent protocol"],
+      "scores": {"novelty": 5.0, "source_quality": 5.0, "evidence_strength": 4.0, "engineering_relevance": 4.5, "enterprise_relevance": 3.5, "strategic_significance": 5.0, "reader_value": 4.5},
+      "weighted_score": 4.53,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 8}
+      ]
+    },
+    {
+      "id": "c-siemens-via",
+      "event_key": "siemens:virtual-integrated-aircraft-methodology:2026-08-13",
+      "tier": "standard",
+      "title": "Virtual Integrated Aircraft methodology links MBSE and multidomain simulation earlier in aircraft development",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration/",
+      "supporting_urls": [],
+      "published_at": "2026-08-13",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "大手航空機メーカー",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Siemens presents Virtual Integrated Aircraft as a structured methodology combining MBSE, multidomain simulation, validation workflows and digital-thread continuity.",
+        "The examples span propulsion, fuel, thermal, electrical and control-system interactions early in aircraft development.",
+        "The source is Siemens technical guidance rather than an independent program-performance study."
+      ],
+      "claims": [
+        {"text": "Virtual Integrated Aircraft combines MBSE, multidomain system simulation, verification and digital-thread continuity for early aircraft systems integration.", "source_url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration/", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "methodology overview"}
+      ],
+      "why_it_matters": "It is directly relevant to moving coupled propulsion/thermal/electrical/control decisions earlier, where architecture changes are cheaper than late program rework.",
+      "practical_implication": "AI-assisted engineering should be layered onto a traceable system-integration model rather than optimizing subsystem analyses independently.",
+      "tags": ["aircraft design", "MBSE", "digital thread", "systems simulation"],
+      "scores": {"novelty": 3.5, "source_quality": 4.0, "evidence_strength": 3.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.5, "reader_value": 4.0},
+      "weighted_score": 4.08,
+      "confidence": "medium-high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 3}
+      ]
+    },
+    {
+      "id": "r-crysvcd",
+      "event_key": "nature-cs:crysvcd-valence-constrained-generation:2026-08-26",
+      "tier": "standard",
+      "title": "Enhancing materials discovery with valence-constrained design in generative modeling",
+      "primary_url": "https://www.nature.com/articles/s43588-026-01037-2",
+      "supporting_urls": [],
+      "published_at": "2026-08-26",
+      "organization": "Nature Computational Science",
+      "company": "",
+      "category": "Scientific AI",
+      "source_kind": "journal",
+      "factual_points": [
+        "CrysVCD introduces oxidation-state/valence constraints into the crystal-generation process rather than relying only on post-generation screening.",
+        "The workflow uses a composition-generation stage followed by diffusion-based crystal-structure generation.",
+        "The authors report orders-of-magnitude faster valence checking than post-screening and, after stability fine-tuning, 85% of generated candidates below 0.1 eV/atom Ehull and 68% phonon stability.",
+        "The paper discloses a related patent application."
+      ],
+      "claims": [
+        {"text": "CrysVCD integrates valence constraints into crystal generation rather than applying them only as post-screening.", "source_url": "https://www.nature.com/articles/s43588-026-01037-2", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "abstract and method"},
+        {"text": "The authors report 85% below 0.1 eV/atom Ehull and 68% phonon stability after fine-tuning.", "source_url": "https://www.nature.com/articles/s43588-026-01037-2", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "results"}
+      ],
+      "why_it_matters": "It represents a general design pattern for generative engineering: enforce domain constraints during generation instead of creating large invalid candidate sets and filtering afterward.",
+      "practical_implication": "Generative CAD/materials systems should encode manufacturability, physics and chemistry constraints as early as possible in proposal generation.",
+      "tags": ["materials", "generative design", "crystal discovery", "chemical constraints"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 4.5, "enterprise_relevance": 2.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.50,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 6}
+      ]
+    },
+    {
+      "id": "r-skala",
+      "event_key": "microsoft:skala-1-1-ecosystem:2026-08-20",
+      "tier": "standard",
+      "title": "Skala 1.1 moves a learned exchange-correlation functional into established DFT software workflows",
+      "primary_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+      "supporting_urls": ["https://www.microsoft.com/en-us/research/publication/molecular-implementation-of-the-machine-learned-skalaexchange-correlation-functional-in-cp2k-through-gauxc/"],
+      "published_at": "2026-08-20",
+      "organization": "Microsoft Research",
+      "company": "Microsoft",
+      "category": "Scientific AI",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Microsoft Research released Skala 1.1, a deep-learning exchange-correlation functional trained on 2.5x the data of the earlier public version.",
+        "Microsoft reports a GMTKN55 weighted average error of 2.8 kcal/mol and the lowest error on 32 of 55 subsets; these are research-team benchmark results.",
+        "Skala has a CP2K implementation through GauXC, and the implementation work reports energy/force validation against reference calculations.",
+        "Integration work also targets other established computational-chemistry codes, making ecosystem compatibility a central part of the release."
+      ],
+      "claims": [
+        {"text": "Skala 1.1 is a learned exchange-correlation functional being integrated into established DFT codes including CP2K.", "source_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "release and ecosystem sections"},
+        {"text": "Microsoft reports a GMTKN55 weighted average error of 2.8 kcal/mol for Skala 1.1.", "source_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/", "verification_status": "verified", "attribution_type": "self_reported_benchmark", "evidence_location": "accuracy section"}
+      ],
+      "why_it_matters": "The practical Scientific-AI pattern is learned components inside validated legacy simulation ecosystems, not necessarily replacement of the entire physics code.",
+      "practical_implication": "Industrial adoption becomes easier when ML components preserve familiar inputs, numerical checks, HPC deployment and verification paths.",
+      "tags": ["DFT", "machine-learned functional", "computational chemistry", "CP2K"],
+      "scores": {"novelty": 4.0, "source_quality": 4.5, "evidence_strength": 4.0, "engineering_relevance": 4.5, "enterprise_relevance": 2.5, "strategic_significance": 4.0, "reader_value": 4.5},
+      "weighted_score": 4.20,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 5}
+      ]
+    },
+    {
+      "id": "r-salesforce-headless360",
+      "event_key": "salesforce:headless-360-mcp-capabilities:2026-08-25",
+      "tier": "standard",
+      "title": "Salesforce Headless 360 exposes governed enterprise capabilities to authorized agents",
+      "primary_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/25/salesforce-turns-enterprise-applications-into-enterprise-capabilities/",
+      "supporting_urls": [],
+      "published_at": "2026-08-25",
+      "organization": "Salesforce",
+      "company": "Salesforce",
+      "category": "AIエージェント",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Salesforce expanded Headless 360 with MCP servers that let authorized agents discover and invoke business capabilities.",
+        "Salesforce says the capability layer inherits existing identity, permissions, metadata, workflows and validation rules rather than exposing raw application access.",
+        "The Data 360 MCP Server exposes nearly 200 APIs and the release describes more than 100 reusable skills/capabilities across the platform."
+      ],
+      "claims": [
+        {"text": "Headless 360 exposes governed Salesforce capabilities to authorized agents while preserving identity, permissions and workflow rules.", "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/25/salesforce-turns-enterprise-applications-into-enterprise-capabilities/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "product architecture section"},
+        {"text": "Salesforce says the Data 360 MCP Server exposes nearly 200 APIs.", "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/25/salesforce-turns-enterprise-applications-into-enterprise-capabilities/", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "Data 360 section"}
+      ],
+      "why_it_matters": "Enterprise-agent architecture is moving from generic browser/UI automation toward governed capability surfaces with explicit identity and business-rule inheritance.",
+      "practical_implication": "Internal engineering agents should expose narrow, auditable capabilities around PLM/CAE/data systems instead of granting broad application credentials or unrestricted UI control.",
+      "tags": ["MCP", "enterprise agents", "governance", "Data 360"],
+      "scores": {"novelty": 4.0, "source_quality": 4.0, "evidence_strength": 4.0, "engineering_relevance": 3.5, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.0},
+      "weighted_score": 4.10,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 9}
+      ]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "r-astra",
+      "event_key": "openai:astra-critical-cyber-threshold:2026-09-01",
+      "tier": "standard",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "primary_url": "https://openai.com/index/path-to-astra/",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "OpenAI",
+      "company": "OpenAI",
+      "category": "AIセキュリティ",
+      "source_kind": "official",
+      "factual_points": [
+        "OpenAI says Astra is its first model designated at the Preparedness Framework's Critical cybersecurity threshold.",
+        "OpenAI reports a 100% ExploitBench score and says the model found and used two zero-days in an internal set of 20 recent V8 vulnerabilities.",
+        "The benchmark and zero-day results are self-reported and should not be presented as independent evaluation."
+      ],
+      "claims": [
+        {"text": "OpenAI designates Astra at the Preparedness Framework Critical cybersecurity threshold.", "source_url": "https://openai.com/index/path-to-astra/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "safety designation section"},
+        {"text": "OpenAI reports 100% on ExploitBench and two zero-days found in its internal vulnerability set.", "source_url": "https://openai.com/index/path-to-astra/", "verification_status": "verified", "attribution_type": "self_reported_benchmark", "evidence_location": "capability evaluation section"}
+      ],
+      "why_it_matters": "The capability jump is peripheral to daily engineering design news but directly relevant to how high-autonomy internal agents must be sandboxed and permissioned.",
+      "practical_implication": "Agent infrastructure should assume the model may actively discover unexpected paths through its environment; least privilege and strong isolation cannot depend on model obedience.",
+      "tags": ["frontier model", "cybersecurity", "agent safety"],
+      "scores": {"novelty": 5.0, "source_quality": 4.0, "evidence_strength": 3.5, "engineering_relevance": 2.5, "enterprise_relevance": 4.0, "strategic_significance": 5.0, "reader_value": 4.5},
+      "weighted_score": 4.22,
+      "confidence": "medium-high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-02.json", "source_blob_sha": "232a3d810df1fee3801198d08ef7fffdeac639e8", "source_item_index": 14}
+      ]
+    },
+    {
+      "id": "c-agentrys",
+      "event_key": "agentrys:seed-agentic-chip-design:2026-08-26",
+      "tier": "standard",
+      "title": "Agentrys raises $24.5M for agentic design automation in chip verification and physical design",
+      "primary_url": "https://agentrys.ai/news/agentrys-raises-24-5-million",
+      "supporting_urls": [],
+      "published_at": "2026-08-26",
+      "organization": "Agentrys",
+      "company": "Agentrys",
+      "category": "AIによる設計",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Agentrys reports $24.5 million in total funding, including a $19.1 million seed and $5.4 million pre-seed.",
+        "The startup targets agentic automation across chip verification and physical-design workflows.",
+        "The company reports a 32-bit CPU flow from specification to sign-off GDS without human intervention and more than 90% on NVIDIA's CVDP; these are self-reported demonstrations."
+      ],
+      "claims": [
+        {"text": "Agentrys reports $24.5 million total funding to develop agentic chip-design automation.", "source_url": "https://agentrys.ai/news/agentrys-raises-24-5-million", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "funding announcement"},
+        {"text": "Agentrys reports autonomous CPU-design and CVDP results.", "source_url": "https://agentrys.ai/news/agentrys-raises-24-5-million", "verification_status": "verified", "attribution_type": "self_reported_benchmark", "evidence_location": "technology demonstration section"}
+      ],
+      "why_it_matters": "EDA is a useful leading indicator for engineering agents because toolchains, constraints and verification gates are highly structured.",
+      "practical_implication": "Track whether agentic engineering systems prove repeatability and sign-off quality across varied designs rather than single vendor demonstrations.",
+      "tags": ["EDA", "agentic design automation", "chip design", "startup"],
+      "scores": {"novelty": 4.5, "source_quality": 3.5, "evidence_strength": 3.0, "engineering_relevance": 4.5, "enterprise_relevance": 3.0, "strategic_significance": 4.0, "reader_value": 4.0},
+      "weighted_score": 3.95,
+      "confidence": "medium",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 11}
+      ]
+    },
+    {
+      "id": "c-dassault-leo-cluster",
+      "event_key": "dassault-simulia:ai-rd-hiring-cluster:2026-08",
+      "tier": "standard",
+      "title": "SIMULIA hiring cluster points to prompt-driven structural simulation and AI-assisted engineering R&D",
+      "primary_url": "https://www.3ds.com/ja/careers/jobs/structural-simulation-ai-developer-549419",
+      "supporting_urls": [
+        "https://www.3ds.com/careers/jobs/internship-simulia-r-d-operations-ai-engineer-549545",
+        "https://www.3ds.com/fr/careers/jobs/werkstudent-m-w-d-bioelectromagnetics-ai-virtual-twins-simulia-549667"
+      ],
+      "published_at": "2026-08-13",
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "category": "CAD・CAE",
+      "source_kind": "official",
+      "factual_points": [
+        "A SIMULIA structural-simulation role says Dassault Systèmes is building and deploying Leo, an AI engineering assistant in 3DEXPERIENCE simulation applications.",
+        "The role describes turning manual simulation-setup steps into prompt-driven execution and prototyping agentic engineering workflows.",
+        "Two other August SIMULIA postings describe AI-assisted software testing and ML-driven virtual-human/mesh automation, indicating a broader R&D direction.",
+        "These are hiring signals, not product-release commitments."
+      ],
+      "claims": [
+        {"text": "The structural-simulation role explicitly describes Leo and prompt-driven automation of simulation setup.", "source_url": "https://www.3ds.com/ja/careers/jobs/structural-simulation-ai-developer-549419", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "job responsibilities"},
+        {"text": "The three postings together indicate active SIMULIA R&D across agentic simulation, AI-assisted testing and ML/virtual-twin automation.", "source_url": "https://www.3ds.com/ja/careers/jobs/structural-simulation-ai-developer-549419", "verification_status": "partially_verified", "attribution_type": "inference", "evidence_location": "semantic cluster across three official job postings"}
+      ],
+      "why_it_matters": "Hiring evidence can reveal engineering-AI development direction before formal product announcements, while still requiring careful separation from shipped capability.",
+      "practical_implication": "Keep SIMULIA on the watchlist for a formal Leo/agentic-simulation release or technical evaluation before promoting the signal to a main selected item.",
+      "tags": ["SIMULIA", "structural simulation", "agentic AI", "R&D signal"],
+      "scores": {"novelty": 4.0, "source_quality": 4.0, "evidence_strength": 3.0, "engineering_relevance": 4.5, "enterprise_relevance": 3.0, "strategic_significance": 3.5, "reader_value": 3.5},
+      "weighted_score": 3.80,
+      "confidence": "medium",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 4, "curation_note": "Representative item for a semantic cluster of three related SIMULIA AI hiring signals."},
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 5, "curation_note": "Merged into the SIMULIA AI hiring cluster."},
+        {"source_file": "gpt_handoff/company/2026-09-02.json", "source_blob_sha": "5cea23bc5d9ed261e899e88cb1d099effe4a6588", "source_item_index": 6, "curation_note": "Merged into the SIMULIA AI hiring cluster."}
+      ]
+    }
+  ],
+  "backlog": [
+    {"id": "c-siemens-agentic-eda", "title": "Why Agentic AI Could Redefine the Future of Design and Verification", "primary_url": "https://blogs.sw.siemens.com/verificationhorizons/2026/08/31/why-agentic-ai-could-redefine-the-future-of-design-and-verification/", "published_at": "2026-08-31", "organization": "Siemens Digital Industries Software", "category": "CAD・CAE", "source_kind": "corporate_tech", "reason": "Useful EDA-agent vision and role-change signal, but directional rather than a discrete product release; Siemens already has two stronger selected engineering items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 1}]},
+    {"id": "c-siemens-feko-heeds", "title": "Accelerate antenna design optimization with Simcenter Feko and Simcenter HEEDS", "primary_url": "https://blogs.sw.siemens.com/simcenter/antenna-design-optimization-feko-heeds/", "published_at": "2026-08-26", "organization": "Siemens Digital Industries Software", "category": "CAD・CAE", "source_kind": "corporate_tech", "reason": "Concrete 11-variable high-fidelity optimization example with reported 22% gain and 59% roundness-KPI improvement, held by same-organization diversity cap.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 2}]},
+    {"id": "c-hexagon-aeon", "title": "Towards factory deployment: How AEON is trained to perform", "primary_url": "https://hexagon.com/company/newsroom/press-releases/2026/towards-factory-deployment-how-aeon-is-trained-to-perform", "published_at": "2026-08-19", "organization": "Hexagon AB", "category": "製造・ロボティクス", "source_kind": "press_release", "reason": "Useful Train-Validate-Deploy physical-AI operating model, but less directly tied to design/simulation than selected items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 7}]},
+    {"id": "c-atlant3d-nanofabricator", "title": "ATLANT 3D Launches NANOFABRICATOR PRO for AI-Driven Materials Discovery", "primary_url": "https://atlant3d.com/atlant-3d-launches-nanofabricator-pro-the-worlds-first-and-only-physical-platform-for-ai-driven-materials-discovery/", "published_at": "2026-08-17", "organization": "ATLANT 3D", "category": "Scientific AI", "source_kind": "press_release", "reason": "Strong closed-loop materials-R&D concept, but product capability claims need deeper independent technical evidence.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 12}]},
+    {"id": "r-store-release-rom", "title": "Machine-Learning-Based Real-Time Trajectory Prediction of Store Release from Cavity", "primary_url": "https://doi.org/10.2514/1.C038854", "published_at": "2026-08-24", "organization": "AIAA Journal of Aircraft", "category": "AIによる設計", "source_kind": "journal", "reason": "Direct aerospace/CFD relevance, but 2D inviscid-CFD basis and weaker higher-order-mode prediction limit broader priority today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 2}]},
+    {"id": "r-pinn-digital-twin-review", "title": "Digital Twin Engineering with Physics-Informed Neural Networks: State of the Art and Open Challenges", "primary_url": "https://doi.org/10.1007/s11831-026-10758-6", "published_at": "2026-08-03", "organization": "Springer Nature", "category": "デジタルツイン", "source_kind": "journal", "reason": "High-value background review, but not a discrete new implementation result and older than the stronger operational digital-twin signal.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 3}]},
+    {"id": "r-parsec-ml-charge-density", "title": "PARSEC.py: A Python-Based Real-Space Kohn-Sham Density Functional Theory Code Accelerated by Machine Learned Charge Density", "primary_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.70482", "published_at": "2026-08-21", "organization": "Journal of Computational Chemistry", "category": "Scientific AI", "source_kind": "journal", "reason": "Useful ML-inside-DFT workflow, but Skala provides the broader ecosystem/integration signal for the selected pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 4}]},
+    {"id": "r-hea-dft-ml", "title": "DFT-based machine-learning for the rational design of magnetocaloric high-entropy alloys", "primary_url": "https://www.nature.com/articles/s41467-026-77123-w", "published_at": "2026-08-25", "organization": "Nature Communications", "category": "Scientific AI", "source_kind": "journal", "reason": "Strong peer-reviewed materials-design result retained below the line because the selected Scientific-AI set is already dense.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 7}]},
+    {"id": "r-claudeforce", "title": "Salesforce and Anthropic launch Claudeforce", "primary_url": "https://www.salesforce.com/ap/news/press-releases/2026/08/28/salesforce-dan-anthropic-luncurkan-claudeforce-ai-nomor-1-berpadu-dengan-crm-ai-nomor-1/", "published_at": "2026-08-28", "organization": "Salesforce / Anthropic", "category": "AIエージェント", "source_kind": "press_release", "reason": "Concrete CRM/Claude integration, but Headless 360 better represents the reusable enterprise-governance architecture.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 10}]},
+    {"id": "r-mcp-roadmap", "title": "The New MCP Roadmap", "primary_url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/", "published_at": "2026-08-22", "organization": "Model Context Protocol", "category": "Agent Protocol", "source_kind": "official", "reason": "Important direction for agent identity, transport and enterprise security, but a roadmap rather than an implemented specification update.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 13}]},
+    {"id": "r-deloitte-agent-readiness", "title": "AI Agents are Only the Beginning: Deloitte Survey Examines the AI Readiness Gap", "primary_url": "https://www.deloitte.com/us/en/about/press-room/deloitte-survey-examines-ai-readiness-agentic-ai-success.html", "published_at": "2026-08-12", "organization": "Deloitte", "category": "企業AI", "source_kind": "press_release", "reason": "Useful readiness/workflow-redesign survey, but McKinsey offers broader methodology and longitudinal comparison for the main report slot.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 16}]},
+    {"id": "r-gartner-service-ai-spend", "title": "Gartner Survey Finds AI Spending by Customer Service Leaders Has Surged by 38%", "primary_url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-survey-finds-ai-spending-by-customer-service-leaders-has-surged-by-38-percent-despite-overall-service-and-support-function-budgets-rising-by-just-2-percent", "published_at": "2026-08-26", "organization": "Gartner", "category": "企業AI", "source_kind": "press_release", "reason": "Potentially useful spending reallocation signal from 199 service leaders, but the direct source could not be fully re-opened during collection.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 17}]},
+    {"id": "r-teradata-roi", "title": "Companies Keep Spending on AI Despite Roadblocks on Returns", "primary_url": "https://www.teradata.de/insights/ai-and-machine-learning/ai-spending-roadblocks-on-returns", "published_at": "2026-08-28", "organization": "Teradata", "category": "企業AI", "source_kind": "technical_report", "reason": "Large 1,000-leader survey but vendor-sponsored; data-foundation framing aligns closely with the sponsor's commercial position.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 18}]},
+    {"id": "r-reuters-japan-ai", "title": "Strong majority of Japanese firms have yet to fully embrace AI: Reuters poll", "primary_url": "https://www.reuters.com/world/asia-pacific/strong-majority-japanese-firms-have-yet-fully-embrace-ai-2026-08-12/", "published_at": "2026-08-13", "organization": "Reuters / Nikkei Research", "category": "企業AI", "source_kind": "news", "reason": "Useful Japan-specific adoption baseline from 219 respondents, but narrower and less method-rich than the selected global report.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 19}]},
+    {"id": "r-m365-productivity", "title": "Adoption of Generative AI in the Workplace: Increasing and Shifting the Balance of Productivity and Communication Activity", "primary_url": "https://arxiv.org/abs/2608.15550", "published_at": "2026-08-16", "organization": "Microsoft Research collaborators", "category": "企業AI", "source_kind": "paper", "reason": "Digital-trace evidence is attractive, but the result is a preprint and needs closer confounder/method review before headline use.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 20}]},
+    {"id": "r-fixify-telemetry", "title": "Early days: The state of agentic AI in IT", "primary_url": "https://www.fixify.com/agentic-report", "published_at": "2026-08-04", "organization": "Fixify", "category": "企業AI", "source_kind": "technical_report", "reason": "Rich production telemetry on plans/actions/skills and human takeover, but one vendor's customer population is not a representative enterprise sample.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 21}]},
+    {"id": "r-tencent-hy4", "title": "Tencent Releases and Open-Sources Tencent Hy4 preview", "primary_url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/", "published_at": "2026-08-28", "organization": "Tencent", "category": "オープンウェイト", "source_kind": "press_release", "reason": "Important China/open-weight signal, but routine model-release coverage is intentionally capped below engineering/scientific items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 22}]},
+    {"id": "r-qwen38", "title": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency", "primary_url": "https://qwen.ai/blog?id=qwen3.8-flash-next", "published_at": "2026-08-26", "organization": "Alibaba Qwen", "category": "オープンウェイト", "source_kind": "corporate_tech", "reason": "Worth tracking for sparse-MoE and inference-efficiency architecture, but benchmark claims are vendor-reported and engineering application signals rank higher today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 23}]},
+    {"id": "r-glm53", "title": "GLM-5.3-Flash: More Intelligence with Less Compute", "primary_url": "https://autoclaw.z.ai/blog/model/glm-5.3-flash/", "published_at": "2026-08-30", "organization": "Z.ai", "category": "オープンウェイト", "source_kind": "corporate_tech", "reason": "Fresh open-weight efficiency signal retained for model-watch coverage but not selected because stronger engineering evidence dominates the day.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 24}]},
+    {"id": "r-qualcomm-industrial-edge", "title": "Qualcomm Introduces Dragonwing Q-2390 and IQ-2390 Processors", "primary_url": "https://www.qualcomm.com/news/releases/2026/09/-qualcomm-introduces-dragonwing-q-2390-and-iq-2390-processors--e", "published_at": "2026-09-01", "organization": "Qualcomm", "category": "Edge AI", "source_kind": "press_release", "reason": "Fresh industrial edge-AI hardware signal for machine vision, real-time processing and TSN; relevant to manufacturing deployment but peripheral to the main engineering-AI themes.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 29}]}
+  ],
+  "rejected": [
+    {"id": "c-dassault-rd-ops", "title": "INTERNSHIP - SIMULIA R&D Operations AI Engineer", "primary_url": "https://www.3ds.com/careers/jobs/internship-simulia-r-d-operations-ai-engineer-549545", "reason": "Semantic duplicate within the SIMULIA AI hiring cluster; supporting evidence preserved under wildcard c-dassault-leo-cluster.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 5}]},
+    {"id": "c-dassault-virtual-twin-role", "title": "Werkstudent Bioelectromagnetics & AI / Virtual Twins SIMULIA", "primary_url": "https://www.3ds.com/fr/careers/jobs/werkstudent-m-w-d-bioelectromagnetics-ai-virtual-twins-simulia-549667", "reason": "Semantic duplicate within the SIMULIA AI hiring cluster; supporting evidence preserved under wildcard c-dassault-leo-cluster.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 6}]},
+    {"id": "c-autodesk-ai-ideas", "title": "How Designers Are Using AI to Explore More Ideas Faster", "primary_url": "https://www.autodesk.com/products/fusion-360/blog/ai-to-explore-more-design-ideas/", "reason": "Directional/marketing-style guidance without a distinct new capability, evaluation or implementation result beyond stronger Autodesk candidates.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-02.json", "source_item_index": 9}]},
+    {"id": "r-huawei-codearts", "title": "Huawei Cloud CodeArts Agent Now Available across Asia Pacific", "primary_url": "https://www.prnewswire.com/apac/news-releases/huawei-cloud-codearts-agent-now-available-across-asia-pacific-bringing-agentic-ai-to-software-development-302862642.html", "reason": "Generic coding-agent commercialization with limited incremental engineering signal relative to more distinctive workflow/governance items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 11}]},
+    {"id": "r-kimi-tower", "title": "Kimi Code v0.39.0 adds experimental Tower multi-agent orchestration", "primary_url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html", "reason": "Experimental coding-tool feature is narrower and lower strategic value than other agent-orchestration signals in the pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 12}]},
+    {"id": "r-nemotron35", "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents", "primary_url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/", "reason": "Useful agent-inference model but older and more routine than fresh retained model candidates; model-release crowding control applied.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 25}]},
+    {"id": "r-shieldstral", "title": "Introducing Shieldstral", "primary_url": "https://mistral.ai/news/shieldstral/", "reason": "Open-weight safety classifier is useful but dated early August and peripheral to the day's engineering/scientific themes.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 26}]},
+    {"id": "r-endeavor", "title": "Introducing Endeavor 1.0 from Flower Labs", "primary_url": "https://flower.ai/blog/2026-09-01-introducing-endeavor-1.0", "reason": "Fresh model announcement but limited independent evidence and lower reader value than application-layer engineering signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 27}]},
+    {"id": "r-sakana-namazu", "title": "Sakana AI launches Sakana Namazu API for Japanese-language business use", "primary_url": "https://sakana.ai/namazu-api/", "reason": "Relevant Japan-specific model API, but published August 3 and offers less incremental value than newer enterprise/model signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-02.json", "source_item_index": 28}]}
+  ],
+  "warnings": [
+    "Both same-day Scout inputs were complete and under the 3-hour curator freshness limit; no previous-day fallback was used.",
+    "Publication-history index contains no entries and gpt_handoff/published/ does not exist; this did not block curation, but prior-publication duplicate suppression could not be exercised.",
+    "Vendor performance and maturity claims are retained only with explicit official-claim or self-reported-benchmark attribution.",
+    "Backlog/rejected choices intentionally cap routine model-release and same-vendor coverage to preserve engineering, scientific-AI and enterprise-workflow diversity."
+  ]
+}
