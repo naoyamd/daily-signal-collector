@@ -1,10 +1,27 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": null,
-  "watchlist_hash": null,
-  "next_index": 0,
-  "last_checked": {},
-  "last_run": null,
-  "warnings": []
+  "updated_at": "2026-09-02T06:07:20+09:00",
+  "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+  "next_index": 7,
+  "last_checked": {
+    "Siemens Digital Industries Software": "2026-09-02T06:07:20+09:00",
+    "Ansys": "2026-09-02T06:07:20+09:00",
+    "Dassault Systèmes": "2026-09-02T06:07:20+09:00",
+    "Hexagon AB": "2026-09-02T06:07:20+09:00",
+    "Altair Engineering": "2026-09-02T06:07:20+09:00",
+    "Cadence Design Systems": "2026-09-02T06:07:20+09:00",
+    "Autodesk": "2026-09-02T06:07:20+09:00"
+  },
+  "last_run": {
+    "local_date": "2026-09-02",
+    "path": "gpt_handoff/company/2026-09-02.json",
+    "commit": "1d5992e4e12cbeceddb193a115e9e094c0f20bd6",
+    "status": "complete",
+    "checked_source_count": 7,
+    "candidate_item_count": 14
+  },
+  "warnings": [
+    "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged."
+  ]
 }
