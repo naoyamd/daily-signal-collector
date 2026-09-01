@@ -1,0 +1,110 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-02T07:12:00+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-02.json",
+      "blob_sha": "example-company-blob-sha",
+      "generated_at": "2026-09-02T06:35:00+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-02.json",
+      "blob_sha": "example-research-blob-sha",
+      "generated_at": "2026-09-02T06:50:00+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "Engineering agents are moving from advice to tool execution.",
+      "supporting_ids": ["example-item-1"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["example-item-1"],
+    "ordered_ids": ["example-item-1"],
+    "central_signals": [
+      "Professional tools are becoming callable parts of agent workflows."
+    ],
+    "tensions_or_caveats": [
+      "Vendor-reported performance is not independent validation."
+    ],
+    "desired_depth": {
+      "example-item-1": "lead"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 20,
+    "deduplicated_item_count": 16,
+    "source_domain_count": 12,
+    "organization_count": 10,
+    "regions_observed": ["US", "EU", "Japan"],
+    "lanes": {
+      "engineering_ai": "covered",
+      "agents_enterprise": "covered",
+      "models_open_weights": "covered",
+      "reports_surveys": "covered",
+      "scientific_wildcards": "covered"
+    },
+    "known_gaps": []
+  },
+  "selected": [
+    {
+      "id": "example-item-1",
+      "event_key": "example-organization:engineering-agent:2026-09-01",
+      "tier": "lead",
+      "title": "Example engineering agent release",
+      "primary_url": "https://example.com/technical-release",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "Example Organization",
+      "company": "Example Organization",
+      "category": "AI設計",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The system executes a defined engineering-tool workflow.",
+        "The published performance figures are reported by the vendor."
+      ],
+      "claims": [
+        {
+          "text": "The system executes a defined engineering-tool workflow.",
+          "source_url": "https://example.com/technical-release",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Product scope section"
+        },
+        {
+          "text": "The vendor reports a shorter turnaround time in its internal evaluation.",
+          "source_url": "https://example.com/technical-release",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Performance section"
+        }
+      ],
+      "why_it_matters": "It shifts engineering AI from assistance toward execution of established tools.",
+      "practical_implication": "Deployment requires explicit permissions, deterministic validation and an auditable approval boundary.",
+      "tags": ["AI-assisted design", "agent", "engineering"],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-09-02.json",
+          "source_item_id": "example-item-1"
+        }
+      ]
+    }
+  ],
+  "wildcards": [],
+  "backlog": [],
+  "rejected": [],
+  "warnings": []
+}
