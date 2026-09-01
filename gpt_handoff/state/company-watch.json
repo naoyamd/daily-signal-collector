@@ -1,0 +1,10 @@
+{
+  "schema": "daily-signal-company-state/v1",
+  "policy_version": 2,
+  "updated_at": null,
+  "watchlist_hash": null,
+  "next_index": 0,
+  "last_checked": {},
+  "last_run": null,
+  "warnings": []
+}
