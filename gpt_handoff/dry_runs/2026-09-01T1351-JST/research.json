@@ -1,6 +1,6 @@
 {
   "schema": "daily-signal-scout/v2",
-  "generated_at": "2026-09-01T14:10:00+09:00",
+  "generated_at": "2026-09-01T13:54:00+09:00",
   "items": [
     {
       "title": "SimScale opens Engineering AI agent to its global community",
@@ -304,8 +304,8 @@
       "stage": "research_scout_dry_run",
       "policy_version": 2,
       "local_date": "2026-09-01",
-      "started_at": "2026-09-01T13:59:00+09:00",
-      "completed_at": "2026-09-01T14:10:00+09:00",
+      "started_at": "2026-09-01T13:52:00+09:00",
+      "completed_at": "2026-09-01T13:54:00+09:00",
       "status": "complete",
       "planned_query_count": 18,
       "executed_query_count": 30
