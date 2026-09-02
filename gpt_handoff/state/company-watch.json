@@ -1,9 +1,9 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-02T06:07:20+09:00",
+  "updated_at": "2026-09-03T06:14:11+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 7,
+  "next_index": 14,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-02T06:07:20+09:00",
     "Ansys": "2026-09-02T06:07:20+09:00",
@@ -11,15 +11,22 @@
     "Hexagon AB": "2026-09-02T06:07:20+09:00",
     "Altair Engineering": "2026-09-02T06:07:20+09:00",
     "Cadence Design Systems": "2026-09-02T06:07:20+09:00",
-    "Autodesk": "2026-09-02T06:07:20+09:00"
+    "Autodesk": "2026-09-02T06:07:20+09:00",
+    "MSC Software": "2026-09-03T06:14:11+09:00",
+    "COMSOL": "2026-09-03T06:14:11+09:00",
+    "ESI Group": "2026-09-03T06:14:11+09:00",
+    "NUMECA International": "2026-09-03T06:14:11+09:00",
+    "Siemens Energy": "2026-09-03T06:14:11+09:00",
+    "Baker Hughes": "2026-09-03T06:14:11+09:00",
+    "Mitsubishi Power": "2026-09-03T06:14:11+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-02",
-    "path": "gpt_handoff/company/2026-09-02.json",
-    "commit": "1d5992e4e12cbeceddb193a115e9e094c0f20bd6",
+    "local_date": "2026-09-03",
+    "path": "gpt_handoff/company/2026-09-03.json",
+    "commit": "16b8ba10765c9bd838188223620d54f4ccf829e1",
     "status": "complete",
     "checked_source_count": 7,
-    "candidate_item_count": 14
+    "candidate_item_count": 7
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged."
