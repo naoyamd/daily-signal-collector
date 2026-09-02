@@ -1,0 +1,206 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-03T06:14:11+09:00",
+  "items": [
+    {
+      "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
+      "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
+      "source": "COMSOL",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-01",
+      "excerpt": "COMSOL compares local and extended-reaction absorber boundary models in wave-based time-domain room acoustics. In the example, local reaction assumptions materially changed decay and clarity metrics; the post also documents dG-FEM impulse-response normalization and notes GPU acceleration for the local-reaction formulation.",
+      "query": "site:comsol.com September 2026 COMSOL simulation engineering",
+      "tags": ["multiphysics", "acoustics", "finite element", "GPU acceleration"],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Agentic AI Within the Simulation Engineering Space",
+      "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
+      "source": "COMSOL",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-27",
+      "excerpt": "COMSOL shows LLMs using its Java API and an agent creating an equation-based model, defining equations, running a study and generating visualizations from one prompt. The post also details Cosmon Nexus workflows for CAD cleanup, simulation setup, solver troubleshooting, sweeps, result evaluation and reporting.",
+      "query": "site:comsol.com August 2026 COMSOL AI simulation engineering agent multiphysics",
+      "tags": ["agentic AI", "COMSOL API", "simulation automation", "engineering agent"],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Insights into the Future of RF and Microwave Technology",
+      "url": "https://www.comsol.com/blogs/insights-into-the-future-of-rf-and-microwave-technology",
+      "source": "COMSOL",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-13",
+      "excerpt": "COMSOL's IMS2026 recap identifies system-level multiphysics, practical AI/ML integration and higher-frequency design as key RF trends. It also notes newer modeling functionality for transmission lines, metamaterial design, far-field optimization and polarization analysis within COMSOL Multiphysics.",
+      "query": "site:comsol.com August 2026 COMSOL RF microwave AI multiphysics",
+      "tags": ["RF", "multiphysics", "AI/ML", "system-level simulation"],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Baker Hughes Awarded Multi-Year Contract by Kuwait Oil Company for Ahmadi Innovation Valley Project",
+      "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Awarded-Multi-Year-Contract-by-Kuwait-Oil-Company-for-Ahmadi-Innovation-Valley-Project/default.aspx",
+      "source": "Baker Hughes",
+      "source_kind": "press_release",
+      "category": "技術サービス",
+      "published_at": "2026-08-11",
+      "excerpt": "Baker Hughes won a multi-year KOC innovation contract centered on scalable production and flow-assurance technology, including digital and AI automation. The agreement includes a dedicated R&D center in Kuwait for evaluating and deploying new solutions at scale.",
+      "query": "site:bakerhughes.com August 2026 Baker Hughes digital AI automation innovation",
+      "tags": ["industrial AI", "R&D", "process optimization", "engineering services"],
+      "organization": "Baker Hughes",
+      "company": "Baker Hughes",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Baker Hughes to Supply Subsea Systems for Kutei Northern Hub Development in Indonesia",
+      "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-to-Supply-Subsea-Systems-for-Kutei-Northern-Hub-Development-in-Indonesia/default.aspx",
+      "source": "Baker Hughes",
+      "source_kind": "press_release",
+      "category": "技術サービス",
+      "published_at": "2026-08-10",
+      "excerpt": "Baker Hughes will supply subsea production systems plus Cordant asset-protection and condition-monitoring solutions for the Kutei Northern Hub. The digital layer is intended to identify risks to critical equipment and reduce unplanned downtime across natural-gas production operations.",
+      "query": "site:bakerhughes.com August 2026 Baker Hughes subsea digital condition monitoring",
+      "tags": ["condition monitoring", "Cordant", "digital services", "MRO"],
+      "organization": "Baker Hughes",
+      "company": "Baker Hughes",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Introducing Redwood: A frontier AI accelerator designed, verified, and deployed from scratch in two weeks by AI",
+      "url": "https://architectlabs.com/blog/redwood",
+      "source": "Architect Labs",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-27",
+      "excerpt": "Discovery candidate: Architect Labs reports an end-to-end AI flow that generated Redwood's performance model, RTL, UVM environments, formal proofs, firmware, drivers and kernels from a human specification in under two weeks. Current validation is on FPGA; ASIC performance remains projected, making the company worth monitoring for autonomous engineering.",
+      "query": "Architect Labs Redwood chip design AI August 2026 official",
+      "tags": ["discovery_candidate", "agentic design", "EDA", "verification", "hardware-software co-design"],
+      "organization": "Architect Labs",
+      "company": "Architect Labs",
+      "document_type": "research blog",
+      "language": "en"
+    },
+    {
+      "title": "Asynchronics Signs New Commercial Deal with Infinite Orbits for OG3 Mission",
+      "url": "https://asynchronics.com/news/infinite-orbits-og3/",
+      "source": "Asynchronics",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-06",
+      "excerpt": "Discovery candidate: Asynchronics reports its first commercial recurring revenue from space-hardware digital-twin licenses, with Infinite Orbits using the twins for flight-software regression testing, anomaly simulation and operator training. The company is a potential watch target for operational digital twins in aerospace engineering.",
+      "query": "August 2026 digital engineering aerospace simulation startup official",
+      "tags": ["discovery_candidate", "digital twin", "aerospace", "simulation", "software verification"],
+      "organization": "Asynchronics",
+      "company": "Asynchronics",
+      "document_type": "press release",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:mscsoftware.com MSC Software August 2026 simulation AI CAE digital engineering",
+    "MSC Nastran Adams Cradle 2026 August official",
+    "site:comsol.com August 2026 COMSOL AI simulation engineering agent multiphysics",
+    "site:comsol.com September 2026 COMSOL simulation engineering",
+    "site:keysight.com ESI Group August 2026 simulation virtual prototyping AI engineering",
+    "Keysight ESI virtual prototyping August 2026 automotive aerospace simulation",
+    "site:cadence.com NUMECA August 2026 CFD turbomachinery Fidelity",
+    "Cadence Fidelity 2026 August CFD turbomachinery AI official",
+    "site:siemens-energy.com August 2026 gas turbine digital twin AI turbine hydrogen manufacturing",
+    "site:siemens-energy.com September 2026 turbine technology service",
+    "site:bakerhughes.com August 2026 gas turbine hydrogen digital AI turbomachinery manufacturing",
+    "site:bakerhughes.com August 2026 Baker Hughes digital AI automation innovation",
+    "site:bakerhughes.com August 2026 Baker Hughes subsea digital condition monitoring",
+    "site:power.mhi.com August 2026 Mitsubishi Power gas turbine hydrogen digital twin AI",
+    "site:mhi.com August 2026 Mitsubishi Power gas turbine hydrogen turbine manufacturing",
+    "Keysight CAE August 2026 simulation",
+    "MSC Software August 2026 site:cadence.com engineering simulation",
+    "NUMECA August 2026 site:community.cadence.com CFD",
+    "Architect Labs Redwood chip design AI August 2026 official",
+    "August 2026 digital engineering aerospace simulation startup official"
+  ],
+  "warnings": [
+    "51 web search queries were executed during exploration and follow-up verification; searched_queries retains 20 representative queries to satisfy the strict handoff cap.",
+    "NUMECA-related search results included an August 10 autonomous aquatic drone item; it was excluded under the configured drone/UAV/UAS/eVTOL exclusion policy.",
+    "Mitsubishi Heavy Industries group releases from late August were reviewed but were not attributed to Mitsubishi Power unless the source explicitly identified Mitsubishi Power.",
+    "The active-source selection was reconstructed from the only dated production company handoff available (2026-09-02) and agrees with the repository company-watch cursor."
+  ],
+  "checked_sources": [
+    {
+      "name": "MSC Software",
+      "status": "no_new_finding",
+      "warning": "Searches across MSC Software, Hexagon and Cadence engineering-simulation surfaces found no clearly dated, qualifying new MSC Software technical announcement in the 30-day window; evergreen product pages and undated event material were not promoted."
+    },
+    {
+      "name": "COMSOL",
+      "status": "found",
+      "query": "site:comsol.com August September 2026 COMSOL AI simulation engineering multiphysics"
+    },
+    {
+      "name": "ESI Group",
+      "status": "no_new_finding",
+      "warning": "Keysight/ESI CAE product and blog surfaces were checked; current ESI-derived CAE releases found were older than the 30-day window or undated, so no item was added."
+    },
+    {
+      "name": "NUMECA International",
+      "status": "no_new_finding",
+      "warning": "Cadence/NUMECA CFD surfaces were checked. A dated August drone-related NUMECA item was excluded by policy, while other relevant turbomachinery and Fidelity CFD material was older or not a new dated announcement."
+    },
+    {
+      "name": "Siemens Energy",
+      "status": "no_new_finding",
+      "warning": "Recent Siemens Energy press and technology pages were checked. The August 25 corporate restructuring announcement was not a technical signal, and no qualifying new gas-turbine/digital-service technical release was found in the window."
+    },
+    {
+      "name": "Baker Hughes",
+      "status": "found",
+      "query": "site:bakerhughes.com August 2026 Baker Hughes digital AI automation condition monitoring"
+    },
+    {
+      "name": "Mitsubishi Power",
+      "status": "no_new_finding",
+      "warning": "Mitsubishi Power and MHI energy news were checked. Late-August MHI group releases concerned other group businesses; no clearly dated new Mitsubishi Power-specific technical signal was found in the 30-day window."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "MSC Software", "category": "CAD・CAE", "domains": ["cadence.com", "hexagon.com", "mscsoftware.com"]},
+        {"name": "COMSOL", "category": "CAD・CAE", "domains": ["comsol.com"]},
+        {"name": "ESI Group", "category": "CAD・CAE", "domains": ["esi-group.com", "keysight.com"]},
+        {"name": "NUMECA International", "category": "CAD・CAE", "domains": ["cadence.com", "numeca.de"]},
+        {"name": "Siemens Energy", "category": "ガスタービン・技術サービス", "domains": ["siemens-energy.com"]},
+        {"name": "Baker Hughes", "category": "ガスタービン・技術サービス", "domains": ["bakerhughes.com"]},
+        {"name": "Mitsubishi Power", "category": "ガスタービン・技術サービス", "domains": ["power.mhi.com", "mhi.com"]}
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-03",
+      "started_at": "2026-09-03T06:12:20+09:00",
+      "completed_at": "2026-09-03T06:14:11+09:00",
+      "status": "complete",
+      "planned_query_count": 16,
+      "executed_query_count": 51
+    },
+    "lookback_days": 30,
+    "selection_basis": {
+      "history_files_consulted": ["gpt_handoff/company/2026-09-02.json"],
+      "prior_active_sources": ["Siemens Digital Industries Software", "Ansys", "Dassault Systèmes", "Hexagon AB", "Altair Engineering", "Cadence Design Systems", "Autodesk"],
+      "next_unchecked_start_index": 7,
+      "config_blob_sha": "388e7404e43bb186fcde3ef47b7d060027efae7c"
+    }
+  }
+}
