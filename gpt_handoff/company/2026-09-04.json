@@ -1,0 +1,331 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-04T06:10:47+09:00",
+  "items": [
+    {
+      "title": "Chromalloy marks 75 Years of Aerospace Innovation, Engineering Excellence, and Engine Lifecycle Leadership",
+      "url": "https://www.chromalloy.com/chromalloy-marks-75-years-of-aerospace-innovation-engineering-excellence-and-engine-lifecycle-leadership/",
+      "source": "Chromalloy",
+      "source_kind": "press_release",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-08-24",
+      "excerpt": "Chromalloy’s anniversary release summarizes its gas-path aftermarket model around advanced repairs, FAA-approved PMA parts and component manufacturing. It states the company has more than 60 FAA-approved gas-path PMA parts with over six billion part flight hours, backed by design engineering, testing and manufacturing investments.",
+      "query": "site:chromalloy.com Chromalloy aerospace engine MRO August 2026",
+      "tags": ["MRO", "gas path", "PMA", "engine lifecycle"],
+      "organization": "Chromalloy",
+      "company": "Chromalloy",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Chromalloy Receives Indonesia DGCA Approval for CFM56-5B/7B PMA Parts",
+      "url": "https://www.chromalloy.com/chromalloy-receives-indonesia-dgca-approval-for-cfm56-5b-7b-pma-parts/",
+      "source": "Chromalloy",
+      "source_kind": "press_release",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-08-14",
+      "excerpt": "Indonesia’s DGCA approved Chromalloy PMA solutions for CFM56-5B/7B engines, expanding access to its FAA-approved alternate hot-section parts in Indonesia. Chromalloy says it has developed more than 60 FAA-approved gas-path alternate parts with over six billion flight hours worldwide.",
+      "query": "site:chromalloy.com August 2026 Chromalloy CFM56 PMA DGCA",
+      "tags": ["CFM56", "PMA", "MRO", "regulatory approval"],
+      "organization": "Chromalloy",
+      "company": "Chromalloy",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Quest Global Expands Strategic Relationship with Babcock Through Five-Year Group Engineering Services Framework",
+      "url": "https://www.questglobal.com/news/press-releases/quest-global-expands-strategic-relationship-with-babcock-through-five-year-group-engineering-services-framework/",
+      "source": "Quest Global",
+      "source_kind": "press_release",
+      "category": "技術サービス",
+      "published_at": "2026-08-26",
+      "excerpt": "Quest Global was appointed to Babcock International’s five-year Engineering Services Framework. The relationship spans Nuclear, Marine, Aviation, Land and Mission Systems programs and is intended to support scale, operational performance, affordability and long-term resilience through multidisciplinary engineering services.",
+      "query": "site:questglobal.com Quest Global engineering aerospace August 2026",
+      "tags": ["engineering services", "aviation", "defense", "lifecycle engineering"],
+      "organization": "Quest Global",
+      "company": "Quest Global",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Cyient unveils new brand positioning: ‘Nothing Less’",
+      "url": "https://www.cyient.com/news/2026/8/cyient-unveils-new-brand-positioning-nothing-less",
+      "source": "Cyient",
+      "source_kind": "press_release",
+      "category": "技術サービス",
+      "published_at": "2026-08-24",
+      "excerpt": "Cyient repositioned itself as a Global Lifecycle Engineering Services company spanning design, manufacture and services, with AI applied in context alongside domain engineering. The company says the model covers mission-critical sectors including aerospace and is intended to deliver intelligent engineering across the full asset lifecycle.",
+      "query": "site:cyient.com Cyient engineering aerospace AI August 2026",
+      "tags": ["lifecycle engineering", "AI", "aerospace", "engineering services"],
+      "organization": "Cyient",
+      "company": "Cyient",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Capgemini Accelerates the Future of Engineering at Nasscom Design & Engineering Summit 2026",
+      "url": "https://www.capgemini.com/in-en/news/events/capgemini-accelerates-the-future-of-engineering-at-nasscom-design-engineering-summit-2026/",
+      "source": "Capgemini Engineering",
+      "source_kind": "official",
+      "category": "技術サービス",
+      "excerpt": "For the Sept. 1–2 Nasscom Design & Engineering Summit, Capgemini framed AI-native engineering as embedding AI into product development, manufacturing and innovation rather than adding automation after the fact. Its program highlights engineering agents across the lifecycle, digital engineering showcases and an Engineering & R&D Pulse Report 2026.",
+      "query": "site:capgemini.com Capgemini Engineering AI-native engineering September 2026",
+      "tags": ["AI-native engineering", "engineering agents", "product development", "manufacturing"],
+      "organization": "Capgemini Engineering",
+      "company": "Capgemini Engineering",
+      "document_type": "official event page",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace Awarded Defense Innovation Unit Contract to Advance Hypersonic Test Bed Development for HyCAT Program",
+      "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-awarded-defense-innovation-unit-contract-advance-hypersonic-test-bed",
+      "source": "GE Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-01",
+      "excerpt": "GE Aerospace received a DIU contract to advance a liquid-fueled hypersonic HyCAT test platform. The 2026 phase covers design and development of a combined booster/cruiser all-up-round, full integration, and initial qualification and component testing; Edison Works identifies rapid prototyping and digital engineering as core capabilities.",
+      "query": "site:geaerospace.com September 2026 HyCAT digital engineering hypersonic test bed",
+      "tags": ["hypersonic", "digital engineering", "rapid prototyping", "propulsion"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace engineers in Bengaluru advance new services technologies to support customers",
+      "url": "https://www.geaerospace.com/news/press-releases/india/ge-aerospace-engineers-bengaluru-advance-new-services-technologies-support-customers",
+      "source": "GE Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-18",
+      "excerpt": "GE Aerospace’s Bengaluru center is scaling engine-services technologies including 360 Foam Wash, AI-enabled blade inspection and analytics-based maintenance. The company says its Blade Inspection Tool cuts GEnx inspection time by about 50%, while the team also supports dust-endurance testing, CFM RISE Open Fan and hybrid-electric work.",
+      "query": "site:geaerospace.com August 2026 Bengaluru AI inspection MRO engine durability",
+      "tags": ["MRO", "AI inspection", "engine health monitoring", "CFM RISE"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace’s Celma location at 75: A legacy of excellence in Brazil, a future built for flight",
+      "url": "https://www.geaerospace.com/news/articles/latam/ge-aerospaces-celma-location-75-legacy-excellence-brazil-future-built-flight",
+      "source": "GE Aerospace",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-27",
+      "excerpt": "GE Aerospace says its Celma operation supports about 25% of the company’s worldwide engine-maintenance demand across CFM56, CF6 and GEnx families. The Brazilian MRO network has nearly 3,000 employees and is expanding LEAP capability; GE also reports CFM56 final-assembly lead time fell from 13 to 7 days.",
+      "query": "site:geaerospace.com August 27 2026 Celma MRO LEAP engine maintenance",
+      "tags": ["MRO", "CFM56", "GEnx", "LEAP", "manufacturing"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "official article",
+      "language": "en"
+    },
+    {
+      "title": "Pulling Through: GE Aerospace’s 2026 Supplier of the Year Works Hard to Keep Parts Moving",
+      "url": "https://www.geaerospace.com/news/articles/pulling-through-ge-aerospaces-2026-supplier-year-works-hard-keep-parts-moving",
+      "source": "GE Aerospace",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-31",
+      "excerpt": "GE Aerospace describes a supply-base program that combines direct investment, steadier demand signals and deployment of its FLIGHT DECK lean operating model at suppliers. The company reports engine deliveries rose 31% in Q2 2026, alongside double-digit material-input growth from priority suppliers for nine consecutive quarters.",
+      "query": "site:geaerospace.com August 31 2026 supplier FLIGHT DECK engine manufacturing",
+      "tags": ["supply chain", "manufacturing", "FLIGHT DECK", "engine delivery"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "official article",
+      "language": "en"
+    },
+    {
+      "title": "Rolls-Royce Completes $1 Billion Investment in Indiana, Cementing Indianapolis as One of the Most Advanced Engine Manufacturing and Test Campuses in the World",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/27-08-2026-rr-completes-dollars-1-billion-investment-in-indiana.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-27",
+      "excerpt": "Rolls-Royce completed a decade-long $1 billion modernization of its Indiana manufacturing, assembly and test facilities, adding full engine-test capability including ground and altitude testing. The Indianapolis campus also houses LibertyWorks advanced R&D, including high-temperature materials and propulsion work.",
+      "query": "site:rolls-royce.com August 27 2026 Indiana engine manufacturing test investment",
+      "tags": ["advanced manufacturing", "engine testing", "high-temperature materials", "propulsion"],
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Reliance Industries and Rolls-Royce announce strategic intent to partner and develop India's indigenous combat engine for the AMCA programme",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/14-08-2026-reliance-industries-and-rolls-royce-announce-strategic-intent-to-partner-and-develop-indias-indigenous-combat-engine-for-the-amca-programme.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-14",
+      "excerpt": "Rolls-Royce and Reliance announced strategic intent to partner on design, development, manufacturing and delivery of a sovereign combat-aircraft engine for India’s AMCA program. The companies will also explore a dedicated Aerospace Gas Turbine Complex as an Indian center of excellence for power and propulsion technology.",
+      "query": "site:rolls-royce.com August 2026 AMCA indigenous combat engine gas turbine",
+      "tags": ["combat engine", "gas turbine", "propulsion", "manufacturing"],
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Building Beyond CAD: On Generative Optimization for Engineering",
+      "url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+      "source": "PhysicsX",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-25",
+      "excerpt": "Discovery candidate: PhysicsX argues that optimization remains constrained by low-dimensional parametric CAD and presents generative optimization that expands geometry while evaluating physics with AI. Its focus on physics AI, CAD/CAE and aerospace/materials/manufacturing makes it a strong watchlist candidate.",
+      "query": "PhysicsX August 25 2026 generative optimization engineering CAD physics AI",
+      "tags": ["discovery_candidate", "physics AI", "generative optimization", "CAD", "CAE"],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "SimScale opens Engineering AI agent to its global community",
+      "url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+      "source": "SimScale",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-08-18",
+      "excerpt": "Discovery candidate: SimScale opened its Engineering AI agent to more than 900,000 users and says it can execute a full simulation workflow from CAD cleanup and setup through an output report. The combination of agentic CAE, CFD/FEA/thermal tools and production usage makes SimScale a high-value watch target.",
+      "query": "SimScale Engineering AI agent open community August 18 2026",
+      "tags": ["discovery_candidate", "agentic CAE", "CFD", "FEA", "simulation automation"],
+      "organization": "SimScale",
+      "company": "SimScale",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Agentic AI for Aerospace: Faster Design-to-Cost Cycles, Faster Time-to-Market",
+      "url": "https://www.synera.ai/webinar/agentic-ai-for-aerospace",
+      "source": "Synera",
+      "source_kind": "official",
+      "category": "AIによる設計",
+      "published_at": "2026-08-27",
+      "excerpt": "Discovery candidate: Synera’s dated aerospace session shows agents joining existing design, simulation and costing tools in one workflow, including a NASA multi-agent example and an aircraft design-to-cost demonstration. Synera’s CAD/CAE/PLM execution focus makes it worth continued monitoring for production engineering agents.",
+      "query": "Synera Agentic AI for Aerospace August 27 2026 design simulation costing",
+      "tags": ["discovery_candidate", "agentic engineering", "aerospace", "CAD", "CAE", "PLM"],
+      "organization": "Synera",
+      "company": "Synera",
+      "document_type": "official webinar page",
+      "language": "en"
+    },
+    {
+      "title": "Letara Raises ¥2.6 Billion in Pre-Series A Round to Accelerate Development of Low-Cost Rocket Engines",
+      "url": "https://www.letaranext.com/blog/letara-raises-2-6-billion-yen-pre-series-a-round-low-cost-rocket-engines",
+      "source": "Letara",
+      "source_kind": "press_release",
+      "category": "推進",
+      "published_at": "2026-08-20",
+      "excerpt": "Discovery candidate: Sapporo-based Letara raised about ¥2.6 billion to accelerate low-cost rocket-engine development. The Hokkaido University spinout is developing hybrid propulsion using solid polymer fuel and liquid oxidizer, with active work from in-space propulsion toward larger launch systems, making it a useful Japan propulsion watch target.",
+      "query": "Letara August 20 2026 rocket engine propulsion funding official",
+      "tags": ["discovery_candidate", "propulsion", "hybrid rocket", "Japan", "aerospace startup"],
+      "organization": "Letara",
+      "company": "Letara",
+      "document_type": "press release",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:solarturbines.com Solar Turbines gas turbine digital service technology August 2026",
+    "site:chromalloy.com Chromalloy aerospace engine MRO August 2026",
+    "site:chromalloy.com August 2026 Chromalloy CFM56 PMA DGCA",
+    "site:questglobal.com Quest Global engineering aerospace August 2026",
+    "site:cyient.com Cyient engineering aerospace AI August 2026",
+    "site:capgemini.com Capgemini Engineering AI-native engineering September 2026",
+    "site:geaerospace.com GE Aerospace August September 2026 engine MRO digital engineering manufacturing",
+    "site:geaerospace.com September 2026 HyCAT digital engineering hypersonic test bed",
+    "site:geaerospace.com August 2026 Bengaluru AI inspection MRO engine durability",
+    "site:geaerospace.com August 27 2026 Celma MRO LEAP engine maintenance",
+    "site:geaerospace.com August 31 2026 supplier FLIGHT DECK engine manufacturing",
+    "site:rolls-royce.com Rolls-Royce aerospace engine August September 2026 manufacturing propulsion",
+    "site:rolls-royce.com August 2026 AMCA indigenous combat engine gas turbine",
+    "PhysicsX August 25 2026 generative optimization engineering CAD physics AI",
+    "SimScale Engineering AI agent open community August 18 2026",
+    "Synera Agentic AI for Aerospace August 27 2026 design simulation costing",
+    "Letara August 20 2026 rocket engine propulsion funding official",
+    "August 2026 physics AI generative design engineering startup official",
+    "August 2026 agentic CAE engineering simulation official",
+    "August 2026 aerospace propulsion startup Japan official"
+  ],
+  "warnings": [
+    "Capgemini’s official page is tied to the Sept. 1–2, 2026 event but does not expose a distinct publication timestamp, so published_at is intentionally omitted rather than inferred from the event date.",
+    "Chromalloy’s CFM56 DGCA release body is dated August 14, 2026 while the site index/WordPress metadata displays August 17; published_at uses the press-release dateline.",
+    "Synera’s Aug. 27 date is verified from the official homepage listing that links to the webinar page; the webinar page itself does not display the date.",
+    "Configured drone/UAV/UAS/eVTOL/air-taxi items were excluded; no evergreen or undated product page was used to inflate the candidate pool."
+  ],
+  "checked_sources": [
+    {
+      "name": "Solar Turbines",
+      "status": "no_new_finding",
+      "warning": "Official Solar Turbines technology/product surfaces and recent web results were checked; no clearly dated qualifying technical announcement was found in the 30-day window, so evergreen gas-turbine and digital-monitoring pages were not promoted."
+    },
+    {
+      "name": "Chromalloy",
+      "status": "found",
+      "query": "site:chromalloy.com Chromalloy aerospace engine MRO August 2026"
+    },
+    {
+      "name": "Quest Global",
+      "status": "found",
+      "query": "site:questglobal.com Quest Global engineering aerospace August 2026"
+    },
+    {
+      "name": "Cyient",
+      "status": "found",
+      "query": "site:cyient.com Cyient engineering aerospace AI August 2026"
+    },
+    {
+      "name": "Capgemini Engineering",
+      "status": "found",
+      "query": "site:capgemini.com Capgemini Engineering AI-native engineering September 2026"
+    },
+    {
+      "name": "GE Aerospace",
+      "status": "found",
+      "query": "site:geaerospace.com GE Aerospace August September 2026 engine MRO digital engineering manufacturing"
+    },
+    {
+      "name": "Rolls-Royce",
+      "status": "found",
+      "query": "site:rolls-royce.com Rolls-Royce aerospace engine August September 2026 manufacturing propulsion"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Solar Turbines", "category": "ガスタービン・技術サービス", "domains": ["solarturbines.com"]},
+        {"name": "Chromalloy", "category": "ガスタービン・技術サービス", "domains": ["chromalloy.com"]},
+        {"name": "Quest Global", "category": "技術サービス", "domains": ["questglobal.com"]},
+        {"name": "Cyient", "category": "技術サービス", "domains": ["cyient.com"]},
+        {"name": "Capgemini Engineering", "category": "技術サービス", "domains": ["capgemini.com"]},
+        {"name": "GE Aerospace", "category": "航空機エンジン", "domains": ["geaerospace.com"]},
+        {"name": "Rolls-Royce", "category": "航空機エンジン", "domains": ["rolls-royce.com"]}
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-04",
+      "started_at": "2026-09-04T06:10:47+09:00",
+      "completed_at": "2026-09-04T06:10:47+09:00",
+      "status": "complete",
+      "planned_query_count": 14,
+      "executed_query_count": 24
+    },
+    "lookback_days": 30,
+    "selection_basis": {
+      "state_path": "gpt_handoff/state/company-watch.json",
+      "state_blob_sha": "3aa94e65005d8e00460f9a78bc22eed8215b7e8e",
+      "history_files_consulted": ["gpt_handoff/company/2026-09-03.json"],
+      "next_index_before_run": 14,
+      "next_index_after_run": 21,
+      "config_blob_sha": "388e7404e43bb186fcde3ef47b7d060027efae7c"
+    },
+    "discovery": {
+      "organizations": ["PhysicsX", "SimScale", "Synera", "Letara"],
+      "count": 4
+    }
+  }
+}
