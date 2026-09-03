@@ -1,7 +1,7 @@
 {
   "schema": "daily-signal-published-index/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-03T07:22:43+09:00",
+  "updated_at": "2026-09-04T07:18:16+09:00",
   "retention_days": 180,
   "entries": [
     {
@@ -181,6 +181,80 @@
         "Gemini",
         "open weights",
         "MCP"
+      ]
+    },
+    {
+      "event_keys": [
+        "ptc:onshape-featurescript-mcp:2026-08-13",
+        "physicsx:px-car-aero-v1:2026-08-07",
+        "ge-aerospace:bengaluru-ai-blade-inspection:2026-08-18",
+        "synera:26-07-quick-quilla-mcp:2026-08-11",
+        "physicsx:generative-optimization-beyond-cad:2026-08-25",
+        "ge-aerospace:hycat-test-bed-contract:2026-09-01",
+        "rolls-royce:indiana-manufacturing-test-modernization:2026-08-27",
+        "broadcom:agentminder-runtime-governance:2026-08-31",
+        "microsoft:foundry-context-engineering-cost:2026-09-02",
+        "pwc:operations-digital-trends-2026:2026-08-06",
+        "huggingface:state-open-models-summer-2026:2026-08-14",
+        "ntt-data:litron-enterprise-agent-platform:2026-08-25",
+        "ai2-providence:autodiscovery-ilc-immune-signal:2026-09"
+      ],
+      "published_item_ids": [
+        "r-onshape-mcp",
+        "r-px-car-aero",
+        "c-ge-bit",
+        "r-synera-quick",
+        "c-physicsx-genopt",
+        "c-ge-hycat",
+        "c-rr-indiana",
+        "r-agentminder",
+        "r-ms-context",
+        "r-pwc-ops",
+        "r-hf-open-models",
+        "r-ntt-litron",
+        "r-ai2-autodiscovery"
+      ],
+      "primary_urls": [
+        "https://www.ptc.com/en/news/2026/onshape-launches-featurescript-mcp-server",
+        "https://www.physicsx.ai/newsroom/scaling-physics-ai-for-automotive-aerodynamics-part-ii-meet-px-car-aero-v1",
+        "https://www.geaerospace.com/news/press-releases/india/ge-aerospace-engineers-bengaluru-advance-new-services-technologies-support-customers",
+        "https://www.synera.ai/webinar-registration/product-release-26-07-quick-quilla",
+        "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+        "https://www.geaerospace.com/news/press-releases/ge-aerospace-awarded-defense-innovation-unit-contract-advance-hypersonic-test-bed",
+        "https://www.rolls-royce.com/media/press-releases/2026/27-08-2026-rr-completes-dollars-1-billion-investment-in-indiana.aspx",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent",
+        "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+        "https://www.pwc.com/jp/ja/knowledge/thoughtleadership/digital-trends-operations-survey.html",
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "https://www.nttdata.com/global/ja/news/topics/2026/082501/",
+        "https://allenai.org/newsletters/2026-09-newsletter"
+      ],
+      "article_repository": "naoyamd/daily-signal",
+      "article_path": "content/daily/2026-09-04-daily-signal.md",
+      "article_commit": "8cd81974023eecfeaa194fda190fc7b601ec2c1e",
+      "published_at": "2026-09-04T07:18:16+09:00",
+      "title": "AIが設計知を再利用可能なツールへ――CAD・CAE実行、航空エンジンのデジタル化、Agent運用の統治",
+      "organizations": [
+        "PTC",
+        "PhysicsX",
+        "GE Aerospace",
+        "Synera GmbH",
+        "Rolls-Royce",
+        "Broadcom",
+        "Microsoft",
+        "PwC",
+        "Hugging Face",
+        "NTT DATA",
+        "Allen Institute for AI / Providence"
+      ],
+      "tags": [
+        "AIによる設計",
+        "CAD・CAE",
+        "航空機エンジン",
+        "AIエージェント",
+        "企業AI",
+        "オープンウェイト・OSS",
+        "Scientific AI"
       ]
     }
   ],
