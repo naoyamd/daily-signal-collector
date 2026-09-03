@@ -1,0 +1,768 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-04T07:07:22+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-04.json",
+      "blob_sha": "60ffb21906acc57adbcd6f6237adbd6caeb9f9e3",
+      "generated_at": "2026-09-04T06:10:47+09:00",
+      "item_count": 15
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-04.json",
+      "blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3",
+      "generated_at": "2026-09-04T06:31:31+09:00",
+      "item_count": 32
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "Engineering AI is moving from one-shot generation toward reusable tool creation and execution: Onshape turns natural-language intent into reusable FeatureScript CAD features, while Synera exposes established engineering workflows as MCP tools.",
+      "supporting_ids": ["r-onshape-mcp", "r-synera-quick"]
+    },
+    {
+      "signal": "Physics AI is being pushed closer to production design loops through transferable geometry priors and pretrained CFD models, with vendor-reported reductions in simulation-data demand rather than wholesale replacement of engineering validation.",
+      "supporting_ids": ["c-physicsx-genopt", "r-px-car-aero"]
+    },
+    {
+      "signal": "Aerospace engine organizations are combining AI-enabled inspection, digital engineering, rapid prototyping, advanced manufacturing and expanded test capacity across the engine lifecycle.",
+      "supporting_ids": ["c-ge-bit", "c-ge-hycat", "c-rr-indiana"]
+    },
+    {
+      "signal": "Enterprise-agent scaling is increasingly constrained by runtime authorization, context/token economics and integration/data quality rather than model access alone.",
+      "supporting_ids": ["r-agentminder", "r-ms-context", "r-pwc-ops"]
+    },
+    {
+      "signal": "Open-model value is concentrating around reproducibility, practical adoption and operating economics: ecosystem telemetry is highly concentrated while fully exposed training lifecycles remain strategically notable.",
+      "supporting_ids": ["r-hf-open-models", "r-k2-horizon"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["r-onshape-mcp", "r-px-car-aero", "c-ge-bit"],
+    "ordered_ids": [
+      "r-onshape-mcp",
+      "r-px-car-aero",
+      "c-ge-bit",
+      "r-synera-quick",
+      "c-physicsx-genopt",
+      "c-ge-hycat",
+      "c-rr-indiana",
+      "r-agentminder",
+      "r-ms-context",
+      "r-pwc-ops",
+      "r-hf-open-models",
+      "r-k2-horizon"
+    ],
+    "central_signals": [
+      "Engineering agents are becoming interfaces to reusable CAD/CAE capabilities rather than merely chat layers.",
+      "The practical physics-AI pattern is transfer learning and model-assisted acceleration embedded inside established engineering workflows.",
+      "Aerospace digitalization is visible across inspection, development, manufacturing and test infrastructure, not only conceptual design.",
+      "Production agents require explicit authorization, bounded context, cost controls and integrated data foundations.",
+      "Open-model competition increasingly depends on reproducibility and real adoption, not raw repository count or parameter count."
+    ],
+    "tensions_or_caveats": [
+      "PhysicsX, GE Aerospace, Microsoft and other vendor performance figures are self-reported and must remain attributed.",
+      "MCP/tool connectivity increases reuse but also enlarges the authorization and audit surface.",
+      "The first-party Hugging Face report measures Hub activity; downloads are not equivalent to production deployment.",
+      "K2 Horizon release details were cross-checked against official Hugging Face resources because the IFM launch page was not parseable in the verification environment."
+    ],
+    "desired_depth": {
+      "r-onshape-mcp": "lead",
+      "r-px-car-aero": "lead",
+      "c-ge-bit": "lead",
+      "r-synera-quick": "standard",
+      "c-physicsx-genopt": "standard",
+      "c-ge-hycat": "standard",
+      "c-rr-indiana": "standard",
+      "r-agentminder": "standard",
+      "r-ms-context": "standard",
+      "r-pwc-ops": "report",
+      "r-hf-open-models": "report",
+      "r-k2-horizon": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 47,
+    "deduplicated_item_count": 47,
+    "source_domain_count": 36,
+    "organization_count": 35,
+    "regions_observed": ["US", "Europe", "Japan", "India", "China", "Middle East", "global/research"],
+    "lanes": {
+      "company_watch": "7 mandatory organizations checked; six returned candidates and Solar Turbines returned no qualifying new finding; four discovery organizations were also represented.",
+      "engineering_ai": "strong coverage across CAD, CAE, CFD, generative optimization and engineering-agent execution",
+      "agents_enterprise": "strong coverage across governance, context economics, workflow execution and private infrastructure",
+      "models_open_weights": "broad coverage; final selection intentionally favors ecosystem/reproducibility signals over a cluster of routine model launches",
+      "reports_surveys": "covered with PwC operations survey, Hugging Face ecosystem report, Stanford workforce analysis and EY cost survey",
+      "scientific_wildcards": "covered through Physics AI, digital factory work and Ai2 AutoDiscovery",
+      "non_us_rotation": "covered through Japan, Europe, China, India and Middle East candidates"
+    },
+    "known_gaps": [
+      "No new Solar Turbines item qualified in the company-watch window.",
+      "The selected pool contains more software/AI platform signals than new peer-reviewed aerospace-engine research because the current Company rotation emphasized service, engineering and propulsion organizations.",
+      "Several model-release candidates expose only vendor benchmarks; diversity controls kept most of them out of selected.",
+      "The Chemical Reviews materials-discovery review was corrected to an August 3 online-publication date during verification, placing it outside the intended 30-day Scout lookback and therefore out of the selected pool."
+    ]
+  },
+  "selected": [
+    {
+      "id": "r-onshape-mcp",
+      "event_key": "ptc:onshape-featurescript-mcp:2026-08-13",
+      "tier": "lead",
+      "title": "PTC launches Onshape FeatureScript MCP Server for reusable AI-built CAD features",
+      "primary_url": "https://www.ptc.com/en/news/2026/onshape-launches-featurescript-mcp-server",
+      "supporting_urls": [],
+      "published_at": "2026-08-13",
+      "organization": "PTC",
+      "company": "PTC",
+      "category": "AIによる設計・CAD",
+      "source_kind": "press_release",
+      "factual_points": [
+        "PTC made the Onshape FeatureScript MCP Server available through Onshape Labs on August 13, 2026.",
+        "Engineers can describe a custom CAD feature in natural language and use an LLM to build, test, debug and refine FeatureScript.",
+        "The resulting FeatureScript feature is reusable and shareable across teams without requiring the same prompt interaction each time."
+      ],
+      "claims": [
+        {
+          "text": "Onshape FeatureScript MCP Server connects coding LLMs to FeatureScript so engineers can create and refine custom CAD features from natural-language requirements.",
+          "source_url": "https://www.ptc.com/en/news/2026/onshape-launches-featurescript-mcp-server",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "release lines describing availability, natural-language creation and build/test/debug/refine loop"
+        },
+        {
+          "text": "PTC positions the output as reusable engineering automation that can capture and scale design knowledge across teams.",
+          "source_url": "https://www.ptc.com/en/news/2026/onshape-launches-featurescript-mcp-server",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "benefits and FeatureScript description"
+        }
+      ],
+      "why_it_matters": "This is a concrete shift from text-to-CAD output toward text-to-code-to-reusable-CAD capability, preserving engineering knowledge as a maintained tool rather than disposable generated geometry.",
+      "practical_implication": "Engineering organizations can treat AI-generated automation as governed source code: review it, test it, version it and reuse it across product families instead of repeatedly prompting a general model.",
+      "tags": ["Onshape", "CAD", "MCP", "FeatureScript", "engineering automation"],
+      "scores": {"novelty": 4.6, "source_quality": 5.0, "evidence_strength": 4.8, "engineering_relevance": 5.0, "enterprise_relevance": 4.2, "strategic_significance": 4.7, "reader_value": 4.8},
+      "weighted_score": 4.75,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 0}]
+    },
+    {
+      "id": "r-px-car-aero",
+      "event_key": "physicsx:px-car-aero-v1:2026-08-07",
+      "tier": "lead",
+      "title": "PhysicsX PX-Car-Aero-v1 pretrains a large physics model for automotive aerodynamics",
+      "primary_url": "https://www.physicsx.ai/newsroom/scaling-physics-ai-for-automotive-aerodynamics-part-ii-meet-px-car-aero-v1",
+      "supporting_urls": [],
+      "published_at": "2026-08-07",
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "category": "AIによる設計・CFD",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "PX-Car-Aero-v1 was pretrained on 33,203 RANS automotive simulations spanning 444 baseline vehicles plus morphed variants.",
+        "The model predicts drag/lift scalars plus surface and volumetric fields without requiring a volumetric CFD mesh at inference.",
+        "PhysicsX reports that fine-tuning reaches comparable performance to the same architecture trained from scratch with approximately 80% less simulation data, including cross-simulator adaptation tests.",
+        "The published comparison uses identical post-initialization training procedures and repeated train/validation splits, but the evaluation remains vendor-reported."
+      ],
+      "claims": [
+        {
+          "text": "PX-Car-Aero-v1 uses a 33,203-simulation pretraining corpus and predicts scalar aerodynamic forces plus surface and volume fields.",
+          "source_url": "https://www.physicsx.ai/newsroom/scaling-physics-ai-for-automotive-aerodynamics-part-ii-meet-px-car-aero-v1",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "introduction and PXNetCar/architecture sections"
+        },
+        {
+          "text": "PhysicsX reports approximately 80% lower fine-tuning simulation-data requirements than training the same architecture from scratch for comparable performance.",
+          "source_url": "https://www.physicsx.ai/newsroom/scaling-physics-ai-for-automotive-aerodynamics-part-ii-meet-px-car-aero-v1",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "industrial-use-case and fine-tuning comparison sections"
+        }
+      ],
+      "why_it_matters": "The noteworthy engineering pattern is reuse of a pretrained physical representation across new geometries and solver regimes, potentially reducing the recurring high-fidelity data cost that limits surrogate deployment.",
+      "practical_implication": "For aerospace/CAE programs, evaluate pretraining not only on zero-shot error but on how much new simulation data is required to adapt to a different design family, fidelity level and solver configuration.",
+      "tags": ["CFD", "large physics model", "surrogate", "pretraining", "transfer learning"],
+      "scores": {"novelty": 4.7, "source_quality": 4.3, "evidence_strength": 4.1, "engineering_relevance": 5.0, "enterprise_relevance": 3.3, "strategic_significance": 4.7, "reader_value": 4.8},
+      "weighted_score": 4.5,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 3}]
+    },
+    {
+      "id": "c-ge-bit",
+      "event_key": "ge-aerospace:bengaluru-ai-blade-inspection:2026-08-18",
+      "tier": "lead",
+      "title": "GE Aerospace Bengaluru scales AI-enabled blade inspection and analytics-based engine maintenance",
+      "primary_url": "https://www.geaerospace.com/news/press-releases/india/ge-aerospace-engineers-bengaluru-advance-new-services-technologies-support-customers",
+      "supporting_urls": [],
+      "published_at": "2026-08-18",
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "category": "航空機エンジン",
+      "source_kind": "press_release",
+      "factual_points": [
+        "GE Aerospace describes an AI-enabled Blade Inspection Tool used by trained technicians to capture turbine-blade images and improve review consistency.",
+        "GE reports roughly 50% lower GEnx inspection time with the tool; this is a company-reported performance figure.",
+        "The Bengaluru team also works on ABM.AI and engine health monitoring that combines visual inspection, AI and physics-based insights.",
+        "The same center contributes to dust-endurance testing, CFM RISE Open Fan and hybrid-electric propulsion work."
+      ],
+      "claims": [
+        {
+          "text": "GE Aerospace is expanding AI-enabled blade inspection and analytics-based maintenance within engine-services workflows.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/india/ge-aerospace-engineers-bengaluru-advance-new-services-technologies-support-customers",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "AI-Enabled Inspection and Analytics Tech section"
+        },
+        {
+          "text": "GE Aerospace says its Blade Inspection Tool cuts GEnx inspection times by about 50%.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/india/ge-aerospace-engineers-bengaluru-advance-new-services-technologies-support-customers",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Blade Inspection Tool performance statement"
+        }
+      ],
+      "why_it_matters": "This is a direct aerospace-engine example of AI embedded in an established inspection and maintenance process, where human technicians, images, physics signals and fleet operations all remain part of the loop.",
+      "practical_implication": "Engineering AI programs should measure cycle-time reduction together with inspection consistency, false-negative/false-positive behavior, technician override and downstream maintenance decisions rather than treating model accuracy alone as the deployment metric.",
+      "tags": ["MRO", "AI inspection", "turbine blade", "engine health monitoring", "CFM RISE"],
+      "scores": {"novelty": 4.2, "source_quality": 5.0, "evidence_strength": 4.6, "engineering_relevance": 5.0, "enterprise_relevance": 4.0, "strategic_significance": 4.5, "reader_value": 4.8},
+      "weighted_score": 4.62,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_blob_sha": "60ffb21906acc57adbcd6f6237adbd6caeb9f9e3", "source_item_index": 6}]
+    },
+    {
+      "id": "r-synera-quick",
+      "event_key": "synera:26-07-quick-quilla-mcp:2026-08-11",
+      "tier": "standard",
+      "title": "Synera 26.07 Quick Quilla exposes engineering workflows as MCP tools",
+      "primary_url": "https://www.synera.ai/webinar-registration/product-release-26-07-quick-quilla",
+      "supporting_urls": [],
+      "published_at": "2026-08-11",
+      "organization": "Synera GmbH",
+      "company": "Synera",
+      "category": "AIによる設計・CAD/CAE",
+      "source_kind": "official",
+      "factual_points": [
+        "Synera 26.07 adds a built-in Run MCP server that lets external agents execute engineering workflows previously created by domain experts.",
+        "Synera agents can use remote MCP-server tools, and generated meshes/geometry can be inspected directly in chat.",
+        "The release unifies rule-based and multi-agent workflow entry points rather than requiring every engineering task to be rebuilt as an LLM-only process."
+      ],
+      "claims": [
+        {
+          "text": "External agents can call established Synera engineering workflows through the built-in Run MCP server.",
+          "source_url": "https://www.synera.ai/webinar-registration/product-release-26-07-quick-quilla",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "What's new / Synera Run MCP section"
+        },
+        {
+          "text": "The release supports remote MCP tools and in-chat inspection of generated 3D output.",
+          "source_url": "https://www.synera.ai/webinar-registration/product-release-26-07-quick-quilla",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "agents that see and reach further section"
+        }
+      ],
+      "why_it_matters": "It shows one deployment architecture for agentic engineering: keep deterministic expert-built workflows intact and expose them as callable tools to whichever agent environment the organization uses.",
+      "practical_implication": "Organizations can separate validated engineering workflow ownership from conversational-agent choice, reducing the need to reimplement domain logic when models or front ends change.",
+      "tags": ["engineering agent", "MCP", "CAD", "CAE", "PLM", "multi-agent"],
+      "scores": {"novelty": 4.4, "source_quality": 4.5, "evidence_strength": 4.4, "engineering_relevance": 5.0, "enterprise_relevance": 4.0, "strategic_significance": 4.6, "reader_value": 4.6},
+      "weighted_score": 4.55,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 1}]
+    },
+    {
+      "id": "c-physicsx-genopt",
+      "event_key": "physicsx:generative-optimization-beyond-cad:2026-08-25",
+      "tier": "standard",
+      "title": "PhysicsX explores generative optimization beyond low-dimensional parametric CAD",
+      "primary_url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+      "supporting_urls": [],
+      "published_at": "2026-08-25",
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "category": "AIによる設計",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "PhysicsX describes adapting pretrained general-purpose 3D generative models to engineering geometry with low-rank fine-tuning.",
+        "The post explicitly examines the gap between visually plausible generated geometry and simulation-ready meshes, including manifoldness and sharp-feature fidelity.",
+        "It frames generative optimization as expanding geometry exploration while using physics objectives rather than remaining inside a low-dimensional parametric CAD space."
+      ],
+      "claims": [
+        {
+          "text": "PhysicsX demonstrates transfer-learning experiments that adapt pretrained 3D priors to engineering geometries with small fine-tuning datasets.",
+          "source_url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "From creative assets to engineering geometry section"
+        },
+        {
+          "text": "The post identifies simulation-readiness constraints such as non-manifold outputs and loss of thin/sharp aerodynamic features as central engineering issues.",
+          "source_url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "From sample to simulation section"
+        }
+      ],
+      "why_it_matters": "Generative design is only useful when geometry can survive CAD/mesh/physics constraints; explicitly treating the representation-to-simulation boundary is more valuable than showing visually novel parts alone.",
+      "practical_implication": "A generative-design benchmark should include geometry validity, meshing robustness, thin-feature preservation, solver acceptance and physics-objective improvement, not just diversity or visual plausibility.",
+      "tags": ["physics AI", "generative optimization", "CAD", "CAE", "geometry"],
+      "scores": {"novelty": 4.5, "source_quality": 4.2, "evidence_strength": 4.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.3, "strategic_significance": 4.5, "reader_value": 4.6},
+      "weighted_score": 4.39,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_blob_sha": "60ffb21906acc57adbcd6f6237adbd6caeb9f9e3", "source_item_index": 11}]
+    },
+    {
+      "id": "c-ge-hycat",
+      "event_key": "ge-aerospace:hycat-test-bed-contract:2026-09-01",
+      "tier": "standard",
+      "title": "GE Aerospace advances liquid-fueled hypersonic HyCAT test-bed development",
+      "primary_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-awarded-defense-innovation-unit-contract-advance-hypersonic-test-bed",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "category": "航空機エンジン",
+      "source_kind": "press_release",
+      "factual_points": [
+        "GE Aerospace received a Defense Innovation Unit contract for the next phase of a liquid-fueled HyCAT hypersonic test platform.",
+        "The 2026 phase covers a combined booster/cruiser all-up-round, full integration, first qualification and component-level testing of key subsystems.",
+        "The work sits in Edison Works, whose stated development model emphasizes rapid prototyping and digital engineering."
+      ],
+      "claims": [
+        {
+          "text": "The new HyCAT phase advances a combined booster and cruiser all-up-round toward integration, qualification and subsystem testing.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-awarded-defense-innovation-unit-contract-advance-hypersonic-test-bed",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "contract scope and development-history paragraphs"
+        },
+        {
+          "text": "GE identifies rapid prototyping and digital engineering as core Edison Works capabilities.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-awarded-defense-innovation-unit-contract-advance-hypersonic-test-bed",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Edison Works description"
+        }
+      ],
+      "why_it_matters": "The signal is the integration of design, hardware qualification and high-cadence test infrastructure in a propulsion-adjacent development program, not merely another digital-engineering announcement.",
+      "practical_implication": "For advanced propulsion R&D, digital workflows should be judged by how quickly they move a configuration through subsystem evidence, integration and qualification rather than by model/simulation throughput alone.",
+      "tags": ["hypersonic", "digital engineering", "rapid prototyping", "propulsion", "testing"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 4.7, "engineering_relevance": 4.7, "enterprise_relevance": 3.0, "strategic_significance": 4.5, "reader_value": 4.3},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_blob_sha": "60ffb21906acc57adbcd6f6237adbd6caeb9f9e3", "source_item_index": 5}]
+    },
+    {
+      "id": "c-rr-indiana",
+      "event_key": "rolls-royce:indiana-manufacturing-test-modernization:2026-08-27",
+      "tier": "standard",
+      "title": "Rolls-Royce completes $1B Indiana engine manufacturing and test modernization",
+      "primary_url": "https://www.rolls-royce.com/media/press-releases/2026/27-08-2026-rr-completes-dollars-1-billion-investment-in-indiana.aspx",
+      "supporting_urls": [],
+      "published_at": "2026-08-27",
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce",
+      "category": "航空機エンジン",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Rolls-Royce completed a decade-long $1 billion modernization program in Indiana, described as its largest US investment.",
+        "The program modernized advanced manufacturing and added full engine-test capability, including ground test facilities and an altitude-test facility in West Lafayette.",
+        "The Indianapolis campus also houses LibertyWorks, which works on high-temperature materials and propulsion and has a 10-year, $75 million Purdue alliance."
+      ],
+      "claims": [
+        {
+          "text": "The Indiana modernization added advanced manufacturing and full engine-test capability after a decade and $1 billion of investment.",
+          "source_url": "https://www.rolls-royce.com/media/press-releases/2026/27-08-2026-rr-completes-dollars-1-billion-investment-in-indiana.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "investment and facility-capability sections"
+        },
+        {
+          "text": "LibertyWorks at the campus includes long-running high-temperature materials and propulsion R&D.",
+          "source_url": "https://www.rolls-royce.com/media/press-releases/2026/27-08-2026-rr-completes-dollars-1-billion-investment-in-indiana.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "LibertyWorks description"
+        }
+      ],
+      "why_it_matters": "This is physical capacity behind aerospace-engine development: manufacturing, ground/altitude testing and advanced materials/propulsion R&D are being co-located and modernized at significant scale.",
+      "practical_implication": "Digital design and AI acceleration only create program value when manufacturing and test throughput can absorb faster iteration; capital capacity remains a hard constraint in engine development.",
+      "tags": ["advanced manufacturing", "engine testing", "high-temperature materials", "propulsion"],
+      "scores": {"novelty": 3.8, "source_quality": 5.0, "evidence_strength": 4.8, "engineering_relevance": 4.7, "enterprise_relevance": 3.2, "strategic_significance": 4.4, "reader_value": 4.3},
+      "weighted_score": 4.36,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_blob_sha": "60ffb21906acc57adbcd6f6237adbd6caeb9f9e3", "source_item_index": 9}]
+    },
+    {
+      "id": "r-agentminder",
+      "event_key": "broadcom:agentminder-runtime-governance:2026-08-31",
+      "tier": "standard",
+      "title": "Broadcom AgentMinder adds identity, per-tool-call authorization and audit for enterprise agents",
+      "primary_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent",
+      "supporting_urls": [],
+      "published_at": "2026-08-31",
+      "organization": "Broadcom",
+      "company": "Broadcom",
+      "category": "AIエージェント・安全性",
+      "source_kind": "press_release",
+      "factual_points": [
+        "AgentMinder assigns agents enterprise identities and binds authority to declared mission, permitted intents, approved tools and authorized resources.",
+        "Its runtime gateway authenticates and authorizes individual tool calls using context-aware policy before access reaches enterprise resources.",
+        "The observability layer is built on OpenTelemetry and is intended to preserve session/action audit trails and chain of custody.",
+        "Broadcom says it uses AgentMinder in its own agentic pipeline; those scale claims remain company-reported."
+      ],
+      "claims": [
+        {
+          "text": "AgentMinder performs agent identity/intent governance and runtime authorization on tool calls before enterprise-resource access.",
+          "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "identity/intent and runtime-enforcement sections"
+        },
+        {
+          "text": "AgentMinder uses OpenTelemetry for observability/audit and Broadcom reports internal deployment of the platform.",
+          "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "observability and Broadcom Uses AgentMinder sections"
+        }
+      ],
+      "why_it_matters": "As agents gain MCP/API access, the security boundary moves from model-level guardrails to identity, intent, tool-call authorization and auditable runtime enforcement.",
+      "practical_implication": "Engineering agents that touch PLM, HPC schedulers, file systems or solver licenses should receive scoped machine identities and per-action authorization rather than inheriting a user's broad credentials.",
+      "tags": ["agent governance", "identity", "runtime authorization", "OpenTelemetry", "security"],
+      "scores": {"novelty": 4.4, "source_quality": 5.0, "evidence_strength": 4.7, "engineering_relevance": 3.4, "enterprise_relevance": 5.0, "strategic_significance": 4.8, "reader_value": 4.7},
+      "weighted_score": 4.47,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 6}]
+    },
+    {
+      "id": "r-ms-context",
+      "event_key": "microsoft:foundry-context-engineering-cost:2026-09-02",
+      "tier": "standard",
+      "title": "Microsoft details context engineering as an operating-cost control for enterprise agents",
+      "primary_url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+      "supporting_urls": [],
+      "published_at": "2026-09-02",
+      "organization": "Microsoft",
+      "company": "Microsoft",
+      "category": "AIエージェント・業務効率化",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Microsoft frames per-turn context composition—retrieved documents, tools, instructions and history—as a major agent cost and quality lever.",
+        "The post describes managed retrieval, tool search, reusable skills and selective memory as mechanisms for reducing repeated context.",
+        "Microsoft reports internal benchmarks of up to 54% higher evidence recall with 34% lower retrieval-token cost for Foundry IQ and around 97% lower average input tokens for large tool libraries using Toolboxes; these are self-reported internal evaluations."
+      ],
+      "claims": [
+        {
+          "text": "Microsoft defines context engineering as continuously deciding what knowledge, tools, instructions and memory enter each agent turn.",
+          "source_url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "context-cost and context-engineering sections"
+        },
+        {
+          "text": "Microsoft reports internal token/recall improvements from Foundry IQ and tool-search mechanisms.",
+          "source_url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Foundry IQ and Toolboxes benchmark paragraphs"
+        }
+      ],
+      "why_it_matters": "Long-running agents repeatedly pay for irrelevant documents, tool descriptions and history; runtime context design can become as important to total cost as model pricing.",
+      "practical_implication": "Track context tokens by source class and tool inventory, then optimize retrieval, tool exposure, skills and memory separately before assuming a cheaper model is the only path to lower operating cost.",
+      "tags": ["context engineering", "agent cost", "memory", "RAG", "Microsoft Foundry"],
+      "scores": {"novelty": 4.0, "source_quality": 4.8, "evidence_strength": 4.3, "engineering_relevance": 3.2, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.7},
+      "weighted_score": 4.25,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 7}]
+    },
+    {
+      "id": "r-pwc-ops",
+      "event_key": "pwc:operations-digital-trends-2026:2026-08-06",
+      "tier": "report",
+      "title": "PwC operations survey finds AI ambition constrained by integration and data quality",
+      "primary_url": "https://www.pwc.com/jp/ja/knowledge/thoughtleadership/digital-trends-operations-survey.html",
+      "supporting_urls": [],
+      "published_at": "2026-08-06",
+      "organization": "PwC",
+      "company": "PwC",
+      "category": "企業AI・製造",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "PwC surveyed 767 US operations and supply-chain leaders.",
+        "89% said technology investments had not fully produced expected outcomes, and 87% said poor data quality impeded value creation from digital initiatives.",
+        "Only 27% said AI strategy was fully embedded across business units; 37% were comfortable letting AI agents execute end-to-end operations processes.",
+        "83% said AI agents and automation will accelerate the breakdown of functional silos, while 41% currently operate the more horizontal/networked model that 94% expect to move toward."
+      ],
+      "claims": [
+        {
+          "text": "The survey covers 767 US operations and supply-chain leaders and reports an 89% expectation-delivery gap for technology investments.",
+          "source_url": "https://www.pwc.com/jp/ja/knowledge/thoughtleadership/digital-trends-operations-survey.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "survey overview"
+        },
+        {
+          "text": "87% report data-quality problems impeding digital value and only 27% report fully embedded AI strategy across business units.",
+          "source_url": "https://www.pwc.com/jp/ja/knowledge/thoughtleadership/digital-trends-operations-survey.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "key findings"
+        },
+        {
+          "text": "37% are comfortable delegating end-to-end operations-process execution to AI agents.",
+          "source_url": "https://www.pwc.com/jp/ja/knowledge/thoughtleadership/digital-trends-operations-survey.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI strategy and scaling findings"
+        }
+      ],
+      "why_it_matters": "The report directly links enterprise AI scaling to integration, data quality and operating-model redesign, reinforcing that technology adoption without end-to-end workflow change is not producing expected value.",
+      "practical_implication": "Industrial AI programs should treat data quality, system integration and governance as measurable program workstreams and track end-to-end process outcomes rather than counting pilots or seats deployed.",
+      "tags": ["AI adoption", "manufacturing", "operations", "data quality", "survey"],
+      "scores": {"novelty": 4.0, "source_quality": 4.8, "evidence_strength": 4.6, "engineering_relevance": 3.8, "enterprise_relevance": 5.0, "strategic_significance": 4.7, "reader_value": 4.8},
+      "weighted_score": 4.46,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "PwC",
+        "published_at": "2026-08-06",
+        "sample_size": 767,
+        "methodology": "Survey of US operations and supply-chain leaders; results are self-reported and segmented by industry on the published report page.",
+        "geographies": "United States",
+        "key_metrics": ["89% report technology investments did not fully meet expected outcomes", "87% report poor data quality impeded digital value", "27% have AI strategy fully embedded across business units", "37% are comfortable with AI agents executing end-to-end operations processes", "41% currently use horizontal/networked operating models while 94% of less-integrated organizations expect to move toward them"],
+        "comparison_to_previous": "PwC states the 89% shortfall pattern is consistent with the prior annual survey; integration complexity remains the most commonly cited barrier.",
+        "practical_meaning": "AI scaling in operations depends on integration, trusted data and operating-model redesign rather than isolated automation projects.",
+        "caveats": "Self-reported survey commissioned/published by a consulting firm; US sample; stated outcomes and readiness may not correspond to independently measured operational performance."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 27}]
+    },
+    {
+      "id": "r-hf-open-models",
+      "event_key": "huggingface:state-open-models-summer-2026:2026-08-14",
+      "tier": "report",
+      "title": "Hugging Face quantifies concentration and practical adoption in the open-model ecosystem",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "supporting_urls": [],
+      "published_at": "2026-08-14",
+      "organization": "Hugging Face",
+      "company": "Hugging Face",
+      "category": "オープンウェイト・OSS",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "Hugging Face reports public model repositories increasing from 2.43 million to 2.96 million from January through August 2026.",
+        "It reports roughly 85.6% of models have fewer than 200 lifetime downloads and 1.5% of repositories account for 99.2% of all downloads.",
+        "The report argues that open-model ecosystems are stratifying between frontier-only portfolios and full-spectrum families intended for broad developer standardization.",
+        "The data are first-party Hub telemetry; repository/download activity is a usage proxy, not direct evidence of production adoption."
+      ],
+      "claims": [
+        {
+          "text": "Hugging Face Hub public model repositories grew from 2.43M to 2.96M in the January-August 2026 observation period.",
+          "source_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "report opening / Hub-growth figures"
+        },
+        {
+          "text": "Hugging Face reports 85.6% of models below 200 lifetime downloads and 1.5% of repositories accounting for 99.2% of downloads.",
+          "source_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "report opening / distribution figures"
+        }
+      ],
+      "why_it_matters": "The number of published open models is growing rapidly, but practical attention is extraordinarily concentrated; model availability should not be confused with an ecosystem that actually uses each release.",
+      "practical_implication": "When evaluating open-weight strategy, track downstream reuse, quantization/tool support, active downloads and deployment economics alongside licenses and benchmark scores.",
+      "tags": ["open models", "Hugging Face", "adoption", "small models", "agents"],
+      "scores": {"novelty": 4.2, "source_quality": 4.7, "evidence_strength": 4.5, "engineering_relevance": 2.8, "enterprise_relevance": 4.5, "strategic_significance": 4.8, "reader_value": 4.7},
+      "weighted_score": 4.21,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "Hugging Face",
+        "published_at": "2026-08-14",
+        "sample_size": "Hub-wide public repository/download telemetry; 2.96M public model repositories at the August observation point",
+        "methodology": "First-party analysis of Hugging Face Hub models, datasets, Spaces and download/reuse patterns from January through August 2026, with qualitative ecosystem interpretation.",
+        "geographies": "global",
+        "key_metrics": ["public model repositories: 2.43M to 2.96M", "datasets: 711k to 1.0M", "Spaces: 1.00M to 1.44M", "85.6% of models under 200 lifetime downloads", "1.5% of repositories account for 99.2% of downloads"],
+        "comparison_to_previous": "The report is presented as the summer update to Hugging Face's biannual open-model analysis and compares January-to-August ecosystem growth.",
+        "practical_meaning": "Open-model supply is expanding faster than broad adoption; a small fraction of repositories captures nearly all usage attention.",
+        "caveats": "Platform-owner analysis; downloads can include experimentation, automation and mirrors and do not equal production deployments or business value."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 21}]
+    },
+    {
+      "id": "r-k2-horizon",
+      "event_key": "ifm:k2-horizon-open-training-lifecycle:2026-09-03",
+      "tier": "standard",
+      "title": "IFM releases K2 Horizon family with unusually broad training-lifecycle artifacts",
+      "primary_url": "https://ifm.ai/blog/k2/",
+      "supporting_urls": ["https://huggingface.co/IFM"],
+      "published_at": "2026-09-03",
+      "organization": "Institute of Foundation Models (MBZUAI)",
+      "company": "Institute of Foundation Models",
+      "category": "オープンウェイト・OSS",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The Scout identifies a K2 Horizon family spanning dense and MoE models from sub-billion scale through a 375B-class model; official IFM Hugging Face resources show the corresponding K2 Horizon collection and model repositories.",
+        "IFM publishes model weights plus training/evaluation resources and large training datasets; available IFM dataset pages specify Apache 2.0 licensing.",
+        "The launch emphasizes exposing intermediate/training artifacts rather than weights alone; some release-page details could not be directly parsed during verification and are therefore treated as partially verified."
+      ],
+      "claims": [
+        {
+          "text": "IFM has released a multi-size K2 Horizon model family and associated public model/dataset resources on its official Hugging Face organization.",
+          "source_url": "https://huggingface.co/IFM",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "official IFM model collection and repository listings"
+        },
+        {
+          "text": "The release is positioned as opening a broader training lifecycle, including data/recipes/checkpoints/logs beyond final model weights.",
+          "source_url": "https://ifm.ai/blog/k2/",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Scout extraction cross-checked against official IFM Hugging Face datasets/model artifacts; launch page not parseable"
+        }
+      ],
+      "why_it_matters": "For open models, reproducibility increasingly depends on training data construction, checkpoints, logs and evaluation code rather than a downloadable final checkpoint alone.",
+      "practical_implication": "Open-model evaluations should score artifact completeness and reproducibility separately from license permissiveness and model quality; K2 Horizon is worth tracking as a high-artifact-availability case.",
+      "tags": ["open source", "open weights", "training data", "reproducibility", "edge AI"],
+      "scores": {"novelty": 4.8, "source_quality": 4.3, "evidence_strength": 3.8, "engineering_relevance": 3.0, "enterprise_relevance": 3.7, "strategic_significance": 4.7, "reader_value": 4.5},
+      "weighted_score": 4.07,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 15, "verification_note": "Official launch page was not parseable; official IFM Hugging Face resources were used as supporting verification."}]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "r-ntt-litron",
+      "event_key": "ntt-data:litron-enterprise-agent-platform:2026-08-25",
+      "tier": "standard",
+      "title": "NTT DATA expands LITRON for governed end-to-end enterprise-agent workflows",
+      "primary_url": "https://www.nttdata.com/global/ja/news/topics/2026/082501/",
+      "supporting_urls": [],
+      "published_at": "2026-08-25",
+      "organization": "NTT DATA",
+      "company": "NTT DATA",
+      "category": "企業AI・AIエージェント",
+      "source_kind": "official",
+      "factual_points": [
+        "NTT DATA added Builder, Library and Buddy components for agent construction, sharing, execution and user-context support.",
+        "The platform is positioned to connect enterprise data and core business systems while adding security, operations and audit controls.",
+        "In a 3,000-case fixed-asset useful-life test, NTT DATA reports 99.6% accuracy and estimates annual work could fall from 352 hours to 10 hours; these are vendor-reported results."
+      ],
+      "claims": [
+        {"text": "LITRON now integrates agent building, organizational reuse, execution and enterprise-data/system connectivity.", "source_url": "https://www.nttdata.com/global/ja/news/topics/2026/082501/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "overview and new-services sections"},
+        {"text": "NTT DATA reports 99.6% accuracy on 3,000 fixed-asset useful-life judgments and a modeled reduction from 352 to 10 annual work hours.", "source_url": "https://www.nttdata.com/global/ja/news/topics/2026/082501/", "verification_status": "verified", "attribution_type": "self_reported_benchmark", "evidence_location": "application example"}
+      ],
+      "why_it_matters": "It is a concrete Japanese example of moving enterprise AI from personal assistance toward governed process execution with reusable organizational agents.",
+      "practical_implication": "Track whether similar platforms publish real production error/override rates and integration effort, not only task-level benchmark accuracy.",
+      "tags": ["Japan", "enterprise agents", "workflow automation", "governance", "LITRON"],
+      "scores": {"novelty": 4.4, "source_quality": 4.8, "evidence_strength": 4.3, "engineering_relevance": 2.8, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.6},
+      "weighted_score": 4.21,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 13}]
+    },
+    {
+      "id": "r-nvidia-pair",
+      "event_key": "nvidia:pair-local-inference-router:2026-09-03",
+      "tier": "standard",
+      "title": "NVIDIA PAIR routes local inference across heterogeneous PCs for multi-agent workloads",
+      "primary_url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "Edge AI・推論基盤",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "PAIR routes independent Ollama/LM Studio inference requests across compatible local systems without agent-harness changes.",
+        "Supported nodes include RTX 20-series or newer, RTX PRO, DGX Spark and Apple M4+ systems.",
+        "PAIR uses local discovery, secure pairing with mTLS and workload/model-aware scheduling; NVIDIA presents it as an open-source beta."
+      ],
+      "claims": [
+        {"text": "PAIR provides transparent local-network routing for independent Ollama/LM Studio requests without agent-harness changes.", "source_url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "NVIDIA technical blog overview and architecture description"},
+        {"text": "PAIR uses mDNS discovery, mTLS-secured pairing and utilization/model-aware node scheduling.", "source_url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "PAIR operation/security sections"}
+      ],
+      "why_it_matters": "Multi-agent workloads create bursty parallel inference demand, making simple routing across existing local machines a potentially useful middle ground between one workstation and a managed GPU cluster.",
+      "practical_implication": "For small engineering teams, benchmark whether request-level routing across spare workstations improves total agent throughput enough to justify model replication and operational complexity.",
+      "tags": ["local AI", "edge AI", "inference", "multi-agent", "Ollama", "open source"],
+      "scores": {"novelty": 4.5, "source_quality": 4.8, "evidence_strength": 4.5, "engineering_relevance": 2.6, "enterprise_relevance": 3.8, "strategic_significance": 4.2, "reader_value": 4.4},
+      "weighted_score": 4.02,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 23}]
+    },
+    {
+      "id": "r-ai2-autodiscovery",
+      "event_key": "ai2-providence:autodiscovery-ilc-immune-signal:2026-09",
+      "tier": "standard",
+      "title": "Ai2 AutoDiscovery surfaces a cancer signal later reproduced in independent data and lab analysis",
+      "primary_url": "https://allenai.org/newsletters/2026-09-newsletter",
+      "supporting_urls": [],
+      "published_at": null,
+      "organization": "Allen Institute for AI / Providence",
+      "company": "Allen Institute for AI",
+      "category": "Scientific AI・研究自動化",
+      "source_kind": "official",
+      "factual_points": [
+        "Ai2 and Providence report that AutoDiscovery generated and tested hypotheses over TCGA data and surfaced unexpectedly high immune activity in invasive lobular carcinoma.",
+        "The team reports reproducing the pattern in a separate patient dataset and then finding T-cells around tumor samples in laboratory analysis.",
+        "The adopted September newsletter exposes only month-level publication timing, so no exact day is inferred."
+      ],
+      "claims": [
+        {"text": "AutoDiscovery surfaced an unexpected ILC immune-activity hypothesis from TCGA and the team reports reproducing it in a separate patient dataset.", "source_url": "https://allenai.org/newsletters/2026-09-newsletter", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "newsletter top story"},
+        {"text": "Ai2/Providence report subsequent laboratory observation of T-cells around ILC tumor samples.", "source_url": "https://allenai.org/newsletters/2026-09-newsletter", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "newsletter follow-up research paragraph"}
+      ],
+      "why_it_matters": "The interesting pattern is hypothesis generation followed by independent-data replication and physical/laboratory follow-up, a stronger scientific workflow than evaluation solely on synthetic benchmarks.",
+      "practical_implication": "Scientific-agent systems should preserve a chain from generated hypothesis to replication dataset, experimental validation and human scientific judgment; this is a useful pattern to watch beyond biomedicine.",
+      "tags": ["scientific AI", "research automation", "hypothesis generation", "experimental validation"],
+      "scores": {"novelty": 4.8, "source_quality": 4.5, "evidence_strength": 4.0, "engineering_relevance": 3.5, "enterprise_relevance": 2.5, "strategic_significance": 4.5, "reader_value": 4.4},
+      "weighted_score": 4.05,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_blob_sha": "43e3d720def1a3c052122d7b1b8bef7cd01acca3", "source_item_index": 29, "verification_note": "Exact publication day unavailable; month-level timing retained without inference."}]
+    }
+  ],
+  "backlog": [
+    {"id": "c-chromalloy-dgca", "title": "Chromalloy receives Indonesia DGCA approval for CFM56-5B/7B PMA parts", "primary_url": "https://www.chromalloy.com/chromalloy-receives-indonesia-dgca-approval-for-cfm56-5b-7b-pma-parts/", "published_at": "2026-08-14", "organization": "Chromalloy", "category": "ガスタービン・技術サービス", "reason": "Solid engine-lifecycle/regulatory signal but less directly connected to AI/design than today's selected aerospace items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 1}]},
+    {"id": "c-capgemini-ai-native", "title": "Capgemini frames AI-native engineering at Nasscom Design & Engineering Summit 2026", "primary_url": "https://www.capgemini.com/in-en/news/events/capgemini-accelerates-the-future-of-engineering-at-nasscom-design-engineering-summit-2026/", "published_at": null, "organization": "Capgemini Engineering", "category": "技術サービス", "reason": "Relevant engineering-agent framing but the adopted page is an event page without a distinct publication timestamp and contains limited implementation evidence.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 4}]},
+    {"id": "c-ge-celma", "title": "GE Aerospace Celma expands engine MRO and LEAP capability", "primary_url": "https://www.geaerospace.com/news/articles/latam/ge-aerospaces-celma-location-75-legacy-excellence-brazil-future-built-flight", "published_at": "2026-08-27", "organization": "GE Aerospace", "category": "航空機エンジン", "reason": "Useful MRO/manufacturing-capacity context; held below the two stronger GE selected items to enforce organization diversity.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 7}]},
+    {"id": "c-ge-supplier", "title": "GE Aerospace describes FLIGHT DECK supplier program amid engine-delivery growth", "primary_url": "https://www.geaerospace.com/news/articles/pulling-through-ge-aerospaces-2026-supplier-year-works-hard-keep-parts-moving", "published_at": "2026-08-31", "organization": "GE Aerospace", "category": "航空機エンジン", "reason": "Strategically relevant supply-chain/manufacturing signal but secondary to selected technical engineering items and capped by same-organization diversity.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 8}]},
+    {"id": "c-rr-amca", "title": "Rolls-Royce and Reliance announce strategic intent on an indigenous AMCA combat engine", "primary_url": "https://www.rolls-royce.com/media/press-releases/2026/14-08-2026-reliance-industries-and-rolls-royce-announce-strategic-intent-to-partner-and-develop-indias-indigenous-combat-engine-for-the-amca-programme.aspx", "published_at": "2026-08-14", "organization": "Rolls-Royce", "category": "航空機エンジン", "reason": "Large strategic propulsion program but still an intent/partnership announcement; retain for follow-up when design or program milestones appear.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 10}]},
+    {"id": "c-synera-aero", "title": "Synera demonstrates agentic aerospace design-to-cost workflows", "primary_url": "https://www.synera.ai/webinar/agentic-ai-for-aerospace", "published_at": "2026-08-27", "organization": "Synera", "category": "AIによる設計", "reason": "Aerospace-specific and relevant, but the product-release MCP item provides stronger primary implementation detail today.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 13}]},
+    {"id": "c-letara", "title": "Letara raises ¥2.6B to accelerate low-cost hybrid rocket-engine development", "primary_url": "https://www.letaranext.com/blog/letara-raises-2-6-billion-yen-pre-series-a-round-low-cost-rocket-engines", "published_at": "2026-08-20", "organization": "Letara", "category": "推進", "reason": "Useful Japan propulsion/startup signal but more financing/program-development than engineering-method novelty.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 14}]},
+    {"id": "r-physicsx-plaid", "title": "PhysicsX uses an AI agent to search physics-model architectures against Safran PLAID", "primary_url": "https://www.physicsx.ai/newsroom/how-an-ai-agent-cracked-an-industry-benchmark", "published_at": "2026-08-11", "organization": "PhysicsX", "category": "AIによる設計", "reason": "Strong benchmark/architecture-search signal but PhysicsX already has two higher-priority engineering items in selected.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 2}]},
+    {"id": "r-keysight-attotude", "title": "Keysight says AttoTude cut terahertz IC design cycles by more than 50%", "primary_url": "https://www.keysight.com/jp/ja/about/newsroom/catalog/news-release.2026.0826_pr26-085-keysight-helps-attotude-cut-terahertz-ic-design-by-more-than-50-percent.html", "published_at": "2026-08-26", "organization": "Keysight Technologies", "category": "EDA・AIインフラ", "reason": "Potentially useful design-cycle evidence, but the key performance figure is vendor/customer-reported and EDA is already represented indirectly by stronger tool-execution signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 4}]},
+    {"id": "r-digital-factory", "title": "Cyber-Physical Digital Factory Architecture combines digital twins, cloud-edge AI and XR teleoperation", "primary_url": "https://arxiv.org/abs/2609.00195", "published_at": "2026-08-31", "organization": "Research collaboration", "category": "デジタルツイン・製造", "reason": "Current manufacturing architecture paper with useful breadth; retain for deeper verification rather than displacing stronger production engineering evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 5}]},
+    {"id": "r-gitops-deterministic", "title": "Deterministic GitOps remediation separates LLM intent from YAML editing", "primary_url": "https://arxiv.org/abs/2609.00227", "published_at": "2026-08-31", "organization": "Research collaboration", "category": "コーディング・AIエージェント安全性", "reason": "The structured-intent plus deterministic-application pattern is relevant to safe engineering agents, but domain is DevOps rather than core engineering workflow.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 9}]},
+    {"id": "r-coforge-launchpad", "title": "Coforge introduces an open-weight enterprise AI Launchpad", "primary_url": "https://news.coforge.com/newsroom/press-release/coforge-introduces-ai-launchpad-the-open-weight-ai-ecosystem-for-the-enterprise", "published_at": "2026-09-02", "organization": "Coforge", "category": "企業AI・オープンウェイト", "reason": "Relevant private-deployment/governance positioning but primarily a vendor platform announcement with limited independent evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 10}]},
+    {"id": "r-zoho-catalyst", "title": "Zoho Catalyst 3.0 packages agent skills and MCP for full-stack delivery", "primary_url": "https://catalyst.zoho.com/catalyst-3.0-agent-ready-fullstack.html", "published_at": null, "organization": "Zoho", "category": "コーディング・AIエージェント", "reason": "Interesting skills+MCP product pattern, but exact publication day is unavailable and benchmark figures are first-party; retain for later comparison.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 11}]},
+    {"id": "r-claude-51", "title": "Anthropic introduces Claude Fable 5.1 and restricted-access Claude Mythos 5.1", "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1", "published_at": "2026-09-01", "organization": "Anthropic", "category": "最新AIモデル", "reason": "Important model release but today's pool has stronger engineering/enterprise implementation signals; keep to avoid model-release dominance.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 14}]},
+    {"id": "r-zai-glm53", "title": "Z.ai releases GLM-5.3-Flash with MIT open weights and sparse MoE serving", "primary_url": "https://z.ai/blog/glm-5.3-flash", "published_at": "2026-08-26", "organization": "Z.ai", "category": "オープンウェイト・中国", "reason": "Useful open-weight efficiency signal, but source parseability was limited and the selected open-model slots favor ecosystem/reproducibility evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 17}]},
+    {"id": "r-mistral-ocr", "title": "Mistral OCR 4.1 reaches general availability", "primary_url": "https://docs.mistral.ai/resources/changelogs", "published_at": "2026-08-31", "organization": "Mistral AI", "category": "最新AIモデル・Document AI", "reason": "Practical document/RAG infrastructure update but peripheral to today's core engineering and agent-workflow signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 18}]},
+    {"id": "r-qdrant-fineweb", "title": "Qdrant releases FineWeb-10B and Supernova for internet-scale vector-search benchmarking", "primary_url": "https://qdrant.tech/blog/qdrant-fineweb-10b-release/", "published_at": "2026-09-01", "organization": "Qdrant", "category": "RAG・データ基盤・Benchmark", "reason": "Strong infrastructure benchmark release; retain for a future data/RAG-heavy day rather than overloading today's engineering narrative.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 22}]},
+    {"id": "r-vmware-ai-factory", "title": "VMware AI Factory automates private-AI infrastructure from bare metal to model serving", "primary_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-vmware-ai-factory-enabling-faster-time", "published_at": "2026-08-31", "organization": "Broadcom", "category": "HPC・推論基盤", "reason": "Relevant private-AI infrastructure, but AgentMinder is the more distinctive Broadcom signal and same-organization diversity is enforced.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 25}]},
+    {"id": "r-stanford-workforce", "title": "Stanford finds no economy-wide AI displacement but a widening employment gap for young workers in exposed jobs", "primary_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/", "published_at": "2026-08-12", "organization": "Stanford Digital Economy Lab", "category": "企業AI・Workforce", "reason": "High-quality longitudinal workforce signal, but less directly tied to engineering/enterprise workflow than PwC's operations report today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 26}]},
+    {"id": "r-ey-pulse", "title": "EY AI Pulse finds token cost changing enterprise AI rollout decisions", "primary_url": "https://www.ey.com/pl_pl/newsroom/2026/08/badanie-ey-ponad-8-na-10-liderow-firm-obawia-sie-kosztow-korzystania-z-ai", "published_at": "2026-08-25", "organization": "EY", "category": "企業AI・ROI", "reason": "Useful cost-management survey, but overlaps the Microsoft context-cost and PwC scaling themes; retained for future comparative reporting.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 28}]}
+  ],
+  "rejected": [
+    {"id": "c-chromalloy-75", "title": "Chromalloy marks 75 years of aerospace innovation", "primary_url": "https://www.chromalloy.com/chromalloy-marks-75-years-of-aerospace-innovation-engineering-excellence-and-engine-lifecycle-leadership/", "reason": "Anniversary/portfolio summary with limited new technical event content.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 0}]},
+    {"id": "c-quest-babcock", "title": "Quest Global expands Babcock engineering-services framework", "primary_url": "https://www.questglobal.com/news/press-releases/quest-global-expands-strategic-relationship-with-babcock-through-five-year-group-engineering-services-framework/", "reason": "Commercial services-framework announcement; insufficient technical novelty for the current editorial pool.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 2}]},
+    {"id": "c-cyient-rebrand", "title": "Cyient unveils new brand positioning", "primary_url": "https://www.cyient.com/news/2026/8/cyient-unveils-new-brand-positioning-nothing-less", "reason": "Primarily corporate repositioning/marketing rather than a verifiable new engineering capability.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 3}]},
+    {"id": "c-simscale-agent", "title": "SimScale opens Engineering AI agent to its global community", "primary_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/", "reason": "Exact primary URL and semantic event were published on 2026-09-02; no material new delta in today's candidate.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-04.json", "source_item_index": 12}, {"published_receipt": "gpt_handoff/published/2026-09-02.json", "published_item_id": "c-simscale-agent", "event_key": "simscale:engineering-ai-agent-community-release:2026-08-18"}]},
+    {"id": "r-cat", "title": "CAT introduces code-driven agentic web testing and a 102-app bug benchmark", "primary_url": "https://arxiv.org/abs/2609.00081", "reason": "Interesting software-agent benchmark but peripheral to current engineering/enterprise priorities and weaker than the retained deterministic GitOps safety pattern.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 8}]},
+    {"id": "r-openmatter", "title": "OpenMatter expands cryptographically verifiable controls for secure AI and data collaboration", "primary_url": "https://www.globenewswire.com/news-release/2026/09/02/3355180/0/en/openmatter-network-expands-platform-with-new-capabilities-for-secure-ai-computing-and-data-collaboration.html", "reason": "Promotional release with limited independent/primary technical evidence relative to stronger agent-governance items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 12}]},
+    {"id": "r-quasar", "title": "Multiverse Computing launches Quasar 438B for coding and enterprise agents", "primary_url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model", "reason": "Derivative/compressed model release dominated by vendor benchmark claims; lower incremental value than selected open-model ecosystem/reproducibility signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 16}]},
+    {"id": "r-humain-m3", "title": "HUMAIN M3 preview targets Arabic-first multimodal and agentic workloads", "primary_url": "https://node.humain.com/", "reason": "Exact publication date unavailable and open weights are only planned, not released; retain no article slot until a concrete release or independently verifiable evaluation appears.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 19}]},
+    {"id": "r-mai-transcribe", "title": "Microsoft releases MAI-Transcribe-2", "primary_url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/", "reason": "Current model release but speech transcription is peripheral to the requested engineering/enterprise focus and headline performance is vendor-reported.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 20}]},
+    {"id": "r-openai-daybreak", "title": "OpenAI commits $1B in subsidized frontier cyber AI access for frontline defenders", "primary_url": "https://openai.com/index/daybreak-for-frontline-defenders/", "reason": "Strategic program announcement rather than a technical capability/evaluation signal; cybersecurity is better represented by runtime governance evidence in this pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 24}]},
+    {"id": "r-dt-review", "title": "Review maps digital-twin-enabled human-machine collaboration in sustainable smart manufacturing", "primary_url": "https://www.mdpi.com/2079-9292/15/17/3781", "reason": "Broad review article with limited new event-level signal; current digital-factory preprint is retained in backlog instead.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 30}]},
+    {"id": "r-chemrev-materials", "title": "Chemical Reviews surveys AI materials discovery from generative design to autonomous realization", "primary_url": "https://pubmed.ncbi.nlm.nih.gov/42584105/", "reason": "Verification found the ACS article was published online on 2026-08-03, earlier than the Scout's 2026-08-12 date and outside the intended 30-day research lookback on 2026-09-04.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-04.json", "source_item_index": 31, "date_correction": "ACS article history: Published Online 2026-08-03"}]}
+  ],
+  "warnings": [
+    "Both Scout inputs are daily-signal-scout/v2, same-day, complete and less than three hours old at Curator start; no prior-day fallback was used.",
+    "Published receipts for 2026-09-02 and 2026-09-03 plus state/published-index.json were checked. SimScale was suppressed as an exact previously published event without a material delta.",
+    "Vendor performance and cost figures in selected items remain explicitly attributed as self-reported benchmarks/claims.",
+    "K2 Horizon launch-page details were only partially verifiable because the IFM blog page was not parseable; official IFM Hugging Face resources were used for supporting verification and confidence was reduced to medium.",
+    "Chemical Reviews item date was corrected from the Scout value 2026-08-12 to the ACS Published Online date 2026-08-03 and rejected as outside the intended lookback.",
+    "No broad discovery was performed; Web checks were limited to candidate source/date/claim verification."
+  ]
+}
