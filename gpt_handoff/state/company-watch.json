@@ -1,9 +1,9 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-04T06:10:47+09:00",
+  "updated_at": "2026-09-07T06:11:07+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 21,
+  "next_index": 33,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-02T06:07:20+09:00",
     "Ansys": "2026-09-02T06:07:20+09:00",
@@ -25,17 +25,30 @@
     "Cyient": "2026-09-04T06:10:47+09:00",
     "Capgemini Engineering": "2026-09-04T06:10:47+09:00",
     "GE Aerospace": "2026-09-04T06:10:47+09:00",
-    "Rolls-Royce": "2026-09-04T06:10:47+09:00"
+    "Rolls-Royce": "2026-09-04T06:10:47+09:00",
+    "Pratt & Whitney": "2026-09-07T06:11:07+09:00",
+    "Safran Aircraft Engines": "2026-09-07T06:11:07+09:00",
+    "MTU Aero Engines": "2026-09-07T06:11:07+09:00",
+    "CFM International": "2026-09-07T06:11:07+09:00",
+    "Honeywell Aerospace": "2026-09-07T06:11:07+09:00",
+    "RTX": "2026-09-07T06:11:07+09:00",
+    "GKN Aerospace": "2026-09-07T06:11:07+09:00",
+    "Mitsubishi Heavy Industries": "2026-09-07T06:11:07+09:00",
+    "Kawasaki Heavy Industries": "2026-09-07T06:11:07+09:00",
+    "SUBARU": "2026-09-07T06:11:07+09:00",
+    "Kawasaki Heavy Industries Aerospace Systems Company": "2026-09-07T06:11:07+09:00",
+    "Hanwha Aerospace": "2026-09-07T06:11:07+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-04",
-    "path": "gpt_handoff/company/2026-09-04.json",
-    "commit": "392a4249235895dd756b88ff4b496212f1f42f8f",
+    "local_date": "2026-09-07",
+    "path": "gpt_handoff/company/2026-09-07.json",
+    "commit": "2fa82a786c0ca301d995ca9cb3b165a9df39811b",
     "status": "complete",
-    "checked_source_count": 7,
-    "candidate_item_count": 15
+    "checked_source_count": 12,
+    "candidate_item_count": 6
   },
   "warnings": [
-    "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged."
+    "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
+    "2026-09-07 required five spillover checks because the initial seven mandatory sources yielded fewer than five qualifying in-window watchlist candidates."
   ]
 }
