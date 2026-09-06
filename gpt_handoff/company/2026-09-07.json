@@ -1,0 +1,189 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-07T06:11:07+09:00",
+  "items": [
+    {
+      "title": "RTX's Pratt & Whitney invests $25 million to expand precision parts manufacturing in Niepołomice, Poland",
+      "url": "https://www.rtx.com/news/news-center/2026/09/04/rtxs-pratt-whitney-invests-25-million-to-expand-precision-parts-manufacturing",
+      "source": "RTX / Pratt & Whitney",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-04",
+      "excerpt": "Pratt & Whitney will invest $25 million to expand its Niepołomice, Poland plant for complex tubular assemblies and precision engine components. The expansion is due online in 2028, adds 120+ jobs, and supports GTF, PW800 and F135 production; RTX says 2026 investment in its Polish P&W facilities totals $125 million.",
+      "query": "site:rtx.com Pratt Whitney September 2026 Poland engine components manufacturing",
+      "tags": ["engine manufacturing", "GTF", "F135", "supply chain", "Poland"],
+      "organization": "Pratt & Whitney",
+      "company": "Pratt & Whitney",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Collins Aerospace to support modernization of U.S. Army's Chinook helicopters",
+      "url": "https://www.rtx.com/news/news-center/2026/08/11/rtxs-collins-aerospace-to-support-modernization-of-u-s-armys-chinook-helicopte",
+      "source": "RTX / Collins Aerospace",
+      "source_kind": "press_release",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-08-11",
+      "excerpt": "Collins Aerospace received a U.S. Army contract worth up to $472 million for engineering services supporting CH-47 Chinook avionics modernization and sustainment. The work advances open, reusable avionics architectures intended to reduce integration complexity and ease technology insertion across aircraft.",
+      "query": "site:rtx.com/news/news-center/2026/08 Collins Aerospace digital engineering avionics modernization RTX",
+      "tags": ["digital engineering", "avionics", "open architecture", "engineering services", "sustainment"],
+      "organization": "RTX",
+      "company": "RTX",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Mitsubishi Heavy Industries Initiates an Orderly Transition of MHICA Assets in Mississauga, Ontario to Bombardier",
+      "url": "https://www.mhi.com/news/26090201.html",
+      "source": "Mitsubishi Heavy Industries",
+      "source_kind": "press_release",
+      "category": "航空機・主要サプライヤー",
+      "published_at": "2026-09-02",
+      "excerpt": "MHI and Bombardier agreed for Bombardier to acquire MHI Canada Aerospace assets in Mississauga, subject to approvals. The site brings aerostructure manufacturing capability and about 750 employees; MHI will provide transition support while retaining other commercial aerospace and defense activities.",
+      "query": "site:mhi.com Mitsubishi Heavy Industries aerospace September 2026 aviation manufacturing",
+      "tags": ["aerostructures", "manufacturing", "supply chain", "commercial aviation"],
+      "organization": "Mitsubishi Heavy Industries",
+      "company": "Mitsubishi Heavy Industries",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "SimScale opens Engineering AI agent to its global community",
+      "url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+      "source": "SimScale",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-08-18",
+      "excerpt": "SimScale opened its Engineering AI agent to 900,000+ users; it states the agent can execute CAD cleanup, simulation setup and reporting across a complete simulation workflow. Discovery candidate: direct agentic CAE execution and broad aerospace/manufacturing use make SimScale worth persistent monitoring.",
+      "query": "engineering AI simulation aerospace August 2026 company CAE SimScale",
+      "tags": ["discovery_candidate", "engineering AI", "CAE", "simulation automation", "agentic engineering"],
+      "organization": "SimScale",
+      "company": "SimScale",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Building Beyond CAD: On Generative Optimization for Engineering",
+      "url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+      "source": "PhysicsX",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-25",
+      "excerpt": "PhysicsX describes adapting 3D foundation models for engineering geometry, steering generated shapes toward physics objectives, and validating production-suitable meshes with numerical solvers. Discovery candidate: it directly targets generative engineering beyond parametric CAD and serves aerospace/defense.",
+      "query": "site:physicsx.ai/newsroom Building Beyond CAD August 25 2026 PhysicsX",
+      "tags": ["discovery_candidate", "generative optimization", "physics AI", "CAD", "aerospace"],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "technical article",
+      "language": "en"
+    },
+    {
+      "title": "How an AI Agent Cracked an Industry Benchmark",
+      "url": "https://www.physicsx.ai/newsroom/how-an-ai-agent-cracked-an-industry-benchmark",
+      "source": "PhysicsX",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-11",
+      "excerpt": "PhysicsX reports an AI-agent workflow that reverse-engineered the hidden constitutive behavior behind Safran's PLAID Tensile2D benchmark, building and iterating a simulator from labeled data. Discovery candidate: it links agentic reasoning, constitutive modeling and CAE benchmark integrity.",
+      "query": "site:physicsx.ai/newsroom How an AI Agent Cracked an Industry Benchmark August 11 2026",
+      "tags": ["discovery_candidate", "physics AI", "CAE", "constitutive modeling", "agentic engineering"],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "technical article",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:rtx.com Pratt Whitney 2026 August September engine turbine manufacturing technology",
+    "site:safran-group.com Safran Aircraft Engines 2026 August September engine turbine manufacturing technology",
+    "site:mtu.de MTU Aero Engines 2026 August September engine turbine manufacturing technology",
+    "site:cfmaeroengines.com CFM International 2026 August September LEAP engine technology manufacturing",
+    "site:honeywellaerospace.com Honeywell Aerospace 2026 August September engine propulsion manufacturing technology",
+    "site:rtx.com RTX 2026 August September aerospace engine manufacturing AI digital engineering",
+    "site:gknaerospace.com GKN Aerospace 2026 August September manufacturing engine aerospace technology",
+    "site:mhi.com Mitsubishi Heavy Industries aerospace August September 2026 aircraft manufacturing technology",
+    "site:global.kawasaki.com Kawasaki Heavy Industries aerospace August September 2026 aircraft manufacturing engine technology",
+    "site:subaru.co.jp SUBARU aerospace August September 2026 aircraft manufacturing technology",
+    "site:global.kawasaki.com Aerospace Systems Company August September 2026",
+    "site:hanwhaaerospace.com Hanwha Aerospace August September 2026 engine aerospace manufacturing technology",
+    "site:rtx.com/news/news-center/2026/08 Pratt & Whitney",
+    "site:rtx.com/news/news-center/2026/08 Collins Aerospace digital engineering manufacturing RTX",
+    "site:safran-group.com/pressroom/ Safran Aircraft Engines August 2026",
+    "site:mtu.de/newsroom/press/latest-press-releases/ August 2026 MTU Aero Engines",
+    "site:cfmaeroengines.com/press-articles/ August 2026 CFM",
+    "engineering AI simulation aerospace August 2026 company CAE",
+    "site:physicsx.ai/newsroom Building Beyond CAD August 25 2026 PhysicsX",
+    "site:physicsx.ai/newsroom How an AI Agent Cracked an Industry Benchmark August 11 2026"
+  ],
+  "warnings": [
+    "Only three of the twelve watchlist companies checked (seven mandatory plus five spillover) produced qualifying in-window items; older July releases were not used to pad the handoff.",
+    "GKN Aerospace had current Project Otto propulsion/additive-manufacturing coverage, but it was excluded because the underlying program is explicitly a UAV/uncrewed aircraft program covered by exclude_terms.",
+    "Hanwha Aerospace had recent UAV/CCA engine-development coverage and a land-defense production update; the UAV items were excluded and no sufficiently relevant first-party commercial-aircraft-engine update was verified in-window.",
+    "Safran Aircraft Engines, MTU Aero Engines and CFM International had highly relevant July 2026 propulsion/MRO releases, but these fell outside the default 30-day lookback and were not promoted as new items.",
+    "Discovery items are limited to SimScale and PhysicsX because both published current primary-source engineering-AI material with direct relevance to CAE, generative design or aerospace engineering."
+  ],
+  "checked_sources": [
+    {"name": "Pratt & Whitney", "status": "found", "query": "site:rtx.com Pratt Whitney September 2026 Poland engine components manufacturing"},
+    {"name": "Safran Aircraft Engines", "status": "no_new_finding", "warning": "No qualifying primary-source aircraft-engine technology, manufacturing or MRO item was verified in the Aug. 8–Sep. 7 lookback; relevant July releases were outside the default window."},
+    {"name": "MTU Aero Engines", "status": "no_new_finding", "warning": "No qualifying new technical or manufacturing primary-source item was verified in the 30-day window; the latest relevant releases found were from July 2026."},
+    {"name": "CFM International", "status": "no_new_finding", "warning": "No qualifying new LEAP/RISE technology, manufacturing or MRO primary-source release was verified in the 30-day window; July Farnborough releases were not used as fresh items."},
+    {"name": "Honeywell Aerospace", "status": "no_new_finding", "warning": "Current investor-conference notices were found, but no qualifying new propulsion, aerospace engineering, manufacturing or MRO technical item was verified in the 30-day window."},
+    {"name": "RTX", "status": "found", "query": "site:rtx.com/news/news-center/2026/08 Collins Aerospace digital engineering avionics modernization RTX"},
+    {"name": "GKN Aerospace", "status": "no_new_finding", "warning": "A current additive-manufactured turbojet item was tied to a UAV/uncrewed demonstrator and excluded by configured terms; the next relevant engine-manufacturing release found was outside the 30-day window."},
+    {"name": "Mitsubishi Heavy Industries", "status": "found", "query": "site:mhi.com Mitsubishi Heavy Industries aerospace September 2026 aviation manufacturing"},
+    {"name": "Kawasaki Heavy Industries", "status": "no_new_finding", "warning": "No dated qualifying aerospace design, manufacturing or aircraft-engine primary-source update was verified in the 30-day window."},
+    {"name": "SUBARU", "status": "no_new_finding", "warning": "SUBARU's current aerospace news listing showed no qualifying new aerospace release in the 30-day window; automotive releases were not used."},
+    {"name": "Kawasaki Heavy Industries Aerospace Systems Company", "status": "no_new_finding", "warning": "No dated qualifying Aerospace Systems Company aircraft design, production or engine update was verified in the 30-day window."},
+    {"name": "Hanwha Aerospace", "status": "no_new_finding", "warning": "Recent first-party aerospace-engine material centered on UAV/CCA programs covered by exclude_terms; no sufficiently relevant in-window first-party commercial-aircraft-engine item was verified."}
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Pratt & Whitney", "category": "航空機エンジン", "domains": ["rtx.com"]},
+        {"name": "Safran Aircraft Engines", "category": "航空機エンジン", "domains": ["safran-group.com"]},
+        {"name": "MTU Aero Engines", "category": "航空機エンジン", "domains": ["mtu.de"]},
+        {"name": "CFM International", "category": "航空機エンジン", "domains": ["cfmaeroengines.com"]},
+        {"name": "Honeywell Aerospace", "category": "航空機エンジン", "domains": ["honeywellaerospace.com", "honeywell.com"]},
+        {"name": "RTX", "category": "航空機エンジン", "domains": ["rtx.com"]},
+        {"name": "GKN Aerospace", "category": "航空機・主要サプライヤー", "domains": ["gknaerospace.com"]}
+      ],
+      "spillover_sources": [
+        {"name": "Mitsubishi Heavy Industries", "category": "航空機・主要サプライヤー", "domains": ["mhi.com"]},
+        {"name": "Kawasaki Heavy Industries", "category": "航空機・主要サプライヤー", "domains": ["global.kawasaki.com"]},
+        {"name": "SUBARU", "category": "航空機・主要サプライヤー", "domains": ["subaru.co.jp"]},
+        {"name": "Kawasaki Heavy Industries Aerospace Systems Company", "category": "航空機・主要サプライヤー", "domains": ["global.kawasaki.com"]},
+        {"name": "Hanwha Aerospace", "category": "航空機・主要サプライヤー", "domains": ["hanwhaaerospace.com"]}
+      ],
+      "discovery_organizations": [
+        {"name": "SimScale", "reason": "Current primary-source evidence of autonomous CAE workflow execution spanning CAD cleanup, simulation setup and reporting."},
+        {"name": "PhysicsX", "reason": "Current primary-source work on generative engineering beyond parametric CAD and agentic reconstruction of computational-mechanics models."}
+      ]
+    },
+    "priority_areas": [
+      {"name": "AIによる設計", "share": 30, "scope": "生成設計・設計支援AI・最適化・MDO・サロゲートモデル"},
+      {"name": "大手航空機メーカー", "share": 25, "scope": "民間・軍用航空機の設計・製造・認証・試験"},
+      {"name": "航空機用エンジン", "share": 25, "scope": "タービン・燃焼器・材料・推進・保守・設計解析"},
+      {"name": "CAD・CAE", "share": 20, "scope": "CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド"}
+    ],
+    "exclude_terms": ["drone", "UAV", "UAS", "eVTOL", "air taxi", "urban air mobility", "ドローン", "無人機", "空飛ぶクルマ"],
+    "domain_groups": {
+      "ai_design_research": ["ntrs.nasa.gov", "nasa.gov", "jaxa.jp", "nims.go.jp", "aist.go.jp", "arc.aiaa.org", "asmedigitalcollection.asme.org", "sae.org"],
+      "civil_aircraft": ["airbus.com", "boeing.com", "embraer.com", "dassault-aviation.com", "bombardier.com", "comac.cc", "mhi.com", "subaru.co.jp", "gknaerospace.com", "spiritaero.com"],
+      "military_aircraft": ["lockheedmartin.com", "northropgrumman.com", "boeing.com", "airbus.com", "baesystems.com", "leonardo.com", "saab.com", "dassault-aviation.com", "mhi.com", "global.kawasaki.com", "subaru.co.jp", "avic.com.cn"],
+      "aircraft_engines": ["geaerospace.com", "rtx.com", "rolls-royce.com", "safran-group.com", "mtu.de", "ihi.co.jp", "cfmaeroengines.com", "honeywellaerospace.com", "hanwhaaerospace.com", "aecc.cn", "avioaero.com"],
+      "cad_cae": ["ansys.com", "siemens.com", "sw.siemens.com", "3ds.com", "altair.com", "cadence.com", "comsol.com", "esi-group.com", "keysight.com", "mscsoftware.com", "numeca.de", "hexagon.com", "ptc.com", "autodesk.com", "nvidia.com"],
+      "engineering_services": ["siemens-energy.com", "bakerhughes.com", "power.mhi.com", "solarturbines.com", "chromalloy.com", "questglobal.com", "cyient.com", "capgemini.com"],
+      "aerospace_supply_chain": ["gknaerospace.com", "liebherr.com", "woodward.com", "parker.com", "howmet.com", "precast.com", "atimaterials.com", "spiritaero.com"]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-07",
+      "started_at": "2026-09-07T06:08:37+09:00",
+      "completed_at": "2026-09-07T06:11:07+09:00",
+      "status": "complete",
+      "planned_query_count": 17,
+      "executed_query_count": 55
+    }
+  }
+}
