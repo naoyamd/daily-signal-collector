@@ -1,0 +1,778 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-07T07:03:05+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-07.json",
+      "blob_sha": "84952fbc709a233c18684841b4c6ec14ed83bc72",
+      "generated_at": "2026-09-07T06:11:07+09:00",
+      "item_count": 6
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-07.json",
+      "blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b",
+      "generated_at": "2026-09-07T06:30:19+09:00",
+      "item_count": 30
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "Engineering automation is moving toward programmable execution layers: Fusion exposes more drawing and metal-powder-bed process-simulation workflows through APIs, while enterprise agent platforms emphasize traceability, identity and controlled execution.",
+      "supporting_ids": ["r-autodesk-fusion", "r-ibm-agentops", "r-coder-relay", "r-crowdstrike-agent-control"]
+    },
+    {
+      "signal": "Scientific AI is converging on constrained, auditable workflows rather than unconstrained model output: agentic XPS analysis delegates numerical work to deterministic tools, and materials search uses an LLM only to redefine the outer search space around Bayesian optimization.",
+      "supporting_ids": ["r-xps-agentic", "r-llm-materials-loop"]
+    },
+    {
+      "signal": "AI infrastructure and ecosystem control are becoming strategic variables alongside model capability, illustrated by NVIDIA's agreement to acquire Hugging Face and Europe's EUR 387.8M LUMI-AI deployment.",
+      "supporting_ids": ["r-nvidia-hf", "r-lumi-ai"]
+    },
+    {
+      "signal": "Aerospace manufacturing remains capacity-constrained and investment-heavy; Pratt & Whitney is expanding precision engine-component production in Poland while the broader company scan found relatively few fresh propulsion-technology releases.",
+      "supporting_ids": ["c-pw-poland"]
+    },
+    {
+      "signal": "GPT-6 Astra is a material follow-up to the Astra safety item published on September 2: the September 3 event is the actual model release and rollout, not merely another report on the same cybersecurity evaluation.",
+      "supporting_ids": ["r-gpt6-astra"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["r-xps-agentic", "r-autodesk-fusion", "r-nvidia-hf"],
+    "ordered_ids": [
+      "r-xps-agentic",
+      "r-autodesk-fusion",
+      "r-gpt6-astra",
+      "r-nvidia-hf",
+      "r-coder-relay",
+      "r-crowdstrike-agent-control",
+      "r-ibm-agentops",
+      "r-swebench-science",
+      "r-llm-materials-loop",
+      "r-ms-india-wti",
+      "c-pw-poland",
+      "r-lumi-ai"
+    ],
+    "central_signals": [
+      "Agent value is shifting from answer generation toward controlled execution, inspection and authorization of tools.",
+      "Scientific and engineering AI gains credibility when learned components are bounded by deterministic numerical tools, physical constraints or explicit search procedures.",
+      "AI strategy now includes infrastructure ownership, ecosystem control and deployment perimeter as first-class design variables."
+    ],
+    "tensions_or_caveats": [
+      "Several frontier-model and vendor-product claims are self-reported and should remain attributed rather than stated as independent fact.",
+      "The September 3 GPT-6 Astra release overlaps semantically with the September 1 Astra safety disclosure already published, but qualifies as a material delta because it is the actual product release and rollout.",
+      "Enterprise adoption reports are vendor-sponsored or vendor-published; sample frame and respondent selection limit generalization.",
+      "Fresh same-day aerospace-engine technical releases were sparse; do not pad the aerospace lane with July material or excluded UAV programs."
+    ],
+    "desired_depth": {
+      "r-xps-agentic": "lead",
+      "r-autodesk-fusion": "lead",
+      "r-gpt6-astra": "standard",
+      "r-nvidia-hf": "lead",
+      "r-coder-relay": "standard",
+      "r-crowdstrike-agent-control": "standard",
+      "r-ibm-agentops": "standard",
+      "r-swebench-science": "standard",
+      "r-llm-materials-loop": "standard",
+      "r-ms-india-wti": "report",
+      "c-pw-poland": "standard",
+      "r-lumi-ai": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 36,
+    "deduplicated_item_count": 35,
+    "source_domain_count": 28,
+    "organization_count": 29,
+    "regions_observed": ["US", "Europe", "Japan", "China", "India", "Brazil", "global"],
+    "lanes": {
+      "company_watch": "12 watchlist sources checked; 3 produced retained in-window company items, with two engineering-AI discovery organizations also contributing candidates.",
+      "engineering_ai": "covered, but genuinely fresh engineering-design items were concentrated in Autodesk; previously published SimScale and PhysicsX events were suppressed.",
+      "agents_enterprise": "strong coverage across identity, runtime control, AgentOps, self-hosted execution and application orchestration.",
+      "models_open_weights": "covered across OpenAI, NVIDIA/Hugging Face, Qwen, Tencent, inclusionAI and LLM-jp; selection intentionally limited to avoid model-release dominance.",
+      "reports_surveys": "covered; Microsoft Work Trend Index India retained as the main report because methodology and metrics were accessible and substantial.",
+      "scientific_wildcards": "strong coverage in materials characterization, materials optimization, scientific coding and structural biology.",
+      "non_us_rotation": "covered across Japan, China, Europe, India and Brazil."
+    },
+    "known_gaps": [
+      "No fresh qualifying propulsion-technology primary-source item was found for Safran Aircraft Engines, MTU Aero Engines, CFM International or Honeywell Aerospace in the configured 30-day window.",
+      "The company pool is partially dominated by manufacturing/supply-chain news because several propulsion R&D releases found by the Scout were from July and were correctly excluded as stale.",
+      "Several enterprise-agent security announcements came from CrowdStrike's Fal.Con event; one combined selected cluster is used to reduce event/vendor concentration.",
+      "The Hiasynth item lacks a primary launch source in the Scout evidence and remains rejected pending stronger provenance."
+    ]
+  },
+  "selected": [
+    {
+      "id": "r-xps-agentic",
+      "event_key": "energy-ai:agentic-xps-battery-materials:2026-09-02",
+      "tier": "lead",
+      "title": "Agentic AI automates physically constrained XPS analysis for battery materials",
+      "primary_url": "https://doi.org/10.1016/j.egyai.2026.100796",
+      "supporting_urls": [],
+      "published_at": "2026-09-02",
+      "organization": "Energy and AI",
+      "company": "",
+      "category": "Scientific AI・材料",
+      "source_kind": "journal",
+      "factual_points": [
+        "The workflow uses an LLM as a planner/router while numerical XPS analysis is delegated to deterministic Python tools with expert-defined physical and chemical constraints.",
+        "The architecture includes mandatory data triage and quality gates before AI orchestration, plus human review for questionable data.",
+        "The authors report a complete 100-spectrum workflow time of 3.9 minutes versus a 575-minute manual estimate, a greater than 146-fold reduction.",
+        "The framework integrates chemometrics for hyperspectral analysis and produces auditable diagnostic outputs rather than relying on free-form LLM numerical reasoning."
+      ],
+      "claims": [
+        {
+          "text": "The system separates LLM planning from deterministic, physically constrained numerical analysis tools.",
+          "source_url": "https://doi.org/10.1016/j.egyai.2026.100796",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "Framework architecture and methodology"
+        },
+        {
+          "text": "The authors report a greater than 146-fold reduction in analysis time for the compared 100-spectrum workflow.",
+          "source_url": "https://doi.org/10.1016/j.egyai.2026.100796",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Performance comparison / Fig. 2 discussion"
+        }
+      ],
+      "why_it_matters": "This is a concrete scientific-workflow pattern in which the LLM controls sequence and intent but is prevented from directly owning the physically sensitive numerical calculation. That separation is highly transferable to CAE and materials-characterization automation.",
+      "practical_implication": "Engineering-agent designs should consider an LLM planner over a constrained tool graph, explicit quality gates, deterministic numerical kernels and human escalation instead of asking a general model to infer or manipulate scientific results directly.",
+      "tags": ["materials characterization", "battery materials", "XPS", "agentic AI", "deterministic tools", "human-in-the-loop"],
+      "scores": {"novelty": 5.0, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.5, "strategic_significance": 4.5, "reader_value": 5.0},
+      "weighted_score": 4.78,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 21, "source_title": "Agentic AI automates physically constrained XPS analysis for battery materials"}
+      ]
+    },
+    {
+      "id": "r-autodesk-fusion",
+      "event_key": "autodesk:fusion-september-automation-api-update:2026-09-04",
+      "tier": "lead",
+      "title": "Fusion September 2026 update expands modeling and process-simulation automation APIs",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/september-2026-major-product-update-whats-new/",
+      "supporting_urls": [],
+      "published_at": "2026-09-04",
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "category": "AIによる設計・CAD/CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Fusion's Drawing API now covers additional drawing creation, detailing and export workflows including Smart Templates, Tidy Up, Auto Dimension, DXF and DWG export.",
+        "The Metal Powder Bed Fusion Process Simulation API moved out of preview and can execute process-simulation workflows programmatically.",
+        "Process-simulation results can now be displayed through the API rather than only through the UI.",
+        "TypeScript support for the Fusion API is fully released alongside Python and C++, including local development/debugging for Automation API jobs."
+      ],
+      "claims": [
+        {
+          "text": "The MPBF Process Simulation API is generally available for programmatic execution of process-simulation workflows.",
+          "source_url": "https://www.autodesk.com/products/fusion-360/blog/september-2026-major-product-update-whats-new/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "MPBF Process Simulation API now available"
+        },
+        {
+          "text": "Fusion expanded Drawing API automation and fully released TypeScript API support.",
+          "source_url": "https://www.autodesk.com/products/fusion-360/blog/september-2026-major-product-update-whats-new/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Expanded Drawing API and TypeScript API sections"
+        }
+      ],
+      "why_it_matters": "For engineering agents, broad and stable APIs are often more important than a headline generative-AI feature because they define which CAD/CAE actions can be executed, inspected and reproduced programmatically.",
+      "practical_implication": "Fusion automation can increasingly be composed into agent or workflow systems around additive-manufacturing process simulation, drawings and downstream integration without requiring UI-only control.",
+      "tags": ["Fusion", "CAD", "CAE", "MPBF", "process simulation", "API", "automation"],
+      "scores": {"novelty": 3.8, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.5, "strategic_significance": 4.0, "reader_value": 4.3},
+      "weighted_score": 4.42,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 0, "source_title": "Fusion September 2026 update expands modeling and process-simulation automation APIs"}
+      ]
+    },
+    {
+      "id": "r-gpt6-astra",
+      "event_key": "openai:gpt6-astra-broad-release:2026-09-03",
+      "tier": "standard",
+      "title": "OpenAI releases GPT-6 Astra after the earlier Critical-cybersecurity safety disclosure",
+      "primary_url": "https://openai.com/index/gpt-6-astra/",
+      "supporting_urls": [
+        "https://openai.com/index/safety-overview-gpt-6-astra/",
+        "https://openai.com/index/path-to-astra/"
+      ],
+      "published_at": "2026-09-03",
+      "organization": "OpenAI",
+      "company": "OpenAI",
+      "category": "最新AIモデル・安全性",
+      "source_kind": "official",
+      "factual_points": [
+        "OpenAI released GPT-6 Astra on September 3 for computer use, browsing, coding, scientific and professional work, with rollout to ChatGPT and API/cloud channels.",
+        "OpenAI identifies Astra as its first broadly deployed model at the Critical cybersecurity-capability level under its Preparedness Framework.",
+        "The September 1 item already published on September 2 covered the Critical-capability assessment and safeguards; this candidate adds the actual release and deployment event.",
+        "OpenAI's benchmark and cybersecurity capability statements remain provider-run evaluations and should be attributed accordingly."
+      ],
+      "claims": [
+        {
+          "text": "GPT-6 Astra was released on September 3 with rollout to ChatGPT and API/cloud distribution channels.",
+          "source_url": "https://openai.com/index/gpt-6-astra/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "release introduction and rollout section"
+        },
+        {
+          "text": "OpenAI classifies Astra at the Critical cybersecurity-capability threshold under its Preparedness Framework.",
+          "source_url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Safety overview opening section"
+        }
+      ],
+      "why_it_matters": "This is a permitted repeat because the prior publication covered a pre-release safety milestone, whereas the September 3 event changes availability and operational exposure: a Critical-tier model is now moving into broad production channels.",
+      "practical_implication": "Organizations evaluating high-capability agents need deployment controls that are tied to actual model availability and tool access, not only to benchmark capability; model upgrade governance becomes part of enterprise security architecture.",
+      "tags": ["GPT-6 Astra", "frontier model", "coding", "computer use", "cybersecurity", "model governance"],
+      "scores": {"novelty": 5.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 4.0, "enterprise_relevance": 5.0, "strategic_significance": 5.0, "reader_value": 5.0},
+      "weighted_score": 4.72,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 1, "source_title": "OpenAI releases GPT-6 Astra with Critical-tier cybersecurity capability"},
+        {"published_date": "2026-09-02", "published_event_key": "openai:astra-critical-cyber-threshold:2026-09-01", "published_primary_url": "https://openai.com/index/path-to-astra/", "material_delta": "September 3 is the actual GPT-6 Astra release and rollout; the earlier publication covered the safety assessment and Critical-threshold designation before release."}
+      ]
+    },
+    {
+      "id": "r-nvidia-hf",
+      "event_key": "nvidia:hugging-face-acquisition-agreement:2026-09-03",
+      "tier": "lead",
+      "title": "NVIDIA agrees to acquire Hugging Face while pledging to keep the platform open",
+      "primary_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "オープンウェイト・AI基盤",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "NVIDIA announced an agreement to acquire Hugging Face for USD 12.9303 billion.",
+        "NVIDIA states that Hugging Face will remain an open platform where users can choose models, frameworks, clouds, inference providers and compute platforms.",
+        "The announcement cites more than 18 million users, over 3 million models, 500,000 datasets, 1 million applications and more than 200,000 companies using the platform.",
+        "The transaction would place a major open-model distribution and collaboration hub under the leading AI accelerator supplier, making post-acquisition openness and neutrality a material ecosystem question."
+      ],
+      "claims": [
+        {
+          "text": "NVIDIA announced an agreement to acquire Hugging Face for approximately USD 12.93 billion.",
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "announcement opening paragraph"
+        },
+        {
+          "text": "NVIDIA says Hugging Face will remain open across model, framework, cloud, inference-provider and compute-platform choices.",
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "open-platform commitment"
+        }
+      ],
+      "why_it_matters": "Hugging Face is core distribution infrastructure for open models and datasets. Ownership by NVIDIA can change incentives around hosting, inference, hardware optimization and ecosystem neutrality even if formal platform openness is maintained.",
+      "practical_implication": "Teams relying on Hugging Face should separate model-artifact portability from hosted-service dependence and watch changes in inference defaults, enterprise terms, hardware optimization and governance after the acquisition closes.",
+      "tags": ["NVIDIA", "Hugging Face", "open models", "model hub", "AI infrastructure", "ecosystem"],
+      "scores": {"novelty": 5.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 3.0, "enterprise_relevance": 5.0, "strategic_significance": 5.0, "reader_value": 5.0},
+      "weighted_score": 4.53,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 2, "source_title": "NVIDIA agrees to acquire Hugging Face while pledging to keep the platform open"}
+      ]
+    },
+    {
+      "id": "r-coder-relay",
+      "event_key": "coder:agent-relay-self-hosted-execution:2026-09-02",
+      "tier": "standard",
+      "title": "Coder Agent Relay separates cloud-hosted agent control from self-hosted enterprise execution",
+      "primary_url": "https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution",
+      "supporting_urls": [],
+      "published_at": "2026-09-02",
+      "organization": "Coder",
+      "company": "Coder",
+      "category": "コーディング・AIエージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Agent Relay keeps a coding agent's control loop cloud-hosted while commands execute inside self-hosted Coder workspaces.",
+        "The initial integration partner is Cursor.",
+        "Code, credentials and local tooling remain inside infrastructure controlled by the enterprise rather than being moved into the agent vendor's execution environment.",
+        "The architecture targets regulated and security-sensitive organizations where execution location is a deployment constraint."
+      ],
+      "claims": [
+        {
+          "text": "Agent Relay runs execution inside self-hosted Coder workspaces while leaving the agent control loop cloud-hosted.",
+          "source_url": "https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "product introduction"
+        },
+        {
+          "text": "Cursor is the first integration partner for Agent Relay.",
+          "source_url": "https://coder.com/blog/introducing-agent-relay-cloud-hosted-agents-self-hosted-execution",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "product introduction"
+        }
+      ],
+      "why_it_matters": "It provides a concrete hybrid architecture for adopting cloud-operated coding agents without moving source code, credentials and tool execution outside the enterprise perimeter.",
+      "practical_implication": "The same control-plane/execution-plane split is applicable to engineering agents that need cloud intelligence but must run CAD/CAE/HPC actions inside governed on-premises or private-cloud environments.",
+      "tags": ["coding agent", "self-hosted", "execution perimeter", "enterprise", "Cursor", "hybrid architecture"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 3.5, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.47,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 7, "source_title": "Coder Agent Relay runs cloud-hosted coding agents inside self-hosted enterprise environments"}
+      ]
+    },
+    {
+      "id": "r-crowdstrike-agent-control",
+      "event_key": "crowdstrike:agentic-identity-and-runtime-controls:2026-09-02",
+      "tier": "standard",
+      "title": "CrowdStrike adds agent-specific identity and runtime controls for enterprise AI agents",
+      "primary_url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-agentic-identity-provider-foundation-for-ai-agent-identity-security/",
+      "supporting_urls": ["https://www.crowdstrike.com/en-us/press-releases/crowdstrike-and-openai-expand-partnership-to-secure-the-agentic-era/"],
+      "published_at": "2026-09-02",
+      "organization": "CrowdStrike",
+      "company": "CrowdStrike",
+      "category": "AIエージェント・Identity/安全性",
+      "source_kind": "press_release",
+      "factual_points": [
+        "CrowdStrike introduced an Agentic Identity Provider that establishes AI agents as distinct governed identities rather than treating them as extensions of human accounts.",
+        "The product is described as brokering only the access needed for the required duration and linking agent actions back to the responsible human or system.",
+        "In a separate same-day announcement, CrowdStrike said Falcon Guardian can apply runtime monitoring and controls to Codex agent activity across enterprise environments.",
+        "The two announcements are combined as one editorial event cluster because both describe enforcement layers for production agent execution at the same Fal.Con launch window."
+      ],
+      "claims": [
+        {
+          "text": "CrowdStrike introduced Agentic IdP to create governed identities for AI agents and broker time-limited access.",
+          "source_url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-agentic-identity-provider-foundation-for-ai-agent-identity-security/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "announcement opening and identity-control description"
+        },
+        {
+          "text": "CrowdStrike says Falcon Guardian can monitor and control Codex agent activity at runtime.",
+          "source_url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-and-openai-expand-partnership-to-secure-the-agentic-era/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Securing Codex Agents with Falcon Guardian"
+        }
+      ],
+      "why_it_matters": "Enterprise agents need their own identity lifecycle and runtime enforcement because they execute actions at machine speed and may otherwise inherit long-lived human credentials or opaque permissions.",
+      "practical_implication": "Engineering-agent architecture should make agent identity, least-time privilege, action attribution and runtime intervention explicit controls around access to code, HPC, PLM, filesystems and internal tools.",
+      "tags": ["agent identity", "least privilege", "runtime control", "Codex", "governance", "security"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 3.0, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.30,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 4, "source_title": "CrowdStrike introduces an identity provider purpose-built for AI agents"},
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 3, "source_title": "CrowdStrike and OpenAI extend Falcon runtime controls to Codex agents", "merge_reason": "same-day complementary enforcement layer from the same vendor event; retained as supporting evidence rather than a second selected slot"}
+      ]
+    },
+    {
+      "id": "r-ibm-agentops",
+      "event_key": "ibm:watsonx-agentops-trace-evaluation-ga:2026-09-03",
+      "tier": "standard",
+      "title": "IBM watsonx Orchestrate adds cross-platform agent discovery, trace inspection and custom evaluation",
+      "primary_url": "https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-cross-platform-agent-discovery-custom-evaluation-and-agentops-agent-goes-ga",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "IBM",
+      "company": "IBM",
+      "category": "企業AI・AIエージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "watsonx Orchestrate can discover and import third-party agents, initially including Amazon Bedrock agents, into a common control plane.",
+        "Trace Inspector exposes execution traces for individual agent runs.",
+        "Custom LLM-as-a-Judge evaluation lets organizations define their own agent-quality criteria.",
+        "IBM's AgentOps agent moved from preview to general availability."
+      ],
+      "claims": [
+        {
+          "text": "IBM made cross-platform agent discovery, Trace Inspector and custom evaluation capabilities generally available in watsonx Orchestrate.",
+          "source_url": "https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-cross-platform-agent-discovery-custom-evaluation-and-agentops-agent-goes-ga",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "announcement summary and GA sections"
+        },
+        {
+          "text": "The AI Gateway can discover and import Amazon Bedrock agents for management from the watsonx Orchestrate control plane.",
+          "source_url": "https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-cross-platform-agent-discovery-custom-evaluation-and-agentops-agent-goes-ga",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Manage any agent built on third party platforms"
+        }
+      ],
+      "why_it_matters": "Agent operations are becoming an observability and evaluation problem, not just an orchestration problem. Trace-level evidence and organization-specific quality metrics are prerequisites for controlled production workflows.",
+      "practical_implication": "Engineering-agent pilots should log complete tool trajectories and define task-specific acceptance tests so failures can be reproduced and evaluated independently of conversational quality.",
+      "tags": ["watsonx", "AgentOps", "trace", "evaluation", "agent orchestration", "observability"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 3.5, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.40,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 6, "source_title": "IBM watsonx Orchestrate adds cross-platform agent discovery, trace inspection and custom evaluation"}
+      ]
+    },
+    {
+      "id": "r-swebench-science",
+      "event_key": "research:swe-bench-science:2026-08-20",
+      "tier": "standard",
+      "title": "SWE-bench Science tests coding agents on scientific software engineering",
+      "primary_url": "https://arxiv.org/abs/2608.19799",
+      "supporting_urls": [],
+      "published_at": "2026-08-20",
+      "organization": "Research collaboration",
+      "company": "",
+      "category": "コーディング・Scientific AI",
+      "source_kind": "paper",
+      "factual_points": [
+        "SWE-bench Science contains 119 repository-level tasks from 98 GitHub repositories across 20 scientific domains.",
+        "Tasks are organized into issue-driven, expert-exploratory and engineering-integration paradigms.",
+        "The authors report that the best evaluated agent remains below 50% pass@1.",
+        "Failure analysis identifies scientific abstraction gaps, shallow exploration, incomplete integration and poor generalization as recurring mechanisms."
+      ],
+      "claims": [
+        {
+          "text": "The benchmark contains 119 tasks from 98 repositories across 20 scientific domains.",
+          "source_url": "https://arxiv.org/abs/2608.19799",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "abstract"
+        },
+        {
+          "text": "The authors report that the best evaluated agent achieves less than 50% pass@1.",
+          "source_url": "https://arxiv.org/abs/2608.19799",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "abstract"
+        }
+      ],
+      "why_it_matters": "Generic coding benchmarks can overstate readiness for scientific and engineering repositories, where correctness depends on domain abstractions, numerical assumptions and integration behavior rather than only passing ordinary software tests.",
+      "practical_implication": "Engineering-code agent evaluations should include domain repositories, scientific invariants and integration tasks instead of relying solely on mainstream SWE benchmarks.",
+      "tags": ["SWE-bench", "coding agent", "scientific software", "benchmark", "engineering validation"],
+      "scores": {"novelty": 4.5, "source_quality": 4.5, "evidence_strength": 4.5, "engineering_relevance": 4.5, "enterprise_relevance": 4.0, "strategic_significance": 4.5, "reader_value": 5.0},
+      "weighted_score": 4.52,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 22, "source_title": "SWE-bench Science tests coding agents on 119 tasks from 98 scientific repositories"}
+      ]
+    },
+    {
+      "id": "r-llm-materials-loop",
+      "event_key": "communications-materials:llm-outer-loop-search-space:2026-08-25",
+      "tier": "standard",
+      "title": "LLM outer loop adaptively redefines materials search spaces around Bayesian optimization",
+      "primary_url": "https://www.nature.com/articles/s43246-026-01304-9",
+      "supporting_urls": [],
+      "published_at": "2026-08-25",
+      "organization": "Communications Materials",
+      "company": "",
+      "category": "Scientific AI・材料",
+      "source_kind": "journal",
+      "factual_points": [
+        "The study places an LLM in an outer loop that proposes updated three-element material search spaces based on accumulated measurements.",
+        "An inner Gaussian-process/Bayesian-optimization loop performs regression, uncertainty estimation and acquisition within the chosen search space.",
+        "The LLM is not used for the inner numerical optimization; its role is limited to redefining candidate search spaces.",
+        "Evaluation uses a 16,908-composition ternary-alloy DFT dataset and reports property-dependent improvements over fixed search spaces."
+      ],
+      "claims": [
+        {
+          "text": "The LLM is restricted to outer-loop search-space redefinition while Bayesian optimization performs the inner numerical search.",
+          "source_url": "https://www.nature.com/articles/s43246-026-01304-9",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "Large language model and workflow-method sections"
+        },
+        {
+          "text": "The evaluation uses a 16,908-composition ternary-alloy DFT dataset.",
+          "source_url": "https://www.nature.com/articles/s43246-026-01304-9",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "evaluation/data description"
+        }
+      ],
+      "why_it_matters": "The paper illustrates a useful division of labor: language models alter the discrete definition of where to search, while uncertainty-aware numerical optimization remains responsible for selecting experiments inside that space.",
+      "practical_implication": "For design exploration, LLMs may be more defensible as adaptive problem-formulation or search-space agents than as replacements for optimization algorithms and physics solvers.",
+      "tags": ["materials discovery", "LLM", "Bayesian optimization", "DFT", "closed loop", "search-space design"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.50,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 23, "source_title": "LLM outer loop adaptively redefines materials search spaces in closed-loop discovery"}
+      ]
+    },
+    {
+      "id": "r-ms-india-wti",
+      "event_key": "microsoft:work-trend-index-india-2026:2026-09-03",
+      "tier": "report",
+      "title": "Microsoft Work Trend Index 2026 India cut tracks agent use, workflow redesign and human oversight",
+      "primary_url": "https://news.microsoft.com/source/asia/2026/09/03/indias-ai-advantage-is-human-microsoft-work-trend-index-2026-finds-india-among-the-worlds-leading-frontier-workforces/",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "Microsoft",
+      "company": "Microsoft",
+      "category": "企業AI・調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "The global research combines a survey of 20,000 AI users across 10 markets with anonymized Microsoft 365 productivity signals.",
+        "Microsoft reports 32% of Indian AI users meet its Frontier Professional definition versus 16% globally, with roughly one in three using agents for multi-step work.",
+        "78% of Indian AI users say AI enables work that was not possible a year earlier versus 58% globally.",
+        "63% of Indian respondents prioritize quality control of AI output and 59% prioritize critical thinking, both above the global figures reported by Microsoft.",
+        "Function-level agent workflows are reported in 34% of Indian organizations versus 26% globally."
+      ],
+      "claims": [
+        {
+          "text": "The study uses survey data from 20,000 AI users in 10 markets alongside Microsoft 365 telemetry.",
+          "source_url": "https://news.microsoft.com/source/asia/2026/09/03/indias-ai-advantage-is-human-microsoft-work-trend-index-2026-finds-india-among-the-worlds-leading-frontier-workforces/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "research description"
+        },
+        {
+          "text": "Microsoft reports 32% of Indian AI users as Frontier Professionals versus 16% globally, and 78% saying AI enables work not possible a year earlier versus 58% globally.",
+          "source_url": "https://news.microsoft.com/source/asia/2026/09/03/indias-ai-advantage-is-human-microsoft-work-trend-index-2026-finds-india-among-the-worlds-leading-frontier-workforces/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "India advantage section"
+        }
+      ],
+      "why_it_matters": "The report provides a large comparative dataset on the transition from individual AI use to multi-step agent work and highlights that human quality control remains a central reported skill even in a high-adoption market.",
+      "practical_implication": "Enterprise AI measurement should distinguish simple tool usage from redesigned multi-step workflows and should track human review responsibilities rather than interpreting adoption rate as autonomous-work readiness.",
+      "tags": ["India", "Work Trend Index", "AI agents", "workflow redesign", "human oversight", "enterprise survey"],
+      "scores": {"novelty": 4.0, "source_quality": 4.5, "evidence_strength": 4.0, "engineering_relevance": 3.0, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.10,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "Microsoft",
+        "published_at": "2026-09-03",
+        "sample_size": 20000,
+        "methodology": "Survey of AI users across 10 markets combined with anonymized Microsoft 365 productivity telemetry; the selected source is the India market cut of the 2026 Work Trend Index.",
+        "geographies": "10 markets; selected metrics focus on India versus global aggregate",
+        "key_metrics": [
+          "32% of Indian AI users classified as Frontier Professionals versus 16% globally",
+          "78% of Indian AI users say AI enables work not possible a year earlier versus 58% globally",
+          "63% prioritize quality control of AI output and 59% critical thinking",
+          "34% report function-level agent workflows versus 26% globally"
+        ],
+        "comparison_to_previous": "The article frames 2026 as movement from the prior year's stated intent to build human-agent teams toward measured multi-step agent use and broader workflow redesign; exact year-over-year percentages are not consistently provided for all metrics.",
+        "practical_meaning": "High agent adoption coexists with explicit human quality-control responsibility, suggesting that scaled enterprise use depends on workflow and governance design rather than autonomy alone.",
+        "caveats": "Microsoft-published research focused on AI users rather than a general-population workforce sample; Microsoft 365 telemetry and customer examples are drawn from Microsoft's own ecosystem, so platform and selection bias should be retained in interpretation."
+      },
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 18, "source_title": "Microsoft Work Trend Index finds one-third of Indian AI users working with agents on multi-step tasks"}
+      ]
+    },
+    {
+      "id": "c-pw-poland",
+      "event_key": "pratt-whitney:niepolomice-engine-component-expansion:2026-09-04",
+      "tier": "standard",
+      "title": "Pratt & Whitney invests $25 million to expand precision engine-component manufacturing in Poland",
+      "primary_url": "https://www.rtx.com/news/news-center/2026/09/04/rtxs-pratt-whitney-invests-25-million-to-expand-precision-parts-manufacturing",
+      "supporting_urls": [],
+      "published_at": "2026-09-04",
+      "organization": "Pratt & Whitney",
+      "company": "Pratt & Whitney",
+      "category": "航空機エンジン",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Pratt & Whitney announced a USD 25 million expansion of its Niepołomice, Poland facility for complex tubular assemblies and precision engine components.",
+        "The expanded facility is expected to be operational in 2028 and add more than 120 jobs.",
+        "The site supplies components for GTF, PW800 and F135 engines.",
+        "RTX says its 2026 Pratt & Whitney investment in Polish facilities totals USD 125 million, including a separate Rzeszow investment."
+      ],
+      "claims": [
+        {
+          "text": "Pratt & Whitney is investing USD 25 million in the Niepołomice facility, with operation targeted for 2028 and more than 120 jobs added.",
+          "source_url": "https://www.rtx.com/news/news-center/2026/09/04/rtxs-pratt-whitney-invests-25-million-to-expand-precision-parts-manufacturing",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "press release opening"
+        },
+        {
+          "text": "The facility provides precision components for GTF, PW800 and F135 engines.",
+          "source_url": "https://www.rtx.com/news/news-center/2026/09/04/rtxs-pratt-whitney-invests-25-million-to-expand-precision-parts-manufacturing",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "facility description"
+        }
+      ],
+      "why_it_matters": "The investment is a direct capacity signal for both commercial and military engine programs and shows continued localization/expansion of precision propulsion manufacturing in Europe.",
+      "practical_implication": "Supply-chain planning should track not only engine demand forecasts but where high-precision component capacity, special processing and skilled labor are being expanded for GTF/F135-class production.",
+      "tags": ["Pratt & Whitney", "GTF", "PW800", "F135", "engine manufacturing", "Poland", "supply chain"],
+      "scores": {"novelty": 3.5, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.5, "strategic_significance": 4.0, "reader_value": 4.3},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-07.json", "source_blob_sha": "84952fbc709a233c18684841b4c6ec14ed83bc72", "source_item_index": 0, "source_title": "RTX's Pratt & Whitney invests $25 million to expand precision parts manufacturing in Niepołomice, Poland"}
+      ]
+    },
+    {
+      "id": "r-lumi-ai",
+      "event_key": "eurohpc:lumi-ai-contract:2026-08-31",
+      "tier": "standard",
+      "title": "EuroHPC signs EUR 387.8M contract for the AI-optimized LUMI-AI supercomputer",
+      "primary_url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+      "supporting_urls": [],
+      "published_at": "2026-08-31",
+      "organization": "EuroHPC Joint Undertaking",
+      "company": "",
+      "category": "HPC・欧州AI基盤",
+      "source_kind": "press_release",
+      "factual_points": [
+        "EuroHPC signed a contract to deploy LUMI-AI with a total acquisition, delivery, installation and maintenance budget of EUR 387.8 million.",
+        "The cost is split 50/50 between EuroHPC JU and the LUMI AI Factory consortium.",
+        "The system is expected to be installed and available to users in 2027.",
+        "EuroHPC positions the system primarily for startups and SMEs as well as the wider research community."
+      ],
+      "claims": [
+        {
+          "text": "LUMI-AI carries a total EUR 387.8 million contract budget with 50% funded by EuroHPC JU and 50% by the LUMI AI Factory consortium.",
+          "source_url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "contract/funding section"
+        },
+        {
+          "text": "The system is expected to become available in 2027 and serve startups, SMEs and research users.",
+          "source_url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "deployment and access section"
+        }
+      ],
+      "why_it_matters": "Sovereign and public AI compute is becoming an industrial-policy tool, affecting where European scientific and engineering organizations can train and run large models without relying exclusively on US hyperscalers.",
+      "practical_implication": "European R&D programs may gain new procurement and compute-access options in 2027; organizations should watch allocation rules, supported software stacks and suitability for physics/scientific AI workloads.",
+      "tags": ["EuroHPC", "LUMI-AI", "HPC", "sovereign AI", "Europe", "research infrastructure"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 4.0, "enterprise_relevance": 4.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.40,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 25, "source_title": "EuroHPC signs €387.8M contract for AI-optimized LUMI-AI supercomputer"}
+      ]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "w-llmjp-vl",
+      "event_key": "llm-jp:llm-jp-4-vl-9b-refinedvision:2026-09-01",
+      "tier": "standard",
+      "title": "LLM-jp releases LLM-jp-4-VL 9B with a refined multimodal training dataset",
+      "primary_url": "https://llm-jp.nii.ac.jp/news/llm-jp-4-8b-thinking%E3%82%92%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E5%8C%96%E3%81%97%E3%81%9F%E8%A6%96%E8%A6%9A%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8Cllm/",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "LLM-jp / National Institute of Informatics",
+      "company": "",
+      "category": "オープンウェイト・日本",
+      "source_kind": "official",
+      "factual_points": [
+        "LLM-jp announced a 9B multimodal extension of LLM-jp-4-8B-thinking.",
+        "The project highlights RefinedVision, a revised visual training dataset intended to remove or repair data with licensing or quality problems."
+      ],
+      "claims": [
+        {"text": "LLM-jp released LLM-jp-4-VL 9B as a multimodal extension of its 8B thinking model.", "source_url": "https://llm-jp.nii.ac.jp/news/llm-jp-4-8b-thinking%E3%82%92%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E5%8C%96%E3%81%97%E3%81%9F%E8%A6%96%E8%A6%9A%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8Cllm/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "project announcement"},
+        {"text": "The project says RefinedVision removes or repairs visual training data with problematic licensing or quality characteristics.", "source_url": "https://llm-jp.nii.ac.jp/news/llm-jp-4-8b-thinking%E3%82%92%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E5%8C%96%E3%81%97%E3%81%9F%E8%A6%96%E8%A6%9A%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E3%80%8Cllm/", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "dataset description"}
+      ],
+      "why_it_matters": "The dataset-governance aspect is more distinctive than another small multimodal-model release and is relevant to organizations that need auditable training-data provenance.",
+      "practical_implication": "Track whether Japanese open-model projects publish reproducible dataset-cleaning criteria, licenses and evaluation details that make the models usable in enterprise or research environments.",
+      "tags": ["Japan", "multimodal", "open model", "dataset governance", "NII"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 2.5, "enterprise_relevance": 3.0, "strategic_significance": 3.5, "reader_value": 4.0},
+      "weighted_score": 3.70,
+      "confidence": "medium-high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 13}]
+    },
+    {
+      "id": "w-japanfold",
+      "event_key": "aiand-tenstorrent:japanfold-sovereign-drug-discovery:2026-09-03",
+      "tier": "standard",
+      "title": "JapanFold offers open structural-biology and drug-design models on sovereign Japanese AI infrastructure",
+      "primary_url": "https://www.aiand.com/newsroom/japanfoldannouncement",
+      "supporting_urls": ["https://www.aiand.com/newsroom/japanfoldlaunch"],
+      "published_at": "2026-09-03",
+      "organization": "ai& / JapanFold",
+      "company": "ai&",
+      "category": "Scientific AI・日本",
+      "source_kind": "press_release",
+      "factual_points": [
+        "ai& and Tenstorrent launched JapanFold on infrastructure operated in Japan.",
+        "The platform serves open structural-biology and drug-design models spanning structure prediction, binding and de novo design.",
+        "The launch positions domestic compute location and open models as part of the service value proposition."
+      ],
+      "claims": [
+        {"text": "JapanFold runs on sovereign infrastructure in Japan powered by Tenstorrent systems.", "source_url": "https://www.aiand.com/newsroom/japanfoldannouncement", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "launch announcement"},
+        {"text": "The service exposes multiple open structural-biology and drug-design models across prediction and generation workflows.", "source_url": "https://www.aiand.com/newsroom/japanfoldannouncement", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "model list"}
+      ],
+      "why_it_matters": "It is a useful Japan-specific example of scientific AI being packaged around sovereign inference infrastructure rather than around a new proprietary foundation model.",
+      "practical_implication": "Watch whether similar domestic scientific-model serving emerges for materials, chemistry and engineering simulation, and whether cost/performance claims become independently measurable.",
+      "tags": ["Japan", "structural biology", "drug design", "sovereign AI", "open science"],
+      "scores": {"novelty": 4.0, "source_quality": 4.5, "evidence_strength": 4.0, "engineering_relevance": 3.0, "enterprise_relevance": 3.5, "strategic_significance": 4.0, "reader_value": 4.0},
+      "weighted_score": 3.80,
+      "confidence": "medium-high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 16}]
+    },
+    {
+      "id": "w-palmimo",
+      "event_key": "jizai:palmimo-devkit-early-access:2026-09-03",
+      "tier": "standard",
+      "title": "Jizai starts early-access sales of Palmimo DevKit and plans progressive open sourcing",
+      "primary_url": "https://jizai.ai/en/news/palmimo-devkit-early-access/",
+      "supporting_urls": ["https://github.com/Jizai-inc/palmimo-devkit"],
+      "published_at": "2026-09-03",
+      "organization": "Jizai",
+      "company": "Jizai",
+      "category": "ロボティクス・Physical AI・日本",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Palmimo DevKit entered early-access sales on September 3 for developers, companies and research institutions.",
+        "The tabletop robot exposes motion through Python and includes an implementation that maps LLM tool calls to robot actions.",
+        "Jizai says the Python SDK, drivers and agent implementation will be progressively open-sourced, with simulation tooling planned later.",
+        "The announced hardware uses a Raspberry Pi 5, 21 degrees of freedom, camera, microphone array, speakers and a touch display."
+      ],
+      "claims": [
+        {"text": "Palmimo DevKit began early-access sales on September 3 and supports Python control plus an LLM tool-call-to-action implementation.", "source_url": "https://jizai.ai/en/news/palmimo-devkit-early-access/", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "launch and key-features sections"},
+        {"text": "Jizai plans progressive open sourcing of the SDK, drivers, AI-agent implementation and later simulation tools.", "source_url": "https://jizai.ai/en/news/palmimo-devkit-early-access/", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "open co-creation platform section"}
+      ],
+      "why_it_matters": "It is a compact, inspectable Physical-AI platform that exposes the software-to-hardware action boundary to ordinary developers, making it a useful adjacent signal for agent tool-control patterns.",
+      "practical_implication": "Track whether the open software stack and simulation support become sufficient for reproducible embodied-agent experimentation rather than remaining a product-demo interface.",
+      "tags": ["Japan", "Physical AI", "robotics", "Python", "MCP", "open source"],
+      "scores": {"novelty": 4.0, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 3.5, "enterprise_relevance": 3.5, "strategic_significance": 4.0, "reader_value": 4.5},
+      "weighted_score": 4.10,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_blob_sha": "f897f1d70369060bdc1c7be69fb3c8be1236958b", "source_item_index": 26}]
+    }
+  ],
+  "backlog": [
+    {"id": "b-mhi-mhica", "title": "MHI transitions Mississauga MHICA assets to Bombardier", "primary_url": "https://www.mhi.com/news/26090201.html", "published_at": "2026-09-02", "organization": "Mitsubishi Heavy Industries", "category": "航空機・主要サプライヤー", "source_kind": "press_release", "reason": "Important commercial-aerospace supply-chain restructuring, but lower technical/engineering novelty than today's selected manufacturing and AI items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-07.json", "source_item_index": 2}]},
+    {"id": "b-collins-chinook", "title": "Collins Aerospace supports CH-47 avionics modernization with open reusable architecture", "primary_url": "https://www.rtx.com/news/news-center/2026/08/11/rtxs-collins-aerospace-to-support-modernization-of-u-s-armys-chinook-helicopte", "published_at": "2026-08-11", "organization": "RTX / Collins Aerospace", "category": "民間・軍用航空機", "source_kind": "press_release", "reason": "Open avionics architecture is relevant to digital engineering, but the item is older and less directly connected to current AI/design automation than selected items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-07.json", "source_item_index": 1}]},
+    {"id": "b-physicsx-plaid", "title": "PhysicsX reports an AI-agent workflow for the Safran PLAID Tensile2D benchmark", "primary_url": "https://www.physicsx.ai/newsroom/how-an-ai-agent-cracked-an-industry-benchmark", "published_at": "2026-08-11", "organization": "PhysicsX", "category": "AIによる設計", "source_kind": "corporate_tech", "reason": "High engineering relevance, but PhysicsX already appeared prominently in the September 4 publication; retain for later use rather than concentrating the same vendor again without a newer event.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-07.json", "source_item_index": 5}]},
+    {"id": "b-crowdstrike-safemind", "title": "CrowdStrike launches SafeMind specialized cybersecurity models with NVIDIA", "primary_url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-launches-frontier-models-for-cybersecurity-with-nvidia/", "published_at": "2026-09-01", "organization": "CrowdStrike", "category": "AIセキュリティ・最新モデル", "source_kind": "press_release", "reason": "Potentially important specialized-model signal, but same vendor/event concentration is already represented by the stronger identity/runtime-control cluster; benchmark claims require additional independent evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 5}]},
+    {"id": "b-paloalto-console", "title": "Palo Alto Networks acquires Console to add agentic operations to Cortex", "primary_url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security", "published_at": "2026-09-01", "organization": "Palo Alto Networks", "category": "AIエージェント・安全性", "source_kind": "press_release", "reason": "Relevant to security-operations automation but farther from engineering workflow priorities and less technically detailed than selected agent-control items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 8}]},
+    {"id": "b-okta-auth0-agent", "title": "Auth0 adds identity capabilities for agent-led applications and commerce", "primary_url": "https://www.okta.com/en-in/newsroom/press-releases/auth0-launches-new-identity-innovations/", "published_at": "2026-09-02", "organization": "Okta / Auth0", "category": "AIエージェント・Identity", "source_kind": "press_release", "reason": "Useful confirmation that agent identity is becoming a product category, but redundant with the more concrete CrowdStrike identity/runtime cluster for today's main pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 9}]},
+    {"id": "b-genesys-agent", "title": "Genesys expands Agentic Virtual Agent with enterprise connectivity and reasoning", "primary_url": "https://www.genesys.com/company/newsroom/announcements/genesys-enhances-agentic-virtual-agent-amid-growing-enterprise-adoption", "published_at": "2026-09-02", "organization": "Genesys", "category": "企業AI・AIエージェント", "source_kind": "press_release", "reason": "Production enterprise-agent signal, but customer-service scope and limited engineering specificity place it below the selected control-plane and execution-plane examples.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 10}]},
+    {"id": "b-qwen38-max", "title": "Alibaba Cloud updates Qwen3.8-Max for long-horizon coding and multi-tool orchestration", "primary_url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models", "published_at": "2026-09-02", "organization": "Alibaba Cloud", "category": "最新AIモデル・中国", "source_kind": "official", "reason": "Relevant model update, but general model releases are intentionally capped and today's Astra release plus ecosystem acquisition carry stronger strategic/editorial value.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 11}]},
+    {"id": "b-llada-image", "title": "inclusionAI releases LLaDA-Image Base and Turbo checkpoints", "primary_url": "https://github.com/inclusionAI/LLaDA-Image", "published_at": "2026-09-04", "organization": "inclusionAI", "category": "オープンウェイト・OSS", "source_kind": "official", "reason": "Concrete open-weight release, but image generation/editing is peripheral to the engineering and enterprise workflow focus of this edition.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 12}]},
+    {"id": "b-nvidia-pair", "title": "NVIDIA PAIR distributes local agent inference across multiple PCs", "primary_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/", "published_at": "2026-09-03", "organization": "NVIDIA", "category": "Edge AI・推論基盤", "source_kind": "corporate_tech", "reason": "Retain because local/private inference is relevant, but the September 4 Writer could not retrieve the primary source and dropped this event; do not promote until final verification is reliably reproducible.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 14}, {"published_date": "2026-09-04", "writer_warning": "prior curated item was dropped during final verification because the NVIDIA primary page could not be retrieved"}]},
+    {"id": "b-tencent-hy4", "title": "Tencent open-sources Hy4 preview with 770B total and 49B active parameters", "primary_url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/", "published_at": "2026-08-28", "organization": "Tencent", "category": "オープンウェイト・中国", "source_kind": "press_release", "reason": "Substantial open-weight model, but no new September delta and lower engineering-specific value than the selected scientific and execution signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 15}]},
+    {"id": "b-aws-brazil", "title": "AWS-backed Brazil study reports 50% AI adoption but 15% advanced maturity among adopters", "primary_url": "https://www.aboutamazon.com.br/noticias/aws/adocao-de-ia-no-brasil-atinge-50-das-empresas-mas-maturidade-ainda-e-desafio", "published_at": "2026-09-03", "organization": "AWS / Strand Partners", "category": "企業AI・調査", "source_kind": "technical_report", "reason": "Useful geographic adoption signal, but vendor-commissioned and less methodologically rich in the available source than the selected Microsoft report; preserve for trend comparison.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 17}]},
+    {"id": "b-gartner-chatbot", "title": "Gartner reports low retry intent after negative chatbot experiences", "primary_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-02-gartner-finds-only-27-percent-of-customers-would-try-a-chatbot-again-after-a-negative-experience", "published_at": "2026-09-02", "organization": "Gartner", "category": "企業AI・調査", "source_kind": "press_release", "reason": "Good customer-experience risk metric, but centered on chatbot retry behavior rather than the agentic engineering/workflow themes prioritized today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 19}]},
+    {"id": "b-gartner-assistants", "title": "Gartner publishes a market evaluation of enterprise AI assistants", "primary_url": "https://www.gartner.com/en/documents/8342617", "published_at": "2026-09-02", "organization": "Gartner", "category": "企業AI・市場調査", "source_kind": "technical_report", "reason": "Potentially important category-formation signal, but the underlying detailed report is not sufficiently accessible from the Scout evidence to preserve methodology, scoring and vendor comparisons without overclaiming.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 20}]},
+    {"id": "b-cisco-ai-factory", "title": "Cisco expands Secure AI Factory with rack-scale systems", "primary_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-secure-ai-factory-nvidia-rack-scale.html", "published_at": "2026-08-25", "organization": "Cisco", "category": "HPC・推論基盤", "source_kind": "press_release", "reason": "Relevant infrastructure integration, but older and more product-bundle oriented than the selected EuroHPC sovereign-compute contract and NVIDIA/Hugging Face ecosystem event.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 27}]},
+    {"id": "b-nttdata-vdi-agent", "title": "NTT DATA launches VDI environment for continuously running enterprise AI agents", "primary_url": "https://www.nttdata.com/global/ja/news/topics/2026/082500/", "published_at": "2026-08-25", "organization": "NTT DATA", "category": "企業AI・AIエージェント・日本", "source_kind": "official", "reason": "Strong Japan enterprise-agent operations signal, but the adjacent NTT DATA LITRON platform was already published September 4 and today's Coder/IBM/CrowdStrike items provide fresher execution/governance deltas.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 28}]}
+  ],
+  "rejected": [
+    {"id": "rej-simscale", "title": "SimScale opens Engineering AI agent to its global community", "primary_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/", "reason": "Exact URL and semantic event were published on 2026-09-02 with no new delta in today's candidate.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-07.json", "source_item_index": 3}, {"published_date": "2026-09-02", "published_item_id": "c-simscale-agent"}]},
+    {"id": "rej-physicsx-genopt", "title": "Building Beyond CAD: On Generative Optimization for Engineering", "primary_url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering", "reason": "Exact URL and semantic event were published on 2026-09-04 with no subsequent update in today's candidate.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-07.json", "source_item_index": 4}, {"published_date": "2026-09-04", "published_item_id": "c-physicsx-genopt"}]},
+    {"id": "rej-crysvcd", "title": "CrysVCD integrates valence constraints directly into generative crystal design", "primary_url": "https://www.nature.com/articles/s43588-026-01037-2", "reason": "Exact primary URL and semantic event were published on 2026-09-02; no material update is present.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 24}, {"published_date": "2026-09-02", "published_item_id": "r-crysvcd"}]},
+    {"id": "rej-hiasynth", "title": "Hiasynth raises funding for an MCP-accessible synthetic population model of Europe", "primary_url": "https://tech.eu/2026/09/02/hiasynth-raises-angel-funding-to-build-a-queryable-synthetic-model-of-europes-population/", "reason": "Only a secondary technology-news source was available in the Scout evidence and no primary launch/source page was verified; insufficient provenance for selected/wildcard use.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-07.json", "source_item_index": 29}]}
+  ],
+  "warnings": [
+    "Both Scout inputs are same-day daily-signal-scout/v2 artifacts, completed successfully and generated less than three hours before curation.",
+    "Published receipts for 2026-09-02 through 2026-09-04 and the published index were used for duplicate suppression.",
+    "The two CrowdStrike September 2 agent-control announcements were merged into one editorial cluster, reducing 36 input items to 35 semantic candidates.",
+    "GPT-6 Astra is intentionally reselected despite a related Astra item published September 2 because the September 3 event is the actual product release and rollout; the material delta is preserved in provenance.",
+    "NVIDIA PAIR remains backlog because a prior Writer run failed to retrieve its primary source; it should not be promoted unless final verification becomes reliable.",
+    "Vendor benchmark, market-positioning and platform-openness statements remain explicitly attributed to their publishers."
+  ]
+}
