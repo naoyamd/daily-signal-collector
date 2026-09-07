@@ -1,9 +1,9 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-07T06:11:07+09:00",
+  "updated_at": "2026-09-08T06:10:47+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 33,
+  "next_index": 40,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-02T06:07:20+09:00",
     "Ansys": "2026-09-02T06:07:20+09:00",
@@ -37,18 +37,25 @@
     "Kawasaki Heavy Industries": "2026-09-07T06:11:07+09:00",
     "SUBARU": "2026-09-07T06:11:07+09:00",
     "Kawasaki Heavy Industries Aerospace Systems Company": "2026-09-07T06:11:07+09:00",
-    "Hanwha Aerospace": "2026-09-07T06:11:07+09:00"
+    "Hanwha Aerospace": "2026-09-07T06:11:07+09:00",
+    "Aero Engine Corporation of China (AECC)": "2026-09-08T06:10:47+09:00",
+    "Aviation Industry Corporation of China (AVIC)": "2026-09-08T06:10:47+09:00",
+    "Airbus": "2026-09-08T06:10:47+09:00",
+    "Boeing": "2026-09-08T06:10:47+09:00",
+    "Lockheed Martin": "2026-09-08T06:10:47+09:00",
+    "Northrop Grumman": "2026-09-08T06:10:47+09:00",
+    "BAE Systems": "2026-09-08T06:10:47+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-07",
-    "path": "gpt_handoff/company/2026-09-07.json",
-    "commit": "2fa82a786c0ca301d995ca9cb3b165a9df39811b",
+    "local_date": "2026-09-08",
+    "path": "gpt_handoff/company/2026-09-08.json",
+    "commit": "8b9e6f95c3286b7cfd9167cf33e1cc9655965d2e",
     "status": "complete",
-    "checked_source_count": 12,
-    "candidate_item_count": 6
+    "checked_source_count": 7,
+    "candidate_item_count": 11
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-09-07 required five spillover checks because the initial seven mandatory sources yielded fewer than five qualifying in-window watchlist candidates."
+    "2026-09-08 required no spillover because the initial seven mandatory sources yielded at least five qualifying in-window watchlist candidates."
   ]
 }
