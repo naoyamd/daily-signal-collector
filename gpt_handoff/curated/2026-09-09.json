@@ -1,0 +1,825 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-09T07:06:44+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-09.json",
+      "blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66",
+      "generated_at": "2026-09-09T06:18:00+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-09.json",
+      "blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e",
+      "generated_at": "2026-09-09T06:29:44+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "Aerospace supply-chain strategy is moving upstream into casting capacity and tighter design-manufacturing integration.",
+      "supporting_ids": ["c-ge-cpp", "c-seah-cast-ingot"]
+    },
+    {
+      "signal": "Engineering AI is favoring hybrid and constrained methods that keep explicit numerical structure or reviewable physical evidence in the loop.",
+      "supporting_ids": ["r-meno", "r-tpms-piezo", "r-lumafield-quality", "r-atos-flender"]
+    },
+    {
+      "signal": "Agent deployment architecture is converging on isolation, local or governed tool access, and pre-production evaluation gates.",
+      "supporting_ids": ["r-meta-muse", "r-hpe-zerto", "r-aws-agent-eval"]
+    },
+    {
+      "signal": "Enterprise AI spending and agent deployment are rising faster than governance depth and high-intensity task adoption.",
+      "supporting_ids": ["r-servicenow-india", "r-stlouisfed-task-ai", "r-accenture-gemini"]
+    },
+    {
+      "signal": "EDA verification pressure remains an engineering bottleneck, increasing the value of outcome-based automation and signoff metrics.",
+      "supporting_ids": ["c-siemens-fv2026"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["c-ge-cpp", "r-meno", "r-meta-muse"],
+    "ordered_ids": [
+      "c-ge-cpp",
+      "r-meno",
+      "c-siemens-fv2026",
+      "r-tpms-piezo",
+      "r-lumafield-quality",
+      "r-atos-flender",
+      "r-hpe-zerto",
+      "r-aws-agent-eval",
+      "r-meta-muse",
+      "r-servicenow-india",
+      "r-stlouisfed-task-ai",
+      "r-accenture-gemini"
+    ],
+    "central_signals": [
+      "Critical engineering-AI value is shifting toward execution and validation inside existing physical and numerical workflows.",
+      "Supply-chain control and manufacturing capacity remain strategic constraints even as design workflows become more digital and AI-assisted.",
+      "Production agents increasingly need isolation, authorization and evaluation layers outside the primary model.",
+      "Enterprise adoption should be measured at workflow, task and governance levels rather than by license count or spending alone."
+    ],
+    "tensions_or_caveats": [
+      "Several deployment metrics are vendor or joint customer-vendor claims and must remain attributed.",
+      "Large survey results measure reported adoption or maturity and do not directly establish causal productivity or financial impact.",
+      "Higher automation value increases the need for explicit verification and signoff boundaries rather than reducing them."
+    ],
+    "desired_depth": {
+      "c-ge-cpp": "lead",
+      "r-meno": "lead",
+      "c-siemens-fv2026": "report",
+      "r-tpms-piezo": "standard",
+      "r-lumafield-quality": "standard",
+      "r-atos-flender": "standard",
+      "r-hpe-zerto": "standard",
+      "r-aws-agent-eval": "standard",
+      "r-meta-muse": "lead",
+      "r-servicenow-india": "report",
+      "r-stlouisfed-task-ai": "report",
+      "r-accenture-gemini": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 34,
+    "deduplicated_item_count": 34,
+    "source_domain_count": 26,
+    "organization_count": 32,
+    "regions_observed": ["US", "Europe", "China", "Japan", "India", "global"],
+    "lanes": {
+      "company_watch": "12 watch sources checked; fresh aerospace, manufacturing and EDA candidates present",
+      "engineering_ai": "covered",
+      "agents_enterprise": "covered",
+      "models_open_weights": "covered",
+      "reports_surveys": "covered",
+      "scientific_wildcards": "covered",
+      "non_us_rotation": "covered"
+    },
+    "known_gaps": [
+      "The Company Scout rotation produced relatively few fresh aircraft-engine OEM engineering releases beyond supply-chain and manufacturing signals.",
+      "The accessible Siemens study summary did not expose one aggregate sample-size figure for the headline first-silicon metric.",
+      "Several enterprise and manufacturing case-study performance metrics are self-reported by vendors or customers and lack independent reproduction.",
+      "Text2Structure3D remains in backlog because a reliable exact publication date was not established."
+    ]
+  },
+  "selected": [
+    {
+      "id": "c-ge-cpp",
+      "event_key": "ge-aerospace:cpp-acquisition-castings-integration:2026-09-08",
+      "tier": "lead",
+      "title": "GE Aerospace to acquire Consolidated Precision Products and expand aerospace castings capacity",
+      "primary_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-acquire-consolidated-precision-products-cpp-expanding-mission-critical",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "GE Aerospace / Consolidated Precision Products",
+      "company": "GE Aerospace",
+      "category": "航空機材料・部品",
+      "source_kind": "press_release",
+      "factual_points": [
+        "GE Aerospace agreed to acquire CPP for $11.75 billion, subject to regulatory approvals.",
+        "CPP has about 6,600 employees across more than 20 facilities and produces investment- and precision-sand-cast aerospace components in superalloys, titanium and other materials.",
+        "GE Aerospace identifies casting capacity, airfoil manufacturing and tighter design-manufacturing integration as strategic reasons for the transaction.",
+        "GE expects the transaction to close in the second half of 2027, subject to customary approvals."
+      ],
+      "claims": [
+        {
+          "text": "GE Aerospace announced an agreement to acquire CPP for $11.75 billion.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-acquire-consolidated-precision-products-cpp-expanding-mission-critical",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "transaction overview"
+        },
+        {
+          "text": "CPP is described as having about 6,600 employees across more than 20 facilities and producing complex aerospace castings.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-acquire-consolidated-precision-products-cpp-expanding-mission-critical",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "CPP capability description"
+        },
+        {
+          "text": "GE Aerospace says vertical integration will expand capacity, quality and design-manufacturing integration.",
+          "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-acquire-consolidated-precision-products-cpp-expanding-mission-critical",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "strategic rationale"
+        }
+      ],
+      "why_it_matters": "Large-engine OEMs are treating castings capacity and design-to-manufacturing integration as strategic constraints, not merely procurement categories.",
+      "practical_implication": "For turbine hardware programs, monitor how ownership of casting capacity changes lead time, supplier optionality, qualification strategy and design-for-manufacture feedback loops.",
+      "tags": ["investment casting", "superalloy", "airfoil", "aerospace supply chain", "engine manufacturing"],
+      "scores": {"novelty": 4.4, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.8, "strategic_significance": 5.0, "reader_value": 4.8},
+      "weighted_score": 4.76,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 4, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]
+    },
+    {
+      "id": "r-meno",
+      "event_key": "npj-ai:meno-stiff-neural-operator:2026-09-01",
+      "tier": "lead",
+      "title": "MENO hybridizes learned nonlinear dynamics with matrix-exponential propagation for stiff systems",
+      "primary_url": "https://www.nature.com/articles/s44387-026-00150-x",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "University research collaboration",
+      "company": "University research collaboration",
+      "category": "AIによる設計・Neural Operator",
+      "source_kind": "journal",
+      "factual_points": [
+        "MENO separates a stiff system into a small nonlinear state learned by a neural model and a larger linear time-varying state propagated with a matrix exponential.",
+        "The paper evaluates three realistic thermochemical systems rather than using only toy benchmarks.",
+        "The authors report errors below 2% in zero-dimensional reactor tests and speedups up to 4,835× on GPU and 185× on CPU versus implicit solvers in tested cases.",
+        "The method exploits known system structure instead of replacing the full stiff system with a black-box surrogate."
+      ],
+      "claims": [
+        {
+          "text": "MENO combines learned nonlinear dynamics with matrix-exponential propagation of a larger linear subsystem.",
+          "source_url": "https://www.nature.com/articles/s44387-026-00150-x",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "method description"
+        },
+        {
+          "text": "The authors report sub-2% errors in 0D reactor tests and speedups up to 4,835× on GPU and 185× on CPU for tested cases.",
+          "source_url": "https://www.nature.com/articles/s44387-026-00150-x",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "results"
+        }
+      ],
+      "why_it_matters": "This is a strong example of physics-ML integration that preserves exploitable mathematical structure instead of asking a neural network to learn the full solver behavior.",
+      "practical_implication": "For combustion, kinetics and other stiff engineering systems, hybrid decomposition may offer a more auditable path to acceleration than full surrogate replacement.",
+      "tags": ["neural operator", "stiff systems", "thermochemistry", "hybrid physics-ML", "solver acceleration"],
+      "scores": {"novelty": 4.6, "source_quality": 5.0, "evidence_strength": 4.8, "engineering_relevance": 5.0, "enterprise_relevance": 2.5, "strategic_significance": 4.7, "reader_value": 4.7},
+      "weighted_score": 4.57,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 0, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "c-siemens-fv2026",
+      "event_key": "siemens-eda:functional-verification-study-2026:2026-09-08",
+      "tier": "report",
+      "title": "Siemens EDA 2026 Functional Verification Study reports a further decline in first-silicon success",
+      "primary_url": "https://blogs.sw.siemens.com/verificationhorizons/2026/09/08/the-2026-functional-verification-study/",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Siemens EDA published the 2026 Functional Verification Study with Wilson Research Group.",
+        "Siemens reports first-silicon success among IC/ASIC respondents at 5% in 2026, down from 14.4% in 2024.",
+        "The accompanying analysis frames verification complexity, methodology and automation as growing bottlenecks, with verification consuming roughly half of project effort in the reported study context.",
+        "The public summary does not establish a single causal factor for the first-silicon decline."
+      ],
+      "claims": [
+        {
+          "text": "Siemens reports first-silicon success among IC/ASIC respondents at 5% in 2026 versus 14.4% in 2024.",
+          "source_url": "https://blogs.sw.siemens.com/verificationhorizons/2026/09/08/the-2026-functional-verification-study/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "study headline / first-silicon findings"
+        },
+        {
+          "text": "Siemens' study materials describe verification as roughly half of project effort and report persistent schedule pressure.",
+          "source_url": "https://blogs.sw.siemens.com/verificationhorizons/2026/09/08/the-2026-functional-verification-study/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "executive findings"
+        }
+      ],
+      "why_it_matters": "EDA is a useful leading indicator for engineering-agent deployment because its workflows have explicit tool chains and signoff gates; worsening verification pressure raises the value of automation but also the cost of false confidence.",
+      "practical_implication": "Track whether agentic verification tools are measured against signoff outcomes, bug escape rates and schedule impact rather than only task-level productivity.",
+      "tags": ["EDA", "verification", "engineering productivity", "automation", "semiconductor"],
+      "scores": {"novelty": 4.2, "source_quality": 4.5, "evidence_strength": 4.2, "engineering_relevance": 4.3, "enterprise_relevance": 3.2, "strategic_significance": 4.3, "reader_value": 4.3},
+      "weighted_score": 4.18,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "Siemens Digital Industries Software / Wilson Research Group",
+        "published_at": "2026-09-08",
+        "sample_size": null,
+        "methodology": "Functional Verification Study based on Wilson Research Group survey work; Siemens links methodology and data materials, but the accessible public summary did not expose one aggregate sample-size figure for the headline metric.",
+        "geographies": "Not fully specified in the accessible public summary.",
+        "key_metrics": ["First-silicon success among IC/ASIC respondents: 5% in 2026 vs 14.4% in 2024", "Verification described as roughly half of project effort in the study context", "FPGA bug escapes reported as rising in the accompanying findings"],
+        "comparison_to_previous": "The headline first-silicon success metric fell substantially from the 2024 study.",
+        "practical_meaning": "Verification capacity and signoff quality remain hard constraints as design complexity rises, making outcome-based evaluation of AI-assisted verification important.",
+        "caveats": "Vendor-published interpretation of survey data; exact aggregate sample size was not available in the accessible summary, and the study does not establish causality."
+      },
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 3, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]
+    },
+    {
+      "id": "r-tpms-piezo",
+      "event_key": "ijmecsci:tpms-piezo-multiscale-optimization:2026-09-01",
+      "tier": "standard",
+      "title": "Deep-learning surrogate is embedded inside multiscale topology optimization for TPMS piezoelectric metamaterials",
+      "primary_url": "https://doi.org/10.1016/j.ijmecsci.2026.111831",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "Research collaboration",
+      "company": "Research collaboration",
+      "category": "AIによる設計・最適化",
+      "source_kind": "journal",
+      "factual_points": [
+        "The method uses a data-efficient 3D-CNN surrogate to predict electromechanical properties of TPMS unit cells inside a multiscale topology-optimization loop.",
+        "Density and polarization are optimized jointly across scales instead of treating the surrogate as a post-processing predictor.",
+        "The numerical actuator study reports a 156.1% output-displacement increase versus the referenced conventional configuration.",
+        "The headline improvement is a numerical result and is not an experimental hardware demonstration."
+      ],
+      "claims": [
+        {
+          "text": "A 3D-CNN surrogate predicts TPMS unit-cell electromechanical properties inside the optimization loop.",
+          "source_url": "https://doi.org/10.1016/j.ijmecsci.2026.111831",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "methodology"
+        },
+        {
+          "text": "The paper reports a 156.1% output-displacement gain in a numerical actuator example from joint density and polarization optimization.",
+          "source_url": "https://doi.org/10.1016/j.ijmecsci.2026.111831",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "numerical results"
+        }
+      ],
+      "why_it_matters": "The work shows a practical AI-assisted-design pattern: use a learned property surrogate where repeated microscale solves are expensive while retaining an explicit optimization formulation.",
+      "practical_implication": "Similar architectures can be evaluated for turbine materials and structures when microstructure or property prediction is the computational bottleneck rather than the full system solver.",
+      "tags": ["topology optimization", "deep learning surrogate", "TPMS", "piezoelectric", "multiscale design"],
+      "scores": {"novelty": 4.2, "source_quality": 5.0, "evidence_strength": 4.6, "engineering_relevance": 5.0, "enterprise_relevance": 2.3, "strategic_significance": 4.2, "reader_value": 4.3},
+      "weighted_score": 4.33,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 1, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-lumafield-quality",
+      "event_key": "lumafield:quality-agent-industrial-ct:2026-09-03",
+      "tier": "standard",
+      "title": "Lumafield Quality Agent applies an industrial CT foundation model to defect detection and evidence escalation",
+      "primary_url": "https://www.globenewswire.com/news-release/2026/09/03/3355956/0/en/lumafield-introduces-quality-agent-a-physical-ai-technology-that-automates-defect-detection-and-root-cause-analysis-for-manufacturers.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "Lumafield",
+      "company": "Lumafield",
+      "category": "製造・Physical AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Quality Agent runs in Lumafield Voyager and uses industrial X-ray CT data to learn a known-good product state and flag deviations.",
+        "Lumafield says the underlying foundation model was trained on hundreds of thousands of industrial parts.",
+        "The workflow escalates detected evidence to quality engineers rather than removing the human review step.",
+        "The company describes an investigation involving 1,054 battery cells from 10 manufacturers as an example."
+      ],
+      "claims": [
+        {
+          "text": "Quality Agent learns known-good CT patterns, detects deviations and escalates evidence to quality engineers.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355956/0/en/lumafield-introduces-quality-agent-a-physical-ai-technology-that-automates-defect-detection-and-root-cause-analysis-for-manufacturers.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "product workflow"
+        },
+        {
+          "text": "Lumafield says its industrial CT foundation model was trained on hundreds of thousands of parts.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355956/0/en/lumafield-introduces-quality-agent-a-physical-ai-technology-that-automates-defect-detection-and-root-cause-analysis-for-manufacturers.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "model description"
+        }
+      ],
+      "why_it_matters": "Quality inspection is a high-value engineering-agent domain because source evidence is physical and reviewable, which makes human escalation and traceability concrete design requirements.",
+      "practical_implication": "For aerospace and materials quality systems, evaluate whether AI outputs preserve defect evidence, calibration context and escalation criteria that engineers can audit.",
+      "tags": ["physical AI", "X-ray CT", "quality", "defect detection", "root cause"],
+      "scores": {"novelty": 4.5, "source_quality": 4.0, "evidence_strength": 3.8, "engineering_relevance": 4.8, "enterprise_relevance": 4.0, "strategic_significance": 4.4, "reader_value": 4.6},
+      "weighted_score": 4.36,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 5, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-atos-flender",
+      "event_key": "atos-flender:sovereign-engineering-rd-agent:2026-09-04",
+      "tier": "standard",
+      "title": "Atos and Flender China deploy a sovereign engineering R&D agent using manufacturing knowledge",
+      "primary_url": "https://www.globenewswire.com/de/news-release/2026/9/4/3356389/0/en/atos-powered-agentic-ai-solution-wins-idc-ai-innovation-award.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-04",
+      "organization": "Atos / Flender China",
+      "company": "Flender China",
+      "category": "AIによる設計・企業AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "The deployment combines RAG, multimodal input and manufacturing knowledge for engineering R&D tasks.",
+        "Atos and Flender report design-standard and drawing interpretation falling from about 30 minutes to 5 minutes.",
+        "The companies report about 2,000 engineering hours saved annually and roughly sixfold processing capacity.",
+        "These performance figures are joint deployment claims, not independently reproduced benchmarks."
+      ],
+      "claims": [
+        {
+          "text": "The system uses RAG, multimodal inputs and manufacturing knowledge for engineering R&D.",
+          "source_url": "https://www.globenewswire.com/de/news-release/2026/9/4/3356389/0/en/atos-powered-agentic-ai-solution-wins-idc-ai-innovation-award.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "solution architecture"
+        },
+        {
+          "text": "Atos and Flender report task time falling from about 30 minutes to 5 minutes and roughly 2,000 engineering hours saved annually.",
+          "source_url": "https://www.globenewswire.com/de/news-release/2026/9/4/3356389/0/en/atos-powered-agentic-ai-solution-wins-idc-ai-innovation-award.html",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "reported deployment results"
+        }
+      ],
+      "why_it_matters": "This is closer to an engineering-knowledge production deployment than a generic office copilot and provides a concrete example of sovereignty and internal-knowledge constraints.",
+      "practical_implication": "Use the architecture as a comparison point for engineering RAG and agent pilots, but demand task-level ground truth and independent internal measurement before accepting reported time savings.",
+      "tags": ["engineering agent", "RAG", "multimodal", "manufacturing", "sovereign AI"],
+      "scores": {"novelty": 4.0, "source_quality": 3.8, "evidence_strength": 3.5, "engineering_relevance": 4.8, "enterprise_relevance": 4.5, "strategic_significance": 4.2, "reader_value": 4.5},
+      "weighted_score": 4.22,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 3, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-hpe-zerto",
+      "event_key": "hpe-zerto:local-mcp-agentic-troubleshooting:2026-09-08",
+      "tier": "standard",
+      "title": "HPE Zerto keeps agent execution on premises while exposing live product APIs through a local MCP server",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "HPE Zerto / Amazon Web Services",
+      "company": "HPE",
+      "category": "企業AI・AIエージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The agent runtime operates in the customer's on-premises environment and a local MCP server exposes live Zerto Virtual Manager APIs.",
+        "The architecture sends inference and knowledge-base queries outside the environment while keeping operational tool execution local.",
+        "AWS and HPE report adoption by more than 20% of customers since Q2 2026 and a 10% reduction in support cases for supported workflows.",
+        "The adoption and support metrics are customer/vendor case-study claims."
+      ],
+      "claims": [
+        {
+          "text": "The architecture places the agent runtime and MCP tool server on premises while externalizing inference and knowledge-base queries.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "architecture section"
+        },
+        {
+          "text": "AWS and HPE report adoption by over 20% of customers since Q2 and a 10% support-case reduction for supported workflows.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "customer results"
+        }
+      ],
+      "why_it_matters": "It provides a concrete pattern for separating sensitive operational execution from cloud inference, a recurring constraint for engineering and industrial agents.",
+      "practical_implication": "For on-prem CAE, HPC or plant agents, compare this split with local-model approaches and audit exactly which data, prompts and telemetry cross the boundary.",
+      "tags": ["MCP", "on-premises", "agent runtime", "data boundary", "enterprise AI"],
+      "scores": {"novelty": 4.1, "source_quality": 4.3, "evidence_strength": 4.0, "engineering_relevance": 3.5, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.6},
+      "weighted_score": 4.21,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 9, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-aws-agent-eval",
+      "event_key": "aws:agentcore-evaluate-cicd-quality-gate:2026-09-08",
+      "tier": "standard",
+      "title": "AWS reference architecture puts agent evaluation into CI/CD and blocks regressions before deployment",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Amazon Web Services",
+      "company": "Amazon",
+      "category": "AIエージェント・評価",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The reference pipeline deploys an agent with OAuth-protected, role-based MCP tools and runs AgentCore Evaluate tests in GitHub Actions.",
+        "A pull request can fail when evaluation scores regress, making agent quality a pre-production gate rather than only a post-deployment dashboard.",
+        "The pattern includes response, trajectory and custom or code-based evaluations.",
+        "This is a reference implementation, not evidence that the quality gate eliminates production failures."
+      ],
+      "claims": [
+        {
+          "text": "The published pipeline runs agent evaluations in GitHub Actions and can fail a pull request on regression.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "CI/CD workflow"
+        },
+        {
+          "text": "The example combines OAuth-protected role-based MCP tools with response, trajectory and custom evaluation patterns.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "evaluation architecture"
+        }
+      ],
+      "why_it_matters": "Engineering agents need deterministic release gates just as simulation and software pipelines do; this turns evaluation from an observability concern into a deployment control.",
+      "practical_implication": "For internal engineering agents, define regression suites around tool trajectories, constraint violations and approval behavior and run them before model, prompt or tool changes reach users.",
+      "tags": ["agent evaluation", "CI/CD", "MCP", "quality gate", "GitHub Actions"],
+      "scores": {"novelty": 4.1, "source_quality": 4.5, "evidence_strength": 4.4, "engineering_relevance": 3.5, "enterprise_relevance": 4.8, "strategic_significance": 4.5, "reader_value": 4.6},
+      "weighted_score": 4.27,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 11, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-meta-muse",
+      "event_key": "meta:muse-secure-vm-sentinel-agent:2026-09-08",
+      "tier": "lead",
+      "title": "Meta Muse separates task execution into a dedicated Secure VM with a system-level approval agent",
+      "primary_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Meta",
+      "company": "Meta",
+      "category": "AIエージェント・安全性",
+      "source_kind": "official",
+      "factual_points": [
+        "Muse runs in a dedicated cloud Secure VM with its own browser for longer-running tasks.",
+        "Meta describes per-application permissions and protected credential handling.",
+        "A separate Sentinel agent operates at the system level and reviews outbound actions; Meta says nothing reaches the internet unless Sentinel approves.",
+        "Sensitive actions can require explicit user approval."
+      ],
+      "claims": [
+        {
+          "text": "Muse runs in a dedicated Secure VM with its own browser and per-app permissions.",
+          "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "security architecture"
+        },
+        {
+          "text": "Meta says a separate Sentinel agent reviews outbound actions and sensitive steps can require user approval.",
+          "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "approval controls"
+        }
+      ],
+      "why_it_matters": "Agent safety architecture is moving toward explicit isolation and independent approval layers rather than relying on the same model that plans the task to police itself.",
+      "practical_implication": "For engineering agents with file, network or tool access, test whether authorization and egress controls are enforced outside the primary model process and remain effective under prompt or tool compromise.",
+      "tags": ["secure VM", "agent safety", "permissions", "approval agent", "tool use"],
+      "scores": {"novelty": 4.4, "source_quality": 4.5, "evidence_strength": 4.0, "engineering_relevance": 3.1, "enterprise_relevance": 4.5, "strategic_significance": 4.7, "reader_value": 4.5},
+      "weighted_score": 4.16,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 7, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-servicenow-india",
+      "event_key": "servicenow:india-ai-maturity-index-2026:2026-09-08",
+      "tier": "report",
+      "title": "ServiceNow and ThoughtLab India AI Maturity Index shows deployment rising faster than governance",
+      "primary_url": "https://newsroom.servicenow.com/press-releases/details/2026/Indias-enterprise-AI-investment-surges-119-but-only-22-of-Indian-enterprises-have-the-governance-to-match-their-AI-ambition-ServiceNow/default.aspx",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "ServiceNow / ThoughtLab",
+      "company": "ServiceNow",
+      "category": "企業AI・調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "The survey covers 4,500 senior leaders globally, including 350 in India.",
+        "India respondents report AI investment up 119% year over year.",
+        "54% report deploying AI agents, while 11% report autonomous workflows.",
+        "22% report AI testing, auditing and risk-assessment processes; 18% report an integrated AI platform.",
+        "The study is vendor-sponsored and uses a proprietary maturity index."
+      ],
+      "claims": [
+        {
+          "text": "The study surveyed 4,500 senior leaders, including 350 respondents in India.",
+          "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/Indias-enterprise-AI-investment-surges-119-but-only-22-of-Indian-enterprises-have-the-governance-to-match-their-AI-ambition-ServiceNow/default.aspx",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "methodology"
+        },
+        {
+          "text": "India respondents report AI investment up 119% year over year, 54% agent deployment, 11% autonomous workflows, and 22% testing or audit controls.",
+          "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/Indias-enterprise-AI-investment-surges-119-but-only-22-of-Indian-enterprises-have-the-governance-to-match-their-AI-ambition-ServiceNow/default.aspx",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "India findings"
+        }
+      ],
+      "why_it_matters": "The gap between agent deployment and governance is a better maturity signal than raw spending growth and is directly relevant to enterprise engineering AI programs.",
+      "practical_implication": "Track operating controls, integrated platforms and test or audit coverage alongside agent counts; treat the index as directional because the sponsor sells enterprise AI workflow software.",
+      "tags": ["AI adoption", "governance", "agents", "India", "enterprise survey"],
+      "scores": {"novelty": 4.1, "source_quality": 4.0, "evidence_strength": 3.7, "engineering_relevance": 2.7, "enterprise_relevance": 5.0, "strategic_significance": 4.4, "reader_value": 4.5},
+      "weighted_score": 3.95,
+      "confidence": "medium",
+      "report_details": {
+        "publisher": "ServiceNow / ThoughtLab",
+        "published_at": "2026-09-08",
+        "sample_size": 4500,
+        "methodology": "Proprietary Enterprise AI Maturity Index survey of 4,500 senior leaders; the published India analysis includes 350 India respondents.",
+        "geographies": "Global survey with an India-focused cut.",
+        "key_metrics": ["India AI investment +119% year over year", "54% deploying AI agents", "11% report autonomous workflows", "22% report AI testing, auditing or risk assessment", "18% report an integrated AI platform"],
+        "comparison_to_previous": "Investment growth is rapid while governance and autonomous-workflow adoption remain substantially lower.",
+        "practical_meaning": "Enterprise AI maturity should be measured by governance and workflow integration, not spending or pilot count alone.",
+        "caveats": "Vendor-sponsored research using a proprietary index and self-reported responses; results should be treated as directional rather than independent market measurement."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 20, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-stlouisfed-task-ai",
+      "event_key": "stlouisfed:genai-task-adoption-rps:2026-09-01",
+      "tier": "report",
+      "title": "St. Louis Fed measures generative-AI adoption at the occupation and task level",
+      "primary_url": "https://www.stlouisfed.org/on-the-economy/2026/sep/what-work-does-generative-ai-do",
+      "supporting_urls": [],
+      "published_at": "2026-09-01",
+      "organization": "Federal Reserve Bank of St. Louis",
+      "company": "Federal Reserve Bank of St. Louis",
+      "category": "企業AI・Workforce調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "The analysis uses Real-Time Population Survey data covering nearly 14,000 workers across four quarterly waves from August 2025 to May 2026.",
+        "Workers are shown important O*NET tasks for their occupation and report which tasks they perform and whether they use generative AI for them.",
+        "More than 80% of occupations and over 40% of tasks have at least 20% AI adoption.",
+        "Fewer than 3% of tasks have adoption above 50%, indicating broad but shallow task penetration.",
+        "The study measures reported use, not direct productivity or quality impact."
+      ],
+      "claims": [
+        {
+          "text": "The study uses nearly 14,000 workers across four quarterly survey waves and maps responses to O*NET occupational tasks.",
+          "source_url": "https://www.stlouisfed.org/on-the-economy/2026/sep/what-work-does-generative-ai-do",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "data and methodology"
+        },
+        {
+          "text": "More than 80% of occupations and over 40% of tasks have at least 20% generative-AI adoption, while fewer than 3% of tasks exceed 50% adoption.",
+          "source_url": "https://www.stlouisfed.org/on-the-economy/2026/sep/what-work-does-generative-ai-do",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "results"
+        }
+      ],
+      "why_it_matters": "Task-level adoption is more actionable than job-title-level anecdotes because it shows where AI is entering workflows and where human work remains dominant.",
+      "practical_implication": "For engineering organizations, replicate this task decomposition internally before deciding which tasks deserve agents, copilots, automation or no AI intervention.",
+      "tags": ["labor market", "AI adoption", "tasks", "workforce", "survey"],
+      "scores": {"novelty": 4.5, "source_quality": 5.0, "evidence_strength": 4.8, "engineering_relevance": 2.6, "enterprise_relevance": 4.7, "strategic_significance": 4.5, "reader_value": 4.7},
+      "weighted_score": 4.27,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "Federal Reserve Bank of St. Louis",
+        "published_at": "2026-09-01",
+        "sample_size": "nearly 14,000 workers",
+        "methodology": "Real-Time Population Survey across four quarterly waves from August 2025 to May 2026; respondents were shown important O*NET tasks for their occupation and asked which they perform and whether they use generative AI for those tasks.",
+        "geographies": "United States",
+        "key_metrics": [">80% of occupations have at least 20% AI adoption", ">40% of tasks have at least 20% AI adoption", "<3% of tasks have adoption above 50%", "AI use is widespread across occupations but concentrated in a minority of tasks at high intensity"],
+        "comparison_to_previous": "The broader survey series shows continued growth in generative-AI use, while task-level data indicate depth of use remains limited.",
+        "practical_meaning": "AI adoption is broad but uneven at the task level; workflow redesign should be based on task exposure rather than assuming entire occupations are automated.",
+        "caveats": "Self-reported use; respondents see a bounded set of important O*NET tasks; the study measures adoption, not causal productivity or quality effects."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 23, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-accenture-gemini",
+      "event_key": "accenture-google:gemini-enterprise-fde-group:2026-09-08",
+      "tier": "standard",
+      "title": "Accenture and Google Cloud form a Gemini Enterprise group with 1,000 forward-deployed engineers",
+      "primary_url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Accenture / Google Cloud",
+      "company": "Accenture / Google Cloud",
+      "category": "企業AI・導入",
+      "source_kind": "press_release",
+      "factual_points": [
+        "The partners say the new business group will establish a 1,000-person forward-deployed-engineer workforce.",
+        "The program expands implementation frameworks, training and industry solutions around Gemini Enterprise.",
+        "Accenture says the effort builds on nearly 50,000 Google Cloud-skilled professionals.",
+        "A cited YouTube deployment reports 11% better customer sentiment and 37% lower average handle time; those are partner or customer-reported outcomes."
+      ],
+      "claims": [
+        {
+          "text": "Accenture and Google Cloud announced a 1,000-person forward-deployed-engineer workforce for the Gemini Enterprise business group.",
+          "source_url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "business group announcement"
+        },
+        {
+          "text": "The partners cite a YouTube deployment with 11% better customer sentiment and 37% lower average handle time.",
+          "source_url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "customer example"
+        }
+      ],
+      "why_it_matters": "The staffing model signals that enterprise-agent differentiation is shifting from model access toward embedded implementation capacity and workflow redesign.",
+      "practical_implication": "For engineering AI programs, account for domain-facing implementation capacity as a first-class resource; model licenses without forward-deployed integration skills may not produce operational change.",
+      "tags": ["forward deployed engineers", "Gemini Enterprise", "enterprise AI", "implementation", "workflow redesign"],
+      "scores": {"novelty": 3.8, "source_quality": 4.2, "evidence_strength": 3.6, "engineering_relevance": 2.8, "enterprise_relevance": 5.0, "strategic_significance": 4.5, "reader_value": 4.1},
+      "weighted_score": 3.88,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 16, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "c-seah-cast-ingot",
+      "event_key": "seah:cast-ingot-superalloy-capability:2026-08-19",
+      "tier": "standard",
+      "title": "SeAH expands toward nickel- and cobalt-based superalloy cast-ingot production",
+      "primary_url": "https://www.seahsuperalloys.com/news/introducing-cast-ingot-expanding-seahs-superalloy-capabilities",
+      "supporting_urls": [],
+      "published_at": "2026-08-19",
+      "organization": "SeAH Superalloy Technologies",
+      "company": "SeAH Superalloy Technologies",
+      "category": "航空機材料・部品",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "SeAH says its Temple facility is moving toward cast-ingot production for nickel- and cobalt-based superalloys.",
+        "Target markets include aerospace, power and advanced foundries.",
+        "The site combines production development with in-house chemistry, metallography, microstructure and materials-characterization capabilities."
+      ],
+      "claims": [
+        {
+          "text": "SeAH says the Temple facility is expanding toward nickel- and cobalt-based superalloy cast-ingot production.",
+          "source_url": "https://www.seahsuperalloys.com/news/introducing-cast-ingot-expanding-seahs-superalloys-capabilities",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "capability announcement"
+        },
+        {
+          "text": "The company lists aerospace, power and advanced foundries among target markets and describes in-house materials characterization.",
+          "source_url": "https://www.seahsuperalloys.com/news/introducing-cast-ingot-expanding-seahs-superalloys-capabilities",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "facility capability description"
+        }
+      ],
+      "why_it_matters": "Upstream superalloy melting and cast-ingot capacity can become a constraint on turbine-material supply before finished-part capacity is visible.",
+      "practical_implication": "Keep on watch for qualification milestones, alloy portfolio details, customer approvals and actual production-ramp evidence.",
+      "tags": ["superalloy", "nickel", "cobalt", "cast ingot", "turbine materials"],
+      "scores": {"novelty": 3.8, "source_quality": 4.2, "evidence_strength": 4.0, "engineering_relevance": 4.6, "enterprise_relevance": 2.5, "strategic_significance": 4.0, "reader_value": 4.0},
+      "weighted_score": 3.96,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 6, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]
+    },
+    {
+      "id": "r-minicpm5-2b",
+      "event_key": "openbmb:minicpm5-2b-release:2026-09-07",
+      "tier": "standard",
+      "title": "OpenBMB MiniCPM5-2B targets local assistants and tool-using agents with Apache-2.0 weights",
+      "primary_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "supporting_urls": [],
+      "published_at": "2026-09-07",
+      "organization": "OpenBMB",
+      "company": "OpenBMB",
+      "category": "オープンウェイト・Edge AI",
+      "source_kind": "official",
+      "factual_points": [
+        "The model card lists 2,516,756,480 parameters and a 131,072-token context window.",
+        "Weights are released under Apache-2.0.",
+        "OpenBMB positions the model for local assistants, coding agents and tool use.",
+        "The release describes 500,000 agent SFT samples and more than 80,000 reinforcement-learning samples in the training mix."
+      ],
+      "claims": [
+        {
+          "text": "The model card lists 2.516B parameters, 131,072-token context and Apache-2.0 licensing.",
+          "source_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "model card metadata"
+        },
+        {
+          "text": "OpenBMB says the release includes 500K agent SFT samples and more than 80K RL samples and targets local tool-using agents.",
+          "source_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "training and usage sections"
+        }
+      ],
+      "why_it_matters": "A capable small open-weight model with explicit agent and tool-use training could matter for local engineering-agent deployments where data residency and cost dominate.",
+      "practical_implication": "Track independent tool-use, coding and long-context evaluations plus real memory and latency requirements before treating vendor benchmarks as deployment evidence.",
+      "tags": ["open weights", "edge AI", "coding agent", "tool use", "Apache-2.0"],
+      "scores": {"novelty": 4.2, "source_quality": 4.5, "evidence_strength": 4.2, "engineering_relevance": 3.0, "enterprise_relevance": 3.8, "strategic_significance": 4.2, "reader_value": 4.2},
+      "weighted_score": 3.95,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 17, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    },
+    {
+      "id": "r-qualcomm-amazon-ai-chips",
+      "event_key": "qualcomm-amazon:ai-datacenter-chip-partnership:2026-09-08",
+      "tier": "standard",
+      "title": "Qualcomm and Amazon deepen a long-term AI data-center chip and optical-connectivity partnership",
+      "primary_url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Qualcomm / Amazon",
+      "company": "Qualcomm / Amazon",
+      "category": "HPC/GPU・AI基盤",
+      "source_kind": "news",
+      "factual_points": [
+        "Reuters reports a long-term partnership spanning AI data-center chips and advanced optical connectivity.",
+        "The arrangement gives Amazon a path to purchase a large volume of Qualcomm products and includes equity-linked warrants.",
+        "The move is strategically relevant as hyperscalers diversify accelerator and interconnect supply beyond incumbent GPU stacks."
+      ],
+      "claims": [
+        {
+          "text": "Reuters reports a long-term Qualcomm-Amazon partnership covering AI data-center chips and advanced optical connectivity.",
+          "source_url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "Reuters report"
+        },
+        {
+          "text": "The arrangement includes large potential purchase commitments and equity-linked warrants, according to Reuters.",
+          "source_url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "deal terms"
+        }
+      ],
+      "why_it_matters": "Accelerator diversity and interconnect competition can materially change inference economics for large-scale agent and scientific workloads.",
+      "practical_implication": "Watch for concrete silicon specifications, AWS service integration, availability dates and independent performance-per-dollar data before moving this from infrastructure signal to engineering recommendation.",
+      "tags": ["AI accelerators", "data center", "custom silicon", "optical connectivity", "AWS"],
+      "scores": {"novelty": 4.3, "source_quality": 4.8, "evidence_strength": 4.5, "engineering_relevance": 3.4, "enterprise_relevance": 4.4, "strategic_significance": 4.8, "reader_value": 4.5},
+      "weighted_score": 4.32,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 26, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]
+    }
+  ],
+  "backlog": [
+    {"id": "c-leonardo-f35", "title": "Swiss F-35A first components move into manufacturing at Leonardo Cameri", "primary_url": "https://www.oa.admin.ch/en/newnsb/Z5Nf-kp1oHsZOFegAFJL_", "published_at": "2026-08-14", "organization": "Leonardo", "category": "民間・軍用航空機", "reason": "Strong aerospace manufacturing context, but older and less aligned with today's AI and design-system themes than selected items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 0, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]},
+    {"id": "c-leonardo-mh139", "title": "U.S. Air Force announces MH-139 Grey Wolf initial operating capability", "primary_url": "https://www.af.mil/News/Article-Display/Article/4586669/initial-operating-capability-of-mh-139-grey-wolf-announced/", "published_at": "2026-08-31", "organization": "Leonardo / U.S. Air Force", "category": "民間・軍用航空機", "reason": "Useful platform and operations milestone, but lower design and AI relevance for today's pool.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 1, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]},
+    {"id": "c-woodward-hybrid", "title": "Woodward component contribution to hybrid-electric Saab 340 flight", "primary_url": "https://www.woodward.com/news/woodward-plays-a-role-in-a-milestone-moment-for-aviation/", "published_at": "2026-08-20", "organization": "Woodward", "category": "航空機エンジン・部品", "reason": "Relevant hybrid-electric thermal-management signal, but narrower strategic scope than selected aerospace and materials items.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 2, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66"}]},
+    {"id": "r-text2structure3d", "title": "Text2Structure3D generative structural modeling with equilibrium correction", "primary_url": "https://doi.org/10.1016/j.rineng.2026.111375", "published_at": null, "organization": "Research collaboration", "category": "AIによる設計・生成設計", "reason": "Method is relevant, but Scout could not establish a reliable exact publication date; preserve pending date verification.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 2, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-zayo-mcp", "title": "Zayo MCP server for agentic network operations", "primary_url": "https://www.zayo.com/newsroom/zayo-launches-agentic-networking-bringing-ai-agents-directly-into-network-operations/", "published_at": "2026-09-08", "organization": "Zayo", "category": "AIエージェント・MCP", "reason": "Good governed-tool pattern, but generic network operations and lower engineering relevance than selected agent architecture items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 8, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-didi-qa", "title": "DiDi Bedrock contact-center QA pipelines", "primary_url": "https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/", "published_at": "2026-09-08", "organization": "DiDi / AWS", "category": "企業AI・品質評価", "reason": "Useful production evaluation case, but customer-service domain and vendor or customer metrics reduce priority for engineering-focused selection.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 10, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-tenable-inspector", "title": "Tenable and OpenAI AI Inspector for community agents, skills and MCP servers", "primary_url": "https://www.globenewswire.com/news-release/2026/09/03/3356323/0/en/tenable-uses-openai-gpt-cyber-models-to-help-defenders-inspect-community-built-ai-components.html", "published_at": "2026-09-03", "organization": "Tenable / OpenAI", "category": "AIエージェント・安全性", "reason": "Relevant security tooling, but the announcement is narrower and recent published coverage already emphasized agent identity, runtime and security controls.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 12, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-luda-quotation", "title": "Luda human-reviewed multi-agent inquiry and quotation system", "primary_url": "https://rss.globenewswire.com/news-release/2026/09/08/3357705/0/en/luda-technology-group-limited-implements-ai-enabled-multi-agent-inquiry-and-quotation-system-to-accelerate-order-processing.html", "published_at": "2026-09-08", "organization": "Luda Technology Group", "category": "製造・AIエージェント", "reason": "Manufacturing workflow use case with human approval, but reported time savings are vendor claims and scope is narrower than selected engineering-agent cases.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 13, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-xometry-workcenter", "title": "Xometry next-generation Workcenter for manufacturing partners", "primary_url": "https://xometry.gcs-web.com/news-releases/news-release-details/xometry-unveils-its-next-gen-workcenter-experience-streamlining", "published_at": "2026-09-08", "organization": "Xometry", "category": "製造・AI-native SaaS", "reason": "Interesting manufacturing-workflow metrics, but self-reported commercial product performance and limited engineering depth.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 14, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-prophecy-dataprep", "title": "Prophecy agentic data-prep tools with step-by-step review", "primary_url": "https://www.globenewswire.com/news-release/2026/09/08/3357352/0/en/prophecy-launches-ai-data-prep-tools-to-close-the-gap-between-ai-investment-and-ai-results.html", "published_at": "2026-09-08", "organization": "Prophecy", "category": "RAG/data・企業AI", "reason": "Governed human-review pattern is useful, but less engineering-specific than selected deployment architecture items.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 15, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-k2-horizon", "title": "IFM K2 Horizon six-model open fleet", "primary_url": "https://ifm.ai/k2/press-release/", "published_at": "2026-09-03", "organization": "Institute of Foundation Models", "category": "オープンウェイト・OSS", "reason": "Potentially important, but a prior Writer run dropped this item because primary-source verification failed; preserve until robust primary verification succeeds.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 18, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-pathway-dragon", "title": "Pathway Dragon Hatchling post-transformer architecture on SageMaker HyperPod", "primary_url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/", "published_at": "2026-09-08", "organization": "Pathway / AWS", "category": "AIモデル・HPC/推論基盤", "reason": "Novel architecture candidate, but currently supported mainly by a vendor cloud case study with limited independent technical evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 19, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-capgemini-sovereignty", "title": "Capgemini digital-sovereignty report", "primary_url": "https://www.capgemini.com/gb-en/news/press-releases/most-organisations-say-full-digital-sovereignty-is-an-unrealistic-goal-as-businesses-prioritise-resilience-over-total-independence/", "published_at": "2026-09-08", "organization": "Capgemini Research Institute", "category": "企業AI・データ基盤", "reason": "Strong survey, but ServiceNow governance and St. Louis Fed task-adoption reports better fit today's core editorial signals.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 21, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-eaglehill-workforce", "title": "Eagle Hill and Ipsos AI workforce redesign survey", "primary_url": "https://www.prnewswire.com/news-releases/new-eagle-hill-consulting-research-finds-ai-is-reshaping-how-organizations-work-but-leadership-and-culture-lag-behind-302872234.html", "published_at": "2026-09-08", "organization": "Eagle Hill Consulting / Ipsos", "category": "企業AI・Workforce調査", "reason": "Useful workforce signal, but smaller sample and weaker source independence than the selected Federal Reserve analysis.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 22, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-intel-robotics", "title": "Intel-commissioned robotics workforce-readiness study", "primary_url": "https://newsroom.intel.com/artificial-intelligence/6-in-10-leaders-bet-big-on-robots-only-4-in-10-are-ready", "published_at": "2026-08-20", "organization": "Intel", "category": "製造・ロボティクス調査", "reason": "Relevant manufacturing readiness signal, but older and vendor-commissioned; preserve rather than feature.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 24, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]},
+    {"id": "r-morse-materials", "title": "Optimized 3D-MoRSE descriptors for materials informatics", "primary_url": "https://www.nature.com/articles/s41524-026-02313-5", "published_at": "2026-09-08", "organization": "Nankai University and collaborators", "category": "Scientific AI・材料", "reason": "Fresh peer-reviewed materials informatics, but method-level strategic significance is lower than MENO and multiscale optimization in today's pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 25, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e"}]}
+  ],
+  "rejected": [
+    {
+      "id": "c-simscale-agent",
+      "title": "SimScale opens Engineering AI agent to its global community",
+      "primary_url": "https://www.simscale.com/press/engineering-ai-agent-open-to-community/",
+      "reason": "Exact primary URL and semantic event were published on 2026-09-02 with no material new development in today's candidate.",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-09.json", "source_index": 5, "source_blob_sha": "ff596a96f6a6c9d5255fe6bd863de9a92acd1e66", "published_receipt": "gpt_handoff/published/2026-09-02.json"}]
+    },
+    {
+      "id": "r-toray-factory-ai",
+      "title": "Toray Engineering introduces TRENG Factory AI",
+      "primary_url": "https://www.toray-eng.com/news/2026/20260904_01.html",
+      "reason": "Exact primary URL and semantic event were published on 2026-09-08; no material delta is present.",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 4, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e", "published_receipt": "gpt_handoff/published/2026-09-08.json"}]
+    },
+    {
+      "id": "r-tohoku-polymer-loop",
+      "title": "Tohoku University closed-loop AI ecosystem for polymer discovery",
+      "primary_url": "https://www.wpi-aimr.tohoku.ac.jp/jp/achievements/press/2026/20260904_002266.html",
+      "reason": "Exact primary URL and semantic event were published on 2026-09-08; no material delta is present.",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-09.json", "source_index": 6, "source_blob_sha": "4feaa04b142c735589fe9482d60eea7fd0b5e06e", "published_receipt": "gpt_handoff/published/2026-09-08.json"}]
+    }
+  ],
+  "warnings": [
+    "Recent publication history from 2026-09-02 through 2026-09-08 was checked; three exact recently published events were suppressed.",
+    "No same-day candidate pair was judged to be the same semantic event after normalization, so the deduplicated count remains 34.",
+    "Vendor and customer deployment metrics are retained only with explicit self-reported attribution.",
+    "K2 Horizon remains backlog because the 2026-09-04 Writer reported primary-source verification failure; it was not published and is not treated as a publication duplicate.",
+    "Text2Structure3D has no reliable exact published_at in the Scout artifact and was not promoted to selected."
+  ]
+}
