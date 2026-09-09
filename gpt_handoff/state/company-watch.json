@@ -1,20 +1,20 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-09T06:18:00+09:00",
+  "updated_at": "2026-09-10T06:10:28+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 3,
+  "next_index": 10,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-09T06:18:00+09:00",
     "Ansys": "2026-09-09T06:18:00+09:00",
     "Dassault Systèmes": "2026-09-09T06:18:00+09:00",
-    "Hexagon AB": "2026-09-02T06:07:20+09:00",
-    "Altair Engineering": "2026-09-02T06:07:20+09:00",
-    "Cadence Design Systems": "2026-09-02T06:07:20+09:00",
-    "Autodesk": "2026-09-02T06:07:20+09:00",
-    "MSC Software": "2026-09-03T06:14:11+09:00",
-    "COMSOL": "2026-09-03T06:14:11+09:00",
-    "ESI Group": "2026-09-03T06:14:11+09:00",
+    "Hexagon AB": "2026-09-10T06:10:28+09:00",
+    "Altair Engineering": "2026-09-10T06:10:28+09:00",
+    "Cadence Design Systems": "2026-09-10T06:10:28+09:00",
+    "Autodesk": "2026-09-10T06:10:28+09:00",
+    "MSC Software": "2026-09-10T06:10:28+09:00",
+    "COMSOL": "2026-09-10T06:10:28+09:00",
+    "ESI Group": "2026-09-10T06:10:28+09:00",
     "NUMECA International": "2026-09-03T06:14:11+09:00",
     "Siemens Energy": "2026-09-03T06:14:11+09:00",
     "Baker Hughes": "2026-09-03T06:14:11+09:00",
@@ -56,16 +56,16 @@
     "Spirit AeroSystems": "2026-09-09T06:18:00+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-09",
-    "path": "gpt_handoff/company/2026-09-09.json",
-    "commit": "b2741220eab8de9877a40060e2ed29751182ee18",
+    "local_date": "2026-09-10",
+    "path": "gpt_handoff/company/2026-09-10.json",
+    "commit": "c160cd89130b758cc4f043b2e6339422009f2f31",
     "status": "complete",
-    "checked_source_count": 12,
-    "candidate_item_count": 7
+    "checked_source_count": 7,
+    "candidate_item_count": 12
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-09-09 used five spillover sources because the initial seven mandatory watch sources yielded fewer than five qualifying watchlist candidates.",
-    "Rotation wrapped after Spirit AeroSystems to Siemens Digital Industries Software, Ansys and Dassault Systèmes; next mandatory cursor is Hexagon AB at index 3."
+    "2026-09-10 checked the seven mandatory sources at indices 3 through 9 and did not require spillover because more than five qualifying watchlist items were found.",
+    "Next mandatory cursor is NUMECA International at index 10."
   ]
 }
