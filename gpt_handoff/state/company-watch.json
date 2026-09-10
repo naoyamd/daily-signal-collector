@@ -1,9 +1,9 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-10T06:10:28+09:00",
+  "updated_at": "2026-09-11T06:14:10+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 10,
+  "next_index": 22,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-09T06:18:00+09:00",
     "Ansys": "2026-09-09T06:18:00+09:00",
@@ -15,18 +15,18 @@
     "MSC Software": "2026-09-10T06:10:28+09:00",
     "COMSOL": "2026-09-10T06:10:28+09:00",
     "ESI Group": "2026-09-10T06:10:28+09:00",
-    "NUMECA International": "2026-09-03T06:14:11+09:00",
-    "Siemens Energy": "2026-09-03T06:14:11+09:00",
-    "Baker Hughes": "2026-09-03T06:14:11+09:00",
-    "Mitsubishi Power": "2026-09-03T06:14:11+09:00",
-    "Solar Turbines": "2026-09-04T06:10:47+09:00",
-    "Chromalloy": "2026-09-04T06:10:47+09:00",
-    "Quest Global": "2026-09-04T06:10:47+09:00",
-    "Cyient": "2026-09-04T06:10:47+09:00",
-    "Capgemini Engineering": "2026-09-04T06:10:47+09:00",
-    "GE Aerospace": "2026-09-04T06:10:47+09:00",
-    "Rolls-Royce": "2026-09-04T06:10:47+09:00",
-    "Pratt & Whitney": "2026-09-07T06:11:07+09:00",
+    "NUMECA International": "2026-09-11T06:14:10+09:00",
+    "Siemens Energy": "2026-09-11T06:14:10+09:00",
+    "Baker Hughes": "2026-09-11T06:14:10+09:00",
+    "Mitsubishi Power": "2026-09-11T06:14:10+09:00",
+    "Solar Turbines": "2026-09-11T06:14:10+09:00",
+    "Chromalloy": "2026-09-11T06:14:10+09:00",
+    "Quest Global": "2026-09-11T06:14:10+09:00",
+    "Cyient": "2026-09-11T06:14:10+09:00",
+    "Capgemini Engineering": "2026-09-11T06:14:10+09:00",
+    "GE Aerospace": "2026-09-11T06:14:10+09:00",
+    "Rolls-Royce": "2026-09-11T06:14:10+09:00",
+    "Pratt & Whitney": "2026-09-11T06:14:10+09:00",
     "Safran Aircraft Engines": "2026-09-07T06:11:07+09:00",
     "MTU Aero Engines": "2026-09-07T06:11:07+09:00",
     "CFM International": "2026-09-07T06:11:07+09:00",
@@ -56,16 +56,16 @@
     "Spirit AeroSystems": "2026-09-09T06:18:00+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-10",
-    "path": "gpt_handoff/company/2026-09-10.json",
-    "commit": "c160cd89130b758cc4f043b2e6339422009f2f31",
+    "local_date": "2026-09-11",
+    "path": "gpt_handoff/company/2026-09-11.json",
+    "commit": "2620fd8076728fb368babc6d73552f7c4c291ff0",
     "status": "complete",
-    "checked_source_count": 7,
-    "candidate_item_count": 12
+    "checked_source_count": 12,
+    "candidate_item_count": 8
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-09-10 checked the seven mandatory sources at indices 3 through 9 and did not require spillover because more than five qualifying watchlist items were found.",
-    "Next mandatory cursor is NUMECA International at index 10."
+    "2026-09-11 checked seven mandatory sources at indices 10 through 16 plus five spillover sources at indices 17 through 21 because the mandatory set yielded fewer than five qualifying watchlist items.",
+    "Next mandatory cursor is Safran Aircraft Engines at index 22."
   ]
 }
