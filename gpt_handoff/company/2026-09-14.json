@@ -1,0 +1,258 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-14T06:13:47+09:00",
+  "items": [
+    {
+      "title": "Ingénieur-e Calcul Expérimenté-e Conception Aérocombustion Moteurs Civils F/H",
+      "url": "https://www.safran-group.com/pl/oferty-pracy/france/moissy-cramayel/ingenieur-e-calcul-experimente-e-conception-aerocombustion-moteurs-civils-fh-183324",
+      "source": "Safran Aircraft Engines",
+      "source_kind": "official",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-08",
+      "excerpt": "Safran Aircraft Engines is recruiting an experienced aero-combustion design engineer for next-generation civil and military combustors. The role explicitly calls for high-fidelity calculations and sits in the combustor and rear-body design office, providing a current signal of active combustor design and simulation work.",
+      "query": "site:safran-group.com Safran Aircraft Engines September 2026 combustor turbine design simulation",
+      "tags": ["combustor", "aero-combustion", "high-fidelity simulation", "engine design"],
+      "organization": "Safran Aircraft Engines",
+      "company": "Safran Aircraft Engines",
+      "document_type": "career posting",
+      "language": "fr"
+    },
+    {
+      "title": "Leader Technique Aérothermique – Turbine Haute Pression F/H",
+      "url": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/leader-technique-aerothermique-turbine-haute-pression-fh-183675",
+      "source": "Safran Aircraft Engines",
+      "source_kind": "official",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-07",
+      "excerpt": "Safran Aircraft Engines is hiring a high-pressure-turbine aerothermal technical lead for future military engines, explicitly including the T-REX evolution of the M88. The role covers aerothermal integration of turbine modules and interfaces with integration, assembly and development teams.",
+      "query": "site:safran-group.com Safran Aircraft Engines September 2026 high pressure turbine T-REX M88",
+      "tags": ["high-pressure turbine", "aerothermal", "M88", "T-REX", "military engine"],
+      "organization": "Safran Aircraft Engines",
+      "company": "Safran Aircraft Engines",
+      "document_type": "career posting",
+      "language": "fr"
+    },
+    {
+      "title": "Leader technique mécanique integration Turbine Basse Pression LEAP F/H",
+      "url": "https://www.safran-group.com/fr/offres/france/moissy-cramayel/leader-technique-mecanique-integration-turbine-basse-pression-leap-fh-170793",
+      "source": "Safran Aircraft Engines",
+      "source_kind": "official",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-11",
+      "excerpt": "Safran Aircraft Engines is recruiting a mechanical integration technical lead in its post-development low-pressure-turbine design organization for LEAP. The posting covers study and mechanical integration responsibilities for a family of LPT parts, indicating continuing engineering work around in-service LEAP turbine modules.",
+      "query": "site:safran-group.com Safran Aircraft Engines September 2026 LEAP low pressure turbine integration",
+      "tags": ["LEAP", "low-pressure turbine", "mechanical integration", "engine design"],
+      "organization": "Safran Aircraft Engines",
+      "company": "Safran Aircraft Engines",
+      "document_type": "career posting",
+      "language": "fr"
+    },
+    {
+      "title": "Open Fan engine technology aims for epic efficiency. It also has major durability potential",
+      "url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+      "source": "CFM International",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-02",
+      "excerpt": "CFM describes its RISE Open Fan architecture as targeting about 20% better fuel efficiency than conventional turbofans and highlights durability work around the fan system, aerodynamics and adaptive-cycle capability, including reduced dust ingestion for hot and harsh environments. Performance figures remain vendor targets.",
+      "query": "site:cfmaeroengines.com September 2026 CFM RISE Open Fan durability efficiency",
+      "tags": ["RISE", "Open Fan", "propulsion", "durability", "dust ingestion"],
+      "organization": "CFM International",
+      "company": "CFM International",
+      "document_type": "technical story",
+      "language": "en"
+    },
+    {
+      "title": "A production boost, powered by hard data",
+      "url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+      "source": "RTX",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-24",
+      "excerpt": "RTX describes a data and AI platform used at Pratt & Whitney AutoAir in Holt, Michigan, where fan-blade output increased 20% each year since 2024 and production time fell by roughly 20%. The article frames the site as part of a wider strategy connecting factory systems, data and digital tools across manufacturing.",
+      "query": "site:rtx.com August September 2026 Pratt Whitney data AI manufacturing fan blade production",
+      "tags": ["advanced manufacturing", "AI", "factory data", "fan blades", "Pratt & Whitney"],
+      "organization": "RTX",
+      "company": "RTX",
+      "document_type": "technology article",
+      "language": "en"
+    },
+    {
+      "title": "GKN Aerospace breaks ground on North Charlestown expansion as demand for engine components grows",
+      "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-breaks-ground-on-north-charlestown-expansion-as-demand-for-engine-components-grows/",
+      "source": "GKN Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機・主要サプライヤー",
+      "published_at": "2026-09-10",
+      "excerpt": "GKN Aerospace started construction on a $16 million North Charlestown expansion for critical aero-engine components. The project adds about 57,000 sq ft, bringing the site to nearly 97,000 sq ft, and is intended to broaden manufacturing activity and support future engine-component production growth.",
+      "query": "site:gknaerospace.com September 2026 GKN Aerospace engine component manufacturing expansion",
+      "tags": ["engine components", "manufacturing capacity", "aerospace supply chain", "investment"],
+      "organization": "GKN Aerospace",
+      "company": "GKN Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GKN Aerospace to advance key technologies for Sweden's future combat air systems under new FMV agreement",
+      "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+      "source": "GKN Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機・主要サプライヤー",
+      "published_at": "2026-09-10",
+      "excerpt": "FMV awarded GKN Aerospace an approximately SEK 390 million contract for concept studies, technology development and demonstrators through 2028 under Sweden's Future Combat Air System Concept Programme. GKN identifies thermal management, onboard electrical power and propulsion-related systems as strategic technology areas.",
+      "query": "site:gknaerospace.com September 2026 Sweden future combat air systems propulsion thermal management",
+      "tags": ["future combat air", "propulsion", "thermal management", "electrical power", "technology demonstrator"],
+      "organization": "GKN Aerospace",
+      "company": "GKN Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Swiss company Neural Concept Establishes Direct Presence in India to Accelerate AI-Native Engineering Across Automotive and Manufacturing",
+      "url": "https://www.neuralconcept.com/press-release/neural-concept-expands-in-india",
+      "source": "Neural Concept",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: Neural Concept opened teams in Bengaluru and Pune as manufacturers scale its physics-aware AI across design and simulation workflows. The company serves aerospace, defense, automotive, energy and other engineering sectors, making its expansion a useful signal for continued monitoring of production-grade engineering AI adoption.",
+      "query": "site:neuralconcept.com September 2026 AI native engineering design simulation India",
+      "tags": ["discovery_candidate", "engineering AI", "physics-aware AI", "design", "simulation"],
+      "organization": "Neural Concept",
+      "company": "Neural Concept",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "AVL and QinetiQ to Advance Land Mobility Development",
+      "url": "https://www.avl.com/en-de/press/press-release/avl-and-qinetiq-advance-land-mobility-development",
+      "source": "AVL",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: AVL and QinetiQ formed a strategic partnership around MBSE, digital twins, physics-based modelling, virtual validation and physical test for defence mobility programmes. The connected virtual-to-field validation stack makes AVL worth monitoring beyond automotive for digital engineering and defence development methods.",
+      "query": "site:avl.com September 2026 QinetiQ digital engineering MBSE digital twin defence",
+      "tags": ["discovery_candidate", "MBSE", "digital twin", "virtual validation", "defense engineering"],
+      "organization": "AVL",
+      "company": "AVL",
+      "document_type": "press release",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:safran-group.com Safran Aircraft Engines September 2026 engine turbine combustor digital engineering",
+    "site:mtu.de September 2026 MTU Aero Engines technology manufacturing digital twin turbine AI",
+    "site:cfmaeroengines.com September 2026 CFM International engine technology RISE manufacturing",
+    "site:honeywell.com September 2026 Honeywell Aerospace engine propulsion manufacturing digital twin AI",
+    "site:rtx.com September 2026 RTX aerospace engine manufacturing digital engineering Pratt Whitney",
+    "site:gknaerospace.com September 2026 GKN Aerospace manufacturing engine technology digital engineering",
+    "site:mhi.com September 2026 Mitsubishi Heavy Industries aerospace aircraft engine manufacturing technology",
+    "site:safran-group.com Safran Aircraft Engines September 2026 combustor turbine design simulation",
+    "site:mtu.de/newsroom September 2026 MTU Aero Engines production technology engine MRO manufacturing",
+    "site:cfmaeroengines.com September 2026 CFM RISE Open Fan durability efficiency",
+    "site:honeywell.com/us/en/press September 2026 aerospace engine propulsion APU manufacturing",
+    "site:rtx.com August September 2026 Pratt Whitney data AI manufacturing fan blade production",
+    "site:gknaerospace.com September 2026 GKN Aerospace engine component manufacturing expansion",
+    "site:mhi.com/news September 2026 aerospace aircraft engine manufacturing MHI",
+    "site:physicsx.ai September 2026 engineering AI aerospace simulation",
+    "site:simscale.com September 2026 engineering AI simulation agent",
+    "site:neuralconcept.com September 2026 engineering AI simulation aerospace",
+    "September 2026 engineering AI simulation aerospace startup CAE official",
+    "site:avl.com September 2026 QinetiQ digital engineering MBSE digital twin defence",
+    "September 2026 scientific AI materials engineering company official"
+  ],
+  "warnings": [
+    "Company selection used the authoritative company-watch state at next_index 22, consistent with the recent company handoff history; seven mandatory watch sources were checked and no spillover was needed because they produced at least five qualifying candidate items.",
+    "Previously captured releases were not duplicated, including Pratt & Whitney's September 4 Poland expansion and MHI's September 2 MHICA asset transition to Bombardier.",
+    "Safran career postings are retained as high-recall official signals of active engineering work, not as product-release commitments.",
+    "Old, undated and evergreen pages were not promoted to new candidate items; GKN's recent UAV demonstrator material was excluded under configured UAV/drone terms.",
+    "Discovery organizations are outside research.must_check_sources and do not advance the company-watch rotation."
+  ],
+  "checked_sources": [
+    {
+      "name": "Safran Aircraft Engines",
+      "status": "found",
+      "query": "site:safran-group.com Safran Aircraft Engines September 2026 combustor turbine design simulation"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "status": "no_new_finding",
+      "warning": "MTU newsroom and technology surfaces were searched for the 30-day window. A September 1 apprenticeship release was not a qualifying technical signal, while the relevant Flying Fuel Cell, LEAP MRO and propulsion releases found were older than the window."
+    },
+    {
+      "name": "CFM International",
+      "status": "found",
+      "query": "site:cfmaeroengines.com September 2026 CFM RISE Open Fan durability efficiency"
+    },
+    {
+      "name": "Honeywell Aerospace",
+      "status": "no_new_finding",
+      "warning": "Honeywell and Honeywell Aerospace press and technology surfaces were searched for recent propulsion, APU, manufacturing, MRO and digital-engineering updates. No distinct qualifying technical item was verified in the 30-day window."
+    },
+    {
+      "name": "RTX",
+      "status": "found",
+      "query": "site:rtx.com August September 2026 Pratt Whitney data AI manufacturing fan blade production"
+    },
+    {
+      "name": "GKN Aerospace",
+      "status": "found",
+      "query": "site:gknaerospace.com September 2026 GKN Aerospace engine component manufacturing expansion future combat air"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries",
+      "status": "no_new_finding",
+      "warning": "MHI aerospace and manufacturing releases were searched for the 30-day window. The September 2 MHICA-to-Bombardier asset transition had already been captured in the September 7 handoff, and no distinct newer qualifying aerospace technical or manufacturing signal was verified."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Safran Aircraft Engines", "category": "航空機エンジン", "domains": ["safran-group.com"]},
+        {"name": "MTU Aero Engines", "category": "航空機エンジン", "domains": ["mtu.de"]},
+        {"name": "CFM International", "category": "航空機エンジン", "domains": ["cfmaeroengines.com"]},
+        {"name": "Honeywell Aerospace", "category": "航空機エンジン", "domains": ["honeywellaerospace.com", "honeywell.com"]},
+        {"name": "RTX", "category": "航空機エンジン", "domains": ["rtx.com"]},
+        {"name": "GKN Aerospace", "category": "航空機・主要サプライヤー", "domains": ["gknaerospace.com"]},
+        {"name": "Mitsubishi Heavy Industries", "category": "航空機・主要サプライヤー", "domains": ["mhi.com"]}
+      ],
+      "discovery_organizations": [
+        {"name": "Neural Concept", "reason": "Current direct expansion of a physics-aware AI platform used across physical product design and simulation, including aerospace and defense."},
+        {"name": "AVL", "reason": "Current primary-source MBSE, digital-twin and virtual/physical validation partnership shows direct relevance to digital engineering methods beyond automotive."}
+      ]
+    },
+    "priority_areas": [
+      {"name": "AIによる設計", "share": 30, "scope": "生成設計・設計支援AI・最適化・MDO・サロゲートモデル"},
+      {"name": "大手航空機メーカー", "share": 25, "scope": "民間・軍用航空機の設計・製造・認証・試験"},
+      {"name": "航空機用エンジン", "share": 25, "scope": "タービン・燃焼器・材料・推進・保守・設計解析"},
+      {"name": "CAD・CAE", "share": 20, "scope": "CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド"}
+    ],
+    "exclude_terms": ["drone", "UAV", "UAS", "eVTOL", "air taxi", "urban air mobility", "ドローン", "無人機", "空飛ぶクルマ"],
+    "domain_groups": {
+      "ai_design_research": ["ntrs.nasa.gov", "nasa.gov", "jaxa.jp", "nims.go.jp", "aist.go.jp", "arc.aiaa.org", "asmedigitalcollection.asme.org", "sae.org"],
+      "civil_aircraft": ["airbus.com", "boeing.com", "embraer.com", "dassault-aviation.com", "bombardier.com", "comac.cc", "mhi.com", "subaru.co.jp", "gknaerospace.com", "spiritaero.com"],
+      "military_aircraft": ["lockheedmartin.com", "northropgrumman.com", "boeing.com", "airbus.com", "baesystems.com", "leonardo.com", "saab.com", "dassault-aviation.com", "mhi.com", "global.kawasaki.com", "subaru.co.jp", "avic.com.cn"],
+      "aircraft_engines": ["geaerospace.com", "rtx.com", "rolls-royce.com", "safran-group.com", "mtu.de", "ihi.co.jp", "cfmaeroengines.com", "honeywellaerospace.com", "hanwhaaerospace.com", "aecc.cn", "avioaero.com"],
+      "cad_cae": ["ansys.com", "siemens.com", "sw.siemens.com", "3ds.com", "altair.com", "cadence.com", "comsol.com", "esi-group.com", "keysight.com", "mscsoftware.com", "numeca.de", "hexagon.com", "ptc.com", "autodesk.com", "nvidia.com"],
+      "engineering_services": ["siemens-energy.com", "bakerhughes.com", "power.mhi.com", "solarturbines.com", "chromalloy.com", "questglobal.com", "cyient.com", "capgemini.com"],
+      "aerospace_supply_chain": ["gknaerospace.com", "liebherr.com", "woodward.com", "parker.com", "howmet.com", "precast.com", "atimaterials.com", "spiritaero.com"]
+    },
+    "selection_basis": {
+      "state_path": "gpt_handoff/state/company-watch.json",
+      "state_next_index": 22,
+      "config_blob_sha": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "recent_history_checked_through": "2026-09-11",
+      "lookback_days": 30,
+      "spillover_used": false
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-14",
+      "started_at": "2026-09-14T06:11:50+09:00",
+      "completed_at": "2026-09-14T06:13:47+09:00",
+      "status": "complete",
+      "planned_query_count": 9,
+      "executed_query_count": 29
+    }
+  }
+}
