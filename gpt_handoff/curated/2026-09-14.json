@@ -1,0 +1,785 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-14T07:07:42+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-14.json",
+      "blob_sha": "9c0ccf0da4b2c1e4e77869042caa22c1b7344186",
+      "generated_at": "2026-09-14T06:13:47+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-14.json",
+      "blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2",
+      "generated_at": "2026-09-14T06:25:30+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "航空エンジン開発では燃費目標だけでなく、耐久性、粉塵環境、熱・電力・推進統合、製造データまで含む設計・検証ループが前面に出ている。",
+      "supporting_ids": ["c-cfm-rise-durability", "c-gkn-fcas", "c-rtx-autoair"]
+    },
+    {
+      "signal": "Engineering/Scientific AIでは、Neural Operatorの領域移行、材料探索のhuman-in-the-loop、異種材料接合など、物理制約と検証可能性を残した実装が強い。",
+      "supporting_ids": ["r-latentddm", "r-sara-h", "r-nims-porous-anchor"]
+    },
+    {
+      "signal": "AI Agentの本番実装は、harnessやMCPそのものよりsandbox選択、identity attribution、tool-call inspection、実行前policy enforcementへ重心が移っている。",
+      "supporting_ids": ["r-openai-agents-api", "r-f5-workforce-ai-security"]
+    },
+    {
+      "signal": "企業AIの効果測定では、導入率よりも雇用・業務変化を縦断的に追う分析と、因果と相関を分ける設計が重要になっている。",
+      "supporting_ids": ["r-gusto-ai-hiring"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["c-cfm-rise-durability", "r-latentddm", "r-sara-h"],
+    "ordered_ids": [
+      "c-cfm-rise-durability",
+      "r-latentddm",
+      "r-sara-h",
+      "c-rtx-autoair",
+      "c-gkn-fcas",
+      "c-avl-qinetiq",
+      "r-openai-agents-api",
+      "r-f5-workforce-ai-security",
+      "r-gusto-ai-hiring",
+      "r-nims-porous-anchor",
+      "r-k2-horizon"
+    ],
+    "central_signals": [
+      "航空・重工系のデジタル化は、単独のAIモデルより試験、製造、物理モデル、システム統合まで含む閉ループへ進んでいる。",
+      "Scientific AIの有望な方向は、物理・数値計算を捨てることではなく、少量データ適応、人間介入、明示的制約を組み込むことにある。",
+      "Agentの企業導入では、実行環境と権限境界がモデル性能と同等以上に重要なシステム設計要素になっている。"
+    ],
+    "tensions_or_caveats": [
+      "CFM、RTX、Cohereなどの性能値はベンダー自己申告であり、独立評価として扱わない。",
+      "Gusto調査は縦断データとイベントスタディを使うが観察研究であり、AI導入の因果効果を確定するものではない。",
+      "AVL/QinetiQの公開ページではSeptember 2026までは確認できるが、Curator確認時に日付のday部分が露出しなかった。",
+      "OpenAI/F5のAgent基盤・セキュリティ機能は製品仕様であり、実運用での有効性は別途評価が必要。"
+    ],
+    "desired_depth": {
+      "c-cfm-rise-durability": "lead",
+      "r-latentddm": "lead",
+      "r-sara-h": "lead",
+      "c-rtx-autoair": "standard",
+      "c-gkn-fcas": "standard",
+      "c-avl-qinetiq": "standard",
+      "r-openai-agents-api": "standard",
+      "r-f5-workforce-ai-security": "standard",
+      "r-gusto-ai-hiring": "report",
+      "r-nims-porous-anchor": "standard",
+      "r-k2-horizon": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 35,
+    "deduplicated_item_count": 35,
+    "source_domain_count": 28,
+    "organization_count": 28,
+    "regions_observed": ["US", "Europe", "Japan", "China", "India", "UAE", "Australia", "global"],
+    "lanes": {
+      "company_watch": "7 mandatory sources checked: 4 found, 3 no_new_finding; 7 watchlist candidates plus 2 discovery candidates retained by Company Scout.",
+      "engineering_ai": "covered",
+      "agents_enterprise": "covered",
+      "models_open_weights": "covered",
+      "reports_surveys": "covered",
+      "scientific_wildcards": "covered",
+      "non_us_rotation": "covered"
+    },
+    "known_gaps": [
+      "The published index was last updated on 2026-09-09; Curator supplemented it with the dated 2026-09-11 publication receipt.",
+      "Two neural-operator preprints on topology generalization and conformal UQ could not be independently reopened during limited Curator verification, so they remain backlog rather than selected.",
+      "The AVL/QinetiQ source exposed September 2026 but not the exact day in the rendered page; the Scout date is retained with reduced date confidence.",
+      "ORNL's 2026-09-01 press release was found to describe research whose ACS Nano primary paper was already published online in 2025 and in issue form in early 2026; it was rejected as a false-freshness signal."
+    ]
+  },
+  "selected": [
+    {
+      "id": "c-cfm-rise-durability",
+      "event_key": "cfm:rise-open-fan-durability-testing:2026-09-02",
+      "tier": "lead",
+      "title": "CFM RISE Open Fan: efficiency target is paired with durability and dust-ingestion validation",
+      "primary_url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+      "supporting_urls": [],
+      "published_at": "2026-09-02",
+      "organization": "CFM International",
+      "company": "CFM International",
+      "category": "航空機エンジン",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "CFM states that the RISE Open Fan architecture targets about 20% better fuel efficiency than conventional turbofan architectures.",
+        "The program explicitly treats durability in hot and harsh environments, including dust ingestion and erosion, as a design and test concern rather than a post-design issue.",
+        "CFM reports more than 350 tests and 3,000 core endurance cycles in the RISE technology program and describes dust-ingestion testing as part of the maturation path.",
+        "The test progression spans components, modules and system-level work, with flight demonstration planned later in the decade."
+      ],
+      "claims": [
+        {
+          "text": "CFM targets about 20% better fuel efficiency for the RISE Open Fan architecture.",
+          "source_url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "opening efficiency discussion"
+        },
+        {
+          "text": "CFM reports more than 350 tests and 3,000 core endurance cycles in the RISE maturation program.",
+          "source_url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "testing and durability section"
+        },
+        {
+          "text": "CFM describes reduced dust ingestion and durability in harsh environments as intended benefits of the architecture and test program.",
+          "source_url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "durability and dust-ingestion discussion"
+        }
+      ],
+      "why_it_matters": "Next-generation engine optimization is being framed around a coupled objective set: fuel burn, operability, durability, environmental exposure and airframe integration. That is more representative of real propulsion design than a single efficiency metric.",
+      "practical_implication": "Track RISE claims as targets until test evidence matures, and treat dust/erosion durability and environment-specific validation as explicit design variables alongside aerodynamic efficiency.",
+      "tags": ["RISE", "Open Fan", "propulsion", "durability", "dust ingestion", "engine testing"],
+      "scores": {"novelty": 4.4, "source_quality": 4.6, "evidence_strength": 4.2, "engineering_relevance": 5.0, "enterprise_relevance": 3.2, "strategic_significance": 4.8, "reader_value": 4.5},
+      "weighted_score": 4.44,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 3, "source_blob_sha": "9c0ccf0da4b2c1e4e77869042caa22c1b7344186"}]
+    },
+    {
+      "id": "r-latentddm",
+      "event_key": "research:latentddm-neural-operator-composition-transfer:2026-09-02",
+      "tier": "lead",
+      "title": "LatentDDM adapts neural operators to larger domains through learnable composition",
+      "primary_url": "https://arxiv.org/abs/2609.03069",
+      "supporting_urls": [],
+      "published_at": "2026-09-02",
+      "organization": "MIT / University of Toronto",
+      "company": "",
+      "category": "AIによる設計・Neural Operator",
+      "source_kind": "paper",
+      "factual_points": [
+        "LatentDDM pretrains an operator on smaller subdomains and adapts to larger target domains by training a lightweight composition module rather than retraining the full operator.",
+        "The authors report 36–56% lower error on larger Darcy-flow domains after adaptation with only 16 target simulations.",
+        "The paper also reports improved multi-step field prediction in 20-step pitching-airfoil rollouts."
+      ],
+      "claims": [
+        {
+          "text": "The method separates local operator pretraining from a lightweight learnable composition module for target-domain adaptation.",
+          "source_url": "https://arxiv.org/abs/2609.03069",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "abstract and method summary"
+        },
+        {
+          "text": "The authors report 36–56% lower error after adaptation with 16 target simulations on larger Darcy domains.",
+          "source_url": "https://arxiv.org/abs/2609.03069",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "reported benchmark results"
+        },
+        {
+          "text": "The authors report improved 20-step pitching-airfoil rollouts after composition adaptation.",
+          "source_url": "https://arxiv.org/abs/2609.03069",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "airfoil rollout results"
+        }
+      ],
+      "why_it_matters": "Engineering surrogates often fail when geometry or domain size changes. A decomposition that reuses a locally trained operator and adapts only the composition layer directly targets the cost of moving surrogate models between design domains.",
+      "practical_implication": "For CFD/CAE surrogate programs, evaluate transfer cost and target-simulation count alongside raw in-domain error; small adaptation modules may be more operationally useful than full-model retraining.",
+      "tags": ["neural operator", "surrogate", "Darcy flow", "airfoil", "transfer learning"],
+      "scores": {"novelty": 4.6, "source_quality": 4.2, "evidence_strength": 4.0, "engineering_relevance": 5.0, "enterprise_relevance": 2.6, "strategic_significance": 4.2, "reader_value": 4.4},
+      "weighted_score": 4.26,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 0, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "r-sara-h",
+      "event_key": "prx-intelligence:sara-h-autonomous-materials-human-guidance:2026-09-10",
+      "tier": "lead",
+      "title": "SARA-H adds probabilistic phase identification and human guidance to autonomous materials exploration",
+      "primary_url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "Cornell and collaborators",
+      "company": "",
+      "category": "Scientific AI・材料",
+      "source_kind": "journal",
+      "factual_points": [
+        "The SARA platform integrates probabilistic phase identification into an autonomous materials-exploration loop so synthesis choices can target phase regions rather than only scalar property values.",
+        "SARA-H adds human guidance to the reasoning loop and the authors report improved sampling efficiency in benchmarked search tasks.",
+        "The work includes robotic thin-film oxide exploration and active-learning experiments rather than remaining a simulation-only demonstration."
+      ],
+      "claims": [
+        {
+          "text": "SARA uses probabilistic phase identification to guide autonomous exploration toward target phase regions.",
+          "source_url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "abstract"
+        },
+        {
+          "text": "SARA-H incorporates human guidance into the autonomous reasoning loop and the authors report improved search efficiency.",
+          "source_url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "abstract and results summary"
+        },
+        {
+          "text": "The study includes robotic active-learning campaigns for thin-film oxide materials.",
+          "source_url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "experimental demonstration description"
+        }
+      ],
+      "why_it_matters": "This is a concrete pattern for combining autonomous experimentation with expert intervention without reducing the human role to an emergency stop. Phase identification also makes the scientific state of the loop more interpretable than a black-box objective alone.",
+      "practical_implication": "Closed-loop materials R&D should expose structured scientific state, uncertainty and intervention points so domain experts can redirect search without discarding the automation stack.",
+      "tags": ["materials discovery", "self-driving lab", "AI agents", "human-in-the-loop", "phase identification"],
+      "scores": {"novelty": 4.8, "source_quality": 4.8, "evidence_strength": 4.6, "engineering_relevance": 4.7, "enterprise_relevance": 2.4, "strategic_significance": 4.6, "reader_value": 4.6},
+      "weighted_score": 4.59,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 19, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "c-rtx-autoair",
+      "event_key": "rtx-pratt-whitney:autoair-connected-factory-fan-blades:2026-08-24",
+      "tier": "standard",
+      "title": "Pratt & Whitney AutoAir links factory location data, scanning and AI to fan-blade production",
+      "primary_url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+      "supporting_urls": [],
+      "published_at": "2026-08-24",
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney",
+      "category": "航空機エンジン",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "RTX says fan-blade output at Pratt & Whitney AutoAir increased about 20% each year since 2024 while production time fell by roughly 20%.",
+        "The site uses real-time location data to replace manual tracking of more than 1,000 parts per shift and daily location checks.",
+        "Blue-light scanning creates 3D fan-blade data, and RTX describes an AI program being introduced to learn from prior scans and improve inspection accuracy."
+      ],
+      "claims": [
+        {
+          "text": "RTX reports approximately 20% annual fan-blade output growth since 2024 and roughly 20% lower production time at AutoAir.",
+          "source_url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "production results section"
+        },
+        {
+          "text": "The factory uses real-time location data to track more than 1,000 parts per shift and reduce manual searches.",
+          "source_url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "factory data section"
+        },
+        {
+          "text": "RTX describes AI-assisted learning from historical blue-light scan data as part of the inspection workflow.",
+          "source_url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "inspection and scanning section"
+        }
+      ],
+      "why_it_matters": "The useful industrial-AI pattern is the coupling of traceability, metrology and production data, not a standalone model. It is directly relevant to aero-engine manufacturing where part history and inspection state are already structured process assets.",
+      "practical_implication": "Manufacturing AI projects should first instrument part identity, routing and inspection data so AI can act on a reliable digital thread; treat reported throughput gains as site-specific until independently reproduced.",
+      "tags": ["advanced manufacturing", "AI", "factory data", "fan blades", "Pratt & Whitney"],
+      "scores": {"novelty": 4.0, "source_quality": 4.5, "evidence_strength": 3.8, "engineering_relevance": 4.9, "enterprise_relevance": 4.1, "strategic_significance": 4.3, "reader_value": 4.4},
+      "weighted_score": 4.32,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 4, "source_blob_sha": "9c0ccf0da4b2c1e4e77869042caa22c1b7344186"}]
+    },
+    {
+      "id": "c-gkn-fcas",
+      "event_key": "gkn-fmv:future-combat-air-thermal-power-propulsion:2026-09-10",
+      "tier": "standard",
+      "title": "GKN Aerospace receives Swedish future-combat-air contract covering thermal, electrical and propulsion technologies",
+      "primary_url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "GKN Aerospace",
+      "company": "GKN Aerospace",
+      "category": "航空機・主要サプライヤー",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Sweden's FMV awarded GKN Aerospace an approximately SEK 390 million contract under the Future Combat Air System Concept Programme.",
+        "The work runs through 2028 and includes concept studies, technology development and demonstrators.",
+        "GKN identifies thermal management, onboard electrical power and propulsion-related systems as strategic technology areas."
+      ],
+      "claims": [
+        {
+          "text": "The FMV contract is approximately SEK 390 million and runs through 2028.",
+          "source_url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "contract announcement"
+        },
+        {
+          "text": "The program covers concept studies, technology development and demonstrators in thermal management, onboard electrical power and propulsion-related systems.",
+          "source_url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "technology-scope section"
+        }
+      ],
+      "why_it_matters": "Future combat-air propulsion is increasingly a vehicle-level thermal and electrical integration problem rather than an isolated engine-core problem. The contract scope makes that coupling explicit.",
+      "practical_implication": "For propulsion R&D, thermal management and onboard power should be treated as first-class architecture variables in MBSE and technology-demonstrator planning, not downstream interfaces.",
+      "tags": ["future combat air", "propulsion", "thermal management", "electrical power", "technology demonstrator"],
+      "scores": {"novelty": 4.3, "source_quality": 4.7, "evidence_strength": 4.4, "engineering_relevance": 4.9, "enterprise_relevance": 3.5, "strategic_significance": 4.8, "reader_value": 4.2},
+      "weighted_score": 4.41,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 6, "source_blob_sha": "9c0ccf0da4b2c1e4e77869042caa22c1b7344186"}]
+    },
+    {
+      "id": "c-avl-qinetiq",
+      "event_key": "avl-qinetiq:mbse-digital-twin-land-mobility:2026-09",
+      "tier": "standard",
+      "title": "AVL and QinetiQ connect MBSE, digital twins, physics models and field validation for defence mobility",
+      "primary_url": "https://www.avl.com/en-de/press/press-release/avl-and-qinetiq-advance-land-mobility-development",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "AVL / QinetiQ",
+      "company": "AVL",
+      "category": "CAD・CAE",
+      "source_kind": "press_release",
+      "factual_points": [
+        "AVL and QinetiQ announced a strategic partnership around model-based systems engineering and digital-twin methods for defence mobility programmes.",
+        "The described stack combines physics-based modelling, digital twins, virtual validation and physical field testing.",
+        "The companies frame a shared digital foundation as a way to mature designs earlier and reduce dependence on late physical testing."
+      ],
+      "claims": [
+        {
+          "text": "The partnership combines MBSE, physics-based modelling, digital twins, virtual validation and physical testing.",
+          "source_url": "https://www.avl.com/en-de/press/press-release/avl-and-qinetiq-advance-land-mobility-development",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "partnership scope"
+        },
+        {
+          "text": "AVL and QinetiQ say the common digital foundation can raise design maturity earlier and reduce physical-test dependence.",
+          "source_url": "https://www.avl.com/en-de/press/press-release/avl-and-qinetiq-advance-land-mobility-development",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "benefits discussion"
+        }
+      ],
+      "why_it_matters": "The interesting signal is not defence mobility itself but the explicit virtual-to-field validation chain. This is the same integration problem faced by aerospace systems attempting to connect MBSE, CAE, test evidence and certification artifacts.",
+      "practical_implication": "Digital-engineering programs should define how model evidence survives the transition from virtual validation to physical test and how discrepancies feed back into the system model.",
+      "tags": ["MBSE", "digital twin", "virtual validation", "defense engineering", "physics-based modelling"],
+      "scores": {"novelty": 3.9, "source_quality": 4.4, "evidence_strength": 4.0, "engineering_relevance": 4.8, "enterprise_relevance": 3.8, "strategic_significance": 4.3, "reader_value": 4.3},
+      "weighted_score": 4.26,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 8, "source_blob_sha": "9c0ccf0da4b2c1e4e77869042caa22c1b7344186", "note": "Rendered primary source exposed September 2026 but not the exact day; 2026-09-10 is retained from Scout metadata."}]
+    },
+    {
+      "id": "r-openai-agents-api",
+      "event_key": "openai:agents-api-public-beta:2026-09-10",
+      "tier": "standard",
+      "title": "OpenAI Agents API exposes harness, sandbox choice, MCP and subagent primitives as a managed agent runtime",
+      "primary_url": "https://openai.com/index/introducing-the-agents-api/",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "OpenAI",
+      "company": "OpenAI",
+      "category": "AIエージェント・開発基盤",
+      "source_kind": "official",
+      "factual_points": [
+        "OpenAI launched the Agents API in public beta with an open-source Codex harness.",
+        "Developers can use OpenAI-managed sandboxes, their own infrastructure or partner execution environments.",
+        "The API includes MCP support, tool search/programmatic tool use, long-session context management and concurrent subagents."
+      ],
+      "claims": [
+        {
+          "text": "The Agents API is available in public beta and includes the open-source Codex harness.",
+          "source_url": "https://openai.com/index/introducing-the-agents-api/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "launch and harness sections"
+        },
+        {
+          "text": "The execution model supports OpenAI-hosted, customer-hosted and partner sandbox environments.",
+          "source_url": "https://openai.com/index/introducing-the-agents-api/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "sandbox section"
+        },
+        {
+          "text": "MCP, tool search, long-running context management and concurrent subagents are supported agent-runtime primitives.",
+          "source_url": "https://openai.com/index/introducing-the-agents-api/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "tools and orchestration sections"
+        }
+      ],
+      "why_it_matters": "Agent infrastructure is consolidating around a runtime contract that separates reasoning from execution environment, tool discovery and context lifecycle. That architecture is directly transferable to engineering-agent deployments.",
+      "practical_implication": "Engineering deployments should keep the harness portable across managed and self-hosted sandboxes, with explicit network, filesystem and credential policies outside the model itself.",
+      "tags": ["agents", "Codex harness", "sandbox", "MCP", "subagents"],
+      "scores": {"novelty": 4.4, "source_quality": 4.8, "evidence_strength": 4.6, "engineering_relevance": 3.8, "enterprise_relevance": 4.8, "strategic_significance": 4.8, "reader_value": 4.5},
+      "weighted_score": 4.51,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 4, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "r-f5-workforce-ai-security",
+      "event_key": "f5:workforce-ai-security-agent-tool-controls:2026-09-09",
+      "tier": "standard",
+      "title": "F5 Workforce AI Security moves agent controls into identity attribution and inline MCP tool inspection",
+      "primary_url": "https://investors.f5.com/news/news-details/2026/F5-Expands-AI-Security-Platform-With-F5-Workforce-AI-Security/default.aspx",
+      "supporting_urls": [],
+      "published_at": "2026-09-09",
+      "organization": "F5",
+      "company": "F5",
+      "category": "AI安全性・MCP",
+      "source_kind": "press_release",
+      "factual_points": [
+        "F5 announced a network-based control layer intended to attribute AI interactions to users or agents and retain identity/context around actions.",
+        "The product is described as inspecting MCP tool calls before execution and applying allow, block or modification policies.",
+        "F5 says general availability is planned for October 2026."
+      ],
+      "claims": [
+        {
+          "text": "F5 describes identity attribution and contextual policy for workforce AI and agent actions.",
+          "source_url": "https://investors.f5.com/news/news-details/2026/F5-Expands-AI-Security-Platform-With-F5-Workforce-AI-Security/default.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "capabilities section"
+        },
+        {
+          "text": "The announced control layer can inspect MCP tool calls and allow, block or modify them before execution.",
+          "source_url": "https://investors.f5.com/news/news-details/2026/F5-Expands-AI-Security-Platform-With-F5-Workforce-AI-Security/default.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "MCP/tool-control section"
+        },
+        {
+          "text": "F5 expects general availability in October 2026.",
+          "source_url": "https://investors.f5.com/news/news-details/2026/F5-Expands-AI-Security-Platform-With-F5-Workforce-AI-Security/default.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "availability section"
+        }
+      ],
+      "why_it_matters": "As agents gain tool access, security controls need to operate at the action boundary rather than only at prompt ingress. Identity-aware tool-call inspection is a concrete implementation of that requirement.",
+      "practical_implication": "For CAD/CAE/HPC agents, policy should bind user identity, agent identity, tool, arguments and execution context before the action reaches license servers, filesystems, schedulers or PLM systems.",
+      "tags": ["AI security", "MCP", "agent governance", "identity", "tool calls"],
+      "scores": {"novelty": 4.2, "source_quality": 4.5, "evidence_strength": 4.2, "engineering_relevance": 3.8, "enterprise_relevance": 4.9, "strategic_significance": 4.7, "reader_value": 4.4},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 13, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "r-gusto-ai-hiring",
+      "event_key": "gusto:ai-adoption-small-business-hiring-study:2026-09-10",
+      "tier": "report",
+      "title": "Gusto longitudinal study associates AI adoption with faster small-business hiring",
+      "primary_url": "https://gusto.com/resources/gusto-insights/ai-and-smb-hiring-2026",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "Gusto",
+      "company": "Gusto",
+      "category": "企業AI・Workforce",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "The analysis follows 1,593 AI-using firms and 669 AI-aware non-adopters identified from Gusto's 2025 survey and links them to subsequent payroll records.",
+        "Using an event-study design, Gusto reports roughly 7% higher headcount in the first year after adoption relative to the comparison group.",
+        "For firms with fewer than 10 employees, the reported differential is about 10%, with larger effects in some community-service businesses.",
+        "The study is observational and does not establish that AI adoption caused the hiring difference."
+      ],
+      "claims": [
+        {
+          "text": "The longitudinal sample contains 1,593 AI adopters and 669 AI-aware non-adopters linked to Gusto payroll data.",
+          "source_url": "https://gusto.com/resources/gusto-insights/ai-and-smb-hiring-2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "sample and methodology section"
+        },
+        {
+          "text": "Gusto reports about 7% higher first-year headcount growth after AI adoption, with about 10% for firms below 10 employees.",
+          "source_url": "https://gusto.com/resources/gusto-insights/ai-and-smb-hiring-2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "event-study results"
+        },
+        {
+          "text": "The research design is observational and supports association rather than causal proof.",
+          "source_url": "https://gusto.com/resources/gusto-insights/ai-and-smb-hiring-2026",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "methodological caveats"
+        }
+      ],
+      "why_it_matters": "The report is more useful than a one-time adoption survey because it links stated AI adoption to subsequent payroll behavior. It also challenges the simplistic assumption that AI uptake necessarily maps to immediate headcount reduction.",
+      "practical_implication": "Enterprise AI measurement should pair adoption telemetry with longitudinal operational outcomes such as headcount, throughput and task mix, while preserving a clear distinction between association and causality.",
+      "tags": ["AI adoption", "hiring", "SMB", "workforce", "productivity"],
+      "scores": {"novelty": 4.0, "source_quality": 4.1, "evidence_strength": 4.0, "engineering_relevance": 2.0, "enterprise_relevance": 4.8, "strategic_significance": 4.0, "reader_value": 4.4},
+      "weighted_score": 4.08,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "Gusto Insights",
+        "published_at": "2026-09-10",
+        "sample_size": 2262,
+        "methodology": "Longitudinal observational study linking an April 2025 survey to quarterly Gusto payroll records; 1,593 AI adopters and 669 AI-aware non-adopters; event-study approach using the Callaway-Sant'Anna framework and pre-trend checks.",
+        "geographies": "United States, Gusto customer sample",
+        "key_metrics": [
+          "approximately 7% higher headcount in the first year after adoption",
+          "approximately 10% higher headcount for firms with fewer than 10 employees",
+          "approximately 19% differential reported for small community-service firms"
+        ],
+        "comparison_to_previous": "Not a repeated annual wave; the study compares post-adoption trajectories with a contemporaneous non-adopter group using longitudinal payroll data.",
+        "practical_meaning": "AI adoption among these small businesses is associated with expansion rather than a simple substitution of labor, but the design cannot establish causal effects.",
+        "caveats": "Observational rather than randomized; AI adoption timing is survey-based; Gusto customers are not a random sample of all firms; sector and growth-selection effects may remain despite robustness checks."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 15, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "r-nims-porous-anchor",
+      "event_key": "nims:printable-porous-anchor-dissimilar-materials:2026-09-10",
+      "tier": "standard",
+      "title": "NIMS develops printable porous anchor for strong joining of dissimilar hard and soft materials",
+      "primary_url": "https://www.nims.go.jp/press/2026/09/202609100.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "National Institute for Materials Science",
+      "company": "NIMS",
+      "category": "材料・製造",
+      "source_kind": "press_release",
+      "factual_points": [
+        "NIMS developed a porous anchoring layer that can be formed by coating a solution and drying it through viscoelastic phase separation.",
+        "The joint combines chemical affinity at one interface with mechanical interlocking at the porous interface, enabling hard/soft dissimilar-material bonding.",
+        "NIMS reports bond strength above 7 MPa and roughly double the vertical tensile strength of a comparison configuration.",
+        "The work was published in Small on 2026-09-10."
+      ],
+      "claims": [
+        {
+          "text": "The porous anchor is formed through a coat-and-dry process based on viscoelastic phase separation.",
+          "source_url": "https://www.nims.go.jp/press/2026/09/202609100.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "method description"
+        },
+        {
+          "text": "NIMS reports bond strength exceeding 7 MPa and approximately twofold vertical tensile improvement in the reported tests.",
+          "source_url": "https://www.nims.go.jp/press/2026/09/202609100.html",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "mechanical test results"
+        },
+        {
+          "text": "The corresponding Small article was published on 2026-09-10.",
+          "source_url": "https://www.nims.go.jp/press/2026/09/202609100.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "publication metadata"
+        }
+      ],
+      "why_it_matters": "Multi-material joining is a recurring bottleneck in lightweight structures, sensors and compliant systems. The method is notable because it achieves anchoring through a printable porous layer rather than a geometry-specific macroscopic fastener.",
+      "practical_implication": "Evaluate the method for interface durability, temperature/environmental stability and manufacturability on application-specific material pairs before extrapolating the reported static bond strength.",
+      "tags": ["materials", "joining", "multi-material", "manufacturing", "Japan"],
+      "scores": {"novelty": 4.3, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 4.6, "enterprise_relevance": 1.8, "strategic_significance": 3.8, "reader_value": 4.2},
+      "weighted_score": 4.12,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 24, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "r-k2-horizon",
+      "event_key": "ifm:k2-horizon-open-model-stack:2026-09-03",
+      "tier": "standard",
+      "title": "K2 Horizon releases a six-model open stack with intermediate checkpoints and training artifacts",
+      "primary_url": "https://ifm.ai/blog/k2/",
+      "supporting_urls": [],
+      "published_at": "2026-09-03",
+      "organization": "Institute of Foundation Models",
+      "company": "Institute of Foundation Models",
+      "category": "オープンウェイト・OSS",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "K2 Horizon is released as a six-model family spanning approximately 0.9B to 375B total parameters.",
+        "The release includes final weights plus intermediate checkpoints, training code, logs, evaluation artifacts and either datasets or detailed data-construction recipes.",
+        "Models and code are released under Apache 2.0, with day-zero support described for common local/serving runtimes including vLLM, SGLang and Ollama."
+      ],
+      "claims": [
+        {
+          "text": "K2 Horizon provides six model sizes from roughly 0.9B to 375B parameters with Apache-2.0 model/code licensing.",
+          "source_url": "https://ifm.ai/blog/k2/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "release overview and licensing"
+        },
+        {
+          "text": "The release includes intermediate checkpoints, training code, logs, evaluations and data or reproducible data-construction recipes.",
+          "source_url": "https://ifm.ai/blog/k2/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "open-artifact section"
+        }
+      ],
+      "why_it_matters": "For research and enterprise evaluation, access to intermediate checkpoints and training artifacts is materially more useful than weights alone. It supports reproducibility, adaptation research and failure analysis.",
+      "practical_implication": "When comparing open models, score artifact completeness, licensing and reproducibility separately from benchmark performance; avoid treating self-reported frontier-performance claims as independent evidence.",
+      "tags": ["open weights", "open source", "training data", "checkpoints", "UAE"],
+      "scores": {"novelty": 4.2, "source_quality": 4.1, "evidence_strength": 3.9, "engineering_relevance": 2.7, "enterprise_relevance": 3.8, "strategic_significance": 4.4, "reader_value": 4.2},
+      "weighted_score": 3.97,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 10, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "w-rocket-fpga",
+      "event_key": "scientific-reports:rl-fpga-rocket-trajectory:2026-09-04",
+      "tier": "standard",
+      "title": "Adaptive rocket trajectory optimization combines reinforcement learning with FPGA inference",
+      "primary_url": "https://www.nature.com/articles/s41598-026-65000-x",
+      "supporting_urls": [],
+      "published_at": "2026-09-04",
+      "organization": "Scientific Reports",
+      "company": "",
+      "category": "最適化・航空宇宙",
+      "source_kind": "journal",
+      "factual_points": [
+        "The peer-reviewed study combines deep reinforcement learning and FPGA-based inference for reusable-rocket trajectory optimization.",
+        "The design targets adaptive onboard optimization rather than offline-only trajectory planning."
+      ],
+      "claims": [
+        {
+          "text": "The study combines reinforcement learning with FPGA execution for adaptive reusable-rocket trajectory optimization.",
+          "source_url": "https://www.nature.com/articles/s41598-026-65000-x",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Scout-captured journal metadata; primary page could not be reopened during limited Curator verification"
+        }
+      ],
+      "why_it_matters": "Hardware-constrained onboard inference is a useful counterpoint to cloud-scale agent work and could matter for flight systems where latency, power and deterministic execution dominate.",
+      "practical_implication": "Track whether the method is evaluated under realistic guidance uncertainty, hardware timing and safety constraints before inferring flight-readiness.",
+      "tags": ["trajectory optimization", "reinforcement learning", "FPGA", "aerospace", "onboard inference"],
+      "scores": {"novelty": 4.4, "source_quality": 4.5, "evidence_strength": 3.5, "engineering_relevance": 4.4, "enterprise_relevance": 1.8, "strategic_significance": 4.1, "reader_value": 4.0},
+      "weighted_score": 3.98,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 3, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "w-cohere-megakernel",
+      "event_key": "cohere:north-mini-code-megakernel-serving:2026-09-08",
+      "tier": "standard",
+      "title": "Cohere fuses decode stages into a megakernel for North Mini Code serving",
+      "primary_url": "https://cohere.com/blog/megakernels",
+      "supporting_urls": [],
+      "published_at": "2026-09-08",
+      "organization": "Cohere",
+      "company": "Cohere",
+      "category": "HPC/GPU・推論基盤",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Cohere describes a decode megakernel that fuses execution stages conventionally launched as separate GPU kernels.",
+        "On a single H100 in BF16, Cohere reports approximately 1.25–1.41x end-to-end decode-throughput improvement versus vLLM in its tested configurations.",
+        "The implementation is accompanied by code and accuracy comparisons, but the throughput figures remain vendor-run benchmarks."
+      ],
+      "claims": [
+        {
+          "text": "The serving design fuses multiple decode stages into a megakernel rather than launching them as separate kernels.",
+          "source_url": "https://cohere.com/blog/megakernels",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "architecture section"
+        },
+        {
+          "text": "Cohere reports 1.25–1.41x end-to-end decode-throughput gains versus vLLM on a single H100 BF16 benchmark setup.",
+          "source_url": "https://cohere.com/blog/megakernels",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "benchmark table"
+        }
+      ],
+      "why_it_matters": "Agent workloads amplify decode and orchestration overhead because they perform many iterative calls. Kernel-level serving efficiency can therefore affect system economics even when model quality is unchanged.",
+      "practical_implication": "Compare throughput under the intended batch size, context length and hardware rather than transferring a single-H100 vendor benchmark directly to production economics.",
+      "tags": ["LLM serving", "H100", "megakernel", "inference efficiency", "vLLM"],
+      "scores": {"novelty": 4.0, "source_quality": 4.1, "evidence_strength": 3.5, "engineering_relevance": 3.2, "enterprise_relevance": 3.8, "strategic_significance": 3.8, "reader_value": 4.0},
+      "weighted_score": 3.84,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 25, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    },
+    {
+      "id": "w-timesfm3",
+      "event_key": "google-research:timesfm3-multivariate-forecasting:2026-08-31",
+      "tier": "standard",
+      "title": "TimesFM-3 extends zero-shot foundation forecasting to native multivariate prediction",
+      "primary_url": "https://www.research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+      "supporting_urls": [],
+      "published_at": "2026-08-31",
+      "organization": "Google Research",
+      "company": "Google",
+      "category": "Scientific AI・時系列・Industrial AI",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Google Research describes TimesFM-3 as a 330M-parameter time-series foundation model with native multivariate zero-shot forecasting in a single forward pass.",
+        "Google states that pretraining used more than one trillion time points and cites manufacturing, observability and natural-science use cases."
+      ],
+      "claims": [
+        {
+          "text": "TimesFM-3 is a 330M-parameter model designed for native multivariate zero-shot forecasting.",
+          "source_url": "https://www.research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Scout-captured official Google Research release"
+        },
+        {
+          "text": "Google reports pretraining on more than one trillion time points and identifies manufacturing among target domains.",
+          "source_url": "https://www.research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Scout-captured official Google Research release"
+        }
+      ],
+      "why_it_matters": "Multivariate zero-shot forecasting could reduce bespoke model development for condition monitoring and operations data, but industrial value depends on calibration, drift and failure-mode behavior rather than benchmark averages alone.",
+      "practical_implication": "If evaluated for manufacturing, test across regime shifts, missing sensors and rare-event periods before replacing domain-specific forecasting pipelines.",
+      "tags": ["time series", "foundation model", "forecasting", "manufacturing", "zero-shot"],
+      "scores": {"novelty": 4.1, "source_quality": 4.7, "evidence_strength": 4.1, "engineering_relevance": 3.6, "enterprise_relevance": 3.8, "strategic_significance": 4.1, "reader_value": 4.2},
+      "weighted_score": 4.05,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 21, "source_blob_sha": "8c1223ed3d4e4789cc59a91bb22e374409b2e2d2"}]
+    }
+  ],
+  "backlog": [
+    {"id": "c-safran-combustor-job", "title": "Safran Aircraft Engines aero-combustion design engineer posting", "primary_url": "https://www.safran-group.com/pl/oferty-pracy/france/moissy-cramayel/ingenieur-e-calcul-experimente-e-conception-aerocombustion-moteurs-civils-fh-183324", "published_at": "2026-09-08", "organization": "Safran Aircraft Engines", "category": "航空機エンジン", "source_kind": "official", "reason": "Useful evidence of active high-fidelity combustor design work, but a job posting is weaker editorial evidence than a technical release.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 0}]},
+    {"id": "c-safran-hpt-job", "title": "Safran high-pressure-turbine aerothermal lead posting", "primary_url": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/leader-technique-aerothermique-turbine-haute-pression-fh-183675", "published_at": "2026-09-07", "organization": "Safran Aircraft Engines", "category": "航空機エンジン", "source_kind": "official", "reason": "Strong signal of future military-engine HPT work including T-REX/M88, but retained as workforce/R&D-direction evidence rather than a product event.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 1}]},
+    {"id": "c-safran-leap-lpt-job", "title": "Safran LEAP low-pressure-turbine integration lead posting", "primary_url": "https://www.safran-group.com/fr/offres/france/moissy-cramayel/leader-technique-mecanique-integration-turbine-basse-pression-leap-fh-170793", "published_at": "2026-09-11", "organization": "Safran Aircraft Engines", "category": "航空機エンジン", "source_kind": "official", "reason": "Current engineering-work signal but limited novelty beyond ongoing LEAP post-development activity.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 2}]},
+    {"id": "c-gkn-expansion", "title": "GKN Aerospace North Charlestown engine-component expansion", "primary_url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-breaks-ground-on-north-charlestown-expansion-as-demand-for-engine-components-grows/", "published_at": "2026-09-10", "organization": "GKN Aerospace", "category": "航空機・主要サプライヤー", "source_kind": "press_release", "reason": "Relevant capacity signal ($16M and ~57,000 sq ft addition) but weaker than the same-day FCAS technology contract for selected diversity.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 5}]},
+    {"id": "c-neuralconcept-india", "title": "Neural Concept expands direct presence in India", "primary_url": "https://www.neuralconcept.com/press-release/neural-concept-expands-in-india", "published_at": "2026-09-10", "organization": "Neural Concept", "category": "AIによる設計", "source_kind": "press_release", "reason": "Useful adoption/geographic expansion signal for engineering AI, but primarily commercial expansion rather than a new technical capability.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-14.json", "source_index": 7}]},
+    {"id": "r-topology-ood", "title": "Beyond Arbitrary Geometry: Topology Generalization In neural PDE Operators", "primary_url": "https://arxiv.org/abs/2609.05860", "published_at": "2026-09-05", "organization": "Research collaboration", "category": "AIによる設計・Neural Operator", "source_kind": "paper", "reason": "High technical relevance, but Curator could not independently reopen the fresh arXiv source during limited verification; keep for later review rather than selected.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 1}]},
+    {"id": "r-conformal-uq-no", "title": "Conformal Uncertainty Quantification Guarantees for Neural Operators", "primary_url": "https://arxiv.org/abs/2608.28515", "published_at": "2026-08-28", "organization": "Research collaboration", "category": "AIによる設計・Neural Operator", "source_kind": "paper", "reason": "Potentially important for uncertainty-aware surrogate deployment, but primary-source reopening failed during the Curator check; preserve without promoting unverified details.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 2}]},
+    {"id": "r-google-cloud-plugin", "title": "Google Cloud Developer Plugin for AI Coding Agents", "primary_url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents", "published_at": "2026-09-10", "organization": "Google Cloud", "category": "AIエージェント・コーディング・MCP", "source_kind": "corporate_tech", "reason": "Relevant standardization signal, but lower priority than runtime/sandbox and tool-policy items already selected.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 5}]},
+    {"id": "r-atlassian-agent-loops", "title": "Atlassian governed agent loops for AI-Native SDLC", "primary_url": "https://www.atlassian.com/blog/jira/governed-agent-loops", "published_at": "2026-09-10", "organization": "Atlassian", "category": "AIエージェント・ソフトウェア開発", "source_kind": "corporate_tech", "reason": "Useful enterprise workflow signal but mixes product announcement and vendor study; retain for a later software-engineering-focused day.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 6}]},
+    {"id": "r-google-data-agent-kit", "title": "Google Cloud Data Agent Kit", "primary_url": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit", "published_at": "2026-09-08", "organization": "Google Cloud", "category": "AIエージェント・RAG/Data", "source_kind": "corporate_tech", "reason": "Useful enterprise data-agent tooling but crowded by stronger governance/runtime signals in today's pool.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 7}]},
+    {"id": "r-copilot-app-builder", "title": "Build apps in Copilot Cowork and Copilot Studio", "primary_url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/", "published_at": "2026-09-10", "organization": "Microsoft", "category": "企業AI・AI-native SaaS", "source_kind": "corporate_tech", "reason": "Enterprise app-generation/governance signal, but less aligned with engineering/scientific focus than selected Agent infrastructure.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 8}]},
+    {"id": "r-kimi-k28", "title": "Kimi K2.8 Preview", "primary_url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html", "published_at": "2026-09-11", "organization": "Moonshot AI / Kimi", "category": "最新AIモデル・コーディング", "source_kind": "official", "reason": "Current model update, but selected set intentionally avoids over-weighting general model releases.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 9}]},
+    {"id": "r-cohere-translate", "title": "Cohere North Small Translate", "primary_url": "https://cohere.com/blog/north-small-translate", "published_at": "2026-09-10", "organization": "Cohere", "category": "オープンウェイト・企業AI", "source_kind": "corporate_tech", "reason": "Technically notable open-weight translation model, but licensing is non-commercial and today's engineering relevance is limited.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 11}]},
+    {"id": "r-astra-system-card-update", "title": "GPT-6 Astra System Card Sept. 9 methodology update", "primary_url": "https://deploymentsafety.openai.com/gpt-6-astra", "published_at": "2026-09-03", "organization": "OpenAI", "category": "AI安全性・Benchmark", "source_kind": "technical_report", "reason": "Material update exists, but Astra was already covered on 2026-09-02 and 2026-09-07; keep the Sept. 9 alignment-generalization methodology change in backlog to avoid over-repetition.", "material_delta": "A Sept. 9 update expands alignment-generalization methodology and explicitly cautions that absence of observed failure does not establish reliability across settings.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 12}, {"published_event_keys": ["openai:astra-critical-cyber-threshold:2026-09-01", "openai:gpt6-astra-broad-release:2026-09-03"]}]},
+    {"id": "r-tenable-inspector", "title": "Tenable CyberAgents Exchange AI Inspector", "primary_url": "https://www.tenable.com/blog/ai-agent-security-openai-tenable-cyberagents-exchange-inspector", "published_at": "2026-09-09", "organization": "Tenable", "category": "AI安全性・Agent Security", "source_kind": "corporate_tech", "reason": "Relevant agent-security review pattern, but overlaps thematically with the stronger network/tool-control F5 signal selected today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 14}]},
+    {"id": "r-imf-intelligence-divide", "title": "Relative Development and the Intelligence Divide", "primary_url": "https://www.imf.org/en/publications/wp/issues/2026/09/04/relative-development-and-the-intelligence-divide-human-capital-technology-diffusion-and-ai-578744", "published_at": "2026-09-04", "organization": "International Monetary Fund", "category": "AI経済・Workforce", "source_kind": "paper", "reason": "Substantive economic model on absorptive capacity, but peripheral to today's engineering/enterprise implementation theme.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 17}]},
+    {"id": "r-wipro-capacity", "title": "Wipro AI push frees capacity equivalent to 20,000 workers, CTO says", "primary_url": "https://www.reuters.com/world/india/wipros-ai-push-frees-capacity-equivalent-20000-workers-cto-says-2026-09-10/", "published_at": "2026-09-10", "organization": "Wipro", "category": "企業AI・業務効率化", "source_kind": "news", "reason": "Useful workforce outcome, but the 20,000-equivalent figure is an executive statement and offers less methodological depth than the Gusto longitudinal report.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 18}]},
+    {"id": "r-gemini-agentic-video", "title": "Gemini agentic video understanding", "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/", "published_at": "2026-09-01", "organization": "Google DeepMind", "category": "最新AIモデル・推論効率", "source_kind": "corporate_tech", "reason": "Interesting inference-efficiency pattern, but vendor performance figures are not independently reproduced and the item is outside the core engineering focus.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 22}]},
+    {"id": "r-nvidia-australia", "title": "NVIDIA Australia AI infrastructure buildout", "primary_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-AI-Infrastructure-Capacity-in-Partnership-With-Australias-Data-Center-Ecosystem/default.aspx", "published_at": "2026-09-09", "organization": "NVIDIA", "category": "HPC/GPU・AIインフラ", "source_kind": "press_release", "reason": "Strategic infrastructure signal but less directly relevant to engineering workflow than selected items; retain for future capacity/economics coverage.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 23}]}
+  ],
+  "rejected": [
+    {
+      "id": "r-servicenow-india-duplicate",
+      "title": "India Enterprise AI Maturity Index 2026",
+      "primary_url": "https://newsroom.servicenow.com/press-releases/details/2026/Indias-enterprise-AI-investment-surges-119-but-only-22-of-Indian-enterprises-have-the-governance-to-match-their-AI-ambition-ServiceNow/default.aspx",
+      "reason": "Exact primary URL and same survey event were already published on 2026-09-09 with no material new information in today's candidate.",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 16}, {"published_item_id": "r-servicenow-india", "published_event_key": "servicenow:india-ai-maturity-index-2026:2026-09-08"}]
+    },
+    {
+      "id": "r-ornl-atomic-fabrication-stale",
+      "title": "AI automates the creation of custom materials",
+      "primary_url": "https://www.ornl.gov/news/ai-automates-creation-custom-materials",
+      "reason": "Rejected as false freshness. The 2026-09-01 ORNL news item describes work whose ACS Nano primary paper (DOI 10.1021/acsnano.5c12469) was published online in December 2025 and appeared in an early-2026 issue; there is no sufficiently new research delta for today's pool.",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-14.json", "source_index": 20, "primary_research_doi": "10.1021/acsnano.5c12469"}]
+    }
+  ],
+  "warnings": [
+    "Both Scout inputs are same-day daily-signal-scout/v2 artifacts, completed within the 3-hour freshness limit; no prior-day fallback was used.",
+    "The publication index was stale at 2026-09-09, so duplicate checking was supplemented with the dated 2026-09-11 publication receipt. Missing newer receipt dates were not treated as blocking.",
+    "AVL/QinetiQ exact publication day could not be exposed by the rendered primary page during verification; 2026-09-10 is retained from Scout metadata and confidence is reduced to medium.",
+    "Two fresh neural-operator preprints could not be independently reopened during limited Curator verification and were kept in backlog rather than selected.",
+    "ORNL's 2026-09-01 news release was rejected after primary-publication verification showed the underlying research was not new in September 2026.",
+    "Vendor targets and benchmark figures remain explicitly attributed and are not treated as independent validation."
+  ]
+}
