@@ -1,0 +1,751 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-15T07:02:37+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-15.json",
+      "blob_sha": "bfdbadbcd48f373659aa1e164e2cc9ff843ff186",
+      "generated_at": "2026-09-15T06:11:18+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-15.json",
+      "blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2",
+      "generated_at": "2026-09-15T06:24:29+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "航空・製造ではAI単体より、実機に近いsimulation、複合計測、CT、数値parityといった検証可能なengineering loopへの組み込みが強い。",
+      "supporting_ids": ["c-airbus-a350f-vff", "c-aecc-ai-inspection", "c-lumafield-saturn", "r-mistral-legacy"]
+    },
+    {
+      "signal": "Scientific AIは、材料文献の大規模構造化とdomain-specific expert AIを通じて、学習モデルを研究データ生成・整理・実験計画へ接続する方向へ進んでいる。",
+      "supporting_ids": ["r-concrete-llm", "r-lg-expert-ai"]
+    },
+    {
+      "signal": "Enterprise Agentではlong-horizon execution、multi-agent orchestration、governed supply-chain dataが実装論点となり、単発chatから継続業務へ重心が移っている。",
+      "supporting_ids": ["r-salesforce-longhorizon", "r-fujitsu-palantir"]
+    },
+    {
+      "signal": "企業AIでは利用拡大と同時にgovernance gapとbudget overrunが顕在化しており、統制・可視化・費用設計がROI回収の前提条件になっている。",
+      "supporting_ids": ["r-onetrust-governance", "r-futurum-overrun"]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": ["r-mistral-legacy", "c-airbus-a350f-vff", "c-aecc-ai-inspection"],
+    "ordered_ids": [
+      "r-mistral-legacy",
+      "c-airbus-a350f-vff",
+      "c-aecc-ai-inspection",
+      "r-lg-expert-ai",
+      "r-concrete-llm",
+      "c-lumafield-saturn",
+      "r-onetrust-governance",
+      "r-salesforce-longhorizon",
+      "r-fujitsu-palantir",
+      "r-futurum-overrun",
+      "r-fujitsu-monaka"
+    ],
+    "central_signals": [
+      "Engineering AIの実用境界は、自律性そのものより検証可能なtool executionとphysical/digital feedback loopで決まる。",
+      "Scientific AIでは、専門データを構造化・再利用可能にする基盤整備とdomain-specific modelの組み合わせが重要になっている。",
+      "Enterprise Agentの長期実行にはmemoryだけでなく、権限、承認点、orchestration、cost controlが必要になる。"
+    ],
+    "tensions_or_caveats": [
+      "AECC、Salesforce、Fujitsu、Lumafield、Futurumの性能・成果数値は提供元またはスポンサー側の自己申告として扱う。",
+      "LG AI Researchの一次ページはCuratorのWeb再取得で開けず、同日付の複数報道で主要内容を照合したためconfidenceを下げている。",
+      "Fujitsu MONAKAのAI inference性能値はベンダー比較であり、独立benchmarkではない。",
+      "OneTrustとFuturumはいずれも商用組織による調査で、標本設計や回答バイアスを考慮して方向性として読む。"
+    ],
+    "desired_depth": {
+      "r-mistral-legacy": "lead",
+      "c-airbus-a350f-vff": "lead",
+      "c-aecc-ai-inspection": "lead",
+      "r-lg-expert-ai": "standard",
+      "r-concrete-llm": "standard",
+      "c-lumafield-saturn": "standard",
+      "r-onetrust-governance": "report",
+      "r-salesforce-longhorizon": "standard",
+      "r-fujitsu-palantir": "standard",
+      "r-futurum-overrun": "report",
+      "r-fujitsu-monaka": "standard"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 31,
+    "deduplicated_item_count": 31,
+    "source_domain_count": 21,
+    "organization_count": 28,
+    "regions_observed": ["US", "Europe", "China", "Japan", "Korea", "India", "global"],
+    "lanes": {
+      "company_watch": "7 mandatory watch sources checked; 3 found and 4 no_new_finding; 1 discovery organization contributed a candidate",
+      "engineering_ai": "covered",
+      "agents_enterprise": "covered",
+      "models_open_weights": "covered",
+      "reports_surveys": "covered",
+      "scientific_wildcards": "covered",
+      "non_us_rotation": "covered"
+    },
+    "known_gaps": [
+      "Company rotation produced limited fresh signals from Japanese aerospace suppliers and Hanwha Aerospace in this run.",
+      "No new core CFD/FEA method paper survived same-day Research Scout duplicate suppression; engineering coverage is instead concentrated in verification, inspection and scientific-software workflows.",
+      "Agnes-3.0-Flash lacked a reliable publication date on the primary model card and was therefore not promoted to selected/wildcard.",
+      "The publication index was last updated on 2026-09-09; duplicate control was supplemented with available receipts through 2026-09-14."
+    ]
+  },
+  "selected": [
+    {
+      "id": "r-mistral-legacy",
+      "event_key": "mistral:legacy-code-agent-modernization:2026-09-09",
+      "tier": "lead",
+      "title": "Modernizing complex legacy code with AI agents",
+      "primary_url": "https://mistral.ai/news/legacy-code-modernization/",
+      "supporting_urls": [],
+      "published_at": "2026-09-09",
+      "organization": "Mistral AI",
+      "company": "Mistral AI",
+      "category": "AIエージェント・コーディング・Scientific Software",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Mistral reports migrating 40,000 lines of a 300,000-line physics-intensive Fortran 77 reservoir simulator to C++ in the first sprint.",
+        "The team built a numerical-parity harness before migration and used critical intermediate checkpoints as well as final outputs to verify agreement.",
+        "More than 100 agents were used to document the legacy caller-callee tree; the final migration workflow used coder, tester and reviewer agents with human review gates.",
+        "Mistral states that fully autonomous translation produced functional but poorly modernized code, while structured multi-agent workflows with human checkpoints gave better code quality."
+      ],
+      "claims": [
+        {
+          "text": "The first sprint migrated 40,000 of 300,000 Fortran 77 lines from a physics-intensive reservoir simulator.",
+          "source_url": "https://mistral.ai/news/legacy-code-modernization/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Summary and limitations sections"
+        },
+        {
+          "text": "The migration used a numerical-parity harness comparing final outputs and critical intermediate checkpoints before accepting migrated modules.",
+          "source_url": "https://mistral.ai/news/legacy-code-modernization/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Building a parity harness before migrating legacy code"
+        },
+        {
+          "text": "Mistral reports that a structured coder/tester/reviewer workflow with human checkpoints worked better than full autonomy for this case.",
+          "source_url": "https://mistral.ai/news/legacy-code-modernization/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Utilizing the AI agents / applying three principles"
+        }
+      ],
+      "why_it_matters": "Scientific and engineering software modernization is a high-value Agent use case where semantic correctness is not enough; numerical parity provides a concrete acceptance boundary that can be audited independently of model reasoning.",
+      "practical_implication": "For legacy CFD/FEA/materials codes, build deterministic state checkpoints and numerical regression tests before assigning migration tasks to agents; use human approval at architecture and merge boundaries.",
+      "tags": ["coding agents", "Fortran", "C++", "scientific software", "verification", "numerical parity"],
+      "scores": {"novelty": 4.7, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 4.8, "enterprise_relevance": 4.0, "strategic_significance": 4.7, "reader_value": 5.0},
+      "weighted_score": 4.77,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 5, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "c-airbus-a350f-vff",
+      "event_key": "airbus:a350f-virtual-first-flight:2026-09-14",
+      "tier": "lead",
+      "title": "Countdown to A350F first flight: Preparing for the sky",
+      "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "Airbus",
+      "company": "Airbus",
+      "category": "民間・軍用航空機",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The A350F Virtual First Flight consists of 13 simulation sessions of roughly five hours each.",
+        "The development flight-test simulator is connected to real aircraft avionics benches, including actual flight controls and digital engine control systems.",
+        "Airbus describes the setup as about 90% representative of the physical aircraft, with the freighter-specific aerodynamic model remaining to be proven in flight.",
+        "The subsequent certification program targets about 400 flight hours with two aircraft and direct EASA participation."
+      ],
+      "claims": [
+        {
+          "text": "Airbus is running 13 approximately five-hour Virtual First Flight sessions connected to real avionics benches including flight controls and digital engine controls.",
+          "source_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Virtual First Flight / Connecting the simulator to real avionics"
+        },
+        {
+          "text": "Airbus describes the VFF setup as 90% representative of the physical aircraft and plans a roughly 400-flight-hour campaign.",
+          "source_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Connecting the simulator to real avionics / flight-test campaign"
+        },
+        {
+          "text": "EASA is monitoring and approving the official flight-test plan and is scheduled to participate directly in performance flights.",
+          "source_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Working closely with EASA"
+        }
+      ],
+      "why_it_matters": "This is a concrete example of certification-oriented digital verification where simulation is not a standalone digital twin demo but is connected to representative hardware, failure scenarios and regulator-facing flight-test planning.",
+      "practical_implication": "Engineering AI and digital-thread programs should distinguish model fidelity from certification evidence; high-value simulation systems need traceable links to hardware benches, failure cases and formal acceptance plans.",
+      "tags": ["A350F", "virtual verification", "simulation", "certification", "flight test", "avionics"],
+      "scores": {"novelty": 4.2, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 5.0, "enterprise_relevance": 3.4, "strategic_significance": 4.5, "reader_value": 4.7},
+      "weighted_score": 4.60,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 3, "source_blob_sha": "bfdbadbcd48f373659aa1e164e2cc9ff843ff186"}]
+    },
+    {
+      "id": "c-aecc-ai-inspection",
+      "event_key": "aecc-dongan:3d-2d-ai-inspection:2026-09-04",
+      "tier": "lead",
+      "title": "AECC Dongan deploys 3D+2D+AI composite inspection for engine-production assembly",
+      "primary_url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-04",
+      "organization": "AECC Harbin Dongan Engine",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "category": "航空機エンジン",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "A newly introduced automated 3D scanning system was used for dimensional inspection on an engine-production line and also supported reverse modeling for more than ten products.",
+        "For small lock-tab features in narrow assembly positions, the company reports the original 3D-scan recognition accuracy was about 75%.",
+        "The team combined 2D visual measurement with an AI training function and reports achieving 100% recognition after more than a month of tuning.",
+        "The resulting workflow uses 3D inspection for overall geometry and 2D+AI for difficult local features."
+      ],
+      "claims": [
+        {
+          "text": "The initial 3D scanning workflow achieved about 75% recognition on small lock-tab inspection tasks.",
+          "source_url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Production-line problem description"
+        },
+        {
+          "text": "AECC Dongan reports that combining 2D visual measurement with AI training raised recognition to 100% after iterative tuning.",
+          "source_url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "AI-assisted visual measurement deployment section"
+        },
+        {
+          "text": "The team created reverse-engineered models for more than ten products and built a 3D database as part of the deployment.",
+          "source_url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "3D scanning deployment section"
+        }
+      ],
+      "why_it_matters": "The case shows a pragmatic industrial pattern: rather than forcing one sensor modality to solve every inspection problem, geometry and vision are combined and AI is assigned to the failure mode where it adds measurable value.",
+      "practical_implication": "Inspection automation should be architected around modality-specific strengths and traceability; difficult local features can be routed to 2D/AI while retaining 3D dimensional data for overall conformance and reverse-engineering records.",
+      "tags": ["aero engine", "3D scanning", "AI visual inspection", "quality inspection", "reverse engineering"],
+      "scores": {"novelty": 4.3, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.2, "reader_value": 4.5},
+      "weighted_score": 4.42,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 0, "source_blob_sha": "bfdbadbcd48f373659aa1e164e2cc9ff843ff186"}]
+    },
+    {
+      "id": "r-lg-expert-ai",
+      "event_key": "lg-ai-research:expert-ai-manufacturing-science:2026-09-14",
+      "tier": "standard",
+      "title": "LG unveils expert AI for manufacturing, science and finance",
+      "primary_url": "https://lg.co.kr/media/release/30563",
+      "supporting_urls": [
+        "https://www.koreaherald.com/article/10872720",
+        "https://www.koreajoongangdaily.com/business/lg-ai-discovers-hairloss-treatment-material-in-a-day-eyes-manufacturing-next/12874717"
+      ],
+      "published_at": "2026-09-14",
+      "organization": "LG AI Research",
+      "company": "LG",
+      "category": "Industrial AI・Scientific AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "LG AI Research announced domain-specific Expert AI systems for manufacturing, science and finance at its September 14 event.",
+        "The manufacturing stack includes state prediction and autonomous inspection, while EXAONE Discovery targets materials design and synthesis-result prediction.",
+        "LG also described an autonomous experimentation framework intended to connect model recommendations with experimental execution.",
+        "The official Scout capture says LG has addressed more than 100 industrial challenge cases; this figure remains a company-reported aggregate."
+      ],
+      "claims": [
+        {
+          "text": "LG AI Research announced domain-specific AI systems spanning manufacturing, science and finance on September 14.",
+          "source_url": "https://lg.co.kr/media/release/30563",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Primary release captured by Scout; independently corroborated by same-day Korea Herald coverage"
+        },
+        {
+          "text": "The science portfolio includes EXAONE Discovery for materials-related work and an autonomous experimentation direction.",
+          "source_url": "https://lg.co.kr/media/release/30563",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Primary release captured by Scout; same-day Korean press coverage"
+        }
+      ],
+      "why_it_matters": "A large industrial group is explicitly separating general-purpose models from factory- and science-specific systems, reinforcing the shift toward proprietary process data, domain validation and closed-loop execution as differentiators.",
+      "practical_implication": "Manufacturing AI evaluations should measure state prediction, inspection and experimental feedback against domain baselines rather than relying on general LLM benchmarks.",
+      "tags": ["industrial AI", "materials discovery", "autonomous inspection", "autonomous experimentation", "Korea"],
+      "scores": {"novelty": 4.4, "source_quality": 4.5, "evidence_strength": 3.8, "engineering_relevance": 4.8, "enterprise_relevance": 4.0, "strategic_significance": 4.5, "reader_value": 4.6},
+      "weighted_score": 4.41,
+      "confidence": "medium",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 12, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2", "verification_note": "Primary URL was not reopenable in Curator web retrieval; core claims were cross-checked against multiple same-day independent reports."}]
+    },
+    {
+      "id": "r-concrete-llm",
+      "event_key": "npj-comp-mat:llm-concrete-data-extraction:2026-09-14",
+      "tier": "standard",
+      "title": "Large language model-enabled automated data extraction for concrete materials informatics",
+      "primary_url": "https://www.nature.com/articles/s41524-026-02304-6",
+      "supporting_urls": ["https://zenodo.org/records/18080351", "https://zenodo.org/records/22132837"],
+      "published_at": "2026-09-14",
+      "organization": "Rice University / independent collaborator",
+      "company": "",
+      "category": "Scientific AI・材料インフォマティクス",
+      "source_kind": "journal",
+      "factual_points": [
+        "The peer-reviewed pipeline extracts composition-process-property attributes from unstructured materials literature and reports F1 up to 0.98 across evaluated attributes.",
+        "The authors report extracting nearly 9,000 records with more than 100 attributes in under one hour from a corpus screened from more than 27,000 publications.",
+        "The resulting blended-cement concrete database is openly released, and more than 7,500 records are reported as manually verified in the associated dataset documentation.",
+        "All authors are inventors on a pending Rice University provisional patent covering the extraction pipeline."
+      ],
+      "claims": [
+        {
+          "text": "The extraction pipeline reaches F1 scores up to 0.98 and produced nearly 9,000 records with more than 100 attributes from over 27,000 screened publications.",
+          "source_url": "https://www.nature.com/articles/s41524-026-02304-6",
+          "verification_status": "verified",
+          "attribution_type": "independent_analysis",
+          "evidence_location": "Abstract"
+        },
+        {
+          "text": "The associated open database documentation reports that more than 7,500 records, over 80% of the final database, were manually verified.",
+          "source_url": "https://zenodo.org/records/18080351",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Dataset description"
+        }
+      ],
+      "why_it_matters": "Materials AI often fails before modeling because experimental data remain trapped in literature. This work addresses the data-infrastructure bottleneck directly and exposes both benchmark and production datasets for external reuse.",
+      "practical_implication": "Materials organizations can evaluate LLM extraction as a data-engineering layer, but should retain human-audited benchmark sets, provenance to source papers and explicit treatment of missing values before downstream model training.",
+      "tags": ["materials informatics", "LLM", "data extraction", "open dataset", "scientific literature"],
+      "scores": {"novelty": 4.4, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 4.7, "enterprise_relevance": 2.5, "strategic_significance": 4.4, "reader_value": 4.7},
+      "weighted_score": 4.46,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 14, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "c-lumafield-saturn",
+      "event_key": "lumafield:saturn-large-format-ct:2026-09-10",
+      "tier": "standard",
+      "title": "Introducing Saturn: Large-Format CT for the Parts You Couldn't Scan Before",
+      "primary_url": "https://www.lumafield.com/article/introducing-saturn-large-format-ct-for-the-parts-you-couldnt-scan-before",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "Lumafield",
+      "company": "Lumafield",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Saturn provides a 580 mm diameter by 1,100 mm tall scannable volume with a 225 kV source.",
+        "Lumafield states the system can penetrate up to 100 mm of light metal and 25 mm of steel or iron, depending on the inspection case.",
+        "The Voyager environment supports porosity, wall-thickness and CAD comparison workflows plus automated dimensional feature extraction for GD&T-related checks.",
+        "The aerospace use cases explicitly include turbine components, structural weldments and metal-additive parts."
+      ],
+      "claims": [
+        {
+          "text": "Saturn has a 580 mm by 1,100 mm scan volume and a 225 kV source aimed at larger and denser components.",
+          "source_url": "https://www.lumafield.com/article/introducing-saturn-large-format-ct-for-the-parts-you-couldnt-scan-before",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Saturn product specification section"
+        },
+        {
+          "text": "Lumafield positions Saturn for aerospace turbine components, structural weldments and additive parts, with Voyager supporting CAD comparison and dimensional analysis.",
+          "source_url": "https://www.lumafield.com/article/introducing-saturn-large-format-ct-for-the-parts-you-couldnt-scan-before",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Aerospace and defense / connected platform sections"
+        }
+      ],
+      "why_it_matters": "Large-format CT closes an inspection gap between lab-scale metrology and destructive sectioning for dense aerospace components, while linking volumetric NDI data directly to CAD and dimensional workflows.",
+      "practical_implication": "For castings, weldments and additive hardware, CT can be evaluated not only as NDI but as a design/manufacturing feedback source feeding CAD comparison, porosity and GD&T analytics in the same dataset.",
+      "tags": ["industrial CT", "NDT", "aerospace inspection", "additive manufacturing", "CAD comparison", "GD&T"],
+      "scores": {"novelty": 4.2, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 5.0, "enterprise_relevance": 3.0, "strategic_significance": 4.1, "reader_value": 4.3},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 5, "source_blob_sha": "bfdbadbcd48f373659aa1e164e2cc9ff843ff186"},
+        {"publication_history_note": "Lumafield Quality Agent was published on 2026-09-09, but Saturn is a separate September 10 hardware/platform release with a different primary URL and distinct large-format CT capability; treated as a material new event."}
+      ]
+    },
+    {
+      "id": "r-onetrust-governance",
+      "event_key": "onetrust:ai-ready-governance-survey-2026:2026-09-14",
+      "tier": "report",
+      "title": "The OneTrust 2026 AI-Ready Governance Survey Report",
+      "primary_url": "https://www.onetrust.com/resources/onetrust-2026-ai-ready-governance-report/",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "OneTrust / Sapio Research",
+      "company": "OneTrust",
+      "category": "企業AI・ガバナンス調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "OneTrust and Sapio Research surveyed 1,200 senior decision-makers across eight markets in June and July 2026; all respondents worked at organizations with at least $100 million annual revenue.",
+        "87% say their organizations encourage AI-agent use, while 47% report clear governance, oversight and controls for that use.",
+        "Only 5% report clear coordination and accountability across the AI lifecycle.",
+        "86% report at least one AI-related incident in the prior year; among those, 45% implemented formal AI review and approval processes."
+      ],
+      "claims": [
+        {
+          "text": "The survey covered 1,200 senior decision-makers in eight markets during June-July 2026, all from organizations with at least $100 million annual revenue.",
+          "source_url": "https://www.onetrust.com/resources/onetrust-2026-ai-ready-governance-report/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "How Was the Research Conducted?"
+        },
+        {
+          "text": "87% encourage AI-agent use but only 47% report clear governance, oversight and controls.",
+          "source_url": "https://www.onetrust.com/resources/onetrust-2026-ai-ready-governance-report/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Agent Adoption Is Exposing the Next Governance Gap"
+        },
+        {
+          "text": "86% report at least one AI-related incident in the prior year.",
+          "source_url": "https://www.onetrust.com/resources/onetrust-2026-ai-ready-governance-report/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI Incidents Are Now Baseline"
+        }
+      ],
+      "why_it_matters": "The report quantifies a specific operational gap: organizations are opening Agent access faster than they are connecting governance, visibility and accountability across the AI lifecycle.",
+      "practical_implication": "Enterprise Agent programs should measure sanctioned/unsanctioned use visibility, approval coverage and incident-response controls alongside adoption metrics; usage growth alone is not readiness.",
+      "tags": ["AI governance", "enterprise AI", "agents", "survey", "shadow AI"],
+      "scores": {"novelty": 4.1, "source_quality": 4.2, "evidence_strength": 4.5, "engineering_relevance": 2.5, "enterprise_relevance": 5.0, "strategic_significance": 4.7, "reader_value": 4.8},
+      "weighted_score": 4.13,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "OneTrust / Sapio Research",
+        "published_at": "2026-09-14",
+        "sample_size": 1200,
+        "methodology": "Survey of senior business decision-makers conducted in June-July 2026 with equal representation from CPO, CDO, CISO and CMO audiences; respondents worked at organizations with at least $100M annual revenue.",
+        "geographies": "Australia, Canada, France, Germany, Singapore, Spain, United Kingdom and United States",
+        "key_metrics": ["87% encourage AI-agent use", "47% report clear agent governance/oversight/controls", "5% report clear coordination and accountability across the AI lifecycle", "86% experienced at least one AI-related incident in the prior year", "48% report clear visibility into both sanctioned and unsanctioned AI use"],
+        "comparison_to_previous": "The public report page does not expose a directly comparable prior-year series; treat this as a 2026 cross-sectional baseline rather than a trend estimate.",
+        "practical_meaning": "Agent adoption is materially ahead of lifecycle governance and visibility, making approval, monitoring and ownership the operational bottlenecks.",
+        "caveats": "Commissioned/published by a governance software vendor; self-reported survey responses and incident definitions may vary by respondent, and results should not be treated as a census of all enterprises."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 1, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "r-salesforce-longhorizon",
+      "event_key": "salesforce:agentforce-long-horizon-runtime:2026-09-14",
+      "tier": "standard",
+      "title": "Salesforce expands Agentforce with long-horizon runtime and multi-agent orchestration",
+      "primary_url": "https://www.salesforce.com/ap/news/press-releases/2026/09/14/ph-salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "Salesforce",
+      "company": "Salesforce",
+      "category": "AIエージェント・企業AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Salesforce introduced a long-horizon runtime intended to keep Agentforce goals active across days and weeks rather than single interactions.",
+        "The runtime uses persistent memory, durable execution and dynamic steering; Salesforce describes explicit guardrails for autonomous action versus seller approval.",
+        "Multi-Agent Orchestration is generally available, while Agent Optimizer is announced for general availability in October 2026.",
+        "The release explicitly warns that some referenced services or features may still be in development, so current and future capabilities must be separated."
+      ],
+      "claims": [
+        {
+          "text": "Salesforce introduced a long-horizon runtime that preserves progress across sessions and supports work over days or weeks.",
+          "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/09/14/ph-salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Take on work that spans days and weeks"
+        },
+        {
+          "text": "Multi-Agent Orchestration is GA; Agent Optimizer is announced for GA in October 2026.",
+          "source_url": "https://www.salesforce.com/ap/news/press-releases/2026/09/14/ph-salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Take agents further with the Agentforce platform"
+        }
+      ],
+      "why_it_matters": "Long-running Agent systems need durable state, explicit human-approval boundaries and orchestration across specialized roles; these are operating-system concerns, not merely model capability upgrades.",
+      "practical_implication": "When evaluating enterprise Agents, test interruption/resume behavior, approval escalation, traceability and multi-agent handoffs over multi-day workflows rather than only single-session task success.",
+      "tags": ["AI agents", "long-horizon agents", "multi-agent", "enterprise AI", "workflow automation"],
+      "scores": {"novelty": 4.4, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 2.5, "enterprise_relevance": 5.0, "strategic_significance": 4.8, "reader_value": 4.6},
+      "weighted_score": 4.25,
+      "confidence": "high",
+      "provenance": [
+        {"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 0, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"},
+        {"publication_history_note": "Salesforce Headless 360/MCP capabilities were published on 2026-09-02; this September 14 event is a distinct material update centered on long-horizon runtime, durable execution and multi-agent orchestration."}
+      ]
+    },
+    {
+      "id": "r-fujitsu-palantir",
+      "event_key": "fujitsu-palantir:global-fde-manufacturing-supplychain:2026-09-10",
+      "tier": "standard",
+      "title": "Palantir and Fujitsu deepen partnership around governed enterprise AI and FDE",
+      "primary_url": "https://global.fujitsu/en-global/pr/news/2026/09/10-01",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "Fujitsu / Palantir",
+      "company": "Fujitsu",
+      "category": "企業AI・製造・データ基盤",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Fujitsu became a Global FDE Partner for Palantir AIP and Foundry and is investing in Forward Deployed Engineering capability.",
+        "Fujitsu says a Japanese manufacturing supply-chain deployment integrates data from more than 3,000 suppliers and 18 factories while retaining governed workflows and access controls.",
+        "The release reports more than $10 million in one-year cost savings and doubled operational productivity for the unnamed customer; these are vendor/customer-reported outcomes.",
+        "The joint architecture emphasizes customer-controlled deployment, auditing, access controls and sovereign production environments."
+      ],
+      "claims": [
+        {
+          "text": "Fujitsu says the referenced manufacturing deployment integrates data across more than 3,000 suppliers and 18 factories.",
+          "source_url": "https://global.fujitsu/en-global/pr/news/2026/09/10-01",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Supply-chain deployment description"
+        },
+        {
+          "text": "Fujitsu reports more than $10 million in cost savings within one year and doubled operational productivity for the unnamed customer.",
+          "source_url": "https://global.fujitsu/en-global/pr/news/2026/09/10-01",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Customer outcome paragraph"
+        },
+        {
+          "text": "The partnership explicitly couples Palantir data/ontology workflows with access controls, auditing and customer-controlled deployment environments.",
+          "source_url": "https://global.fujitsu/en-global/pr/news/2026/09/10-01",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Sovereignty and governed deployment section"
+        }
+      ],
+      "why_it_matters": "The manufacturing example makes enterprise AI concrete at supply-chain scale and shows that production deployment is being packaged with data integration, governance and embedded engineering teams rather than model access alone.",
+      "practical_implication": "Manufacturing AI programs should scope ontology/data harmonization, access-control inheritance and on-site/embedded engineering capacity as first-class deployment workstreams.",
+      "tags": ["enterprise AI", "manufacturing", "supply chain", "FDE", "governance", "sovereign AI"],
+      "scores": {"novelty": 3.9, "source_quality": 5.0, "evidence_strength": 4.5, "engineering_relevance": 3.8, "enterprise_relevance": 5.0, "strategic_significance": 4.6, "reader_value": 4.4},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 6, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "r-futurum-overrun",
+      "event_key": "futurum:2h2026-ai-budget-overrun-survey:2026-09-10",
+      "tier": "report",
+      "title": "46.9% of Enterprises Report AI Spend Over Budget in 2H 2026",
+      "primary_url": "https://futurumgroup.com/press-release/46-9-of-enterprises-report-ai-spend-over-budget-in-2h-2026/",
+      "supporting_urls": [],
+      "published_at": "2026-09-10",
+      "organization": "The Futurum Group",
+      "company": "The Futurum Group",
+      "category": "企業AI・支出調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "Futurum reports results from 1,636 global enterprise technology decision-makers.",
+        "46.9% report AI spending above plan, compared with 5.6% below plan; 10.0% report having no formal AI budget to compare against.",
+        "Among the 767 organizations over plan, 47.6% seek more budget, 43.3% absorb the overrun and 17.2% pause or reduce the AI initiative.",
+        "Among organizations reallocating IT budgets, external contractors and consultants are the first reduction for 60.9% of the 297 respondents in that subgroup."
+      ],
+      "claims": [
+        {
+          "text": "The survey includes 1,636 global enterprise technology decision-makers and reports 46.9% of organizations spending above their AI budget plan.",
+          "source_url": "https://futurumgroup.com/press-release/46-9-of-enterprises-report-ai-spend-over-budget-in-2h-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Release introduction and Figure 1 discussion"
+        },
+        {
+          "text": "Among 767 over-plan organizations, 47.6% ask for more budget, 43.3% absorb the overrun and 17.2% pause or reduce the initiative.",
+          "source_url": "https://futurumgroup.com/press-release/46-9-of-enterprises-report-ai-spend-over-budget-in-2h-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Overrun response findings"
+        }
+      ],
+      "why_it_matters": "AI cost pressure is no longer only a model-pricing problem; organizations are reallocating labor and business-unit budgets to sustain usage, which can obscure true ROI if consumption governance is weak.",
+      "practical_implication": "AI programs should establish budget owners, unit-cost telemetry and stop/scale criteria before usage expands; otherwise overruns become normalized and are funded by unrelated cost reductions.",
+      "tags": ["AI spending", "budget", "enterprise survey", "ROI", "CIO"],
+      "scores": {"novelty": 4.2, "source_quality": 4.0, "evidence_strength": 4.5, "engineering_relevance": 2.2, "enterprise_relevance": 5.0, "strategic_significance": 4.8, "reader_value": 4.7},
+      "weighted_score": 4.07,
+      "confidence": "high",
+      "report_details": {
+        "publisher": "The Futurum Group",
+        "published_at": "2026-09-10",
+        "sample_size": 1636,
+        "methodology": "2H 2026 CIO & Technology Buyers survey of global enterprise technology decision-makers; the public release reports subgroup counts but does not expose detailed sampling frame, weighting or fieldwork dates.",
+        "geographies": "Global; detailed country composition is not disclosed on the public release page.",
+        "key_metrics": ["46.9% report AI spend above plan", "5.6% report AI spend below plan", "10.0% report no formal AI budget", "47.6% of over-plan organizations request more budget", "17.2% of over-plan organizations pause or reduce the AI initiative"],
+        "comparison_to_previous": "No directly comparable prior-wave metric is exposed in the public release; interpret the figures as a 2H 2026 snapshot.",
+        "practical_meaning": "AI consumption is outrunning formal budgeting at many respondents, shifting governance from project approval toward ongoing cost allocation and unit economics.",
+        "caveats": "Commercial research-provider survey; sampling frame, weighting and response-rate details are not public on the release page, and spending figures are self-reported."
+      },
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 20, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "r-fujitsu-monaka",
+      "event_key": "fujitsu:monaka-sovereign-ai-server:2026-09-14",
+      "tier": "standard",
+      "title": "Fujitsu launches FUJITSU-MONAKA and made-in-Japan MONAKA Server for sovereign AI infrastructure",
+      "primary_url": "https://www.prnewswire.com/news-releases/fujitsu-launches-made-in-japan-next-generation-cpu-fujitsu-monaka-and-fujitsu-monaka-server-for-sovereign-ai-infrastructure-302877394.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "Fujitsu",
+      "company": "Fujitsu",
+      "category": "HPC/GPU・推論基盤",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Fujitsu announced global sales of FUJITSU-MONAKA and the MONAKA Server from November 2026.",
+        "The company describes FUJITSU-MONAKA as a Japan-developed 2nm 3D-stacked CPU and positions the server for AI inference, enterprise and academic/HPC workloads.",
+        "MONAKA Server is designed and manufactured in Japan and is positioned for sovereign-AI requirements including traceability and supply-chain transparency.",
+        "Fujitsu claims twice the AI inference throughput and lower power requirements versus unspecified comparison CPUs; this is a vendor benchmark and not independently reproduced."
+      ],
+      "claims": [
+        {
+          "text": "Fujitsu announced November 2026 global sales for FUJITSU-MONAKA and MONAKA Server, targeting Japan and Europe among initial server markets.",
+          "source_url": "https://www.prnewswire.com/news-releases/fujitsu-launches-made-in-japan-next-generation-cpu-fujitsu-monaka-and-fujitsu-monaka-server-for-sovereign-ai-infrastructure-302877394.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Fujitsu-issued PRNewswire release introduction"
+        },
+        {
+          "text": "Fujitsu describes the processor as a Japan-developed 2nm 3D-stacked CPU and positions domestic manufacturing as supporting traceability and sovereign deployment.",
+          "source_url": "https://www.prnewswire.com/news-releases/fujitsu-launches-made-in-japan-next-generation-cpu-fujitsu-monaka-and-fujitsu-monaka-server-for-sovereign-ai-infrastructure-302877394.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Release headline and sovereign-infrastructure description"
+        },
+        {
+          "text": "Fujitsu claims twice the AI inference throughput and reduced server/power requirements compared with other CPUs.",
+          "source_url": "https://www.prnewswire.com/news-releases/fujitsu-launches-made-in-japan-next-generation-cpu-fujitsu-monaka-and-fujitsu-monaka-server-for-sovereign-ai-infrastructure-302877394.html",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Processor performance paragraph"
+        }
+      ],
+      "why_it_matters": "The launch broadens sovereign-AI infrastructure beyond GPU procurement to CPU-side inference, domestic manufacturing and traceable server supply chains, which matters for regulated and national-strategy workloads.",
+      "practical_implication": "Infrastructure comparisons should separate independently measured inference performance from vendor claims and include supply-chain traceability, cooling requirements and deployment geography as evaluation axes.",
+      "tags": ["HPC", "AI inference", "CPU", "sovereign AI", "Japan", "2nm"],
+      "scores": {"novelty": 4.3, "source_quality": 4.8, "evidence_strength": 4.3, "engineering_relevance": 3.8, "enterprise_relevance": 4.4, "strategic_significance": 4.8, "reader_value": 4.5},
+      "weighted_score": 4.37,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 18, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2", "verification_note": "Release is distributed on PRNewswire but explicitly identifies Fujitsu Limited as the source and links to the full Fujitsu release."}]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "w-bolt-forge",
+      "event_key": "bolt:forge-open-model-coding-agent:2026-09-14",
+      "tier": "standard",
+      "title": "Bolt Forge uses opt-in build sessions to improve open-model coding agents",
+      "primary_url": "https://bolt.new/blog/what-is-bolt-forge",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "Bolt.new / Arcee AI",
+      "company": "Bolt.new",
+      "category": "オープンウェイト・コーディングエージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Forge is an opt-in research-preview coding agent using open models including GLM 5.3 variants, Kimi K3 and DeepSeek v4 Pro.",
+        "Bolt says anonymized opted-in build sessions are shared with Arcee AI for future open-weight model training.",
+        "Reported benchmark comparisons are project self-evaluations and should not be treated as independent model rankings."
+      ],
+      "claims": [
+        {"text": "Forge is an opt-in research-preview coding agent built around multiple open models.", "source_url": "https://bolt.new/blog/what-is-bolt-forge", "verification_status": "verified", "attribution_type": "official_fact", "evidence_location": "Product description"},
+        {"text": "Bolt states that opted-in anonymized build-session data can be shared with Arcee AI to improve future open-weight models.", "source_url": "https://bolt.new/blog/what-is-bolt-forge", "verification_status": "verified", "attribution_type": "official_claim", "evidence_location": "Data and research-preview section"}
+      ],
+      "why_it_matters": "It exposes a potentially important open-model flywheel: production coding interactions become training data, but only if consent, anonymization and data-governance boundaries are credible.",
+      "practical_implication": "Track whether open coding-agent ecosystems can build high-quality proprietary interaction datasets without undermining enterprise source-code confidentiality.",
+      "tags": ["open weights", "coding agent", "training data", "data governance"],
+      "scores": {"novelty": 4.3, "source_quality": 4.3, "evidence_strength": 4.0, "engineering_relevance": 2.3, "enterprise_relevance": 3.5, "strategic_significance": 4.2, "reader_value": 4.2},
+      "weighted_score": 3.75,
+      "confidence": "medium-high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 2, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "w-vibration-benchmark",
+      "event_key": "scientific-data:vibration-ai-mechanical-benchmark:2026-09-14",
+      "tier": "standard",
+      "title": "Benchmark Dataset of Vibrational Signals for Artificial Intelligence Applications in Mechanical Systems",
+      "primary_url": "https://www.nature.com/articles/s41597-026-07435-5",
+      "supporting_urls": [],
+      "published_at": "2026-09-14",
+      "organization": "University of Technology of Troyes collaboration",
+      "company": "",
+      "category": "Scientific AI・機械システム",
+      "source_kind": "journal",
+      "factual_points": [
+        "Scientific Data published a benchmark containing 7,000 vibration signals from a modular mechanical transmission system.",
+        "The dataset includes induced faults in gears, V-belts and roller chains as well as healthy states and fault propagation across connected modules.",
+        "The paper reports that unsupervised statistical and autoencoder baselines show low clustering accuracy, indicating non-trivial diagnostic difficulty."
+      ],
+      "claims": [
+        {"text": "The benchmark contains 7,000 vibration signals with healthy and faulty states across gears, V-belts and roller chains.", "source_url": "https://www.nature.com/articles/s41597-026-07435-5", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "Abstract"},
+        {"text": "The authors report low unsupervised clustering accuracy and poor label alignment for baseline fault-detection methods.", "source_url": "https://www.nature.com/articles/s41597-026-07435-5", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "Abstract"}
+      ],
+      "why_it_matters": "Engineering AI needs realistic benchmark data with interacting components and subtle faults, not only clean single-bearing datasets; this is useful infrastructure for condition-monitoring research.",
+      "practical_implication": "Potential value is highest if future work compares representation-learning and transfer methods under changing load/configuration rather than optimizing against a single fixed fault classifier.",
+      "tags": ["condition monitoring", "vibration", "benchmark", "predictive maintenance", "mechanical systems"],
+      "scores": {"novelty": 3.8, "source_quality": 5.0, "evidence_strength": 5.0, "engineering_relevance": 4.5, "enterprise_relevance": 1.5, "strategic_significance": 3.8, "reader_value": 4.2},
+      "weighted_score": 4.07,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 15, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    },
+    {
+      "id": "w-mos2-tokenizer",
+      "event_key": "nature-electronics:mos2-light-to-token:2026-09-14",
+      "tier": "standard",
+      "title": "Light-to-token conversion using MoS2",
+      "primary_url": "https://www.nature.com/articles/s41928-026-01719-9",
+      "supporting_urls": ["https://doi.org/10.1038/s44460-026-00122-3"],
+      "published_at": "2026-09-14",
+      "organization": "Nature Electronics / research collaboration",
+      "company": "",
+      "category": "Edge AI・AIハードウェア",
+      "source_kind": "journal",
+      "factual_points": [
+        "The highlighted work uses a 32x32 MoS2 phototransistor array with FPGA-controlled peripheral circuits for light detection, patching and vector encoding in the analogue domain.",
+        "The research highlight reports 87.3% accuracy on a modified CIFAR-10 task and more than 14-fold lower tokenizer energy than a digital implementation.",
+        "The Nature Electronics item is a research highlight pointing to the underlying Nature Sensors work, so performance figures should be traced to the original experiment when used publicly."
+      ],
+      "claims": [
+        {"text": "The system uses a 32x32 MoS2 phototransistor array and analogue-domain patch/vector encoding before the digital model stage.", "source_url": "https://www.nature.com/articles/s41928-026-01719-9", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "Research highlight body"},
+        {"text": "The highlight reports 87.3% modified-CIFAR-10 accuracy and more than 14-fold tokenizer energy reduction versus a digital implementation.", "source_url": "https://www.nature.com/articles/s41928-026-01719-9", "verification_status": "verified", "attribution_type": "independent_analysis", "evidence_location": "Research highlight summary"}
+      ],
+      "why_it_matters": "Moving tokenization into the sensor/analogue domain could reduce data movement and preprocessing energy, an increasingly important constraint for edge vision systems.",
+      "practical_implication": "Track whether the energy advantage survives larger arrays, realistic sensor noise and end-to-end workloads; the current result is technically interesting but not yet a general edge-AI architecture proof.",
+      "tags": ["edge AI", "MoS2", "analog computing", "vision transformer", "energy efficiency"],
+      "scores": {"novelty": 4.6, "source_quality": 5.0, "evidence_strength": 4.8, "engineering_relevance": 3.4, "enterprise_relevance": 2.0, "strategic_significance": 4.5, "reader_value": 4.5},
+      "weighted_score": 4.14,
+      "confidence": "high",
+      "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 17, "source_blob_sha": "45a78798076b94d89d41f7cc028170ab3c1052d2"}]
+    }
+  ],
+  "backlog": [
+    {"id": "b-aecc-capability-recap", "title": "人民日报：以强劲“中国心”托举中国梦", "primary_url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026082515595880978/index.html", "published_at": "2026-08-25", "organization": "Aero Engine Corporation of China (AECC)", "category": "航空機エンジン", "reason": "Useful capability context on smart factories, CMC, intelligent engines and additive manufacturing, but primarily a broad recap rather than a discrete new technical event.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 1}]},
+    {"id": "b-airbus-livery", "title": "Unpacking the A350F’s new livery", "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-09-unpacking-the-a350fs-new-livery", "published_at": "2026-09-02", "organization": "Airbus", "category": "民間・軍用航空機", "reason": "Strong manufacturing details on composite primer and 3D laser collision avoidance, but secondary to the fresher A350F virtual-verification signal and same-organization diversity constraint.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 4}]},
+    {"id": "b-mcpa-cert", "title": "Agentic AI Foundation Launches MCPA Certification to Validate MCP Expertise", "primary_url": "https://www.prnewswire.com/news-releases/agentic-ai-foundation-launches-mcpa-certification-to-validate-mcp-expertise-302877134.html", "published_at": "2026-09-14", "organization": "Agentic AI Foundation / Linux Foundation", "category": "MCP・Agent Protocol", "reason": "Signals ecosystem maturation but is primarily certification/training news with limited direct engineering or enterprise implementation evidence.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 3}]},
+    {"id": "b-anthropic-threat", "title": "Detecting and countering misuse of AI: September 2026", "primary_url": "https://www.anthropic.com/threat-intelligence-report-september-2026", "published_at": "2026-09-10", "organization": "Anthropic", "category": "AI安全性・Agent Security", "reason": "Potentially important security context, but allegations about actors require careful corroboration and the item is less directly tied to the engineering/enterprise workflow focus of this run.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 4}]},
+    {"id": "b-nvidia-palantir", "title": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains", "primary_url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains", "published_at": "2026-09-10", "organization": "NVIDIA / Palantir", "category": "企業AI・サプライチェーン・オープンモデル", "reason": "Relevant sovereign/on-premises architecture, but overlaps thematically with the more concrete Fujitsu/Palantir manufacturing deployment selected today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 7}]},
+    {"id": "b-wipro-workforce", "title": "Wipro's AI push frees capacity equivalent to 20,000 workers, CTO says", "primary_url": "https://www.reuters.com/world/india/wipros-ai-push-frees-capacity-equivalent-20000-workers-cto-says-2026-09-10/", "published_at": "2026-09-10", "organization": "Wipro", "category": "企業AI・Workforce", "reason": "Useful workforce/productivity signal from a reputable interview, but the key 20,000-equivalent figure is company-reported and lacks a disclosed AI revenue/value denominator.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 8}]},
+    {"id": "b-agnes-preview", "title": "Agnes-3.0-Flash Preview", "primary_url": "https://huggingface.co/Agnes-AI/Agnes-3.0-Flash", "published_at": null, "organization": "Agnes AI", "category": "オープンウェイト・最新AIモデル", "reason": "Technically interesting open checkpoint, but the primary model card did not expose a reliable publication date and warns against conflating preview weights with newer API benchmarks.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 9}]},
+    {"id": "b-mistral-cloudera", "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data", "primary_url": "https://mistral.ai/news/mistral-x-cloudera/", "published_at": "2026-09-10", "organization": "Mistral AI / Cloudera", "category": "企業AI・オープンモデル・データ基盤", "reason": "Relevant for regulated on-prem/cloud deployments, but partnership-level detail is less concrete than the selected Mistral engineering case study and Fujitsu manufacturing deployment.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 11}]},
+    {"id": "b-steel-yolo", "title": "Steel surface small defect target detection based on improved YOLOv8", "primary_url": "https://www.nature.com/articles/s41598-026-70391-y", "published_at": "2026-09-14", "organization": "Research collaboration", "category": "Industrial AI・品質検査", "reason": "Peer-reviewed and relevant to inspection, but the contribution is incremental model architecture tuning on a standard defect dataset and is less strategic than the AECC production inspection case.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 16}]},
+    {"id": "b-cornelis-fabric", "title": "Cornelis to Build Scale-Up Interconnect Using UALink and ESUN", "primary_url": "https://www.hpcwire.com/aiwire/2026/09/14/cornelis-to-build-scale-up-interconnect-using-ualink-and-esun/", "published_at": "2026-09-14", "organization": "Cornelis Networks", "category": "HPC/GPU・AIネットワーク", "reason": "Strategically relevant inference-network roadmap, but the captured URL is secondary industry news and core performance features remain vendor roadmap claims; retain for later primary-source follow-up.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 19}]},
+    {"id": "b-gartner-audit", "title": "Gartner Survey Finds 93% of Audit Functions Use AI, but 60% Lack a Formal Strategy", "primary_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-10-gartner-survey-finds-93-percent-of-audit-functions-use-ai-but-60-percent-lack", "published_at": "2026-09-10", "organization": "Gartner", "category": "企業AI・業務導入調査", "reason": "Useful function-level adoption snapshot, but based on a 161-person webinar poll and lower-evidence than the larger OneTrust/Futurum reports selected today.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 24}]}
+  ],
+  "rejected": [
+    {"id": "x-avic-mro-conference", "title": "第20届航空维修产业发展大会在广州举办", "primary_url": "https://www.avic.com.cn/c/2026-09-14/647886.shtml", "reason": "Current official event notice but limited technical substance; AVIC page body was intermittently inaccessible and the item is primarily conference coverage rather than a discrete engineering development.", "provenance": [{"source_file": "gpt_handoff/company/2026-09-15.json", "source_item_index": 2}]},
+    {"id": "x-yue2", "title": "YuE2-3B", "primary_url": "https://huggingface.co/m-a-p/YuE2-3B", "reason": "Open model release is valid but music generation is outside the priority engineering/scientific/enterprise scope for this run.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 10}]},
+    {"id": "x-hexagon-optiv-duplicate", "title": "Hexagon releases next-generation OPTIV S 4.4.3 Optical CMM at IMTS", "primary_url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-releases-next-generation-optiv-s", "reason": "Exact primary URL and semantic event were already published on 2026-09-08 as r-hexagon-optiv-s; no material delta is present.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 13}, {"published_receipt": "gpt_handoff/published/2026-09-08.json", "published_item_id": "r-hexagon-optiv-s"}]},
+    {"id": "x-gartner-scale-duplicate", "title": "Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple Business Units", "primary_url": "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units", "reason": "Exact primary URL and survey event were already published on 2026-09-03 as r-gartner-scale-ai; no material delta is present.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 21}, {"published_index_event_key": "gartner:enterprise-ai-scaling-survey:2026-09-01"}]},
+    {"id": "x-servicenow-india-duplicate", "title": "India’s enterprise AI investment surges 119% but only 22% have governance to match", "primary_url": "https://newsroom.servicenow.com/press-releases/details/2026/Indias-enterprise-AI-investment-surges-119-but-only-22-of-Indian-enterprises-have-the-governance-to-match-their-AI-ambition-ServiceNow/default.aspx", "reason": "Exact primary URL and research event were already published on 2026-09-09 as r-servicenow-india; no material delta is present.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 22}, {"published_receipt": "gpt_handoff/published/2026-09-09.json", "published_item_id": "r-servicenow-india"}]},
+    {"id": "x-ms-wti-india-duplicate", "title": "India’s AI advantage is human: Microsoft Work Trend Index 2026", "primary_url": "https://news.microsoft.com/source/asia/2026/09/03/indias-ai-advantage-is-human-microsoft-work-trend-index-2026-finds-india-among-the-worlds-leading-frontier-workforces/", "reason": "Exact primary URL and report event were already published on 2026-09-07 as r-ms-india-wti; no material delta is present.", "provenance": [{"source_file": "gpt_handoff/research/2026-09-15.json", "source_item_index": 23}, {"published_receipt": "gpt_handoff/published/2026-09-07.json", "published_item_id": "r-ms-india-wti"}]}
+  ],
+  "warnings": [
+    "Both Scout inputs conform to daily-signal-scout/v2, have same-day Asia/Tokyo generated_at timestamps, complete execution metadata, and were less than one hour old at curation time.",
+    "Publication duplicate control used state/published-index.json plus available receipts from 2026-09-02 through 2026-09-14; the index itself was last updated on 2026-09-09, so newer receipts were treated as authoritative supplements.",
+    "LG AI Research's official primary page was present in the Scout artifact but could not be reopened by Curator web retrieval. Core event claims were corroborated with multiple same-day independent reports; the item remains selected at medium confidence with partially_verified claims.",
+    "Fujitsu MONAKA performance comparisons are vendor-reported and preserved as self_reported_benchmark rather than independent fact.",
+    "No broad discovery was performed during curation; external checks were limited to selected/wildcard date, primary-source and numerical-claim verification."
+  ]
+}
