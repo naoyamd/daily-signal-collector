@@ -58,7 +58,7 @@
   "last_run": {
     "local_date": "2026-09-15",
     "path": "gpt_handoff/company/2026-09-15.json",
-    "commit": "8cc2504bb3022c095259b9747c2975851822ce26",
+    "commit": "7cdcd04734f56d7c79d26fc538341b1f5c0d1293",
     "status": "complete",
     "checked_source_count": 7,
     "candidate_item_count": 6
