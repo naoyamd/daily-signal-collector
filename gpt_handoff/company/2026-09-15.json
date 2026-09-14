@@ -1,0 +1,204 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-15T06:11:18+09:00",
+  "items": [
+    {
+      "title": "擂战鼓 ·提质量 | 当3D扫描遇上堵点 我们用AI来解决~",
+      "url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+      "source": "AECC Harbin Dongan Engine",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-04",
+      "excerpt": "AECC Harbin Dongan Engine describes deploying a ‘3D+2D+AI’ composite inspection system on an engine-production line. After 3D scanning struggled with small lock-tab features at about 75% recognition, the team added 2D vision and AI training; the company reports 100% recognition after iteration, plus reverse models for more than ten products and a 3D database.",
+      "query": "site:aecc.cn 2026 09 航空 发动机 AI 检测 数字化 制造",
+      "tags": ["3D scanning", "AI visual inspection", "quality inspection", "engine manufacturing", "reverse engineering"],
+      "organization": "AECC Harbin Dongan Engine",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "document_type": "technical production story",
+      "language": "zh"
+    },
+    {
+      "title": "人民日报：以强劲“中国心”托举中国梦",
+      "url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026082515595880978/index.html",
+      "source": "Aero Engine Corporation of China (AECC)",
+      "source_kind": "news",
+      "category": "航空機エンジン",
+      "published_at": "2026-08-25",
+      "excerpt": "AECC’s official site republishes a People’s Daily technical overview stating that smart aero-engine factories and intelligent production lines have entered use, while CMC, intelligent-engine and 3D-printed-engine technologies have advanced. It also cites a megawatt-class hydrogen-fuel turboprop first flight and AES100 certification; this is a current capability recap, not a single new product release.",
+      "query": "site:aecc.cn 2026 08 航空 发动机 涡轮 材料",
+      "tags": ["smart factory", "CMC", "intelligent engine", "3D printing", "hydrogen propulsion"],
+      "organization": "Aero Engine Corporation of China (AECC)",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "document_type": "officially republished media feature",
+      "language": "zh"
+    },
+    {
+      "title": "第20届航空维修产业发展大会在广州举办",
+      "url": "https://www.avic.com.cn/c/2026-09-14/647886.shtml",
+      "source": "Aviation Industry Corporation of China (AVIC)",
+      "source_kind": "official",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-14",
+      "excerpt": "AVIC’s official homepage posted the 20th Aviation Maintenance Industry Development Conference in Guangzhou on Sept. 14. Current conference coverage says the event ran Sept. 9–11 and brought airlines, MROs, manufacturers and suppliers together around regulation, technical innovation, management practice and supply-chain development.",
+      "query": "第20届航空维修产业发展大会在广州举办",
+      "tags": ["MRO", "aviation maintenance", "technical innovation", "supply chain", "aircraft support"],
+      "organization": "Aviation Industry Corporation of China (AVIC)",
+      "company": "Aviation Industry Corporation of China (AVIC)",
+      "document_type": "official conference news",
+      "language": "zh"
+    },
+    {
+      "title": "Countdown to A350F first flight: Preparing for the sky",
+      "url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+      "source": "Airbus",
+      "source_kind": "corporate_tech",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-14",
+      "excerpt": "Airbus details the A350F ‘Virtual First Flight’: 13 roughly five-hour simulator sessions connect a development flight-test simulator to real avionics benches, including actual flight controls and digital engine control. Airbus says the setup is 90% representative of the aircraft and precedes a 400-flight-hour, two-aircraft certification campaign with EASA involvement.",
+      "query": "Airbus September 2026 aircraft manufacturing digital engineering certification materials",
+      "tags": ["A350F", "virtual verification", "simulation", "certification", "flight test", "avionics"],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "technology story",
+      "language": "en"
+    },
+    {
+      "title": "Unpacking the A350F’s new livery",
+      "url": "https://www.airbus.com/en/newsroom/stories/2026-09-unpacking-the-a350fs-new-livery",
+      "source": "Airbus",
+      "source_kind": "corporate_tech",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-02",
+      "excerpt": "Airbus describes A350F paintshop engineering that combines a custom access setup with a digital zero-collision system using 3D laser mapping; the platform slows near the aircraft and stops 5 cm from the skin. The >90% composite airframe also uses a new flexible external primer to absorb thermal stress, while decorative films reduce paint layers and process time.",
+      "query": "Airbus September 2026 A350F livery 3D laser composite manufacturing",
+      "tags": ["A350F", "3D laser mapping", "composites", "aircraft manufacturing", "digital manufacturing", "surface engineering"],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "technology story",
+      "language": "en"
+    },
+    {
+      "title": "Introducing Saturn: Large-Format CT for the Parts You Couldn't Scan Before",
+      "url": "https://www.lumafield.com/article/introducing-saturn-large-format-ct-for-the-parts-you-couldnt-scan-before",
+      "source": "Lumafield",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: Lumafield launched Saturn, a 225 kV large-format industrial CT system with a 580 mm × 1,100 mm scan volume for dense aerospace structures and turbine/additive parts. Its Voyager software supports porosity analysis, CAD comparison and automated GD&T; the combination of NDI hardware and manufacturing-intelligence software makes Lumafield worth continued aerospace-quality monitoring.",
+      "query": "site:lumafield.com Saturn large-format industrial X-ray CT September 10 2026 aerospace",
+      "tags": ["discovery_candidate", "industrial CT", "NDT", "aerospace inspection", "additive manufacturing", "GD&T"],
+      "organization": "Lumafield",
+      "company": "Lumafield",
+      "document_type": "product technology article",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "Kawasaki Heavy Industries aerospace September 2026 aircraft engine manufacturing technology",
+    "Kawasaki Heavy Industries aerospace August 2026 aircraft engine digital engineering manufacturing",
+    "SUBARU aerospace September 2026 aircraft manufacturing technology defense",
+    "SUBARU aerospace August 2026 aircraft manufacturing technology digital engineering",
+    "Kawasaki Heavy Industries Aerospace Systems Company September 2026 aircraft development manufacturing",
+    "Hanwha Aerospace September 2026 aircraft engine propulsion manufacturing materials",
+    "Hanwha Aerospace August 2026 aircraft engine propulsion manufacturing technology",
+    "AECC Aero Engine Corporation of China September 2026 engine turbine combustor materials",
+    "AECC August 2026 aero engine turbine materials manufacturing",
+    "AVIC September 2026 aircraft design manufacturing digital engineering",
+    "AVIC August 2026 aircraft design manufacturing technology",
+    "Airbus September 2026 aircraft manufacturing digital engineering certification materials",
+    "Airbus August 2026 aircraft manufacturing digital twin MBSE technology",
+    "site:global.kawasaki.com 2026 09 aerospace Kawasaki Heavy Industries aircraft engine",
+    "site:subaru.co.jp 2026 09 航空宇宙 技術 製造",
+    "site:hanwhaaerospace.com 2026 09 aircraft engine aerospace propulsion",
+    "site:aecc.cn 2026 09 航空 发动机 涡轮 材料",
+    "第20届航空维修产业发展大会在广州举办",
+    "aerospace manufacturing AI inspection 3D scanning September 2026 aircraft engine company",
+    "site:lumafield.com Saturn large-format industrial X-ray CT September 10 2026 aerospace"
+  ],
+  "warnings": [
+    "Company selection used the authoritative company-watch state at next_index 29. Seven mandatory watch sources at indices 29 through 35 were checked; no spillover was needed because they produced five qualifying watchlist candidate items.",
+    "Previously captured items, including AECC's August 31 R&D digital-platform sourcing notice and the other September 8 handoff candidates, were not duplicated.",
+    "Airbus collaborative-combat-aircraft material and Hanwha unmanned-system material were excluded under configured UAV/UAS/unmanned terms; Hanwha's current land-defense production update was not sufficiently relevant to this watch scope.",
+    "The AVIC article body was intermittently inaccessible during retrieval; its official homepage title, date and direct URL were verified, and event details were cross-checked against current conference coverage.",
+    "Old or undated evergreen pages were not promoted to new candidates. Discovery organizations are outside research.must_check_sources and do not advance the company-watch rotation."
+  ],
+  "checked_sources": [
+    {
+      "name": "Kawasaki Heavy Industries",
+      "status": "no_new_finding",
+      "warning": "Kawasaki aerospace and corporate technology surfaces were searched across the 30-day window, but no dated qualifying aircraft design, manufacturing, engine or digital-engineering primary-source update was verified; evergreen division pages and older releases were not promoted."
+    },
+    {
+      "name": "SUBARU",
+      "status": "no_new_finding",
+      "warning": "SUBARU corporate and aerospace news surfaces were searched across the 30-day window. No dated qualifying aerospace design, manufacturing or digital-engineering update was verified; automotive and evergreen recruiting material were not used."
+    },
+    {
+      "name": "Kawasaki Heavy Industries Aerospace Systems Company",
+      "status": "no_new_finding",
+      "warning": "Kawasaki Aerospace Systems Company and related corporate news surfaces were searched across the 30-day window, but no dated qualifying aircraft development, production or engine-technology update was verified."
+    },
+    {
+      "name": "Hanwha Aerospace",
+      "status": "no_new_finding",
+      "warning": "Hanwha Aerospace first-party releases were searched across the 30-day window. Current unmanned-system material was excluded by configured terms, and the remaining land-defense production update did not qualify for this aerospace-engineering watch scope."
+    },
+    {
+      "name": "Aero Engine Corporation of China (AECC)",
+      "status": "found",
+      "query": "site:aecc.cn 2026 09 航空 发动机 AI 检测 数字化 制造"
+    },
+    {
+      "name": "Aviation Industry Corporation of China (AVIC)",
+      "status": "found",
+      "query": "第20届航空维修产业发展大会在广州举办"
+    },
+    {
+      "name": "Airbus",
+      "status": "found",
+      "query": "Airbus September 2026 aircraft manufacturing digital engineering certification materials"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Kawasaki Heavy Industries", "category": "航空機・主要サプライヤー", "domains": ["global.kawasaki.com"]},
+        {"name": "SUBARU", "category": "航空機・主要サプライヤー", "domains": ["subaru.co.jp"]},
+        {"name": "Kawasaki Heavy Industries Aerospace Systems Company", "category": "航空機・主要サプライヤー", "domains": ["global.kawasaki.com"]},
+        {"name": "Hanwha Aerospace", "category": "航空機・主要サプライヤー", "domains": ["hanwhaaerospace.com"]},
+        {"name": "Aero Engine Corporation of China (AECC)", "category": "航空機エンジン", "domains": ["aecc.cn"]},
+        {"name": "Aviation Industry Corporation of China (AVIC)", "category": "民間・軍用航空機", "domains": ["avic.com.cn"]},
+        {"name": "Airbus", "category": "民間・軍用航空機", "domains": ["airbus.com"]}
+      ],
+      "discovery_organizations": [
+        {"name": "Lumafield", "reason": "Current primary-source evidence combines large-format industrial CT, aerospace/turbine inspection, additive-manufacturing quality and CAD/GD&T-aware manufacturing intelligence."}
+      ]
+    },
+    "priority_areas": [
+      {"name": "AIによる設計", "share": 30, "scope": "生成設計・設計支援AI・最適化・MDO・サロゲートモデル"},
+      {"name": "大手航空機メーカー", "share": 25, "scope": "民間・軍用航空機の設計・製造・認証・試験"},
+      {"name": "航空機用エンジン", "share": 25, "scope": "タービン・燃焼器・材料・推進・保守・設計解析"},
+      {"name": "CAD・CAE", "share": 20, "scope": "CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド"}
+    ],
+    "exclude_terms": ["drone", "UAV", "UAS", "eVTOL", "air taxi", "urban air mobility", "ドローン", "無人機", "空飛ぶクルマ"],
+    "domain_groups": {
+      "ai_design_research": ["ntrs.nasa.gov", "nasa.gov", "jaxa.jp", "nims.go.jp", "aist.go.jp", "arc.aiaa.org", "asmedigitalcollection.asme.org", "sae.org"],
+      "civil_aircraft": ["airbus.com", "boeing.com", "embraer.com", "dassault-aviation.com", "bombardier.com", "comac.cc", "mhi.com", "subaru.co.jp", "gknaerospace.com", "spiritaero.com"],
+      "military_aircraft": ["lockheedmartin.com", "northropgrumman.com", "boeing.com", "airbus.com", "baesystems.com", "leonardo.com", "saab.com", "dassault-aviation.com", "mhi.com", "global.kawasaki.com", "subaru.co.jp", "avic.com.cn"],
+      "aircraft_engines": ["geaerospace.com", "rtx.com", "rolls-royce.com", "safran-group.com", "mtu.de", "ihi.co.jp", "cfmaeroengines.com", "honeywellaerospace.com", "hanwhaaerospace.com", "aecc.cn", "avioaero.com"],
+      "cad_cae": ["ansys.com", "siemens.com", "sw.siemens.com", "3ds.com", "altair.com", "cadence.com", "comsol.com", "esi-group.com", "keysight.com", "mscsoftware.com", "numeca.de", "hexagon.com", "ptc.com", "autodesk.com", "nvidia.com"],
+      "engineering_services": ["siemens-energy.com", "bakerhughes.com", "power.mhi.com", "solarturbines.com", "chromalloy.com", "questglobal.com", "cyient.com", "capgemini.com"],
+      "aerospace_supply_chain": ["gknaerospace.com", "liebherr.com", "woodward.com", "parker.com", "howmet.com", "precast.com", "atimaterials.com", "spiritaero.com"]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-15",
+      "started_at": "2026-09-15T06:11:18+09:00",
+      "completed_at": "2026-09-15T06:11:18+09:00",
+      "status": "complete",
+      "planned_query_count": 14,
+      "executed_query_count": 36
+    }
+  }
+}
