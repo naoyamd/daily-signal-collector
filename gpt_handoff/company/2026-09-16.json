@@ -1,0 +1,235 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-16T06:09:57+09:00",
+  "items": [
+    {
+      "title": "Powering the B-21 Raider - East Gate 3 Grand Opening",
+      "url": "https://www.northropgrumman.com/what-we-do/events/b-21-east-gate-3-grand-opening",
+      "source": "Northrop Grumman",
+      "source_kind": "official",
+      "category": "軍用航空機・製造技術",
+      "published_at": "2026-09-09",
+      "excerpt": "Northrop Grumman opened East Gate 3 in Layton, Utah, adding manufacturing capacity for B-21 Raider production. The East Gate campus is planned to total about 845,000 sq ft and support up to 1,500 employees by 2032; the company says the expansion supports production acceleration and scale-up.",
+      "query": "Northrop Grumman September 2026 B-21 digital engineering manufacturing",
+      "tags": ["B-21", "aircraft manufacturing", "production scale-up", "defense aerospace"],
+      "organization": "Northrop Grumman",
+      "company": "Northrop Grumman",
+      "document_type": "facility and production update",
+      "language": "en"
+    },
+    {
+      "title": "BAE Systems launches Shadow EW compact electronic warfare solutions",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-launches-shadow-ew-compact-electronic-warfare-solutions",
+      "source": "BAE Systems",
+      "source_kind": "press_release",
+      "category": "軍用航空機・航空電子",
+      "published_at": "2026-09-15",
+      "excerpt": "BAE Systems launched the Shadow EW family for small airborne platforms. The company says the low-SWaP, software-defined products use commercial microchips, open architectures and field-upgradeable software; production is planned in Cedar Rapids, Iowa, with software and design work in Nashua, New Hampshire.",
+      "query": "BAE Systems September 2026 aircraft manufacturing digital engineering aerospace",
+      "tags": ["electronic warfare", "airborne systems", "open architecture", "high-volume manufacturing"],
+      "organization": "BAE Systems",
+      "company": "BAE Systems",
+      "document_type": "product announcement",
+      "language": "en"
+    },
+    {
+      "title": "CoreWeave Launches Physical AI Field Engineering to Turn Proprietary Data Into Production AI",
+      "url": "https://coreweave.com/news/coreweave-launches-physical-ai-field-engineering-to-turn-proprietary-data-into-production-ai",
+      "source": "CoreWeave",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: CoreWeave launched Physical AI Field Engineering, built on the Monolith AI team, to embed engineering-AI specialists with customers. Models use test, simulation, sensor and telemetry data and are validated against system physics; CoreWeave says the approach has been applied across 100+ engineering projects including aerospace.",
+      "query": "CoreWeave Physical AI Field Engineering September 2026 engineering aerospace",
+      "tags": ["discovery_candidate", "engineering AI", "physical AI", "simulation data", "aerospace"],
+      "organization": "CoreWeave",
+      "company": "CoreWeave",
+      "document_type": "service launch",
+      "language": "en"
+    },
+    {
+      "title": "Building Beyond CAD: On Generative Optimization for Engineering",
+      "url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+      "source": "PhysicsX",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-25",
+      "excerpt": "Discovery candidate: PhysicsX describes adapting 3D foundation models to engineering geometry, then coupling generated shapes with numerical simulation and physics-AI reward models. In a SimJEB jet-engine-bracket example, PhysicsX reports an FEA-loop design 18.5% lighter than the prior winner while meeting the stress constraint, without CAD parameters.",
+      "query": "PhysicsX Building Beyond CAD generative optimization engineering August 2026",
+      "tags": ["discovery_candidate", "generative design", "geometry foundation model", "FEA", "optimization", "CAD"],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Swiss company Neural Concept Establishes Direct Presence in India to Accelerate AI-Native Engineering Across Automotive and Manufacturing",
+      "url": "https://www.neuralconcept.com/press-release/neural-concept-expands-in-india",
+      "source": "Neural Concept",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: Neural Concept opened direct teams in Bengaluru and Pune to support deployment of its physics-aware Engineering Intelligence platform across design and simulation workflows. The company serves aerospace and defense engineering users as well as automotive and manufacturing, making it a strong candidate for recurring engineering-AI monitoring.",
+      "query": "Neural Concept September 2026 engineering AI aerospace",
+      "tags": ["discovery_candidate", "engineering AI", "design automation", "simulation", "physics-aware AI"],
+      "organization": "Neural Concept",
+      "company": "Neural Concept",
+      "document_type": "company expansion announcement",
+      "language": "en"
+    },
+    {
+      "title": "SimScale Opens Simulation AI Agent to 900,000 Users",
+      "url": "https://engtechnica.com/simscale-opens-simulation-ai-agent-to-900000-users/",
+      "source": "ENGtechnica",
+      "source_kind": "news",
+      "category": "CAD・CAE",
+      "published_at": "2026-08-24",
+      "excerpt": "Discovery candidate: ENGtechnica reports that SimScale made a simulation AI agent available to its community, automating CAD geometry cleanup, simulation setup and validated output reporting. The release is directly aligned with agentic CAE workflows and is worth recurring watchlist coverage even though this item is from a secondary engineering-industry source.",
+      "query": "SimScale simulation AI agent August 2026 CAD CAE",
+      "tags": ["discovery_candidate", "CAE", "simulation agent", "CAD cleanup", "agentic engineering"],
+      "organization": "SimScale",
+      "company": "SimScale",
+      "document_type": "industry news",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "Boeing September 2026 aerospace manufacturing digital engineering technology",
+    "Lockheed Martin September 2026 aerospace manufacturing additive digital engineering aircraft",
+    "Northrop Grumman September 2026 B-21 digital engineering manufacturing",
+    "BAE Systems September 2026 aircraft manufacturing digital engineering aerospace",
+    "Leonardo aerospace September 2026 manufacturing digital engineering aircraft",
+    "Avio Aero September 2026 engine turbine combustor additive manufacturing",
+    "Liebherr-Aerospace September 2026 aircraft technology manufacturing",
+    "Woodward September 2026 aerospace engine turbine technology manufacturing",
+    "Parker Aerospace September 2026 aircraft engine technology manufacturing materials",
+    "Howmet Aerospace September 2026 engine turbine materials manufacturing",
+    "Precision Castparts September 2026 aerospace turbine materials manufacturing",
+    "ATI Materials September 2026 aerospace titanium nickel superalloy manufacturing",
+    "aerospace AI assisted design CAE digital engineering propulsion materials manufacturing startup September 2026",
+    "scientific AI engineering simulation aerospace startup September 2026",
+    "PhysicsX September 2026 engineering AI simulation",
+    "Neural Concept September 2026 engineering AI aerospace",
+    "Monolith AI September 2026 engineering AI",
+    "SimScale September 2026 engineering AI aerospace",
+    "CoreWeave Physical AI Field Engineering September 2026 engineering aerospace",
+    "PhysicsX Building Beyond CAD generative optimization engineering August 2026"
+  ],
+  "warnings": [
+    "Mandatory rotation yielded fewer than five qualifying watchlist items, so five spillover companies were checked in accordance with gpt_handoff/policy.yaml.",
+    "Lockheed Martin Vectis and BAE Systems UAS-focused material were excluded under the configured drone/UAV/UAS exclusion policy; no stale evergreen pages were used as new findings.",
+    "34 web queries were executed including refinements and reverse-discovery searches; searched_queries records 20 representative queries to stay within the strict Scout contract cap."
+  ],
+  "checked_sources": [
+    {
+      "name": "Boeing",
+      "status": "no_new_finding",
+      "query": "Boeing September 2026 aerospace manufacturing digital engineering technology",
+      "warning": "Searches found recent Boeing material, but no qualifying new aircraft-design/manufacturing/engineering signal within the lookback; satellite-only and excluded autonomy/UAS material were not retained."
+    },
+    {
+      "name": "Lockheed Martin",
+      "status": "no_new_finding",
+      "query": "Lockheed Martin September 2026 aerospace manufacturing additive digital engineering aircraft",
+      "warning": "The prominent recent Vectis update is centered on an autonomous uncrewed aircraft and was excluded by policy; no other qualifying new signal was verified."
+    },
+    {
+      "name": "Northrop Grumman",
+      "status": "found",
+      "query": "Northrop Grumman September 2026 B-21 digital engineering manufacturing"
+    },
+    {
+      "name": "BAE Systems",
+      "status": "found",
+      "query": "BAE Systems September 2026 aircraft manufacturing digital engineering aerospace"
+    },
+    {
+      "name": "Leonardo",
+      "status": "no_new_finding",
+      "query": "Leonardo aerospace September 2026 manufacturing digital engineering aircraft",
+      "warning": "No qualifying new Leonardo aircraft-design, manufacturing, propulsion, materials or digital-engineering item was verified in the lookback window."
+    },
+    {
+      "name": "Avio Aero",
+      "status": "no_new_finding",
+      "query": "Avio Aero September 2026 engine turbine combustor additive manufacturing",
+      "warning": "Recent searches surfaced evergreen or older Avio Aero propulsion/additive-manufacturing material, but no qualifying newly published item in the lookback window."
+    },
+    {
+      "name": "Liebherr-Aerospace",
+      "status": "no_new_finding",
+      "query": "Liebherr-Aerospace September 2026 aircraft technology manufacturing",
+      "warning": "Recent official Liebherr-Aerospace posts were primarily workforce/career updates; no qualifying new aerospace technology or manufacturing signal was verified."
+    },
+    {
+      "name": "Woodward",
+      "status": "no_new_finding",
+      "query": "Woodward September 2026 aerospace engine turbine technology manufacturing",
+      "warning": "No qualifying new aerospace controls, propulsion or MRO item was verified inside the 30-day window; the latest relevant manufacturing expansion found was older than the lookback."
+    },
+    {
+      "name": "Parker Aerospace",
+      "status": "no_new_finding",
+      "query": "Parker Aerospace September 2026 aircraft engine technology manufacturing materials",
+      "warning": "No qualifying new Parker Aerospace technical, manufacturing or aircraft-systems signal was verified in the lookback window."
+    },
+    {
+      "name": "Howmet Aerospace",
+      "status": "no_new_finding",
+      "query": "Howmet Aerospace September 2026 engine turbine materials manufacturing",
+      "warning": "Recent official results were investor-event notices or evergreen product pages; no qualifying new materials/manufacturing signal was retained."
+    },
+    {
+      "name": "Precision Castparts",
+      "status": "no_new_finding",
+      "query": "Precision Castparts September 2026 aerospace turbine materials manufacturing",
+      "warning": "Searches returned evergreen corporate and forged-products pages rather than a dated new aerospace materials or manufacturing development."
+    },
+    {
+      "name": "ATI (ATI Inc.)",
+      "status": "no_new_finding",
+      "query": "ATI Materials September 2026 aerospace titanium nickel superalloy manufacturing",
+      "warning": "No qualifying new ATI aerospace titanium, nickel-alloy or manufacturing signal was verified in the lookback window."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "selection_basis": "Authoritative rotation state gpt_handoff/state/company-watch.json, next_index=36, watchlist hash matched config/sources.yaml blob 388e7404e43bb186fcde3ef47b7d060027efae7c.",
+      "active_sources": [
+        {"name": "Boeing", "category": "民間・軍用航空機", "domains": ["boeing.com"]},
+        {"name": "Lockheed Martin", "category": "軍用航空機", "domains": ["lockheedmartin.com"]},
+        {"name": "Northrop Grumman", "category": "軍用航空機", "domains": ["northropgrumman.com"]},
+        {"name": "BAE Systems", "category": "軍用航空機", "domains": ["baesystems.com"]},
+        {"name": "Leonardo", "category": "民間・軍用航空機", "domains": ["leonardo.com"]},
+        {"name": "Avio Aero", "category": "航空機エンジン・部品", "domains": ["avioaero.com"]},
+        {"name": "Liebherr-Aerospace", "category": "航空機エンジン・部品", "domains": ["liebherr.com"]}
+      ],
+      "spillover_sources": [
+        {"name": "Woodward", "category": "航空機エンジン・部品", "domains": ["woodward.com"]},
+        {"name": "Parker Aerospace", "category": "航空機エンジン・部品", "domains": ["parker.com"]},
+        {"name": "Howmet Aerospace", "category": "航空機材料・部品", "domains": ["howmet.com"]},
+        {"name": "Precision Castparts", "category": "航空機材料・部品", "domains": ["precast.com"]},
+        {"name": "ATI (ATI Inc.)", "category": "航空機材料・部品", "domains": ["atimaterials.com"]}
+      ],
+      "cursor_start": 36,
+      "cursor_next": 48
+    },
+    "priority_areas": [
+      "AIによる設計",
+      "大手航空機メーカー",
+      "航空機用エンジン",
+      "CAD・CAE"
+    ],
+    "exclude_terms": ["drone", "UAV", "UAS", "eVTOL", "air taxi", "urban air mobility", "ドローン", "無人機", "空飛ぶクルマ"],
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-16",
+      "started_at": "2026-09-16T06:08:26+09:00",
+      "completed_at": "2026-09-16T06:09:57+09:00",
+      "status": "complete",
+      "planned_query_count": 34,
+      "executed_query_count": 34
+    }
+  }
+}
