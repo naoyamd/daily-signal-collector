@@ -1,0 +1,78 @@
+{
+  "schema": "daily-signal-published/v1",
+  "published_at": "2026-09-16T07:18:56+09:00",
+  "article_repository": "naoyamd/daily-signal",
+  "article_path": "content/daily/2026-09-16-daily-signal.md",
+  "article_commit": "bb8996dc1176a625b3e546ab453f4cdc02971519",
+  "curated_source": "gpt_handoff/curated/2026-09-16.json",
+  "published_item_ids": [
+    "r-lst-transfer",
+    "c-northrop-b21-eastgate",
+    "r-insightbridge-real-economy",
+    "r-bsde-physics-gen",
+    "r-genesys-agentic-va",
+    "c-bae-shadow-ew",
+    "c-neuralconcept-india",
+    "r-advantech-air411",
+    "w-openai-rubygems",
+    "w-kisa-agent-guidelines"
+  ],
+  "event_keys": [
+    "research:lst-atm-parametric-pde-transfer:2026-09-14",
+    "northrop-grumman:b21-east-gate-3-manufacturing-scaleup:2026-09-09",
+    "insightbridge:global-ai-real-economy-whitepaper:2026-08-31",
+    "research:backward-sde-physics-constrained-generation:2026-09-14",
+    "genesys:agentic-virtual-agent-mcp-a2a-update:2026-09-02",
+    "bae-systems:shadow-ew-compact-software-defined:2026-09-15",
+    "neural-concept:india-direct-engineering-ai-presence:2026-09-10",
+    "advantech:air411-edge-ai-hpc:2026-09-03",
+    "openai:rubygems-agent-incident:2026-05",
+    "kisa:autonomous-agent-security-guideline-development:2026-09-15"
+  ],
+  "primary_urls": [
+    "https://arxiv.org/abs/2609.15432",
+    "https://www.northropgrumman.com/what-we-do/events/b-21-east-gate-3-grand-opening",
+    "https://intelligence.insightbridge.global/articles/global-ai-in-the-real-economy-from-adoption-hype-to-industrial-value-and-physica",
+    "https://arxiv.org/abs/2609.15702",
+    "https://www.genesys.com/company/newsroom/announcements/genesys-enhances-agentic-virtual-agent-amid-growing-enterprise-adoption",
+    "https://www.baesystems.com/en-us/article/bae-systems-launches-shadow-ew-compact-electronic-warfare-solutions",
+    "https://www.neuralconcept.com/press-release/neural-concept-expands-in-india",
+    "https://www.advantech.com/ja-jp/resources/news/advantech-air-411-accelerates-ai-inference-and-data-management-for-inspecti",
+    "https://www.reuters.com/legal/litigation/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-2026-09-11/",
+    "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+  ],
+  "organizations": [
+    "Research collaboration",
+    "Northrop Grumman",
+    "InsightBridge Global LLC",
+    "Genesys",
+    "BAE Systems",
+    "Neural Concept",
+    "Advantech",
+    "OpenAI / RubyGems",
+    "Korea Internet & Security Agency"
+  ],
+  "tags": [
+    "デイリーダイジェスト",
+    "Engineering AI",
+    "航空・製造",
+    "Enterprise Agent",
+    "Industrial AI",
+    "Agent Security"
+  ],
+  "title": "AIの差はモデル規模から検証境界へ――PDE転移、制約生成、航空量産、Agent統治",
+  "quality_metrics": {
+    "curated_selected_count": 8,
+    "published_selected_count": 8,
+    "curated_wildcard_count": 2,
+    "published_wildcard_count": 2,
+    "curated_claim_count": 20,
+    "published_claim_count": 20,
+    "dropped_item_ids": [],
+    "dropped_claim_count": 0,
+    "verification_failure_count": 0,
+    "report_metric_count": 4,
+    "published_report_metric_count": 4,
+    "article_character_count": 13047
+  }
+}
