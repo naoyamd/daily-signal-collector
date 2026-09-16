@@ -1,7 +1,7 @@
 {
   "schema": "daily-signal-published-index/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-16T07:18:56+09:00",
+  "updated_at": "2026-09-17T07:18:37+09:00",
   "retention_days": 180,
   "entries": [
     {
@@ -123,6 +123,18 @@
       "title": "AIの差はモデル規模から検証境界へ――PDE転移、制約生成、航空量産、Agent統治",
       "organizations": ["Research collaboration", "Northrop Grumman", "InsightBridge Global LLC", "Genesys", "BAE Systems", "Neural Concept", "Advantech", "OpenAI / RubyGems", "Korea Internet & Security Agency"],
       "tags": ["デイリーダイジェスト", "Engineering AI", "航空・製造", "Enterprise Agent", "Industrial AI", "Agent Security"]
+    },
+    {
+      "event_keys": ["ge-vernova:forge-rotating-blade-generative-engineering:2026-09-14", "comsol:multiphysics-2027-systems-mcp-server:2026-09-16", "nature:paper2agent-executable-research-mcp:2026-09-16", "fanuc:ai-welding-agent-drawing-to-robot-program:2026-09-11", "npj-comp-mat:matsemnet-multimodal-catalyst-discovery:2026-09-15", "research:quantitative-materials-synthesis-automation-llm-agent:2026-09-14", "dassault-amc:gweo-secure-mbse-deployment:2026-09-01", "hexagon:optiv-s-ai-assisted-metrology:2026-09-02", "dtc-nttdata:compose-microfactory-digital-twin-testbed:2026-09-14", "deloitte-uk:genai-workforce-survey-wave1:2026-09-16", "endra:power-studio-planlabs-agentic-engineering:2026-09-16", "openai-huggingface:rogue-agent-may-probing-followup:2026-09-16", "nasa-ibm:lunar-foundation-model-open-release:2026-09-10", "salesforce:koa-crm-reasoning-model-nemotron:2026-09-15"],
+      "published_item_ids": ["r-ge-forge-blades", "r-comsol-2027-mcp", "r-paper2agent", "r-fanuc-welding-agent", "r-matsemnet", "r-materials-autolab-jp", "c-dassault-amc-gweo", "c-hexagon-optiv-s", "r-dtc-compose", "r-deloitte-uk-genai-workforce", "r-endra-power-studio", "w-openai-hf-probe", "w-nasa-ibm-lunar", "w-salesforce-koa"],
+      "primary_urls": ["https://www.gevernova.com/news/articles/transforming-rotating-machinery-blade-design-ai", "https://www.globenewswire.com/news-release/2026/09/16/3363286/0/en/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027.html", "https://www.nature.com/articles/s41586-026-11044-y", "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html", "https://www.nature.com/articles/s41524-026-02327-z", "https://arxiv.org/abs/2609.14928", "https://www.3ds.com/newsroom/press-releases/ap-south/australian-missile-corporation-deploys-dassault-systemes-applications-support-gweo-delivery", "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-releases-next-generation-optiv-s", "https://www.digitaltwinconsortium.org/press-room/digital-twin-consortium-and-ntt-data-announce-compose-testbed-to-advance-scalable-digital-twin-adoption/", "https://www.deloitte.com/uk/en/about/press-room/british-workers-spend-one-billion-pounds-of-their-own-money-on-gen-ai-for-work.html", "https://www.prnewswire.com/news-releases/endra-unveils-power-studio-the-first-ai-platform-purpose-built-for-electrical-engineering-acquires-planlabs-to-build-out-the-mechanical-discipline-302881012.html", "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/", "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/", "https://investor.salesforce.com/news/news-details/2026/Announcing-Koa-Salesforces-First-CRM-Reasoning-Model-Built-on-NVIDIA-Nemotron/default.aspx"],
+      "article_repository": "naoyamd/daily-signal",
+      "article_path": "content/daily/2026-09-17-daily-signal.md",
+      "article_commit": "186a8394e95d5a567cd1d166bd74368aa32b6c2e",
+      "published_at": "2026-09-17T07:18:37+09:00",
+      "title": "Engineering AIが実行ループへ――逆設計ブレード、CAEのMCP化、研究再現性、Shadow AI統治",
+      "organizations": ["GE Vernova Advanced Research / MIT / University of Maryland", "COMSOL", "Stanford University and collaborators", "FANUC / Google Cloud", "Peking University / Beijing Technology and Business University / Sun Yat-sen University", "Research collaboration in Japan", "Dassault Systèmes / Australian Missile Corporation", "Hexagon Manufacturing Intelligence", "Digital Twin Consortium / NTT DATA Chile", "Deloitte UK", "Endra / Planlabs", "OpenAI / Hugging Face", "NASA / IBM Research", "Salesforce / NVIDIA"],
+      "tags": ["デイリーダイジェスト", "Engineering AI", "Scientific AI", "Physical AI", "Digital Engineering", "Enterprise AI", "Agent Security"]
     }
   ],
   "warnings": []
