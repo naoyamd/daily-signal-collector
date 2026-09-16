@@ -1,0 +1,268 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-17T06:20:00+09:00",
+  "items": [
+    {
+      "title": "AI Product Delivery Lead",
+      "url": "https://jobs.boeing.com/job/wichita/ai-product-delivery-lead/185/95952023136",
+      "source": "Boeing Careers",
+      "source_kind": "official",
+      "category": "航空機・主要サプライヤー／AI",
+      "published_at": "2026-09-03",
+      "excerpt": "Spirit Commercial, now a Boeing subsidiary, posted an AI Product Delivery Lead role in Wichita. The role owns AI initiatives from scoping and prioritization through production launch and post-launch evaluation; the business designs and builds fuselages, pylons, nacelles and wing components.",
+      "query": "site:spiritaero.com OR site:boeing.com Spirit AeroSystems September 2026 manufacturing aerospace Wichita technology",
+      "tags": ["Spirit AeroSystems", "industrial AI", "aerostructures", "manufacturing"],
+      "organization": "Spirit AeroSystems / Boeing",
+      "company": "Spirit AeroSystems",
+      "document_type": "official job posting",
+      "language": "en"
+    },
+    {
+      "title": "Siemens and Redington collaborate to accelerate digital transformation across Africa",
+      "url": "https://news.siemens.com/lt-lt/siemens-redington-africa/",
+      "source": "Siemens",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-10",
+      "excerpt": "Redington became a distributor for Siemens Digital Industries Software across six African markets. The agreement gives aerospace and other industries local access to Teamcenter, Designcenter and Simcenter, with Siemens highlighting Industrial AI and Digital Twin capabilities across the Xcelerator portfolio.",
+      "query": "\"Siemens and Redington collaborate to accelerate digital transformation across Africa\" 2026",
+      "tags": ["Siemens Xcelerator", "Simcenter", "Teamcenter", "Designcenter", "digital twin", "industrial AI"],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "partnership announcement",
+      "language": "en"
+    },
+    {
+      "title": "UK Aerospace & Defence Conference",
+      "url": "https://innovationspace.ansys.com/product/uk-aerospace-defence-conference-2/",
+      "source": "Ansys Innovation Space",
+      "source_kind": "official",
+      "category": "CAD・CAE／航空宇宙デジタルエンジニアリング",
+      "excerpt": "Ansys' September 23 aerospace and defence conference centers on Certification by Analysis, MBSE/digital thread, and digital twins across test and evaluation. The agenda explicitly links validated computational analysis to airworthiness compliance, requirements traceability and reduced reliance on physical testing.",
+      "query": "site:ansys.com September 2026 aerospace digital engineering MBSE certification simulation Ansys",
+      "tags": ["Certification by Analysis", "MBSE", "digital thread", "digital twin", "airworthiness", "simulation"],
+      "organization": "Ansys",
+      "company": "Ansys",
+      "document_type": "official conference announcement",
+      "language": "en"
+    },
+    {
+      "title": "Australian Missile Corporation Deploys Dassault Systèmes’ Applications to Support GWEO Delivery",
+      "url": "https://www.3ds.com/newsroom/press-releases/ap-south/australian-missile-corporation-deploys-dassault-systemes-applications-support-gweo-delivery",
+      "source": "Dassault Systèmes",
+      "source_kind": "press_release",
+      "category": "CAD・CAE／MBSE",
+      "published_at": "2026-09-01",
+      "excerpt": "Australian Missile Corporation selected CATIA and SOLIDWORKS on 3DEXPERIENCE for mission, requirements and systems engineering. The secure on-premise environment is intended to support model-based engineering from requirements through systems design and validation, with lifecycle traceability and data control.",
+      "query": "site:3ds.com/newsroom/press-releases \"Australian Missile Corporation\" 2026",
+      "tags": ["3DEXPERIENCE", "CATIA", "SOLIDWORKS", "MBSE", "requirements engineering", "digital engineering"],
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "document_type": "customer deployment announcement",
+      "language": "en"
+    },
+    {
+      "title": "Hexagon releases next-generation OPTIV S 4.4.3 Optical CMM at IMTS",
+      "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-releases-next-generation-optiv-s",
+      "source": "Hexagon",
+      "source_kind": "press_release",
+      "category": "製造技術・品質計測",
+      "published_at": "2026-09-02",
+      "excerpt": "Hexagon launched the next-generation OPTIV S optical CMM with about 30% higher machine dynamics and first application tests showing about 15% shorter inspection cycles. PC-DMIS will add phased AI-assisted measurement features through 2026-27; Hexagon lists aerospace among target industries.",
+      "query": "site:hexagon.com September 2026 aerospace metrology manufacturing AI simulation Hexagon",
+      "tags": ["metrology", "CMM", "AI-assisted measurement", "PC-DMIS", "aerospace manufacturing"],
+      "organization": "Hexagon Manufacturing Intelligence",
+      "company": "Hexagon AB",
+      "document_type": "product announcement",
+      "language": "en"
+    },
+    {
+      "title": "Hexagon completes acquisition of ZG Technology",
+      "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-completes-acquisition-of-zg-technology",
+      "source": "Hexagon",
+      "source_kind": "press_release",
+      "category": "製造技術・3D計測",
+      "published_at": "2026-09-07",
+      "excerpt": "Hexagon acquired the remaining 49% of ZG Technology, taking full ownership of the Wuhan portable 3D-scanning specialist. ZG scanners serve quality inspection, reverse engineering and complex-part digitization including aerospace; Hexagon plans unified handheld-scanning R&D and a Wuhan center of excellence.",
+      "query": "site:hexagon.com/company/newsroom/press-releases/2026 \"ZG Technology\" Hexagon September 7 2026",
+      "tags": ["3D scanning", "metrology", "reverse engineering", "aerospace", "R&D"],
+      "organization": "Hexagon Manufacturing Intelligence",
+      "company": "Hexagon AB",
+      "document_type": "acquisition announcement",
+      "language": "en"
+    },
+    {
+      "title": "Altair SimSolid 2026 Brings Meshless Electromagnetic Simulation to Electronics Engineers",
+      "url": "https://www.simtool.com/article/altair-simsolid-2026-brings-meshless-electromagnetic-simulation-to-electronics-engineers/",
+      "source": "SimTool",
+      "source_kind": "news",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "SimTool reports that SimSolid 2026 adds electromagnetic analysis directly on native CAD geometry without meshing, including S-parameter and modal EM studies. The release extends SimSolid's meshless workflow beyond structural and thermal analysis; SimSolid is now part of Siemens' Simcenter portfolio.",
+      "query": "\"Altair SimSolid 2026\" electromagnetic September 2026 Siemens",
+      "tags": ["Altair", "SimSolid", "meshless simulation", "electromagnetics", "multiphysics", "Simcenter"],
+      "organization": "Altair Engineering / Siemens",
+      "company": "Altair Engineering",
+      "document_type": "industry product report",
+      "language": "en"
+    },
+    {
+      "title": "Faster Turbomachinery Design",
+      "url": "https://simuneer.de/en/webinars/faster-turbomachinery-design/",
+      "source": "Simuneer",
+      "source_kind": "news",
+      "category": "CAD・CAE／ターボ機械",
+      "published_at": "2026-09-03",
+      "excerpt": "Simuneer announced a September 24 CadenceTECHTALK on a connected turbomachinery workflow linking CAD preparation, hybrid meshing, CFD, post-processing and design optimization. The session is led by a Cadence product engineering manager and targets repeatable automation and larger design-space exploration.",
+      "query": "\"Faster Turbomachinery Design\" CadenceTECHTALK September 24 2026 Simuneer",
+      "tags": ["Cadence", "turbomachinery", "CFD", "design optimization", "workflow automation"],
+      "organization": "Cadence Design Systems / Simuneer",
+      "company": "Cadence Design Systems",
+      "document_type": "technical webinar announcement",
+      "language": "en"
+    },
+    {
+      "title": "Eco Wave Power Signs Agreement with AI engineering GmbH to Advance AI-Powered Digital Twin Platform for Wave Energy",
+      "url": "https://www.ecowavepower.com/eco-wave-power-signs-agreement-with-ai-engineering-gmbh-to-advance-ai-powered-digital-twin-platform-for-wave-energy/",
+      "source": "Eco Wave Power",
+      "source_kind": "press_release",
+      "category": "CAD・CAE／Digital Twin",
+      "published_at": "2026-09-02",
+      "excerpt": "Discovery candidate: AI engineering GmbH will use its PAMICS particle-based multiphysics framework with operational data and ML to build a physics/data-driven digital twin. Its focus on GPU CFD, fluid-structure interaction and engineering optimization makes it a strong recurring CAE/scientific-AI watch candidate.",
+      "query": "\"AI engineering GmbH\" September 2026 digital twin PAMICS",
+      "tags": ["discovery_candidate", "AI engineering GmbH", "PAMICS", "multiphysics", "CFD", "digital twin", "fluid-structure interaction"],
+      "organization": "AI engineering GmbH",
+      "company": "AI engineering GmbH",
+      "document_type": "partnership announcement",
+      "language": "en"
+    },
+    {
+      "title": "Rescale Expands Cloud Ecosystem with CoreWeave for Engineering and AI Workloads",
+      "url": "https://investors.coreweave.com/news/news-details/2026/Rescale-Expands-Cloud-Ecosystem-with-CoreWeave-for-Engineering-and-AI-Workloads/default.aspx",
+      "source": "CoreWeave",
+      "source_kind": "press_release",
+      "category": "Digital Engineering／HPC",
+      "published_at": "2026-08-25",
+      "excerpt": "Discovery candidate: Rescale expanded its digital-engineering cloud to CoreWeave for AI and simulation workloads across aerospace, automotive, energy and manufacturing. The platform combines compute, simulation software and AI, and the announcement explicitly cites AI physics and agentic-engineering workloads.",
+      "query": "site:rescale.com/news September 2026 digital engineering AI simulation aerospace",
+      "tags": ["discovery_candidate", "Rescale", "digital engineering", "HPC", "simulation", "AI physics", "agentic engineering"],
+      "organization": "Rescale",
+      "company": "Rescale",
+      "document_type": "cloud ecosystem partnership",
+      "language": "en"
+    },
+    {
+      "title": "Digital Twin Industry Challenge Led Accelerator",
+      "url": "https://www.digicatapult.org.uk/apply/opportunities/opportunity/digital-twin-industry-challenge-led-accelerator/",
+      "source": "Digital Catapult",
+      "source_kind": "official",
+      "category": "Digital Engineering／Digital Twin",
+      "published_at": "2026-09-15",
+      "excerpt": "Discovery candidate: Digital Catapult opened a nine-month accelerator linking up to 12 UK SMEs with challenge owners in maritime, aerospace and defence to develop digital-twin solutions, with up to £75,000 Innovate UK grant support. It is a useful recurring source for emerging industrial digital-twin suppliers.",
+      "query": "\"September 2026\" engineering AI simulation CAE aerospace startup generative design digital engineering",
+      "tags": ["discovery_candidate", "Digital Catapult", "digital twin", "aerospace", "defence", "UK innovation"],
+      "organization": "Digital Catapult",
+      "company": "Digital Catapult",
+      "document_type": "accelerator announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:spiritaero.com OR site:boeing.com Spirit AeroSystems September 2026 manufacturing aerospace Wichita technology",
+    "site:siemens.com OR site:sw.siemens.com \"Digital Industries Software\" September 2026 Simcenter Teamcenter Designcenter aerospace AI",
+    "site:ansys.com September 2026 aerospace digital engineering MBSE certification simulation Ansys",
+    "site:3ds.com September 2026 aerospace CATIA 3DEXPERIENCE systems engineering Dassault",
+    "site:hexagon.com September 2026 aerospace metrology manufacturing AI simulation Hexagon",
+    "site:altair.com OR site:siemens.com September 2026 Altair SimSolid PhysicsAI Simcenter engineering simulation",
+    "site:cadence.com September 2026 turbomachinery CFD Fidelity CAE aerospace Cadence",
+    "\"Siemens and Redington collaborate to accelerate digital transformation across Africa\" 2026",
+    "site:3ds.com/newsroom/press-releases \"Australian Missile Corporation\" 2026",
+    "site:hexagon.com/company/newsroom/press-releases/2026 \"ZG Technology\" Hexagon September 7 2026",
+    "\"Altair SimSolid 2026\" electromagnetic September 2026 Siemens",
+    "\"Faster Turbomachinery Design\" CadenceTECHTALK September 24 2026 Simuneer",
+    "site:resources.sw.siemens.com \"Simcenter Technology Conference 2026\" Madrid Altair September 29 2026",
+    "\"September 2026\" engineering AI simulation CAE aerospace startup generative design digital engineering",
+    "\"September 2026\" \"AI\" CFD simulation engineering software aerospace",
+    "\"September 2026\" propulsion materials manufacturing aerospace startup digital engineering",
+    "site:rescale.com/news September 2026 digital engineering AI simulation aerospace",
+    "site:luminarycloud.com 2026 September CFD AI engineering",
+    "site:ntop.com 2026 September engineering design AI aerospace",
+    "\"AI engineering GmbH\" September 2026 digital twin PAMICS"
+  ],
+  "warnings": [
+    "The seven mandatory rotation sources produced eight qualifying watchlist items, so no spillover companies were needed under the policy threshold.",
+    "The Ansys item is a current official announcement for a September 23, 2026 conference; the page does not expose an exact publication date, so published_at is intentionally omitted rather than inferred.",
+    "34 structured web queries were executed including source refinements and discovery searches; searched_queries records 20 representative queries to remain within the Scout contract cap."
+  ],
+  "checked_sources": [
+    {
+      "name": "Spirit AeroSystems",
+      "status": "found",
+      "query": "site:spiritaero.com OR site:boeing.com Spirit AeroSystems September 2026 manufacturing aerospace Wichita technology"
+    },
+    {
+      "name": "Siemens Digital Industries Software",
+      "status": "found",
+      "query": "\"Siemens and Redington collaborate to accelerate digital transformation across Africa\" 2026"
+    },
+    {
+      "name": "Ansys",
+      "status": "found",
+      "query": "site:ansys.com September 2026 aerospace digital engineering MBSE certification simulation Ansys"
+    },
+    {
+      "name": "Dassault Systèmes",
+      "status": "found",
+      "query": "site:3ds.com/newsroom/press-releases \"Australian Missile Corporation\" 2026"
+    },
+    {
+      "name": "Hexagon AB",
+      "status": "found",
+      "query": "site:hexagon.com September 2026 aerospace metrology manufacturing AI simulation Hexagon"
+    },
+    {
+      "name": "Altair Engineering",
+      "status": "found",
+      "query": "\"Altair SimSolid 2026\" electromagnetic September 2026 Siemens"
+    },
+    {
+      "name": "Cadence Design Systems",
+      "status": "found",
+      "query": "\"Faster Turbomachinery Design\" CadenceTECHTALK September 24 2026 Simuneer"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "selection_basis": "Authoritative rotation state gpt_handoff/state/company-watch.json, next_index=48, watchlist hash matched config/sources.yaml blob 388e7404e43bb186fcde3ef47b7d060027efae7c.",
+      "active_sources": [
+        {"name": "Spirit AeroSystems", "category": "航空機・主要サプライヤー", "domains": ["spiritaero.com", "boeing.com"]},
+        {"name": "Siemens Digital Industries Software", "category": "CAD・CAE", "domains": ["sw.siemens.com", "siemens.com"]},
+        {"name": "Ansys", "category": "CAD・CAE", "domains": ["ansys.com"]},
+        {"name": "Dassault Systèmes", "category": "CAD・CAE", "domains": ["3ds.com"]},
+        {"name": "Hexagon AB", "category": "CAD・CAE", "domains": ["hexagon.com"]},
+        {"name": "Altair Engineering", "category": "CAD・CAE", "domains": ["altair.com", "siemens.com"]},
+        {"name": "Cadence Design Systems", "category": "CAD・CAE", "domains": ["cadence.com"]}
+      ],
+      "spillover_sources": [],
+      "cursor_start": 48,
+      "cursor_next": 6
+    },
+    "priority_areas": [
+      "AIによる設計",
+      "大手航空機メーカー",
+      "航空機用エンジン",
+      "CAD・CAE"
+    ],
+    "exclude_terms": ["drone", "UAV", "UAS", "eVTOL", "air taxi", "urban air mobility", "ドローン", "無人機", "空飛ぶクルマ"],
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-17",
+      "started_at": "2026-09-17T06:08:37+09:00",
+      "completed_at": "2026-09-17T06:20:00+09:00",
+      "status": "complete",
+      "planned_query_count": 34,
+      "executed_query_count": 34
+    }
+  }
+}
