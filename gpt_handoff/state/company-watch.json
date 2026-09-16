@@ -1,16 +1,16 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-16T06:10:53+09:00",
+  "updated_at": "2026-09-17T06:20:00+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 48,
+  "next_index": 6,
   "last_checked": {
-    "Siemens Digital Industries Software": "2026-09-09T06:18:00+09:00",
-    "Ansys": "2026-09-09T06:18:00+09:00",
-    "Dassault Systèmes": "2026-09-09T06:18:00+09:00",
-    "Hexagon AB": "2026-09-10T06:10:28+09:00",
-    "Altair Engineering": "2026-09-10T06:10:28+09:00",
-    "Cadence Design Systems": "2026-09-10T06:10:28+09:00",
+    "Siemens Digital Industries Software": "2026-09-17T06:20:00+09:00",
+    "Ansys": "2026-09-17T06:20:00+09:00",
+    "Dassault Systèmes": "2026-09-17T06:20:00+09:00",
+    "Hexagon AB": "2026-09-17T06:20:00+09:00",
+    "Altair Engineering": "2026-09-17T06:20:00+09:00",
+    "Cadence Design Systems": "2026-09-17T06:20:00+09:00",
     "Autodesk": "2026-09-10T06:10:28+09:00",
     "MSC Software": "2026-09-10T06:10:28+09:00",
     "COMSOL": "2026-09-10T06:10:28+09:00",
@@ -53,19 +53,19 @@
     "Howmet Aerospace": "2026-09-16T06:10:53+09:00",
     "Precision Castparts": "2026-09-16T06:10:53+09:00",
     "ATI (ATI Inc.)": "2026-09-16T06:10:53+09:00",
-    "Spirit AeroSystems": "2026-09-09T06:18:00+09:00"
+    "Spirit AeroSystems": "2026-09-17T06:20:00+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-16",
-    "path": "gpt_handoff/company/2026-09-16.json",
-    "commit": "b9cdf281f47e6bd9433e814e7aa26530c8363dfb",
+    "local_date": "2026-09-17",
+    "path": "gpt_handoff/company/2026-09-17.json",
+    "commit": "d35338a51608d40d5c5fc89e430eeb23432eeb41",
     "status": "complete",
-    "checked_source_count": 12,
-    "candidate_item_count": 6
+    "checked_source_count": 7,
+    "candidate_item_count": 11
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-09-16 checked seven mandatory sources at indices 36 through 42; the mandatory set yielded two qualifying watchlist candidate items, so spillover continued through indices 43 through 47.",
-    "Next mandatory cursor is Spirit AeroSystems at index 48."
+    "2026-09-17 checked seven mandatory sources starting at index 48 and wrapping through index 5; the mandatory set yielded eight qualifying watchlist candidate items, so no spillover was required.",
+    "Next mandatory cursor is Autodesk at index 6."
   ]
 }
