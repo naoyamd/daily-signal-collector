@@ -1,0 +1,308 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-18T06:11:00+09:00",
+  "items": [
+    {
+      "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
+      "url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+      "source": "Autodesk News",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk previewed next-generation Autodesk Assistant capabilities spanning Fusion, Forma and Flow. The system is intended to use project context plus specialized design, engineering, simulation and manufacturing tools; broader cross-product rollout is planned to begin in 2027.",
+      "query": "site:autodesk.com 2026 September Autodesk generative design AI CAD CAE manufacturing simulation",
+      "tags": [
+        "agentic AI",
+        "Autodesk Fusion",
+        "design engineering",
+        "manufacturing",
+        "project intelligence"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Autodesk Fusion Compute MCP: Public Beta",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/fusion-compute-mcp/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk opened a public beta of Fusion Compute MCP, a cloud-hosted MCP server exposing Fusion to AI agents through more than 7,000 TypeScript API endpoints. Agents can create parametric geometry, assemblies, CAM toolpaths, posted NC code, exports and multiple parallel Fusion sessions.",
+      "query": "Autodesk Fusion AI design manufacturing September 2026 aerospace CAD CAE",
+      "tags": [
+        "MCP",
+        "AI agents",
+        "CAD",
+        "CAM",
+        "parametric modeling",
+        "manufacturing automation"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Autodesk Fusion Brings AI Deeper into Connected Design and Manufacturing Workflows",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/ai-powered-workflows-coming-to-autodesk-fusion/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-09-16",
+      "excerpt": "Autodesk detailed new Fusion AI capabilities covering design-history reconstruction, assembly creation, product configuration, CAM programming, part discovery and design reuse. AutoTimeline uses AI feature recognition to reconstruct editable parametric history from history-less geometry.",
+      "query": "Autodesk Fusion AI design manufacturing September 2026 aerospace CAD CAE",
+      "tags": [
+        "AI-assisted design",
+        "AutoTimeline",
+        "CAD",
+        "CAM",
+        "design reuse"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "September 2026 Major Product Update – What’s New",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/september-2026-major-product-update-whats-new/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-03",
+      "excerpt": "Fusion's September release added native PMI creation/editing, downstream PMI use in machining and inspection, expanded modeling APIs and process-simulation automation. Autodesk also reports a mesh-assisted Boolean fallback that recovered over 60% of previously failing Boolean operations in its testing.",
+      "query": "site:autodesk.com 2026 September Autodesk generative design AI CAD CAE manufacturing simulation",
+      "tags": [
+        "CAD",
+        "PMI",
+        "manufacturing",
+        "simulation",
+        "API automation"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "product update",
+      "language": "en"
+    },
+    {
+      "title": "System-Level Modeling and Agentic AI Take the Spotlight in COMSOL Multiphysics Version 2027",
+      "url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+      "source": "COMSOL",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-16",
+      "excerpt": "COMSOL announced Multiphysics 2027 with COMSOL Systems for system-level models coupled to 1D/2D/3D multiphysics, an MCP Server for external AI agents, and a new Electric Motor Module. Agents can build or modify models, run simulations, inspect results and iterate through the COMSOL API.",
+      "query": "site:comsol.com 2026 September COMSOL simulation CFD multiphysics news release",
+      "tags": [
+        "multiphysics",
+        "agentic AI",
+        "MCP",
+        "system modeling",
+        "simulation"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Featured Speakers Announced for the COMSOL Conference 2026 Boston",
+      "url": "https://www.comsol.com/press-release/featured-speakers-announced-for-the-comsol-conference-2026-boston-14712",
+      "source": "COMSOL",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-03",
+      "excerpt": "COMSOL announced an October conference program with a panel on scaling AI-ready multiphysics workflows and sessions involving NASA Ames, MIT, Intel, GM, Formula E and Cosmon. The program explicitly highlights AI-assisted modeling and agentic simulation workflows across engineering domains.",
+      "query": "COMSOL Multiphysics 2027 AI September 2026",
+      "tags": [
+        "multiphysics",
+        "AI-assisted modeling",
+        "agentic workflows",
+        "engineering simulation"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Component Validation During Operation – Siemens Energy Tests New Gas Turbine Technologies at German Chemical Park",
+      "url": "https://www.poweronline.com/doc/component-validation-during-operation-siemens-energy-tests-new-gas-turbine-technologies-at-german-chemical-park-0001",
+      "source": "Power Online",
+      "source_kind": "news",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-09-03",
+      "excerpt": "A Siemens Energy SGT-800 industrial demonstrator was commissioned at Marl Chemical Park for four years of commercial-operation validation. The program targets blades, vanes, burners, additive-manufactured parts, advanced materials and coatings, with continuous monitoring over thousands of hours.",
+      "query": "\"Component validation during operation\" \"Siemens Energy\" \"Marl\"",
+      "tags": [
+        "SGT-800",
+        "gas turbine",
+        "additive manufacturing",
+        "materials",
+        "component validation"
+      ],
+      "organization": "Siemens Energy",
+      "company": "Siemens Energy",
+      "document_type": "industry news / reproduced company announcement",
+      "language": "en"
+    },
+    {
+      "title": "Agente de IA para agilizar tareas de modelización en COMSOL Multiphysics",
+      "url": "https://addlink.es/noticias/comsol/3843-agente-de-ia-para-agilizar-tareas-de-modelizacion-en-comsol-multiphysics",
+      "source": "Addlink Software Científico",
+      "source_kind": "news",
+      "category": "AIによる設計",
+      "published_at": "2026-09-02",
+      "excerpt": "Addlink described Cosmon's Nexus agent working alongside COMSOL to automate CAD geometry cleanup, simulation setup, parametric sweeps, solver-error handling and report generation. Cosmon is outside the mandatory watchlist and merits continued monitoring as an engineering-agent/simulation startup.",
+      "query": "Cosmon simulation AI multiphysics engineering company September 2026",
+      "tags": [
+        "AI agents",
+        "COMSOL",
+        "simulation automation",
+        "engineering AI",
+        "discovery_candidate"
+      ],
+      "organization": "Cosmon",
+      "company": "Cosmon",
+      "document_type": "industry news",
+      "language": "es"
+    }
+  ],
+  "searched_queries": [
+    "site:autodesk.com 2026 September Autodesk generative design AI CAD CAE manufacturing simulation",
+    "\"MSC Software\" OR site:mscsoftware.com CAE simulation aerospace September 2026",
+    "site:comsol.com 2026 September COMSOL simulation CFD multiphysics news release",
+    "(\"ESI Group\" OR site:esi-group.com OR site:keysight.com) simulation aerospace engineering September 2026",
+    "(\"NUMECA\" OR site:numeca.de OR site:cadence.com) Fidelity CFD turbomachinery September 2026",
+    "site:siemens-energy.com September 2026 gas turbine digital twin additive manufacturing technology",
+    "site:bakerhughes.com September 2026 gas turbine turbomachinery technology manufacturing digital",
+    "Autodesk AI design engineering September 2026 aerospace CAD CAE",
+    "\"COMSOL\" aerospace turbine CFD September 2026",
+    "\"Siemens Energy\" turbine additive digital twin September 2026",
+    "\"Baker Hughes\" turbine engineering additive manufacturing September 2026",
+    "(\"scientific AI\" OR \"AI-assisted design\" OR \"neural operator\" OR \"CAE AI\") aerospace engineering startup September 2026",
+    "MSC Software simulation news September 2026",
+    "ESI Group simulation news September 2026",
+    "NUMECA Fidelity CFD turbomachinery news September 2026",
+    "Siemens Energy turbine technology September 2026",
+    "Baker Hughes turbine technology September 2026",
+    "\"Component validation during operation\" \"Siemens Energy\" \"Marl\"",
+    "Cosmon simulation AI multiphysics engineering company September 2026",
+    "Simuneer Cadence CFD turbomachinery September 2026"
+  ],
+  "warnings": [
+    "The seven mandatory rotation sources produced seven qualifying watchlist candidate items (Autodesk 4, COMSOL 2, Siemens Energy 1), so no spillover companies were needed under the policy threshold.",
+    "The NUMECA/Cadence Fidelity search surfaced the September 3 Simuneer turbomachinery item already present in the 2026-09-17 company handoff; it was not duplicated in today's items.",
+    "The Siemens Energy SGT-800 item is retained from a current industry reproduction explicitly attributed to Siemens Energy because a directly indexable Siemens Energy source page was not surfaced during verification.",
+    "33 structured web searches were executed including source refinements and discovery searches; searched_queries records 20 representative queries to remain within the Scout contract cap."
+  ],
+  "checked_sources": [
+    {
+      "name": "Autodesk",
+      "status": "found",
+      "query": "Autodesk Fusion AI design manufacturing September 2026 aerospace CAD CAE"
+    },
+    {
+      "name": "MSC Software",
+      "status": "no_new_finding",
+      "warning": "Searches across MSC Software, Hexagon and current Cadence ownership context found no qualifying newly published MSC-specific CAE/aerospace item within the lookback window."
+    },
+    {
+      "name": "COMSOL",
+      "status": "found",
+      "query": "COMSOL Multiphysics 2027 AI September 2026"
+    },
+    {
+      "name": "ESI Group",
+      "status": "no_new_finding",
+      "warning": "Searches across ESI Group and Keysight surfaced legacy/integration material but no qualifying newly published ESI simulation or aerospace item within the lookback window."
+    },
+    {
+      "name": "NUMECA International",
+      "status": "no_new_finding",
+      "warning": "Current NUMECA/Fidelity searches surfaced a September 3 Simuneer Cadence turbomachinery page, but that exact signal was already captured in the 2026-09-17 company handoff; no newer qualifying NUMECA-specific item was found."
+    },
+    {
+      "name": "Siemens Energy",
+      "status": "found",
+      "query": "\"Component validation during operation\" \"Siemens Energy\" \"Marl\""
+    },
+    {
+      "name": "Baker Hughes",
+      "status": "no_new_finding",
+      "warning": "Searches of Baker Hughes turbine and turbomachinery technology announcements found no qualifying newly published engineering/technology item within the lookback window."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "Autodesk",
+          "category": "CAD・CAE",
+          "domains": [
+            "autodesk.com"
+          ]
+        },
+        {
+          "name": "MSC Software",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "hexagon.com",
+            "mscsoftware.com"
+          ]
+        },
+        {
+          "name": "COMSOL",
+          "category": "CAD・CAE",
+          "domains": [
+            "comsol.com"
+          ]
+        },
+        {
+          "name": "ESI Group",
+          "category": "CAD・CAE",
+          "domains": [
+            "esi-group.com",
+            "keysight.com"
+          ]
+        },
+        {
+          "name": "NUMECA International",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "numeca.de"
+          ]
+        },
+        {
+          "name": "Siemens Energy",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "siemens-energy.com"
+          ]
+        },
+        {
+          "name": "Baker Hughes",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "bakerhughes.com"
+          ]
+        }
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-18",
+      "started_at": "2026-09-18T06:09:15+09:00",
+      "completed_at": "2026-09-18T06:11:00+09:00",
+      "status": "complete",
+      "planned_query_count": 12,
+      "executed_query_count": 33
+    }
+  }
+}
