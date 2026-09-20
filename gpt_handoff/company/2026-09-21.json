@@ -1,0 +1,290 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-21T06:10:03+09:00",
+  "items": [
+    {
+      "title": "Quest Global appoints Krish Kupathil to support internal AI initiatives and client collaboration",
+      "url": "https://www.questglobal.com/news/press-releases/quest-global-appoints-krish-kupathil-to-support-internal-ai-initiatives-and-client-collaboration/",
+      "source": "Quest Global",
+      "source_kind": "press_release",
+      "category": "技術サービス",
+      "published_at": "2026-09-16",
+      "excerpt": "Quest Global appointed Krish Kupathil to lead internal and client-facing AI strategy, including work with customers on AI-enabled engineering solutions and translating engineering challenges into measurable adoption outcomes.",
+      "query": "site:questglobal.com/news/press-releases/ September 2026 Quest Global aerospace AI engineering",
+      "tags": ["engineering AI", "AI-enabled engineering", "engineering services"],
+      "organization": "Quest Global",
+      "company": "Quest Global",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace Advances XA102 Adaptive Cycle Engine Assembly for U.S. Air Force’s Next Generation Adaptive Propulsion Program",
+      "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-advances-xa102-adaptive-cycle-engine-assembly-us-air-forces-next",
+      "source": "GE Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-14",
+      "excerpt": "GE Aerospace is moving the XA102 adaptive-cycle engine toward first test-asset assembly. The program uses model-based engineering to reduce development time and cost while suppliers procure hardware and subcomponents for assembly and test.",
+      "query": "site:geaerospace.com/news September 2026 GE Aerospace technology engine digital engineering",
+      "tags": ["adaptive cycle engine", "digital engineering", "model-based engineering", "NGAP", "propulsion"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace confident GE9X mid-seal issue will not delay Boeing 777X entry into service",
+      "url": "https://www.reuters.com/business/aerospace-defense/ge-aerospace-says-ge9x-mid-seal-issue-wont-delay-boeing-777x-entry-into-service-2026-09-17/",
+      "source": "Reuters",
+      "source_kind": "news",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-17",
+      "excerpt": "Reuters reports GE identified the GE9X mid-seal durability root cause in April, redesigned the part, and began shipping the improved seal to Boeing in Q3 2026. GE says internal testing validated the redesign and separate FAA certification is underway.",
+      "query": "\"GE Aerospace\" September 2026 engine technology manufacturing MRO",
+      "tags": ["GE9X", "durability", "engine certification", "design change", "777X"],
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace",
+      "document_type": "industry news",
+      "language": "en"
+    },
+    {
+      "title": "Rolls-Royce to elevate EU’s latest Clean Aviation call",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-18",
+      "excerpt": "Rolls-Royce was selected to lead the EU Clean Aviation ELEVATED project to demonstrate a hybrid-electric gas-turbine propulsion system for future short- to medium-range aircraft, and will also participate in FARMAN and H-ELENA hydrogen-related projects.",
+      "query": "site:rolls-royce.com/media/press-releases/2026 September 2026 Rolls-Royce aerospace propulsion",
+      "tags": ["hybrid-electric propulsion", "gas turbine", "Clean Aviation", "hydrogen", "technology demonstrator"],
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Pratt & Whitney completes F135 Engine Core Upgrade Risk Reduction Design Review",
+      "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+      "source": "RTX / Pratt & Whitney",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-15",
+      "excerpt": "Pratt & Whitney completed the F135 Engine Core Upgrade Risk Reduction Design Review. The review covered detailed design maturity, propulsion technologies, aircraft integration, test preparation and industrial-base readiness for production and retrofit.",
+      "query": "site:rtx.com/news/news-center/2026/09 Pratt Whitney September 2026 engine technology",
+      "tags": ["F135", "engine core upgrade", "design review", "propulsion", "production readiness"],
+      "organization": "Pratt & Whitney",
+      "company": "Pratt & Whitney",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Airlines urge more competition on used jet engine parts",
+      "url": "https://www.reuters.com/legal/litigation/airlines-urge-more-competition-used-jet-engine-parts-2026-09-14/",
+      "source": "Reuters",
+      "source_kind": "news",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-14",
+      "excerpt": "Reuters reports IATA is pushing for broader competition in used engine parts after a European Commission settlement involving Pratt & Whitney Canada eased restrictions on used parts for turboprop engines. The issue directly affects engine MRO availability and aftermarket economics.",
+      "query": "\"Pratt & Whitney\" September 2026 engine MRO used parts competition",
+      "tags": ["MRO", "aftermarket", "used serviceable material", "competition", "engine maintenance"],
+      "organization": "Pratt & Whitney Canada / IATA",
+      "company": "Pratt & Whitney",
+      "document_type": "industry news",
+      "language": "en"
+    },
+    {
+      "title": "La DGA commande des premiers travaux en amont du prochain lancement en réalisation du standard F5 du Rafale, prévu fin 2026",
+      "url": "https://www.defense.gouv.fr/dga/actualites/dga-commande-premiers-travaux-amont-du-prochain-lancement-realisation-du-standard-f5-du-rafale",
+      "source": "Direction générale de l’armement (DGA)",
+      "source_kind": "official",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-10",
+      "excerpt": "France's DGA awarded Safran Aircraft Engines preliminary-design work for the M88 T-REX. The upgrade targets 20% more maximum thrust, from 7.5 to 9 tonnes, while retaining M88-2 modular architecture and modifying selected engine modules.",
+      "query": "site:defense.gouv.fr \"M88 T-REX\" 2026 Safran preliminary design",
+      "tags": ["M88 T-REX", "preliminary design", "military engine", "turbine", "Rafale F5"],
+      "organization": "Direction générale de l’armement (DGA)",
+      "company": "Safran Aircraft Engines",
+      "document_type": "government announcement",
+      "language": "fr"
+    },
+    {
+      "title": "Wolfgang-Heilmann-Preis der MTU Aero Engines geht an Jonas Beil",
+      "url": "https://www.mtu.de/de/newsroom/presse/aktuelle-presseinformationen/press-release-detail/wolfgang-heilmann-preis-der-mtu-aero-engines-geht-an-jonas-beil/",
+      "source": "MTU Aero Engines",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-15",
+      "excerpt": "MTU highlighted a KIT master's thesis on a turbine concept for extracting power from a rotating detonation combustor. The work addresses rotating-detonation gas-turbine architecture and turbine integration, making it a current propulsion-research signal.",
+      "query": "site:mtu.de/newsroom September 2026 MTU Aero Engines technology turbine",
+      "tags": ["rotating detonation combustor", "turbine", "propulsion research", "gas turbine"],
+      "organization": "MTU Aero Engines / Karlsruhe Institute of Technology",
+      "company": "MTU Aero Engines",
+      "document_type": "press release",
+      "language": "de"
+    },
+    {
+      "title": "CFM International and Vietjet expand strategic partnership to explore MRO capabilities for latest-generation engines in Vietnam",
+      "url": "https://www.cfmaeroengines.com/press-articles/cfm-international-and-vietjet-expand-strategic-partnership-to-explore-mro-capabilities-for-latest-generation-engines-in-vietnam",
+      "source": "CFM International",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-11",
+      "excerpt": "CFM and Vietjet signed an LOI to assess a local LEAP engine MRO capability in Vietnam. CFM would advise on maintenance requirements, infrastructure, workforce and industry considerations for a potential airline-operated maintenance solution.",
+      "query": "site:cfmaeroengines.com/press-articles September 2026 CFM MRO LEAP Vietnam",
+      "tags": ["LEAP", "MRO", "maintenance infrastructure", "engineering services", "Vietnam"],
+      "organization": "CFM International / Vietjet",
+      "company": "CFM International",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "SimScale Launches Engineering AI Agent for Onshape",
+      "url": "https://www.simscale.com/press/simscale-launches-engineering-ai-agent-for-onshape/",
+      "source": "SimScale",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "Discovery candidate: SimScale launched an Engineering AI Agent inside Onshape that can reason through CFD, thermal, electromagnetics and FEA setup from CAD geometry, run simulations and interpret results. This direct CAD-to-simulation agent workflow warrants continued watchlist monitoring.",
+      "query": "site:simscale.com September 2026 engineering AI simulation agent",
+      "tags": ["discovery_candidate", "engineering AI", "CAE", "CFD", "FEA", "Onshape", "AI agent"],
+      "organization": "SimScale",
+      "company": "SimScale",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Building Beyond CAD: On Generative Optimization for Engineering",
+      "url": "https://www.physicsx.ai/newsroom/building-beyond-cad-on-generative-optimization-for-engineering",
+      "source": "PhysicsX",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-08-25",
+      "excerpt": "Discovery candidate: PhysicsX describes adapting 3D foundation models to engineering geometry, coupling generated shapes to numerical simulation and optimization, and reports a SimJEB bracket result 18.5% lighter than the prior winner while meeting the stress constraint. Strong fit for AI-native design monitoring.",
+      "query": "site:physicsx.ai August 2026 generative optimization engineering CAD simulation",
+      "tags": ["discovery_candidate", "generative design", "physics AI", "optimization", "simulation", "3D foundation model"],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "technical blog",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:power.mhi.com Mitsubishi Power September 2026 gas turbine technology digital twin additive manufacturing hydrogen turbine",
+    "site:solarturbines.com Solar Turbines September 2026 gas turbine technology digital engineering manufacturing",
+    "site:chromalloy.com Chromalloy September 2026 turbine aerospace additive manufacturing coating MRO materials",
+    "site:questglobal.com/news/press-releases/ September 2026 Quest Global aerospace AI engineering",
+    "site:cyient.com/news/2026/9 Cyient aerospace engineering AI digital",
+    "site:capgemini.com September 2026 engineering aerospace AI Capgemini Engineering",
+    "site:geaerospace.com/news September 2026 GE Aerospace technology engine digital engineering",
+    "\"GE Aerospace\" September 2026 engine technology manufacturing MRO",
+    "site:rolls-royce.com/media/press-releases/2026 September 2026 Rolls-Royce aerospace propulsion",
+    "site:rtx.com/news/news-center/2026/09 Pratt Whitney September 2026 engine technology",
+    "site:safran-group.com/pressroom September 2026 Safran Aircraft Engines propulsion materials manufacturing",
+    "site:defense.gouv.fr \"M88 T-REX\" 2026 Safran preliminary design",
+    "site:mtu.de/newsroom September 2026 MTU Aero Engines technology turbine",
+    "site:cfmaeroengines.com/press-articles September 2026 CFM MRO LEAP Vietnam",
+    "\"Pratt & Whitney\" September 2026 engine MRO used parts competition",
+    "site:simscale.com September 2026 engineering AI simulation agent",
+    "site:physicsx.ai August 2026 generative optimization engineering CAD simulation",
+    "(\"scientific AI\" OR \"AI-assisted design\" OR \"engineering AI\" OR \"CAE AI\") aerospace engineering startup September 2026",
+    "(\"digital engineering\" OR MBSE OR \"digital thread\") aerospace startup September 2026",
+    "(\"turbine\" OR propulsion OR superalloy OR additive manufacturing) aerospace startup September 2026"
+  ],
+  "warnings": [
+    "The authoritative company-watch state was valid and matched the current config/sources.yaml blob; rotation therefore started at index 13 (Mitsubishi Power).",
+    "The seven mandatory sources produced three qualifying watchlist items, so five spillover sources were checked in rotation order under policy until the maximum spillover budget was reached; the combined watchlist search produced nine candidate items.",
+    "Safran's DGA M88 T-REX preliminary-design announcement and CFM's Vietjet MRO announcement predate their most recent watch checks but were absent from recent handoffs; they remain within the 30-day lookback and were retained as recovered high-recall signals.",
+    "Old or undated evergreen pages were used only as background. Results matching configured drone/UAV/UAS/eVTOL/air-taxi exclusions were not promoted.",
+    "83 structured web searches were executed including source refinements and discovery searches; searched_queries records 20 representative queries to stay within the Scout contract cap."
+  ],
+  "checked_sources": [
+    {
+      "name": "Mitsubishi Power",
+      "status": "no_new_finding",
+      "warning": "Mitsubishi Power and MHI power-generation news were searched across the 30-day window; no distinct newly published gas-turbine, hydrogen, digital-engineering or service technology signal qualified, and evergreen product/event pages were not promoted."
+    },
+    {
+      "name": "Solar Turbines",
+      "status": "no_new_finding",
+      "warning": "Solar Turbines news, technology and company surfaces were searched for recent gas-turbine and lifecycle-service updates; no qualifying newly published technical signal was verified in the lookback window."
+    },
+    {
+      "name": "Chromalloy",
+      "status": "no_new_finding",
+      "warning": "Chromalloy aerospace, MRO, materials and coating surfaces were checked. The recent CMMC Level 2 announcement had already been captured in the September 11 handoff, and no distinct newer qualifying technical item was found."
+    },
+    {
+      "name": "Quest Global",
+      "status": "found",
+      "query": "site:questglobal.com/news/press-releases/ September 2026 Quest Global aerospace AI engineering"
+    },
+    {
+      "name": "Cyient",
+      "status": "no_new_finding",
+      "warning": "Cyient news and engineering surfaces were searched for aerospace, AI, lifecycle engineering and digital-engineering updates. Recent results were older or already represented in earlier handoffs; no distinct new qualifying item was verified."
+    },
+    {
+      "name": "Capgemini Engineering",
+      "status": "no_new_finding",
+      "warning": "Capgemini Engineering and Capgemini research/news surfaces were searched for AI-native engineering, aerospace and digital-engineering signals. Current pages were undated, older reports or already captured summit material; no distinct new qualifying item was promoted."
+    },
+    {
+      "name": "GE Aerospace",
+      "status": "found",
+      "query": "site:geaerospace.com/news September 2026 GE Aerospace technology engine digital engineering"
+    },
+    {
+      "name": "Rolls-Royce",
+      "status": "found",
+      "query": "site:rolls-royce.com/media/press-releases/2026 September 2026 Rolls-Royce aerospace propulsion"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "status": "found",
+      "query": "site:rtx.com/news/news-center/2026/09 Pratt Whitney September 2026 engine technology"
+    },
+    {
+      "name": "Safran Aircraft Engines",
+      "status": "found",
+      "query": "site:defense.gouv.fr \"M88 T-REX\" 2026 Safran preliminary design"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "status": "found",
+      "query": "site:mtu.de/newsroom September 2026 MTU Aero Engines technology turbine"
+    },
+    {
+      "name": "CFM International",
+      "status": "found",
+      "query": "site:cfmaeroengines.com/press-articles September 2026 CFM MRO LEAP Vietnam"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {"name": "Mitsubishi Power", "category": "ガスタービン・技術サービス", "domains": ["power.mhi.com", "mhi.com"]},
+        {"name": "Solar Turbines", "category": "ガスタービン・技術サービス", "domains": ["solarturbines.com"]},
+        {"name": "Chromalloy", "category": "ガスタービン・技術サービス", "domains": ["chromalloy.com"]},
+        {"name": "Quest Global", "category": "技術サービス", "domains": ["questglobal.com"]},
+        {"name": "Cyient", "category": "技術サービス", "domains": ["cyient.com"]},
+        {"name": "Capgemini Engineering", "category": "技術サービス", "domains": ["capgemini.com"]},
+        {"name": "GE Aerospace", "category": "航空機エンジン", "domains": ["geaerospace.com"]},
+        {"name": "Rolls-Royce", "category": "航空機エンジン", "domains": ["rolls-royce.com"]},
+        {"name": "Pratt & Whitney", "category": "航空機エンジン", "domains": ["rtx.com"]},
+        {"name": "Safran Aircraft Engines", "category": "航空機エンジン", "domains": ["safran-group.com"]},
+        {"name": "MTU Aero Engines", "category": "航空機エンジン", "domains": ["mtu.de"]},
+        {"name": "CFM International", "category": "航空機エンジン", "domains": ["cfmaeroengines.com"]}
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-21",
+      "started_at": "2026-09-21T06:07:10+09:00",
+      "completed_at": "2026-09-21T06:10:03+09:00",
+      "status": "complete",
+      "planned_query_count": 12,
+      "executed_query_count": 83
+    }
+  }
+}
