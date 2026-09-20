@@ -1,0 +1,782 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-21T06:27:12+09:00",
+  "items": [
+    {
+      "title": "A panoramic aerodynamic performance prediction method for turbomachinery cascades using transformer-enhanced neural operator",
+      "url": "https://arxiv.org/abs/2609.16066",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計・CFD・Neural Operator",
+      "published_at": "2026-09-13",
+      "excerpt": "A transformer-enhanced neural operator predicts Navier–Stokes variables and downstream turbomachinery performance on Rotor 37; the authors report lower error than FNO/DeepONet and roughly four orders of magnitude lower downstream compute than CFD. The arXiv deposit corresponds to a 2025 journal article, so it is newly indexed rather than a new underlying result.",
+      "authors": [
+        "Qineng Wang",
+        "Zhendong Guo",
+        "Liming Song",
+        "Tianyuan Liu"
+      ],
+      "doi": "10.48550/arXiv.2609.16066",
+      "query": "turbomachinery CFD neural operator surrogate September 2026 arXiv",
+      "tags": [
+        "turbomachinery",
+        "CFD",
+        "neural operator",
+        "surrogate",
+        "optimization"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "arXiv deposit of journal article",
+      "language": "en"
+    },
+    {
+      "title": "SATK v2026.09.c",
+      "url": "https://github.com/matlab/simulink-agentic-toolkit/releases/tag/SATK-2026.09.c",
+      "source": "MathWorks / GitHub",
+      "source_kind": "official",
+      "category": "AIによる設計・MBSE・Simulink Agent",
+      "published_at": "2026-09-16",
+      "excerpt": "MathWorks' Simulink Agentic Toolkit release adds a simscape-write-ssc skill for creating and editing Simscape component files. The toolkit exposes engineering-model operations to coding agents, extending agent-assisted workflows from Simulink model manipulation into physical-system component authoring.",
+      "query": "Simulink MATLAB engineering agent MCP September 2026 release",
+      "tags": [
+        "Simulink",
+        "Simscape",
+        "engineering agent",
+        "MBSE",
+        "coding agent"
+      ],
+      "organization": "MathWorks",
+      "company": "MathWorks",
+      "document_type": "GitHub release",
+      "language": "en"
+    },
+    {
+      "title": "MATK-2026.09.a",
+      "url": "https://github.com/matlab/matlab-agentic-toolkit/releases/tag/MATK-2026.09.a",
+      "source": "MathWorks / GitHub",
+      "source_kind": "official",
+      "category": "AIエージェント・コーディング・Engineering AI",
+      "published_at": "2026-09-10",
+      "excerpt": "The MATLAB Agentic Toolkit release adds skills for authoring and running MATLAB unit tests plus new engineering-oriented skills. It packages MATLAB capabilities for agent use and provides an official bridge for coding agents to execute, inspect and validate engineering workflows rather than only generate MATLAB text.",
+      "query": "Simulink MATLAB engineering agent MCP September 2026 release",
+      "tags": [
+        "MATLAB",
+        "unit testing",
+        "coding agents",
+        "engineering AI",
+        "tool use"
+      ],
+      "organization": "MathWorks",
+      "company": "MathWorks",
+      "document_type": "GitHub release",
+      "language": "en"
+    },
+    {
+      "title": "From requirements to verification: IBM Engineering AI Hub 1.4 helps accelerate engineering productivity with AI",
+      "url": "https://www.ibm.com/new/announcements/ibm-engineering-ai-hub-1-4-expands-ai-assisted-engineering",
+      "source": "IBM",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計・Requirements・Verification",
+      "published_at": "2026-09-17",
+      "excerpt": "IBM Engineering AI Hub 1.4 adds an agent that generates test cases from system and software requirements, plus expanded engineering catalog/configuration awareness via MCP and Azure runtime support. The release targets traceable engineering work from requirements through verification rather than generic chat assistance.",
+      "authors": [
+        "Bhawana Gupta"
+      ],
+      "query": "engineering AI requirements verification lifecycle MCP September 2026 official",
+      "tags": [
+        "requirements engineering",
+        "verification",
+        "test generation",
+        "MCP",
+        "systems engineering"
+      ],
+      "organization": "IBM",
+      "company": "IBM",
+      "document_type": "product technical announcement",
+      "language": "en"
+    },
+    {
+      "title": "Google Cloud MCP servers support Model Context Protocol Version 2026-07-28",
+      "url": "https://docs.cloud.google.com/mcp/release-notes",
+      "source": "Google Cloud",
+      "source_kind": "official",
+      "category": "MCP・Agent Protocol・Enterprise Infrastructure",
+      "published_at": "2026-09-14",
+      "excerpt": "Google Cloud's MCP release notes state that its MCP servers now support the 2026-07-28 Model Context Protocol specification while retaining backward compatibility with the 2025-11-25 version. This is an implementation-level protocol update relevant to production agent interoperability and migration planning.",
+      "query": "MCP agent protocol enterprise infrastructure September 2026",
+      "tags": [
+        "MCP",
+        "agent protocol",
+        "Google Cloud",
+        "interoperability",
+        "enterprise agents"
+      ],
+      "organization": "Google Cloud",
+      "company": "Google",
+      "document_type": "official release notes",
+      "language": "en"
+    },
+    {
+      "title": "Digital Realty Launches ServiceFabric MCP, Bringing AI-Native Programmable Control to 800+ Data Centers",
+      "url": "https://www.globenewswire.com/news-release/2026/09/15/3362195/0/en/digital-realty-launches-servicefabric-mcp-bringing-ai-native-programmable-control-to-800-data-centers.html",
+      "source": "Digital Realty",
+      "source_kind": "press_release",
+      "category": "MCP・Agent Protocol・Data Center Infrastructure",
+      "published_at": "2026-09-15",
+      "excerpt": "Digital Realty launched ServiceFabric MCP, exposing infrastructure discovery and control through MCP across its global footprint of more than 800 data centers. The release positions agent-accessible connectivity and infrastructure operations as a programmable control layer; availability and scope are company-reported.",
+      "query": "MCP agent protocol enterprise infrastructure September 2026",
+      "tags": [
+        "MCP",
+        "data center",
+        "network automation",
+        "agent infrastructure",
+        "ServiceFabric"
+      ],
+      "organization": "Digital Realty",
+      "company": "Digital Realty",
+      "document_type": "product announcement",
+      "language": "en"
+    },
+    {
+      "title": "ZCode 3.14.0",
+      "url": "https://zcode.z.ai/en/changelog",
+      "source": "Z.ai",
+      "source_kind": "official",
+      "category": "AIエージェント・コーディング・Multi-Agent",
+      "published_at": "2026-09-19",
+      "excerpt": "ZCode 3.14.0 adds dynamic multi-subagent workflows, allowing the coding agent to create and coordinate specialized subagents during a task. The changelog is a fresh implementation signal for multi-agent coding workflows rather than a general model announcement.",
+      "query": "AI agents coding multi-agent workflow enterprise September 2026 official",
+      "tags": [
+        "coding agent",
+        "multi-agent",
+        "subagents",
+        "ZCode",
+        "China"
+      ],
+      "organization": "Z.ai",
+      "company": "Z.ai",
+      "document_type": "product changelog",
+      "language": "en"
+    },
+    {
+      "title": "Qwen Code Weekly: Hand Work to Claude Code and Codex, Run Workflows by Name with a Token Cap, Limit Goal Turns and Time",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/updates/weekly-update-2026-09-17/",
+      "source": "Qwen Code",
+      "source_kind": "official",
+      "category": "AIエージェント・コーディング・Multi-Agent",
+      "published_at": "2026-09-17",
+      "excerpt": "Qwen Code added delegation to Claude Code and Codex as subagents, ACP-based external-agent support, named workflows, and token/turn/time limits. The update shows coding-agent orchestration moving toward heterogeneous agent fleets with explicit execution budgets and control boundaries.",
+      "authors": [
+        "Qwen Team"
+      ],
+      "query": "AI agents coding multi-agent workflow enterprise September 2026 official",
+      "tags": [
+        "Qwen Code",
+        "Claude Code",
+        "Codex",
+        "multi-agent",
+        "ACP"
+      ],
+      "organization": "Alibaba / Qwen",
+      "company": "Alibaba",
+      "document_type": "official product update",
+      "language": "en"
+    },
+    {
+      "title": "Coder Agents Goes GA in 2.37",
+      "url": "https://coder.com/changelog/coder-2-37",
+      "source": "Coder",
+      "source_kind": "corporate_tech",
+      "category": "AIエージェント・コーディング・Enterprise AI",
+      "published_at": "2026-09-01",
+      "excerpt": "Coder made its self-hosted Agents capability generally available in 2.37, with policy controls for models, MCP servers, workspace templates and credentials. The release targets enterprise use of coding agents inside governed development environments rather than consumer IDE assistance.",
+      "query": "coding agent self-hosted AgentOps runtime September 2026",
+      "tags": [
+        "coding agents",
+        "self-hosted",
+        "MCP",
+        "enterprise governance",
+        "developer platform"
+      ],
+      "organization": "Coder",
+      "company": "Coder",
+      "document_type": "product changelog",
+      "language": "en"
+    },
+    {
+      "title": "New in IBM watsonx Orchestrate: Cross-platform agent discovery, custom evaluation and AgentOps Agent goes GA",
+      "url": "https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-cross-platform-agent-discovery-custom-evaluation-and-agentops-agent-goes-ga",
+      "source": "IBM",
+      "source_kind": "corporate_tech",
+      "category": "AIエージェント・Enterprise AI・AgentOps",
+      "published_at": "2026-09-03",
+      "excerpt": "IBM expanded watsonx Orchestrate with cross-platform agent discovery, Trace Inspector, custom LLM-as-Judge evaluation and a generally available AgentOps Agent. The release focuses on inventory, evaluation and operational governance for heterogeneous enterprise-agent environments.",
+      "query": "coding agent self-hosted AgentOps runtime September 2026",
+      "tags": [
+        "AgentOps",
+        "agent evaluation",
+        "enterprise AI",
+        "LLM-as-Judge",
+        "agent discovery"
+      ],
+      "organization": "IBM",
+      "company": "IBM",
+      "document_type": "product technical announcement",
+      "language": "en"
+    },
+    {
+      "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "AIエージェント・Runtime・Enterprise Infrastructure",
+      "published_at": "2026-09-18",
+      "excerpt": "AWS describes a redesigned AgentCore Runtime using memory reclamation and snapshots to keep agent startup latency predictable as container size grows. In AWS tests spanning roughly 200 MB to 2 GB images, P75 startup stayed around two seconds; these latency figures are vendor-reported.",
+      "authors": [
+        "Evandro Franco",
+        "Aniketh Manjunath",
+        "Rahul Nama",
+        "Mark Roy",
+        "Shishir Bharathi",
+        "Abhishek Singh"
+      ],
+      "query": "coding agent self-hosted AgentOps runtime September 2026",
+      "tags": [
+        "AgentCore",
+        "agent runtime",
+        "cold start",
+        "enterprise agents",
+        "AWS"
+      ],
+      "organization": "Amazon Web Services",
+      "company": "AWS",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "AIエージェント・MLOps・Open Models",
+      "published_at": "2026-09-18",
+      "excerpt": "AWS and Hugging Face released six open-source agent skills for production model deployment on SageMaker AI. The authors report that unguided coding agents often selected stale or incompatible deployment stacks; the skills encode current deployment patterns, checks and infrastructure choices as reusable agent instructions.",
+      "authors": [
+        "Dario Salvati",
+        "Álvaro Bartolomé",
+        "Sanhita Sarkar",
+        "Qiong Zhang"
+      ],
+      "query": "AI agents coding multi-agent workflow enterprise September 2026 official",
+      "tags": [
+        "coding agents",
+        "Hugging Face",
+        "SageMaker",
+        "MLOps",
+        "agent skills"
+      ],
+      "organization": "AWS / Hugging Face",
+      "company": "AWS",
+      "document_type": "technical blog / open-source skills release",
+      "language": "en"
+    },
+    {
+      "title": "Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient",
+      "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+      "source": "DeepSeek",
+      "source_kind": "press_release",
+      "category": "最新AIモデル・オープンウェイト",
+      "published_at": "2026-09-10",
+      "excerpt": "DeepSeek released V4.1-Flash, a 552B-parameter MoE with 8B active parameters for input and 16B for output, native visual input, and a Causal Encoder-Decoder architecture designed to reduce KV-cache demands. Weights and API access were released together; benchmark claims are vendor-reported.",
+      "query": "latest AI model open weights China September 2026 official",
+      "tags": [
+        "DeepSeek",
+        "open weights",
+        "MoE",
+        "multimodal",
+        "inference efficiency"
+      ],
+      "organization": "DeepSeek",
+      "company": "DeepSeek",
+      "document_type": "model release",
+      "language": "en"
+    },
+    {
+      "title": "qwen3.8-omni-flash Model Info",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-omni-flash",
+      "source": "Alibaba Cloud Model Studio",
+      "source_kind": "official",
+      "category": "最新AIモデル・Multimodal・Agent Model",
+      "published_at": "2026-09-18",
+      "excerpt": "Alibaba Cloud documents Qwen3.8-Omni-Flash as accepting text, image, audio and video with text output, up to 1M tokens of context, function calling, web search, thinking mode and prompt caching. The documentation lists speech understanding across 113 audio languages; capabilities are vendor-described.",
+      "query": "Qwen multimodal agent model September 2026 official",
+      "tags": [
+        "Qwen",
+        "multimodal",
+        "1M context",
+        "function calling",
+        "China"
+      ],
+      "organization": "Alibaba Cloud / Qwen",
+      "company": "Alibaba",
+      "document_type": "official model documentation",
+      "language": "en"
+    },
+    {
+      "title": "Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "source": "Z.ai",
+      "source_kind": "corporate_tech",
+      "category": "最新AIモデル・推論基盤・AIエージェント",
+      "published_at": "2026-09-18",
+      "excerpt": "Z.ai says all production GLM-5.3-Flash inference runs on more than 100,000 Chinese-made AI accelerators and describes an Infra Agent handling substantial portions of inference-stack engineering. This is retained as a material implementation follow-up to the earlier GLM-5.3-Flash model release, not as a duplicate model announcement.",
+      "query": "China Europe Japan non-US AI models agents infrastructure September 2026",
+      "tags": [
+        "GLM",
+        "inference infrastructure",
+        "AI accelerators",
+        "infra agent",
+        "China"
+      ],
+      "organization": "Z.ai",
+      "company": "Z.ai",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "ガバメントAI 源内OSS Ver 2.0の計画に関する全国オンライン説明会を開催しました",
+      "url": "https://www.digital.go.jp/news/e525db0b-eac1-49e2-9ef4-6d2e24208498",
+      "source": "デジタル庁",
+      "source_kind": "official",
+      "category": "日本・Government AI・OSS・AIエージェント",
+      "published_at": "2026-09-18",
+      "excerpt": "デジタル庁は、2027年2月公開予定の「源内OSS Ver 2.0」計画を説明した。計画にはエージェント型チャット、コーディングAIを含むGennai Workshop、モデル配備用テンプレート群などが含まれ、政府AI基盤をOSSとして地方公共団体等へ展開する方向性を示している。",
+      "query": "Japan government AI OSS agent September 2026",
+      "tags": [
+        "源内",
+        "government AI",
+        "open source",
+        "coding AI",
+        "Japan"
+      ],
+      "organization": "デジタル庁",
+      "document_type": "government announcement",
+      "language": "ja"
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "HPC/GPU・推論基盤",
+      "published_at": "2026-09-18",
+      "excerpt": "AWS introduced a Kubernetes-native HyperPod Inference Gateway that routes requests using signals including KV-cache state, queue depth, LoRA-adapter residency and prefix-cache hits. In one vendor example, time-to-first-token fell from 4.4 seconds to under 800 ms; performance figures are AWS-reported.",
+      "authors": [
+        "Vinay Arora",
+        "Piyush Daftary",
+        "Shreya Gangishetty"
+      ],
+      "query": "HPC GPU inference routing agent infrastructure September 2026",
+      "tags": [
+        "GPU inference",
+        "Kubernetes",
+        "KV cache",
+        "LoRA",
+        "SageMaker HyperPod"
+      ],
+      "organization": "Amazon Web Services",
+      "company": "AWS",
+      "document_type": "technical product blog",
+      "language": "en"
+    },
+    {
+      "title": "Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents",
+      "url": "https://arxiv.org/abs/2609.18598",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "Scientific AI・材料・研究自動化",
+      "published_at": "2026-09-16",
+      "excerpt": "SynAgent autonomously planned, executed and interpreted a LiCoO2 thin-film synthesis campaign using multimodal evidence including XRD and SEM. Across 18 experiments it converged on an optimal annealing region around 650–690°C, with agent-generated hypotheses guiding subsequent experiments; results are author-reported.",
+      "authors": [
+        "Izumi Takahara",
+        "Kazunori Nishio",
+        "Akira Aiba",
+        "Shigeru Kobayashi",
+        "Takao Nakajima",
+        "Taro Hitosugi",
+        "Teruyasu Mizoguchi"
+      ],
+      "doi": "10.48550/arXiv.2609.18598",
+      "query": "scientific AI materials autonomous laboratory September 2026",
+      "tags": [
+        "autonomous lab",
+        "materials synthesis",
+        "multimodal agents",
+        "LiCoO2",
+        "closed loop"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "title": "Quantitative control and recording of materials-synthesis processes using an automated experimentation platform",
+      "url": "https://arxiv.org/abs/2609.14928",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "Scientific AI・材料・自動実験",
+      "published_at": "2026-09-14",
+      "excerpt": "The authors built an automated materials platform from robot arms, pipettes, webcams and a balance, with control code generated through an LLM-assisted workflow. In ZIF-8 synthesis, controlled dispensing speed changed particle-size distributions. Code, CAD files and documentation are released for reproducibility.",
+      "authors": [
+        "Yusuke Hashimoto",
+        "Takaya Muramoto",
+        "Hikari Terada",
+        "Harim Song",
+        "Yuan Wang",
+        "Takaaki Tomai"
+      ],
+      "doi": "10.48550/arXiv.2609.14928",
+      "query": "scientific AI materials autonomous laboratory September 2026",
+      "tags": [
+        "materials automation",
+        "robotic lab",
+        "LLM coding",
+        "ZIF-8",
+        "open hardware"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "title": "Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory",
+      "url": "https://arxiv.org/abs/2609.19099",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "Scientific AI・化学・研究自動化",
+      "published_at": "2026-09-16",
+      "excerpt": "Andromeda2 couples evidence retrieval, formulation reasoning and autonomous experiments. In a matched-budget paclitaxel formulation study, the authors report a 50% success rate versus 17% for an unguided agent and 2% for random search; structured evidence increased mean AUC by 34%. Results are author-reported.",
+      "authors": [
+        "Michael M. Craig",
+        "Riley J. Hickman",
+        "Yingshan Ma",
+        "Rémi Piché-Taillefer",
+        "Christine Allen",
+        "Pauric Bannigan"
+      ],
+      "doi": "10.48550/arXiv.2609.19099",
+      "query": "scientific AI materials autonomous laboratory September 2026",
+      "tags": [
+        "autonomous lab",
+        "formulation",
+        "evidence grounding",
+        "agents",
+        "chemistry"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+      "url": "https://www.nature.com/articles/s42256-026-01298-6",
+      "source": "Nature Machine Intelligence",
+      "source_kind": "journal",
+      "category": "Scientific AI・材料・Crystal Design",
+      "published_at": "2026-09-10",
+      "excerpt": "MatBrain combines two specialized lightweight models, Mat-R1 (30B) and Mat-T1 (14B), for crystal-material reasoning and task execution. The authors report screening 30,000 candidates and identifying 38 promising compounds within 48 hours. Datasets and code are released; performance claims are from the paper.",
+      "authors": [
+        "Yue Liu",
+        "Shuai Liu",
+        "Jun Zhang",
+        "Jiaxin Zhang",
+        "Weiyu Shi",
+        "Xiaoyu Wang",
+        "Xiang Li",
+        "Yue Zhao",
+        "Yutong Zhang",
+        "Zhenguo Li",
+        "Qiang Liu",
+        "Jianjun Hu"
+      ],
+      "doi": "10.1038/s42256-026-01298-6",
+      "query": "materials AI lightweight agent crystal design September 2026",
+      "tags": [
+        "materials AI",
+        "crystal discovery",
+        "specialist models",
+        "agent",
+        "open data"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "journal article",
+      "language": "en"
+    },
+    {
+      "title": "Artificial Intelligence in Academic Research: Adoption, Productivity, and Skill Perceptions",
+      "url": "https://ifi.u-tokyo.ac.jp/en/news/14876/",
+      "source": "University of Tokyo / Technology in Society",
+      "source_kind": "journal",
+      "category": "AI adoption・Productivity・Research Workforce",
+      "published_at": "2026-09-03",
+      "excerpt": "A survey of Italian academics found 39% reported AI use in research, with use positively associated with self-reported research productivity and perceived skill change. The authors explicitly treat the evidence as observational rather than causal. The paper appears in Technology in Society.",
+      "authors": [
+        "Alessandro Muscio",
+        "Sotaro Shibayama"
+      ],
+      "doi": "10.1016/j.techsoc.2026.103536",
+      "query": "AI workforce productivity enterprise China September 2026 report",
+      "tags": [
+        "AI adoption",
+        "research productivity",
+        "workforce",
+        "survey",
+        "academia"
+      ],
+      "organization": "University of Tokyo / University of Foggia",
+      "document_type": "journal article / institutional summary",
+      "language": "en"
+    },
+    {
+      "title": "Digital Realty Global Data Insights Survey Reveals Enterprise Shift from AI Strategy to Execution as Infrastructure Emerges as Top Barrier",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3363858/0/en/digital-realty-global-data-insights-survey-reveals-enterprise-shift-from-ai-strategy-to-execution-as-infrastructure-emerges-as-top-barrier.html",
+      "source": "Digital Realty",
+      "source_kind": "technical_report",
+      "category": "企業AI・Spending・Infrastructure Survey",
+      "published_at": "2026-09-17",
+      "excerpt": "Digital Realty's survey covers 2,131 IT decision-makers across 19 countries and 11 industries. It reports infrastructure as the primary AI constraint for 40% of respondents versus 9% in 2024, expected AI spending up 32%, and 63% expecting returns within six months to two years. Survey results are sponsor-reported.",
+      "query": "AI adoption ROI enterprise spending global survey September 2026",
+      "tags": [
+        "AI spending",
+        "infrastructure",
+        "enterprise AI",
+        "ROI",
+        "survey"
+      ],
+      "organization": "Digital Realty",
+      "company": "Digital Realty",
+      "document_type": "global survey release",
+      "language": "en"
+    },
+    {
+      "title": "EY survey finds that autonomous AI implementation outpaces oversight, yielding an AI governance gap",
+      "url": "https://www.ey.com/en_us/newsroom/2026/09/ey-survey-finds-that-autonomous-ai-implementation-outpaces-oversight-yielding-an-ai-governance-gap",
+      "source": "EY",
+      "source_kind": "technical_report",
+      "category": "企業AI・Agent Governance・Risk Survey",
+      "published_at": "2026-09-15",
+      "excerpt": "EY surveyed 202 U.S. senior AI leaders at public companies with at least $1B revenue. It reports 98% have formal AI policies, yet 47% say governance has been bypassed under business urgency; among agentic-AI users, 26% say they cannot detect unauthorized agents. Findings are survey self-reports.",
+      "query": "agentic AI governance risk survey September 2026",
+      "tags": [
+        "agentic AI",
+        "AI governance",
+        "risk",
+        "unauthorized agents",
+        "survey"
+      ],
+      "organization": "EY",
+      "company": "EY",
+      "document_type": "survey research release",
+      "language": "en"
+    },
+    {
+      "title": "The State of Open Source AI — v1.1",
+      "url": "https://stateofopensource.ai/",
+      "source": "State of Open Source AI",
+      "source_kind": "technical_report",
+      "category": "オープンウェイト・OSS・Ecosystem Report",
+      "excerpt": "The September 2026 v1.1 report says the best open model trails the leading closed model by about three index points at roughly 60% of its price, and eight of the ten highest-token-volume models on OpenRouter are open-weight. The report explicitly distinguishes open weights from OSI-defined open source.",
+      "query": "open source AI state report September 2026",
+      "tags": [
+        "open source AI",
+        "open weights",
+        "model economics",
+        "OpenRouter",
+        "ecosystem report"
+      ],
+      "organization": "State of Open Source AI",
+      "document_type": "ecosystem report",
+      "language": "en"
+    },
+    {
+      "title": "Artificial intelligence adoption in Chinese enterprises: Productivity effects, workforce implications, and policy challenges",
+      "url": "https://www.ilo.org/publications/artificial-intelligence-adoption-chinese-enterprises-productivity-effects",
+      "source": "International Labour Organization",
+      "source_kind": "technical_report",
+      "category": "企業AI・Productivity・Workforce・中国",
+      "published_at": "2026-09-15",
+      "excerpt": "The ILO brief combines interviews with 21 Chinese enterprises and a survey of 1,591 professionals across industries. All 21 interviewed firms were using or planning AI, and the report documents productivity examples alongside uneven measurement, skill and organizational challenges. Findings are descriptive, not a causal productivity estimate.",
+      "query": "AI workforce productivity enterprise China September 2026 report",
+      "tags": [
+        "China",
+        "AI adoption",
+        "productivity",
+        "workforce",
+        "ILO"
+      ],
+      "organization": "International Labour Organization",
+      "document_type": "research brief / survey report",
+      "language": "en"
+    },
+    {
+      "title": "UNESCO–ICOM Global Survey finds museums embracing AI, but governance and capacity lag behind",
+      "url": "https://www.unesco.org/en/articles/unesco-icom-global-survey-finds-museums-embracing-ai-governance-and-capacity-lag-behind",
+      "source": "UNESCO / ICOM",
+      "source_kind": "technical_report",
+      "category": "AI adoption・Governance・Global Survey",
+      "published_at": "2026-09-16",
+      "excerpt": "A UNESCO–ICOM survey of more than 400 museums in 90 countries reports 57% are already using AI while 55% lack an internal AI policy, strategy or guideline. Although outside industrial AI, it is retained as a cross-sector governance/adoption benchmark with broad international coverage.",
+      "query": "AI adoption ROI enterprise spending global survey September 2026",
+      "tags": [
+        "AI adoption",
+        "governance",
+        "global survey",
+        "workforce capacity",
+        "UNESCO"
+      ],
+      "organization": "UNESCO / International Council of Museums",
+      "document_type": "global survey release",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "AI-assisted design CAD CAE CFD FEA PLM MBSE neural operator surrogate September 2026",
+    "turbomachinery CFD neural operator optimization September 2026 arXiv",
+    "Simulink MATLAB engineering agent MCP September 2026 release",
+    "engineering AI requirements verification lifecycle MCP September 2026 official",
+    "AI agents coding multi-agent workflow enterprise September 2026 official",
+    "MCP agent protocol enterprise infrastructure September 2026",
+    "coding agent self-hosted AgentOps runtime September 2026",
+    "latest AI model open weights China September 2026 official",
+    "Qwen multimodal agent model September 2026 official",
+    "open source AI state report September 2026",
+    "AI adoption ROI enterprise spending global survey September 2026",
+    "agentic AI governance risk survey September 2026",
+    "AI workforce productivity enterprise China September 2026 report",
+    "scientific AI materials autonomous laboratory September 2026",
+    "materials AI lightweight agent crystal design September 2026",
+    "HPC GPU inference routing agent infrastructure September 2026",
+    "Japan government AI OSS agent September 2026",
+    "China Europe Japan non-US AI models agents infrastructure September 2026"
+  ],
+  "warnings": [
+    "Recent research handoffs for 2026-09-14 through 2026-09-18 and the same-day 2026-09-21 company handoff were checked for obvious URL/event duplication. Simple repeats were suppressed; material implementation follow-ups such as Z.ai's GLM inference-infrastructure disclosure were retained.",
+    "Vendor benchmarks, deployment outcomes and survey statements are retained as source-reported facts and labeled conservatively in excerpts where material; they should not be read as independently reproduced results.",
+    "The turbomachinery neural-operator arXiv deposit is newly indexed in the current lookback, but the underlying journal article predates this Scout window; the excerpt explicitly marks that provenance so it is not mistaken for a new research result.",
+    "The State of Open Source AI v1.1 page identifies the edition as September 2026 but does not expose a reliable exact publication day, so published_at is omitted rather than invented.",
+    "Execution metadata counts the 18 planned lane-level discovery queries; additional source verification, date checks and duplicate-control lookups were performed but are not included in executed_query_count."
+  ],
+  "checked_sources": [
+    {
+      "name": "engineering_ai",
+      "status": "found",
+      "query": "AI-assisted design CAD CAE CFD FEA PLM MBSE neural operator surrogate September 2026"
+    },
+    {
+      "name": "agents_enterprise",
+      "status": "found",
+      "query": "AI agents coding multi-agent workflow enterprise September 2026 official"
+    },
+    {
+      "name": "models_open_weights",
+      "status": "found",
+      "query": "latest AI model open weights China September 2026 official"
+    },
+    {
+      "name": "reports_surveys",
+      "status": "found",
+      "query": "AI adoption ROI enterprise spending global survey September 2026"
+    },
+    {
+      "name": "scientific_wildcards",
+      "status": "found",
+      "query": "scientific AI materials autonomous laboratory September 2026"
+    },
+    {
+      "name": "non_us_rotation",
+      "status": "found",
+      "query": "China Europe Japan non-US AI models agents infrastructure September 2026"
+    }
+  ],
+  "research_plan": {
+    "lookback_days": 30,
+    "query_lanes": {
+      "engineering_ai": {
+        "target_queries": 4,
+        "coverage": [
+          "neural operator / CFD",
+          "engineering agents for MATLAB/Simulink",
+          "requirements-to-verification engineering AI",
+          "MBSE/CAD-CAE adjacent workflows"
+        ]
+      },
+      "agents_enterprise": {
+        "target_queries": 3,
+        "coverage": [
+          "coding and multi-agent orchestration",
+          "MCP / agent infrastructure",
+          "AgentOps / self-hosted enterprise agents"
+        ]
+      },
+      "models_open_weights": {
+        "target_queries": 3,
+        "coverage": [
+          "DeepSeek V4.1 Flash",
+          "Qwen multimodal models",
+          "open-source/open-weight ecosystem"
+        ]
+      },
+      "reports_surveys": {
+        "target_queries": 3,
+        "coverage": [
+          "AI infrastructure spending / constraints",
+          "agentic AI governance",
+          "workforce / adoption surveys"
+        ]
+      },
+      "scientific_wildcards": {
+        "target_queries": 3,
+        "coverage": [
+          "autonomous materials laboratories",
+          "materials discovery agents",
+          "HPC / inference infrastructure"
+        ]
+      },
+      "non_us_rotation": {
+        "target_queries": 2,
+        "coverage": [
+          "Japan government AI / OSS",
+          "China and broader non-US models, infrastructure and adoption"
+        ]
+      }
+    },
+    "target_mix": {
+      "core_items": 14,
+      "reports_surveys_items": 5,
+      "wildcard_items": 8,
+      "wildcard_share": 0.296
+    },
+    "dedupe_context": {
+      "research": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18"
+      ],
+      "company": [
+        "2026-09-21"
+      ]
+    },
+    "execution": {
+      "stage": "research_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-21",
+      "started_at": "2026-09-21T06:17:53+09:00",
+      "completed_at": "2026-09-21T06:27:12+09:00",
+      "status": "complete",
+      "planned_query_count": 18,
+      "executed_query_count": 18
+    }
+  }
+}
