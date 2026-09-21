@@ -1,7 +1,7 @@
 {
   "schema": "daily-signal-published-index/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-21T07:21:55+09:00",
+  "updated_at": "2026-09-22T07:22:58+09:00",
   "retention_days": 180,
   "entries": [
     {
@@ -159,6 +159,18 @@
       "title": "Engineering AIは実行と検証へ――CAD/CAE・MBD、閉ループ材料研究、Agent予算と統治",
       "organizations": ["SimScale", "GE Aerospace", "Research collaboration", "IBM", "MathWorks", "Direction générale de l’armement / Safran Aircraft Engines", "Alibaba / Qwen", "EY", "International Labour Organization", "State of Open Source AI / Mozilla", "MTU Aero Engines / Karlsruhe Institute of Technology", "Z.ai", "デジタル庁"],
       "tags": ["デイリーダイジェスト", "Engineering AI", "CAD・CAE", "航空機エンジン", "Scientific AI", "Agent Governance", "Open-weight", "Government AI"]
+    },
+    {
+      "event_keys": ["rtx:ai-data-mro-borescope-predictive:2026-09-18", "pratt-whitney-hermeus:f100-production-license:2026-09-15", "mhi-pfn:mission-critical-ai-capital-alliance:2026-09-16", "ionq-synopsys:quantum-accelerated-cae-lsdyna:2026-09-17", "research:onera-crm-neural-field-ensemble:2026-09-15", "research:cit-cad-constraint-intent-verification:2026-09-07", "research:turbomachinery-msfo-multifidelity-surrogate:2026-09-10", "obeo:capella-mcp-ai-integration:2026-09-15", "wso2:agent-manager-ga-governance:2026-09-15", "ibm-ibv:chro-ai-workforce-study-2026:2026-09-21", "npj-comp-mat:altermagnetic-mof-ml-discovery:2026-09-14", "ricoh:atsugi-ai-digital-manufacturing-facility:2026-09-18", "kawasaki-edgecortix:aerospace-defense-edge-ai-program:2026-09-08", "oerlikon-metco:rare-earth-free-turbine-coating-development:2026-09-21", "mit:hardflow-hard-constraint-generative-optimization:2026-09-14"],
+      "published_item_ids": ["c-rtx-mro-ai", "c-hermeus-f100-license", "c-mhi-pfn-ai-alliance", "c-ionq-synopsys-cae", "r-onera-neural-field", "r-cit-cad", "r-turbomachinery-msfo", "r-obeo-capella-ai", "r-wso2-agent-manager", "r-ibm-chro-2026", "r-altermagnetic-mof", "r-ricoh-ai-factory", "w-kawasaki-edgecortix", "w-oerlikon-tbc", "w-mit-hardflow"],
+      "primary_urls": ["https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro", "https://www.rtx.com/news/news-center/2026/09/15/hermeus-to-manufacture-pratt-whitneys-f100-pw-229-engine-under-new-production", "https://www.mhi.com/news/26091602.html", "https://www.ionq.com/news/ionq-demonstrates-computer-aided-engineering-workload-acceleration-by-up-to-14-6-with-quantum-technology", "https://arxiv.org/abs/2609.17160", "https://arxiv.org/abs/2609.07434", "https://arxiv.org/abs/2609.11111", "https://news.obeosoft.com/en/post/webinar-ai-for-capella-connect-capella-to-your-ai-ecosystem", "https://wso2.com/about/news/wso2-agent-manager-sovereign-ai-governance/", "https://newsroom.ibm.com/2026-09-21-new-ibm-chro-study-ai-puts-critical-thinking-at-the-center-of-workforce-priorities", "https://www.nature.com/articles/s41524-026-02323-3", "https://www.ricoh.com/release/2026/0918_1", "https://www.edgecortix.com/en/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries", "https://www.reuters.com/business/aerospace-defense/aerospace-suppliers-test-rare-earth-alternatives-ease-reliance-china-2026-09-21/", "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914"],
+      "article_repository": "naoyamd/daily-signal",
+      "article_path": "content/daily/2026-09-22-daily-signal.md",
+      "article_commit": "e88ff67b5f3d34f63d22f29d7845b59f06722193",
+      "published_at": "2026-09-22T07:22:58+09:00",
+      "title": "Engineering AIは検証可能な実行へ――MRO、量子CAE、制約CAD、Agent統治の実装境界",
+      "organizations": ["RTX / Pratt & Whitney / Collins Aerospace", "Pratt & Whitney / Hermeus", "Mitsubishi Heavy Industries / Preferred Networks", "IonQ / Synopsys", "Research collaboration / ONERA challenge", "Research collaboration", "Obeo", "WSO2", "IBM Institute for Business Value / Oxford Economics", "Beijing Institute of Technology research team", "Ricoh", "Kawasaki Heavy Industries / EdgeCortix", "Oerlikon Metco", "Massachusetts Institute of Technology research team"],
+      "tags": ["デイリーダイジェスト", "Engineering AI", "航空MRO", "CAD・CAE", "AIによる設計", "Scientific AI", "Agent Governance", "Industrial AI"]
     }
   ],
   "warnings": []
