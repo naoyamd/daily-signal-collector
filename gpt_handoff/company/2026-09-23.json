@@ -1,0 +1,493 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-23T06:10:54+09:00",
+  "items": [
+    {
+      "title": "喜报！AES100发动机获唯一特等奖",
+      "url": "https://slae.aecc.cn/aecc/xwzx/jtyw/2026092216480883373/index.html",
+      "source": "Aero Engine Corporation of China (AECC)",
+      "source_kind": "official",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-12",
+      "excerpt": "AECC reports six 2026 Chinese Society of Aeronautics and Astronautics science-and-technology awards. The AES100 civil turboshaft won the sole grand prize; other awarded work covers additive manufacturing of high-temperature complex thin-wall engine parts, blade clearance/transient displacement measurement, turbine aero-thermal design/validation, and high-heat-capacity combustor liner cooling.",
+      "query": "site:aecc.cn 2026-09 航空 发动机 新闻 技术 制造",
+      "tags": [
+        "AES100",
+        "turboshaft",
+        "additive manufacturing",
+        "turbine aero-thermal design",
+        "combustor cooling",
+        "engine testing"
+      ],
+      "organization": "Aero Engine Corporation of China (AECC)",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "document_type": "official technology award news",
+      "language": "zh"
+    },
+    {
+      "title": "CEO: 737-10 certification ‘very soon,’ more to do to stabilize production",
+      "url": "https://www.boeing.com/features/2026/09/ceo-737-10-certification-very-soon-more-to-do-to-stabilize-production",
+      "source": "Boeing",
+      "source_kind": "official",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-16",
+      "excerpt": "Boeing says 737-10 flight testing is complete and the program is in final FAA documentation; 777-9 testing continues toward first delivery in 2027. Boeing also says 737 production is running at Rate 47 but not yet stable, 787 is stable at Rate 8 and targeting Rate 10, with a second 787 assembly facility under construction for future rate increases.",
+      "query": "site:boeing.com/features/2026/09 Boeing aircraft manufacturing engineering September 2026",
+      "tags": [
+        "737-10",
+        "certification",
+        "777-9",
+        "production rate",
+        "787",
+        "FAA"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "corporate program and production update",
+      "language": "en"
+    },
+    {
+      "title": "Boeing, American Airlines Complete First 737 MAX Landing Gear Exchange",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-American-Airlines-Complete-First-737-MAX-Landing-Gear-Exchange/default.aspx",
+      "source": "Boeing",
+      "source_kind": "press_release",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-14",
+      "excerpt": "Boeing and American Airlines completed the first landing-gear exchange for a 737 MAX, extending Boeing’s exchange program to the MAX platform. Boeing says the program supplies fully overhauled, Boeing-certified main and nose gear assemblies ready for installation, intended to reduce aircraft-on-ground time and improve maintenance predictability.",
+      "query": "site:boeing.com 2026 September 737 MAX landing gear exchange MRO",
+      "tags": [
+        "737 MAX",
+        "MRO",
+        "landing gear",
+        "exchange program",
+        "maintenance"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "MRO program announcement",
+      "language": "en"
+    },
+    {
+      "title": "Associate Digital Engineering (DE) Process Engineer",
+      "url": "https://jobs.boeing.com/en/job/berkeley/associate-digital-engineering-de-process-engineer/185/100040703056",
+      "source": "Boeing",
+      "source_kind": "official",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-01",
+      "excerpt": "A Boeing Defense, Space & Security posting for its Air Dominance Digital Engineering team states that a proprietary program is maturing a next-generation Digital Engineering and PLM system for engineering and manufacturing. Boeing describes it as a foundation for Model-Based Engineering, additive manufacturing and cross-discipline collaboration.",
+      "query": "Boeing September 2026 aerospace manufacturing digital engineering technology",
+      "tags": [
+        "digital engineering",
+        "PLM",
+        "model-based engineering",
+        "additive manufacturing",
+        "Air Dominance"
+      ],
+      "organization": "Boeing Defense, Space & Security",
+      "company": "Boeing",
+      "document_type": "official job posting / capability signal",
+      "language": "en"
+    },
+    {
+      "title": "Liebherr-Aerospace and China Airlines reach an agreement for Airbus A350 nose landing gear overhaul",
+      "url": "https://www.liebherr.com/en-hk/n/liebherr-aerospace-and-china-airlines-reach-an-agreement-for-airbus-a350-nose-landing-gear-overhaul-288512-5221574",
+      "source": "Liebherr-Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-09-22",
+      "excerpt": "Liebherr-Aerospace will provide exchange and overhaul support for the nose landing gear on China Airlines’ 18-aircraft A350 fleet, with the campaign starting in 2026 and continuing through 2031. China Airlines is the launch customer in Asia for Liebherr’s A350 nose-landing-gear overhaul program; the gear was developed, manufactured and certified by Liebherr-Aerospace Lindenberg.",
+      "query": "site:liebherr.com \"China Airlines\" \"nose landing gear\" 2026",
+      "tags": [
+        "MRO",
+        "A350",
+        "landing gear",
+        "overhaul",
+        "asset exchange"
+      ],
+      "organization": "Liebherr-Aerospace",
+      "company": "Liebherr-Aerospace",
+      "document_type": "MRO agreement",
+      "language": "en"
+    },
+    {
+      "title": "DCS Awarded Prime Position on $85M Air Force IDIQ for Aerospace Systems Research",
+      "url": "https://dcscorp.com/dcs-awarded-prime-position-on-85m-air-force-idiq-for-aerospace-systems-research/",
+      "source": "DCS Corporation",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-16",
+      "excerpt": "Discovery candidate: DCS won a prime position on an $85M-ceiling AFRL IDIQ for Digital System-Level Mission-Driven Integrated Design Methods for Aerospace Systems (VOLARE). DCS says the work will enable a vehicle-system design product and thermal-management-system design methodologies, directly aligning with digital engineering and multidisciplinary aerospace design.",
+      "query": "site:dcscorp.com September 2026 VOLARE aerospace systems design DCS",
+      "tags": [
+        "discovery_candidate",
+        "digital engineering",
+        "system-level design",
+        "thermal management",
+        "AFRL",
+        "aerospace design"
+      ],
+      "organization": "DCS Corporation",
+      "company": "DCS Corporation",
+      "document_type": "contract award / engineering R&D",
+      "language": "en"
+    },
+    {
+      "title": "AML3D joins A$3.9M Advanced Aerospace Manufacturing Project",
+      "url": "https://aml3d.com/aml3d-joins-advanced-aerospace-manufacturing-project",
+      "source": "AML3D",
+      "source_kind": "press_release",
+      "category": "航空機材料・製造",
+      "published_at": "2026-09-22",
+      "excerpt": "Discovery candidate: AML3D joined a three-year A$3.89M aerospace R&D project with an unnamed aerospace prime and research partners to qualify its Wire-Arc Additive Manufacturing process for aerospace tooling production. AML3D already holds AS9100D accreditation; the project creates a formal qualification path toward aerospace tooling supply.",
+      "query": "site:aml3d.com September 2026 aerospace tooling qualification WAM",
+      "tags": [
+        "discovery_candidate",
+        "wire-arc additive manufacturing",
+        "aerospace tooling",
+        "qualification",
+        "AS9100D",
+        "advanced manufacturing"
+      ],
+      "organization": "AML3D",
+      "company": "AML3D",
+      "document_type": "aerospace manufacturing R&D announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "Hanwha Aerospace aircraft engine propulsion manufacturing materials September 2026",
+    "Aero Engine Corporation of China AECC September 2026 engine turbine combustor materials manufacturing",
+    "AVIC September 2026 aircraft design manufacturing digital engineering MRO technology",
+    "Airbus September 2026 aircraft design manufacturing certification digital engineering materials",
+    "Boeing September 2026 aircraft manufacturing digital engineering certification technology",
+    "Lockheed Martin September 2026 aircraft manufacturing digital engineering additive engineering technology",
+    "Northrop Grumman September 2026 aircraft manufacturing digital engineering B-21 technology",
+    "site:aecc.cn 2026-09 航空 发动机 新闻 技术 制造",
+    "site:avic.com.cn 2026-09 航空 制造 数字 技术 维修",
+    "site:airbus.com/en/newsroom 2026-09 aircraft manufacturing certification digital engine test",
+    "site:boeing.com/features/2026/09 Boeing aircraft manufacturing engineering September 2026",
+    "site:baesystems.com September 2026 aircraft engineering manufacturing digital technology",
+    "site:leonardo.com September 2026 aircraft engineering manufacturing digital technology materials",
+    "site:avioaero.com September 2026 engine turbine additive manufacturing technology",
+    "site:liebherr.com September 2026 aerospace aircraft technology manufacturing systems",
+    "site:woodward.com September 2026 aerospace engine controls manufacturing technology",
+    "site:liebherr.com \"China Airlines\" \"nose landing gear\" 2026",
+    "September 2026 digital engineering aerospace startup simulation design",
+    "site:dcscorp.com September 2026 VOLARE aerospace systems design DCS",
+    "site:aml3d.com September 2026 aerospace tooling qualification WAM"
+  ],
+  "warnings": [
+    "Selection used the authoritative company-watch state: config blob hash matched state.watchlist_hash and next_index=32, so the mandatory rotation started with Hanwha Aerospace and covered seven sources through Northrop Grumman.",
+    "The mandatory seven yielded fewer than five verified watchlist candidate items, so five spillover sources were checked in rotation order: BAE Systems, Leonardo, Avio Aero, Liebherr-Aerospace and Woodward.",
+    "Previously captured Airbus A350F Virtual First Flight, Northrop Grumman East Gate 3, BAE Systems Shadow EW and AVIC aviation-maintenance conference items were not duplicated. Lockheed Martin Vectis and Hanwha UAV/CCA material were excluded under configured unmanned-system terms.",
+    "Forty-two web queries/refinements were executed; searched_queries records 20 representative queries to comply with the Scout contract limit. Old or undated evergreen pages were not promoted as new candidates.",
+    "Boeing's Sept. 1 Digital Engineering/PLM job posting is retained as an official capability signal because it explicitly describes a proprietary Air Dominance program's next-generation DE/PLM engineering-and-manufacturing system; it is not treated as a product announcement."
+  ],
+  "checked_sources": [
+    {
+      "name": "Hanwha Aerospace",
+      "status": "no_new_finding",
+      "query": "Hanwha Aerospace aircraft engine propulsion manufacturing materials September 2026",
+      "warning": "Official and current-web searches across the 30-day window found no qualifying new crewed-aircraft engine, propulsion, materials, manufacturing or engineering update. UAV/CCA-focused engine material was excluded under the configured drone/UAV/UAS terms; recruiting pages were not retained."
+    },
+    {
+      "name": "Aero Engine Corporation of China (AECC)",
+      "status": "found",
+      "query": "site:aecc.cn 2026-09 航空 发动机 新闻 技术 制造"
+    },
+    {
+      "name": "Aviation Industry Corporation of China (AVIC)",
+      "status": "no_new_finding",
+      "query": "site:avic.com.cn 2026-09 航空 制造 数字 技术 维修",
+      "warning": "AVIC official/current searches found no additional qualifying new aircraft-design, manufacturing, digital-engineering or MRO signal beyond the Sept. 14 aviation-maintenance conference item already captured in the Sept. 15 handoff."
+    },
+    {
+      "name": "Airbus",
+      "status": "no_new_finding",
+      "query": "site:airbus.com/en/newsroom 2026-09 aircraft manufacturing certification digital engine test",
+      "warning": "Airbus newsroom searches found no qualifying new engineering item after the A350F Virtual First Flight/certification-preparation story already captured on Sept. 15; older A350F and hybrid-electric items were not duplicated."
+    },
+    {
+      "name": "Boeing",
+      "status": "found",
+      "query": "site:boeing.com/features/2026/09 Boeing aircraft manufacturing engineering September 2026"
+    },
+    {
+      "name": "Lockheed Martin",
+      "status": "no_new_finding",
+      "query": "site:lockheedmartin.com/en-us/news/features/2026 September 2026 aircraft engineering sustainment digital twin",
+      "warning": "The recent Vectis production update is centered on an autonomous uncrewed aircraft and was excluded under configured terms. The AI sustainment feature found was dated Aug. 13, outside the 30-day lookback; no other qualifying new aircraft-engineering signal was verified."
+    },
+    {
+      "name": "Northrop Grumman",
+      "status": "no_new_finding",
+      "query": "site:northropgrumman.com September 2026 aircraft manufacturing digital engineering B-21",
+      "warning": "The Sept. 9 East Gate 3 B-21 manufacturing-capacity update was already captured in the Sept. 16 handoff. Current searches found no newer qualifying aircraft-design, manufacturing or digital-engineering item; undated B-21 capability pages were treated as evergreen background."
+    },
+    {
+      "name": "BAE Systems",
+      "status": "no_new_finding",
+      "query": "site:baesystems.com/en-us/article September 2026 aerospace aircraft manufacturing",
+      "warning": "The Sept. 15 Shadow EW airborne-systems launch was already captured in the Sept. 16 handoff. A Sept. 21 Space Force CDR item is space-only and outside this aircraft-focused company-watch scope; no additional qualifying aircraft engineering signal was verified."
+    },
+    {
+      "name": "Leonardo",
+      "status": "no_new_finding",
+      "query": "site:leonardo.com September 2026 aircraft engineering manufacturing digital technology materials",
+      "warning": "Current official and web searches across the 30-day window did not verify a new Leonardo aircraft-design, manufacturing, propulsion, materials or digital-engineering item suitable for this scout."
+    },
+    {
+      "name": "Avio Aero",
+      "status": "no_new_finding",
+      "query": "site:avioaero.com September 2026 engine turbine additive manufacturing technology",
+      "warning": "Searches returned older Avio Aero propulsion/additive-manufacturing and GCAP material, but no newly published qualifying engine, turbine, combustor, materials or manufacturing item in the 30-day window."
+    },
+    {
+      "name": "Liebherr-Aerospace",
+      "status": "found",
+      "query": "site:liebherr.com \"China Airlines\" \"nose landing gear\" 2026"
+    },
+    {
+      "name": "Woodward",
+      "status": "no_new_finding",
+      "query": "site:woodward.com September 2026 aerospace engine controls manufacturing technology",
+      "warning": "Recent Woodward official results were investor/dividend material or older portfolio/MRO announcements; no qualifying new aerospace controls, propulsion, manufacturing or MRO technology signal was verified in the 30-day window."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "selection_basis": "Authoritative gpt_handoff/state/company-watch.json; watchlist_hash matched config/sources.yaml blob 388e7404e43bb186fcde3ef47b7d060027efae7c.",
+      "active_sources": [
+        {
+          "name": "Hanwha Aerospace",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "hanwhaaerospace.com"
+          ]
+        },
+        {
+          "name": "Aero Engine Corporation of China (AECC)",
+          "category": "航空機エンジン",
+          "domains": [
+            "aecc.cn"
+          ]
+        },
+        {
+          "name": "Aviation Industry Corporation of China (AVIC)",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "avic.com.cn"
+          ]
+        },
+        {
+          "name": "Airbus",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "airbus.com"
+          ]
+        },
+        {
+          "name": "Boeing",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "boeing.com"
+          ]
+        },
+        {
+          "name": "Lockheed Martin",
+          "category": "軍用航空機",
+          "domains": [
+            "lockheedmartin.com"
+          ]
+        },
+        {
+          "name": "Northrop Grumman",
+          "category": "軍用航空機",
+          "domains": [
+            "northropgrumman.com"
+          ]
+        }
+      ],
+      "spillover_sources": [
+        {
+          "name": "BAE Systems",
+          "category": "軍用航空機",
+          "domains": [
+            "baesystems.com"
+          ]
+        },
+        {
+          "name": "Leonardo",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "leonardo.com"
+          ]
+        },
+        {
+          "name": "Avio Aero",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "avioaero.com"
+          ]
+        },
+        {
+          "name": "Liebherr-Aerospace",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "liebherr.com"
+          ]
+        },
+        {
+          "name": "Woodward",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "woodward.com"
+          ]
+        }
+      ],
+      "discovery_organizations": [
+        {
+          "name": "DCS Corporation",
+          "reason": "Current AFRL VOLARE work is explicitly centered on digital system-level mission-driven integrated design methods, vehicle-system design and thermal-management design methodology."
+        },
+        {
+          "name": "AML3D",
+          "reason": "Current aerospace-prime R&D is moving certified wire-arc additive manufacturing into a formal qualification path for aerospace tooling, making it a useful advanced-manufacturing watch candidate."
+        }
+      ],
+      "cursor_start": 32,
+      "cursor_next": 44
+    },
+    "priority_areas": [
+      {
+        "name": "AIによる設計",
+        "share": 30,
+        "scope": "生成設計・設計支援AI・最適化・MDO・サロゲートモデル"
+      },
+      {
+        "name": "大手航空機メーカー",
+        "share": 25,
+        "scope": "民間・軍用航空機の設計・製造・認証・試験"
+      },
+      {
+        "name": "航空機用エンジン",
+        "share": 25,
+        "scope": "タービン・燃焼器・材料・推進・保守・設計解析"
+      },
+      {
+        "name": "CAD・CAE",
+        "share": 20,
+        "scope": "CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド"
+      }
+    ],
+    "exclude_terms": [
+      "drone",
+      "UAV",
+      "UAS",
+      "eVTOL",
+      "air taxi",
+      "urban air mobility",
+      "ドローン",
+      "無人機",
+      "空飛ぶクルマ"
+    ],
+    "domain_groups": {
+      "ai_design_research": [
+        "ntrs.nasa.gov",
+        "nasa.gov",
+        "jaxa.jp",
+        "nims.go.jp",
+        "aist.go.jp",
+        "arc.aiaa.org",
+        "asmedigitalcollection.asme.org",
+        "sae.org"
+      ],
+      "civil_aircraft": [
+        "airbus.com",
+        "boeing.com",
+        "embraer.com",
+        "dassault-aviation.com",
+        "bombardier.com",
+        "comac.cc",
+        "mhi.com",
+        "subaru.co.jp",
+        "gknaerospace.com",
+        "spiritaero.com"
+      ],
+      "military_aircraft": [
+        "lockheedmartin.com",
+        "northropgrumman.com",
+        "boeing.com",
+        "airbus.com",
+        "baesystems.com",
+        "leonardo.com",
+        "saab.com",
+        "dassault-aviation.com",
+        "mhi.com",
+        "global.kawasaki.com",
+        "subaru.co.jp",
+        "avic.com.cn"
+      ],
+      "aircraft_engines": [
+        "geaerospace.com",
+        "rtx.com",
+        "rolls-royce.com",
+        "safran-group.com",
+        "mtu.de",
+        "ihi.co.jp",
+        "cfmaeroengines.com",
+        "honeywellaerospace.com",
+        "hanwhaaerospace.com",
+        "aecc.cn",
+        "avioaero.com"
+      ],
+      "cad_cae": [
+        "ansys.com",
+        "siemens.com",
+        "sw.siemens.com",
+        "3ds.com",
+        "altair.com",
+        "cadence.com",
+        "comsol.com",
+        "esi-group.com",
+        "keysight.com",
+        "mscsoftware.com",
+        "numeca.de",
+        "hexagon.com",
+        "ptc.com",
+        "autodesk.com",
+        "nvidia.com"
+      ],
+      "engineering_services": [
+        "siemens-energy.com",
+        "bakerhughes.com",
+        "power.mhi.com",
+        "solarturbines.com",
+        "chromalloy.com",
+        "questglobal.com",
+        "cyient.com",
+        "capgemini.com"
+      ],
+      "aerospace_supply_chain": [
+        "gknaerospace.com",
+        "liebherr.com",
+        "woodward.com",
+        "parker.com",
+        "howmet.com",
+        "precast.com",
+        "atimaterials.com",
+        "spiritaero.com"
+      ]
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-23",
+      "started_at": "2026-09-23T06:09:07+09:00",
+      "completed_at": "2026-09-23T06:10:54+09:00",
+      "status": "complete",
+      "planned_query_count": 42,
+      "executed_query_count": 42
+    }
+  }
+}
