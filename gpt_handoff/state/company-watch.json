@@ -1,17 +1,17 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-09-23T06:10:54+09:00",
+  "updated_at": "2026-09-24T06:16:04+09:00",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 44,
+  "next_index": 7,
   "last_checked": {
-    "Siemens Digital Industries Software": "2026-09-17T06:20:00+09:00",
-    "Ansys": "2026-09-17T06:20:00+09:00",
-    "Dassault Systèmes": "2026-09-17T06:20:00+09:00",
-    "Hexagon AB": "2026-09-17T06:20:00+09:00",
-    "Altair Engineering": "2026-09-17T06:20:00+09:00",
-    "Cadence Design Systems": "2026-09-17T06:20:00+09:00",
-    "Autodesk": "2026-09-18T06:11:00+09:00",
+    "Siemens Digital Industries Software": "2026-09-24T06:16:04+09:00",
+    "Ansys": "2026-09-24T06:16:04+09:00",
+    "Dassault Systèmes": "2026-09-24T06:16:04+09:00",
+    "Hexagon AB": "2026-09-24T06:16:04+09:00",
+    "Altair Engineering": "2026-09-24T06:16:04+09:00",
+    "Cadence Design Systems": "2026-09-24T06:16:04+09:00",
+    "Autodesk": "2026-09-24T06:16:04+09:00",
     "MSC Software": "2026-09-18T06:11:00+09:00",
     "COMSOL": "2026-09-18T06:11:00+09:00",
     "ESI Group": "2026-09-18T06:11:00+09:00",
@@ -49,23 +49,23 @@
     "Avio Aero": "2026-09-23T06:10:54+09:00",
     "Liebherr-Aerospace": "2026-09-23T06:10:54+09:00",
     "Woodward": "2026-09-23T06:10:54+09:00",
-    "Parker Aerospace": "2026-09-16T06:10:53+09:00",
-    "Howmet Aerospace": "2026-09-16T06:10:53+09:00",
-    "Precision Castparts": "2026-09-16T06:10:53+09:00",
-    "ATI (ATI Inc.)": "2026-09-16T06:10:53+09:00",
-    "Spirit AeroSystems": "2026-09-17T06:20:00+09:00"
+    "Parker Aerospace": "2026-09-24T06:16:04+09:00",
+    "Howmet Aerospace": "2026-09-24T06:16:04+09:00",
+    "Precision Castparts": "2026-09-24T06:16:04+09:00",
+    "ATI (ATI Inc.)": "2026-09-24T06:16:04+09:00",
+    "Spirit AeroSystems": "2026-09-24T06:16:04+09:00"
   },
   "last_run": {
-    "local_date": "2026-09-23",
-    "path": "gpt_handoff/company/2026-09-23.json",
-    "commit": "19488580dce0586724888acfeb5f241509deeb04",
+    "local_date": "2026-09-24",
+    "path": "gpt_handoff/company/2026-09-24.json",
+    "commit": "127338dd532c148defc194d4c855edc3ea1330df",
     "status": "complete",
     "checked_source_count": 12,
-    "candidate_item_count": 7
+    "candidate_item_count": 6
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-09-23 checked seven mandatory sources starting at index 32; fewer than five verified watchlist items were found, so five spillover sources were also checked and advanced.",
-    "Next mandatory cursor is Parker Aerospace at index 44."
+    "2026-09-24 checked seven mandatory sources starting at index 44; fewer than five verified watchlist items were found, so five spillover sources were also checked and advanced.",
+    "Next mandatory cursor is MSC Software at index 7."
   ]
 }
