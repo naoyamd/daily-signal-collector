@@ -1,0 +1,375 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-09-25T06:19:30+09:00",
+  "items": [
+    {
+      "title": "Baker Hughes and Venture Global Advance Next Phase of U.S. Gas Infrastructure Growth",
+      "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-and-Venture-Global-Advance-Next-Phase-of-U-S--Gas-Infrastructure-Growth/default.aspx",
+      "source": "Baker Hughes",
+      "source_kind": "press_release",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-09-13",
+      "excerpt": "Baker Hughes says the Cloud Connector Pipeline award includes 13 gas-compression systems driven by Frame 5/2E gas turbines. A separate Plaquemines LNG expansion award covers four liquefaction blocks/eight modules using electric-driven SMR trains with Baker Hughes centrifugal compressors, cold boxes and integrated controls.",
+      "query": "site:investors.bakerhughes.com/news/press-releases September 2026 gas compression systems Venture Global",
+      "tags": [
+        "gas turbine",
+        "centrifugal compressor",
+        "LNG",
+        "turbomachinery",
+        "modular liquefaction"
+      ],
+      "organization": "Baker Hughes",
+      "company": "Baker Hughes",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Chromalloy and Lufthansa Technik Achieve Fifth V2500 Select PMA Approval with New High Pressure Turbine Stage 1 Blade",
+      "url": "https://www.chromalloy.com/chromalloy-and-lufthansa-technik-achieve-fifth-v2500-select-pma-approval-with-new-high-pressure-turbine-stage-1-blade/",
+      "source": "Chromalloy",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・MRO",
+      "published_at": "2026-09-22",
+      "excerpt": "Chromalloy announced FAA PMA certification of a new V2500 Select high-pressure-turbine Stage 1 blade, the fifth V2500 approval with Lufthansa Technik. It says the program added anti-corrosion and multilayer thermal-barrier coating capability plus in-house smelting, casting, machining and coating, with production ramping into 2027.",
+      "query": "site:chromalloy.com September 2026 V2500 Select PMA high pressure turbine Stage 1 blade",
+      "tags": [
+        "V2500",
+        "HPT blade",
+        "PMA",
+        "FAA certification",
+        "thermal barrier coating",
+        "MRO",
+        "casting"
+      ],
+      "organization": "Chromalloy / Lufthansa Technik",
+      "company": "Chromalloy",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "IBM Ventures Invests in BQP as Quantum-Algorithm Physics Acceleration Reaches Production",
+      "url": "https://www.prnewswire.com/news-releases/ibm-ventures-invests-in-bqp-as-quantum-algorithm-physics-acceleration-reaches-production-302867284.html",
+      "source": "BQP / PR Newswire",
+      "source_kind": "press_release",
+      "category": "Scientific AI・CAE",
+      "published_at": "2026-09-02",
+      "excerpt": "Discovery candidate: BQP announced an IBM Ventures investment to scale BQPhy, a physics-acceleration platform already used with aerospace/defense customers, from engineering design into operational decision workflows. Its focus on full-physics computation, optimization and future quantum integration makes BQP a high-value emerging CAE/scientific-AI watch source.",
+      "query": "site:bqp.ai September 2026 IBM Ventures physics acceleration aerospace official",
+      "tags": [
+        "discovery_candidate",
+        "scientific AI",
+        "physics acceleration",
+        "CAE",
+        "aerospace defense",
+        "quantum algorithms"
+      ],
+      "organization": "BQP",
+      "company": "BQP",
+      "document_type": "funding and technology announcement",
+      "language": "en"
+    },
+    {
+      "title": "Venus Aerospace Opens New Propulsion Test Stand at Houston Spaceport",
+      "url": "https://www.venusaero.com/newsroom/venus-aerospace-opens-new-propulsion-test-stand-at-houston-spaceport",
+      "source": "Venus Aerospace",
+      "source_kind": "press_release",
+      "category": "推進・試験技術",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: Venus Aerospace opened a propulsion test stand at Houston Spaceport for higher-thrust, longer-duration hot-fire testing under more mission-like conditions, including its rotating-detonation rocket engine. The recurring RDRE development and propulsion-test infrastructure make it a strong advanced-propulsion watch candidate.",
+      "query": "site:venusaero.com September 2026 propulsion test stand rotating detonation engine official",
+      "tags": [
+        "discovery_candidate",
+        "rotating detonation engine",
+        "propulsion testing",
+        "hypersonics",
+        "aerospace"
+      ],
+      "organization": "Venus Aerospace",
+      "company": "Venus Aerospace",
+      "document_type": "facility and propulsion technology announcement",
+      "language": "en"
+    },
+    {
+      "title": "Aerospace suppliers test rare-earth alternatives to ease reliance on China",
+      "url": "https://www.reuters.com/business/aerospace-defense/aerospace-suppliers-test-rare-earth-alternatives-ease-reliance-china-2026-09-21/",
+      "source": "Reuters",
+      "source_kind": "news",
+      "category": "航空機材料・タービン",
+      "published_at": "2026-09-21",
+      "excerpt": "Discovery candidate: Reuters reports Oerlikon Metco already sells rare-earth-free thermal-barrier coatings and has further zirconia-based Mg/Ca-oxide systems in development as aerospace suppliers respond to rare-earth shortages. Its direct role in turbine-coating materials and substitution R&D makes Oerlikon Metco a strong watchlist candidate.",
+      "query": "site:oerlikon.com September 2026 Metco rare-earth-free turbine coatings aerospace official",
+      "tags": [
+        "discovery_candidate",
+        "thermal barrier coating",
+        "rare earths",
+        "zirconia",
+        "turbine materials",
+        "supply chain"
+      ],
+      "organization": "Oerlikon Metco",
+      "company": "Oerlikon Metco",
+      "document_type": "industry news",
+      "language": "en"
+    },
+    {
+      "title": "Stratasys Brings Production-Proven Additive Manufacturing to IMTS 2026 Across Aerospace, Defense, Automotive and Healthcare Applications",
+      "url": "https://investors.stratasys.com/news-events/press-releases/detail/992/stratasys-brings-production-proven-additive-manufacturing",
+      "source": "Stratasys",
+      "source_kind": "press_release",
+      "category": "製造技術・航空宇宙",
+      "published_at": "2026-09-10",
+      "excerpt": "Discovery candidate: Stratasys outlined production additive workflows for aerospace/defense at IMTS, including the F870 1 m heated-chamber FDM system with Nylon 12CF support and an Additive App Suite for rapid fixture/tooling design. Its production hardware, qualified materials and digital-manufacturing updates make it useful for advanced-manufacturing monitoring.",
+      "query": "Stratasys IMTS 2026 aerospace additive manufacturing September 2026 official",
+      "tags": [
+        "discovery_candidate",
+        "additive manufacturing",
+        "aerospace manufacturing",
+        "tooling",
+        "composites",
+        "digital manufacturing"
+      ],
+      "organization": "Stratasys",
+      "company": "Stratasys",
+      "document_type": "product and manufacturing announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:cadence.com OR site:mscsoftware.com \"MSC Software\" September 2026 aerospace simulation CAE digital engineering",
+    "site:comsol.com September 2026 aerospace simulation multiphysics CFD materials COMSOL",
+    "site:keysight.com OR site:esi-group.com September 2026 \"ESI Group\" simulation aerospace virtual prototyping manufacturing",
+    "site:cadence.com OR site:numeca.de September 2026 NUMECA turbomachinery CFD aerospace Fidelity",
+    "site:siemens-energy.com September 2026 gas turbine additive manufacturing digital twin hydrogen turbine service",
+    "site:investors.bakerhughes.com/news/press-releases September 2026 gas compression systems Venture Global",
+    "site:power.mhi.com OR site:mhi.com September 2026 Mitsubishi Power gas turbine hydrogen combustion digital twin manufacturing",
+    "site:solarturbines.com September 2026 gas turbine Taurus Titan digital services emissions",
+    "site:chromalloy.com September 2026 turbine engine MRO coating additive manufacturing aerospace",
+    "site:questglobal.com September 2026 aerospace engineering digital twin CAE manufacturing",
+    "site:cyient.com September 2026 aerospace engineering AI digital twin manufacturing",
+    "site:capgemini.com September 2026 aerospace engineering AI digital twin MBSE manufacturing Capgemini Engineering",
+    "September 2026 aerospace engineering AI simulation startup press release CAD CAE scientific AI",
+    "September 2026 aerospace materials additive manufacturing startup official press release turbine",
+    "September 2026 propulsion materials manufacturing technology company aerospace official",
+    "September 2026 \"physics AI\" engineering simulation company aerospace",
+    "site:bqp.ai September 2026 IBM Ventures physics acceleration aerospace official",
+    "site:venusaero.com September 2026 propulsion test stand rotating detonation engine official",
+    "site:oerlikon.com September 2026 Metco rare-earth-free turbine coatings aerospace official",
+    "Stratasys IMTS 2026 aerospace additive manufacturing September 2026 official"
+  ],
+  "warnings": [
+    "Authoritative company-watch state was valid and its watchlist_hash matched config/sources.yaml. Seven mandatory sources were checked starting at index 7; because fewer than five qualifying watchlist items were verified, five spillover sources were checked and advanced under policy.",
+    "The COMSOL Multiphysics 2027 announcement and Siemens Energy SGT-800 demonstrator were already captured on 2026-09-18, and Quest Global's September 16 AI appointment was already captured on 2026-09-21; they were not duplicated. Previously captured SimScale and PhysicsX discovery items were also skipped.",
+    "Baker Hughes' September 13 Venture Global release remained within the 30-day lookback and was retained now to close a recall gap from the prior Baker Hughes check.",
+    "Undated evergreen pages were not promoted. Configured UAV/drone/eVTOL exclusions were applied; unrelated excluded-use material was ignored even when a broader manufacturing release was otherwise relevant.",
+    "57 web search queries were executed including refinements and reverse-discovery searches; searched_queries records 20 representative queries to comply with the strict contract cap."
+  ],
+  "checked_sources": [
+    {
+      "name": "MSC Software",
+      "status": "no_new_finding",
+      "query": "site:cadence.com OR site:mscsoftware.com \"MSC Software\" September 2026 aerospace simulation CAE digital engineering",
+      "warning": "No qualifying newly published MSC-specific CAE, structural, multibody or aerospace-engineering item was verified in the lookback window; current results were primarily ownership, event or evergreen surfaces."
+    },
+    {
+      "name": "COMSOL",
+      "status": "no_new_finding",
+      "query": "site:comsol.com September 2026 aerospace simulation multiphysics CFD materials COMSOL",
+      "warning": "The September 16 COMSOL Multiphysics 2027 AI/system-modeling release was already captured in the 2026-09-18 handoff; no distinct newer qualifying item was verified."
+    },
+    {
+      "name": "ESI Group",
+      "status": "no_new_finding",
+      "query": "site:keysight.com OR site:esi-group.com September 2026 \"ESI Group\" simulation aerospace virtual prototyping manufacturing",
+      "warning": "Recent Keysight results were not ESI-specific and ESI searches mainly surfaced legacy integration or evergreen virtual-prototyping material; no qualifying new dated item was verified."
+    },
+    {
+      "name": "NUMECA International",
+      "status": "no_new_finding",
+      "query": "site:cadence.com OR site:numeca.de September 2026 NUMECA turbomachinery CFD aerospace Fidelity",
+      "warning": "No distinct new NUMECA/Fidelity CFD or turbomachinery item was verified; the relevant September Cadence turbomachinery signal had already been captured in an earlier handoff."
+    },
+    {
+      "name": "Siemens Energy",
+      "status": "no_new_finding",
+      "query": "site:siemens-energy.com September 2026 gas turbine additive manufacturing digital twin hydrogen turbine service",
+      "warning": "The recent SGT-800 industrial demonstrator signal was already captured on 2026-09-18; no newer qualifying gas-turbine, digital-engineering or service technology item was verified."
+    },
+    {
+      "name": "Baker Hughes",
+      "status": "found",
+      "query": "site:investors.bakerhughes.com/news/press-releases September 2026 gas compression systems Venture Global"
+    },
+    {
+      "name": "Mitsubishi Power",
+      "status": "no_new_finding",
+      "query": "site:power.mhi.com OR site:mhi.com September 2026 Mitsubishi Power gas turbine hydrogen combustion digital twin manufacturing",
+      "warning": "No clearly dated new Mitsubishi Power gas-turbine, hydrogen-combustion, digital-engineering or lifecycle-service technology signal was verified in the lookback window."
+    },
+    {
+      "name": "Solar Turbines",
+      "status": "no_new_finding",
+      "query": "site:solarturbines.com September 2026 gas turbine Taurus Titan digital services emissions",
+      "warning": "Solar Turbines news and technology surfaces did not yield a qualifying newly published turbine, controls or lifecycle-service signal; evergreen product pages were not promoted."
+    },
+    {
+      "name": "Chromalloy",
+      "status": "found",
+      "query": "site:chromalloy.com September 2026 V2500 Select PMA high pressure turbine Stage 1 blade"
+    },
+    {
+      "name": "Quest Global",
+      "status": "no_new_finding",
+      "query": "site:questglobal.com September 2026 aerospace engineering digital twin CAE manufacturing",
+      "warning": "Quest Global's September 16 AI appointment was already captured on 2026-09-21; no distinct newer qualifying aerospace or digital-engineering technical item was verified."
+    },
+    {
+      "name": "Cyient",
+      "status": "no_new_finding",
+      "query": "site:cyient.com September 2026 aerospace engineering AI digital twin manufacturing",
+      "warning": "Recent Cyient results were promotional, corporate-positioning or hiring material rather than a new dated aerospace/engineering technical development; no item was promoted."
+    },
+    {
+      "name": "Capgemini Engineering",
+      "status": "no_new_finding",
+      "query": "site:capgemini.com September 2026 aerospace engineering AI digital twin MBSE manufacturing Capgemini Engineering",
+      "warning": "No distinct new Capgemini Engineering aerospace, MBSE, digital-twin or engineering-AI technical signal was verified beyond material already reviewed in prior handoffs."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "selection_basis": "Authoritative gpt_handoff/state/company-watch.json was valid and its watchlist_hash matched config/sources.yaml blob 388e7404e43bb186fcde3ef47b7d060027efae7c; mandatory rotation started at next_index=7.",
+      "active_sources": [
+        {
+          "name": "MSC Software",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "hexagon.com",
+            "mscsoftware.com"
+          ]
+        },
+        {
+          "name": "COMSOL",
+          "category": "CAD・CAE",
+          "domains": [
+            "comsol.com"
+          ]
+        },
+        {
+          "name": "ESI Group",
+          "category": "CAD・CAE",
+          "domains": [
+            "esi-group.com",
+            "keysight.com"
+          ]
+        },
+        {
+          "name": "NUMECA International",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "numeca.de"
+          ]
+        },
+        {
+          "name": "Siemens Energy",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "siemens-energy.com"
+          ]
+        },
+        {
+          "name": "Baker Hughes",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "bakerhughes.com"
+          ]
+        },
+        {
+          "name": "Mitsubishi Power",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "power.mhi.com",
+            "mhi.com"
+          ]
+        }
+      ],
+      "spillover_sources": [
+        {
+          "name": "Solar Turbines",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "solarturbines.com"
+          ]
+        },
+        {
+          "name": "Chromalloy",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "chromalloy.com"
+          ]
+        },
+        {
+          "name": "Quest Global",
+          "category": "技術サービス",
+          "domains": [
+            "questglobal.com"
+          ]
+        },
+        {
+          "name": "Cyient",
+          "category": "技術サービス",
+          "domains": [
+            "cyient.com"
+          ]
+        },
+        {
+          "name": "Capgemini Engineering",
+          "category": "技術サービス",
+          "domains": [
+            "capgemini.com"
+          ]
+        }
+      ],
+      "cursor_start": 7,
+      "cursor_next": 19
+    },
+    "priority_areas": [
+      "AIによる設計",
+      "大手航空機メーカー",
+      "航空機用エンジン",
+      "CAD・CAE"
+    ],
+    "exclude_terms": [
+      "drone",
+      "UAV",
+      "UAS",
+      "eVTOL",
+      "air taxi",
+      "urban air mobility",
+      "ドローン",
+      "無人機",
+      "空飛ぶクルマ"
+    ],
+    "domain_groups_consulted": [
+      "ai_design_research",
+      "civil_aircraft",
+      "military_aircraft",
+      "aircraft_engines",
+      "cad_cae",
+      "engineering_services",
+      "aerospace_supply_chain"
+    ],
+    "lookback_days": 30,
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-09-25",
+      "started_at": "2026-09-25T06:11:17+09:00",
+      "completed_at": "2026-09-25T06:19:30+09:00",
+      "status": "complete",
+      "planned_query_count": 12,
+      "executed_query_count": 57
+    }
+  }
+}
