@@ -1,0 +1,48 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-09-28T07:06:25+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-09-28.json",
+      "sha": null,
+      "status": "missing"
+    },
+    {
+      "path": "gpt_handoff/research/2026-09-28.json",
+      "sha": null,
+      "status": "missing"
+    }
+  ],
+  "status": "blocked",
+  "summary": [],
+  "editorial_plan": {
+    "lead_ids": [],
+    "ordered_ids": [],
+    "central_signals": [],
+    "tensions_or_caveats": [
+      "Curation blocked because both same-day Scout artifacts are missing."
+    ],
+    "desired_depth": "none"
+  },
+  "coverage_audit": {
+    "input_item_count": 0,
+    "deduplicated_item_count": 0,
+    "source_domain_count": 0,
+    "organization_count": 0,
+    "regions_observed": [],
+    "lanes": {},
+    "known_gaps": [
+      "Missing gpt_handoff/company/2026-09-28.json",
+      "Missing gpt_handoff/research/2026-09-28.json"
+    ]
+  },
+  "selected": [],
+  "wildcards": [],
+  "backlog": [],
+  "rejected": [],
+  "warnings": [
+    "Blocked: same-day Company Scout input is missing: gpt_handoff/company/2026-09-28.json.",
+    "Blocked: same-day Research Scout input is missing: gpt_handoff/research/2026-09-28.json.",
+    "No previous-day fallback was used."
+  ]
+}
