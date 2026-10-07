@@ -1,9 +1,9 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-10-07T03:48:33.534Z",
+  "updated_at": "2026-10-07T22:33:36.297Z",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 26,
+  "next_index": 33,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-09-24T06:16:04+09:00",
     "Ansys": "2026-09-24T06:16:04+09:00",
@@ -31,13 +31,13 @@
     "MTU Aero Engines": "2026-10-07T12:28:17.295+09:00",
     "CFM International": "2026-10-07T12:28:17.295+09:00",
     "Honeywell Aerospace": "2026-10-07T12:28:17.295+09:00",
-    "RTX": "2026-09-22T06:15:23+09:00",
-    "GKN Aerospace": "2026-09-22T06:15:23+09:00",
-    "Mitsubishi Heavy Industries": "2026-09-22T06:15:23+09:00",
-    "Kawasaki Heavy Industries": "2026-09-22T06:15:23+09:00",
-    "SUBARU": "2026-09-22T06:15:23+09:00",
-    "Kawasaki Heavy Industries Aerospace Systems Company": "2026-09-22T06:15:23+09:00",
-    "Hanwha Aerospace": "2026-09-23T06:10:54+09:00",
+    "RTX": "2026-10-07T22:32:29.882738+00:00",
+    "GKN Aerospace": "2026-10-07T22:32:29.882738+00:00",
+    "Mitsubishi Heavy Industries": "2026-10-07T22:32:29.882738+00:00",
+    "Kawasaki Heavy Industries": "2026-10-07T22:32:29.882738+00:00",
+    "SUBARU": "2026-10-07T22:32:29.882738+00:00",
+    "Kawasaki Heavy Industries Aerospace Systems Company": "2026-10-07T22:32:29.882738+00:00",
+    "Hanwha Aerospace": "2026-10-07T22:32:29.882738+00:00",
     "Aero Engine Corporation of China (AECC)": "2026-09-23T06:10:54+09:00",
     "Aviation Industry Corporation of China (AVIC)": "2026-09-23T06:10:54+09:00",
     "Airbus": "2026-09-23T06:10:54+09:00",
@@ -56,18 +56,18 @@
     "Spirit AeroSystems": "2026-09-24T06:16:04+09:00"
   },
   "last_run": {
-    "local_date": "2026-10-07",
-    "path": "gpt_handoff/company/2026-10-07.json",
-    "commit": "baa898f6828e83d86c695853762006a785f6f036",
+    "local_date": "2026-10-08",
+    "path": "gpt_handoff/company/2026-10-08.json",
+    "commit": "8ed3a883abe21807df17c7c54249fd8551459e5a",
     "status": "partial",
     "checked_source_count": 7,
-    "candidate_item_count": 14
+    "candidate_item_count": 17
   },
   "warnings": [
-    "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-10-07 checked seven mandatory sources starting at index 19. After supplementary repair, the same run retains fourteen dated candidates (thirteen watch-source and one Discovery); no spillover was triggered.",
-    "CFM International was checked but its dynamic press/stories content was not retrievable; the dated handoff is partial and preserves the access warning. Rolls-Royce's undated F130 story was excluded.",
-    "Next mandatory cursor is RTX at index 26.",
-    "The same-day handoff was repaired and its commit reconciled without advancing next_index again. All existing last_checked records were preserved; next_index remains 26."
+    "watchlist_hash records current config/sources.yaml Git blob; rotation remains valid for this configuration.",
+    "2026-10-08 checked seven mandatory configured sources at indices26–32. No spillover:17 verified dated candidates; Discovery organizations do not advance cursor.",
+    "Hanwha Aerospace primary newsrooms timed out; relevant supplier lead could not be primary-verified. Partial access gaps are preserved in the handoff.",
+    "Kawasaki and Kawasaki Aerospace Systems Company remain distinct configured watch entries, sharing one deduplicated event. Next cursor33 is AECC.",
+    "State advanced once only after create-only dated handoff commit was verified byte-for-byte; all prior last_checked entries preserved."
   ]
 }
