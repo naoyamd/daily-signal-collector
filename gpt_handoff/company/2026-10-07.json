@@ -1,0 +1,511 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-07T12:28:17.295+09:00",
+  "items": [
+    {
+      "title": "How Readiness Stays Ready: The F110 Delivers Power, Reliability, and Scale for the F-15EX",
+      "url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+      "source": "GE Aerospace",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン・AI製造",
+      "published_at": "2026-10-01",
+      "excerpt": "GE reports targeted AI use on F404/F110 production lines, 50% year-on-year F110 output growth since Q2 2025 and 15% defense-engine output growth in H1 2026. It reports a roughly 60% lead-time cut for one F110 HPC shaft process. These are vendor-reported operating results; the article does not isolate AI's causal contribution.",
+      "query": "site:geaerospace.com/news \"October\" \"2026\" aircraft engine",
+      "tags": [
+        "AI",
+        "manufacturing",
+        "F110",
+        "supply chain"
+      ],
+      "organization": "GE Aerospace",
+      "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "P&WC Leading the Way in Engine Oil Analysis Technology",
+      "url": "https://www.rtx.com/en/prattwhitney/blogs/airtime/2026/09/28/pwc-leading-the-way-in-engine-oil-analysis-technology",
+      "source": "Pratt & Whitney",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン・予知保全",
+      "published_at": "2026-09-28",
+      "excerpt": "P&WC says it is developing oil-analysis dashboard changes for rollout before end-2026. The planned visualization features aim to expose individual analysis results and monitored components/materials more clearly. Its existing service combines alloy-level particle analysis with OEM maintenance guidance; the dashboard changes are planned, not yet announced as delivered.",
+      "query": "site:rtx.com/news/news-center/2026 \"Pratt\" \"September\" -site:careers.rtx.com",
+      "tags": [
+        "oil analysis",
+        "predictive maintenance",
+        "dashboard"
+      ],
+      "organization": "Pratt & Whitney Canada",
+      "company": "Pratt & Whitney",
+      "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "First GTF Advantage delivered to United Airlines",
+      "url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+      "source": "MTU Aero Engines",
+      "source_kind": "press_release",
+      "category": "航空機エンジン",
+      "published_at": "2026-09-24",
+      "excerpt": "MTU reports United received its first GTF Advantage-powered Airbus A321 XLR. MTU is assembling Advantage engines in Munich, and the program partners plan to convert the full PW1100G-JM production line by 2028. Claims of 4-8% higher takeoff thrust and up to twice the time on wing are manufacturer statements, not independently verified fleet outcomes.",
+      "query": "site:mtu.de 2026 September October engine technology manufacturing after:2026-09-07 before:2026-10-08",
+      "tags": [
+        "GTF Advantage",
+        "PW1100G-JM",
+        "production ramp"
+      ],
+      "organization": "MTU Aero Engines / Pratt & Whitney",
+      "company": "MTU Aero Engines",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "HONA Investor Horizons: Supply Chain Frequently Asked Investor Questions | September 2026 Edition",
+      "url": "https://investor.honeywellaerospace.com/news-releases/news-release-details/hona-investor-horizons-supply-chain-frequently-asked-investor",
+      "source": "Honeywell Aerospace",
+      "source_kind": "official",
+      "category": "航空機製造・サプライチェーン",
+      "published_at": "2026-09-24",
+      "excerpt": "Honeywell Aerospace reports about 2% of suppliers are critical and constrained, including ten pacing output growth. It identifies castings, forgings, bearings and complex machining as bottlenecks, and says 2026 strategic capital spending increases by over $50M for tooling, multi-sourcing and insourcing. Expected 2027 improvement is management's forecast.",
+      "query": "site:honeywell.com OR site:honeywellaerospace.com 2026 September October aerospace engine technology after:2026-09-07 before:2026-10-08",
+      "tags": [
+        "supply chain",
+        "castings",
+        "manufacturing capacity"
+      ],
+      "organization": "Honeywell Aerospace",
+      "document_type": "investor operational update",
+      "language": "en"
+    },
+    {
+      "title": "Safran invests in Akira, specialists in propulsion technology development and prototyping",
+      "url": "https://www.safran-group.com/pressroom/safran-invests-akira-specialists-propulsion-technology-development-and-prototyping-2026-09-21",
+      "source": "Safran Aircraft Engines",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・試験技術",
+      "published_at": "2026-09-22",
+      "excerpt": "Safran announced a minority investment in Akira, a propulsion design, prototyping and test specialist. Akira already supports Safran Aircraft Engines on RISE demonstrator work and hybridization/hydrogen-combustion research. The funding targets test/production capacity and EN 9100 certification. Body dateline is September 22 despite September 21 in the URL.",
+      "query": "site:safran-group.com \"September\" \"2026\" \"Aircraft Engines\" after:2026-09-07 before:2026-10-08",
+      "tags": [
+        "RISE",
+        "hydrogen combustion",
+        "test infrastructure"
+      ],
+      "organization": "Safran / Akira",
+      "company": "Safran Aircraft Engines",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "How RTX is using AI and data to transform aircraft maintenance",
+      "url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+      "source": "Pratt & Whitney",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン・AI保全",
+      "published_at": "2026-09-18",
+      "excerpt": "RTX reports Aiir borescope pilots on GTF and F135 engines and plans wider Pratt & Whitney deployment; inspectors retain decisions. RTX self-reports over 30% inspection-time savings and roughly 70% less manual workload in a robotic kit-check workflow. No independent benchmark or study methodology is provided.",
+      "query": "site:rtx.com \"How RTX is using AI and data to transform aircraft maintenance\"",
+      "tags": [
+        "AI inspection",
+        "borescope",
+        "MRO",
+        "human oversight"
+      ],
+      "organization": "RTX / Pratt & Whitney / Collins Aerospace",
+      "company": "Pratt & Whitney",
+      "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Pratt & Whitney completes F135 Engine Core Upgrade Risk Reduction Design Review",
+      "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+      "source": "Pratt & Whitney",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・設計審査",
+      "published_at": "2026-09-15",
+      "excerpt": "Pratt & Whitney announced completion of the F135 ECU Risk Reduction Design Review. It assessed detailed design, integration, thermal/power capability and industrial-base readiness for production and retrofit. The company describes ECU as a drop-in upgrade; review completion does not mean production deployment or operational validation.",
+      "query": "site:rtx.com \"F135 Engine Core Upgrade Risk Reduction Design Review\" \"2026\"",
+      "tags": [
+        "F135",
+        "design review",
+        "thermal management"
+      ],
+      "organization": "Pratt & Whitney",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace Advances XA102 Adaptive Cycle Engine Assembly for U.S. Air Force's Next Generation Adaptive Propulsion Program",
+      "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-advances-xa102-adaptive-cycle-engine-assembly-us-air-forces-next",
+      "source": "GE Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・デジタルエンジニアリング",
+      "published_at": "2026-09-14",
+      "excerpt": "GE says it is procuring hardware and testing subcomponents before first XA102 test-engine assembly. It is extending model-based definition from design into manufacturing, inspection and assembly, replacing 2D drawings with machine-readable product definitions. Development-time and accuracy benefits are company claims without quantified validation in this release.",
+      "query": "site:geaerospace.com September October 2026 engine turbine manufacturing technology after:2026-09-07 before:2026-10-08",
+      "tags": [
+        "XA102",
+        "MBD",
+        "digital thread",
+        "adaptive cycle"
+      ],
+      "organization": "GE Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace to acquire Consolidated Precision Products",
+      "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products",
+      "source": "GE Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・鋳造製造",
+      "published_at": "2026-09-08",
+      "excerpt": "GE announced an agreement to acquire castings manufacturer CPP for $11.75B, with expected closing in H2 2027 subject to approvals and conditions. It plans additional capacity investment and integration of design and manufacturing. This is a proposed acquisition and capacity strategy, not a completed transaction or demonstrated capacity gain.",
+      "query": "site:geaerospace.com September October 2026 engine turbine manufacturing technology after:2026-09-07 before:2026-10-08",
+      "tags": [
+        "castings",
+        "capacity",
+        "aerospace supply chain"
+      ],
+      "organization": "GE Aerospace / Consolidated Precision Products",
+      "company": "GE Aerospace",
+      "document_type": "investor announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:geaerospace.com September October 2026 engine turbine manufacturing technology after:2026-09-07 before:2026-10-08",
+    "site:rolls-royce.com September October 2026 aero engine technology test manufacturing after:2026-09-07 before:2026-10-08",
+    "site:rtx.com \"Pratt\" September October 2026 engine technology after:2026-09-07 before:2026-10-08",
+    "site:safran-group.com \"September\" \"2026\" \"Aircraft Engines\" after:2026-09-07 before:2026-10-08",
+    "site:mtu.de 2026 September October engine technology manufacturing after:2026-09-07 before:2026-10-08",
+    "site:cfmaeroengines.com 2026 September October news after:2026-09-07 before:2026-10-08",
+    "site:honeywell.com OR site:honeywellaerospace.com 2026 September October aerospace engine technology after:2026-09-07 before:2026-10-08",
+    "site:cfmaeroengines.com \"2026\" \"September\"",
+    "site:rolls-royce.com \"2026\" \"September\" \"F130\"",
+    "site:rtx.com \"2026/09\" \"Pratt\"",
+    "CFM International September October 2026 LEAP RISE press release",
+    "site:rolls-royce.com/media/press-releases/2026 \"September\" aero",
+    "site:rtx.com/news/news-center/2026 \"Pratt\" \"September\" -site:careers.rtx.com",
+    "site:rtx.com \"How RTX is using AI and data to transform aircraft maintenance\"",
+    "site:rtx.com \"F135 Engine Core Upgrade Risk Reduction Design Review\" \"2026\"",
+    "site:rolls-royce.com \"October\" \"2026\" \"engine\"",
+    "site:geaerospace.com/news \"October\" \"2026\" aircraft engine",
+    "site:mtu.de \"October\" \"2026\" engines",
+    "site:safran-group.com/pressroom \"October\" \"2026\" \"Aircraft Engines\"",
+    "site:rolls-royce.com \"From ground test to flight test\" \"2026\""
+  ],
+  "warnings": [
+    "Partial source access: CFM's homepage was reachable, but its press/stories indexes yielded only navigation and footer text; three searches did not verify a dated qualifying CFM item. All seven mandatory coverage records are present.",
+    "Rolls-Royce's F130 ground-to-flight-test story had no verifiable publication date in the retrieved article; year in its URL and recent crawling were not treated as publication dates. It was excluded.",
+    "Nine verified dated watch-source candidates were found; the threshold of five was met, so spillover was not triggered. Rotation advances from index 19 to 26.",
+    "All candidates are within the September 7 to October 7, 2026 lookback. Older in-window candidates require Curator publication-history deduplication; this Scout has not claimed they are previously unpublished.",
+    "Vendor operating metrics and performance forecasts remain attributed. Safran/Akira's body date is September 22 although its URL ends September 21. RTX AI-MRO's September 18 date is corroborated by the official news-center listing.",
+    "Configured unmanned-aircraft exclusions were applied to candidate scope. Safran/Akira is retained for RISE, hybridization and hydrogen-combustion/test infrastructure; its separate drone-propulsion ambitions are not a candidate claim.",
+    "Twenty actual search queries were executed and all are recorded, including zero-result/refinement searches. Search-result freshness alone was not used as an event date."
+  ],
+  "checked_sources": [
+    {
+      "name": "GE Aerospace",
+      "status": "found",
+      "query": "site:geaerospace.com September October 2026 engine turbine manufacturing technology after:2026-09-07 before:2026-10-08"
+    },
+    {
+      "name": "Rolls-Royce",
+      "status": "no_new_finding",
+      "query": "site:rolls-royce.com September October 2026 aero engine technology test manufacturing after:2026-09-07 before:2026-10-08",
+      "warning": "Searches and the official F130 story/press surfaces did not establish a qualifying publication date within the lookback. F130 content was excluded rather than assigning a crawl date."
+    },
+    {
+      "name": "Pratt & Whitney",
+      "status": "found",
+      "query": "site:rtx.com \"Pratt\" September October 2026 engine technology after:2026-09-07 before:2026-10-08"
+    },
+    {
+      "name": "Safran Aircraft Engines",
+      "status": "found",
+      "query": "site:safran-group.com \"September\" \"2026\" \"Aircraft Engines\" after:2026-09-07 before:2026-10-08"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "status": "found",
+      "query": "site:mtu.de 2026 September October engine technology manufacturing after:2026-09-07 before:2026-10-08"
+    },
+    {
+      "name": "CFM International",
+      "status": "unreachable",
+      "query": "site:cfmaeroengines.com 2026 September October news after:2026-09-07 before:2026-10-08",
+      "warning": "Homepage reachable; /news/ failed, and official press-articles/stories indexes returned only navigation/footer content. Three searches yielded no verifiable dated candidate, so current release coverage remains incomplete."
+    },
+    {
+      "name": "Honeywell Aerospace",
+      "status": "found",
+      "query": "site:honeywell.com OR site:honeywellaerospace.com 2026 September October aerospace engine technology after:2026-09-07 before:2026-10-08"
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "selection_basis": "Authoritative company-watch state blob 046fa0fb8aedbcf6a702169723fd65e67c77426d was valid and matched config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c.",
+      "active_sources": [
+        {
+          "name": "GE Aerospace",
+          "category": "航空機エンジン",
+          "domains": [
+            "geaerospace.com"
+          ]
+        },
+        {
+          "name": "Rolls-Royce",
+          "category": "航空機エンジン",
+          "domains": [
+            "rolls-royce.com"
+          ]
+        },
+        {
+          "name": "Pratt & Whitney",
+          "category": "航空機エンジン",
+          "domains": [
+            "rtx.com"
+          ]
+        },
+        {
+          "name": "Safran Aircraft Engines",
+          "category": "航空機エンジン",
+          "domains": [
+            "safran-group.com"
+          ]
+        },
+        {
+          "name": "MTU Aero Engines",
+          "category": "航空機エンジン",
+          "domains": [
+            "mtu.de"
+          ]
+        },
+        {
+          "name": "CFM International",
+          "category": "航空機エンジン",
+          "domains": [
+            "cfmaeroengines.com"
+          ]
+        },
+        {
+          "name": "Honeywell Aerospace",
+          "category": "航空機エンジン",
+          "domains": [
+            "honeywellaerospace.com",
+            "honeywell.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "cursor_start": 19,
+      "cursor_next": 26
+    },
+    "lookback_days": 30,
+    "priority_areas": [
+      "AIによる設計",
+      "大手航空機メーカー",
+      "航空機用エンジン",
+      "CAD・CAE"
+    ],
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-07",
+      "started_at": "2026-10-07T12:24:14+09:00",
+      "completed_at": "2026-10-07T12:28:17.295+09:00",
+      "status": "partial",
+      "planned_query_count": 7,
+      "executed_query_count": 20
+    },
+    "query_execution": [
+      {
+        "query": "site:geaerospace.com September October 2026 engine turbine manufacturing technology after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:46.680Z"
+      },
+      {
+        "query": "site:rolls-royce.com September October 2026 aero engine technology test manufacturing after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:46.682Z"
+      },
+      {
+        "query": "site:rtx.com \"Pratt\" September October 2026 engine technology after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:46.682Z"
+      },
+      {
+        "query": "site:safran-group.com \"September\" \"2026\" \"Aircraft Engines\" after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:55.092Z"
+      },
+      {
+        "query": "site:mtu.de 2026 September October engine technology manufacturing after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:55.092Z"
+      },
+      {
+        "query": "site:cfmaeroengines.com 2026 September October news after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:55.092Z"
+      },
+      {
+        "query": "site:honeywell.com OR site:honeywellaerospace.com 2026 September October aerospace engine technology after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:24:55.092Z"
+      },
+      {
+        "query": "site:cfmaeroengines.com \"2026\" \"September\"",
+        "queried_at": "2026-10-07T03:25:07.850Z"
+      },
+      {
+        "query": "site:rolls-royce.com \"2026\" \"September\" \"F130\"",
+        "queried_at": "2026-10-07T03:25:07.850Z"
+      },
+      {
+        "query": "site:rtx.com \"2026/09\" \"Pratt\"",
+        "queried_at": "2026-10-07T03:25:07.850Z"
+      },
+      {
+        "query": "CFM International September October 2026 LEAP RISE press release",
+        "queried_at": "2026-10-07T03:25:46.008Z"
+      },
+      {
+        "query": "site:rolls-royce.com/media/press-releases/2026 \"September\" aero",
+        "queried_at": "2026-10-07T03:25:46.008Z"
+      },
+      {
+        "query": "site:rtx.com/news/news-center/2026 \"Pratt\" \"September\" -site:careers.rtx.com",
+        "queried_at": "2026-10-07T03:25:46.008Z"
+      },
+      {
+        "query": "site:rtx.com \"How RTX is using AI and data to transform aircraft maintenance\"",
+        "queried_at": "2026-10-07T03:26:09.513Z"
+      },
+      {
+        "query": "site:rtx.com \"F135 Engine Core Upgrade Risk Reduction Design Review\" \"2026\"",
+        "queried_at": "2026-10-07T03:26:09.513Z"
+      },
+      {
+        "query": "site:rolls-royce.com \"October\" \"2026\" \"engine\"",
+        "queried_at": "2026-10-07T03:26:09.513Z"
+      },
+      {
+        "query": "site:geaerospace.com/news \"October\" \"2026\" aircraft engine",
+        "queried_at": "2026-10-07T03:26:38.126Z"
+      },
+      {
+        "query": "site:mtu.de \"October\" \"2026\" engines",
+        "queried_at": "2026-10-07T03:26:38.126Z"
+      },
+      {
+        "query": "site:safran-group.com/pressroom \"October\" \"2026\" \"Aircraft Engines\"",
+        "queried_at": "2026-10-07T03:26:38.126Z"
+      },
+      {
+        "query": "site:rolls-royce.com \"From ground test to flight test\" \"2026\"",
+        "queried_at": "2026-10-07T03:26:38.126Z"
+      }
+    ],
+    "primary_source_checks": [
+      {
+        "url": "https://www.cfmaeroengines.com/news/",
+        "checked_at": "2026-10-07T03:25:28.461Z"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/our-stories/discover/2026/from-ground-test-to-flight-test-rolls-royces-gregg-pyers-on-preparing-the-f130-for-the-b-52j.aspx",
+        "checked_at": "2026-10-07T03:25:28.461Z"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-advances-xa102-adaptive-cycle-engine-assembly-us-air-forces-next",
+        "checked_at": "2026-10-07T03:25:28.461Z"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products",
+        "checked_at": "2026-10-07T03:25:28.461Z"
+      },
+      {
+        "url": "https://www.safran-group.com/pressroom/safran-invests-akira-specialists-propulsion-technology-development-and-prototyping-2026-09-21",
+        "checked_at": "2026-10-07T03:25:36.860Z"
+      },
+      {
+        "url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+        "checked_at": "2026-10-07T03:25:36.860Z"
+      },
+      {
+        "url": "https://investor.honeywellaerospace.com/news-releases/news-release-details/hona-investor-horizons-supply-chain-frequently-asked-investor",
+        "checked_at": "2026-10-07T03:25:36.860Z"
+      },
+      {
+        "url": "https://www.cfmaeroengines.com/",
+        "checked_at": "2026-10-07T03:25:55.005Z"
+      },
+      {
+        "url": "https://www.rtx.com/News/News-Center",
+        "checked_at": "2026-10-07T03:25:55.005Z"
+      },
+      {
+        "url": "https://www.rtx.com/news",
+        "checked_at": "2026-10-07T03:25:55.005Z"
+      },
+      {
+        "url": "https://www.rtx.com/en/prattwhitney/blogs/airtime/2026/09/28/pwc-leading-the-way-in-engine-oil-analysis-technology",
+        "checked_at": "2026-10-07T03:25:55.005Z"
+      },
+      {
+        "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+        "checked_at": "2026-10-07T03:26:39.376Z"
+      },
+      {
+        "url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+        "checked_at": "2026-10-07T03:26:39.376Z"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+        "checked_at": "2026-10-07T03:27:03.333Z"
+      }
+    ],
+    "verification_notes": [
+      {
+        "url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+        "evidence_location": "October 1 dateline; Strengthening the Supply Chain and Investing to Build Resilience and Scale Up sections",
+        "date_basis": "visible article dateline"
+      },
+      {
+        "url": "https://www.rtx.com/en/prattwhitney/blogs/airtime/2026/09/28/pwc-leading-the-way-in-engine-oil-analysis-technology",
+        "evidence_location": "September 28 dateline; Leveraging Feedback to Enhance Dashboard Visuals",
+        "date_basis": "visible article dateline"
+      },
+      {
+        "url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+        "evidence_location": "September 24 dateline and first four release paragraphs",
+        "date_basis": "visible release dateline"
+      },
+      {
+        "url": "https://investor.honeywellaerospace.com/news-releases/news-release-details/hona-investor-horizons-supply-chain-frequently-asked-investor",
+        "evidence_location": "September 24 dateline; Recent Investor Engagement and Supply Chain FAQ",
+        "date_basis": "visible release dateline"
+      },
+      {
+        "url": "https://www.safran-group.com/pressroom/safran-invests-akira-specialists-propulsion-technology-development-and-prototyping-2026-09-21",
+        "evidence_location": "Paris, September 22, 2026; opening and partnership paragraphs",
+        "date_basis": "body dateline overrides conflicting URL date"
+      },
+      {
+        "url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+        "evidence_location": "Enhanced inspection and RTX Intelligent MRO by the numbers",
+        "date_basis": "official RTX News Center listing shows September 18, 2026; URL date agrees",
+        "date_supporting_url": "https://www.rtx.com/News/News-Center"
+      },
+      {
+        "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+        "evidence_location": "September 15 dateline; opening and review-scope paragraphs",
+        "date_basis": "visible release dateline"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-advances-xa102-adaptive-cycle-engine-assembly-us-air-forces-next",
+        "evidence_location": "September 14 dateline; model-based-definition paragraphs",
+        "date_basis": "visible release dateline"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products",
+        "evidence_location": "September 8 dateline; acquisition, casting-capacity and transaction paragraphs",
+        "date_basis": "visible article dateline"
+      }
+    ]
+  }
+}
