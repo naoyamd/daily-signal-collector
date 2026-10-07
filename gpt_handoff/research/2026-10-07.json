@@ -1,0 +1,967 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-07T12:29:09+09:00",
+  "items": [
+    {
+      "title": "CANTO: CAD-Native Transformer Operators for AI-Aided Engineering",
+      "url": "https://arxiv.org/abs/2609.36806",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "excerpt": "CANTO tokenizes NURBS geometry directly and predicts physical fields without an input mesh. The authors demonstrate differentiable CAD-parameter optimization. First submitted September 29; revision October 1. Research results and benchmark improvements are author-reported.",
+      "query": "neural operator surrogate CFD FEA engineering September October 2026",
+      "tags": [
+        "engineering_ai",
+        "neural operator",
+        "CAD",
+        "CFD"
+      ],
+      "language": "en",
+      "published_at": "2026-09-29",
+      "organization": "NVIDIA"
+    },
+    {
+      "title": "Dependable AI-Assisted Engineering: A Formal Framework for AI Participation and Assurance in Safety-Critical Workflows",
+      "url": "https://arxiv.org/abs/2610.04084",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "excerpt": "A 17-unit wing-spar workflow separates AI generation, deterministic checks, and human judgment. The generated CAD passed 23 checks, but insufficient mesh-convergence evidence prevented automatic acceptance of stress criteria. The author makes no system-safety, certification or productivity claim.",
+      "query": "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08",
+      "tags": [
+        "engineering_ai",
+        "assurance",
+        "FEA",
+        "CAD"
+      ],
+      "language": "en",
+      "published_at": "2026-10-02",
+      "organization": "Puxue Tan"
+    },
+    {
+      "title": "ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling",
+      "url": "https://arxiv.org/abs/2609.22325",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "excerpt": "ReliCAD converts natural-language requirements into structured design specifications, models geometric and topological dependencies, and invokes a CAD kernel through an agent API for construction and constraint solving. The framework targets reliability and preservation of design intent.",
+      "query": "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "agents"
+      ],
+      "language": "en",
+      "published_at": "2026-09-16",
+      "organization": "Peng Zheng and coauthors"
+    },
+    {
+      "title": "What Is AI Simulation?",
+      "url": "https://www.ptc.com/en/blogs/cad/ai-simulation",
+      "source": "PTC",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "excerpt": "PTC describes how Creo assistance, generative design and live simulation fit into early design exploration. This is a newly dated explanatory article, not evidence of a new product release or independently measured performance improvement.",
+      "query": "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "CAE",
+        "background"
+      ],
+      "language": "en",
+      "published_at": "2026-09-21",
+      "organization": "PTC"
+    },
+    {
+      "title": "Launching Meta Enterprise Platform",
+      "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "source": "Meta",
+      "source_kind": "press_release",
+      "category": "企業AI",
+      "excerpt": "Meta announced an enterprise platform effort bringing Muse agent, Meta Business Agent, Muse API and Muse Code to businesses and developers. The announcement states direction and initial focus; it does not establish general availability of every named component.",
+      "query": "AI agents coding enterprise workflow automation release after:2026-09-06 before:2026-10-08",
+      "tags": [
+        "agents_enterprise",
+        "enterprise platform"
+      ],
+      "language": "en",
+      "published_at": "2026-09-28",
+      "organization": "Meta"
+    },
+    {
+      "title": "Progress Software Connects Enterprise Knowledge Across Business Systems with New Agentic RAG Capabilities",
+      "url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+      "source": "Progress Software",
+      "source_kind": "press_release",
+      "category": "企業AI",
+      "excerpt": "Available release adds a native Teams app, Smart Agent for multistep retrieval and a WordPress ingestion plugin. Smart Agent uses native MCP access alongside indexed Knowledge Boxes and web sources. Progress says existing content and access controls carry forward without reindexing.",
+      "query": "RAG data infrastructure enterprise AI agents September October 2026 official",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "MCP",
+        "data infrastructure"
+      ],
+      "language": "en",
+      "published_at": "2026-10-01",
+      "organization": "Progress Software"
+    },
+    {
+      "title": "Self-Evolving Coding Rules for AI Coding Agents",
+      "url": "https://arxiv.org/abs/2610.00650",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIエージェント",
+      "excerpt": "RuleEvolve maintains candidate coding rules, mutates them with an LLM, and evaluates variants with a judge. Authors report tests across two agent frameworks, four LLMs and three benchmarks. arXiv lists NeurIPS 2026 acceptance; performance claims remain author-reported.",
+      "query": "AI agents coding enterprise workflow automation release after:2026-09-06 before:2026-10-08",
+      "tags": [
+        "agents_enterprise",
+        "coding",
+        "evaluation"
+      ],
+      "language": "en",
+      "published_at": "2026-09-30",
+      "organization": "Zhengyuan Jiang and coauthors"
+    },
+    {
+      "title": "Fastly Launches AI Firewall and AI Runtime Control to Secure and Scale AI",
+      "url": "https://investors.fastly.com/node/13861/pdf",
+      "source": "Fastly",
+      "source_kind": "press_release",
+      "category": "AIインフラ",
+      "excerpt": "Fastly announced available runtime routing, spend controls, an AI firewall and API-contract enforcement. The release describes controls for model calls, prompts and agent access to enterprise APIs. Security effectiveness is a vendor claim, not independently verified here.",
+      "query": "MCP agent protocol coding enterprise security September October 2026 official",
+      "tags": [
+        "agents_enterprise",
+        "security",
+        "runtime governance"
+      ],
+      "language": "en",
+      "published_at": "2026-09-21",
+      "organization": "Fastly"
+    },
+    {
+      "title": "Mistral Large 4 enters public preview; open weights still forthcoming",
+      "url": "https://docs.mistral.ai/resources/changelogs",
+      "source": "Mistral AI",
+      "source_kind": "official",
+      "category": "AIモデル",
+      "excerpt": "The October 6 changelog lists Mistral Large 4 public preview with multimodal MoE architecture and a 1M-token context, explicitly saying weights are coming soon. The linked model card lists 1.05T total and 52B active parameters; do not substitute conflicting secondary-source figures.",
+      "query": "frontier model release October 2026 September official model card",
+      "tags": [
+        "models_open_weights",
+        "multimodal",
+        "preview",
+        "Europe"
+      ],
+      "language": "en",
+      "published_at": "2026-10-06",
+      "organization": "Mistral AI"
+    },
+    {
+      "title": "Introducing Beam: Reflection’s 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "Reflection AI",
+      "source_kind": "press_release",
+      "category": "AIモデル",
+      "excerpt": "Reflection announced Beam, a sparse MoE with 501B total and 23B active parameters for coding and agents. Early access is limited; weights, report and artifacts are planned later in October under Apache 2.0. Benchmark and efficiency claims are self-reported.",
+      "query": "site.reflection.ai Beam October 5 2026 official",
+      "tags": [
+        "models_open_weights",
+        "MoE",
+        "preview",
+        "licensing"
+      ],
+      "language": "en",
+      "published_at": "2026-10-05",
+      "organization": "Reflection AI"
+    },
+    {
+      "title": "New KPMG AI Pulse Survey: As AI maturity converges, leading organizations show what AI at scale requires",
+      "url": "https://kpmg.com/xx/en/media/press-releases/2026/09/new-kpmg-ai-pulse-survey-as-ai-maturity-converges-leading-organizations-show-what-ai-at-scale-requires.html",
+      "source": "KPMG",
+      "source_kind": "technical_report",
+      "category": "AI導入調査",
+      "excerpt": "KPMG surveyed 2,131 senior leaders in 20 countries. Average planned next-year AI investment was $210M versus $186M in Q1; 55% report a formal control layer, while 12% consistently assess value against cost. These are respondent reports, not audited causal ROI estimates.",
+      "query": "enterprise AI spending September October 2026 report survey official",
+      "tags": [
+        "reports_surveys",
+        "ROI",
+        "spending",
+        "governance"
+      ],
+      "language": "en",
+      "published_at": "2026-09-24",
+      "organization": "KPMG"
+    },
+    {
+      "title": "AI drives productivity, but CEOs struggle to turn gains into growth",
+      "url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+      "source": "EY",
+      "source_kind": "technical_report",
+      "category": "AI導入調査",
+      "excerpt": "EY surveyed 1,200 CEOs in 21 countries online during August–September 2026. Half identify AI as the largest productivity contributor; 23% say gains are absorbed before reaching financial results. Only 16% report clear real-time ROI visibility. Findings are self-reported.",
+      "query": "AI adoption ROI productivity workforce September October 2026 report survey",
+      "tags": [
+        "reports_surveys",
+        "productivity",
+        "ROI"
+      ],
+      "language": "en",
+      "published_at": "2026-10-01",
+      "organization": "EY"
+    },
+    {
+      "title": "AI Benefits at Work Unevenly Distributed",
+      "url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+      "source": "Gallup",
+      "source_kind": "technical_report",
+      "category": "AI・労働",
+      "excerpt": "AJQS surveyed workers January 26–March 24, 2026. Among 7,845 AI-using US employees, 63% report faster work and 46% better quality; the full employee sample is 15,482. Gallup warns these are workers’ assessments. Usage is associated with job quality, without establishing causation.",
+      "query": "AI adoption ROI productivity workforce September October 2026 report survey",
+      "tags": [
+        "reports_surveys",
+        "workforce",
+        "productivity"
+      ],
+      "language": "en",
+      "published_at": "2026-10-06",
+      "organization": "Gallup"
+    },
+    {
+      "title": "Manufacturing AI Initiatives Face Governance and Workflow Integration Challenges",
+      "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-08-manufacturing-ai-initiatives-face-governance-and-workflow-integration-challenges.html",
+      "source": "Cloudera",
+      "source_kind": "technical_report",
+      "category": "製造業AI調査",
+      "excerpt": "Cloudera published manufacturing findings from its Data Readiness Index 2026, highlighting gaps in access, governance, infrastructure and operational integration. This is vendor-sponsored research; the release excerpt does not establish the manufacturing subsample or causal ROI effects.",
+      "query": "industrial manufacturing AI survey report September October 2026",
+      "tags": [
+        "reports_surveys",
+        "manufacturing",
+        "data readiness"
+      ],
+      "language": "en",
+      "published_at": "2026-09-08",
+      "organization": "Cloudera"
+    },
+    {
+      "title": "Scaling AI for measurable impact",
+      "url": "https://www.bearingpoint.com/en-us/insights-events/insights/scaling-ai-for-measurable-impact/",
+      "source": "BearingPoint",
+      "source_kind": "technical_report",
+      "category": "AI導入調査",
+      "excerpt": "September 2026 report; exact publication day not shown. Online survey of 1,050 executives in Europe, the US and China during August 2026. It reports measurable financial impact for 74% of organizations with implemented AI, but only 13% scaled fully according to plan. Self-reported.",
+      "query": "AI adoption ROI productivity workforce September October 2026 report survey",
+      "tags": [
+        "reports_surveys",
+        "ROI",
+        "date_uncertain"
+      ],
+      "language": "en",
+      "organization": "BearingPoint"
+    },
+    {
+      "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+      "url": "https://www.nature.com/articles/s42256-026-01298-6",
+      "source": "Nature Machine Intelligence",
+      "source_kind": "journal",
+      "category": "材料AI",
+      "excerpt": "Primary-publisher search excerpt describes MatBrain: a 30B analytical model and a 14B tool-execution model for crystal-materials research. Date and abstract surfaced in search, but full-page verification was blocked by the publisher identity redirect. Retain as a limited-verification candidate.",
+      "query": "materials chemistry AI scientific research automation September October 2026",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "agents",
+        "verification_limited"
+      ],
+      "language": "en",
+      "published_at": "2026-09-10"
+    },
+    {
+      "title": "Autonomous Materials Exploration Integrates Automated Phase Identification and AI Agents Enhanced by Human Guidance",
+      "url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+      "source": "PRX Intelligence",
+      "source_kind": "journal",
+      "category": "自律実験",
+      "excerpt": "SARA-H combines automated probabilistic phase identification, agent reasoning and human guidance. The authors evaluated synthetic benchmarks and robotic thin-film experiments on oxide systems, using laser annealing to explore metastable phases. Reported efficiency is study-specific.",
+      "query": "materials chemistry AI scientific research automation September October 2026",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "robotics",
+        "human-in-the-loop"
+      ],
+      "language": "en",
+      "published_at": "2026-09-10",
+      "organization": "Cornell University and collaborators"
+    },
+    {
+      "title": "Building Better AI for Chemistry",
+      "url": "https://ihc.umd.edu/building-better-ai-for-chemistry/",
+      "source": "University of Maryland Institute for Health Computing",
+      "source_kind": "official",
+      "category": "科学AI",
+      "excerpt": "A two-day NSF-funded workshop gathered more than 50 specialists on chemistry-specific AI, data interoperability and evaluation. Participants are preparing a community roadmap and possible pilots; the report and pilot outcomes are not yet delivered.",
+      "query": "materials chemistry AI scientific research automation September October 2026",
+      "tags": [
+        "scientific_wildcards",
+        "chemistry",
+        "research infrastructure"
+      ],
+      "language": "en",
+      "published_at": "2026-09-28",
+      "organization": "University of Maryland"
+    },
+    {
+      "title": "Physics-grounded materials AI for reliable materials discovery",
+      "url": "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html",
+      "source": "Tohoku University AIMR",
+      "source_kind": "press_release",
+      "category": "材料AI",
+      "excerpt": "A Perspective proposes PhysMat AI, organizing physical knowledge as priors, descriptors, constraints, verifiers and infrastructure within a discovery-and-validation loop. Examples include catalysis, solid electrolytes and hydrogen storage. This is a proposed framework, not a benchmarked deployment.",
+      "query": "materials chemistry AI scientific research automation September October 2026",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "physics-informed",
+        "Japan"
+      ],
+      "language": "en",
+      "published_at": "2026-09-29",
+      "organization": "Tohoku University"
+    },
+    {
+      "title": "iFactory・産総研が次世代連続製造モジュールの重要物資生産共創プロジェクトを開始",
+      "url": "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+      "source": "産業技術総合研究所",
+      "source_kind": "official",
+      "category": "製造技術",
+      "excerpt": "iFactory、産総研、AIST Solutionsが10月1日にプロジェクトを開始。化学品の単位操作を扱う横型連続製造装置と、一気通貫プロセスの開発・実証を目指す。フィジカルAIによる自律生産は将来構想であり、現時点で完成したシステムではない。",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "manufacturing",
+        "Japan"
+      ],
+      "language": "ja",
+      "published_at": "2026-10-01",
+      "organization": "AIST / iFactory"
+    },
+    {
+      "title": "日本精工とアールティ、製造現場の四足歩行ロボット実証を紹介",
+      "url": "https://www.nsk.com/jp-ja/company/news/2026/robotics-next-tokyo-2026/",
+      "source": "日本精工",
+      "source_kind": "press_release",
+      "category": "ロボティクス",
+      "excerpt": "9月29日の共同出展・講演に向け、NSK製造現場での巡回・点検を対象にした四足歩行ロボット実証を紹介すると発表。試作機と自動巡回デモ、部品供給や保守を含む産業基盤が焦点。記事は事前告知であり、開催結果や量産稼働を確認したものではない。",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "robotics",
+        "Japan"
+      ],
+      "language": "ja",
+      "published_at": "2026-09-25",
+      "organization": "NSK / RT Corporation"
+    },
+    {
+      "title": "シノプシスとTSMC、エージェント型AIと先端設計で協業",
+      "url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+      "source": "Synopsys",
+      "source_kind": "press_release",
+      "category": "EDA",
+      "excerpt": "TSMC A14対応の認証済みEDAフロー、エージェント型AIによる設計作業支援、CoWoSと統合マルチフィジックス・サインオフに関する協業を発表。生産性向上は企業側の説明であり、この調査で独立した評価は確認していない。",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+      "tags": [
+        "engineering_ai",
+        "scientific_wildcards",
+        "EDA",
+        "Taiwan"
+      ],
+      "language": "ja",
+      "published_at": "2026-09-23",
+      "organization": "Synopsys / TSMC"
+    },
+    {
+      "title": "豊田自動織機、金属の破損原因を自動解析する技術を開発",
+      "url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+      "source": "豊田自動織機",
+      "source_kind": "press_release",
+      "category": "材料解析AI",
+      "excerpt": "過去10年分の解析画像を学習したAIと電子顕微鏡の自動操作を組み合わせる。企業発表では観察箇所の特定が熟練者判定と95%以上一致、破壊種類の判定は90%以上一致。解析時間最大90%短縮は自社報告。実業務への適用開始は2027年度内が目標。",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+      "tags": [
+        "non_us_rotation",
+        "engineering_ai",
+        "scientific_wildcards",
+        "Japan"
+      ],
+      "language": "ja",
+      "published_at": "2026-09-29",
+      "organization": "Toyota Industries"
+    },
+    {
+      "title": "NEDO・AIRoA、国産汎用ロボット開発コンペティション成果の初公開を告知",
+      "url": "https://www.nedo.go.jp/events/CD_100235.html",
+      "source": "NEDO",
+      "source_kind": "official",
+      "category": "ロボティクス",
+      "excerpt": "双腕モバイルマニピュレータの国産開発事業で、約6カ月間開発した試作機を7社が9月16日のイベントで出展予定と発表。評価を通過した機体は改良・量産体制構築を経て、将来のロボット基盤モデル用データ収集への活用を目指す。開催結果は未確認。",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "robotics",
+        "Japan"
+      ],
+      "language": "ja",
+      "published_at": "2026-09-10",
+      "organization": "NEDO / AIRoA"
+    },
+    {
+      "title": "Huawei introduces seven-step industry AI adoption method and DIMAK engineering system",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
+      "source": "Huawei",
+      "source_kind": "press_release",
+      "category": "産業AI",
+      "excerpt": "Huawei announced a seven-step adoption method and DIMAK engineering tools, plus an Agentic Enterprise white paper and 157 transformation cases. The release cites steel, logistics and drug-R&D applications. This is vendor-provided deployment evidence, not independently verified impact.",
+      "query": "China Korea India Europe industrial AI engineering model September October 2026 release",
+      "tags": [
+        "non_us_rotation",
+        "agents_enterprise",
+        "industrial AI",
+        "China"
+      ],
+      "language": "en",
+      "published_at": "2026-09-18",
+      "organization": "Huawei"
+    }
+  ],
+  "searched_queries": [
+    "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08",
+    "neural operator surrogate CFD FEA engineering September October 2026",
+    "PLM MBSE digital thread AI engineering release September October 2026",
+    "generative design optimization aerospace mechanical engineering September October 2026",
+    "AI agents coding enterprise workflow automation release after:2026-09-06 before:2026-10-08",
+    "MCP agent protocol coding enterprise security September October 2026 official",
+    "RAG data infrastructure enterprise AI agents September October 2026 official",
+    "frontier model release October 2026 September official model card",
+    "open weights model release inference efficiency licensing September October 2026 Hugging Face",
+    "multimodal reasoning open model September October 2026 Qwen DeepSeek Mistral official",
+    "AI adoption ROI productivity workforce September October 2026 report survey",
+    "enterprise AI spending September October 2026 report survey official",
+    "industrial manufacturing AI survey report September October 2026",
+    "materials chemistry AI scientific research automation September October 2026",
+    "digital twin HPC EDA robotics edge AI September October 2026 official research",
+    "robotics research foundation model experiment September October 2026 official",
+    "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+    "China Korea India Europe industrial AI engineering model September October 2026 release",
+    "site.reflection.ai Beam October 5 2026 official",
+    "site:hitachi.co.jp \"設計ナレッジ\" \"2026\""
+  ],
+  "warnings": [
+    "Exploration completed all six mandatory lanes and 18 target queries plus two targeted lookups. Status is partial because one Nature candidate could not be opened and one report lacks an exact publication day; downstream verification must exclude or downgrade these if unresolved.",
+    "Nature MatBrain candidate is supported only by the primary-publisher search excerpt; direct page access failed at an identity redirect.",
+    "BearingPoint shows September 2026 only. No day was invented; published_at is omitted and precise lookback eligibility remains unverified.",
+    "Search batch responses did not expose reliable per-query raw hit counts. Query logs distinguish retained qualifying candidates from raw search results and explicitly record zero-retained outcomes.",
+    "Mistral Large 4 and Reflection Beam weights are forthcoming. Do not describe preview announcements as completed weight releases; official Mistral parameter figures differ from secondary reporting.",
+    "Preprints, vendor benchmarks, survey responses and forward-looking deployment statements require their original attribution. Robotics event announcements do not verify that events or deployments occurred.",
+    "Core/report/wildcard mix is soft. The pool preserves five report candidates and adjacent materials/robotics signals; no stale items were inserted to satisfy counts."
+  ],
+  "checked_sources": [
+    {
+      "name": "engineering_ai",
+      "status": "found",
+      "query": "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08"
+    },
+    {
+      "name": "agents_enterprise",
+      "status": "found",
+      "query": "AI agents coding enterprise workflow automation release after:2026-09-06 before:2026-10-08"
+    },
+    {
+      "name": "models_open_weights",
+      "status": "found",
+      "query": "frontier model release October 2026 September official model card"
+    },
+    {
+      "name": "reports_surveys",
+      "status": "found",
+      "query": "AI adoption ROI productivity workforce September October 2026 report survey"
+    },
+    {
+      "name": "scientific_wildcards",
+      "status": "found",
+      "query": "materials chemistry AI scientific research automation September October 2026"
+    },
+    {
+      "name": "non_us_rotation",
+      "status": "found",
+      "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月"
+    }
+  ],
+  "research_plan": {
+    "lookback_days": 30,
+    "lookback_start_date": "2026-09-07",
+    "lookback_end_date": "2026-10-07",
+    "canonical_sources": {
+      "readme_blob": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "policy_blob": "52d83678fcf304dcc49b4f487260398909561ee0",
+      "sources_blob": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "scout_validator_blob": "27b1a33274c673786f1568c0159e1e83812be109"
+    },
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "engineering_ai"
+        },
+        {
+          "name": "agents_enterprise"
+        },
+        {
+          "name": "models_open_weights"
+        },
+        {
+          "name": "reports_surveys"
+        },
+        {
+          "name": "scientific_wildcards"
+        },
+        {
+          "name": "non_us_rotation"
+        }
+      ]
+    },
+    "query_lanes": {
+      "engineering_ai": {
+        "target_queries": 4,
+        "executed_queries": 5,
+        "candidate_count_including_cross_lane": 6
+      },
+      "agents_enterprise": {
+        "target_queries": 3,
+        "executed_queries": 3,
+        "candidate_count_including_cross_lane": 5
+      },
+      "models_open_weights": {
+        "target_queries": 3,
+        "executed_queries": 4,
+        "candidate_count_including_cross_lane": 2
+      },
+      "reports_surveys": {
+        "target_queries": 3,
+        "executed_queries": 3,
+        "candidate_count_including_cross_lane": 5
+      },
+      "scientific_wildcards": {
+        "target_queries": 3,
+        "executed_queries": 3,
+        "candidate_count_including_cross_lane": 9
+      },
+      "non_us_rotation": {
+        "target_queries": 2,
+        "executed_queries": 2,
+        "candidate_count_including_cross_lane": 5
+      }
+    },
+    "query_log": [
+      {
+        "query_number": 1,
+        "lane": "engineering_ai",
+        "query": "AI-assisted design CAD CAE simulation engineering after:2026-09-06 before:2026-10-08",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:24:57+09:00",
+          "end": "2026-10-07T12:25:10+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 3,
+        "retained_candidate_urls": [
+          "https://arxiv.org/abs/2610.04084",
+          "https://arxiv.org/abs/2609.22325",
+          "https://www.ptc.com/en/blogs/cad/ai-simulation"
+        ]
+      },
+      {
+        "query_number": 2,
+        "lane": "engineering_ai",
+        "query": "neural operator surrogate CFD FEA engineering September October 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:24:57+09:00",
+          "end": "2026-10-07T12:25:10+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://arxiv.org/abs/2609.36806"
+        ]
+      },
+      {
+        "query_number": 3,
+        "lane": "engineering_ai",
+        "query": "PLM MBSE digital thread AI engineering release September October 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:24:57+09:00",
+          "end": "2026-10-07T12:25:10+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "PLM/MBSE results were old or evergreen; no qualifying new candidate retained."
+      },
+      {
+        "query_number": 4,
+        "lane": "engineering_ai",
+        "query": "generative design optimization aerospace mechanical engineering September October 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:24:57+09:00",
+          "end": "2026-10-07T12:25:10+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Results did not establish a distinct newly dated aerospace optimization event; no filler added."
+      },
+      {
+        "query_number": 5,
+        "lane": "agents_enterprise",
+        "query": "AI agents coding enterprise workflow automation release after:2026-09-06 before:2026-10-08",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:10+09:00",
+          "end": "2026-10-07T12:25:16+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 2,
+        "retained_candidate_urls": [
+          "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+          "https://arxiv.org/abs/2610.00650"
+        ]
+      },
+      {
+        "query_number": 6,
+        "lane": "agents_enterprise",
+        "query": "MCP agent protocol coding enterprise security September October 2026 official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:10+09:00",
+          "end": "2026-10-07T12:25:16+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://investors.fastly.com/node/13861/pdf"
+        ]
+      },
+      {
+        "query_number": 7,
+        "lane": "agents_enterprise",
+        "query": "RAG data infrastructure enterprise AI agents September October 2026 official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:10+09:00",
+          "end": "2026-10-07T12:25:16+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business"
+        ]
+      },
+      {
+        "query_number": 8,
+        "lane": "models_open_weights",
+        "query": "frontier model release October 2026 September official model card",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:16+09:00",
+          "end": "2026-10-07T12:25:31+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://docs.mistral.ai/resources/changelogs"
+        ]
+      },
+      {
+        "query_number": 9,
+        "lane": "models_open_weights",
+        "query": "open weights model release inference efficiency licensing September October 2026 Hugging Face",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:16+09:00",
+          "end": "2026-10-07T12:25:31+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Open-model ecosystem pages lacked sufficiently precise publication dates; new model announcements are recorded under other queries."
+      },
+      {
+        "query_number": 10,
+        "lane": "models_open_weights",
+        "query": "multimodal reasoning open model September October 2026 Qwen DeepSeek Mistral official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:16+09:00",
+          "end": "2026-10-07T12:25:31+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Qwen and other named-model results included old releases; no distinct fresh item retained from this query."
+      },
+      {
+        "query_number": 11,
+        "lane": "reports_surveys",
+        "query": "AI adoption ROI productivity workforce September October 2026 report survey",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:31+09:00",
+          "end": "2026-10-07T12:25:36+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 3,
+        "retained_candidate_urls": [
+          "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "https://www.bearingpoint.com/en-us/insights-events/insights/scaling-ai-for-measurable-impact/"
+        ]
+      },
+      {
+        "query_number": 12,
+        "lane": "reports_surveys",
+        "query": "enterprise AI spending September October 2026 report survey official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:31+09:00",
+          "end": "2026-10-07T12:25:36+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://kpmg.com/xx/en/media/press-releases/2026/09/new-kpmg-ai-pulse-survey-as-ai-maturity-converges-leading-organizations-show-what-ai-at-scale-requires.html"
+        ]
+      },
+      {
+        "query_number": 13,
+        "lane": "reports_surveys",
+        "query": "industrial manufacturing AI survey report September October 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:31+09:00",
+          "end": "2026-10-07T12:25:36+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-08-manufacturing-ai-initiatives-face-governance-and-workflow-integration-challenges.html"
+        ]
+      },
+      {
+        "query_number": 14,
+        "lane": "scientific_wildcards",
+        "query": "materials chemistry AI scientific research automation September October 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:36+09:00",
+          "end": "2026-10-07T12:25:41+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 4,
+        "retained_candidate_urls": [
+          "https://www.nature.com/articles/s42256-026-01298-6",
+          "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+          "https://ihc.umd.edu/building-better-ai-for-chemistry/",
+          "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html"
+        ]
+      },
+      {
+        "query_number": 15,
+        "lane": "scientific_wildcards",
+        "query": "digital twin HPC EDA robotics edge AI September October 2026 official research",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:36+09:00",
+          "end": "2026-10-07T12:25:41+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Returned adjacent HPC/digital-twin material was stale or insufficiently dated; no qualifying fresh candidate retained."
+      },
+      {
+        "query_number": 16,
+        "lane": "scientific_wildcards",
+        "query": "robotics research foundation model experiment September October 2026 official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:36+09:00",
+          "end": "2026-10-07T12:25:41+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Returned robotics review and conference calls were old; current robotics candidates came from the Japanese rotation query."
+      },
+      {
+        "query_number": 17,
+        "lane": "non_us_rotation",
+        "query": "日本 製造 設計 AI CAE 新技術 2026年9月 2026年10月",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:41+09:00",
+          "end": "2026-10-07T12:25:48+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 5,
+        "retained_candidate_urls": [
+          "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+          "https://www.nsk.com/jp-ja/company/news/2026/robotics-next-tokyo-2026/",
+          "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+          "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "https://www.nedo.go.jp/events/CD_100235.html"
+        ]
+      },
+      {
+        "query_number": 18,
+        "lane": "non_us_rotation",
+        "query": "China Korea India Europe industrial AI engineering model September October 2026 release",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:41+09:00",
+          "end": "2026-10-07T12:25:48+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption"
+        ]
+      },
+      {
+        "query_number": 19,
+        "lane": "models_open_weights",
+        "query": "site.reflection.ai Beam October 5 2026 official",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:58+09:00",
+          "end": "2026-10-07T12:26:06+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://reflection.ai/blog/introducing-beam"
+        ]
+      },
+      {
+        "query_number": 20,
+        "lane": "engineering_ai",
+        "query": "site:hitachi.co.jp \"設計ナレッジ\" \"2026\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:25:58+09:00",
+          "end": "2026-10-07T12:26:06+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "The hitachi.co.jp targeted query yielded no returned qualifying primary announcement; the secondary news article was not retained as a verified release."
+      }
+    ],
+    "search_accounting": "Twenty literal web search queries were executed in seven batched calls. Time intervals are bounded by observed runtime timestamps. The search service merged batch results and did not provide reliable per-query raw hit counts; retained counts are curated-for-hygiene unique candidate counts, not total search hits. Queries with zero retained qualifying candidates are explicitly recorded.",
+    "freshness_check": {
+      "path": "gpt_handoff/research/2026-10-07.json",
+      "result": "GitHub fetch_file returned 404 before exploration; no same-day artifact reused.",
+      "checked_at": "2026-10-07T12:24:43+09:00"
+    },
+    "geographic_coverage": {
+      "observed": [
+        "United States",
+        "Japan",
+        "China",
+        "France",
+        "Taiwan",
+        "multinational"
+      ],
+      "limitations": [
+        "Korea and India were included in the rotation query but no distinct qualifying primary candidate was retained.",
+        "The US/Europe survey samples do not by themselves provide country-specific findings."
+      ]
+    },
+    "candidate_evidence": [
+      {
+        "url": "https://arxiv.org/abs/2609.36806",
+        "supporting_urls": [
+          "https://research.nvidia.com/labs/aie/canto/"
+        ],
+        "date_evidence": "arXiv v1: 2026-09-29T06:21:15Z; v2: 2026-10-01T07:48:21Z.",
+        "verification": "Abstract and project page read; benchmark comparisons remain author-reported."
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.04084",
+        "date_evidence": "arXiv v1: 2026-10-02T21:46:50Z.",
+        "verification": "Abstract and paper limitation section read. Do not imply aircraft certification or workflow-level safety."
+      },
+      {
+        "url": "https://docs.mistral.ai/resources/changelogs",
+        "supporting_urls": [
+          "https://docs.mistral.ai/models/mistral-large-4-0"
+        ],
+        "date_evidence": "Official October 6 changelog entry.",
+        "verification": "Public preview; weights forthcoming. Official card has 1.05T total/52B active, which differs from a secondary report's 1T/49B."
+      },
+      {
+        "url": "https://reflection.ai/blog/introducing-beam",
+        "date_evidence": "Official announcement dated October 5, 2026.",
+        "verification": "Early-access preview. Apache-2.0 weight release is a future commitment; no downloadable weights verified."
+      },
+      {
+        "url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+        "verification": "Methodology: anonymous online survey, 1,200 large-company CEOs, 21 countries, August–September 2026. Publication October 1. Executive perceptions cannot establish causal productivity effects."
+      },
+      {
+        "url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+        "verification": "October 6 publication. Fieldwork January 26–March 24. AI-impact base 7,845 US employees; full employee base 15,482. Full year-two report scheduled for later October. Findings are self-assessment, not employer verification."
+      },
+      {
+        "url": "https://kpmg.com/xx/en/media/press-releases/2026/09/new-kpmg-ai-pulse-survey-as-ai-maturity-converges-leading-organizations-show-what-ai-at-scale-requires.html",
+        "verification": "September 24 publication; 2,131 senior leaders across 20 countries. Planned investment comparison is Q3 versus Q1, not realized spending; ROI group differences are associations."
+      },
+      {
+        "url": "https://www.bearingpoint.com/en-us/insights-events/insights/scaling-ai-for-measurable-impact/",
+        "verification": "Only September 2026 publication precision was shown. Exact day and 30-day eligibility need confirmation; published_at intentionally omitted. August online executive survey covers Europe, US and China."
+      },
+      {
+        "url": "https://www.nature.com/articles/s42256-026-01298-6",
+        "verification": "Primary-publisher search result supplied September 10 date and abstract. Two direct page attempts failed, latter redirected to inaccessible idp.nature.com. Full claim verification is incomplete."
+      },
+      {
+        "url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+        "verification": "September 29 release separates analysis from fracture interpretation. Up to 90% reduction concerns interpretation, while end-to-end work moved from 1–2 weeks to 2–3 days. Deployment target is FY2027. Agreement rates and novelty are self-reported."
+      }
+    ],
+    "hygiene_exclusions": [
+      {
+        "url": "https://www.ornl.gov/index.php/news/ai-automates-creation-custom-materials",
+        "reason": "Originally published September 1, outside 30-day window; September 21 update lacks a confirmed material delta."
+      },
+      {
+        "url": "https://www.siemens.com/en-us/products/simcenter/engineering-data-science-ai/physicsai/",
+        "reason": "Undated evergreen product page; not treated as a new signal."
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666546826001011",
+        "reason": "September issue label is insufficient to establish actual recent online publication; not retained."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.egyai.2026.100796",
+        "reason": "September issue date without a verified online publication day; not retained as a new dated event."
+      },
+      {
+        "url": "https://dcross.impress.co.jp/docs/news/004853.html",
+        "reason": "Secondary Hitachi release report found, but qualifying primary release could not be resolved within the 20-query budget."
+      },
+      {
+        "url": "https://github.com/huggingface/blog/blob/main/state-of-open-models-summer-2026.md",
+        "reason": "Relevant ecosystem analysis, but publication date was not established and source is summer-period retrospective."
+      }
+    ],
+    "execution": {
+      "stage": "research_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-07",
+      "started_at": "2026-10-07T12:24:32+09:00",
+      "completed_at": "2026-10-07T12:29:09+09:00",
+      "status": "partial",
+      "planned_query_count": 18,
+      "executed_query_count": 20
+    }
+  }
+}
