@@ -1,6 +1,6 @@
 {
   "schema": "daily-signal-scout/v2",
-  "generated_at": "2026-10-07T12:29:09+09:00",
+  "generated_at": "2026-10-07T12:49:20+09:00",
   "items": [
     {
       "title": "CANTO: CAD-Native Transformer Operators for AI-Aided Engineering",
@@ -18,7 +18,22 @@
       ],
       "language": "en",
       "published_at": "2026-09-29",
-      "organization": "NVIDIA"
+      "organization": "NVIDIA",
+      "document_type": "preprint",
+      "authors": [
+        "Daniel Leibovici",
+        "Nikola Borislavov Kovachki",
+        "Dawon Ahn",
+        "Ruben Ohana",
+        "Ira J. S. Shokar",
+        "Abouzar Ghasemi",
+        "Semih Akkurt",
+        "Rishikesh Ranade",
+        "Neil Ashton",
+        "Jan Kautz",
+        "Jean Kossaifi"
+      ],
+      "doi": "10.48550/arXiv.2609.36806"
     },
     {
       "title": "Dependable AI-Assisted Engineering: A Formal Framework for AI Participation and Assurance in Safety-Critical Workflows",
@@ -36,7 +51,11 @@
       ],
       "language": "en",
       "published_at": "2026-10-02",
-      "organization": "Puxue Tan"
+      "document_type": "preprint",
+      "authors": [
+        "Puxue Tan"
+      ],
+      "doi": "10.48550/arXiv.2610.04084"
     },
     {
       "title": "ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling",
@@ -53,7 +72,18 @@
       ],
       "language": "en",
       "published_at": "2026-09-16",
-      "organization": "Peng Zheng and coauthors"
+      "document_type": "preprint",
+      "authors": [
+        "Peng Zheng",
+        "Xintong Dong",
+        "Chuanyang Li",
+        "Jiaxin Jing",
+        "Chuqi Han",
+        "Hailong Shen",
+        "Yanzhi Song",
+        "Zhouwang Yang"
+      ],
+      "doi": "10.48550/arXiv.2609.22325"
     },
     {
       "title": "What Is AI Simulation?",
@@ -71,7 +101,11 @@
       ],
       "language": "en",
       "published_at": "2026-09-21",
-      "organization": "PTC"
+      "organization": "PTC",
+      "document_type": "technical_blog",
+      "authors": [
+        "PTC Blog Author"
+      ]
     },
     {
       "title": "Launching Meta Enterprise Platform",
@@ -87,7 +121,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-28",
-      "organization": "Meta"
+      "organization": "Meta",
+      "document_type": "press_release"
     },
     {
       "title": "Progress Software Connects Enterprise Knowledge Across Business Systems with New Agentic RAG Capabilities",
@@ -105,7 +140,8 @@
       ],
       "language": "en",
       "published_at": "2026-10-01",
-      "organization": "Progress Software"
+      "organization": "Progress Software",
+      "document_type": "press_release"
     },
     {
       "title": "Self-Evolving Coding Rules for AI Coding Agents",
@@ -122,7 +158,16 @@
       ],
       "language": "en",
       "published_at": "2026-09-30",
-      "organization": "Zhengyuan Jiang and coauthors"
+      "document_type": "preprint",
+      "authors": [
+        "Zhengyuan Jiang",
+        "Reachal Wang",
+        "Yuepeng Hu",
+        "Yupu Wang",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "doi": "10.48550/arXiv.2610.00650"
     },
     {
       "title": "Fastly Launches AI Firewall and AI Runtime Control to Secure and Scale AI",
@@ -139,7 +184,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-21",
-      "organization": "Fastly"
+      "organization": "Fastly",
+      "document_type": "press_release"
     },
     {
       "title": "Mistral Large 4 enters public preview; open weights still forthcoming",
@@ -157,7 +203,8 @@
       ],
       "language": "en",
       "published_at": "2026-10-06",
-      "organization": "Mistral AI"
+      "organization": "Mistral AI",
+      "document_type": "product_changelog"
     },
     {
       "title": "Introducing Beam: Reflection’s 501B open-weight model",
@@ -175,7 +222,8 @@
       ],
       "language": "en",
       "published_at": "2026-10-05",
-      "organization": "Reflection AI"
+      "organization": "Reflection AI",
+      "document_type": "press_release"
     },
     {
       "title": "New KPMG AI Pulse Survey: As AI maturity converges, leading organizations show what AI at scale requires",
@@ -193,7 +241,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-24",
-      "organization": "KPMG"
+      "organization": "KPMG",
+      "document_type": "survey_report"
     },
     {
       "title": "AI drives productivity, but CEOs struggle to turn gains into growth",
@@ -210,7 +259,8 @@
       ],
       "language": "en",
       "published_at": "2026-10-01",
-      "organization": "EY"
+      "organization": "EY",
+      "document_type": "survey_report"
     },
     {
       "title": "AI Benefits at Work Unevenly Distributed",
@@ -227,7 +277,11 @@
       ],
       "language": "en",
       "published_at": "2026-10-06",
-      "organization": "Gallup"
+      "organization": "Gallup",
+      "document_type": "survey_report",
+      "authors": [
+        "Jeffrey M. Jones"
+      ]
     },
     {
       "title": "Manufacturing AI Initiatives Face Governance and Workflow Integration Challenges",
@@ -244,7 +298,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-08",
-      "organization": "Cloudera"
+      "organization": "Cloudera",
+      "document_type": "survey_report"
     },
     {
       "title": "Scaling AI for measurable impact",
@@ -260,7 +315,8 @@
         "date_uncertain"
       ],
       "language": "en",
-      "organization": "BearingPoint"
+      "organization": "BearingPoint",
+      "document_type": "survey_report"
     },
     {
       "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
@@ -277,7 +333,23 @@
         "verification_limited"
       ],
       "language": "en",
-      "published_at": "2026-09-10"
+      "published_at": "2026-09-10",
+      "document_type": "journal_article",
+      "authors": [
+        "Tongyu Shi",
+        "Yutang Li",
+        "Zhanyuan Li",
+        "Qian Liu",
+        "Jie Zhou",
+        "Wenhe Xu",
+        "Yang Li",
+        "Dawei Dai",
+        "Rui He",
+        "Wenhua Zhou",
+        "Jiahong Wang",
+        "Xue-Feng Yu"
+      ],
+      "doi": "10.1038/s42256-026-01298-6"
     },
     {
       "title": "Autonomous Materials Exploration Integrates Automated Phase Identification and AI Agents Enhanced by Human Guidance",
@@ -295,7 +367,23 @@
       ],
       "language": "en",
       "published_at": "2026-09-10",
-      "organization": "Cornell University and collaborators"
+      "organization": "Cornell University and collaborators",
+      "document_type": "journal_article",
+      "authors": [
+        "Ming-Chiang Chang",
+        "Maximilian Amsler",
+        "Duncan R. Sutherland",
+        "Sebastian Ament",
+        "Katie R. Gann",
+        "Lan Zhou",
+        "Louisa M. Smieska",
+        "Arthur R. Woll",
+        "John M. Gregoire",
+        "Carla P. Gomes",
+        "R. Bruce van Dover",
+        "Michael O. Thompson"
+      ],
+      "doi": "10.1103/c362-349b"
     },
     {
       "title": "Building Better AI for Chemistry",
@@ -312,7 +400,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-28",
-      "organization": "University of Maryland"
+      "organization": "University of Maryland",
+      "document_type": "workshop_report"
     },
     {
       "title": "Physics-grounded materials AI for reliable materials discovery",
@@ -330,7 +419,8 @@
       ],
       "language": "en",
       "published_at": "2026-09-29",
-      "organization": "Tohoku University"
+      "organization": "Tohoku University",
+      "document_type": "press_release"
     },
     {
       "title": "iFactory・産総研が次世代連続製造モジュールの重要物資生産共創プロジェクトを開始",
@@ -348,7 +438,8 @@
       ],
       "language": "ja",
       "published_at": "2026-10-01",
-      "organization": "AIST / iFactory"
+      "organization": "AIST / iFactory",
+      "document_type": "institutional_announcement"
     },
     {
       "title": "日本精工とアールティ、製造現場の四足歩行ロボット実証を紹介",
@@ -366,7 +457,8 @@
       ],
       "language": "ja",
       "published_at": "2026-09-25",
-      "organization": "NSK / RT Corporation"
+      "organization": "NSK / RT Corporation",
+      "document_type": "press_release"
     },
     {
       "title": "シノプシスとTSMC、エージェント型AIと先端設計で協業",
@@ -384,7 +476,8 @@
       ],
       "language": "ja",
       "published_at": "2026-09-23",
-      "organization": "Synopsys / TSMC"
+      "organization": "Synopsys / TSMC",
+      "document_type": "press_release"
     },
     {
       "title": "豊田自動織機、金属の破損原因を自動解析する技術を開発",
@@ -402,7 +495,8 @@
       ],
       "language": "ja",
       "published_at": "2026-09-29",
-      "organization": "Toyota Industries"
+      "organization": "Toyota Industries",
+      "document_type": "press_release"
     },
     {
       "title": "NEDO・AIRoA、国産汎用ロボット開発コンペティション成果の初公開を告知",
@@ -420,7 +514,8 @@
       ],
       "language": "ja",
       "published_at": "2026-09-10",
-      "organization": "NEDO / AIRoA"
+      "organization": "NEDO / AIRoA",
+      "document_type": "institutional_announcement"
     },
     {
       "title": "Huawei introduces seven-step industry AI adoption method and DIMAK engineering system",
@@ -438,7 +533,230 @@
       ],
       "language": "en",
       "published_at": "2026-09-18",
-      "organization": "Huawei"
+      "organization": "Huawei",
+      "document_type": "white_paper_announcement"
+    },
+    {
+      "title": "Global Workforce Hopes and Fears Survey 2026",
+      "url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+      "source": "PwC",
+      "source_kind": "technical_report",
+      "category": "AI・労働",
+      "published_at": "2026-09-29",
+      "excerpt": "PwC surveyed 49,364 workers in 48 countries/regions and 29 sectors in May–June 2026, weighting age and gender. AI-at-work use was 64%, up ten points; daily GenAI use rose from 14% to 22%. Access to learning resources fell from 59% to 51%. These are worker self-reports, not causal productivity measures.",
+      "query": "PwC global workforce hopes fears 2026 September October AI survey report",
+      "tags": [
+        "reports_surveys",
+        "workforce",
+        "AI adoption"
+      ],
+      "organization": "PwC",
+      "document_type": "survey_report",
+      "language": "en"
+    },
+    {
+      "title": "2026: The State of Consumer AI",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-consumer-ai/",
+      "source": "Menlo Ventures",
+      "source_kind": "technical_report",
+      "category": "AI利用・支出調査",
+      "published_at": "2026-09-16",
+      "excerpt": "Morning Consult surveyed 5,067 US adults in July 2026, with demographic weighting. Menlo reports AI use rising from 61% to 64% and daily use from 19% to 25%. Its $40B global consumer-spending estimate extrapolates US survey inputs; new spending and agent questions lack a like-for-like 2025 baseline.",
+      "authors": [
+        "Shawn Carolan",
+        "Amy Wu Martin",
+        "Sam Borja"
+      ],
+      "query": "AI enterprise spending adoption report September October 2026 venture capital Menlo a16z",
+      "tags": [
+        "reports_surveys",
+        "exploratory",
+        "consumer AI",
+        "agents",
+        "spending"
+      ],
+      "organization": "Menlo Ventures / Morning Consult",
+      "document_type": "survey_report",
+      "language": "en"
+    },
+    {
+      "title": "Fit-for-Future Manufacturing SMEs: Effective Policies for Transformation",
+      "url": "https://www.oecd.org/en/publications/fit-for-future-manufacturing-smes_19e33bb9-en.html",
+      "source": "OECD",
+      "source_kind": "technical_report",
+      "category": "製造業・デジタル化調査",
+      "published_at": "2026-10-02",
+      "excerpt": "The 163-page report maps manufacturing-SME transformation policies and case studies in France, Germany, Japan, Korea and the US, across automotive, semiconductors and machinery. It examines digitalisation, automation and capability barriers. Selected-country policy analysis is not a representative AI-adoption survey.",
+      "authors": [
+        "OECD"
+      ],
+      "doi": "10.1787/19e33bb9-en",
+      "query": "site:oecd.org \"Fit-for-Future Manufacturing SMEs\" 2026",
+      "tags": [
+        "reports_surveys",
+        "manufacturing",
+        "digital transformation",
+        "non_us_rotation"
+      ],
+      "organization": "OECD",
+      "document_type": "policy_report",
+      "language": "en"
+    },
+    {
+      "title": "OECD Economic Outlook, Interim Report September 2026: AI investment expectations",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html",
+      "source": "OECD",
+      "source_kind": "technical_report",
+      "category": "AI投資・インフラ調査",
+      "published_at": "2026-09-23",
+      "excerpt": "OECD identifies AI investment as a growth support and warns that earnings disappointments or electricity/chip bottlenecks could slow the buildout. Figure 8 uses LSEG earnings forecasts and OECD calculations, updated September 14. Forward-looking macro analysis does not establish realized enterprise AI ROI.",
+      "authors": [
+        "OECD"
+      ],
+      "doi": "10.1787/f751d02b-en",
+      "query": "site:oecd.org \"September 2026\" \"AI\" \"report\"",
+      "tags": [
+        "reports_surveys",
+        "spending",
+        "AI infrastructure",
+        "forecast"
+      ],
+      "organization": "OECD",
+      "document_type": "economic_report",
+      "language": "en"
+    },
+    {
+      "title": "State of Markets II",
+      "url": "https://a16z.com/state-of-markets-ii/",
+      "source": "Andreessen Horowitz",
+      "source_kind": "technical_report",
+      "category": "AI市場・投資調査",
+      "published_at": "2026-09-30",
+      "excerpt": "a16z published its second State of Markets chart collection, discussing AI capital expenditure, GPU demand and the gap between adoption and tracked business impact. The public commentary was read; the linked chart application failed to open. Treat chart-specific numerical claims as pending verification.",
+      "authors": [
+        "David George"
+      ],
+      "query": "AI enterprise spending adoption report September October 2026 venture capital Menlo a16z",
+      "tags": [
+        "reports_surveys",
+        "spending",
+        "GPU",
+        "verification_limited"
+      ],
+      "organization": "Andreessen Horowitz",
+      "document_type": "market_report",
+      "language": "en"
+    },
+    {
+      "title": "Almost Every Job Has Tasks That AI Can Change",
+      "url": "https://www.gsb.stanford.edu/insights/almost-every-job-has-tasks-ai-can-change",
+      "source": "Stanford Graduate School of Business",
+      "source_kind": "official",
+      "category": "企業AI・組織研究",
+      "published_at": "2026-09-17",
+      "excerpt": "In a Stanford interview, Erik Brynjolfsson describes studying 51 value-delivering AI deployments; 77% of the hardest challenges involved change management, data quality or process redesign. This is a researcher interview about selected cases, not a representative adoption survey. Direct page access failed; primary search text was available.",
+      "authors": [
+        "Lisa Bonos"
+      ],
+      "query": "site:stanford.edu AI report September 2026 productivity adoption",
+      "tags": [
+        "reports_surveys",
+        "agents_enterprise",
+        "workforce",
+        "verification_limited"
+      ],
+      "organization": "Stanford University",
+      "document_type": "research_interview",
+      "language": "en"
+    },
+    {
+      "title": "vLLM v0.31.0 release",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "source": "vLLM project",
+      "source_kind": "official",
+      "category": "OSS・推論基盤",
+      "published_at": "2026-10-05",
+      "excerpt": "The tagged release adds a GPU-resident weight-cache daemon for faster restarts, Model Runner V2 speculative decoding, serving/scheduling changes and security hardening. Per-request multimodal kwargs now require an explicit trust flag. Release notes list downloadable packages; performance claims were not independently benchmarked.",
+      "query": "site:github.com/releases \"2026-10\" \"vllm\"",
+      "tags": [
+        "models_open_weights",
+        "scientific_wildcards",
+        "OSS",
+        "inference infrastructure",
+        "security"
+      ],
+      "organization": "vLLM project",
+      "document_type": "github_release",
+      "language": "en"
+    },
+    {
+      "title": "SGLang v0.5.21 release",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+      "source": "SGLang project",
+      "source_kind": "official",
+      "category": "OSS・推論基盤",
+      "published_at": "2026-10-02",
+      "excerpt": "The tagged release makes Rust-core prefix caching the default, enables live switching between prefill and decode, and introduces Decisions and Score APIs. It adds model/hardware support including GLM-5.3-Flash on AMD MI355X. Speedup figures remain project-reported and workload-specific.",
+      "query": "site:github.com/releases \"2026-10\" \"vllm\"",
+      "tags": [
+        "models_open_weights",
+        "scientific_wildcards",
+        "OSS",
+        "inference infrastructure"
+      ],
+      "organization": "SGLang project",
+      "document_type": "github_release",
+      "language": "en"
+    },
+    {
+      "title": "Accelerating battery materials discovery with an agentic AI for automated XPS analysis integrating physical constraints and chemometrics",
+      "url": "https://doi.org/10.1016/j.egyai.2026.100796",
+      "source": "Energy and AI / Elsevier",
+      "source_kind": "journal",
+      "category": "材料AI・分析自動化",
+      "excerpt": "Publisher search text describes an open-source agent that orchestrates physics-constrained XPS fitting and chemometrics for battery interfaces. The publisher labels Volume 25, September 2026; exact online day and 30-day eligibility remain unresolved. Direct access failed. Retained for Curator verification, not as a verified fresh release.",
+      "doi": "10.1016/j.egyai.2026.100796",
+      "query": "\"10.1016/j.egyai.2026.100796\"",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "agents",
+        "date_uncertain",
+        "verification_limited"
+      ],
+      "document_type": "journal_article",
+      "language": "en"
+    },
+    {
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "EvalEval / UK AI Security Institute",
+      "source_kind": "corporate_tech",
+      "category": "AI評価・再現性",
+      "published_at": "2026-09-22",
+      "excerpt": "AISI and EvalEval release Evaluation Cards with context and configuration for five benchmarks across six frontier models, plus two related cyber evaluations. The work uses the Every Eval Ever schema. Results illustrate dependence on inference compute and evaluation protocol rather than establishing a universal model ranking.",
+      "authors": [
+        "Avijit Ghosh",
+        "Jenny Chim",
+        "Deep Joshi",
+        "Srishti",
+        "Matt Kennedy",
+        "Irene Solaiman",
+        "Jessica McFadyen",
+        "Lynn Tan",
+        "Coz"
+      ],
+      "query": "site:github.com/huggingface/blog \"state-of-open-models-summer-2026\"",
+      "tags": [
+        "scientific_wildcards",
+        "benchmark",
+        "safety",
+        "OSS",
+        "non_us_rotation"
+      ],
+      "organization": "EvalEval Coalition / UK AI Security Institute",
+      "document_type": "evaluation_data_release",
+      "language": "en"
     }
   ],
   "searched_queries": [
@@ -464,13 +782,14 @@
     "site:hitachi.co.jp \"設計ナレッジ\" \"2026\""
   ],
   "warnings": [
-    "Exploration completed all six mandatory lanes and 18 target queries plus two targeted lookups. Status is partial because one Nature candidate could not be opened and one report lacks an exact publication day; downstream verification must exclude or downgrade these if unresolved.",
-    "Nature MatBrain candidate is supported only by the primary-publisher search excerpt; direct page access failed at an identity redirect.",
-    "BearingPoint shows September 2026 only. No day was invented; published_at is omitted and precise lookback eligibility remains unverified.",
-    "Search batch responses did not expose reliable per-query raw hit counts. Query logs distinguish retained qualifying candidates from raw search results and explicitly record zero-retained outcomes.",
-    "Mistral Large 4 and Reflection Beam weights are forthcoming. Do not describe preview announcements as completed weight releases; official Mistral parameter figures differ from secondary reporting.",
-    "Preprints, vendor benchmarks, survey responses and forward-looking deployment statements require their original attribution. Robotics event announcements do not verify that events or deployments occurred.",
-    "Core/report/wildcard mix is soft. The pool preserves five report candidates and adjacent materials/robotics signals; no stale items were inserted to satisfy counts."
+    "All six mandatory lanes were searched. Repair expands the original 25-item pool to 35 and records all 38 literal queries; searched_queries is capped at 20 only for serialization. Report publishers now span consultancies, research companies, university/research institutions, VC, software, associations searched with no fresh result, and government/intergovernmental sources.",
+    "Status remains partial: MatBrain publisher article, Stanford direct page, Elsevier direct page and a16z chart application could not be fully opened. Search/Crossmark evidence and exact limitations are retained; Curator must verify, downgrade or exclude unresolved material claims.",
+    "BearingPoint and Energy and AI show September 2026 without an exact online day. published_at is intentionally omitted; precise 30-day eligibility remains unresolved.",
+    "vLLM and SGLang have verified tagged release pages and artifacts. Mistral Large 4 and Reflection Beam remain previews with forthcoming weights; do not merge those availability states.",
+    "Preprints, vendor benchmarks, survey responses and forecasts retain attribution. Menlo global spending is a model-based estimate; its new spending/agent questions do not support like-for-like 2025 growth claims. Stanford's 51 deployments are selected value-delivering cases.",
+    "Search batch responses do not expose reliable per-query raw hit counts. Query logs count retained candidates by thematic discovery path, with zero-new-result and follow-on link traversal recorded.",
+    "Missing author/DOI/affiliation fields were not invented. Six original paper author lists and DOIs were restored; all 35 candidates include document_type.",
+    "Exploratory items comprise 14/35 (40%) with cross-lane memberships. Report coverage exceeds the soft target because newly found evidence was preserved for editorial review rather than discarded to match a quota."
   ],
   "checked_sources": [
     {
@@ -545,27 +864,27 @@
       "agents_enterprise": {
         "target_queries": 3,
         "executed_queries": 3,
-        "candidate_count_including_cross_lane": 5
+        "candidate_count_including_cross_lane": 6
       },
       "models_open_weights": {
         "target_queries": 3,
-        "executed_queries": 4,
-        "candidate_count_including_cross_lane": 2
+        "executed_queries": 6,
+        "candidate_count_including_cross_lane": 4
       },
       "reports_surveys": {
         "target_queries": 3,
-        "executed_queries": 3,
-        "candidate_count_including_cross_lane": 5
+        "executed_queries": 15,
+        "candidate_count_including_cross_lane": 11
       },
       "scientific_wildcards": {
         "target_queries": 3,
-        "executed_queries": 3,
-        "candidate_count_including_cross_lane": 9
+        "executed_queries": 7,
+        "candidate_count_including_cross_lane": 13
       },
       "non_us_rotation": {
         "target_queries": 2,
         "executed_queries": 2,
-        "candidate_count_including_cross_lane": 5
+        "candidate_count_including_cross_lane": 7
       }
     },
     "query_log": [
@@ -853,9 +1172,254 @@
         "retained_candidate_count": 0,
         "retained_candidate_urls": [],
         "warning": "The hitachi.co.jp targeted query yielded no returned qualifying primary announcement; the secondary news article was not retained as a verified release."
+      },
+      {
+        "query_number": 21,
+        "lane": "reports_surveys",
+        "query": "AI productivity workforce adoption report survey September October 2026 university research institute",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Broad university/research-institute query ran in a merged batch; no unique additional candidate assigned here. The targeted Stanford query and existing Gallup survey provide the retained evidence."
+      },
+      {
+        "query_number": 22,
+        "lane": "reports_surveys",
+        "query": "AI enterprise spending adoption report September October 2026 venture capital Menlo a16z",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 2,
+        "retained_candidate_urls": [
+          "https://menlovc.com/perspective/2026-the-state-of-consumer-ai/",
+          "https://a16z.com/state-of-markets-ii/"
+        ]
+      },
+      {
+        "query_number": 23,
+        "lane": "reports_surveys",
+        "query": "AI manufacturing adoption survey report September October 2026 government OECD industry association",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Government/association thematic query ran in a merged batch; no unique additional candidate assigned here. Targeted OECD queries subsequently resolved retained reports."
+      },
+      {
+        "query_number": 24,
+        "lane": "reports_surveys",
+        "query": "PwC global workforce hopes fears 2026 September October AI survey report",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html"
+        ]
+      },
+      {
+        "query_number": 25,
+        "lane": "reports_surveys",
+        "query": "site:stanford.edu AI report September 2026 productivity adoption",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.gsb.stanford.edu/insights/almost-every-job-has-tasks-ai-can-change"
+        ]
+      },
+      {
+        "query_number": 26,
+        "lane": "reports_surveys",
+        "query": "site:oecd.org AI report September 2026 firms adoption",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "OECD adoption-specific search did not establish a distinct newly dated firm-adoption survey; the targeted September-report search found adjacent investment evidence."
+      },
+      {
+        "query_number": 27,
+        "lane": "reports_surveys",
+        "query": "site:manufacturersalliance.org AI survey September 2026 manufacturing",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Manufacturers Alliance hit cited a Fall 2023 survey; not retained as fresh."
+      },
+      {
+        "query_number": 28,
+        "lane": "models_open_weights",
+        "query": "site:github.com/releases \"2026-10\" \"vllm\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 2,
+        "retained_candidate_urls": [
+          "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "https://github.com/sgl-project/sglang/releases/tag/v0.5.21"
+        ]
+      },
+      {
+        "query_number": 29,
+        "lane": "reports_surveys",
+        "query": "site:oecd.org \"September 2026\" \"AI\" \"report\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html"
+        ]
+      },
+      {
+        "query_number": 30,
+        "lane": "reports_surveys",
+        "query": "site:oecd.org \"Fit-for-Future Manufacturing SMEs\" 2026",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://www.oecd.org/en/publications/fit-for-future-manufacturing-smes_19e33bb9-en.html"
+        ]
+      },
+      {
+        "query_number": 31,
+        "lane": "reports_surveys",
+        "query": "site:manufacturersalliance.org \"2026\" \"AI\" report September October",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "No newly dated Manufacturers Alliance report established; old survey pages were not used as filler."
+      },
+      {
+        "query_number": 32,
+        "lane": "reports_surveys",
+        "query": "site:gov.uk \"AI\" \"survey\" \"September 2026\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "MHRA's September call for evidence is a survey invitation rather than results; older healthcare research PDF not retained."
+      },
+      {
+        "query_number": 33,
+        "lane": "scientific_wildcards",
+        "query": "\"s42256-026-01298-6\" authors MatBrain",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Metadata lookup for existing MatBrain candidate; fuller author/date result obtained in query 35."
+      },
+      {
+        "query_number": 34,
+        "lane": "scientific_wildcards",
+        "query": "\"10.1016/j.egyai.2026.100796\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://doi.org/10.1016/j.egyai.2026.100796"
+        ]
+      },
+      {
+        "query_number": 35,
+        "lane": "scientific_wildcards",
+        "query": "\"s42256-026-01298-6\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Crossmark confirmed authors, DOI and September 10 publication for existing MatBrain; no new item."
+      },
+      {
+        "query_number": 36,
+        "lane": "models_open_weights",
+        "query": "site:github.com/huggingface/blog \"state-of-open-models-summer-2026\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "found",
+        "retained_candidate_count": 1,
+        "retained_candidate_urls": [
+          "https://huggingface.co/blog/evaleval-aisi"
+        ],
+        "warning": "August 14 Hugging Face open-model retrospective excluded as stale; a September 22 evaluation release was discovered through its related primary-source link."
+      },
+      {
+        "query_number": 37,
+        "lane": "scientific_wildcards",
+        "query": "\"S2666546826001229\" authors",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "No additional authors surfaced for the inaccessible Energy and AI page; authors deliberately omitted."
+      },
+      {
+        "query_number": 38,
+        "lane": "reports_surveys",
+        "query": "\"Almost Every Job Has Tasks That AI Can Change\" \"51\"",
+        "executed_in_interval": {
+          "start": "2026-10-07T12:44:09+09:00",
+          "end": "2026-10-07T12:46:33+09:00"
+        },
+        "status": "no_new_finding",
+        "retained_candidate_count": 0,
+        "retained_candidate_urls": [],
+        "warning": "Primary Stanford search text corroborated the previously discovered interview; direct access remained unavailable."
       }
     ],
-    "search_accounting": "Twenty literal web search queries were executed in seven batched calls. Time intervals are bounded by observed runtime timestamps. The search service merged batch results and did not provide reliable per-query raw hit counts; retained counts are curated-for-hygiene unique candidate counts, not total search hits. Queries with zero retained qualifying candidates are explicitly recorded.",
+    "search_accounting": "38 literal web search queries were executed: the original 20 plus 18 repair queries. searched_queries retains the first 20 under the serialization cap; the full executed trace is research_plan.query_log. The cap is not an execution budget. Repair timestamps give one enclosing observed interval. Batched search merges results; retained counts reflect assigned thematic discovery/verification paths (including follow-on primary-page links), not raw hits or guaranteed per-query origin. Reverification queries may have zero newly retained candidates.",
     "freshness_check": {
       "path": "gpt_handoff/research/2026-10-07.json",
       "result": "GitHub fetch_file returned 404 before exploration; no same-day artifact reused.",
@@ -868,10 +1432,13 @@
         "China",
         "France",
         "Taiwan",
-        "multinational"
+        "multinational",
+        "United Kingdom",
+        "Germany",
+        "Korea"
       ],
       "limitations": [
-        "Korea and India were included in the rotation query but no distinct qualifying primary candidate was retained.",
+        "No distinct qualifying new India signal retained. Korea is present in the OECD policy comparison, not as a newly verified Korean product deployment.",
         "The US/Europe survey samples do not by themselves provide country-specific findings."
       ]
     },
@@ -925,6 +1492,96 @@
       {
         "url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
         "verification": "September 29 release separates analysis from fracture interpretation. Up to 90% reduction concerns interpretation, while end-to-end work moved from 1–2 weeks to 2–3 days. Deployment target is FY2027. Agreement rates and novelty are self-reported."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.36806",
+        "metadata_verification": "arXiv abstract page read during repair; complete author list and displayed arXiv-issued DOI preserved. ReliCAD and RuleEvolve pages label DOI registration pending."
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.04084",
+        "metadata_verification": "arXiv abstract page read during repair; complete author list and displayed arXiv-issued DOI preserved. The DOI is labelled pending registration."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.22325",
+        "metadata_verification": "arXiv abstract page read during repair; complete author list and displayed arXiv-issued DOI preserved. The DOI is labelled pending registration."
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.00650",
+        "metadata_verification": "arXiv abstract page read during repair; complete author list and displayed arXiv-issued DOI preserved. The DOI is labelled pending registration."
+      },
+      {
+        "url": "https://www.nature.com/articles/s42256-026-01298-6",
+        "supporting_urls": [
+          "https://crossmark.crossref.org/dialog/?doi=10.1038/s42256-026-01298-6"
+        ],
+        "metadata_verification": "Crossmark directly verified 12 authors, DOI and online date. Publisher article still inaccessible; prior claim limitation preserved."
+      },
+      {
+        "url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+        "metadata_verification": "APS article author list and DOI directly verified."
+      },
+      {
+        "url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+        "document_type": "survey_report",
+        "verification": "PwC surveyed 49,364 workers in 48 countries/regions and 29 sectors in May–June 2026, weighting age and gender. AI-at-work use was 64%, up ten points; daily GenAI use rose from 14% to 22%. Access to learning resources fell from 59% to 51%. These are worker self-reports, not causal productivity measures."
+      },
+      {
+        "url": "https://menlovc.com/perspective/2026-the-state-of-consumer-ai/",
+        "document_type": "survey_report",
+        "verification": "Morning Consult surveyed 5,067 US adults in July 2026, with demographic weighting. Menlo reports AI use rising from 61% to 64% and daily use from 19% to 25%. Its $40B global consumer-spending estimate extrapolates US survey inputs; new spending and agent questions lack a like-for-like 2025 baseline.",
+        "supporting_urls": [
+          "https://menlovc.com/reports/"
+        ],
+        "date_evidence": "Official report index gives September 16, 2026. Methodology on report page: July 2026 Morning Consult survey, n=5,067, demographically weighted."
+      },
+      {
+        "url": "https://www.oecd.org/en/publications/fit-for-future-manufacturing-smes_19e33bb9-en.html",
+        "document_type": "policy_report",
+        "verification": "The 163-page report maps manufacturing-SME transformation policies and case studies in France, Germany, Japan, Korea and the US, across automotive, semiconductors and machinery. It examines digitalisation, automation and capability barriers. Selected-country policy analysis is not a representative AI-adoption survey."
+      },
+      {
+        "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html",
+        "document_type": "economic_report",
+        "verification": "OECD identifies AI investment as a growth support and warns that earnings disappointments or electricity/chip bottlenecks could slow the buildout. Figure 8 uses LSEG earnings forecasts and OECD calculations, updated September 14. Forward-looking macro analysis does not establish realized enterprise AI ROI."
+      },
+      {
+        "url": "https://a16z.com/state-of-markets-ii/",
+        "document_type": "market_report",
+        "verification": "a16z published its second State of Markets chart collection, discussing AI capital expenditure, GPU demand and the gap between adoption and tracked business impact. The public commentary was read; the linked chart application failed to open. Treat chart-specific numerical claims as pending verification."
+      },
+      {
+        "url": "https://www.gsb.stanford.edu/insights/almost-every-job-has-tasks-ai-can-change",
+        "document_type": "research_interview",
+        "verification": "Two direct opens failed. Primary Stanford search text provided publication date, Lisa Bonos byline and the 51-case description. Maintain attribution to interviewee and do not generalize selection-biased cases to all enterprises."
+      },
+      {
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+        "document_type": "github_release",
+        "verification": "The tagged release adds a GPU-resident weight-cache daemon for faster restarts, Model Runner V2 speculative decoding, serving/scheduling changes and security hardening. Per-request multimodal kwargs now require an explicit trust flag. Release notes list downloadable packages; performance claims were not independently benchmarked."
+      },
+      {
+        "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+        "document_type": "github_release",
+        "verification": "The tagged release makes Rust-core prefix caching the default, enables live switching between prefill and decode, and introduces Decisions and Score APIs. It adds model/hardware support including GLM-5.3-Flash on AMD MI355X. Speedup figures remain project-reported and workload-specific."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.egyai.2026.100796",
+        "document_type": "journal_article",
+        "verification": "Publisher search text describes an open-source agent that orchestrates physics-constrained XPS fitting and chemometrics for battery interfaces. The publisher labels Volume 25, September 2026; exact online day and 30-day eligibility remain unresolved. Direct access failed. Retained for Curator verification, not as a verified fresh release."
+      },
+      {
+        "url": "https://huggingface.co/blog/evaleval-aisi",
+        "document_type": "evaluation_data_release",
+        "verification": "AISI and EvalEval release Evaluation Cards with context and configuration for five benchmarks across six frontier models, plus two related cyber evaluations. The work uses the Every Eval Ever schema. Results illustrate dependence on inference compute and evaluation protocol rather than establishing a universal model ranking.",
+        "discovery_path": "Followed September 22 related-article link on the stale August Hugging Face report; fresh evaluation-data release retained separately."
+      },
+      {
+        "url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+        "metadata_verification": "Gallup page displays Jeffrey M. Jones byline."
+      },
+      {
+        "url": "https://www.ptc.com/en/blogs/cad/ai-simulation",
+        "metadata_verification": "PTC page uses corporate PTC Blog Author byline."
       }
     ],
     "hygiene_exclusions": [
@@ -941,16 +1598,21 @@
         "reason": "September issue label is insufficient to establish actual recent online publication; not retained."
       },
       {
-        "url": "https://doi.org/10.1016/j.egyai.2026.100796",
-        "reason": "September issue date without a verified online publication day; not retained as a new dated event."
-      },
-      {
         "url": "https://dcross.impress.co.jp/docs/news/004853.html",
-        "reason": "Secondary Hitachi release report found, but qualifying primary release could not be resolved within the 20-query budget."
+        "reason": "Secondary Hitachi report found in initial search, but primary source was not resolved. The initial 20 recorded queries were not a policy cap on executed searches."
       },
       {
         "url": "https://github.com/huggingface/blog/blob/main/state-of-open-models-summer-2026.md",
-        "reason": "Relevant ecosystem analysis, but publication date was not established and source is summer-period retrospective."
+        "reason": "Reopened canonical Hugging Face blog: published August 14, 2026; outside 30-day window. No verified recent material delta, so remains excluded.",
+        "supporting_url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+      },
+      {
+        "url": "https://www.manufacturersalliance.org/research-insights/member-pulse-ai-usage-manufacturing",
+        "reason": "Explicitly cites Fall 2023 survey; not new."
+      },
+      {
+        "url": "https://www.gov.uk/government/calls-for-evidence/beyond-admet-ai-for-medicines-safety-survey",
+        "reason": "September 22 call for evidence solicits responses; it is not a completed survey/report."
       }
     ],
     "execution": {
@@ -958,10 +1620,130 @@
       "policy_version": 2,
       "local_date": "2026-10-07",
       "started_at": "2026-10-07T12:24:32+09:00",
-      "completed_at": "2026-10-07T12:29:09+09:00",
+      "completed_at": "2026-10-07T12:49:20+09:00",
       "status": "partial",
-      "planned_query_count": 18,
-      "executed_query_count": 20
+      "planned_query_count": 38,
+      "executed_query_count": 38,
+      "original_planned_query_count": 18,
+      "repair_started_at": "2026-10-07T12:43:40+09:00",
+      "repair_planned_query_count": 18
+    },
+    "repair": {
+      "supersedes_blob": "7023182fbed785677199746f98e468217f3d8ff7",
+      "supersedes_commit": "e84bcababdc13eb3025634d650048b6b054a20c2",
+      "original_items_preserved": 25,
+      "added_items": 10,
+      "removed_items": 0,
+      "metadata_repair": "document_type added to every candidate; full authors and DOI added to six existing papers; three person-as-organization placeholders removed rather than inventing affiliations. PTC and Gallup displayed bylines also preserved.",
+      "source_revalidation": "Canonical README, policy and sources were fetched again and matched the original blob identifiers.",
+      "metadata_lookups_do_not_count_as_searches": "Direct opens, finds and link traversal are not literal search queries."
+    },
+    "report_publisher_coverage": [
+      {
+        "publisher_group": "consultancies",
+        "status": "found",
+        "examples": [
+          "KPMG",
+          "EY",
+          "BearingPoint",
+          "PwC"
+        ],
+        "evidence_urls": [
+          "https://kpmg.com/xx/en/media/press-releases/2026/09/new-kpmg-ai-pulse-survey-as-ai-maturity-converges-leading-organizations-show-what-ai-at-scale-requires.html",
+          "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "https://www.bearingpoint.com/en-us/insights-events/insights/scaling-ai-for-measurable-impact/",
+          "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html"
+        ]
+      },
+      {
+        "publisher_group": "research_companies",
+        "status": "found",
+        "examples": [
+          "Gallup"
+        ],
+        "evidence_urls": [
+          "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx"
+        ]
+      },
+      {
+        "publisher_group": "universities_research_institutes",
+        "status": "found",
+        "examples": [
+          "Stanford University",
+          "UK AI Security Institute"
+        ],
+        "evidence_urls": [
+          "https://www.gsb.stanford.edu/insights/almost-every-job-has-tasks-ai-can-change",
+          "https://huggingface.co/blog/evaleval-aisi"
+        ],
+        "limitations": "Stanford is an interview about a study, and AISI/EvalEval is an evaluation-data release; neither is mislabelled as a population adoption survey."
+      },
+      {
+        "publisher_group": "venture_capital",
+        "status": "found",
+        "examples": [
+          "Menlo Ventures",
+          "Andreessen Horowitz"
+        ],
+        "evidence_urls": [
+          "https://menlovc.com/perspective/2026-the-state-of-consumer-ai/",
+          "https://a16z.com/state-of-markets-ii/"
+        ]
+      },
+      {
+        "publisher_group": "cloud_software",
+        "status": "found",
+        "examples": [
+          "Cloudera",
+          "Hugging Face"
+        ],
+        "evidence_urls": [
+          "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-08-manufacturing-ai-initiatives-face-governance-and-workflow-integration-challenges.html",
+          "https://huggingface.co/blog/evaleval-aisi"
+        ],
+        "limitations": "Hugging Face August ecosystem report was verified stale and excluded."
+      },
+      {
+        "publisher_group": "industry_associations",
+        "status": "no_new_finding",
+        "query_numbers": [
+          27,
+          31
+        ],
+        "evidence_urls": [
+          "https://www.manufacturersalliance.org/research-insights/member-pulse-ai-usage-manufacturing"
+        ],
+        "warning": "The returned Member Pulse cites Fall 2023 data and no new qualifying association survey was established."
+      },
+      {
+        "publisher_group": "government_intergovernmental",
+        "status": "found",
+        "examples": [
+          "OECD",
+          "UK AI Security Institute",
+          "MHRA"
+        ],
+        "query_numbers": [
+          23,
+          26,
+          29,
+          30,
+          32
+        ],
+        "evidence_urls": [
+          "https://www.oecd.org/en/publications/fit-for-future-manufacturing-smes_19e33bb9-en.html",
+          "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html",
+          "https://huggingface.co/blog/evaleval-aisi"
+        ],
+        "limitations": "MHRA returned a September survey invitation, not results; it was not retained as survey evidence."
+      }
+    ],
+    "candidate_mix": {
+      "total": 35,
+      "report_lane": 11,
+      "exploratory_including_cross_lane": 14,
+      "exploratory_percent": 40,
+      "definition": "Existing scientific_wildcards plus adjacent consumer-AI survey. Lane memberships overlap; proportions are coverage signals, not additive categories."
     }
   }
 }
