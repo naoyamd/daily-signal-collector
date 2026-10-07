@@ -1,6 +1,6 @@
 {
   "schema": "daily-signal-scout/v2",
-  "generated_at": "2026-10-07T12:28:17.295+09:00",
+  "generated_at": "2026-10-07T03:47:53.739Z",
   "items": [
     {
       "title": "How Readiness Stays Ready: The F110 Delivers Power, Reliability, and Scale for the F-15EX",
@@ -19,6 +19,27 @@
       ],
       "organization": "GE Aerospace",
       "document_type": "company technical article",
+      "language": "en",
+      "company": "GE Aerospace"
+    },
+    {
+      "title": "Rolls-Royce strengthens freighter market position by powering first A350F flight",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/29-09-2026-rr-strengthens-freighter-market-position-by-powering-first-a350f-flight.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・飛行試験",
+      "published_at": "2026-09-29",
+      "excerpt": "Rolls-Royce reports the A350F completed its first test flight with Trent XWB-97 engines. Two of three durability packages have entered service; phase three is planned for 2028, with company targets of doubled time on wing in challenging environments and 50% improvement in benign conditions. These future durability figures are targets, not demonstrated A350F fleet outcomes.",
+      "query": "\"Rolls-Royce strengthens freighter market position\"",
+      "tags": [
+        "A350F",
+        "Trent XWB-97",
+        "flight testing",
+        "durability"
+      ],
+      "organization": "Rolls-Royce / Airbus",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
       "language": "en"
     },
     {
@@ -38,6 +59,46 @@
       "organization": "Pratt & Whitney Canada",
       "company": "Pratt & Whitney",
       "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/28-09-2026-rr-invests-pound-300-million-in-uk-manufacturing-and-engineering-facilities-to-drive-aerospace-and-defence-growth.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造設備",
+      "published_at": "2026-09-28",
+      "excerpt": "Rolls-Royce announced £300M for UK manufacturing/engineering facilities: over £140M in Derby, over £90M in Bristol, £43M in Inchinnan, £19M in Rotherham and £5M in Ansty. The Rotherham blade-casting project aims to double output by 2030; Derby works are expected in 2028 and Bristol in 2031. These are investment plans and capacity targets.",
+      "query": "\"Rolls-Royce\" \"300 million\" \"September 28\" \"2026\"",
+      "tags": [
+        "manufacturing capacity",
+        "turbine blades",
+        "casting",
+        "MRO"
+      ],
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GE Aerospace IR update: CFM56 shop-visit outlook and RISE development recap",
+      "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/rendering-open-fan-technology-installed-aircraft",
+      "source": "GE Aerospace",
+      "source_kind": "official",
+      "category": "航空機エンジン・MRO需要",
+      "published_at": "2026-09-28",
+      "excerpt": "GE's IR update forecasts CFM56 retirements of 1.5–2.0% in 2026 and roughly 2,400 shop visits in 2026 and 2027, with stable workscopes. It expects double-digit engine-removal growth in H1 2027. These are management forecasts. The same page's RISE/CPP sections recap earlier announcements and are not separate new events.",
+      "query": "\"RISE\" \"dust\" \"2026\" \"September\" CFM",
+      "tags": [
+        "CFM56",
+        "MRO",
+        "shop visits",
+        "management forecast"
+      ],
+      "organization": "GE Aerospace / CFM International",
+      "company": "GE Aerospace",
+      "document_type": "investor operational update",
       "language": "en"
     },
     {
@@ -75,6 +136,27 @@
       ],
       "organization": "Honeywell Aerospace",
       "document_type": "investor operational update",
+      "language": "en",
+      "company": "Honeywell Aerospace"
+    },
+    {
+      "title": "SAESL positions for growth through four strategic talent and technology partnerships",
+      "url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+      "source": "SAESL",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・AI保全",
+      "published_at": "2026-09-23",
+      "excerpt": "SAESL's release describes a 2026–2031 A*STAR ARTC partnership for AI-native/autonomous inspection, assembly and disassembly, annual technology sprints and SME manufacturing adoption. SAESL is a Rolls-Royce/SIAEC Trent-MRO joint venture. Discovery rationale: its multi-year shop-floor deployments offer a recurring view of industrial AI adoption; benefits remain planned.",
+      "query": "\"SAESL\" \"ARTC\" \"2026\" \"September\"",
+      "tags": [
+        "discovery_candidate",
+        "AI inspection",
+        "MRO",
+        "advanced manufacturing"
+      ],
+      "organization": "SAESL / A*STAR ARTC",
+      "company": "SAESL",
+      "document_type": "official media release filed with SGX",
       "language": "en"
     },
     {
@@ -117,6 +199,26 @@
       "language": "en"
     },
     {
+      "title": "Rolls-Royce to elevate EU's latest Clean Aviation call",
+      "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+      "source": "Rolls-Royce",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・ハイブリッド推進",
+      "published_at": "2026-09-18",
+      "excerpt": "Rolls-Royce was selected to lead ELEVATED, subject to grant preparation, to integrate and test a hybrid-electric subsystem in a donor engine and inform UltraFan 30. UltraFan 30 ground testing is planned for 2028. The subsystem contributes to an aircraft-level CO2 reduction goal of at least 20%; this is a program target, not a measured result.",
+      "query": "\"Rolls-Royce strengthens freighter market position\"",
+      "tags": [
+        "ELEVATED",
+        "UltraFan 30",
+        "hybrid electric",
+        "demonstrator"
+      ],
+      "organization": "Rolls-Royce / Clean Aviation Joint Undertaking",
+      "company": "Rolls-Royce",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
       "title": "RTX's Pratt & Whitney completes F135 Engine Core Upgrade Risk Reduction Design Review",
       "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
       "source": "Pratt & Whitney",
@@ -132,7 +234,8 @@
       ],
       "organization": "Pratt & Whitney",
       "document_type": "press release",
-      "language": "en"
+      "language": "en",
+      "company": "Pratt & Whitney"
     },
     {
       "title": "GE Aerospace Advances XA102 Adaptive Cycle Engine Assembly for U.S. Air Force's Next Generation Adaptive Propulsion Program",
@@ -151,7 +254,8 @@
       ],
       "organization": "GE Aerospace",
       "document_type": "press release",
-      "language": "en"
+      "language": "en",
+      "company": "GE Aerospace"
     },
     {
       "title": "GE Aerospace to acquire Consolidated Precision Products",
@@ -181,28 +285,28 @@
     "site:mtu.de 2026 September October engine technology manufacturing after:2026-09-07 before:2026-10-08",
     "site:cfmaeroengines.com 2026 September October news after:2026-09-07 before:2026-10-08",
     "site:honeywell.com OR site:honeywellaerospace.com 2026 September October aerospace engine technology after:2026-09-07 before:2026-10-08",
-    "site:cfmaeroengines.com \"2026\" \"September\"",
-    "site:rolls-royce.com \"2026\" \"September\" \"F130\"",
-    "site:rtx.com \"2026/09\" \"Pratt\"",
-    "CFM International September October 2026 LEAP RISE press release",
-    "site:rolls-royce.com/media/press-releases/2026 \"September\" aero",
-    "site:rtx.com/news/news-center/2026 \"Pratt\" \"September\" -site:careers.rtx.com",
-    "site:rtx.com \"How RTX is using AI and data to transform aircraft maintenance\"",
-    "site:rtx.com \"F135 Engine Core Upgrade Risk Reduction Design Review\" \"2026\"",
-    "site:rolls-royce.com \"October\" \"2026\" \"engine\"",
-    "site:geaerospace.com/news \"October\" \"2026\" aircraft engine",
-    "site:mtu.de \"October\" \"2026\" engines",
-    "site:safran-group.com/pressroom \"October\" \"2026\" \"Aircraft Engines\"",
-    "site:rolls-royce.com \"From ground test to flight test\" \"2026\""
+    "aircraft engine turbine ceramic matrix composite additive manufacturing digital twin after:2026-09-07 before:2026-10-08 -drone -UAV -UAS -eVTOL",
+    "jet engine model based definition digital thread AI inspection September October 2026 -drone -UAV -eVTOL",
+    "aerospace propulsion hydrogen combustion test rig design optimization after:2026-09-07 before:2026-10-08 -drone -UAV -eVTOL",
+    "aircraft engine supplier castings forgings coatings September 2026 GE Rolls Royce Pratt Whitney Safran",
+    "site:rolls-royce.com \"2026\" \"September\" \"300 million\"",
+    "\"SAESL\" \"ARTC\" \"2026\" \"September\"",
+    "\"RISE\" \"dust\" \"2026\" \"September\" CFM",
+    "(site:gknaerospace.com OR site:ihi.co.jp OR site:aviationbenefits.org OR site:cleansky.eu OR site:clean-aviation.eu) engine manufacturing technology after:2026-09-07 before:2026-10-08",
+    "site:rolls-royce.com \"invests £300 million\" \"2026\"",
+    "site:rolls-royce.com \"first A350F flight\" \"2026\"",
+    "(site:howmet.com OR site:precast.com OR site:atimaterials.com OR site:woodward.com OR site:parker.com) aerospace engine after:2026-09-07 before:2026-10-08",
+    "\"AI\" \"engine inspection\" \"September\" \"2026\" -drone -UAV -eVTOL",
+    "\"Rolls-Royce\" \"300 million\" \"September 28\" \"2026\""
   ],
   "warnings": [
-    "Partial source access: CFM's homepage was reachable, but its press/stories indexes yielded only navigation and footer text; three searches did not verify a dated qualifying CFM item. All seven mandatory coverage records are present.",
-    "Rolls-Royce's F130 ground-to-flight-test story had no verifiable publication date in the retrieved article; year in its URL and recent crawling were not treated as publication dates. It was excluded.",
-    "Nine verified dated watch-source candidates were found; the threshold of five was met, so spillover was not triggered. Rotation advances from index 19 to 26.",
-    "All candidates are within the September 7 to October 7, 2026 lookback. Older in-window candidates require Curator publication-history deduplication; this Scout has not claimed they are previously unpublished.",
-    "Vendor operating metrics and performance forecasts remain attributed. Safran/Akira's body date is September 22 although its URL ends September 21. RTX AI-MRO's September 18 date is corroborated by the official news-center listing.",
-    "Configured unmanned-aircraft exclusions were applied to candidate scope. Safran/Akira is retained for RISE, hybridization and hydrogen-combustion/test infrastructure; its separate drone-propulsion ambitions are not a candidate claim.",
-    "Twenty actual search queries were executed and all are recorded, including zero-result/refinement searches. Search-result freshness alone was not used as an event date."
+    "Partial source access remains for CFM: a September 2 story was recovered but is outside the September 7–October 7 lookback, and current press/stories indexes remained incomplete. All seven mandatory coverage records are present.",
+    "Rolls-Royce's undated F130 story remains excluded. Supplementary supplier/technology exploration recovered three other dated Rolls-Royce releases, changing its coverage status to found.",
+    "Fourteen dated candidates are retained: thirteen watch-source candidates and one Discovery candidate (SAESL's partnership with A*STAR ARTC). The five-item spillover threshold was met; no additional rotation companies were selected. The already-advanced cursor remains 26.",
+    "Candidates require Curator publication-history deduplication. GE's September 28 IR update is retained for its CFM56 shop-visit outlook; its RISE and CPP recaps do not constitute additional new events.",
+    "Vendor operating metrics, planned investments, durability improvements and forecasts remain attributed rather than treated as independently demonstrated results. Safran/Akira's body date is September 22 although the URL says September 21.",
+    "Configured unmanned-aircraft exclusions were applied to candidate scope. Safran/Akira is retained only for RISE, hybridization and hydrogen-combustion/test infrastructure.",
+    "Top-level searched_queries is capped at 20 recorded examples, not at 20 executed searches. research_plan.query_execution preserves all 34 recoverable executed queries (20 original and 14 timestamped repair queries). An intervening interrupted pass was reported to have run 12 additional searches, but its exact text/times could not be recovered and are not invented or included in the auditable count."
   ],
   "checked_sources": [
     {
@@ -212,9 +316,8 @@
     },
     {
       "name": "Rolls-Royce",
-      "status": "no_new_finding",
-      "query": "site:rolls-royce.com September October 2026 aero engine technology test manufacturing after:2026-09-07 before:2026-10-08",
-      "warning": "Searches and the official F130 story/press surfaces did not establish a qualifying publication date within the lookback. F130 content was excluded rather than assigning a crawl date."
+      "status": "found",
+      "query": "\"Rolls-Royce\" \"300 million\" \"September 28\" \"2026\""
     },
     {
       "name": "Pratt & Whitney",
@@ -235,7 +338,7 @@
       "name": "CFM International",
       "status": "unreachable",
       "query": "site:cfmaeroengines.com 2026 September October news after:2026-09-07 before:2026-10-08",
-      "warning": "Homepage reachable; /news/ failed, and official press-articles/stories indexes returned only navigation/footer content. Three searches yielded no verifiable dated candidate, so current release coverage remains incomplete."
+      "warning": "CFM homepage and a dated September 2 story were reachable, but /news/ failed and press/stories indexes did not provide current release content. The recovered story is outside the September 7 lookback; current release coverage remains incomplete."
     },
     {
       "name": "Honeywell Aerospace",
@@ -245,7 +348,7 @@
   ],
   "research_plan": {
     "watchlist": {
-      "selection_basis": "Authoritative company-watch state blob 046fa0fb8aedbcf6a702169723fd65e67c77426d was valid and matched config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c.",
+      "selection_basis": "Authoritative company-watch state blob 046fa0fb8aedbcf6a702169723fd65e67c77426d was valid and matched config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c. Reconciliation with pre-run last_checked timestamps confirms these are the oldest seven, with configuration order breaking the September 22 tie for Honeywell. This repairs the same run and does not select or advance a second batch.",
       "active_sources": [
         {
           "name": "GE Aerospace",
@@ -314,10 +417,14 @@
       "policy_version": 2,
       "local_date": "2026-10-07",
       "started_at": "2026-10-07T12:24:14+09:00",
-      "completed_at": "2026-10-07T12:28:17.295+09:00",
+      "completed_at": "2026-10-07T03:47:53.739Z",
       "status": "partial",
-      "planned_query_count": 7,
-      "executed_query_count": 20
+      "planned_query_count": 21,
+      "executed_query_count": 34,
+      "executed_query_count_basis": "34 timestamped, recoverable queries; excludes 12 reported searches from an interrupted pass whose exact records were not recovered.",
+      "planned_query_count_basis": "Seven original mandatory company queries plus fourteen supplementary technology-first, supplier and primary-source follow-up queries; thirteen original adaptive refinements brought confirmed execution to 34.",
+      "repair_started_at": "2026-10-07T03:44:08.828Z",
+      "original_completed_at": "2026-10-07T12:28:17.295+09:00"
     },
     "query_execution": [
       {
@@ -399,6 +506,76 @@
       {
         "query": "site:rolls-royce.com \"From ground test to flight test\" \"2026\"",
         "queried_at": "2026-10-07T03:26:38.126Z"
+      },
+      {
+        "query": "aircraft engine turbine ceramic matrix composite additive manufacturing digital twin after:2026-09-07 before:2026-10-08 -drone -UAV -UAS -eVTOL",
+        "queried_at": "2026-10-07T03:44:08.828Z",
+        "search_type": "technology_first_and_supplier"
+      },
+      {
+        "query": "jet engine model based definition digital thread AI inspection September October 2026 -drone -UAV -eVTOL",
+        "queried_at": "2026-10-07T03:44:08.828Z",
+        "search_type": "technology_first_and_supplier"
+      },
+      {
+        "query": "aerospace propulsion hydrogen combustion test rig design optimization after:2026-09-07 before:2026-10-08 -drone -UAV -eVTOL",
+        "queried_at": "2026-10-07T03:44:08.828Z",
+        "search_type": "technology_first_and_supplier"
+      },
+      {
+        "query": "aircraft engine supplier castings forgings coatings September 2026 GE Rolls Royce Pratt Whitney Safran",
+        "queried_at": "2026-10-07T03:44:08.828Z",
+        "search_type": "technology_first_and_supplier"
+      },
+      {
+        "query": "site:rolls-royce.com \"2026\" \"September\" \"300 million\"",
+        "queried_at": "2026-10-07T03:44:20.521Z",
+        "search_type": "supplier_and_primary_source_followup"
+      },
+      {
+        "query": "\"SAESL\" \"ARTC\" \"2026\" \"September\"",
+        "queried_at": "2026-10-07T03:44:20.521Z",
+        "search_type": "supplier_and_primary_source_followup"
+      },
+      {
+        "query": "\"RISE\" \"dust\" \"2026\" \"September\" CFM",
+        "queried_at": "2026-10-07T03:44:20.521Z",
+        "search_type": "supplier_and_primary_source_followup"
+      },
+      {
+        "query": "(site:gknaerospace.com OR site:ihi.co.jp OR site:aviationbenefits.org OR site:cleansky.eu OR site:clean-aviation.eu) engine manufacturing technology after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:44:20.521Z",
+        "search_type": "supplier_and_primary_source_followup"
+      },
+      {
+        "query": "site:rolls-royce.com \"invests £300 million\" \"2026\"",
+        "queried_at": "2026-10-07T03:44:46.599Z",
+        "search_type": "supplier_and_technology_primary_followup"
+      },
+      {
+        "query": "site:rolls-royce.com \"first A350F flight\" \"2026\"",
+        "queried_at": "2026-10-07T03:44:46.599Z",
+        "search_type": "supplier_and_technology_primary_followup"
+      },
+      {
+        "query": "(site:howmet.com OR site:precast.com OR site:atimaterials.com OR site:woodward.com OR site:parker.com) aerospace engine after:2026-09-07 before:2026-10-08",
+        "queried_at": "2026-10-07T03:44:46.599Z",
+        "search_type": "supplier_and_technology_primary_followup"
+      },
+      {
+        "query": "\"AI\" \"engine inspection\" \"September\" \"2026\" -drone -UAV -eVTOL",
+        "queried_at": "2026-10-07T03:44:46.599Z",
+        "search_type": "supplier_and_technology_primary_followup"
+      },
+      {
+        "query": "\"Rolls-Royce\" \"300 million\" \"September 28\" \"2026\"",
+        "queried_at": "2026-10-07T03:45:09.996Z",
+        "search_type": "primary_source_verification"
+      },
+      {
+        "query": "\"Rolls-Royce strengthens freighter market position\"",
+        "queried_at": "2026-10-07T03:45:09.996Z",
+        "search_type": "primary_source_verification"
       }
     ],
     "primary_source_checks": [
@@ -457,6 +634,34 @@
       {
         "url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
         "checked_at": "2026-10-07T03:27:03.333Z"
+      },
+      {
+        "url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+        "checked_at": "2026-10-07T03:44:31.295Z"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/rendering-open-fan-technology-installed-aircraft",
+        "checked_at": "2026-10-07T03:44:31.295Z"
+      },
+      {
+        "url": "https://www.cfmaeroengines.com/stories/open-fan-engine-technology-aims-for-epic-efficiency.-it-also-has-major-durability-potential",
+        "checked_at": "2026-10-07T03:44:31.295Z"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/29-09-2026-rr-strengthens-freighter-market-position-by-powering-first-a350f-flight.aspx",
+        "checked_at": "2026-10-07T03:45:18.107Z"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases.aspx?page=139",
+        "checked_at": "2026-10-07T03:45:18.107Z"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/28-09-2026-rr-invests-pound-300-million-in-uk-manufacturing-and-engineering-facilities-to-drive-aerospace-and-defence-growth.aspx",
+        "checked_at": "2026-10-07T03:45:36.456Z"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+        "checked_at": "2026-10-07T03:45:36.456Z"
       }
     ],
     "verification_notes": [
@@ -505,6 +710,99 @@
         "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products",
         "evidence_location": "September 8 dateline; acquisition, casting-capacity and transaction paragraphs",
         "date_basis": "visible article dateline"
+      },
+      {
+        "url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+        "evidence_location": "Official release page 1 dateline; page 2 AI/autonomy; page 3 Technology partnership appendix, 2026–2031 term and annual sprints; page 4 joint-venture relationship",
+        "date_basis": "Visible release dateline, September 23, 2026"
+      },
+      {
+        "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/rendering-open-fan-technology-installed-aircraft",
+        "evidence_location": "Visible September 28 dateline and first two paragraphs on CFM56 retirements, shop visits and engine removals",
+        "date_basis": "Visible article dateline"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/29-09-2026-rr-strengthens-freighter-market-position-by-powering-first-a350f-flight.aspx",
+        "evidence_location": "Opening paragraph and durability-package paragraph",
+        "date_basis": "Official press-release index explicitly lists September 29, 2026; URL date agrees",
+        "date_supporting_url": "https://www.rolls-royce.com/media/press-releases.aspx?page=139"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/28-09-2026-rr-invests-pound-300-million-in-uk-manufacturing-and-engineering-facilities-to-drive-aerospace-and-defence-growth.aspx",
+        "evidence_location": "Opening announcement and site-by-site investment paragraphs",
+        "date_basis": "Official press-release index explicitly lists September 28, 2026; URL date agrees",
+        "date_supporting_url": "https://www.rolls-royce.com/media/press-releases.aspx?page=139"
+      },
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+        "evidence_location": "Opening selection paragraphs; grant-preparation condition; UltraFan 30 ground-testing paragraph",
+        "date_basis": "Official press-release index explicitly lists September 18, 2026; URL date agrees",
+        "date_supporting_url": "https://www.rolls-royce.com/media/press-releases.aspx?page=139"
+      }
+    ],
+    "repair_audit": {
+      "replaces_blob": "35e23e2f1572b2ff774c30b862b5a9e12a210698",
+      "original_handoff_commit": "10033621496f449a744bf70fc42c7d257e9344a2",
+      "rotation_already_advanced_in_commit": "6659e488217340153e5f88d42801617993d06457",
+      "missing_company_fields_added": 4,
+      "original_items_preserved": 9,
+      "new_verified_candidates": 5,
+      "unrecoverable_interrupted_query_count_reported": 12
+    },
+    "discovery": {
+      "candidate_count": 1,
+      "organizations": [
+        "SAESL / A*STAR ARTC"
+      ],
+      "rationale": "The 2026–2031 partnership, annual applied-innovation projects and industrial deployment focus provide ongoing monitoring value for aircraft-engine MRO and manufacturing AI.",
+      "advances_rotation": false
+    },
+    "supplementary_search_outcomes": [
+      {
+        "queries": [
+          "aircraft engine turbine ceramic matrix composite additive manufacturing digital twin after:2026-09-07 before:2026-10-08 -drone -UAV -UAS -eVTOL",
+          "jet engine model based definition digital thread AI inspection September October 2026 -drone -UAV -eVTOL",
+          "aerospace propulsion hydrogen combustion test rig design optimization after:2026-09-07 before:2026-10-08 -drone -UAV -eVTOL",
+          "aircraft engine supplier castings forgings coatings September 2026 GE Rolls Royce Pratt Whitney Safran"
+        ],
+        "outcome": "Technology-first searches surfaced prior GE/F135 items plus Rolls-Royce and SAESL leads. NIST's 2016 digital-thread paper and undated NASA/HESTIA background pages were not retained as new candidates."
+      },
+      {
+        "queries": [
+          "site:rolls-royce.com \"2026\" \"September\" \"300 million\"",
+          "\"SAESL\" \"ARTC\" \"2026\" \"September\"",
+          "\"RISE\" \"dust\" \"2026\" \"September\" CFM",
+          "(site:gknaerospace.com OR site:ihi.co.jp OR site:aviationbenefits.org OR site:cleansky.eu OR site:clean-aviation.eu) engine manufacturing technology after:2026-09-07 before:2026-10-08"
+        ],
+        "outcome": "Supplier/primary follow-up verified SAESL's September 23 official SGX release and found Rolls-Royce September releases and GE's September 28 IR update. CFM's recovered September 2 story was excluded as out-of-window. No additional qualifying GKN/IHI/Clean Aviation item was found in the combined batch."
+      },
+      {
+        "queries": [
+          "site:rolls-royce.com \"invests £300 million\" \"2026\"",
+          "site:rolls-royce.com \"first A350F flight\" \"2026\"",
+          "(site:howmet.com OR site:precast.com OR site:atimaterials.com OR site:woodward.com OR site:parker.com) aerospace engine after:2026-09-07 before:2026-10-08",
+          "\"AI\" \"engine inspection\" \"September\" \"2026\" -drone -UAV -eVTOL"
+        ],
+        "outcome": "Refinement found official Rolls-Royce A350F story and index; AI-MRO secondary coverage duplicates the retained RTX primary article. The supplier-domain query yielded no new retained item."
+      },
+      {
+        "queries": [
+          "\"Rolls-Royce\" \"300 million\" \"September 28\" \"2026\"",
+          "\"Rolls-Royce strengthens freighter market position\""
+        ],
+        "outcome": "Exact-title follow-up located the official Rolls-Royce A350F release and dated index. Links from that index verified the £300M investment release and September 18 ELEVATED announcement."
+      }
+    ],
+    "scope_checks": [
+      {
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+        "decision": "retain",
+        "basis": "The primary release describes a hybrid-electric gas-turbine subsystem for future short- to medium-range aircraft and the narrowbody UltraFan 30 demonstrator. Candidate facts do not concern drone, UAV, UAS, eVTOL, air taxi or urban air mobility. Site-wide navigation terms are not candidate subject matter."
+      },
+      {
+        "url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+        "decision": "retain",
+        "basis": "AI-native and autonomous describe engine-MRO inspection/assembly processes, not unmanned aircraft. The release concerns Rolls-Royce Trent engine maintenance."
       }
     ]
   }
