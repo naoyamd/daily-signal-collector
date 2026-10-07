@@ -1,7 +1,7 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-10-07T12:28:52.501+09:00",
+  "updated_at": "2026-10-07T03:48:33.534Z",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
   "next_index": 26,
   "last_checked": {
@@ -58,15 +58,16 @@
   "last_run": {
     "local_date": "2026-10-07",
     "path": "gpt_handoff/company/2026-10-07.json",
-    "commit": "10033621496f449a744bf70fc42c7d257e9344a2",
+    "commit": "baa898f6828e83d86c695853762006a785f6f036",
     "status": "partial",
     "checked_source_count": 7,
-    "candidate_item_count": 9
+    "candidate_item_count": 14
   },
   "warnings": [
     "watchlist_hash records the current config/sources.yaml Git blob identifier; rotation state remains valid while this configuration version is unchanged.",
-    "2026-10-07 checked seven mandatory sources starting at index 19 and found nine dated candidates; no spillover was triggered.",
+    "2026-10-07 checked seven mandatory sources starting at index 19. After supplementary repair, the same run retains fourteen dated candidates (thirteen watch-source and one Discovery); no spillover was triggered.",
     "CFM International was checked but its dynamic press/stories content was not retrievable; the dated handoff is partial and preserves the access warning. Rolls-Royce's undated F130 story was excluded.",
-    "Next mandatory cursor is RTX at index 26."
+    "Next mandatory cursor is RTX at index 26.",
+    "The same-day handoff was repaired and its commit reconciled without advancing next_index again. All existing last_checked records were preserved; next_index remains 26."
   ]
 }
