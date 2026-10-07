@@ -1,0 +1,2582 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-10-07T12:54:45+09:00",
+  "source_files": [
+    {
+      "repository": "naoyamd/daily-signal-collector",
+      "path": "gpt_handoff/company/2026-10-07.json",
+      "blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "generated_at": "2026-10-07T03:47:53.739Z",
+      "observed_at": "2026-10-07T12:54:45+09:00",
+      "item_count": 14,
+      "execution_status": "partial",
+      "freshness_age_minutes": 6.86,
+      "strict_validation": "passed"
+    },
+    {
+      "repository": "naoyamd/daily-signal-collector",
+      "path": "gpt_handoff/research/2026-10-07.json",
+      "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "generated_at": "2026-10-07T12:49:20+09:00",
+      "observed_at": "2026-10-07T12:54:45+09:00",
+      "item_count": 35,
+      "execution_status": "partial",
+      "freshness_age_minutes": 5.42,
+      "strict_validation": "passed"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "工学AIの入力表現と検証可能性",
+      "supporting_ids": [
+        "r-canto-cad-operator",
+        "r-engineering-assurance",
+        "r-relicad-constraints"
+      ],
+      "editorial_note": "CAD表現を直接扱う計算と、設計仕様・実行証拠・受入判断の接続を別の技術軸として説明する"
+    },
+    {
+      "signal": "研究成果から現場工程への移行段階",
+      "supporting_ids": [
+        "r-toyota-fracture-ai",
+        "c-ge-f110-manufacturing",
+        "c-mtu-gtf-advantage",
+        "r-synopsys-tsmc-agentic-eda"
+      ],
+      "editorial_note": "解析自動化、工程改善、初納入、認証済みEDAフローを区別し、将来計画と稼働実績を混ぜない"
+    },
+    {
+      "signal": "企業Agentの情報接続とOSS運用の信頼境界",
+      "supporting_ids": [
+        "r-progress-agentic-rag",
+        "r-vllm-031-serving"
+      ],
+      "editorial_note": "MCP接続を含む検索の広がりと、推論サービスの再起動・リクエスト引数の制御を具体的な運用変更として整理する"
+    },
+    {
+      "signal": "AI効果の測定対象の違い",
+      "supporting_ids": [
+        "r-gallup-ai-work-benefits",
+        "r-ey-ceo-ai-roi",
+        "r-pwc-workforce-2026"
+      ],
+      "editorial_note": "従業員の速度・品質、国際労働者の利用率・学習機会、CEOのROI可視性という3つの測定対象を区別する。調査間の比率を直接比較しない"
+    },
+    {
+      "signal": "現場展開を支える枠組みの追跡",
+      "supporting_ids": [
+        "w-tohoku-physmat",
+        "w-aist-ifactory-continuous",
+        "w-saesl-artc-mro"
+      ],
+      "editorial_note": "Perspective、化学プロセス共同開発、MROの多年協業は、まだ稼働実績や性能保証ではない。研究・産業間の接続点として追う"
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": [
+      "r-canto-cad-operator",
+      "r-toyota-fracture-ai",
+      "r-engineering-assurance"
+    ],
+    "ordered_ids": [
+      "r-canto-cad-operator",
+      "r-toyota-fracture-ai",
+      "r-engineering-assurance",
+      "c-ge-f110-manufacturing",
+      "r-relicad-constraints",
+      "c-mtu-gtf-advantage",
+      "r-synopsys-tsmc-agentic-eda",
+      "r-progress-agentic-rag",
+      "r-vllm-031-serving",
+      "r-gallup-ai-work-benefits",
+      "r-ey-ceo-ai-roi",
+      "r-pwc-workforce-2026",
+      "w-tohoku-physmat",
+      "w-aist-ifactory-continuous",
+      "w-saesl-artc-mro"
+    ],
+    "central_signals": [
+      {
+        "theme": "工学AIの入力表現と検証可能性",
+        "supporting_ids": [
+          "r-canto-cad-operator",
+          "r-engineering-assurance",
+          "r-relicad-constraints"
+        ],
+        "note": "CAD表現を直接扱う計算と、設計仕様・実行証拠・受入判断の接続を別の技術軸として説明する"
+      },
+      {
+        "theme": "研究成果から現場工程への移行段階",
+        "supporting_ids": [
+          "r-toyota-fracture-ai",
+          "c-ge-f110-manufacturing",
+          "c-mtu-gtf-advantage",
+          "r-synopsys-tsmc-agentic-eda"
+        ],
+        "note": "解析自動化、工程改善、初納入、認証済みEDAフローを区別し、将来計画と稼働実績を混ぜない"
+      },
+      {
+        "theme": "企業Agentの情報接続とOSS運用の信頼境界",
+        "supporting_ids": [
+          "r-progress-agentic-rag",
+          "r-vllm-031-serving"
+        ],
+        "note": "MCP接続を含む検索の広がりと、推論サービスの再起動・リクエスト引数の制御を具体的な運用変更として整理する"
+      },
+      {
+        "theme": "AI効果の測定対象の違い",
+        "supporting_ids": [
+          "r-gallup-ai-work-benefits",
+          "r-ey-ceo-ai-roi",
+          "r-pwc-workforce-2026"
+        ],
+        "note": "従業員の速度・品質、国際労働者の利用率・学習機会、CEOのROI可視性という3つの測定対象を区別する。調査間の比率を直接比較しない"
+      },
+      {
+        "theme": "現場展開を支える枠組みの追跡",
+        "supporting_ids": [
+          "w-tohoku-physmat",
+          "w-aist-ifactory-continuous",
+          "w-saesl-artc-mro"
+        ],
+        "note": "Perspective、化学プロセス共同開発、MROの多年協業は、まだ稼働実績や性能保証ではない。研究・産業間の接続点として追う"
+      }
+    ],
+    "tensions_or_caveats": [
+      "プレプリントの著者評価、メーカーの性能説明、自己申告surveyは独立した実証とは区別し、主語を保持する",
+      "CANTOの入力メッシュ不要は、学習データ生成やCFD検証不要という意味ではない。逆設計の抗力比較は制約と検証条件を保持する",
+      "豊田自動織機の解析8～20時間→約2時間と、分析全体1～2週間→2～3日は異なる工程。FY2027導入目標を現状の運用実績にしない",
+      "GEの生産増加をAI単独の寄与と断定しない。約60%の工程リードタイム短縮はFLIGHT DECKの工程改善事例",
+      "GTF Advantageの初納入とtime on wing最大2倍の将来性能を区別する",
+      "Gallupは公表10月・調査1～3月。EYは調査8～9月で、対象・地域・設問が違う。両者の比率を直接比較した因果推論はしない",
+      "既報のURL違いにも意味的重複抑制を適用する。CPP買収は独立項目として再掲しない",
+      "PwCの前年比は公表値を使うが、同一回答者内の変化やAIの因果効果とは断定しない。別のPwC調査の数値を混ぜない",
+      "SAESLは協業の公表内容を扱い、MoUの署名完了時刻やAI導入効果を断定しない"
+    ],
+    "desired_depth": {
+      "r-canto-cad-operator": "lead",
+      "r-toyota-fracture-ai": "lead",
+      "r-engineering-assurance": "lead",
+      "c-ge-f110-manufacturing": "standard",
+      "r-relicad-constraints": "standard",
+      "c-mtu-gtf-advantage": "standard",
+      "r-synopsys-tsmc-agentic-eda": "standard",
+      "r-progress-agentic-rag": "standard",
+      "r-vllm-031-serving": "standard",
+      "r-gallup-ai-work-benefits": "report",
+      "r-ey-ceo-ai-roi": "report",
+      "r-pwc-workforce-2026": "report",
+      "w-tohoku-physmat": "wildcard",
+      "w-aist-ifactory-continuous": "wildcard",
+      "w-saesl-artc-mro": "wildcard"
+    },
+    "japanese_character_budget": {
+      "overview": [
+        350,
+        700
+      ],
+      "lead": [
+        500,
+        900
+      ],
+      "standard": [
+        280,
+        520
+      ],
+      "report": [
+        700,
+        1300
+      ],
+      "wildcard": [
+        220,
+        420
+      ]
+    },
+    "item_focus": {
+      "r-canto-cad-operator": [
+        "表現（NURBS）",
+        "直接予測する物理場",
+        "4ベンチマークと誤差指標",
+        "制約付き逆設計とCFD再検証",
+        "外挿・プレプリントの限界"
+      ],
+      "r-toyota-fracture-ai": [
+        "顕微鏡操作から報告までの工程",
+        "2種類の一致率",
+        "解析と分析全体の時間区分",
+        "FY2027適用目標",
+        "独立評価・分母の未確認"
+      ],
+      "r-engineering-assurance": [
+        "保証単位と判断区分",
+        "17工程・23チェックの例",
+        "未合格の応力基準",
+        "独立保証・認証の限界"
+      ],
+      "r-gallup-ai-work-benefits": [
+        "公表日と調査時期",
+        "7,845と15,482の分母の違い",
+        "63%・46%・31%",
+        "自己申告・交絡",
+        "企業評価や因果関係としない"
+      ],
+      "r-ey-ceo-ai-roi": [
+        "1,200人・21カ国・5業種",
+        "8～9月匿名オンライン調査",
+        "50%・23%・16%",
+        "会計効果の監査ではない",
+        "Gallupとの比較不能性"
+      ],
+      "r-pwc-workforce-2026": [
+        "49,364人・48カ国地域・29業種",
+        "5～6月と9月公表の区別",
+        "年齢・性別の重み付け",
+        "64%・22%・51%と前年値",
+        "自己申告と調査間比較の限界"
+      ],
+      "r-vllm-031-serving": [
+        "配布済みv0.31.0",
+        "GPU上の重み保持",
+        "MRV2 speculative decoding",
+        "マルチモーダル引数の信頼設定",
+        "更新前の互換性検証"
+      ]
+    },
+    "retention_expectation": {
+      "selected": "全件を原則保持。検証失敗時だけ差分理由を報告",
+      "wildcards": "全件を原則保持し、段階・不確実性を明記",
+      "claims": "各検証済み主張と重要な留保を保持",
+      "reports": "調査方法・分母・全採用指標・限界を省略しない"
+    },
+    "publication_scope": "selectedとwildcardsのみ。backlogとrejectedはこの記事に昇格させない。文章はWriterが作成する。",
+    "selection_revision_reason": "修復で加わった15件を全件評価。vLLMとPwCをselected、SAESLをwildcardへ採用。Mistral Public PreviewとFastlyは確認済み材料をbacklogに保持した。将来の重み公開より配布済みOSS、広い製品説明より国際労働調査を優先した編集判断であり、検証失敗による脱落ではない。"
+  },
+  "coverage_audit": {
+    "input_item_count": 49,
+    "input_counts": {
+      "company": 14,
+      "research": 35
+    },
+    "deduplicated_item_count": 44,
+    "deduplication_counts": {
+      "within_or_cross_input_removed": 0,
+      "previously_published_exact_or_semantic_removed": 5,
+      "definition": "deduplicated_item_count is the candidate count after within/cross-input and available-history duplicate suppression, before relevance/evidence rejection. All raw candidates retain one classification record."
+    },
+    "source_domain_count": 13,
+    "source_domain_count_scope": "selected + wildcards; exact hostname",
+    "input_source_domain_count": 37,
+    "organization_count": 15,
+    "organization_count_scope": "unique organization labels across selected + wildcards; joint labels kept intact",
+    "selected_organization_counts": {
+      "NVIDIA": 1,
+      "Toyota Industries": 1,
+      "Puxue Tan": 1,
+      "GE Aerospace": 1,
+      "University of Science and Technology of China": 1,
+      "MTU Aero Engines / Pratt & Whitney": 1,
+      "Synopsys / TSMC": 1,
+      "Progress Software": 1,
+      "vLLM project": 1,
+      "Gallup / Jobs for the Future / The Families & Workers Fund": 1,
+      "EY": 1,
+      "PwC": 1
+    },
+    "regions_observed": [
+      "China",
+      "Germany / United States",
+      "International OSS community",
+      "Japan",
+      "Multinational",
+      "Singapore",
+      "United States",
+      "United States / Taiwan"
+    ],
+    "lanes": {
+      "engineering_ai": {
+        "status": "searched",
+        "scout_query_count": 5,
+        "candidate_count_including_cross_lane": 6,
+        "adopted_ids": [
+          "r-canto-cad-operator",
+          "r-toyota-fracture-ai",
+          "r-engineering-assurance",
+          "r-relicad-constraints",
+          "r-synopsys-tsmc-agentic-eda"
+        ],
+        "adopted_count_including_cross_lane": 5
+      },
+      "agents_enterprise": {
+        "status": "searched",
+        "scout_query_count": 3,
+        "candidate_count_including_cross_lane": 6,
+        "adopted_ids": [
+          "r-progress-agentic-rag",
+          "r-vllm-031-serving"
+        ],
+        "adopted_count_including_cross_lane": 2
+      },
+      "models_open_weights": {
+        "status": "searched",
+        "scout_query_count": 6,
+        "candidate_count_including_cross_lane": 4,
+        "adopted_ids": [
+          "r-vllm-031-serving"
+        ],
+        "adopted_count_including_cross_lane": 1
+      },
+      "reports_surveys": {
+        "status": "searched",
+        "scout_query_count": 15,
+        "candidate_count_including_cross_lane": 11,
+        "adopted_ids": [
+          "r-gallup-ai-work-benefits",
+          "r-ey-ceo-ai-roi",
+          "r-pwc-workforce-2026"
+        ],
+        "adopted_count_including_cross_lane": 3
+      },
+      "scientific_wildcards": {
+        "status": "searched",
+        "scout_query_count": 7,
+        "candidate_count_including_cross_lane": 13,
+        "adopted_ids": [
+          "r-toyota-fracture-ai",
+          "r-synopsys-tsmc-agentic-eda",
+          "w-tohoku-physmat",
+          "w-aist-ifactory-continuous",
+          "w-saesl-artc-mro"
+        ],
+        "adopted_count_including_cross_lane": 5
+      },
+      "non_us_rotation": {
+        "status": "searched",
+        "scout_query_count": 2,
+        "candidate_count_including_cross_lane": 7,
+        "adopted_ids": [
+          "r-toyota-fracture-ai",
+          "r-relicad-constraints",
+          "c-mtu-gtf-advantage",
+          "r-synopsys-tsmc-agentic-eda",
+          "w-tohoku-physmat",
+          "w-aist-ifactory-continuous",
+          "w-saesl-artc-mro"
+        ],
+        "adopted_count_including_cross_lane": 7
+      },
+      "company_watch": {
+        "status": "searched_with_access_limit",
+        "mandatory_sources_checked": 7,
+        "found": 6,
+        "no_new_finding": 0,
+        "unreachable": 1,
+        "discovery_candidates": 1,
+        "auditable_query_count": 34,
+        "adopted_ids": [
+          "c-ge-f110-manufacturing",
+          "c-mtu-gtf-advantage",
+          "w-saesl-artc-mro"
+        ],
+        "rotation_cursor_after_run": 26,
+        "repair_advanced_cursor": false
+      }
+    },
+    "known_gaps": [
+      "CFM公式ニュース索引の取得が不完全。GEのCFM56資料は別ソースの補足であり、CFM自身の完全な探索を意味しない。",
+      "Rolls-RoyceのF130記事は公開日を確定できず候補外。BearingPointとXPS論文は正確な日付未確認でbacklogのまま。",
+      "MatBrain本文、Stanfordインタビュー全文、Elsevier本文、a16z主要図表の取得制限を入力から引き継いだ。未確認主張は本号に採用していない。",
+      "国別の非米国技術候補は主に日本・中国・ドイツ・台湾・シンガポール。韓国・インドを探索したことや国際調査に含まれることは、その国固有の新技術を採用したことを意味しない。",
+      "参照可能な公開索引は9月2日～24日の15記事。90日URL抑制と30日イベント抑制はこの利用可能履歴に適用したもので、それ以前の履歴の完全性は保証しない。最新newsは9月24日で、10月3～4日の開発日誌はニュース公開履歴に混ぜていない。",
+      "大手モデルのpreviewは把握しているが、公開済み推論OSSを優先。新しい公開重みの検証済み採用候補はない。",
+      "レポートは12selected中3件。ソフトな10～20%目安を超えるが、速度・品質、経営ROI、国際的利用・学習機会という別の母集団・設問を残すため。backlog27件は8～20件の目安を超えるが、修復追加候補を削らず今後の編集判断を可能にする保存枠で、記事の水増しではない。"
+    ],
+    "selection_counts": {
+      "selected": 12,
+      "wildcards": 3,
+      "backlog": 27,
+      "rejected": 7
+    },
+    "adopted_evidence": {
+      "selected_claim_count": 40,
+      "wildcard_claim_count": 6,
+      "total_claim_count": 46,
+      "unverified_material_claim_count": 0,
+      "report_item_count": 3,
+      "report_metric_count": 9
+    },
+    "input_integrity": {
+      "strict_validator": "scripts/web_scout.py; diagnose_scout_handoff; strict v2; maximum age 3 hours",
+      "all_mandatory_coverage_present": true,
+      "same_day": true,
+      "partial_inputs_accepted_with_warnings": true
+    },
+    "history": {
+      "index_path": "gpt_handoff/state/published-index.json",
+      "index_blob_sha": "420bbee8453edbe22d1c06a8439a375ca75aec2c",
+      "earliest_indexed_publication": "2026-09-02T07:29:35+09:00",
+      "latest_indexed_publication": "2026-09-24T07:22:56+09:00",
+      "receipt_paths_checked": [
+        "gpt_handoff/published/2026-09-24.json",
+        "gpt_handoff/published/2026-09-22.json",
+        "gpt_handoff/published/2026-09-21.json"
+      ],
+      "exact_url_suppression_days": 90,
+      "semantic_event_suppression_days": 30,
+      "material_delta_exception_count": 0
+    },
+    "repair_review": {
+      "initial_input_count": 34,
+      "final_input_count": 49,
+      "company_added": 5,
+      "research_added": 10,
+      "all_initial_candidates_preserved": true,
+      "added_candidates_all_classified": true,
+      "new_selected_ids": [
+        "r-vllm-031-serving",
+        "r-pwc-workforce-2026"
+      ],
+      "new_wildcard_ids": [
+        "w-saesl-artc-mro"
+      ],
+      "previously_selected_moved_to_backlog": [
+        "r-fastly-runtime-controls",
+        "r-mistral-large4-preview"
+      ],
+      "retained_existing_verified_claims_without_broad_rediscovery": true,
+      "new_adopted_source_checks": [
+        "vLLM tagged official release; release timestamp/artifacts/highlights",
+        "PwC survey page; publication date, methodology and three metrics",
+        "SAESL official SGX-filed PDF; dateline and partnership appendix"
+      ],
+      "company_auditable_queries": 34,
+      "research_auditable_queries": 38,
+      "interrupted_company_queries_not_reconstructed": 12,
+      "interrupted_queries_excluded_from_auditable_total": true
+    }
+  },
+  "selected": [
+    {
+      "id": "r-canto-cad-operator",
+      "event_key": "nvidia:canto-cad-native-operator:2026-09-29",
+      "tier": "lead",
+      "title": "CANTO：CADのNURBS表現から直接物理場を予測するNeural Operator",
+      "primary_url": "https://arxiv.org/abs/2609.36806",
+      "supporting_urls": [
+        "https://arxiv.org/html/2609.36806v2",
+        "https://research.nvidia.com/labs/aie/canto/"
+      ],
+      "published_at": "2026-09-29",
+      "organization": "NVIDIA",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "CANTOはNURBSの制御点・ノット・重みを直接トークン化し、入力形状のメッシュを作らず表面・体積の物理場を予測する。",
+        "著者らは自動車・航空機の4つの空力ベンチマークで評価し、HiLiftAeroMLの表面圧力相対L2誤差がAB-UPT比19.8%低いと報告した。",
+        "AhmedMLの逆設計では、同じ体積・揚力制約を満たす既存データセット最良形状より抗力が4.4～20.4%低い設計を得たと著者らが報告し、元データと同じCFD設定で再検証した。",
+        "初稿は9月29日、読んだ版は10月1日更新のv2である。"
+      ],
+      "claims": [
+        {
+          "text": "CANTOはNURBSの制御点・ノット・重みを直接トークン化し、入力形状のメッシュを作らず表面・体積の物理場を予測する。",
+          "source_url": "https://arxiv.org/abs/2609.36806",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Abstract; Methods §4"
+        },
+        {
+          "text": "著者らは自動車・航空機の4つの空力ベンチマークで評価し、HiLiftAeroMLの表面圧力相対L2誤差がAB-UPT比19.8%低いと報告した。",
+          "source_url": "https://arxiv.org/abs/2609.36806",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract; §5.1"
+        },
+        {
+          "text": "AhmedMLの逆設計では、同じ体積・揚力制約を満たす既存データセット最良形状より抗力が4.4～20.4%低い設計を得たと著者らが報告し、元データと同じCFD設定で再検証した。",
+          "source_url": "https://arxiv.org/abs/2609.36806",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract; §5.3 and Appendix E"
+        },
+        {
+          "text": "初稿は9月29日、読んだ版は10月1日更新のv2である。",
+          "source_url": "https://arxiv.org/abs/2609.36806",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Submission history"
+        }
+      ],
+      "why_it_matters": "編集判断：CADと解析の表現変換を減らし、設計変数による逆設計をつなぐ具体的な研究。",
+      "practical_implication": "実務上は対象形状・流れ条件での外挿誤差を評価し、最終候補を従来CFDで再確認する。入力メッシュ不要を、教師データや検証CFDの不要と読み替えない。",
+      "tags": [
+        "engineering_ai",
+        "neural operator",
+        "CAD",
+        "CFD"
+      ],
+      "scores": {
+        "novelty": 5,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 5,
+        "reader_value": 5
+      },
+      "weighted_score": 4.55,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[0]",
+          "source_item_url": "https://arxiv.org/abs/2609.36806",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 0,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "プレプリント。数値は著者評価であり、外部再現や実機での効果を示さない。"
+      ],
+      "region": "United States",
+      "authors": [
+        "Daniel Leibovici",
+        "Nikola Borislavov Kovachki",
+        "Dawon Ahn",
+        "Ruben Ohana",
+        "Ira J. S. Shokar",
+        "Abouzar Ghasemi",
+        "Semih Akkurt",
+        "Rishikesh Ranade",
+        "Neil Ashton",
+        "Jan Kautz",
+        "Jean Kossaifi"
+      ],
+      "doi": "10.48550/arXiv.2609.36806",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "id": "r-toyota-fracture-ai",
+      "event_key": "toyota-industries:automated-fractography-ai:2026-09-29",
+      "tier": "lead",
+      "title": "豊田自動織機：破面解析AIと電子顕微鏡操作を接続",
+      "primary_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-29",
+      "organization": "Toyota Industries",
+      "category": "材料解析AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "豊田自動織機は、過去10年分の熟練者解析画像で学習したAIと電子顕微鏡の自動操作を組み合わせ、観察箇所の特定から原因推定、報告書作成までを自動化する技術を発表した。",
+        "同社は熟練者との一致率を、観察箇所の特定で95%以上、破壊種類の判定で90%以上と報告する。",
+        "同社報告では破断面を読み解く『解析』が8～20時間から約2時間となり最大90%短縮。受付から報告までの『分析』全体は1～2週間から2～3日で、同じ指標ではない。",
+        "実際の分析業務への適用開始は2027年度内を目標としており、現時点の量産業務への全面導入を示す発表ではない。"
+      ],
+      "claims": [
+        {
+          "text": "豊田自動織機は、過去10年分の熟練者解析画像で学習したAIと電子顕微鏡の自動操作を組み合わせ、観察箇所の特定から原因推定、報告書作成までを自動化する技術を発表した。",
+          "source_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "本文第1・3段落"
+        },
+        {
+          "text": "同社は熟練者との一致率を、観察箇所の特定で95%以上、破壊種類の判定で90%以上と報告する。",
+          "source_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "本文第4段落"
+        },
+        {
+          "text": "同社報告では破断面を読み解く『解析』が8～20時間から約2時間となり最大90%短縮。受付から報告までの『分析』全体は1～2週間から2～3日で、同じ指標ではない。",
+          "source_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "本文第1段落、時間短縮図の説明、注1"
+        },
+        {
+          "text": "実際の分析業務への適用開始は2027年度内を目標としており、現時点の量産業務への全面導入を示す発表ではない。",
+          "source_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "本文第4段落の今後の実装予定"
+        }
+      ],
+      "why_it_matters": "編集判断：材料の破損原因調査を、画像判定単体から観察・報告までの業務へ広げる事例。",
+      "practical_implication": "現場導入では判定一致率と誤判定の内訳、対象材料、レビュー手順を分けて確認する。短縮率の工程範囲と導入予定時期を保つ。",
+      "tags": [
+        "non_us_rotation",
+        "engineering_ai",
+        "scientific_wildcards",
+        "Japan"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.2,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[22]",
+          "source_item_url": "https://www.toyota-shokki.co.jp/news/2026/09/29/009088/index.html",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 22,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "数値は自社発表。評価サンプル数や独立検証はこの発表で確認できない。世界初という宣伝表現は採用しない。"
+      ],
+      "region": "Japan",
+      "document_type": "press_release",
+      "language": "ja"
+    },
+    {
+      "id": "r-engineering-assurance",
+      "event_key": "puxue-tan:unit-level-ai-engineering-assurance:2026-10-02",
+      "tier": "lead",
+      "title": "AIを使う工程と採用を認める工程を分ける、構造解析の保証枠組み",
+      "primary_url": "https://arxiv.org/abs/2610.04084",
+      "supporting_urls": [
+        "https://arxiv.org/html/2610.04084v1"
+      ],
+      "published_at": "2026-10-02",
+      "organization": "Puxue Tan",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "著者はAI参加・保証の記録を工程単位で定義し、決定論的検証、統計的受入、人の判断、既存ツールの維持などを区別する枠組みを提案した。",
+        "17工程の翼桁解析例では、生成CADが23の決定論的チェックを初回で通過した一方、メッシュ収束の証拠が不足した応力基準は自動合格とせず工学判断に回したと報告する。",
+        "論文は工程全体の信頼性、認証、構造安全性、生産性を実証したとは主張しない。評価は著者主導で独立した第三者保証ではない。"
+      ],
+      "claims": [
+        {
+          "text": "著者はAI参加・保証の記録を工程単位で定義し、決定論的検証、統計的受入、人の判断、既存ツールの維持などを区別する枠組みを提案した。",
+          "source_url": "https://arxiv.org/abs/2610.04084",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Abstract; framework sections"
+        },
+        {
+          "text": "17工程の翼桁解析例では、生成CADが23の決定論的チェックを初回で通過した一方、メッシュ収束の証拠が不足した応力基準は自動合格とせず工学判断に回したと報告する。",
+          "source_url": "https://arxiv.org/abs/2610.04084",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract; §5 case study"
+        },
+        {
+          "text": "論文は工程全体の信頼性、認証、構造安全性、生産性を実証したとは主張しない。評価は著者主導で独立した第三者保証ではない。",
+          "source_url": "https://arxiv.org/abs/2610.04084",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Abstract; §6.2 Limitations, Case-study limitations"
+        }
+      ],
+      "why_it_matters": "編集判断：生成物の出来栄えと安全上の採用判断を切り分ける、工程単位の設計方法が明確。",
+      "practical_implication": "生成、決定論的検証、人の承認それぞれの責任・必要証拠・フォールバックを記録する。検証器への合格だけで要求との一致や製品安全を保証したと扱わない。",
+      "tags": [
+        "engineering_ai",
+        "assurance",
+        "FEA",
+        "CAD"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[1]",
+          "source_item_url": "https://arxiv.org/abs/2610.04084",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 1,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "単一の理想化された構造解析例。形式化した要求の妥当性や検証器の健全性も別途証拠が必要。"
+      ],
+      "region": "not established",
+      "authors": [
+        "Puxue Tan"
+      ],
+      "doi": "10.48550/arXiv.2610.04084",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "id": "c-ge-f110-manufacturing",
+      "event_key": "ge-aerospace:f110-ai-production-constraints:2026-10-01",
+      "tier": "standard",
+      "title": "GE Aerospace：F110増産でAIによる供給制約の可視化を報告",
+      "primary_url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+      "supporting_urls": [],
+      "published_at": "2026-10-01",
+      "organization": "GE Aerospace",
+      "category": "航空機エンジン・AI製造",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "GE Aerospaceは2026年のF404/F110ラインでAIを限定的に活用し、供給網のリスクや不足を早期に可視化したと説明する。",
+        "同社は2025年第2四半期以降のF110生産量が前年比50%増、2026年前半の防衛エンジン全体が15%増と報告する。AI単独の因果的寄与は示されていない。",
+        "F110高圧圧縮機の前部シャフトでは、工程集約と移動距離削減によって製造リードタイムを約60%短縮したと報告する。これはFLIGHT DECKの工程改善事例である。"
+      ],
+      "claims": [
+        {
+          "text": "GE Aerospaceは2026年のF404/F110ラインでAIを限定的に活用し、供給網のリスクや不足を早期に可視化したと説明する。",
+          "source_url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Investing to Build Resilience and Scale Up"
+        },
+        {
+          "text": "同社は2025年第2四半期以降のF110生産量が前年比50%増、2026年前半の防衛エンジン全体が15%増と報告する。AI単独の因果的寄与は示されていない。",
+          "source_url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Investing to Build Resilience and Scale Up, output paragraph"
+        },
+        {
+          "text": "F110高圧圧縮機の前部シャフトでは、工程集約と移動距離削減によって製造リードタイムを約60%短縮したと報告する。これはFLIGHT DECKの工程改善事例である。",
+          "source_url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Increasing F110 Output for Customers"
+        }
+      ],
+      "why_it_matters": "編集判断：AI効果を製造設備・供給網・リーン改善と組み合わせて読む必要がある航空量産事例。",
+      "practical_implication": "AI導入評価ではボトルネックの早期発見指標と実際の物量・納期指標を分け、設備投資や工程集約の寄与を追う。",
+      "tags": [
+        "AI",
+        "manufacturing",
+        "F110",
+        "supply chain"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.9,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-07.json",
+          "source_item_id": "company:items[0]",
+          "source_item_url": "https://www.geaerospace.com/news/articles/how-readiness-stays-ready-f110-delivers-power-reliability-and-scale-f-15ex",
+          "blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 0,
+          "commit_sha": "baa898f6828e83d86c695853762006a785f6f036"
+        }
+      ],
+      "caveats": [
+        "生産量・時間はメーカー自己報告。CPP買収は既報のため今回の独立ニュースにはしない。"
+      ],
+      "region": "United States",
+      "document_type": "company technical article",
+      "language": "en",
+      "company": "GE Aerospace"
+    },
+    {
+      "id": "r-relicad-constraints",
+      "event_key": "ustc:relicad-intent-kernel-verification:2026-09-16",
+      "tier": "standard",
+      "title": "ReliCAD：設計意図、CADカーネル、実行証拠を結ぶ生成・修復",
+      "primary_url": "https://arxiv.org/abs/2609.22325",
+      "supporting_urls": [
+        "https://arxiv.org/html/2609.22325v1"
+      ],
+      "published_at": "2026-09-16",
+      "organization": "University of Science and Technology of China",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "中国科学技術大学の著者らは、自然言語の要求を構造化した設計仕様に変換し、幾何関係・トポロジー依存・構築順序を明示するReliCADを提案した。",
+        "CADカーネルをAgent用APIで呼び出して構築と制約解決を行い、実行証拠と仕様の整合性を確認しながらエラー特定・反復修復する。"
+      ],
+      "claims": [
+        {
+          "text": "中国科学技術大学の著者らは、自然言語の要求を構造化した設計仕様に変換し、幾何関係・トポロジー依存・構築順序を明示するReliCADを提案した。",
+          "source_url": "https://arxiv.org/abs/2609.22325",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Author affiliations; Abstract; §III"
+        },
+        {
+          "text": "CADカーネルをAgent用APIで呼び出して構築と制約解決を行い、実行証拠と仕様の整合性を確認しながらエラー特定・反復修復する。",
+          "source_url": "https://arxiv.org/abs/2609.22325",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Abstract; §III framework"
+        }
+      ],
+      "why_it_matters": "編集判断：画像として似た形状を作るだけでなく、編集可能な履歴と設計意図を評価する方向。",
+      "practical_implication": "試す際は業務固有の制約・依存関係をテストにし、再生可能なモデリング履歴と修復ログを保存する。",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "agents"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.95,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[2]",
+          "source_item_url": "https://arxiv.org/abs/2609.22325",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 2,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "プレプリント。一般の設計や製造可能性を保証するものではない。今回はスコープを方法に限定し、定義を伴わない高い有効率の独り歩きを避ける。"
+      ],
+      "region": "China",
+      "authors": [
+        "Peng Zheng",
+        "Xintong Dong",
+        "Chuanyang Li",
+        "Jiaxin Jing",
+        "Chuqi Han",
+        "Hailong Shen",
+        "Yanzhi Song",
+        "Zhouwang Yang"
+      ],
+      "doi": "10.48550/arXiv.2609.22325",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "id": "c-mtu-gtf-advantage",
+      "event_key": "mtu-pratt-whitney:united-first-gtf-advantage-delivery:2026-09-24",
+      "tier": "standard",
+      "title": "GTF Advantage初納入と生産ライン移行の段階",
+      "primary_url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+      "supporting_urls": [],
+      "published_at": "2026-09-24",
+      "organization": "MTU Aero Engines / Pratt & Whitney",
+      "category": "航空機エンジン",
+      "source_kind": "press_release",
+      "factual_points": [
+        "MTUはUnited AirlinesがGTF Advantage搭載のAirbus A321 XLRを初めて受領したと9月24日に発表した。",
+        "MTUのミュンヘン工場では既に組立を行っており、Pratt & WhitneyとパートナーはPW1100G-JM全生産ラインを2028年までにAdvantage仕様へ切り替える計画とする。",
+        "離陸推力4～8%増、現行GTF比でtime on wing最大2倍という数値はメーカーの性能説明・見通しであり、この納入によって実運航で確認済みになったわけではない。"
+      ],
+      "claims": [
+        {
+          "text": "MTUはUnited AirlinesがGTF Advantage搭載のAirbus A321 XLRを初めて受領したと9月24日に発表した。",
+          "source_url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Dateline and opening paragraph"
+        },
+        {
+          "text": "MTUのミュンヘン工場では既に組立を行っており、Pratt & WhitneyとパートナーはPW1100G-JM全生産ラインを2028年までにAdvantage仕様へ切り替える計画とする。",
+          "source_url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Paragraphs 3–4"
+        },
+        {
+          "text": "離陸推力4～8%増、現行GTF比でtime on wing最大2倍という数値はメーカーの性能説明・見通しであり、この納入によって実運航で確認済みになったわけではない。",
+          "source_url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Opening paragraph"
+        }
+      ],
+      "why_it_matters": "編集判断：次世代エンジンの技術発表から実際の納入・製造移行へ進んだ点が新しい。",
+      "practical_implication": "初納入、全ライン切替計画、就航後の耐久実績を別々の成熟度として追う。",
+      "tags": [
+        "GTF Advantage",
+        "PW1100G-JM",
+        "production ramp"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.75,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-07.json",
+          "source_item_id": "company:items[5]",
+          "source_item_url": "https://www.mtu.de/investors/publications-events/latest-ir-news/ir-news-details/first-gtf-advantage-delivered-to-united-airlines/",
+          "blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+          "date_basis": "Primary page publication dateline or arXiv submission history read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 5,
+          "commit_sha": "baa898f6828e83d86c695853762006a785f6f036"
+        }
+      ],
+      "caveats": [
+        "time on wingの将来性能を既成の運航実績に置き換えない。"
+      ],
+      "region": "Germany / United States",
+      "document_type": "press release",
+      "language": "en",
+      "company": "MTU Aero Engines"
+    },
+    {
+      "id": "r-synopsys-tsmc-agentic-eda",
+      "event_key": "synopsys-tsmc:a14-agentic-multiphysics-flow:2026-09-23",
+      "tier": "standard",
+      "title": "SynopsysとTSMC：Agent型設計を認証フローとマルチフィジックスへ接続",
+      "primary_url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-23",
+      "organization": "Synopsys / TSMC",
+      "category": "EDA",
+      "source_kind": "press_release",
+      "factual_points": [
+        "両社はTSMC A14プロセス向けに認証済みのデジタル・アナログEDAフローを発表した。",
+        "発表はCustom Compilerによるアナログ設計のノード移行、Fusion CompilerによるLLM解析、3DIC CompilerのAgent型チップレット配置最適化を挙げる。",
+        "協業にはCoWoS上の統合電圧レギュレータの協調設計・シミュレーション、光電融合に向けたマルチフィジックス解析も含まれる。"
+      ],
+      "claims": [
+        {
+          "text": "両社はTSMC A14プロセス向けに認証済みのデジタル・アナログEDAフローを発表した。",
+          "source_url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "概要、先端ノードの採用と設計収束の加速"
+        },
+        {
+          "text": "発表はCustom Compilerによるアナログ設計のノード移行、Fusion CompilerによるLLM解析、3DIC CompilerのAgent型チップレット配置最適化を挙げる。",
+          "source_url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "エージェント型AIワークフローによる設計生産性の最適化"
+        },
+        {
+          "text": "協業にはCoWoS上の統合電圧レギュレータの協調設計・シミュレーション、光電融合に向けたマルチフィジックス解析も含まれる。",
+          "source_url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "マルチダイ設計と電源設計、パッケージ内光電融合"
+        }
+      ],
+      "why_it_matters": "編集判断：EDAのAgent化を、先端プロセスの設計フローやサインオフと一緒に進める具体例。",
+      "practical_implication": "自動化がどの設計作業を担うかと、最終的にどの認証フロー・物理検証を通すかを分けて評価する。",
+      "tags": [
+        "engineering_ai",
+        "scientific_wildcards",
+        "EDA",
+        "Taiwan"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.05,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[21]",
+          "source_item_url": "https://www.synopsys.com/ja-jp/japan/press-releases/2026-09-23-synopsys-and-tsmc-partner-to-accelerate-ai-systems-innovation-with-agentic-ai-and-advanced-design.html",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 21,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "生産性向上は企業側の説明。独立した改善率や無人での設計完了実績は採用しない。"
+      ],
+      "region": "United States / Taiwan",
+      "document_type": "press_release",
+      "language": "ja"
+    },
+    {
+      "id": "r-progress-agentic-rag",
+      "event_key": "progress:agentic-rag-mcp-teams-smart-agent:2026-10-01",
+      "tier": "standard",
+      "title": "Progress Agentic RAG：索引済み知識とMCPのライブ情報を併用",
+      "primary_url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+      "supporting_urls": [],
+      "published_at": "2026-10-01",
+      "organization": "Progress Software",
+      "category": "企業AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "ProgressはTeamsネイティブアプリ、複数段階の検索を行うSmart Agent、WordPressプラグインを含むリリースを10月1日に提供開始したと発表した。",
+        "Smart Agentは質問を分解し、Knowledge Box、MCP接続アプリ、Web情報を横断して検索・評価する仕組みと説明される。",
+        "既存の索引・アクセス制御・品質枠組みを引き継ぎ、再索引やパイプライン再構築が不要というのは同社の説明である。"
+      ],
+      "claims": [
+        {
+          "text": "ProgressはTeamsネイティブアプリ、複数段階の検索を行うSmart Agent、WordPressプラグインを含むリリースを10月1日に提供開始したと発表した。",
+          "source_url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Dateline; release opening; now available paragraph"
+        },
+        {
+          "text": "Smart Agentは質問を分解し、Knowledge Box、MCP接続アプリ、Web情報を横断して検索・評価する仕組みと説明される。",
+          "source_url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Smart Agent for Multistep Retrieval"
+        },
+        {
+          "text": "既存の索引・アクセス制御・品質枠組みを引き継ぎ、再索引やパイプライン再構築が不要というのは同社の説明である。",
+          "source_url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Existing customers paragraph"
+        }
+      ],
+      "why_it_matters": "編集判断：企業検索を単一索引から、権限を持つ業務システムへの実行時アクセスへ拡張する製品化。",
+      "practical_implication": "導入時は索引の権限とMCP接続先の権限、回答出典、質問の分解過程を確認する。機能提供を回答品質の独立実証と同一視しない。",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "MCP",
+        "data infrastructure"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.75,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[5]",
+          "source_item_url": "https://investors.progress.com/news-releases/news-release-details/progress-software-connects-enterprise-knowledge-across-business",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 5,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "region": "United States",
+      "caveats": [
+        "独立した検索精度評価や統合コスト測定は未確認。"
+      ],
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "id": "r-vllm-031-serving",
+      "event_key": "vllm:v0310-restart-serving-security:2026-10-05",
+      "tier": "standard",
+      "title": "vLLM 0.31.0：再起動とリクエスト信頼境界を更新",
+      "primary_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "supporting_urls": [],
+      "published_at": "2026-10-05",
+      "organization": "vLLM project",
+      "category": "OSS・推論基盤",
+      "source_kind": "official",
+      "factual_points": [
+        "vLLMは10月5日にv0.31.0を公開し、Python wheelとコンテナの配布方法を記載した。",
+        "リリースノートは、再起動をまたいで量子化後の重みをGPUメモリに保持するpreloadデーモンと、Model Runner V2でのdraft-model型speculative decodingを挙げる。",
+        "リクエスト単位のmm_processor_kwargsとmedia_io_kwargsは、trust-request-mm-kwargsを明示しない限り拒否する変更になった。"
+      ],
+      "claims": [
+        {
+          "text": "vLLMは10月5日にv0.31.0を公開し、Python wheelとコンテナの配布方法を記載した。",
+          "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Release timestamp; Release Artifacts"
+        },
+        {
+          "text": "リリースノートは、再起動をまたいで量子化後の重みをGPUメモリに保持するpreloadデーモンと、Model Runner V2でのdraft-model型speculative decodingを挙げる。",
+          "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Highlights: Fast restart; Model Runner V2 and speculative decoding"
+        },
+        {
+          "text": "リクエスト単位のmm_processor_kwargsとmedia_io_kwargsは、trust-request-mm-kwargsを明示しない限り拒否する変更になった。",
+          "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Highlights: Security and Breaking changes"
+        }
+      ],
+      "why_it_matters": "編集判断：モデルの発表ではなく、既存モデルを運用する配布済みOSSの可用性・互換性・入力の信頼境界が変わる。",
+      "practical_implication": "採用済み環境では更新前にマルチモーダル引数の互換性を試し、信頼フラグを無条件で有効化しない。再起動時間やメモリ条件は自分のワークロードで測る。",
+      "tags": [
+        "models_open_weights",
+        "scientific_wildcards",
+        "OSS",
+        "inference infrastructure",
+        "security"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_index": 31,
+          "source_item_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+          "date_basis": "Primary source dateline or release metadata read in Curator repair review",
+          "deduplication": "No exact URL in available 90-day history and no same event in available 30-day history. No material-delta publication exception used.",
+          "source_item_id": "research:items[31]",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "今回は公式変更履歴と配布物の存在を確認した範囲。全機能の動作試験や独立した速度比較は行っていない。",
+        "推論高速化の個別倍率を他のモデルやGPUへ一般化しない。"
+      ],
+      "region": "International OSS community",
+      "document_type": "github_release",
+      "language": "en"
+    },
+    {
+      "id": "r-gallup-ai-work-benefits",
+      "event_key": "gallup:ajqs-2026-ai-benefit-distribution:2026-10-06",
+      "tier": "report",
+      "title": "Gallup：仕事の速さと品質の改善実感には差がある",
+      "primary_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+      "supporting_urls": [],
+      "published_at": "2026-10-06",
+      "organization": "Gallup / Jobs for the Future / The Families & Workers Fund",
+      "category": "AI・労働",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "10月6日公開のAJQS結果は1月26日～3月24日に調査した米国従業員が対象。AI影響の分析は過去1年に数回以上利用した7,845人、全従業員の比較は15,482人を基礎とする。",
+        "AI利用者の63%が仕事を速くできる、46%が成果の品質を高められると回答した。",
+        "AI利用者の31%はAI利用によって雇用主から追加の責任を求められたと回答した。",
+        "Gallupは効果を従業員本人の評価とし、雇用主の評価や因果関係を示すものではないと注意する。第2年の完全版レポートは10月下旬公開予定とする。"
+      ],
+      "claims": [
+        {
+          "text": "10月6日公開のAJQS結果は1月26日～3月24日に調査した米国従業員が対象。AI影響の分析は過去1年に数回以上利用した7,845人、全従業員の比較は15,482人を基礎とする。",
+          "source_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Publication dateline; survey/sample paragraph"
+        },
+        {
+          "text": "AI利用者の63%が仕事を速くできる、46%が成果の品質を高められると回答した。",
+          "source_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Increased Speed Is Primary Work Benefit of AI"
+        },
+        {
+          "text": "AI利用者の31%はAI利用によって雇用主から追加の責任を求められたと回答した。",
+          "source_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Increased Speed section, responsibilities paragraph"
+        },
+        {
+          "text": "Gallupは効果を従業員本人の評価とし、雇用主の評価や因果関係を示すものではないと注意する。第2年の完全版レポートは10月下旬公開予定とする。",
+          "source_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Self-assessment caveat; year-two report paragraph; confounding discussion"
+        }
+      ],
+      "why_it_matters": "編集判断：AIの導入効果を利用者の体感、仕事の質、業務負荷に分解して見る調査。",
+      "practical_implication": "速度・品質・追加責任を別々に計測し、AI利用者だけの好意的な回答を全従業員の効果に一般化しない。",
+      "tags": [
+        "reports_surveys",
+        "workforce",
+        "productivity"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.15,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[12]",
+          "source_item_url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 12,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "region": "United States",
+      "report_details": {
+        "publisher": "Gallup; AJQS partners Jobs for the Future and The Families & Workers Fund",
+        "published_at": "2026-10-06",
+        "sample_size": {
+          "ai_impact_base": 7845,
+          "full_employee_base": 15482
+        },
+        "methodology": "American Job Quality Studyの米国従業員調査。調査期間2026-01-26～2026-03-24。AI影響の回答母集団は過去1年間に仕事でAIを数回以上利用した従業員。抽出法・重み付け・誤差幅の詳細は本ニュース本文で確認できず、補わない。",
+        "geographies": [
+          "United States"
+        ],
+        "key_metrics": [
+          {
+            "id": "gallup_speed",
+            "metric": "AIにより仕事が速くなると回答",
+            "value": 63,
+            "unit": "percent",
+            "denominator": "AI-using employees; n=7,845",
+            "claim_index": 1
+          },
+          {
+            "id": "gallup_quality",
+            "metric": "仕事の品質が上がると回答",
+            "value": 46,
+            "unit": "percent",
+            "denominator": "AI-using employees; n=7,845",
+            "claim_index": 1
+          },
+          {
+            "id": "gallup_responsibility",
+            "metric": "AI利用後、追加責任を求められたと回答",
+            "value": 31,
+            "unit": "percent",
+            "denominator": "AI-using employees; n=7,845",
+            "claim_index": 2
+          }
+        ],
+        "comparison_to_previous": "この発表で同一質問の前年対比は確認していない。第2年の初回公表という位置付けだけを保ち、増減を作らない。",
+        "practical_meaning": "従業員の速度向上と品質向上、追加業務の発生を別々に把握する必要性を示唆する。企業の監査済み生産性や損益効果を直接測ってはいない。",
+        "caveats": [
+          "自己申告、利用者選択、職種・学歴などの交絡がある。",
+          "10月の公表だが調査は1～3月であり、秋時点の実測ではない。",
+          "第2年の完全版はまだ公表予定。"
+        ],
+        "metric_count": 3
+      },
+      "authors": [
+        "Jeffrey M. Jones"
+      ],
+      "document_type": "survey_report",
+      "language": "en"
+    },
+    {
+      "id": "r-ey-ceo-ai-roi",
+      "event_key": "ey:ceo-outlook-productivity-roi-gap:2026-10-01",
+      "tier": "report",
+      "title": "EY：生産性の実感と損益・ROIの把握を分けるCEO調査",
+      "primary_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+      "supporting_urls": [],
+      "published_at": "2026-10-01",
+      "organization": "EY",
+      "category": "AI導入調査",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "EYは8～9月に大企業CEO1,200人へ匿名オンライン調査を実施し、21カ国・5業種を対象とした。結果は10月1日に公表された。",
+        "CEOの50%は過去12カ月の生産性向上に最も寄与したものとしてAIを挙げた。",
+        "23%はAIによる改善が損益に十分反映される前に吸収されると回答した。",
+        "明確なリアルタイムのAI ROI可視性を持つと答えたCEOは16%だった。"
+      ],
+      "claims": [
+        {
+          "text": "EYは8～9月に大企業CEO1,200人へ匿名オンライン調査を実施し、21カ国・5業種を対象とした。結果は10月1日に公表された。",
+          "source_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Dateline; About the survey"
+        },
+        {
+          "text": "CEOの50%は過去12カ月の生産性向上に最も寄与したものとしてAIを挙げた。",
+          "source_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI delivers productivity gains"
+        },
+        {
+          "text": "23%はAIによる改善が損益に十分反映される前に吸収されると回答した。",
+          "source_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI delivers productivity gains"
+        },
+        {
+          "text": "明確なリアルタイムのAI ROI可視性を持つと答えたCEOは16%だった。",
+          "source_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "The AI ROI challenge"
+        }
+      ],
+      "why_it_matters": "編集判断：利用者の効率改善が全社利益に直結するとは限らない点を、経営者側の調査で補う。",
+      "practical_implication": "業務時間、再配分した能力、AI総費用、最終損益を同じ指標にまとめず、ベースラインと測定期間を設ける。",
+      "tags": [
+        "reports_surveys",
+        "productivity",
+        "ROI"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.75,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[11]",
+          "source_item_url": "https://www.ey.com/en_gl/newsroom/2026/10/ai-drives-productivity-but-ceos-struggle-to-turn-gains-into-grow",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 11,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "region": "Multinational",
+      "report_details": {
+        "publisher": "EY / EY-Parthenon",
+        "published_at": "2026-10-01",
+        "sample_size": 1200,
+        "methodology": "大企業CEOへの匿名オンライン調査。2026年8～9月、21カ国、消費財・ヘルス、金融、産業・エネルギー、インフラ、テクノロジー・メディア・通信の5業種。公表文は回答者の認識を集計し、企業会計を監査した効果測定ではない。",
+        "geographies": [
+          "Americas",
+          "Europe",
+          "Asia-Pacific",
+          "21 countries including Japan, China, India and South Korea"
+        ],
+        "key_metrics": [
+          {
+            "id": "ey_productivity_driver",
+            "metric": "AIを最大の生産性向上要因に挙げたCEO",
+            "value": 50,
+            "unit": "percent",
+            "denominator": "surveyed CEOs; n=1,200",
+            "claim_index": 1
+          },
+          {
+            "id": "ey_gains_absorbed",
+            "metric": "改善が損益反映前に吸収されると答えたCEO",
+            "value": 23,
+            "unit": "percent",
+            "denominator": "surveyed CEOs; n=1,200",
+            "claim_index": 2
+          },
+          {
+            "id": "ey_roi_visibility",
+            "metric": "明確なリアルタイムROI可視性を持つCEO",
+            "value": 16,
+            "unit": "percent",
+            "denominator": "surveyed CEOs; n=1,200",
+            "claim_index": 3
+          }
+        ],
+        "comparison_to_previous": "採用した3指標について同条件の前回値は本文で確認していない。M&A等の別指標の前年比をAI ROIの変化に転用しない。",
+        "practical_meaning": "現場の短縮時間と経営上のリターンの間に測定・運用設計の課題があるという回答傾向。Gallupとは母集団・地域・期間が違い、数値を直接比較できない。",
+        "caveats": [
+          "コンサルティング企業が実施した自己申告の経営者調査。因果効果や実現ROIを証明しない。",
+          "各国の標本数や国別結果はこの集計から推定しない。"
+        ],
+        "metric_count": 3
+      },
+      "document_type": "survey_report",
+      "language": "en"
+    },
+    {
+      "id": "r-pwc-workforce-2026",
+      "event_key": "pwc:hopes-fears-workforce-ai-learning:2026-09-29",
+      "tier": "report",
+      "title": "PwC：AI利用拡大と学習機会の縮小を分けて測る",
+      "primary_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-29",
+      "organization": "PwC",
+      "category": "AI・労働",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "PwCは5～6月に48カ国・地域、29業種の労働者49,364人を調査し、9月29日に公表した。国・地域ごとの就業人口の年齢・性別分布で重み付けしている。",
+        "過去12カ月に仕事でAIを使ったという回答は64%で、前年から10ポイント増えた。",
+        "生成AIを毎日使う回答者は前年14%から22%へ増えた。",
+        "学習・能力開発資源を利用できるという回答は前年59%から51%へ下がった。"
+      ],
+      "claims": [
+        {
+          "text": "PwCは5～6月に48カ国・地域、29業種の労働者49,364人を調査し、9月29日に公表した。国・地域ごとの就業人口の年齢・性別分布で重み付けしている。",
+          "source_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "About the survey; publication dateline"
+        },
+        {
+          "text": "過去12カ月に仕事でAIを使ったという回答は64%で、前年から10ポイント増えた。",
+          "source_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Capturing ROI from AI, opening paragraph"
+        },
+        {
+          "text": "生成AIを毎日使う回答者は前年14%から22%へ増えた。",
+          "source_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Capturing ROI from AI, opening paragraph"
+        },
+        {
+          "text": "学習・能力開発資源を利用できるという回答は前年59%から51%へ下がった。",
+          "source_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Empower workers, learning-resource paragraph"
+        }
+      ],
+      "why_it_matters": "編集判断：利用者数だけでなく、能力開発へのアクセスという導入の条件を継続調査で捉える。Gallupの効果実感、EYのROI可視性とは測定対象が違う。",
+      "practical_implication": "導入率、利用頻度、学習機会を別指標として追う。国・職種の構成、質問定義、自己申告であることを保ち、AIが学習機会の低下を引き起こしたとは解釈しない。",
+      "tags": [
+        "reports_surveys",
+        "workforce",
+        "AI adoption"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.05,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_index": 25,
+          "source_item_url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+          "date_basis": "Primary source dateline or release metadata read in Curator repair review",
+          "deduplication": "No exact URL in available 90-day history and no same event in available 30-day history. No material-delta publication exception used.",
+          "source_item_id": "research:items[25]",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "コンサルティング企業による自己申告調査。年齢・性別の重み付けは、すべての職種・雇用形態や未回答による偏りを解消する保証ではない。",
+        "別のAI Jobs BarometerやCEO調査の数値をこの49,364人の回答と混ぜない。"
+      ],
+      "region": "Multinational",
+      "report_details": {
+        "publisher": "PwC",
+        "published_at": "2026-09-29",
+        "sample_size": 49364,
+        "methodology": "2026年5～6月、48カ国・地域の29業種。国・地域別の就業人口の年齢・性別構成に比例する重み付け。回答方法・募集法や同一個人を追ったパネルかは本ページで確認できない。",
+        "geographies": [
+          "48 countries and regions; multinational"
+        ],
+        "key_metrics": [
+          {
+            "id": "pwc_ai_work_use",
+            "metric": "過去12カ月に仕事でAIを利用",
+            "value": 64,
+            "unit": "percent",
+            "denominator": "surveyed workers; n=49,364 before weighting",
+            "change_from_previous_percentage_points": 10,
+            "claim_index": 1
+          },
+          {
+            "id": "pwc_daily_genai",
+            "metric": "生成AIを毎日利用",
+            "value": 22,
+            "previous_value": 14,
+            "unit": "percent",
+            "denominator": "surveyed workforce",
+            "claim_index": 2
+          },
+          {
+            "id": "pwc_learning_access",
+            "metric": "学習・能力開発資源へのアクセス",
+            "value": 51,
+            "previous_value": 59,
+            "unit": "percent",
+            "denominator": "surveyed workforce",
+            "claim_index": 3
+          }
+        ],
+        "comparison_to_previous": "公表本文が示す前年対比を採用。AI業務利用+10ポイント、日次GenAI 14%→22%、学習機会59%→51%。同一回答者内の変化とは断定しない。",
+        "practical_meaning": "利用拡大と学習機会の変化を別々に観測し、利用率だけを成功指標にしないための材料。",
+        "caveats": [
+          "コンサルティング企業による自己申告調査。年齢・性別の重み付けは、すべての職種・雇用形態や未回答による偏りを解消する保証ではない。",
+          "別のAI Jobs BarometerやCEO調査の数値をこの49,364人の回答と混ぜない。",
+          "Gallup・EYとは対象、調査時期、設問が異なり比率を直接比較できない。"
+        ],
+        "metric_count": 3
+      },
+      "document_type": "survey_report",
+      "language": "en"
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "w-tohoku-physmat",
+      "event_key": "tohoku:physmat-physics-grounded-materials-perspective:2026-09-29",
+      "tier": "standard",
+      "title": "材料探索のAIへ物理法則を入れる五つの役割",
+      "primary_url": "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html",
+      "supporting_urls": [],
+      "published_at": "2026-09-29",
+      "organization": "Tohoku University",
+      "category": "材料AI",
+      "source_kind": "press_release",
+      "factual_points": [
+        "東北大学AIMRはPhysMat AIというPerspectiveを紹介し、物理知識を事前知識・記述子・制約・検証器・基盤の五つに整理する。",
+        "提案は触媒、固体電解質、水素貯蔵を例に、AI予測と実験検証・継続フィードバックを結ぶ構想であり、新しい自律探索システムの実装成果や性能ベンチマークではない。"
+      ],
+      "claims": [
+        {
+          "text": "東北大学AIMRはPhysMat AIというPerspectiveを紹介し、物理知識を事前知識・記述子・制約・検証器・基盤の五つに整理する。",
+          "source_url": "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "September 29 dateline; framework paragraphs"
+        },
+        {
+          "text": "提案は触媒、固体電解質、水素貯蔵を例に、AI予測と実験検証・継続フィードバックを結ぶ構想であり、新しい自律探索システムの実装成果や性能ベンチマークではない。",
+          "source_url": "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Examples; proposed development pathway; Publication details"
+        }
+      ],
+      "why_it_matters": "編集判断：材料AIの検証方法を整理する、設計・解析読者に隣接した概念提案。",
+      "practical_implication": "材料候補の提案モデルと、物理制約・検証器・実験の責任を分ける検討材料にする。",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "physics-informed",
+        "Japan"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 2,
+        "strategic_significance": 3,
+        "reader_value": 4
+      },
+      "weighted_score": 3.35,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[18]",
+          "source_item_url": "https://www.wpi-aimr.tohoku.ac.jp/en/achievements/press/2026/20260929_002275.html",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 18,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "region": "Japan",
+      "caveats": [
+        "構想・Perspectiveを実証済みの製品として扱わない。"
+      ],
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "id": "w-aist-ifactory-continuous",
+      "event_key": "aist-ifactory:continuous-manufacturing-project-start:2026-10-01",
+      "tier": "standard",
+      "title": "産総研とiFactory：連続製造の実証から自律生産へ",
+      "primary_url": "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+      "supporting_urls": [],
+      "published_at": "2026-10-01",
+      "organization": "AIST / iFactory",
+      "category": "製造技術",
+      "source_kind": "official",
+      "factual_points": [
+        "iFactory、産総研、AIST Solutionsは10月1日に共同プロジェクトを開始し、化学品の各単位操作に対応する横型連続製造装置の開発・改良と、一気通貫プロセスの構築・実証を目指す。",
+        "取得するプロセス・計測データを将来のフィジカルAIによる自律生産へ展開する構想であり、稼働済みの自律工場の発表ではない。"
+      ],
+      "claims": [
+        {
+          "text": "iFactory、産総研、AIST Solutionsは10月1日に共同プロジェクトを開始し、化学品の各単位操作に対応する横型連続製造装置の開発・改良と、一気通貫プロセスの構築・実証を目指す。",
+          "source_url": "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Publication dateline; opening and project-scope paragraphs"
+        },
+        {
+          "text": "取得するプロセス・計測データを将来のフィジカルAIによる自律生産へ展開する構想であり、稼働済みの自律工場の発表ではない。",
+          "source_url": "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Final project paragraph"
+        }
+      ],
+      "why_it_matters": "編集判断：科学AIを実物の工程へ接続するには、単位操作・計測・工程データの基盤が先に必要。",
+      "practical_implication": "実証段階では装置・単位操作の性能とデータ取得を評価し、自律化の将来構想とは成果指標を分離する。",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "manufacturing",
+        "Japan"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.85,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[19]",
+          "source_item_url": "https://www.aist.go.jp/aist_j/news/announce/au20261001_2.html",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 19,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "region": "Japan",
+      "caveats": [
+        "プロジェクト開始と今後の開発目標を区別する。"
+      ],
+      "document_type": "institutional_announcement",
+      "language": "ja"
+    },
+    {
+      "id": "w-saesl-artc-mro",
+      "event_key": "saesl:artc-five-year-ai-mro-partnership:2026-09-23",
+      "tier": "standard",
+      "title": "SAESLとA*STAR ARTC：AI検査・組立をMRO現場へつなぐ計画",
+      "primary_url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+      "supporting_urls": [],
+      "published_at": "2026-09-23",
+      "organization": "SAESL / A*STAR ARTC",
+      "category": "航空機エンジン・AI保全",
+      "source_kind": "press_release",
+      "factual_points": [
+        "SAESLの9月23日付公式発表は、A*STAR ARTCとの2026～2031年のFuture MRO Partnershipを説明する。",
+        "対象はAI-native・自律型の検査、組立、分解技術の開発・展開であり、年次の共同技術スプリントと地域中小企業への製造技術導入支援も含む。"
+      ],
+      "claims": [
+        {
+          "text": "SAESLの9月23日付公式発表は、A*STAR ARTCとの2026～2031年のFuture MRO Partnershipを説明する。",
+          "source_url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "PDF page 1 dateline; page 3 Technology partnership"
+        },
+        {
+          "text": "対象はAI-native・自律型の検査、組立、分解技術の開発・展開であり、年次の共同技術スプリントと地域中小企業への製造技術導入支援も含む。",
+          "source_url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "PDF page 2 collaboration paragraph; page 3 strategic pillars and Applied innovation"
+        }
+      ],
+      "why_it_matters": "編集判断：新しいサプライチェーン側の観測点として、航空MROのAI導入を技術移転・現場人材・中小企業まで追える。",
+      "practical_implication": "次は実際の展開対象、検査精度、工程時間、整備承認の境界を確認する。提携期間と目標を稼働済みシステムや実現効果へ置き換えない。",
+      "tags": [
+        "discovery_candidate",
+        "AI inspection",
+        "MRO",
+        "advanced manufacturing"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.05,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-07.json",
+          "source_item_index": 7,
+          "source_item_url": "https://links.sgx.com/FileOpen/SGXNet%202026_09_23%20SAESL%20positions%20for%20growth%20through%20four%20strategic%20talent%20and%20technology%20partnerships.ashx?App=Announcement&FileID=904782",
+          "date_basis": "Primary source dateline or release metadata read in Curator repair review",
+          "deduplication": "No exact URL in available 90-day history and no same event in available 30-day history. No material-delta publication exception used.",
+          "source_item_id": "company:items[7]",
+          "blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+          "commit_sha": "baa898f6828e83d86c695853762006a785f6f036"
+        }
+      ],
+      "caveats": [
+        "発表は将来の開発・展開の枠組み。AIによる実測改善率や安全性の保証は示されていない。",
+        "本文冒頭のMoU署名予定と付録の署名済み表現に差があるため、署名完了時刻は断定せず、公式発表された協業内容として扱う。"
+      ],
+      "region": "Singapore",
+      "document_type": "official media release filed with SGX",
+      "language": "en",
+      "company": "SAESL"
+    }
+  ],
+  "backlog": [
+    {
+      "id": "c-pwc-oil-dashboard",
+      "event_key": "pratt-whitney-canada:oil-analysis-dashboard-plan:2026-09-28",
+      "title": "P&WC Leading the Way in Engine Oil Analysis Technology",
+      "primary_url": "https://www.rtx.com/en/prattwhitney/blogs/airtime/2026/09/28/pwc-leading-the-way-in-engine-oil-analysis-technology",
+      "published_at": "2026-09-28",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 2,
+      "reason": "年末予定の可視化更新。提供開始と機能差分の確認を待つ",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "company technical article",
+      "language": "en",
+      "organization": "Pratt & Whitney Canada",
+      "company": "Pratt & Whitney"
+    },
+    {
+      "id": "c-honeywell-supply-constraints",
+      "event_key": "honeywell-aerospace:september-supply-chain-faq:2026-09-24",
+      "title": "HONA Investor Horizons: Supply Chain Frequently Asked Investor Questions | September 2026 Edition",
+      "primary_url": "https://investor.honeywellaerospace.com/news-releases/news-release-details/hona-investor-horizons-supply-chain-frequently-asked-investor",
+      "published_at": "2026-09-24",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 6,
+      "reason": "航空量産はGE・MTUを優先。投資・制約解消の見通しを実績と区別し、次の具体的変化を待つ",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "investor operational update",
+      "language": "en",
+      "organization": "Honeywell Aerospace",
+      "company": "Honeywell Aerospace"
+    },
+    {
+      "id": "c-pw-f135-review",
+      "event_key": "pratt-whitney:f135-ecu-risk-reduction-review:2026-09-15",
+      "title": "RTX's Pratt & Whitney completes F135 Engine Core Upgrade Risk Reduction Design Review",
+      "primary_url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+      "published_at": "2026-09-15",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 11,
+      "reason": "設計審査は有用だが新しい工学保証研究と初納入を優先。次段階の試験・製造移行を追う",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "Pratt & Whitney",
+      "company": "Pratt & Whitney"
+    },
+    {
+      "id": "r-meta-enterprise-platform",
+      "event_key": "meta:enterprise-platform-announcement:2026-09-28",
+      "title": "Launching Meta Enterprise Platform",
+      "primary_url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "published_at": "2026-09-28",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 4,
+      "reason": "プラットフォームの各要素の利用可能性が不明瞭。提供範囲・開始時期・実行境界を確認してから使う",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "press_release",
+      "language": "en",
+      "organization": "Meta"
+    },
+    {
+      "id": "r-ruleevolve-coding",
+      "event_key": "research:ruleevolve-coding-rules:2026-09-30",
+      "title": "Self-Evolving Coding Rules for AI Coding Agents",
+      "primary_url": "https://arxiv.org/abs/2610.00650",
+      "published_at": "2026-09-30",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 6,
+      "reason": "今回は工学・企業データの実行検証を優先。利用には評価汚染・転移・コストの本文確認が必要",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Zhengyuan Jiang",
+        "Reachal Wang",
+        "Yuepeng Hu",
+        "Yupu Wang",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "doi": "10.48550/arXiv.2610.00650",
+      "document_type": "preprint",
+      "language": "en"
+    },
+    {
+      "id": "r-reflection-beam-preview",
+      "event_key": "reflection:beam-early-access-announcement:2026-10-05",
+      "title": "Introducing Beam: Reflection’s 501B open-weight model",
+      "primary_url": "https://reflection.ai/blog/introducing-beam",
+      "published_at": "2026-10-05",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 9,
+      "reason": "早期アクセス段階。重み・ライセンス・技術報告の実公開を待つ",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "press_release",
+      "language": "en",
+      "organization": "Reflection AI"
+    },
+    {
+      "id": "r-kpmg-ai-pulse",
+      "event_key": "kpmg:ai-pulse-q3-governance-investment:2026-09-24",
+      "title": "New KPMG AI Pulse Survey: As AI maturity converges, leading organizations show what AI at scale requires",
+      "primary_url": "https://kpmg.com/xx/en/media/press-releases/2026/09/new-kpmg-ai-pulse-survey-as-ai-maturity-converges-leading-organizations-show-what-ai-at-scale-requires.html",
+      "published_at": "2026-09-24",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 10,
+      "reason": "調査は有用だが従業員とCEOの2調査を優先。予定投資を実支出・実現ROIと解釈しない",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "survey_report",
+      "language": "en",
+      "organization": "KPMG"
+    },
+    {
+      "id": "r-cloudera-manufacturing-survey",
+      "event_key": "cloudera:data-readiness-manufacturing-2026:2026-09-08",
+      "title": "Manufacturing AI Initiatives Face Governance and Workflow Integration Challenges",
+      "primary_url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-08-manufacturing-ai-initiatives-face-governance-and-workflow-integration-challenges.html",
+      "published_at": "2026-09-08",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 13,
+      "reason": "製造業の分母・調査方法・調査時期を確認してから使う。ベンダー委託研究の限界を保持",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "survey_report",
+      "language": "en",
+      "organization": "Cloudera"
+    },
+    {
+      "id": "r-bearingpoint-date-pending",
+      "event_key": "bearingpoint:scaling-ai-impact-survey:2026-09",
+      "title": "Scaling AI for measurable impact",
+      "primary_url": "https://www.bearingpoint.com/en-us/insights-events/insights/scaling-ai-for-measurable-impact/",
+      "published_at": null,
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 14,
+      "reason": "月のみの公開日では30日窓に適合するか不明。正確な公開日確認まで掲載不可",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "survey_report",
+      "language": "en",
+      "organization": "BearingPoint"
+    },
+    {
+      "id": "r-umd-chemistry-workshop",
+      "event_key": "umd:chemistry-ai-workshop-roadmap:2026-09-28",
+      "title": "Building Better AI for Chemistry",
+      "primary_url": "https://ihc.umd.edu/building-better-ai-for-chemistry/",
+      "published_at": "2026-09-28",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 17,
+      "reason": "ワークショップ告知・ロードマップ準備より材料AIの具体枠組みを優先。実成果物公開を待つ",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "workshop_report",
+      "language": "en",
+      "organization": "University of Maryland"
+    },
+    {
+      "id": "r-nsk-inspection-robot-preview",
+      "event_key": "nsk-rt:factory-quadruped-demo-announcement:2026-09-25",
+      "title": "日本精工とアールティ、製造現場の四足歩行ロボット実証を紹介",
+      "primary_url": "https://www.nsk.com/jp-ja/company/news/2026/robotics-next-tokyo-2026/",
+      "published_at": "2026-09-25",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 20,
+      "reason": "過去イベントの事前告知。デモ実施や工場運用の結果を確認するまで掲載しない",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "press_release",
+      "language": "ja",
+      "organization": "NSK / RT Corporation"
+    },
+    {
+      "id": "r-nedo-airoa-preview",
+      "event_key": "nedo-airoa:dual-arm-robot-prototype-showcase-plan:2026-09-10",
+      "title": "NEDO・AIRoA、国産汎用ロボット開発コンペティション成果の初公開を告知",
+      "primary_url": "https://www.nedo.go.jp/events/CD_100235.html",
+      "published_at": "2026-09-10",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 23,
+      "reason": "過去イベントの事前告知。選定・量産・データ収集の後続事実を待つ",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "institutional_announcement",
+      "language": "ja",
+      "organization": "NEDO / AIRoA"
+    },
+    {
+      "id": "r-huawei-dimak",
+      "event_key": "huawei:dimak-industry-ai-method:2026-09-18",
+      "title": "Huawei introduces seven-step industry AI adoption method and DIMAK engineering system",
+      "primary_url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
+      "published_at": "2026-09-18",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 24,
+      "reason": "広い手法・事例集より個別の技術根拠を優先。使用時は事例の比較条件と測定方法を確認する",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "white_paper_announcement",
+      "language": "en",
+      "organization": "Huawei"
+    },
+    {
+      "id": "r-fastly-runtime-controls",
+      "event_key": "fastly:ai-runtime-firewall-api-controls:2026-09-21",
+      "tier": "standard",
+      "title": "Fastly：モデル呼び出しとAgent APIアクセスを実行時に制御",
+      "primary_url": "https://investors.fastly.com/node/13861/pdf",
+      "supporting_urls": [],
+      "published_at": "2026-09-21",
+      "organization": "Fastly",
+      "category": "AIインフラ",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Fastlyは9月21日にAI Runtime Control、AI Firewall、API Securityの新機能を利用可能と発表した。",
+        "AI Runtime Controlはモデル呼び出しのルーティング、仮想キー、トークン支出可視化、レート制限、予算制御、フェイルオーバーを備えると説明する。",
+        "同社はAI Firewallでプロンプトを検査し、API Securityで契約に合わないAgent要求を監視・遮断すると説明する。攻撃を必ず防げるという独立証明ではない。"
+      ],
+      "claims": [
+        {
+          "text": "Fastlyは9月21日にAI Runtime Control、AI Firewall、API Securityの新機能を利用可能と発表した。",
+          "source_url": "https://investors.fastly.com/node/13861/pdf",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "PDF p.1 dateline; p.1–2 availability paragraph"
+        },
+        {
+          "text": "AI Runtime Controlはモデル呼び出しのルーティング、仮想キー、トークン支出可視化、レート制限、予算制御、フェイルオーバーを備えると説明する。",
+          "source_url": "https://investors.fastly.com/node/13861/pdf",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "PDF p.1 AI Runtime Control bullet"
+        },
+        {
+          "text": "同社はAI Firewallでプロンプトを検査し、API Securityで契約に合わないAgent要求を監視・遮断すると説明する。攻撃を必ず防げるという独立証明ではない。",
+          "source_url": "https://investors.fastly.com/node/13861/pdf",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "PDF p.1 AI Firewall and API Security bullets; p.2 forward-looking statements"
+        }
+      ],
+      "why_it_matters": "編集判断：モデル選択、費用、API境界を実際のリクエスト経路で制御する製品群。",
+      "practical_implication": "監視専用から開始して正当な業務要求の誤遮断を確認し、予算制御とAPI契約を用途ごとに設ける。",
+      "tags": [
+        "agents_enterprise",
+        "security",
+        "runtime governance"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.75,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[7]",
+          "source_item_url": "https://investors.fastly.com/node/13861/pdf",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 7,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "防御効果はベンダー説明。二次引用の予算超過率やネットワーク全体の指標は今回の根拠に採用しない。"
+      ],
+      "region": "United States",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 7,
+      "reason": "同じ企業運用枠では、配布済みvLLMの入力信頼境界を優先。Fastlyの確認済み主張は保持し、次の独立評価・導入実績を待つ。",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "id": "r-mistral-large4-preview",
+      "event_key": "mistral:large4-public-preview:2026-10-06",
+      "tier": "standard",
+      "title": "Mistral Large 4はPublic Preview、重み公開は今後",
+      "primary_url": "https://docs.mistral.ai/resources/changelogs",
+      "supporting_urls": [
+        "https://docs.mistral.ai/models/mistral-large-4-0"
+      ],
+      "published_at": "2026-10-06",
+      "organization": "Mistral AI",
+      "category": "AIモデル",
+      "source_kind": "official",
+      "factual_points": [
+        "10月6日の公式更新履歴はMistral Large 4のPublic Preview開始を記載する一方、重みは今後公開予定と明記する。",
+        "公式モデルカードはMoE構造、総パラメータ1.05兆・稼働52B、ビジョンエンコーダ1.6B、コンテキスト1Mと記載する。",
+        "モデルカードにはFunction Calling、Structured Outputs、Agents & Conversationsなどの機能が列挙される。"
+      ],
+      "claims": [
+        {
+          "text": "10月6日の公式更新履歴はMistral Large 4のPublic Preview開始を記載する一方、重みは今後公開予定と明記する。",
+          "source_url": "https://docs.mistral.ai/resources/changelogs",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Changelog October 6 entry"
+        },
+        {
+          "text": "公式モデルカードはMoE構造、総パラメータ1.05兆・稼働52B、ビジョンエンコーダ1.6B、コンテキスト1Mと記載する。",
+          "source_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Model card heading/specification; Context field"
+        },
+        {
+          "text": "モデルカードにはFunction Calling、Structured Outputs、Agents & Conversationsなどの機能が列挙される。",
+          "source_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Model card Features"
+        }
+      ],
+      "why_it_matters": "編集判断：プレビューAPIとセルフホスト可能な重みの公開を明確に区別するモデル動向。",
+      "practical_implication": "評価はプレビュー条件で行い、セルフホスト移行計画は実際の重み・ライセンス・運用条件を確認してから立てる。",
+      "tags": [
+        "models_open_weights",
+        "multimodal",
+        "preview",
+        "Europe"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 2,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.6,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-07.json",
+          "source_item_id": "research:items[8]",
+          "source_item_url": "https://docs.mistral.ai/resources/changelogs",
+          "blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+          "date_basis": "Primary page publication dateline read by Curator",
+          "deduplication": "No same URL in preceding 90-day index; no same semantic event in preceding 30-day index; no material-delta exception used.",
+          "source_item_index": 8,
+          "commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9"
+        }
+      ],
+      "caveats": [
+        "重み入手済み、自己ホスト可能、一般提供済みとは書かない。ベンチマーク優位や二次情報の1T/49Bは採用しない。"
+      ],
+      "region": "France",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 8,
+      "reason": "モデルのPublic Previewより配布済み推論OSSと国際労働調査を優先。今後の重み公開・ライセンス・自己ホスト条件を追う。",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "product_changelog",
+      "language": "en"
+    },
+    {
+      "id": "c-rr-a350f-flight",
+      "event_key": "rolls-royce:a350f-trentxwb-first-flight:2026-09-29",
+      "title": "Rolls-Royce strengthens freighter market position by powering first A350F flight",
+      "primary_url": "https://www.rolls-royce.com/media/press-releases/2026/29-09-2026-rr-strengthens-freighter-market-position-by-powering-first-a350f-flight.aspx",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 1,
+      "reason": "既報9月14日の仮想初飛行準備とは異なり、今回は実際の初飛行という差分がある。ただし本号は工学AIと製造・MRO実装を優先し、耐久性目標を実績と混ぜない。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-29",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "Rolls-Royce / Airbus",
+      "company": "Rolls-Royce"
+    },
+    {
+      "id": "c-rr-uk-capacity",
+      "event_key": "rolls-royce:uk-300m-manufacturing-investment:2026-09-28",
+      "title": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities",
+      "primary_url": "https://www.rolls-royce.com/media/press-releases/2026/28-09-2026-rr-invests-pound-300-million-in-uk-manufacturing-and-engineering-facilities-to-drive-aerospace-and-defence-growth.aspx",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 3,
+      "reason": "製造能力の重要計画だが稼働前。鋳造能力・設備完成の実績が出る段階を追う。£300Mの計画を既成の増産効果と書かない。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-28",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "Rolls-Royce",
+      "company": "Rolls-Royce"
+    },
+    {
+      "id": "c-ge-cfm56-outlook",
+      "event_key": "ge-aerospace:cfm56-shop-visits-outlook:2026-09-28",
+      "title": "GE Aerospace IR update: CFM56 shop-visit outlook and RISE development recap",
+      "primary_url": "https://www.geaerospace.com/news/investor-relations/ir-updates/rendering-open-fan-technology-installed-aircraft",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 4,
+      "reason": "保存対象は新しいCFM56見通しのみ。RISEとCPPの既報再録を新規技術成果に数えない。需要予測より現場AIと実生産の更新を優先。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-28",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "investor operational update",
+      "language": "en",
+      "organization": "GE Aerospace / CFM International",
+      "company": "GE Aerospace"
+    },
+    {
+      "id": "c-rr-elevated-demonstrator",
+      "event_key": "rolls-royce:elevated-hybrid-demonstrator-selection:2026-09-18",
+      "title": "Rolls-Royce to elevate EU's latest Clean Aviation call",
+      "primary_url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 10,
+      "reason": "通常の旅客機用エンジン研究として範囲内。助成契約準備・将来の試験計画の段階であり、実証結果が出るまで保存。CO2目標を実測値にしない。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-18",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "Rolls-Royce / Clean Aviation Joint Undertaking",
+      "company": "Rolls-Royce"
+    },
+    {
+      "id": "r-menlo-consumer-ai",
+      "event_key": "menlo:consumer-ai-survey:2026-09-16",
+      "title": "2026: The State of Consumer AI",
+      "primary_url": "https://menlovc.com/perspective/2026-the-state-of-consumer-ai/",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 26,
+      "reason": "消費者利用・推計支出として保存。今回の工学・企業内利用を扱う3調査を優先。世界支出の外挿と新設問の比較不能性を保つ。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-16",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Shawn Carolan",
+        "Amy Wu Martin",
+        "Sam Borja"
+      ],
+      "document_type": "survey_report",
+      "language": "en",
+      "organization": "Menlo Ventures / Morning Consult"
+    },
+    {
+      "id": "r-oecd-manufacturing-smes",
+      "event_key": "oecd:manufacturing-sme-transformation-policy:2026-10-02",
+      "title": "Fit-for-Future Manufacturing SMEs: Effective Policies for Transformation",
+      "primary_url": "https://www.oecd.org/en/publications/fit-for-future-manufacturing-smes_19e33bb9-en.html",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 27,
+      "reason": "5カ国・製造3業種の政策分析は重要な後続素材。調査割合を示す代表標本surveyではないため、具体的ケース・政策条件を本文で深掘りする別枠へ保存。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-10-02",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "OECD"
+      ],
+      "doi": "10.1787/19e33bb9-en",
+      "document_type": "policy_report",
+      "language": "en",
+      "organization": "OECD"
+    },
+    {
+      "id": "r-oecd-ai-investment-outlook",
+      "event_key": "oecd:interim-outlook-ai-investment:2026-09-23",
+      "title": "OECD Economic Outlook, Interim Report September 2026: AI investment expectations",
+      "primary_url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 28,
+      "reason": "AI投資とインフラのマクロ見通し。現場・企業の実現ROIを測った資料ではないため、3つの利用者・経営者調査を本号で優先。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-23",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "OECD"
+      ],
+      "doi": "10.1787/f751d02b-en",
+      "document_type": "economic_report",
+      "language": "en",
+      "organization": "OECD"
+    },
+    {
+      "id": "r-a16z-market-charts",
+      "event_key": "a16z:state-of-markets-ii:2026-09-30",
+      "title": "State of Markets II",
+      "primary_url": "https://a16z.com/state-of-markets-ii/",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 29,
+      "reason": "本文は読めたが主要チャートのアプリが未確認。図表固有の数値を採用せず、データ源と比較条件を取得できるまで保存。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-30",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "David George"
+      ],
+      "document_type": "market_report",
+      "language": "en",
+      "organization": "Andreessen Horowitz"
+    },
+    {
+      "id": "r-stanford-ai-deployment-interview",
+      "event_key": "stanford:brynjolfsson-51-ai-deployments-interview:2026-09-17",
+      "title": "Almost Every Job Has Tasks That AI Can Change",
+      "primary_url": "https://www.gsb.stanford.edu/insights/almost-every-job-has-tasks-ai-can-change",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 30,
+      "reason": "一次検索テキストのみで全文未確認。51の選抜成功事例を代表的な導入率surveyにしない。方法と分母を原文で確認してから使う。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-17",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Lisa Bonos"
+      ],
+      "document_type": "research_interview",
+      "language": "en",
+      "organization": "Stanford University"
+    },
+    {
+      "id": "r-sglang-0521-serving",
+      "event_key": "sglang:v0521-serving-cache-release:2026-10-02",
+      "title": "SGLang v0.5.21 release",
+      "primary_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 32,
+      "reason": "同じOSS推論枠ではvLLMの再起動・信頼境界を優先。SGLangは互換性・対象GPU・キャッシュ変更を検証する実装向け素材として保持。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-10-02",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "document_type": "github_release",
+      "language": "en",
+      "organization": "SGLang project"
+    },
+    {
+      "id": "r-xps-agent-date-pending",
+      "event_key": "energy-ai:physics-constrained-xps-agent:2026-09",
+      "title": "Accelerating battery materials discovery with an agentic AI for automated XPS analysis integrating physical constraints and chemometrics",
+      "primary_url": "https://doi.org/10.1016/j.egyai.2026.100796",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 33,
+      "reason": "工学適合度は高いが9月号表記のみで公開日の範囲を確定できず、本文にも到達できない。正確なオンライン日と方法・配布物の確認までは掲載しない。",
+      "publication_authorized_by_this_plan": false,
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "doi": "10.1016/j.egyai.2026.100796",
+      "document_type": "journal_article",
+      "language": "en"
+    },
+    {
+      "id": "r-aisi-evaleval-cards",
+      "event_key": "aisi-evaleval:benchmark-evaluation-cards:2026-09-22",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "primary_url": "https://huggingface.co/blog/evaleval-aisi",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 34,
+      "reason": "評価条件の再現性を追う価値は高い。本号は工学検証と運用更新を優先。後続でカードの設定・計算予算・集計法を読んで数値の比較可能性を検討する。",
+      "publication_authorized_by_this_plan": false,
+      "published_at": "2026-09-22",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Avijit Ghosh",
+        "Jenny Chim",
+        "Deep Joshi",
+        "Srishti",
+        "Matt Kennedy",
+        "Irene Solaiman",
+        "Jessica McFadyen",
+        "Lynn Tan",
+        "Coz"
+      ],
+      "document_type": "evaluation_data_release",
+      "language": "en",
+      "organization": "EvalEval Coalition / UK AI Security Institute"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "c-rtx-mro-repeat",
+      "event_key": "rtx:ai-data-mro-borescope-predictive:2026-09-18",
+      "title": "How RTX is using AI and data to transform aircraft maintenance",
+      "primary_url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 9,
+      "reason": "exact_url_and_semantic_duplicate",
+      "detail": "同一MRO事例の再掲で新情報なし",
+      "previous_publication_path": "content/daily/2026-09-22-daily-signal.md",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "company technical article",
+      "language": "en",
+      "organization": "RTX / Pratt & Whitney / Collins Aerospace",
+      "company": "Pratt & Whitney"
+    },
+    {
+      "id": "c-ge-xa102-repeat",
+      "event_key": "ge-aerospace:xa102-model-based-design-to-assembly:2026-09-14",
+      "title": "GE Aerospace Advances XA102 Adaptive Cycle Engine Assembly for U.S. Air Force's Next Generation Adaptive Propulsion Program",
+      "primary_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-advances-xa102-adaptive-cycle-engine-assembly-us-air-forces-next",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 12,
+      "reason": "exact_url_and_semantic_duplicate",
+      "detail": "同じMBDから組立への発表",
+      "previous_publication_path": "content/daily/2026-09-21-daily-signal.md",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "GE Aerospace",
+      "company": "GE Aerospace"
+    },
+    {
+      "id": "c-ge-cpp-repeat",
+      "event_key": "ge-aerospace:cpp-acquisition-castings-integration:2026-09-08",
+      "title": "GE Aerospace to acquire Consolidated Precision Products",
+      "primary_url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 13,
+      "reason": "semantic_duplicate",
+      "detail": "URLは異なるが同じCPP買収合意。承認・完了・設備稼働などの新規差分なし",
+      "previous_publication_path": "content/daily/2026-09-09-daily-signal.md",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "investor announcement",
+      "language": "en",
+      "organization": "GE Aerospace / Consolidated Precision Products",
+      "company": "GE Aerospace"
+    },
+    {
+      "id": "r-matbrain-repeat",
+      "event_key": "nature-mi:matbrain-collaborative-crystal-agent:2026-09-10",
+      "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+      "primary_url": "https://www.nature.com/articles/s42256-026-01298-6",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 15,
+      "reason": "exact_url_and_semantic_duplicate",
+      "detail": "同一論文。今回の一次ページ確認も不十分",
+      "previous_publication_path": "content/daily/2026-09-21-daily-signal.md",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Tongyu Shi",
+        "Yutang Li",
+        "Zhanyuan Li",
+        "Qian Liu",
+        "Jie Zhou",
+        "Wenhe Xu",
+        "Yang Li",
+        "Dawei Dai",
+        "Rui He",
+        "Wenhua Zhou",
+        "Jiahong Wang",
+        "Xue-Feng Yu"
+      ],
+      "doi": "10.1038/s42256-026-01298-6",
+      "document_type": "journal_article",
+      "language": "en"
+    },
+    {
+      "id": "r-sara-h-repeat",
+      "event_key": "prx-intelligence:sara-h-autonomous-materials-human-guidance:2026-09-10",
+      "title": "Autonomous Materials Exploration Integrates Automated Phase Identification and AI Agents Enhanced by Human Guidance",
+      "primary_url": "https://journals.aps.org/prxintelligence/abstract/10.1103/c362-349b",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 16,
+      "reason": "exact_url_and_semantic_duplicate",
+      "detail": "同一論文で新規差分なし",
+      "previous_publication_path": "content/daily/2026-09-14-daily-signal.md",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "Ming-Chiang Chang",
+        "Maximilian Amsler",
+        "Duncan R. Sutherland",
+        "Sebastian Ament",
+        "Katie R. Gann",
+        "Lan Zhou",
+        "Louisa M. Smieska",
+        "Arthur R. Woll",
+        "John M. Gregoire",
+        "Carla P. Gomes",
+        "R. Bruce van Dover",
+        "Michael O. Thompson"
+      ],
+      "doi": "10.1103/c362-349b",
+      "document_type": "journal_article",
+      "language": "en",
+      "organization": "Cornell University and collaborators"
+    },
+    {
+      "id": "c-safran-akira-scope",
+      "event_key": "safran:akira-minority-investment:2026-09-22",
+      "title": "Safran invests in Akira, specialists in propulsion technology development and prototyping",
+      "primary_url": "https://www.safran-group.com/pressroom/safran-invests-akira-specialists-propulsion-technology-development-and-prototyping-2026-09-21",
+      "source_file": "gpt_handoff/company/2026-10-07.json",
+      "source_item_index": 8,
+      "reason": "scope_exclusion",
+      "detail": "除外対象の無人航空向け展開を含む混合案件のため本号では採用しない",
+      "source_blob_sha": "3aa69f62b1dc8ce662becd4e7de7c58f651b82a8",
+      "source_commit_sha": "baa898f6828e83d86c695853762006a785f6f036",
+      "document_type": "press release",
+      "language": "en",
+      "organization": "Safran / Akira",
+      "company": "Safran Aircraft Engines"
+    },
+    {
+      "id": "r-ptc-ai-simulation-background",
+      "event_key": "ptc:ai-simulation-explainer:2026-09-21",
+      "title": "What Is AI Simulation?",
+      "primary_url": "https://www.ptc.com/en/blogs/cad/ai-simulation",
+      "source_file": "gpt_handoff/research/2026-10-07.json",
+      "source_item_index": 3,
+      "reason": "insufficient_event_novelty",
+      "detail": "新しい提供・評価結果を示さない説明記事。件数充足に使わない",
+      "source_blob_sha": "c1b387942be8afbf35d59986d46a16c07b2e2181",
+      "source_commit_sha": "202c0deecd3102c507b16fb4f10c29a72cf1bed9",
+      "authors": [
+        "PTC Blog Author"
+      ],
+      "document_type": "technical_blog",
+      "language": "en",
+      "organization": "PTC"
+    }
+  ],
+  "warnings": [
+    "両Scoutはpartialだが、同日・3時間以内・strict schema・必須coverageを満たす。未確認の重要主張をselected/wildcardsに入れずreadyとした。",
+    "新旧49候補を全件分類し、既報5イベントを除いた44件を新規性の編集対象とした。異なるURLのCPP買収も意味的重複として除外した。",
+    "検証済みは出典がその主張をしていることの確認を含み、独立した再現実験・監査を意味しない。自己申告、将来計画、プレプリントの限界を保持する。",
+    "バックログには未掲載の意味ある追補も含む。A350Fは9月14日の準備記事から実際の初飛行という差分があるが、本号の採用枠ではない。",
+    "selected/wildcards以外はWriterが広く再選定して記事へ追加しない。記事作成は本ファイルに含めていない。",
+    "gpt_handoff/company/2026-10-07.json: Partial source access remains for CFM: a September 2 story was recovered but is outside the September 7–October 7 lookback, and current press/stories indexes remained incomplete. All seven mandatory coverage records are present.",
+    "gpt_handoff/company/2026-10-07.json: Rolls-Royce's undated F130 story remains excluded. Supplementary supplier/technology exploration recovered three other dated Rolls-Royce releases, changing its coverage status to found.",
+    "gpt_handoff/company/2026-10-07.json: Fourteen dated candidates are retained: thirteen watch-source candidates and one Discovery candidate (SAESL's partnership with A*STAR ARTC). The five-item spillover threshold was met; no additional rotation companies were selected. The already-advanced cursor remains 26.",
+    "gpt_handoff/company/2026-10-07.json: Candidates require Curator publication-history deduplication. GE's September 28 IR update is retained for its CFM56 shop-visit outlook; its RISE and CPP recaps do not constitute additional new events.",
+    "gpt_handoff/company/2026-10-07.json: Vendor operating metrics, planned investments, durability improvements and forecasts remain attributed rather than treated as independently demonstrated results. Safran/Akira's body date is September 22 although the URL says September 21.",
+    "gpt_handoff/company/2026-10-07.json: Configured unmanned-aircraft exclusions were applied to candidate scope. Safran/Akira is retained only for RISE, hybridization and hydrogen-combustion/test infrastructure.",
+    "gpt_handoff/company/2026-10-07.json: Top-level searched_queries is capped at 20 recorded examples, not at 20 executed searches. research_plan.query_execution preserves all 34 recoverable executed queries (20 original and 14 timestamped repair queries). An intervening interrupted pass was reported to have run 12 additional searches, but its exact text/times could not be recovered and are not invented or included in the auditable count.",
+    "gpt_handoff/research/2026-10-07.json: All six mandatory lanes were searched. Repair expands the original 25-item pool to 35 and records all 38 literal queries; searched_queries is capped at 20 only for serialization. Report publishers now span consultancies, research companies, university/research institutions, VC, software, associations searched with no fresh result, and government/intergovernmental sources.",
+    "gpt_handoff/research/2026-10-07.json: Status remains partial: MatBrain publisher article, Stanford direct page, Elsevier direct page and a16z chart application could not be fully opened. Search/Crossmark evidence and exact limitations are retained; Curator must verify, downgrade or exclude unresolved material claims.",
+    "gpt_handoff/research/2026-10-07.json: BearingPoint and Energy and AI show September 2026 without an exact online day. published_at is intentionally omitted; precise 30-day eligibility remains unresolved.",
+    "gpt_handoff/research/2026-10-07.json: vLLM and SGLang have verified tagged release pages and artifacts. Mistral Large 4 and Reflection Beam remain previews with forthcoming weights; do not merge those availability states.",
+    "gpt_handoff/research/2026-10-07.json: Preprints, vendor benchmarks, survey responses and forecasts retain attribution. Menlo global spending is a model-based estimate; its new spending/agent questions do not support like-for-like 2025 growth claims. Stanford's 51 deployments are selected value-delivering cases.",
+    "gpt_handoff/research/2026-10-07.json: Search batch responses do not expose reliable per-query raw hit counts. Query logs count retained candidates by thematic discovery path, with zero-new-result and follow-on link traversal recorded.",
+    "gpt_handoff/research/2026-10-07.json: Missing author/DOI/affiliation fields were not invented. Six original paper author lists and DOIs were restored; all 35 candidates include document_type.",
+    "gpt_handoff/research/2026-10-07.json: Exploratory items comprise 14/35 (40%) with cross-lane memberships. Report coverage exceeds the soft target because newly found evidence was preserved for editorial review rather than discarded to match a quota."
+  ]
+}
