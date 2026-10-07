@@ -1,0 +1,2313 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-07T22:32:29.882738+00:00",
+  "items": [
+    {
+      "title": "GKN Aerospace breaks ground on North Charlestown expansion as demand for engine components grows",
+      "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-breaks-ground-on-north-charlestown-expansion-as-demand-for-engine-components-grows/",
+      "source": "GKN Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-10",
+      "excerpt": "GKN began its $16 M expansion, adding about 57,000 sq ft for a total near 97,000 sq ft. Turning, surface finishing and NDT will move on site. This is the construction milestone following July's investment announcement; efficiency and lead-time benefits remain company expectations.",
+      "query": "\"GKN Aerospace\" \"September\" \"2026\" manufacturing",
+      "tags": [
+        "manufacturing",
+        "engine components",
+        "NDT"
+      ],
+      "organization": "GKN Aerospace",
+      "company": "GKN Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "GKN Aerospace to advance key technologies for Sweden's future combat air systems under new FMV agreement",
+      "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+      "source": "GKN Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-10",
+      "excerpt": "FMV awarded GKN approximately SEK 390 M for concept studies, technology development and demonstrators through 2028. Work covers thermal management, onboard power, propulsion-system analysis and development methods to inform Sweden's post-2040 combat-air decisions.",
+      "query": "\"GKN Aerospace\" \"September\" \"2026\" manufacturing",
+      "tags": [
+        "thermal management",
+        "propulsion",
+        "demonstrators"
+      ],
+      "organization": "GKN Aerospace",
+      "company": "GKN Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Pratt & Whitney completes F135 Engine Core Upgrade Risk Reduction Design Review",
+      "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+      "source": "RTX",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-15",
+      "excerpt": "Pratt & Whitney completed the F 135 ECU risk-reduction design review covering detailed design, propulsion technology, aircraft integration and production/retrofit readiness. The milestone supports F-35 Block 4 and beyond; it is not production certification or entry into service.",
+      "query": "site:rtx.com 2026 September October aerospace manufacturing engine digital engineering -drone -UAV -UAS -eVTOL",
+      "tags": [
+        "F135",
+        "design review",
+        "propulsion"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "How RTX is using AI and data to transform aircraft maintenance",
+      "url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+      "source": "RTX",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-18",
+      "excerpt": "RTX reports AI borescope pilots on GTF and F 135, >30% inspection-time savings, about 90% predictive accuracy for cooling/ventilation units and >200 hours of avoided disruption. Collins also reports ~70% manual-workload reduction in kit checks. These are self-reported metrics with no disclosed common sample or causal study.",
+      "query": "site:rtx.com 2026 September October aerospace manufacturing engine digital engineering -drone -UAV -UAS -eVTOL",
+      "tags": [
+        "AI",
+        "MRO",
+        "digital thread",
+        "self_reported"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney / Collins Aerospace",
+      "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "Inside the GTF Advantage engine",
+      "url": "https://www.rtx.com/news/2026/09/24/inside-the-gtf-advantage-engine",
+      "source": "RTX",
+      "source_kind": "corporate_tech",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-24",
+      "excerpt": "P&W describes using digital twins for 5,000+ engines, >50 M flight hours, CFD, hardware inspection and endurance tests to redesign airflow, cooling holes and coatings. Up to 2 x time on wing and 4–8% extra takeoff thrust are vendor expectations. Technical design evidence complements the separate delivery milestone.",
+      "query": "site:rtx.com \"Inside the GTF Advantage engine\"",
+      "tags": [
+        "digital twin",
+        "CFD",
+        "design",
+        "durability"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney",
+      "document_type": "company technical article",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Pratt & Whitney marks delivery of first GTF Advantage-powered aircraft to United Airlines",
+      "url": "https://www.rtx.com/news/news-center/2026/09/24/rtxs-pratt-whitney-marks-delivery-of-first-gtf-advantage-powered-aircraft-to-u",
+      "source": "RTX",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-24",
+      "excerpt": "P&W and United marked the first GTF Advantage-powered A 321 XLR delivery. P&W plans full PW 1100 G-JM production transition by 2028 and HS+ availability during maintenance in early 2027. The claimed 90–95% durability-benefit recovery through HS+ is a vendor projection.",
+      "query": "\"RTX\" \"GTF Advantage-powered aircraft\" \"2026\"",
+      "tags": [
+        "GTF Advantage",
+        "production",
+        "delivery"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "RTX's Pratt & Whitney Canada signs four-year PW127M maintenance agreement with AirBorneo Airways",
+      "url": "https://www.rtx.com/news/news-center/2026/09/24/rtxs-pratt-whitney-canada-signs-four-year-pw127m-maintenance-agreement-with-ai",
+      "source": "RTX",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-24",
+      "excerpt": "Four-year agreement covers PW 127 M engines on AirBorneo ATR 72-500 aircraft through 2030. Work will primarily use P&W Canada's recently expanded Singapore turboprop MRO facility, localizing support for East Malaysia's Rural Air Services network.",
+      "query": "site:rtx.com \"2026\" \"PW127M\" \"AirBorneo\"",
+      "tags": [
+        "MRO",
+        "regional aircraft",
+        "Singapore"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Pratt & Whitney Canada",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Collins Aerospace to expand engine components facility to support growth and customer demand",
+      "url": "https://www.prnewswire.com/news-releases/collins-aerospace-to-expand-engine-components-facility-to-support-growth-and-customer-demand-302892404.html",
+      "source": "RTX",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-29",
+      "excerpt": "RTX announced a 14,000-sq-ft West Des Moines expansion, expected complete mid 2027. The site makes fuel-distribution components and ships 25,000+ engine nozzles monthly; it has FAA Part 145 repair and additive-manufacturing Nadcap certification. This is an RTX-issued release distributed by PRNewswire.",
+      "query": "\"Collins Aerospace\" \"expand engine components facility\"",
+      "tags": [
+        "manufacturing",
+        "fuel nozzle",
+        "additive manufacturing"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Collins Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "ST Engineering and RTX’s Collins Aerospace Deepen Collaboration on Aircraft Component Support",
+      "url": "https://www.rtx.com/news/news-center/2026/09/23/st-engineering-and-rtxs-collins-aerospace-deepen-collaboration-on-aircraft-component-support",
+      "source": "RTX / ST Engineering",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-23",
+      "excerpt": "Three multi-year agreements add 787 fan-electronics-board repair, expand Power & Controls spares, and extend A 320/737 FlightSense repairs. ST Engineering merits monitoring for OEM-linked component repair and lifecycle engineering. Faster turnaround is a stated aim, with no measured result.",
+      "query": "\"ST Engineering\" \"Collins\" \"September 23, 2026\"",
+      "tags": [
+        "MRO",
+        "repair-over-replacement",
+        "discovery_candidate"
+      ],
+      "organization": "RTX / ST Engineering",
+      "company": "RTX / Collins Aerospace / ST Engineering",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Royal Brunei Airlines selects RTX’s Collins Aerospace FlightSense and Dispatch services",
+      "url": "https://www.rtx.com/news/news-center/2026/09/22/royal-brunei-airlines-selects-rtx-collins-aerospace-flightsense-and-dispatch-services",
+      "source": "RTX",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・製造・MRO",
+      "published_at": "2026-09-22",
+      "excerpt": "Two 12-year contracts cover Royal Brunei's current and future 787 fleet. FlightSense/Dispatch combine fixed-rate component availability, predictive reliability-based maintenance and logistics. FlightSense uses Ascentia aircraft-data analytics; efficiency improvements are intended outcomes, not measured gains.",
+      "query": "\"Royal Brunei Airlines selects\" \"Dispatch\"",
+      "tags": [
+        "predictive maintenance",
+        "Ascentia",
+        "MRO"
+      ],
+      "organization": "RTX",
+      "company": "RTX / Collins Aerospace",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Kawasaki and EdgeCortix launch multiyear aerospace edge-AI development program",
+      "url": "https://www.khi.co.jp/news/detail/20260908_2.html",
+      "source": "Kawasaki Heavy Industries / EdgeCortix",
+      "source_kind": "press_release",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-08",
+      "excerpt": "Kawasaki and EdgeCortix announced a 2026–2028 development program combining chiplet AI computing with MERA software. Scope includes feasibility, systems integration and prototype platforms under aerospace power, latency and reliability constraints. EdgeCortix merits monitoring for aerospace hardware/software co-design.",
+      "query": "site:global.kawasaki.com/en/corp/newsroom 2026 aerospace September October",
+      "tags": [
+        "aerospace",
+        "systems engineering",
+        "edge AI",
+        "hardware/software co-design",
+        "development partnership",
+        "discovery_candidate"
+      ],
+      "organization": "Kawasaki Heavy Industries / EdgeCortix",
+      "company": "Kawasaki Heavy Industries / Kawasaki Aerospace Systems Company",
+      "document_type": "company newsroom and supplier press release",
+      "language": "ja"
+    },
+    {
+      "title": "MHI and Preferred Networks deepen mission-critical AI development through capital alliance",
+      "url": "https://www.mhi.com/news/26091602.html",
+      "source": "Mitsubishi Heavy Industries",
+      "source_kind": "press_release",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-16",
+      "excerpt": "MHI announced a ¥10 billion planned investment in PFN to accelerate joint development of mission-critical intelligent machinery. The collaboration combines MHI's design, manufacturing, control and simulation know-how with PFN's AI chips, infrastructure and foundation models.",
+      "query": "site:mhi.com/news 2026 September October aerospace aircraft engine",
+      "tags": [
+        "AI engineering",
+        "simulation",
+        "control",
+        "joint development",
+        "aerospace-adjacent"
+      ],
+      "organization": "Mitsubishi Heavy Industries",
+      "company": "Mitsubishi Heavy Industries",
+      "document_type": "company press release",
+      "language": "en"
+    },
+    {
+      "title": "MHI reports standardized CAD-to-AR/MR platform for manufacturing and inspection",
+      "url": "https://www.mhi.com/technology/review/abstract-63-3-80",
+      "source": "Mitsubishi Heavy Industries",
+      "source_kind": "technical_report",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-28",
+      "excerpt": "MHI describes a shared AR/MR platform that converts diverse 3D CAD formats while preserving part hierarchy and attaches work/inspection data. Trials covered 12 departments, primarily defense and space, by June 2026; featured demonstrations concern foundry marking and ship loading checks.",
+      "query": "site:mhi.com/news 2026 September October aerospace aircraft engine",
+      "tags": [
+        "digital manufacturing",
+        "3D CAD",
+        "AR/MR",
+        "manufacturing inspection",
+        "aerospace-adjacent"
+      ],
+      "organization": "Mitsubishi Heavy Industries",
+      "company": "Mitsubishi Heavy Industries",
+      "document_type": "technical paper",
+      "language": "en"
+    },
+    {
+      "title": "AR-guided space-system harness assembly study halves work time",
+      "url": "https://www.mhi.com/technology/review/abstract-63-3-90",
+      "source": "Mitsubishi Heavy Industries",
+      "source_kind": "technical_report",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-28",
+      "excerpt": "MHI's Space Systems Division reports AR work instructions plus a pipe mockup for wire-harness installation. The study halved work time and supported novice-worker quality comparable with experienced technicians, while allowing training and improvement in parallel with assembly.",
+      "query": "site:mhi.com/news 2026 September October aerospace aircraft engine",
+      "tags": [
+        "space manufacturing",
+        "AR",
+        "assembly engineering",
+        "digital work instructions"
+      ],
+      "organization": "Mitsubishi Heavy Industries",
+      "company": "Mitsubishi Heavy Industries",
+      "document_type": "technical paper",
+      "language": "en"
+    },
+    {
+      "title": "Hybrid knowledge-graph RAG trial links design/manufacturing documents",
+      "url": "https://www.mhi.com/technology/review/abstract-63-3-120",
+      "source": "Mitsubishi Heavy Industries",
+      "source_kind": "technical_report",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-28",
+      "excerpt": "MHI reports hybrid RAG using document structure and conceptual relationships. After regulatory-document tests, a welding-document trial connects processes, workpieces, equipment and criteria; proposed applications span requirements, design standards, acceptance criteria and manufacturing instructions.",
+      "query": "site:mhi.com/news 2026 September October aerospace aircraft engine",
+      "tags": [
+        "AI engineering",
+        "knowledge graph",
+        "RAG",
+        "manufacturing documentation",
+        "welding",
+        "industrial AI"
+      ],
+      "organization": "Mitsubishi Heavy Industries",
+      "company": "Mitsubishi Heavy Industries",
+      "document_type": "technical paper",
+      "language": "en"
+    },
+    {
+      "title": "Subaru evaluates onsemi Embedded Power Platform using engineering samples and simulation models",
+      "url": "https://www.onsemi.com/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+      "source": "onsemi / SUBARU",
+      "source_kind": "press_release",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-16",
+      "excerpt": "Subaru and onsemi began an early technical evaluation of integrated EV power architectures. Subaru receives engineering samples, simulation models and expertise to assess system-level electrical and thermal performance, efficiency, design flexibility and development complexity.",
+      "query": "site:subaru.co.jp/news 2026 9 航空 宇宙",
+      "tags": [
+        "automotive",
+        "power-system design",
+        "simulation",
+        "semiconductor integration",
+        "engineering evaluation",
+        "adjacent"
+      ],
+      "organization": "onsemi / SUBARU",
+      "company": "SUBARU",
+      "document_type": "supplier press release",
+      "language": "en"
+    },
+    {
+      "title": "Subaru and MHI Thermal Systems disclose engineering case studies at SIMULIA Japan Conference",
+      "url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+      "source": "Dassault Systèmes / SUBARU / MHI Thermal Systems",
+      "source_kind": "conference",
+      "category": "CAD・CAE・AI設計・デジタル製造",
+      "published_at": "2026-09-30",
+      "excerpt": "Dassault's Sep30 conference publication lists Subaru automotive radar electromagnetic simulation and snow-adhesion/aerodynamics studies, plus MHI Thermal Systems' PowerFLOW HVAC design/rework case. Only titles and presenters were verified; no quantitative results or detailed slides. Automotive/HVAC adjacent signals, not aircraft outcomes.",
+      "query": "site:subaru.co.jp/news 2026 9 航空 宇宙",
+      "tags": [
+        "automotive",
+        "CAE",
+        "electromagnetic simulation",
+        "aerodynamics",
+        "case study",
+        "adjacent",
+        "PowerFLOW",
+        "HVAC"
+      ],
+      "organization": "Dassault Systèmes / SUBARU / MHI Thermal Systems",
+      "company": "SUBARU / Mitsubishi Heavy Industries",
+      "document_type": "simulation-software supplier conference publication",
+      "language": "ja"
+    }
+  ],
+  "searched_queries": [
+    "site:rtx.com 2026 September October aerospace manufacturing engine digital engineering -drone -UAV -UAS -eVTOL",
+    "site:gknaerospace.com 2026 September October news technology",
+    "site:hanwhaaerospace.com 2026 September October engine manufacturing technology",
+    "site:mhi.com/news 2026 September October aerospace aircraft engine",
+    "site:global.kawasaki.com/en/corp/newsroom 2026 aerospace September October",
+    "site:subaru.co.jp/news 2026 9 航空 宇宙",
+    "site:mhi.com \"2026\" (\"September\" OR \"October\") (\"aircraft\" OR \"composite\" OR \"digital engineering\" OR \"AI\")",
+    "site:rtx.com/news/news-center/2026/09/ \"Pratt\" -site:careers.rtx.com",
+    "site:rtx.com/news/news-center/2026/10/ -site:careers.rtx.com",
+    "\"링크솔루션\" \"달착륙선\" \"2026\"",
+    "aerospace additive manufacturing thermal management composite AI design September October 2026 GKN RTX supplier -drone -UAV -UAS -eVTOL",
+    "\"링크솔루션\" \"달착륙선\" \"계약\"",
+    "site:kind.krx.co.kr \"링크솔루션\" \"2026-09-30\"",
+    "site:linksolution.co.kr \"한화\"",
+    "\"aerospace\" \"surrogate\" \"September 2026\" company",
+    "\"Collins Aerospace\" \"expand engine components facility\"",
+    "\"ST Engineering\" \"Collins\" \"September 23, 2026\"",
+    "\"Royal Brunei\" \"FlightSense\" \"2026\"",
+    "\"RTX\" \"GTF Advantage-powered aircraft\" \"2026\"",
+    "site:gknaerospace.com \"2026\" \"September\""
+  ],
+  "warnings": [
+    "Hanwha Aerospace English and mobile newsrooms timed out. Group newsroom retrieved September defense/space announcements, but relevant lunar-engine additive-manufacturing supplier lead could not be verified in official DART filing.",
+    "RTX dynamic newsroom pages omitted entries on direct open; indexed official listings and direct releases were used, with article date basis recorded.",
+    "RTX F135 and AI-MRO candidates overlap October7 scout. They are current-window discoveries retained for Curator duplicate control, not assertions of fresh material change.",
+    "Partial coverage: Kawasaki Oct6 IR presentation failed three fetches; Subaru full integrated report failed but two section PDFs were read. SIMULIA underlying Subaru radar slides failed; only public agenda claims retained.",
+    "Kawasaki and its Aerospace Systems Company are separate configured watch entries; both were checked and share one deduplicated event.",
+    "Current-window technical disclosures may report older underlying trials; publication date is not an asserted deployment date. Supplier-hosted automotive/HVAC CAE signals are explicitly adjacent."
+  ],
+  "checked_sources": [
+    {
+      "name": "RTX",
+      "status": "found",
+      "query": "site:rtx.com 2026 September October aerospace manufacturing engine digital engineering -drone -UAV -UAS -eVTOL"
+    },
+    {
+      "name": "GKN Aerospace",
+      "status": "found",
+      "query": "\"GKN Aerospace\" \"September\" \"2026\" manufacturing"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries",
+      "status": "found",
+      "query": "site:mhi.com/news 2026 September October aerospace aircraft engine"
+    },
+    {
+      "name": "Kawasaki Heavy Industries",
+      "status": "found",
+      "query": "site:global.kawasaki.com/en/corp/newsroom 2026 aerospace September October"
+    },
+    {
+      "name": "SUBARU",
+      "status": "found",
+      "query": "site:subaru.co.jp/news 2026 9 航空 宇宙"
+    },
+    {
+      "name": "Kawasaki Heavy Industries Aerospace Systems Company",
+      "status": "found",
+      "query": "site:global.kawasaki.com/en/corp/newsroom 2026 aerospace September October"
+    },
+    {
+      "name": "Hanwha Aerospace",
+      "status": "unreachable",
+      "warning": "Official English and mobile newsrooms timed out. Group newsroom and supplier searches completed; relevant lunar-engine AM contract remains unverified because official DART filing was inaccessible. No stale or non-aerospace filler retained."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "RTX",
+          "category": "航空機エンジン",
+          "domains": [
+            "rtx.com"
+          ]
+        },
+        {
+          "name": "GKN Aerospace",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "gknaerospace.com"
+          ]
+        },
+        {
+          "name": "Mitsubishi Heavy Industries",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "mhi.com"
+          ]
+        },
+        {
+          "name": "Kawasaki Heavy Industries",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "global.kawasaki.com"
+          ]
+        },
+        {
+          "name": "SUBARU",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "subaru.co.jp"
+          ]
+        },
+        {
+          "name": "Kawasaki Heavy Industries Aerospace Systems Company",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "global.kawasaki.com"
+          ]
+        },
+        {
+          "name": "Hanwha Aerospace",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "hanwhaaerospace.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "start_index": 26,
+      "next_index": 33,
+      "state_blob": "6b5a419c8def72a37bb313a4b57fd2b09df2dcc4",
+      "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "selection_basis": "Valid authoritative state, seven consecutive configured entries; no spillover because verified pool exceeds five items."
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-08",
+      "started_at": "2026-10-07T22:25:13+00:00",
+      "completed_at": "2026-10-07T22:32:29.882738+00:00",
+      "status": "partial",
+      "planned_query_count": 72,
+      "executed_query_count": 72
+    },
+    "query_accounting": "Exploration was planned adaptively in batches; planned_query_count is the sum of actual issued batch plans after refinement, not an invented pre-run fixed budget. Top-level20 are representative only; full_query_trace records every72 search queries with actual batch timestamps. Direct page opens/clicks are separate, not search queries.",
+    "lookback": {
+      "from": "2026-09-08",
+      "to": "2026-10-08",
+      "timezone": "Asia/Tokyo"
+    },
+    "full_query_trace": [
+      {
+        "query": "site:mhi.com/news 2026 September October aerospace aircraft engine",
+        "queried_at": "2026-10-07T22:25:49Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Official latest indexes found. MHI aviation latest Sep 2 outside window; Kawasaki English Air latest Jun 26; Subaru aerospace Jan 26. Subaru Sep 30 report publication and Kawasaki Sep 24 hydraulic cooperation require review."
+      },
+      {
+        "query": "site:global.kawasaki.com/en/corp/newsroom 2026 aerospace September October",
+        "queried_at": "2026-10-07T22:25:49Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Official latest indexes found. MHI aviation latest Sep 2 outside window; Kawasaki English Air latest Jun 26; Subaru aerospace Jan 26. Subaru Sep 30 report publication and Kawasaki Sep 24 hydraulic cooperation require review."
+      },
+      {
+        "query": "site:subaru.co.jp/news 2026 9 航空 宇宙",
+        "queried_at": "2026-10-07T22:25:49Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Official latest indexes found. MHI aviation latest Sep 2 outside window; Kawasaki English Air latest Jun 26; Subaru aerospace Jan 26. Subaru Sep 30 report publication and Kawasaki Sep 24 hydraulic cooperation require review."
+      },
+      {
+        "query": "site:rtx.com 2026 September October aerospace manufacturing engine digital engineering -drone -UAV -UAS -eVTOL",
+        "queried_at": "2026-10-07T22:26:00.019Z",
+        "search_type": "mandatory_official"
+      },
+      {
+        "query": "site:gknaerospace.com 2026 September October news technology",
+        "queried_at": "2026-10-07T22:26:00.019Z",
+        "search_type": "mandatory_official"
+      },
+      {
+        "query": "site:hanwhaaerospace.com 2026 September October engine manufacturing technology",
+        "queried_at": "2026-10-07T22:26:00.019Z",
+        "search_type": "mandatory_official"
+      },
+      {
+        "query": "site:gknaerospace.com \"2026\" \"September\"",
+        "queried_at": "2026-10-07T22:26:07.597Z",
+        "search_type": "mandatory_official_refinement"
+      },
+      {
+        "query": "site:gknaerospace.com \"2026\" \"October\"",
+        "queried_at": "2026-10-07T22:26:07.597Z",
+        "search_type": "mandatory_official_refinement"
+      },
+      {
+        "query": "site:hanwha.com aerospace \"2026\" \"September\"",
+        "queried_at": "2026-10-07T22:26:07.597Z",
+        "search_type": "mandatory_official_refinement"
+      },
+      {
+        "query": "site:hanwhaaerospace.com \"2026.09\"",
+        "queried_at": "2026-10-07T22:26:07.597Z",
+        "search_type": "mandatory_official_refinement"
+      },
+      {
+        "query": "\"GKN Aerospace\" \"September\" \"2026\" manufacturing",
+        "queried_at": "2026-10-07T22:26:14.850Z",
+        "search_type": "official_and_supplier"
+      },
+      {
+        "query": "\"GKN Aerospace\" \"October\" \"2026\" technology",
+        "queried_at": "2026-10-07T22:26:14.850Z",
+        "search_type": "official_and_supplier"
+      },
+      {
+        "query": "\"Hanwha Aerospace\" \"2026\" \"September\" engine turbine",
+        "queried_at": "2026-10-07T22:26:14.850Z",
+        "search_type": "official_and_supplier"
+      },
+      {
+        "query": "site:rtx.com/news \"2026/09\" \"assembly readiness\"",
+        "queried_at": "2026-10-07T22:26:14.850Z",
+        "search_type": "official_and_supplier"
+      },
+      {
+        "query": "site:mhi.com \"2026\" (\"September\" OR \"October\") (\"aircraft\" OR \"composite\" OR \"digital engineering\" OR \"AI\")",
+        "queried_at": "2026-10-07T22:26:14.886Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "All three compound date/technology searches returned no results."
+      },
+      {
+        "query": "site:global.kawasaki.com \"2026\" (\"September\" OR \"October\") (\"aircraft\" OR \"aerospace\" OR \"CAE\" OR \"digital\")",
+        "queried_at": "2026-10-07T22:26:14.886Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "All three compound date/technology searches returned no results."
+      },
+      {
+        "query": "site:subaru.co.jp \"2026\" (\"9月\" OR \"10月\") (\"航空\" OR \"CAE\" OR \"AI\" OR \"複合材\")",
+        "queried_at": "2026-10-07T22:26:14.886Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "All three compound date/technology searches returned no results."
+      },
+      {
+        "query": "\"Mitsubishi Heavy Industries\" \"September\" \"2026\" simulation",
+        "queried_at": "2026-10-07T22:26:29.057Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "query": "\"Kawasaki\" \"September\" \"2026\" aerospace manufacturing",
+        "queried_at": "2026-10-07T22:26:29.057Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "query": "\"SUBARU\" \"September\" \"2026\" aerospace manufacturing",
+        "queried_at": "2026-10-07T22:26:29.057Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "query": "site:rtx.com \"2026\" \"fully digital assembly readiness review\"",
+        "queried_at": "2026-10-07T22:26:32.151Z",
+        "search_type": "primary_source_followup"
+      },
+      {
+        "query": "site:rtx.com/news \"2026/10\" -drone -unmanned",
+        "queried_at": "2026-10-07T22:26:32.151Z",
+        "search_type": "primary_source_followup"
+      },
+      {
+        "query": "site:rtx.com/news \"2026/09\" Collins manufacturing certification",
+        "queried_at": "2026-10-07T22:26:32.151Z",
+        "search_type": "primary_source_followup"
+      },
+      {
+        "query": "\"링크솔루션\" \"2026.09.30\" \"한화\"",
+        "queried_at": "2026-10-07T22:26:32.151Z",
+        "search_type": "primary_source_followup"
+      },
+      {
+        "query": "site:edgecortix.com Kawasaki September 2026",
+        "queried_at": "2026-10-07T22:26:37.252Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "query": "site:mhi.com \"2026\" \"Advanced Digitalization\"",
+        "queried_at": "2026-10-07T22:26:37.252Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "query": "site:subaru.co.jp \"Ir2026j\"",
+        "queried_at": "2026-10-07T22:26:37.252Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "query": "EdgeCortix Kawasaki Teaming Agreement September 9 2026",
+        "queried_at": "2026-10-07T22:26:44.369Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "query": "site:edgecortix.com \"Kawasaki\"",
+        "queried_at": "2026-10-07T22:26:44.369Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "query": "\"SUBARU\" \"2026\" \"航空宇宙\" \"9月\"",
+        "queried_at": "2026-10-07T22:26:44.369Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "query": "site:rtx.com/news/news-center/2026/09/ \"Pratt\" -site:careers.rtx.com",
+        "queried_at": "2026-10-07T22:26:47.108Z",
+        "search_type": "technology_first_and_supplier_followup"
+      },
+      {
+        "query": "site:rtx.com/news/news-center/2026/10/ -site:careers.rtx.com",
+        "queried_at": "2026-10-07T22:26:47.108Z",
+        "search_type": "technology_first_and_supplier_followup"
+      },
+      {
+        "query": "\"링크솔루션\" \"달착륙선\" \"2026\"",
+        "queried_at": "2026-10-07T22:26:47.108Z",
+        "search_type": "technology_first_and_supplier_followup"
+      },
+      {
+        "query": "aerospace additive manufacturing thermal management composite AI design September October 2026 GKN RTX supplier -drone -UAV -UAS -eVTOL",
+        "queried_at": "2026-10-07T22:26:47.108Z",
+        "search_type": "technology_first_and_supplier_followup"
+      },
+      {
+        "query": "site:rtx.com \"September\" \"2026\" \"Collins\" -site:careers.rtx.com -site:investors.rtx.com",
+        "queried_at": "2026-10-07T22:27:01.248Z",
+        "search_type": "technology_first_and_official_refinement"
+      },
+      {
+        "query": "site:rtx.com \"October\" \"2026\" \"Pratt\" -site:careers.rtx.com -site:investors.rtx.com",
+        "queried_at": "2026-10-07T22:27:01.248Z",
+        "search_type": "technology_first_and_official_refinement"
+      },
+      {
+        "query": "site:hanwhaaerospace.com \"2026\" \"엔진\" \"9\"",
+        "queried_at": "2026-10-07T22:27:01.248Z",
+        "search_type": "technology_first_and_official_refinement"
+      },
+      {
+        "query": "\"AI-assisted design\" aerospace \"September\" \"2026\" -drone -UAV -eVTOL",
+        "queried_at": "2026-10-07T22:27:01.248Z",
+        "search_type": "technology_first_and_official_refinement"
+      },
+      {
+        "query": "site:rtx.com \"Collins Aerospace to expand engine components facility\"",
+        "queried_at": "2026-10-07T22:27:08.252Z",
+        "search_type": "official_verification"
+      },
+      {
+        "query": "site:rtx.com \"2026\" \"PW127M\" \"AirBorneo\"",
+        "queried_at": "2026-10-07T22:27:08.252Z",
+        "search_type": "official_verification"
+      },
+      {
+        "query": "site:rtx.com \"Inside the GTF Advantage engine\"",
+        "queried_at": "2026-10-07T22:27:08.252Z",
+        "search_type": "official_verification"
+      },
+      {
+        "query": "\"Hanwha\" \"September\" \"2026\" \"aircraft engine\" -drone",
+        "queried_at": "2026-10-07T22:27:08.252Z",
+        "search_type": "official_verification"
+      },
+      {
+        "query": "\"Collins Aerospace\" \"expand engine components facility\"",
+        "queried_at": "2026-10-07T22:27:19.014Z",
+        "search_type": "supplier_primary_verification"
+      },
+      {
+        "query": "\"ST Engineering\" \"Collins\" \"September 23, 2026\"",
+        "queried_at": "2026-10-07T22:27:19.014Z",
+        "search_type": "supplier_primary_verification"
+      },
+      {
+        "query": "\"Royal Brunei\" \"FlightSense\" \"2026\"",
+        "queried_at": "2026-10-07T22:27:19.014Z",
+        "search_type": "supplier_primary_verification"
+      },
+      {
+        "query": "\"RTX\" \"GTF Advantage-powered aircraft\" \"2026\"",
+        "queried_at": "2026-10-07T22:27:19.014Z",
+        "search_type": "supplier_primary_verification"
+      },
+      {
+        "query": "\"Royal Brunei Airlines selects\" \"Dispatch\"",
+        "queried_at": "2026-10-07T22:27:32.252Z",
+        "search_type": "partner_and_missing_primary_followup"
+      },
+      {
+        "query": "site:rtx.com \"EPACS\" \"September\" \"2026\"",
+        "queried_at": "2026-10-07T22:27:32.252Z",
+        "search_type": "partner_and_missing_primary_followup"
+      },
+      {
+        "query": "\"링크솔루션\" \"20260930900065\"",
+        "queried_at": "2026-10-07T22:27:32.252Z",
+        "search_type": "partner_and_missing_primary_followup"
+      },
+      {
+        "query": "\"LinkSolution\" \"lunar\" \"2026\"",
+        "queried_at": "2026-10-07T22:27:32.252Z",
+        "search_type": "partner_and_missing_primary_followup"
+      },
+      {
+        "query": "\"site:subaru.co.jp/ir/library/pdf\" \"2026\" \"統合\"",
+        "queried_at": "2026-10-07T22:27:34.871Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "query": "site:global.kawasaki.com/en/corp/ir/library \"261006\" aircraft",
+        "queried_at": "2026-10-07T22:27:34.871Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "query": "site:mhi.com September 2026 CAD CAE aircraft",
+        "queried_at": "2026-10-07T22:27:34.871Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "query": "site:subaru.co.jp September 2026 composite aircraft digital",
+        "queried_at": "2026-10-07T22:27:34.871Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "query": "\"링크솔루션\" \"달착륙선\" \"계약\"",
+        "queried_at": "2026-10-07T22:27:46.235Z",
+        "search_type": "supplier_and_discovery"
+      },
+      {
+        "query": "site:kind.krx.co.kr \"링크솔루션\" \"2026-09-30\"",
+        "queried_at": "2026-10-07T22:27:46.235Z",
+        "search_type": "supplier_and_discovery"
+      },
+      {
+        "query": "site:linksolution.co.kr \"한화\"",
+        "queried_at": "2026-10-07T22:27:46.235Z",
+        "search_type": "supplier_and_discovery"
+      },
+      {
+        "query": "\"aerospace\" \"surrogate\" \"September 2026\" company",
+        "queried_at": "2026-10-07T22:27:46.235Z",
+        "search_type": "supplier_and_discovery"
+      },
+      {
+        "query": "\"Kawasaki\" \"aerospace\" after:2026-09-07 before:2026-10-09 -site:reddit.com -site:wikipedia.org",
+        "queried_at": "2026-10-07T22:27:54.402Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "query": "\"SUBARU\" (\"aerospace\" OR \"aircraft\") after:2026-09-07 before:2026-10-09 -site:reddit.com -site:wikipedia.org",
+        "queried_at": "2026-10-07T22:27:54.402Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "query": "\"Mitsubishi Heavy Industries\" (\"simulation\" OR \"materials\" OR \"manufacturing\") after:2026-09-07 before:2026-10-09 -site:reddit.com",
+        "queried_at": "2026-10-07T22:27:54.402Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "query": "\"SUBARU\" \"2026\" (\"September\" OR \"October\") Siemens Dassault Ansys",
+        "queried_at": "2026-10-07T22:28:08.831Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "query": "\"Kawasaki\" \"2026\" \"September\" (\"Siemens\" OR \"Dassault\" OR \"Ansys\" OR \"composites\")",
+        "queried_at": "2026-10-07T22:28:08.831Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "query": "\"Mitsubishi Heavy Industries\" \"2026\" \"September\" (\"Siemens\" OR \"Dassault\" OR \"Ansys\" OR \"composites\")",
+        "queried_at": "2026-10-07T22:28:08.831Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "query": "site:mhi.com \"2026-09\" \"航空\"",
+        "queried_at": "2026-10-07T22:28:36.327Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "query": "site:mhi.com \"2026-10\" \"航空\"",
+        "queried_at": "2026-10-07T22:28:36.327Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "query": "site:subaru.co.jp \"2026_09\" (\"航空\" OR \"技術\" OR \"製造\")",
+        "queried_at": "2026-10-07T22:28:36.327Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "query": "site:global.kawasaki.com \"2026\" \"October\" aircraft hydrogen",
+        "queried_at": "2026-10-07T22:28:36.327Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "query": "site:subaru.co.jp \"技報\" \"2026\"",
+        "queried_at": "2026-10-07T22:28:49.259Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "query": "site:global.kawasaki.com \"2026-09\" aerospace composite engine",
+        "queried_at": "2026-10-07T22:28:49.259Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "query": "site:mhi.com \"2026\" \"September\" \"aero engines\"",
+        "queried_at": "2026-10-07T22:28:49.259Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "query": "site:subaru.co.jp \"2026\" \"October\" \"engineering\"",
+        "queried_at": "2026-10-07T22:28:49.259Z",
+        "search_type": "Japan official/technology-first/supplier",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      }
+    ],
+    "primary_source_checks": [
+      {
+        "url": "https://www.gknaerospace.com",
+        "checked_at": "2026-10-07T22:26:16.120Z"
+      },
+      {
+        "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/list.do",
+        "checked_at": "2026-10-07T22:26:16.120Z"
+      },
+      {
+        "url": "https://www.rtx.com/News/News-Center",
+        "checked_at": "2026-10-07T22:26:16.120Z"
+      },
+      {
+        "checked_at": "2026-10-07T22:26:16Z",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-breaks-ground-on-north-charlestown-expansion-as-demand-for-engine-components-grows/",
+        "outcome": "Visible September10 dateline; construction milestone, area and process additions."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:16Z",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-to-advance-key-technologies-for-swedens-future-combat-air-systems-under-new-fmv-agreement/",
+        "outcome": "Visible September10 dateline; FMV contract scope; excludes unrelated UAV demonstrator linked in navigation."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:53Z",
+        "url": "https://www.rtx.com/news/news-center/2026/09/15/rtxs-pratt-whitney-completes-f135-engine-core-upgrade-risk-reduction-design-re",
+        "outcome": "Visible September15 dateline and design-review scope."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:53Z",
+        "url": "https://www.rtx.com/news/2026/09/18/how-rtx-is-using-ai-and-data-in-mro",
+        "outcome": "Full text verified; September18 date corroborated by official indexed News Center listing at https://www.rtx.com/News/News-Center. Self-reported metrics."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.rtx.com/news/2026/09/24/inside-the-gtf-advantage-engine",
+        "outcome": "Technical full text verified; September24 corroborated by official indexed Collins news listing and URL."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.rtx.com/news/news-center/2026/09/24/rtxs-pratt-whitney-marks-delivery-of-first-gtf-advantage-powered-aircraft-to-u",
+        "outcome": "Visible September24 dateline; delivery versus future production/upgrade dates distinguished."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.rtx.com/news/news-center/2026/09/24/rtxs-pratt-whitney-canada-signs-four-year-pw127m-maintenance-agreement-with-ai",
+        "outcome": "Visible September24 dateline; 4-year contract and Singapore work location."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.prnewswire.com/news-releases/collins-aerospace-to-expand-engine-components-facility-to-support-growth-and-customer-demand-302892404.html",
+        "outcome": "September29 09:00ET dateline; identified as RTX-supplied release. Expansion schedule and manufacturing scope."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.rtx.com/news/news-center/2026/09/23/st-engineering-and-rtxs-collins-aerospace-deepen-collaboration-on-aircraft-component-support",
+        "outcome": "Visible September23 dateline and three agreement scopes."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:46Z",
+        "url": "https://www.rtx.com/news/news-center/2026/09/22/royal-brunei-airlines-selects-rtx-collins-aerospace-flightsense-and-dispatch-services",
+        "outcome": "Visible September22 dateline, two12-year contracts, Ascentia description."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:16Z",
+        "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/list.do",
+        "outcome": "Timeout; official corporate newsroom inaccessible."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:10Z",
+        "url": "https://m.hanwhaaerospace.com/eng/media/newsroom/list.do",
+        "outcome": "Mobile newsroom also timed out."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:10Z",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900065",
+        "outcome": "Not accessible; LinkSolution lunar-engine additive-manufacturing contract remains an unverified lead."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:10Z",
+        "url": "https://www.imperial.ac.uk/news/articles/engineering/aeronautics/2026/modelling-adequacy-paradox/",
+        "outcome": "403; primary search extract available but full article verification blocked; not retained as item."
+      },
+      {
+        "checked_at": "2026-10-07T22:27:21Z",
+        "url": "https://www.gknaerospace.com/news-insights/",
+        "outcome": "Official index contains two in-window September10 releases; subsequent visible releases August21 or older."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:48Z",
+        "url": "https://www.rtx.com/news/2026/08/24/a-production-boost-powered-by-hard-data",
+        "outcome": "Excluded outside30-day window."
+      },
+      {
+        "checked_at": "2026-10-07T22:26:37Z",
+        "url": "https://www.rtx.com/news/news-center/2026/05/08/rtxs-pratt-whitney-completes-fully-digital-assembly-readiness-review-for-ngap",
+        "outcome": "Excluded May8 old publication despite current AFA campaign linking it."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/news",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/news/products-services/aviation",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://global.kawasaki.com/en/corp/newsroom/news/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://global.kawasaki.com/en/corp/newsroom/category/aero/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://www.subaru.co.jp/news/aerospace.html",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://www.subaru.co.jp/news/2026_09_30_144749/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url_or_web_reference": "https://www.khi.co.jp/news/detail/20260908_2.html",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url_or_web_reference": "https://www.edgecortix.com/ja/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/technology/review/abstract-63-3-80",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/technology/review/abstract-63-3-90",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url_or_web_reference": "https://www.khi.co.jp/news/",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url_or_web_reference": "https://global.kawasaki.com/en/corp/rd/",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url_or_web_reference": "https://www.subaru.co.jp/technology/",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url_or_web_reference": "https://www.onsemi.jp/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url_or_web_reference": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/group/mhiael/news",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url_or_web_reference": "https://www.mhi.com/jp/news",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/news",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://www.mhi.com/news/products-services/aviation",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/news/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/category/aero/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://www.subaru.co.jp/news/aerospace.html",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://www.subaru.co.jp/news/2026_09_30_144749/",
+        "checked_at": "2026-10-07T22:26:09.026Z",
+        "outcome": "Primary English company/newsroom and aviation indexes plus Subaru Sep 30 report announcement opened successfully; MHI Sep 16 PFN AI alliance surfaced."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/news/",
+        "checked_at": "2026-10-07T22:26:22.788Z",
+        "outcome": "MHI PFN release and technical-review index opened. Kawasaki Oct 6 IR report and Subaru annual-report links identified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/news/2026_09_30_144749/",
+        "checked_at": "2026-10-07T22:26:22.788Z",
+        "outcome": "MHI PFN release and technical-review index opened. Kawasaki Oct 6 IR report and Subaru annual-report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:26:22.788Z",
+        "outcome": "MHI PFN release and technical-review index opened. Kawasaki Oct 6 IR report and Subaru annual-report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/",
+        "checked_at": "2026-10-07T22:26:22.788Z",
+        "outcome": "MHI PFN release and technical-review index opened. Kawasaki Oct 6 IR report and Subaru annual-report links identified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/production.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/26090201.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/26090202.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20260924_0879",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://walletinvestor.com/tse-stock-forecast/7011-stock-prediction/data",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://thenextweb.com/news/edgecortix-kawasaki-teaming-agreement-aerial-defence-diu",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://militaryai.ai/kawasaki-edgecortix-ai-aerial-defense/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.hpcwire.com/aiwire/2026/09/09/edgecortix-and-kawasaki-launch-multi-year-edge-ai-aerospace-program/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/260826.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://thedefensepost.com/2026/09/09/kawasaki-edgecortix-ai-aerial-defense/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/sustainability/library/pdf/sustainabilitydatabook2025.pdf",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://dxfpracgmlczp.cloudfront.net/2026/03/1774604172318_SEAB%20MarApr%202026%20Online%20compressed%202.pdf",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/sustainability/report/2025/pdf/25_houkokusyo.pdf",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/zx6r/comments/1wm4w2m/to_wait_or_not_to_wait_26_vs_27/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/subaru/comments/1w4hjoo/august_2026_sales_report_usa/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://documents.chitra.live/api/v1/documents/1bc2bd2483f56b34e7c2ce3c34dcadc6691994b2b032d2d2769619b557f1bb205f83fef65b4e486d122fc7355bbaeed5673f91349593435940ca1f24173dd1582e1dd001ffbade32b22d1687c0a011a65dd98fc6ee4e829a9428fd7733808bbdbf6ec8573020bfc1cbc06a2a92c7b6a60dbfa85d0b8bd489a88cea531af554a382fe3410aeecbba08bd2abfd6b53eaf550cf69a3535c473f0dfc73ece28f5a31e068d78b38ec51e9da79e7438657ecb8f19bdbb13434caa1827a83ec4226bcfe168540a83dbb6cbbdb2d179ca43dcdfa/download",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://global.kawasaki.com/news_230913-1e.pdf",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/kawasakiz900rs/comments/1wm5g30/adore_my_2026_se_except/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://pdf.irpocket.com/C7105/KfQV/rp5u/QCa7.pdf",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/zx6r/comments/1w8fi3q/it_happened/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/zx6r/comments/1wtogeg/buy_2026_or_2027/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/Solterra/comments/1wn7jax/9_months_waiting_on_replacement_parts/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/Infographics/comments/1w3qrht/removed/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_P-1",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/subaru/comments/1wv4vwa/september_2026_sales_report_usa/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/subaru/comments/1vhzc7l/subaru_creates_new_finance_unit/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Subaru",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/SubaruForester/comments/1n5dba5/why_is_subaru_swapping_forester_and_outback/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/JPMorganChase/comments/1vg5l5c/subaru_to_create_own_captive_finance_arm_in_2030/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.reddit.com/r/SubaruEV/comments/1uuxszg/subaru_is_bucking_the_ev_trend_in_a_subaru_way/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/ir/library/other_presen_261006.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/annual-reports.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/",
+        "checked_at": "2026-10-07T22:26:29.057Z",
+        "outcome": "Broader English searches found Kawasaki/EdgeCortix Sep 9 secondary coverage; primary IR landing pages opened; MHI index explicitly gives Sep 28 for Vol.63 No.3."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/indexe-63-3",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-100",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-70",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-40",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-110",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-80",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-50",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-60",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-90",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-30",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-20",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/ir/library/other_presen_261006.html",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/annual-reports.html",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/indexe-63-3",
+        "checked_at": "2026-10-07T22:26:37.252Z",
+        "outcome": "MHI Sep 28 technical issue surfaced AR/MR, space assembly AR, knowledge-graph RAG and other papers; latest Subaru report links identified."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/detail/20260908_2.html",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.edgecortix.com/ja/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://thenextweb.com/news/edgecortix-kawasaki-teaming-agreement-aerial-defence-diu",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://markets.financialcontent.com/dowtheoryletters/article/bizwire-2026-9-8-edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries-to-advance-next-generation-ai-enabled-aerial-defense-systems",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.subaru.co.jp/recruit/guide/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.nextronicstimes.com/market/defense-aerospace/edgecortix-signs-multimillion-dollar-ai-defense-deal-with-kawasaki/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://thedefensepost.com/2026/09/09/kawasaki-edgecortix-ai-aerial-defense/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.subaru.co.jp/recruit/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://satnews.com/2026/09/08/kawasaki-heavy-industries-and-edgecortix-partner-to-develop-ai-enabled-aerial-defense-platforms/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://letsdatascience.com/news/kawasaki-signs-edgecortix-deal-for-aerial-defense-dcd9a35e",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://tw.stock.yahoo.com/news/edgecortix%E8%88%87kawasaki-heavy-industries%E7%B0%BD%E7%BD%B2%E5%83%B9%E5%80%BC%E6%95%B8%E7%99%BE%E8%90%AC%E7%BE%8E%E5%85%83%E7%9A%84%E5%A4%9A%E5%B9%B4%E6%9C%9F%E5%8D%94%E8%AD%B0-%E4%BB%A5%E6%8E%A8%E9%80%B2%E4%B8%8B-%E4%BB%A3ai%E8%B3%A6%E8%83%BD%E5%9E%8B%E7%A9%BA%E4%B8%AD%E9%98%B2%E7%A6%A6%E7%B3%BB%E7%B5%B1%E7%9A%84%E7%99%BC%E5%B1%95-182900072.html",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.battlepolicy.com/kawasaki-puts-a-chip-startups-ai-into-its-aerial-defense-work-through-2028/",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.meti.go.jp/shingikai/sankoshin/seizo_sangyo/kokuki_uchu/pdf/2025_001_06_00.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://slco.subaru.co.jp/common/pdf/2026/utsunomiya_calendar2026.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.gkogyokai.com/files/libs/4607/202605221028321950.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/ms/ms_95_2q.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://slco.subaru.co.jp/common/pdf/2025/utsunomiya_calendar2025.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/1218/2023121800998.pdf",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/indexe-63-3",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:26:44.369Z",
+        "outcome": "Supplier-first search found official Kawasaki Japanese Sep 8 release and official EdgeCortix Japanese release. Full Kawasaki IR PDF and full Subaru report PDF returned internal errors."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/detail/20260908_2.html",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.edgecortix.com/ja/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-80",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-90",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/indexe-63-3",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.mhi.com/news/26091602.html",
+        "checked_at": "2026-10-07T22:27:04.236Z",
+        "outcome": "Primary Kawasaki and EdgeCortix releases and MHI AR abstracts opened. PFN release connects AI with MHI design/manufacturing/control/simulation expertise."
+      },
+      {
+        "url": "https://www.edgecortix.com/ja/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:27:16.353Z",
+        "outcome": "MHI AR/MR, space assembly AR and RAG PDFs opened. Supplier source explicitly confirms aerospace development, feasibility, integration and prototype work."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633080.pdf",
+        "checked_at": "2026-10-07T22:27:16.353Z",
+        "outcome": "MHI AR/MR, space assembly AR and RAG PDFs opened. Supplier source explicitly confirms aerospace development, feasibility, integration and prototype work."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633090.pdf",
+        "checked_at": "2026-10-07T22:27:16.353Z",
+        "outcome": "MHI AR/MR, space assembly AR and RAG PDFs opened. Supplier source explicitly confirms aerospace development, feasibility, integration and prototype work."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-63-3-120",
+        "checked_at": "2026-10-07T22:27:16.353Z",
+        "outcome": "MHI AR/MR, space assembly AR and RAG PDFs opened. Supplier source explicitly confirms aerospace development, feasibility, integration and prototype work."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633120.pdf",
+        "checked_at": "2026-10-07T22:27:16.353Z",
+        "outcome": "MHI AR/MR, space assembly AR and RAG PDFs opened. Supplier source explicitly confirms aerospace development, feasibility, integration and prototype work."
+      },
+      {
+        "url": "https://www.mhi.com/news/26090201.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/ir/finance/performance.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/csr/editionalpolicy.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/group/das/business/aircraftspec",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/group/das/company",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/archives/press/2012/12_09_26_2e.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/company/regions/amer/products/mu-2",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/news/260723.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://saa.subaru.co.jp/lp/thule/",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/jp/recruit/group/nuclear/mhinseng/",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/group/mhica/product-service",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/aerotech/news/20260611.html",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/archives/contents/pdf_en_46974.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/finance/library/business/pdf/ads2018.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/csr/report/pdf/2007/e_all.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://power.mhi.com/media/367311/download",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/archives/contents/pdf_en_81708.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/csr/report/pdf/2006/e_all.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.edgecortix.com/en/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_03.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633120.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633120.pdf",
+        "checked_at": "2026-10-07T22:27:34.871Z",
+        "outcome": "Supplier English primary opened. Subaru 2026 capital-strategy report section opened. RAG PDF confirms design/production documents and welding trial."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/rd/",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.edgecortix.com/en/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633120.pdf",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_03.pdf",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_03.pdf",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_03.pdf",
+        "checked_at": "2026-10-07T22:27:41.472Z",
+        "outcome": "Japanese Kawasaki newsroom and R&D index opened. Guessed Subaru technology URL failed. Subaru sampled report contains mostly automotive/current strategy; no specific fresh aircraft milestone verified."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/outline/about/aerospace/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/abstract-62-1-170",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/outline/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/outline/about/aerospace/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/aerospace.html",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/profile/division/aero/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/index-60-1",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.mhi.com/technology/review/indexe-63-2",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://aerospace.subaru.co.jp/412epx/en/story.html",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/csr/social/car_making/aerospace.html",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.mhi.com/business/technology/core_technologies",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/news/aerospace.html",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.osc.ny.gov/files/retirement/resources/pdf/asset-listing-2026.pdf",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.loc.gov/standards/premis/TSR-0209.pdf",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nihon_Aircraft_Manufacturing_Corporation",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/vprr/0800/08000656.pdf",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Logisnext",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Heavy_Industries",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.sciengine.com/doi/pdf/ABC3863564A34D52895B3F72FB1521D0?ipInfo=66.249.75.236",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/vprr/1500/15005032.pdf",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.legislation.gov.au/F2006B10670/asmade/2004-12-20/text/original/pdf",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Caterpillar_Forklifts",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Primetals_Technologies",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_%28disambiguation%29",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/rd/",
+        "checked_at": "2026-10-07T22:27:54.402Z",
+        "outcome": "Date-filter technology searches chiefly returned stale or undated items, excluded; Kawasaki technical-review link found."
+      },
+      {
+        "url": "https://www.researchandmarkets.com/report/simulated-crash-tests",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://ansys.synopsys.com/products/embedded-software",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/news/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.onsemi.jp/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.readycontacts.com/target-account-profiling/altair-hypermesh/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.evengineeringonline.com/subaru-tests-onsemi-power-platform-for-ev-traction/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://evolvancemarketresearch.com/reports/digital-twin-in-aerospace-manufacturing-market/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.34150",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://markets.financialcontent.com/stocks/article/gnwcq-2026-9-16-subaru-to-evaluate-onsemis-embedded-power-platform-for-future-evs?Language=english%2F1000.",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1318342/000139834417001008/fp0023591_nq.htm",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://note.com/kagawatomo/n/nec02a950e382?hl=en",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://links.sgx.com/FileOpen/Kawasaki%20Heavy%20Industries%20-%20Final%20Offering%20Circular.ashx?App=Prospectus&FileID=70661",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.nvidia.com/de-de/industries/manufacturing/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://aee.expo-info.jsae.or.jp/pdf/aee2026Ndm_EN.pdf?260501=",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.amundi.it/dl/doc/annual-report/LU2523293236/ENG/ITA/20231231",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://condor.tools.factsheetslive.com/produkt/LU0384405600/halbjahresbericht/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.25455",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/rd/magazine/index.html",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.subaru.co.jp/difference/",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_02.pdf",
+        "checked_at": "2026-10-07T22:28:08.831Z",
+        "outcome": "Supplier searches found Sep 16 onsemi/Subaru engineering evaluation and Sep 30 SIMULIA case-study disclosure. Kawasaki technical-review and Subaru report sections opened. Kawasaki IR PDF again failed."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/rd/magazine/index.html",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://www.onsemi.jp/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_02.pdf",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://www.subaru.co.jp/difference/",
+        "checked_at": "2026-10-07T22:28:26.066Z",
+        "outcome": "Japanese Kawasaki newsroom confirms Sep 8 EdgeCortix and otherwise non-aerospace in-window news; technical review latest Feb 2026. onsemi and Dassault supplier sources verified accessible."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20251029_0555",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/das/news/",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/das/news",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/das/news/20260928.html",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/aerotech/news/20261001.html",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://global.kawasaki.com/",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/?Co_Code=1803",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20251023_1023",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/aerotech/",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/category/pressrelease/",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/group/das/",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/newsroom/index.html",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://global.kawasaki.com/en/corp/sustainability/report/2025/pdf/25_houkokusyo_03.pdf",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/group/mhiael/news",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.mhi.com/jp/news",
+        "checked_at": "2026-10-07T22:28:36.327Z",
+        "outcome": "MHI English Aero Engines and Japanese corporate news checked. Subsidiary news mostly hiring, awards, publicity or observation operations; not selected."
+      },
+      {
+        "url": "https://www.subaru.co.jp/difference/",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/topics/archive_2025.html",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.mhi.com/news/products-services/aviation",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.mhi.com/company/regions/emea",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/outline/profile.html?id=officer",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.mhi.com/news/2019.html",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.subaru.co.jp/en/outline/profile.html",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.mhi.com/group/mhiael/news",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.mhi.com/jp/news",
+        "checked_at": "2026-10-07T22:28:49.259Z",
+        "outcome": "SUBARU technical-journal latest found 2025 No.52, outside window. MHI Aero Engines latest Jan 2025. MHI Japanese newsroom corroborates PFN Sep 16; no new aircraft propulsion release found."
+      },
+      {
+        "url": "https://www.onsemi.jp/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "checked_at": "2026-10-07T22:29:14.786Z",
+        "outcome": "onsemi and Dassault precise publication dates verified; Dassault agenda also lists Subaru snow-adhesion/aerodynamics work and MHI Thermal Systems PowerFLOW design-efficiency talk."
+      },
+      {
+        "url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "checked_at": "2026-10-07T22:29:14.786Z",
+        "outcome": "onsemi and Dassault precise publication dates verified; Dassault agenda also lists Subaru snow-adhesion/aerodynamics work and MHI Thermal Systems PowerFLOW design-efficiency talk."
+      },
+      {
+        "url": "https://www.khi.co.jp/news/detail/20260908_2.html",
+        "checked_at": "2026-10-07T22:29:14.786Z",
+        "outcome": "onsemi and Dassault precise publication dates verified; Dassault agenda also lists Subaru snow-adhesion/aerodynamics work and MHI Thermal Systems PowerFLOW design-efficiency talk."
+      },
+      {
+        "url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "checked_at": "2026-10-07T22:29:14.786Z",
+        "outcome": "onsemi and Dassault precise publication dates verified; Dassault agenda also lists Subaru snow-adhesion/aerodynamics work and MHI Thermal Systems PowerFLOW design-efficiency talk."
+      },
+      {
+        "url": "https://www.onsemi.com/company/news-media/press-announcements/en/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "checked_at": "2026-10-07T22:29:32.328Z",
+        "outcome": "onsemi English primary verified dated Sep 16. Linked Subaru radar presentation failed with cache miss; supplier agenda remains accessible, details limited to title/presenter."
+      }
+    ],
+    "verification_notes": [
+      {
+        "primary_url": "https://www.khi.co.jp/news/detail/20260908_2.html",
+        "supporting_urls": [
+          "https://www.edgecortix.com/en/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries"
+        ],
+        "date_evidence": "Kawasaki page/search and Japanese index state 2026年09月08日; EdgeCortix English body states September 8, 2026.",
+        "caveats": [
+          "No named aircraft, customer, production deployment or certification milestone.",
+          "Main announcement describes future aerial-defense systems without specifying unmanned aircraft. Unmanned systems appear only in generic company background; retain with scope uncertainty rather than classify as a UAV program.",
+          "Supplier photograph identifies Kawasaki Aerospace Systems Company's Defense and Space division leader."
+        ],
+        "relevance": "direct aerospace development; AI is principally onboard capability, not established use for engineering productivity",
+        "event_date": "2026-09-08"
+      },
+      {
+        "primary_url": "https://www.mhi.com/news/26091602.html",
+        "supporting_urls": [],
+        "date_evidence": "Release dated 2026-09-16; agreement signed August 31, 2026; initial business alliance announced June 2026.",
+        "caveats": [
+          "Publication is in window but agreement date is August 31.",
+          "Investment remains subject to procedures and approvals; not proof of a production AI deployment.",
+          "Broad social-infrastructure and national-security remit."
+        ],
+        "relevance": "company-wide engineering AI alliance; explicit design/manufacturing/control/simulation expertise but no aircraft-specific deployment",
+        "event_date": "2026-08-31"
+      },
+      {
+        "primary_url": "https://www.mhi.com/technology/review/abstract-63-3-80",
+        "supporting_urls": [
+          "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633080.pdf"
+        ],
+        "date_evidence": {
+          "date": "2026-09-28",
+          "basis": "Official Technical Review What's New index explicitly dates Vol.63 No.3 release 2026-09-28; PDF headers say September 2026.",
+          "url": "https://www.mhi.com/technology/review/"
+        },
+        "caveats": [
+          "New September publication reports work/trials completed earlier, including June 2026.",
+          "Aircraft are a stated target, but the quantified demonstrations are foundry/ship operations, not aircraft assembly."
+        ],
+        "relevance": "technical digital-manufacturing disclosure explicitly names aircraft among target complex structures",
+        "event_date": null
+      },
+      {
+        "primary_url": "https://www.mhi.com/technology/review/abstract-63-3-90",
+        "supporting_urls": [
+          "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633090.pdf"
+        ],
+        "date_evidence": {
+          "date": "2026-09-28",
+          "basis": "Official Technical Review What's New index explicitly dates Vol.63 No.3 release 2026-09-28; PDF headers say September 2026.",
+          "url": "https://www.mhi.com/technology/review/"
+        },
+        "caveats": [
+          "Development began in FY2022; new disclosure is September 2026.",
+          "H3 production scaling motivates the study; deployment barriers remain around 3D data, skills and AR-glasses availability."
+        ],
+        "relevance": "space-sector manufacturing rather than aircraft; preserve adjacent relevance",
+        "event_date": null
+      },
+      {
+        "primary_url": "https://www.mhi.com/technology/review/abstract-63-3-120",
+        "supporting_urls": [
+          "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/2026-09/e633120.pdf"
+        ],
+        "date_evidence": {
+          "date": "2026-09-28",
+          "basis": "Official Technical Review What's New index explicitly dates Vol.63 No.3 release 2026-09-28; PDF headers say September 2026.",
+          "url": "https://www.mhi.com/technology/review/"
+        },
+        "caveats": [
+          "No aircraft-specific implementation established.",
+          "Design/manufacturing extensions remain developmental; do not generalize regulatory retrieval metrics to welding or all engineering tasks."
+        ],
+        "relevance": "direct AI assistance for industrial documents and engineering workflows, cross-company rather than aircraft-specific",
+        "event_date": null
+      },
+      {
+        "primary_url": "https://www.onsemi.com/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs",
+        "supporting_urls": [
+          "https://www.onsemi.jp/company/newsroom/news-and-insights/subaru-to-evaluate-onsemi-s-embedded-power-platform-for-future-evs"
+        ],
+        "date_evidence": "English and Japanese primary releases dated September 16, 2026.",
+        "caveats": [
+          "Automotive EVs, not aircraft propulsion.",
+          "Evaluation phase; benefits are potential and no production selection established."
+        ],
+        "relevance": "explicitly automotive adjacent engineering signal, retained per parent instruction",
+        "event_date": "2026-09-16"
+      },
+      {
+        "primary_url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "supporting_urls": [],
+        "date_evidence": "Official Dassault community page dated 2026-09-30; body identifies conference dates September 10–11, 2026.",
+        "caveats": [
+          "Automotive rather than aircraft.",
+          "Linked radar presentation fetch failed with cache miss; verify only title/presenter and dated event disclosure, not detailed technical claims.",
+          "Snow/aerodynamics talk has no public presentation link on the checked page."
+        ],
+        "relevance": "dated supplier-hosted technical disclosure, automotive adjacent",
+        "event_date": "2026-09-10/2026-09-11"
+      },
+      {
+        "primary_url": "https://3dswym.3dexperience.3ds.com/wiki/simulia-community/simulia-japan-conference-2026slide-decks_RmgDPDaZRQON3TImiYARUw",
+        "supporting_urls": [],
+        "date_evidence": "Official Dassault community page dated 2026-09-30; event September 10–11, 2026.",
+        "caveats": [
+          "HVAC rather than aerospace.",
+          "Agenda title only; no public slide link or quantitative outcomes provided."
+        ],
+        "relevance": "MHI subsidiary engineering signal, outside aerospace",
+        "event_date": "2026-09-10/2026-09-11"
+      }
+    ],
+    "negative_findings": [
+      {
+        "companies": [
+          "Mitsubishi Heavy Industries"
+        ],
+        "urls": [
+          "https://www.mhi.com/news/products-services/aviation",
+          "https://www.mhi.com/group/mhiael/news",
+          "https://www.mhi.com/jp/news"
+        ],
+        "finding": "No in-window aircraft/engine manufacturing or certification release identified in aviation and Aero Engines indexes. Sep 2 MHICA/Bombardier asset transition and NEC alliance are outside window; Jan 2025 Rolls-Royce and Apr 2025 GTF Advantage certification are stale."
+      },
+      {
+        "companies": [
+          "Kawasaki Heavy Industries",
+          "Kawasaki Aerospace Systems Company"
+        ],
+        "urls": [
+          "https://global.kawasaki.com/en/corp/newsroom/category/aero/",
+          "https://www.khi.co.jp/news/",
+          "https://global.kawasaki.com/en/corp/rd/magazine/index.html"
+        ],
+        "finding": "English Air index did not expose Sep 8 EdgeCortix item; Japanese newsroom and supplier search recovered it. Latest technical review is Feb 2026. Aug 20 VR simulator, Aug 24 maintenance training certification, Nov 2025 hydrogen aircraft tank test are outside window. Marine/hydraulic/healthcare items are not aerospace."
+      },
+      {
+        "companies": [
+          "SUBARU"
+        ],
+        "urls": [
+          "https://www.subaru.co.jp/news/aerospace.html",
+          "https://www.subaru.co.jp/en/news/aerospace.html",
+          "https://www.subaru.co.jp/difference/",
+          "https://www.subaru.co.jp/news/2026_09_30_144749/",
+          "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_02.pdf",
+          "https://www.subaru.co.jp/ir/library/pdf/Ir/Ir2026j_03.pdf"
+        ],
+        "finding": "No strict in-window aerospace news verified. Aerospace index latest Jan 26, 2026 helicopter delivery. Sep 30 integrated report is new publication but sampled sections do not establish fresh aircraft milestones; automotive AI/chip content includes prior Nov 2025 developments. Technical journal result latest 2025 No.52. Routine production, sales, organization and hiring items excluded."
+      }
+    ],
+    "access_findings": [
+      {
+        "url": "https://global.kawasaki.com/en/corp/ir/library/other_presen_261006.html",
+        "status": "landing page accessible; linked 13.3MB Oct 6 presentation failed",
+        "attempts": 3,
+        "notes": "web.click repeatedly returned Internal Error. No technical claims inferred from unavailable presentation."
+      },
+      {
+        "url": "https://www.subaru.co.jp/ir/library/annual-reports.html",
+        "status": "landing page accessible; full reading PDF failed; section PDFs accessible",
+        "notes": "Capital-strategy and value-creation-story PDFs read as fallback. Full report was not exhaustively checked."
+      },
+      {
+        "url": "https://www.subaru.co.jp/technology/",
+        "status": "Internal Error",
+        "notes": "Unverified guessed technology path failed; official navigation led to /difference/ and technical-journal search instead."
+      },
+      {
+        "url": "https://3dswym.3dexperience.3ds.com/post/simulia-community/%E9%9B%BB%E7%A3%81%E7%95%8C%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E8%BB%8A%E8%BC%89%E3%83%AC%E3%83%BC%E3%83%80%E3%81%AE%E9%96%8B%E7%99%BA%E4%BA%8B%E4%BE%8B-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-subarusccj-2026_E45A2U-5T-KhmvcowArh5w",
+        "status": "Cache miss",
+        "notes": "Agenda remains publicly readable; no login attempted."
+      }
+    ],
+    "scope_checks": [
+      "GKN future combat air contract retained for thermal/electric/propulsion concept studies; UAV demonstrator related link excluded.",
+      "Hanwha artillery, munitions, drone/air-defense exhibition stories not retained; company-name matches do not suffice.",
+      "Imperial modelling-adequacy Discovery lead had primary403; month-only journal issue pages were not treated as verified publication days.",
+      "Supplier and technology-first search explored additive manufacturing, thermal management, AI-assisted design, surrogate modeling and Korean lunar propulsion; stale research and hiring notices excluded."
+    ],
+    "unverified_leads": [
+      {
+        "organization": "LinkSolution / Hanwha Aerospace",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900065",
+        "secondary_url": "https://cbcglobe.com/en/articles/2026/09/30/breaking-linksolution-signs-1-4331-billion-won-supply-contra-5817f6db",
+        "reported_date": "2026-09-30",
+        "status": "not_promoted_to_item",
+        "reason": "Secondary report of KRW1.4331bn additive-manufacturing process-development contract; primary filing unavailable."
+      }
+    ],
+    "discovery": {
+      "candidate_count": 2,
+      "organizations": [
+        "ST Engineering",
+        "EdgeCortix"
+      ],
+      "advances_rotation": false,
+      "rationale": "OEM-linked repair/lifecycle engineering and aerospace hardware/software co-design provide ongoing monitoring value."
+    },
+    "concurrency_audit": {
+      "initial_same_day_read": "2026-10-07T22:25:25Z",
+      "initial_result": "404",
+      "latest_preparation_read": "2026-10-07T22:29:21Z",
+      "latest_result": "404",
+      "note": "Recovery research only until parent lifted write hold. Scheduler invocation exists but its outcome is unobservable; absence does not prove failure. Create-only commit must recheck current remote first."
+    },
+    "source_configuration": {
+      "config_blob": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "readme_blob": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "policy_blob": "52d83678fcf304dcc49b4f487260398909561ee0"
+    },
+    "original_prompt_preserved": true
+  }
+}
