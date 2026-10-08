@@ -1,0 +1,1495 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-09T06:17:02.718568+09:00",
+  "items": [
+    {
+      "title": "喜报！AES100发动机获唯一特等奖",
+      "url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216480883373/index.html",
+      "source": "Aero Engine Corporation of China (AECC)",
+      "source_kind": "official",
+      "category": "engine_technology",
+      "published_at": "2026-09-12",
+      "excerpt": "AECC reports six aerospace technology awards, covering the AES100 1,000-kW civil turboshaft; additive manufacturing of high-temperature complex thin-wall engine parts; blade-clearance and axial-transient measurement; turbine aero-thermal design; cooled combustor design; and low-density sealants.",
+      "query": "site:aecc.cn 2026 9 航发 技术",
+      "tags": [
+        "AES100",
+        "additive_manufacturing",
+        "aerothermal_design",
+        "engine_testing"
+      ],
+      "organization": "Aero Engine Corporation of China (AECC)",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "document_type": "corporate news",
+      "language": "zh"
+    },
+    {
+      "title": "央广网报道丨从蓝天到能源重器：国产燃气轮机自主攻关之路",
+      "url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216541422877/index.html",
+      "source": "Aero Engine Corporation of China (AECC)",
+      "source_kind": "official",
+      "category": "engine_technology",
+      "published_at": "2026-09-22",
+      "excerpt": "AECC's dated report describes aero-derived Taihang turbine advances in hot-section life, stable low-emission combustion, dual-fuel switching and domestic controls. Taihang7 units have accumulated over 90,000 operating hours in offshore service; AECC describes an integrated 1–110 MW product platform.",
+      "query": "site:aecc.cn 2026 9 航发 技术",
+      "tags": [
+        "aero_derivative",
+        "gas_turbine",
+        "hot_section",
+        "dual_fuel"
+      ],
+      "organization": "Aero Engine Corporation of China (AECC)",
+      "company": "Aero Engine Corporation of China (AECC)",
+      "document_type": "corporate-hosted field report",
+      "language": "zh"
+    },
+    {
+      "title": "Airbus A350F freighter successfully performs its maiden flight",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-a350f-freighter-successfully-performs-its-maiden-flight",
+      "source": "Airbus",
+      "source_kind": "press_release",
+      "category": "aircraft_testing",
+      "published_at": "2026-09-29",
+      "excerpt": "A350F MSN700 completed a 4h10 first flight to 25,000 ft, beginning certification testing. The accompanying engineering account explains predictive-model validation, transition from direct to normal control law, and an FTI system recording thousands of parameters with real-time telemetry.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "A350F",
+        "flight_test",
+        "control_laws",
+        "telemetry"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Countdown to A350F first flight: Preparing for the sky",
+      "url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+      "source": "Airbus",
+      "source_kind": "corporate_tech",
+      "category": "digital_engineering",
+      "published_at": "2026-09-14",
+      "excerpt": "Airbus describes 13 virtual-flight sessions using a simulator connected to real avionics, flight controls and engine-control test benches. The freighter's distinct aerodynamic model needs validation, with anemometry calibration, smoke detection tests and redesigned flight-test instrumentation supporting the campaign.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "A350F",
+        "simulation",
+        "hardware_in_loop",
+        "flight_test"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "engineering story",
+      "language": "en"
+    },
+    {
+      "title": "Airbus invests into UK manufacturing to support global production ramp-up",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-invests-into-uk-manufacturing-to-support-global-production-ramp-up",
+      "source": "Airbus",
+      "source_kind": "press_release",
+      "category": "manufacturing",
+      "published_at": "2026-09-21",
+      "excerpt": "Airbus is converting Broughton's former A380 wing factory into an A321 production line with six wing jigs, an equipping line and a paint shop. The first wing is underway; all jigs are expected operational by year-end. Operators contributed to ergonomics and technology integration.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "A321",
+        "wing_manufacturing",
+        "Broughton",
+        "production_ramp"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Shaping the future of flight testing",
+      "url": "https://www.airbus.com/en/newsroom/stories/2026-10-shaping-the-future-of-flight-testing",
+      "source": "Airbus",
+      "source_kind": "corporate_tech",
+      "category": "aircraft_testing",
+      "published_at": "2026-10-05",
+      "excerpt": "Airbus and France's DGA jointly modified a civil H160 with a dedicated rear-cabin flight-test system for EPNER. The installation expands training in performance, handling and onboard-system testing, while predictive maintenance analytics support technician training.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "H160",
+        "DGA",
+        "flight_test_instrumentation",
+        "EPNER"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "engineering story",
+      "language": "en"
+    },
+    {
+      "title": "Airbus strengthens A320 Family delivery capacity in Toulouse with a new delivery centre",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-strengthens-a320-family-delivery-capacity-in-toulouse-with-a-new-delivery-centre",
+      "source": "Airbus",
+      "source_kind": "press_release",
+      "category": "manufacturing",
+      "published_at": "2026-09-15",
+      "excerpt": "Airbus opened an integrated Toulouse delivery centre exceeding 35,000 m², with 16 aircraft positions near final assembly and a dedicated technical-adjustment and finishing hall. Co-locating these stages is intended to streamline industrial flows and support A320-family production ramp-up.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "A320",
+        "Toulouse",
+        "industrial_flow",
+        "production_ramp"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Airbus delivers first aircraft from its second A320 Family Final Assembly Line in China",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-delivers-first-aircraft-from-its-second-fal-in-china",
+      "source": "Airbus",
+      "source_kind": "press_release",
+      "category": "manufacturing",
+      "published_at": "2026-09-16",
+      "excerpt": "Airbus delivered the first A320neo assembled on its second Tianjin final-assembly line to China Eastern. This validates an added production line in the ten-line A320 global assembly network, supporting the rate-75 ramp-up strategy.",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "tags": [
+        "A320neo",
+        "Tianjin",
+        "final_assembly",
+        "industrial_milestone"
+      ],
+      "organization": "Airbus",
+      "company": "Airbus",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Partnership between ORNL, Boeing advances manufacturing for aircraft parts",
+      "url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+      "source": "Oak Ridge National Laboratory",
+      "source_kind": "official",
+      "category": "manufacturing",
+      "published_at": "2026-09-21",
+      "excerpt": "ORNL and Boeing produced a nearly two-ton steel stamp-form die using wire-arc additive manufacturing. The tool supports thermoplastic composite aircraft-part production for NASA HiCAM, with industrial partners contributing printing and final processing.",
+      "query": "\"Boeing\" \"September\" \"2026\" supplier composite additive manufacturing -site:reddit.com",
+      "tags": [
+        "WAAM",
+        "thermoplastic composites",
+        "tooling",
+        "HiCAM"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "official",
+      "language": "en"
+    },
+    {
+      "title": "Boeing, American Airlines Complete First 737 MAX Landing Gear Exchange",
+      "url": "https://boeing.mediaroom.com/2026-09-14-Boeing,-American-Airlines-Complete-First-737-MAX-Landing-Gear-Exchange",
+      "source": "Boeing",
+      "source_kind": "press_release",
+      "category": "aircraft",
+      "published_at": "2026-09-14",
+      "excerpt": "The first 737 MAX landing-gear exchange validated an end-to-end overhaul, certification and ready-to-install delivery process. Boeing is expanding MAX-capable inventory and certified MRO partner capacity to reduce aircraft downtime.",
+      "query": "Boeing newsroom chronological review",
+      "tags": [
+        "737 MAX",
+        "MRO",
+        "landing gear"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Boeing Secures Order For First Full-Rate Production Grey Wolf Helicopters",
+      "url": "https://boeing.mediaroom.com/news-releases-statements?item=131723",
+      "source": "Boeing",
+      "source_kind": "press_release",
+      "category": "manufacturing",
+      "published_at": "2026-10-01",
+      "excerpt": "MH-139A Grey Wolf moved into full-rate production after reaching initial operational capability. The first full-rate award covers four aircraft; Boeing reports 42 under contract and 27 delivered.",
+      "query": "Boeing newsroom chronological review",
+      "tags": [
+        "MH-139A",
+        "production milestone",
+        "helicopter"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "U.S. Navy Selects Boeing for F/A-XX Program",
+      "url": "https://boeing.mediaroom.com/2026-09-29-U-S-Navy-Selects-Boeing-for-F-A-XX-Program",
+      "source": "Boeing",
+      "source_kind": "press_release",
+      "category": "aircraft",
+      "published_at": "2026-09-29",
+      "excerpt": "Boeing was selected to design and build the Navy's sixth-generation fighter. The release identifies open mission-system architecture and an all-digital design/manufacturing system under construction in St. Louis; detailed specifications remain classified.",
+      "query": "Boeing newsroom chronological review",
+      "tags": [
+        "F/A-XX",
+        "digital manufacturing",
+        "aircraft development"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Satellite constellation set to level up service",
+      "url": "https://boeing.mediaroom.com/news-releases-statements?item=131715",
+      "source": "Boeing",
+      "source_kind": "press_release",
+      "category": "space",
+      "published_at": "2026-09-13",
+      "excerpt": "Launch of the final three O3b mPOWER spacecraft completed the 13-satellite constellation. Boeing describes software-defined bandwidth routing and a scalable 702X architecture serving as a technical baseline for hardened government satellites.",
+      "query": "Boeing newsroom chronological review",
+      "tags": [
+        "702X",
+        "software-defined payload",
+        "satellite",
+        "space-adjacent"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Lockheed Martin Announces First Flight of Morocco’s First F 16 Block 72",
+      "url": "https://news.lockheedmartin.com/2026-10-06-Lockheed-Martin-Announces-First-Flight-of-Moroccos-First-F-16-Block-72",
+      "source": "Lockheed Martin",
+      "source_kind": "press_release",
+      "category": "aircraft",
+      "published_at": "2026-10-06",
+      "excerpt": "Morocco's first F-16 Block 72 completed its first flight and entered flight testing toward delivery. The aircraft integrates updated avionics, sensors and mission systems; the release also outlines planned Moroccan MRO capacity.",
+      "query": "site.lockheedmartin.com \"2026\" \"October\"",
+      "tags": [
+        "F-16",
+        "flight testing",
+        "avionics"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Lockheed Martin Connects F-35 Crews Across Multiple Locations for Live Mission Rehearsal",
+      "url": "https://news.lockheedmartin.com/2026-09-21-Lockheed-Martin-Connects-F-35-Crews-Across-Multiple-Locations-for-Live-Mission-Rehearsal",
+      "source": "Lockheed Martin",
+      "source_kind": "press_release",
+      "category": "simulation",
+      "published_at": "2026-09-21",
+      "excerpt": "A two-hour distributed training event linked 16 F-35 full-mission simulators across four bases with F-18 simulators and an E-2D controller. Lockheed reports uninterrupted data exchange and successful integration across the geographically separated sites.",
+      "query": "Lockheed Martin newsroom pagination o=5",
+      "tags": [
+        "simulation",
+        "F-35",
+        "interoperability"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Lockheed Martin Fast-Tracks PAC-3 MSE Components in Less Than One Month in Partnership with GM Defense",
+      "url": "https://news.lockheedmartin.com/2026-09-17-Lockheed-Martin-Fast-Tracks-PAC-3-R-MSE-Components-in-Less-Than-One-Month-in-Partnership-with-GM-Defense",
+      "source": "Lockheed Martin",
+      "source_kind": "press_release",
+      "category": "manufacturing",
+      "published_at": "2026-09-17",
+      "excerpt": "GM Defense delivered initial housing components 22 days after its contract, using commercial casting and precision machining to meet defense specifications. The publication reports an August delivery milestone and demonstrates cross-industry production transfer.",
+      "query": "Lockheed Martin newsroom pagination o=10",
+      "tags": [
+        "casting",
+        "machining",
+        "supplier",
+        "production",
+        "manufacturing-adjacent"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Lockheed Martin Demonstrates Legion Sensor System with Pod-to-Pod Data Link",
+      "url": "https://news.lockheedmartin.com/2026-09-16-Lockheed-Martin-Demonstrates-Legion-Sensor-System-with-Pod-to-Pod-Data-Link",
+      "source": "Lockheed Martin",
+      "source_kind": "press_release",
+      "category": "aircraft",
+      "published_at": "2026-09-16",
+      "excerpt": "Two F-16s flight-tested Legion infrared sensor pods with L3Harris HiveLink. The pods exchanged data and improved track accuracy, demonstrating networked passive sensing and the sensor system's modular open architecture.",
+      "query": "Lockheed Martin newsroom pagination o=10",
+      "tags": [
+        "F-16",
+        "infrared sensing",
+        "data link",
+        "flight test"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Lockheed Martin Secures U.S. Space Force Contracts to Further Modernize the GPS Ground Segment",
+      "url": "https://news.lockheedmartin.com/lockheed-martin-secures-space-force-contracts-contracts-to-further-modernize-the-GPS-ground-segment",
+      "source": "Lockheed Martin",
+      "source_kind": "press_release",
+      "category": "space",
+      "published_at": "2026-09-10",
+      "excerpt": "New work upgrades the GPS ground system to control GPS IIIF payloads and begins a three-phase x86 hardware/software refresh. The modular modernization supports next-generation satellites and resilient positioning, navigation and timing.",
+      "query": "Lockheed Martin newsroom pagination o=10",
+      "tags": [
+        "GPS IIIF",
+        "x86",
+        "ground systems",
+        "space-adjacent"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "BAE Systems receives $16 million to qualify RH45 technology for radiation-hardened space missions",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-receives-16-million-to-qualify-rh45-technology-for-radiation-hardened-space-missions",
+      "source": "BAE Systems",
+      "source_kind": "press_release",
+      "category": "electronics",
+      "published_at": "2026-09-16",
+      "excerpt": "BAE will demonstrate and qualify radiation-hardened 45nm technology using GlobalFoundries' Malta, New York SOI process. The effort reestablishes an ASIC design storefront and qualified building blocks for custom space electronics.",
+      "query": "BAE Systems US homepage technical links",
+      "tags": [
+        "radiation-hard",
+        "ASIC",
+        "45nm",
+        "GlobalFoundries",
+        "space-adjacent"
+      ],
+      "organization": "BAE Systems",
+      "company": "BAE Systems",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "BAE Systems completes successful Critical Design Review for U.S. Space Force missile warning and tracking program",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-completes-successful-critical-design-review-for-us-space-force-missile-warning-and-tracking-program",
+      "source": "BAE Systems",
+      "source_kind": "press_release",
+      "category": "space",
+      "published_at": "2026-09-21",
+      "excerpt": "MEO Epoch 2 passed critical design review 14 months after award. Digital modeling, simulation and model-based systems engineering supported the 10-spacecraft design and early component production using the Trek bus and infrared payload heritage.",
+      "query": "BAE Systems US homepage technical links",
+      "tags": [
+        "CDR",
+        "MBSE",
+        "digital modeling",
+        "spacecraft",
+        "space-adjacent"
+      ],
+      "organization": "BAE Systems",
+      "company": "BAE Systems",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "BAE Systems to deliver M-Code GPS for U.S. Navy joint precision approach and landing system",
+      "url": "https://www.baesystems.com/en-us/article/bae-systems-to-deliver-m-code-gps-for-u-s-navy-joint-precision-approach-and-landing-system",
+      "source": "BAE Systems",
+      "source_kind": "press_release",
+      "category": "aircraft",
+      "published_at": "2026-10-01",
+      "excerpt": "BAE will develop a DIGAR-500M-based M-Code upgrade for Collins Aerospace's carrier landing system. Dual SAASM/M-Code operation and digital beamforming improve resilience while supporting mixed aircraft configurations.",
+      "query": "BAE Systems US homepage technical links",
+      "tags": [
+        "GPS",
+        "carrier landing",
+        "DIGAR",
+        "Collins Aerospace"
+      ],
+      "organization": "BAE Systems",
+      "company": "BAE Systems",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Northrop Grumman Opens New Manufacturing Facility in Layton, Utah",
+      "url": "https://lcecon.laytoncityutah.gov/northrop-grumman-opens-new-manufacturing-facility-in-layton-utah/",
+      "source": "Layton City Economic Development",
+      "source_kind": "official",
+      "category": "manufacturing",
+      "published_at": "2026-09-09",
+      "excerpt": "Northrop opened East Gate 3 in Layton, Utah, ahead of schedule to expand B-21 manufacturing. The broader East Gate campus is planned to total about 845,000 square feet, supporting aircraft production scaling.",
+      "query": "\"Northrop\" \"East Gate 3\" \"September 9, 2026\"",
+      "tags": [
+        "B-21",
+        "manufacturing facility",
+        "capacity"
+      ],
+      "organization": "Northrop Grumman",
+      "company": "Northrop Grumman",
+      "document_type": "official",
+      "language": "en"
+    },
+    {
+      "title": "Delivering electronic warfare systems for F-35 stealth fighters",
+      "url": "https://www.baesystems.com/en-us/article/delivering-electronic-warfare-systems-for-f-35-stealth-fighters",
+      "source": "BAE Systems",
+      "source_kind": "corporate_tech",
+      "category": "manufacturing",
+      "published_at": "2026-10-06",
+      "excerpt": "BAE will produce AN/ASQ-239 systems for F-35 Lots 20–22 and retrofit older aircraft. The release identifies automation, updated designs and facility investment to accelerate output, plus software-updatable sensing and processing.",
+      "query": "BAE Systems US homepage technical links",
+      "tags": [
+        "F-35",
+        "electronic warfare",
+        "automation",
+        "production"
+      ],
+      "organization": "BAE Systems",
+      "company": "BAE Systems",
+      "document_type": "corporate_tech",
+      "language": "en"
+    },
+    {
+      "title": "CEO: 737-10 certification very soon, more to do to stabilize production",
+      "url": "https://www.boeing.com/features/2026/09/ceo-737-10-certification-very-soon-more-to-do-to-stabilize-production",
+      "source": "Boeing",
+      "source_kind": "corporate_tech",
+      "category": "manufacturing",
+      "published_at": "2026-09-16",
+      "excerpt": "Boeing reports completion of 737-10 flight testing, with certification documentation remaining. Production is targeting 47 monthly 737s but is not yet stable; 787 output is stable at eight, with a second assembly facility under construction.",
+      "query": "site:boeing.com \"2026\" \"September\" technology manufacturing",
+      "tags": [
+        "737-10",
+        "certification",
+        "787",
+        "production"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "corporate_tech",
+      "language": "en"
+    },
+    {
+      "title": "Boeing secures order for 22 more F-15EX fighters",
+      "url": "https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters",
+      "source": "Boeing",
+      "source_kind": "corporate_tech",
+      "category": "manufacturing",
+      "published_at": "2026-09-29",
+      "excerpt": "The announcement reports delivery of the first Lot 3 F-15EX and ongoing work to raise output to two aircraft monthly. The new award covers 22 aircraft and completes contracting for production Lots 1–7.",
+      "query": "site:boeing.com \"2026\" \"September\" technology manufacturing",
+      "tags": [
+        "F-15EX",
+        "production ramp",
+        "Lot 3"
+      ],
+      "organization": "Boeing",
+      "company": "Boeing",
+      "document_type": "corporate_tech",
+      "language": "en"
+    },
+    {
+      "title": "Driving Innovation: Lockheed Martin’s PAC-3 MSE Partnerships",
+      "url": "https://sustainability.lockheedmartin.com/en-us/news/features/2026/Driving-Innovation-Lockheed-Martins-PAC-3-MSE-Partnerships.html",
+      "source": "Lockheed Martin",
+      "source_kind": "corporate_tech",
+      "category": "manufacturing",
+      "published_at": "2026-09-09",
+      "excerpt": "Polish offset partnerships include a PGZ hardware-in-the-loop demonstration and August orders for WZE launcher electronic stations and junction-box units. The dated report describes manufacturing transfer and supplier qualification milestones.",
+      "query": "site:lockheedmartin.com \"2026\" \"September\" manufacturing engineering",
+      "tags": [
+        "supplier",
+        "hardware-in-the-loop",
+        "technology transfer",
+        "manufacturing-adjacent"
+      ],
+      "organization": "Lockheed Martin",
+      "company": "Lockheed Martin",
+      "document_type": "corporate_tech",
+      "language": "en"
+    },
+    {
+      "title": "Flow Engineering raises $50M Series B for agentic hardware systems engineering",
+      "url": "https://www.flowengineering.com/blog/series-b-press-release",
+      "source": "Flow Engineering",
+      "source_kind": "press_release",
+      "category": "AI設計・MBSE",
+      "published_at": "2026-09-30",
+      "excerpt": "Flow announced $50M Series B at $750M valuation. Its agents connect requirements, CAD, simulation, code and tests; plans include review, branching and evaluation controls. Rivian usage grew from 40 to 1,500 users in seven months, per company. Discovery: traceable systems-engineering workflow is worth monitoring; cycle-time gains are aspirations.",
+      "query": "aerospace AI engineering design startup September October 2026 simulation funding",
+      "tags": [
+        "discovery_candidate",
+        "MBSE",
+        "agentic engineering",
+        "self_reported"
+      ],
+      "organization": "Flow Engineering",
+      "company": "Flow Engineering",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "AMFlexInj validates additively manufactured fuel-flexible gas-turbine injectors",
+      "url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+      "source": "University of Stuttgart",
+      "source_kind": "press_release",
+      "category": "燃焼器・積層造形",
+      "published_at": "2026-09-24",
+      "excerpt": "Stuttgart and DLR report lab-tested printed injectors tolerant of surface roughness and suitable for varied fuels. AMFlexInj receives €1.5M through2029 for geometry/process optimization and real-condition prototype tests. Discovery: university–DLR work links combustion design, fuel flexibility and manufacturing; no field validation yet.",
+      "query": "aircraft turbine additive manufacturing startup September 2026 technology",
+      "tags": [
+        "discovery_candidate",
+        "combustion",
+        "additive manufacturing",
+        "fuel flexibility"
+      ],
+      "organization": "University of Stuttgart / DLR Stuttgart",
+      "company": "University of Stuttgart / DLR Stuttgart",
+      "document_type": "research institution release",
+      "language": "en"
+    },
+    {
+      "title": "SOSV HAX backs Zenithon's $10M seed round for extreme-physics world models",
+      "url": "https://hax.co/sosv-hax-backs-zenithon-to-build-world-models-for-plasma-physics/",
+      "source": "SOSV HAX",
+      "source_kind": "corporate_tech",
+      "category": "scientific AI・シミュレーション",
+      "published_at": "2026-09-30",
+      "excerpt": "Investor HAX confirms participating in Zenithon's $10M seed round for plasma world models targeting fusion, semiconductor manufacturing and aerospace. Million-fold speed claims are investor-reported without disclosed benchmark controls. Discovery: extreme-physics surrogates and targeted experimental data generation merit continued validation monitoring.",
+      "query": "site:hax.co Zenithon plasma September 2026",
+      "tags": [
+        "discovery_candidate",
+        "scientific AI",
+        "plasma",
+        "investor_claim"
+      ],
+      "organization": "Zenithon AI",
+      "company": "Zenithon AI",
+      "document_type": "investor announcement",
+      "language": "en"
+    },
+    {
+      "title": "Vinci raises $250M to expand continuous physics reasoning beyond semiconductors",
+      "url": "https://www.businesswire.com/news/home/20261006307372/en/Vinci-Raises-%24250M-Series-B-at-%241.5B-Valuation-to-Build-the-Intelligence-Infrastructure-for-a-New-Era-of-Hardware-Engineering",
+      "source": "Vinci via Business Wire",
+      "source_kind": "press_release",
+      "category": "AI設計・CAE",
+      "published_at": "2026-10-06",
+      "excerpt": "Vinci announced $250M Series B at $1.5B valuation. It reports zero-shot thermal, thermo-mechanical and convective-fluid analysis combining agents, a physics model and GPU kernels; >15bn-DOF runs in minutes are vendor claims. Discovery: expansion toward aircraft and multi-physics engineering merits monitoring; aerospace deployment is not established.",
+      "query": "\"Vinci4D\" \"2026\" \"250\"",
+      "tags": [
+        "discovery_candidate",
+        "CAE",
+        "physics AI",
+        "self_reported"
+      ],
+      "organization": "Vinci",
+      "company": "Vinci",
+      "document_type": "company-distributed press release",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:aecc.cn 2026 9 航发 技术",
+    "site:avic.com.cn \"2026\" \"9月\" 技术",
+    "site:airbus.com \"2026\" \"September\" aircraft technology",
+    "site:boeing.com \"2026\" \"September\" technology manufacturing",
+    "site:lockheedmartin.com \"2026\" \"September\" manufacturing engineering",
+    "site:news.northropgrumman.com \"September\" \"2026\" manufacturing",
+    "site:baesystems.com \"October\" \"2026\" technology manufacturing",
+    "aerospace AI engineering design startup September October 2026 simulation funding",
+    "aircraft turbine additive manufacturing startup September 2026 technology",
+    "site:zenithon.ai September 2026 funding",
+    "site:vinci4d.com October 2026 250 million",
+    "Vinci $250 million October 6 2026 official",
+    "Zenithon AI seed funding September 30 2026 official",
+    "\"Vinci4D\" \"2026\" \"250\"",
+    "site:hax.co Zenithon plasma September 2026",
+    "site:avic.com.cn 2026 9 航空 制造",
+    "site:aecc.cn \"2026年09\"",
+    "site:airbus.com/en/newsroom \"2026-10\"",
+    "site:airbus.com/en/newsroom \"2026-09\" manufacturing technology test",
+    "site:aecc.cn 2026 9 发动机 试验"
+  ],
+  "warnings": [
+    "AVIC article bodies, Northrop newsroom and selected Lockheed corporate features had access restrictions; detailed access records retained.",
+    "Vendor/investor performance and efficiency claims are self-reported, not independently established.",
+    "Scout retains in-window previously seen events for downstream semantic deduplication; no claim of exclusive newness."
+  ],
+  "checked_sources": [
+    {
+      "status": "found",
+      "query": "site:aecc.cn 2026 9 航发 技术",
+      "warning": "Group and news pages opened. Some subsidiary mirrored pages failed; canonical aecc.cn article succeeded. Homepage had stale June items while newsroom Sep news was available.",
+      "name": "Aero Engine Corporation of China (AECC)"
+    },
+    {
+      "status": "no_new_finding",
+      "query": "site:avic.com.cn \"2026\" \"9月\" 技术",
+      "warning": "No fully verified qualifying technical article. Main Chinese site and group-news/innovation listings opened; subsidiary listing on avic.com.cn timed out but official avic.com mirror opened. AG600 Oct8, carbon-brake Sep30 and sensor Sep30 article bodies failed on both domains. English homepage is stale (2024). Do not interpret as verified absence of developments.",
+      "name": "Aviation Industry Corporation of China (AVIC)"
+    },
+    {
+      "status": "found",
+      "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+      "warning": "Newsroom, press releases, stories and individual articles opened. Excluded U145 uncrewed Sep22 story; commercial orders, governance, cybersecurity and routine operator stories are not included.",
+      "name": "Airbus"
+    },
+    {
+      "name": "Boeing",
+      "status": "found",
+      "query": "site:boeing.com \"2026\" \"September\" technology manufacturing",
+      "warning": ""
+    },
+    {
+      "name": "Lockheed Martin",
+      "status": "found",
+      "query": "site:lockheedmartin.com \"2026\" \"September\" manufacturing engineering",
+      "warning": "Corporate feature pages 403; newsroom releases accessible."
+    },
+    {
+      "name": "Northrop Grumman",
+      "status": "found",
+      "query": "site:news.northropgrumman.com \"September\" \"2026\" manufacturing",
+      "warning": "Newsroom 403; corporate event page accessible but undated. Official Layton City article has verified Sep9 publication date. FORTITUDE Oct2 lead remains unverified after primary open 403."
+    },
+    {
+      "name": "BAE Systems",
+      "status": "found",
+      "query": "site:baesystems.com \"October\" \"2026\" technology manufacturing",
+      "warning": "US newsroom dynamic list empty; homepage technical links and UK/Australia indexed lists accessible."
+    }
+  ],
+  "research_plan": {
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-09",
+      "started_at": "2026-10-09T06:11:39+09:00",
+      "completed_at": "2026-10-09T06:17:02.718568+09:00",
+      "status": "partial",
+      "planned_query_count": 81,
+      "executed_query_count": 81
+    },
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "Aero Engine Corporation of China (AECC)",
+          "category": "航空機エンジン",
+          "domains": [
+            "aecc.cn"
+          ]
+        },
+        {
+          "name": "Aviation Industry Corporation of China (AVIC)",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "avic.com.cn"
+          ]
+        },
+        {
+          "name": "Airbus",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "airbus.com"
+          ]
+        },
+        {
+          "name": "Boeing",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "boeing.com"
+          ]
+        },
+        {
+          "name": "Lockheed Martin",
+          "category": "軍用航空機",
+          "domains": [
+            "lockheedmartin.com"
+          ]
+        },
+        {
+          "name": "Northrop Grumman",
+          "category": "軍用航空機",
+          "domains": [
+            "northropgrumman.com"
+          ]
+        },
+        {
+          "name": "BAE Systems",
+          "category": "軍用航空機",
+          "domains": [
+            "baesystems.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "cursor_start": 33,
+      "cursor_next": 40,
+      "state_blob": "72110d5ddea27a29471527c5e1e9c8eca07d57f3",
+      "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "selection_basis": "Valid explicit state authoritative; seven consecutive sources33–39, all last_checked Sep23. Recent Oct7/Oct8/Sep23 handoffs reviewed. No spillover because more than five dated verified candidates."
+    },
+    "lookback": {
+      "start": "2026-09-09",
+      "end": "2026-10-08",
+      "timezone": "Asia/Tokyo"
+    },
+    "source_configuration": {
+      "config_blob": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "readme_blob": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "policy_blob": "52d83678fcf304dcc49b4f487260398909561ee0"
+    },
+    "executed_queries": [
+      {
+        "query": "site:aecc.cn 2026 9 航发 技术",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn 2026 9 航空 制造",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com \"2026\" \"September\" aircraft technology",
+        "status": "executed"
+      },
+      {
+        "query": "site:aecc.cn \"2026年09\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn \"2026\" \"9月\" 技术",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com/en/newsroom \"2026-10\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com/en/newsroom \"2026-09\" manufacturing technology test",
+        "status": "executed"
+      },
+      {
+        "query": "site:aecc.cn 2026 9 发动机 试验",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn 2026 09",
+        "status": "executed"
+      },
+      {
+        "query": "\"中国航空工业集团\" \"2026年9月\" 技术",
+        "status": "executed"
+      },
+      {
+        "query": "\"中国航发\" \"2026年9月\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"AVIC\" \"September\" \"2026\" technology -UAV -drone",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn/c/2026-09 技术",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com/en/newsroom/ \"2026-09\" \"AI\"",
+        "status": "executed"
+      },
+      {
+        "query": "Airbus supplier September 2026 manufacturing wing",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com \"2026-09\" 技术",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn \"2026/09\" 制造",
+        "status": "executed"
+      },
+      {
+        "query": "\"航空工业\" \"2026年9月\" \"首\" -无人机 -招聘",
+        "status": "executed"
+      },
+      {
+        "query": "\"中国航发\" \"2026\" \"9月\" 研制 -招聘 -股票",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn \"2026-09-2\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:cannews.com.cn \"2026-09\" \"技术\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:aecc.cn \"2026\" \"增材\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"AVIC\" supplier \"September 2026\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com.cn \"2026\" \"9月\" \"试验\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:publicnow.com \"AVIC\" \"September\" \"2026\" \"技术\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:cannews.com.cn \"2026\" \"9月\" \"制造\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:aecc.cn \"2026年09\" \"试\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"航空工业\" \"2026-09\" \"首飞\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"航空工业\" \"2026-09\" \"增材\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"航空工业\" \"2026-09\" \"智能制造\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"中国航发\" \"2026-09\" \"供应\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"自主研发打破垄断\" \"黑色黄金\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"完成北疆驻防\" \"AG600\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"航空工业电测\" \"精准感知\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:avic.com \"2026-09-25\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"AG600\" \"2026\" \"驻防\" site:avic.com",
+        "status": "executed"
+      },
+      {
+        "query": "\"AG600\" \"2026\" \"驻防\" site:avic.com.cn",
+        "status": "executed"
+      },
+      {
+        "query": "\"AG600\" \"2026\" \"驻防\" site:caiga.cn",
+        "status": "executed"
+      },
+      {
+        "query": "\"中国航发\" \"2026-09\" \"突破\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com \"September 2026\" \"certification\" -site:criticalcommunications.airbus.com",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com \"October 2026\" \"test\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:airbus.com \"September 2026\" \"artificial intelligence\"",
+        "status": "executed"
+      },
+      {
+        "query": "\"AECC\" supplier \"September\" \"2026\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.boeing.com September October 2026 technology manufacturing",
+        "status": "executed"
+      },
+      {
+        "query": "site.lockheedmartin.com \"2026\" \"October\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.northropgrumman.com \"2026\" \"September\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.baesystems.com \"2026\" \"October\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.boeing.com \"September\" \"2026\" -site:jobs.boeing.com",
+        "status": "executed"
+      },
+      {
+        "query": "site.boeing.com \"October\" \"2026\" -site:jobs.boeing.com",
+        "status": "executed"
+      },
+      {
+        "query": "site.news.northropgrumman.com \"2026\" \"September\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.baesystems.com \"2026\" \"September\" technology aircraft",
+        "status": "executed"
+      },
+      {
+        "query": "site.northropgrumman.com \"September 2026\" aircraft manufacturing technology",
+        "status": "executed"
+      },
+      {
+        "query": "site.northropgrumman.com \"Oct\" \"2026\" news",
+        "status": "executed"
+      },
+      {
+        "query": "site.baesystems.com/en-us/article/ \"2026\" \"September\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.boeing.com \"2026\" \"September\" engineering",
+        "status": "executed"
+      },
+      {
+        "query": "site.news.lockheedmartin.com \"Sep\" \"2026\" -earnings -UAS -unmanned",
+        "status": "executed"
+      },
+      {
+        "query": "\"Northrop Grumman\" \"September\" \"2026\" manufacturing test technology -site:reddit.com -jobs -careers",
+        "status": "executed"
+      },
+      {
+        "query": "\"Boeing\" \"September\" \"2026\" supplier composite additive manufacturing -site:reddit.com",
+        "status": "executed"
+      },
+      {
+        "query": "\"BAE Systems\" \"October\" \"2026\" manufacturing technology -jobs -careers",
+        "status": "executed"
+      },
+      {
+        "query": "site.lockheedmartin.com \"September\" \"2026\" manufacturing digital test -filetype:pdf",
+        "status": "executed"
+      },
+      {
+        "query": "site.investor.northropgrumman.com \"September\" \"2026\" aircraft",
+        "status": "executed"
+      },
+      {
+        "query": "site.investor.northropgrumman.com \"October\" \"2026\" technology",
+        "status": "executed"
+      },
+      {
+        "query": "\"Northrop Grumman\" \"2026\" \"September\" supplier \"B-21\"",
+        "status": "executed"
+      },
+      {
+        "query": "Northrop Grumman East Gate 3 September 2026",
+        "status": "executed"
+      },
+      {
+        "query": "site.lockheedmartin.com \"September\" \"2026\" \"digital\"",
+        "status": "executed"
+      },
+      {
+        "query": "site.baesystems.com \"September\" \"2026\" \"manufacturing\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:northropgrumman.com \"East Gate 3\" \"2026\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:news.northropgrumman.com \"September\" \"2026\" manufacturing",
+        "status": "executed"
+      },
+      {
+        "query": "site:boeing.com \"2026\" \"September\" technology manufacturing",
+        "status": "executed"
+      },
+      {
+        "query": "site:lockheedmartin.com \"2026\" \"September\" manufacturing engineering",
+        "status": "executed"
+      },
+      {
+        "query": "site:baesystems.com \"October\" \"2026\" technology manufacturing",
+        "status": "executed"
+      },
+      {
+        "query": "\"Northrop\" \"East Gate 3\" \"September 9, 2026\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:northropgrumman.com \"2026\" \"October\" engineering",
+        "status": "executed"
+      },
+      {
+        "query": "aerospace AI engineering design startup September October 2026 simulation funding",
+        "status": "executed",
+        "outcome": "Located Flow, Zenithon and Vinci leads; later primary verification performed."
+      },
+      {
+        "query": "aircraft turbine additive manufacturing startup September 2026 technology",
+        "status": "executed",
+        "outcome": "Located Stuttgart combustion validation and AML3D; excluded stale and unmanned-aircraft hits."
+      },
+      {
+        "query": "site:zenithon.ai September 2026 funding",
+        "status": "executed",
+        "outcome": "Only privacy/evergreen result for exact domain; no dated funding primary obtained."
+      },
+      {
+        "query": "site:vinci4d.com October 2026 250 million",
+        "status": "executed",
+        "outcome": "No relevant exact-domain result; company actually uses getvinci.ai."
+      },
+      {
+        "query": "Vinci $250 million October 6 2026 official",
+        "status": "executed",
+        "outcome": "Ambiguous VINCI construction results; narrowed company name next."
+      },
+      {
+        "query": "Zenithon AI seed funding September 30 2026 official",
+        "status": "executed",
+        "outcome": "Located investor HAX and Entropy seed announcement leads."
+      },
+      {
+        "query": "\"Vinci4D\" \"2026\" \"250\"",
+        "status": "executed",
+        "outcome": "Located SiliconANGLE with link to issuer Business Wire release; primary verified."
+      },
+      {
+        "query": "site:hax.co Zenithon plasma September 2026",
+        "status": "executed",
+        "outcome": "Located HAX official investor announcement; opened and verified Sep30."
+      }
+    ],
+    "verification_evidence": [
+      {
+        "primary_url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216480883373/index.html",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Date explicitly displayed Sep12; URL has Sep22 ingestion stamp, not publication date. Technical award announcement, not assertion that all underlying breakthroughs occurred within the window."
+        },
+        "history_note": "Parent confirms this award was already seen in Sep23 prior check; raw Scout retention only."
+      },
+      {
+        "primary_url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216541422877/index.html",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Company republishes CNR field interview dated Sep21; corporate publication is Sep22. Aviation technology transfer into industrial turbines; exclude if strict aircraft-only scope."
+        }
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-a350f-freighter-successfully-performs-its-maiden-flight",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Date verified in dateline. Merged same-event technical follow-up: https://www.airbus.com/en/newsroom/stories/2026-09-a350f-first-flight-new-freighter-aircraft-takes-to-the-sky . Story says ten-month/400-hour campaign; release says over nine months; avoid falsely reconciling schedules."
+        },
+        "history_note": "Parent notes prior engine Scout Rolls-Royce link covers same event. Airbus-specific predictive-model/control-law transition and FTI integration facts may add detail; deduplicate at event level."
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Sep14 verified in article's related-news section and Airbus A350F journey listing; Sep29 first-flight banner is a subsequent update. Separate preflight simulation/test-method milestone."
+        }
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-invests-into-uk-manufacturing-to-support-global-production-ramp-up",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Sep21 explicit dateline; six jigs and first wing already underway verified. Linked Belfast expansion is Aug19 and excluded as outside window."
+        }
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-10-shaping-the-future-of-flight-testing",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Oct5 verified in related-news date and Airbus newsroom. Concrete custom test installation and training deployment, not generic H160 product page."
+        }
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-strengthens-a320-family-delivery-capacity-in-toulouse-with-a-new-delivery-centre",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Sep15 verified in source dateline, rather than Sep16 date of social repost that led to it."
+        }
+      },
+      {
+        "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-delivers-first-aircraft-from-its-second-fal-in-china",
+        "verification": {
+          "access": "opened primary full text",
+          "evidence": "Sep16 verified in dateline. Original discovered URL ending delivery-centre-0-1 redirects to canonical URL retained here."
+        }
+      },
+      {
+        "url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+        "date": "2026-09-21",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://boeing.mediaroom.com/2026-09-14-Boeing,-American-Airlines-Complete-First-737-MAX-Landing-Gear-Exchange",
+        "date": "2026-09-14",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://boeing.mediaroom.com/news-releases-statements?item=131723",
+        "date": "2026-10-01",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://boeing.mediaroom.com/2026-09-29-U-S-Navy-Selects-Boeing-for-F-A-XX-Program",
+        "date": "2026-09-29",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://boeing.mediaroom.com/news-releases-statements?item=131715",
+        "date": "2026-09-13",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-10-06-Lockheed-Martin-Announces-First-Flight-of-Moroccos-First-F-16-Block-72",
+        "date": "2026-10-06",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-21-Lockheed-Martin-Connects-F-35-Crews-Across-Multiple-Locations-for-Live-Mission-Rehearsal",
+        "date": "2026-09-21",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-17-Lockheed-Martin-Fast-Tracks-PAC-3-R-MSE-Components-in-Less-Than-One-Month-in-Partnership-with-GM-Defense",
+        "date": "2026-09-17",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-16-Lockheed-Martin-Demonstrates-Legion-Sensor-System-with-Pod-to-Pod-Data-Link",
+        "date": "2026-09-16",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://news.lockheedmartin.com/lockheed-martin-secures-space-force-contracts-contracts-to-further-modernize-the-GPS-ground-segment",
+        "date": "2026-09-10",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-receives-16-million-to-qualify-rh45-technology-for-radiation-hardened-space-missions",
+        "date": "2026-09-16",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-completes-successful-critical-design-review-for-us-space-force-missile-warning-and-tracking-program",
+        "date": "2026-09-21",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-to-deliver-m-code-gps-for-u-s-navy-joint-precision-approach-and-landing-system",
+        "date": "2026-10-01",
+        "evidence": "Opened primary source; date and technical facts verified in article body."
+      },
+      {
+        "url": "https://lcecon.laytoncityutah.gov/northrop-grumman-opens-new-manufacturing-facility-in-layton-utah/",
+        "date": "2026-09-09",
+        "evidence": "Official city economic-development article displays September 9, 2026 publication dateline separately from event text; opened and checked. Replaces undated corporate event page."
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/delivering-electronic-warfare-systems-for-f-35-stealth-fighters",
+        "date": "2026-10-06",
+        "evidence": "Primary article opened; publication dateline and technical facts verified."
+      },
+      {
+        "url": "https://www.boeing.com/features/2026/09/ceo-737-10-certification-very-soon-more-to-do-to-stabilize-production",
+        "date": "2026-09-16",
+        "evidence": "Primary article opened; publication dateline and technical facts verified."
+      },
+      {
+        "url": "https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters",
+        "date": "2026-09-29",
+        "evidence": "Primary article opened; publication dateline and technical facts verified."
+      },
+      {
+        "url": "https://sustainability.lockheedmartin.com/en-us/news/features/2026/Driving-Innovation-Lockheed-Martins-PAC-3-MSE-Partnerships.html",
+        "date": "2026-09-09",
+        "evidence": "Primary article opened; publication dateline and technical facts verified."
+      },
+      {
+        "primary_url": "https://www.flowengineering.com/blog/series-b-press-release",
+        "verified_at": "2026-10-08T21:14:27.714Z",
+        "date_evidence": "Explicit publication date visible in primary article heading.",
+        "evidence_location": "Flow release paragraphs16–29,38",
+        "caveats": [
+          "Source is organization/investor-authored, not independent validation."
+        ]
+      },
+      {
+        "primary_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+        "verified_at": "2026-10-08T21:14:27.715Z",
+        "date_evidence": "Explicit publication date visible in primary article heading.",
+        "evidence_location": "Stuttgart release paragraphs37–59",
+        "caveats": [
+          "Source is organization/investor-authored, not independent validation."
+        ]
+      },
+      {
+        "primary_url": "https://hax.co/sosv-hax-backs-zenithon-to-build-world-models-for-plasma-physics/",
+        "verified_at": "2026-10-08T21:14:27.715Z",
+        "date_evidence": "Explicit publication date visible in primary article heading.",
+        "evidence_location": "HAX announcement paragraphs21–30",
+        "caveats": [
+          "Source is organization/investor-authored, not independent validation."
+        ]
+      },
+      {
+        "primary_url": "https://www.businesswire.com/news/home/20261006307372/en/Vinci-Raises-%24250M-Series-B-at-%241.5B-Valuation-to-Build-the-Intelligence-Infrastructure-for-a-New-Era-of-Hardware-Engineering",
+        "verified_at": "2026-10-08T21:14:27.715Z",
+        "date_evidence": "CEO blog dated10.6.2026, company homepage explicitly October6,2026; blog links the same BusinessWire release.",
+        "evidence_location": "Business Wire paragraphs29–48",
+        "caveats": [
+          "Source is organization/investor-authored, not independent validation.",
+          "Product capabilities were partly commercialized before this funding; do not call all capabilities new on October6."
+        ],
+        "supporting_urls": [
+          "https://www.getvinci.ai/blog/why-physics-needs-to-move-at-the-pace-of-design/"
+        ]
+      }
+    ],
+    "access_log": [
+      {
+        "url": "https://www.avic.com/c/2026-10-08/648497.shtml",
+        "result": "web open/cache miss and curl HTTP405; headline/date only from official subsidiary index",
+        "candidate": "AG600 completes four-month northern forest deployment; withheld because primary body inaccessible"
+      },
+      {
+        "url": "https://www.avic.com/c/2026-09-30/648453.shtml",
+        "result": "web failed on avic.com and avic.com.cn",
+        "candidate": "Carbon brake materials; withheld. Search found similar story in Aug1, so fresh-development date uncertain."
+      },
+      {
+        "url": "https://www.avic.com/c/2026-09-30/648446.shtml",
+        "result": "web failed on both domains",
+        "candidate": "Robot precision sensors; withheld, aircraft relevance weak"
+      },
+      {
+        "url": "https://www.avic.com.cn/c/2026-09-23/648141.shtml",
+        "result": "opened; Sep23 quality-management meeting; excluded no concrete engineering advance"
+      },
+      {
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2026-08-airbus-kicks-off-wing-facility-extension-with-major-investment-into-belfast-site",
+        "result": "opened; Aug19 outside lookback"
+      },
+      {
+        "url": "https://hde.aecc.cn/hde/xwzx/yxdt/2026090414044588813/index.html",
+        "result": "search surfaced AI/3D-scanning technical story; Sep4 outside window"
+      },
+      {
+        "url": "https://www.sheitc.sh.gov.cn/dsxxjyzl/20260908/d396377f245a4090959c17bf34a70ed2.html",
+        "result": "search surfaced AECC green hybrid aviation programme; Sep8 outside window"
+      },
+      {
+        "url": "https://www.airbus.com/en/newsroom/stories/2026-09-a-higher-power-to-care",
+        "result": "opened Sep24; routine H145 operator profile excluded"
+      },
+      {
+        "url": "https://www.publicnow.com/view/23BE8C7D1C7C647D0C22F41B8F40919BDEA73C13",
+        "result": "search result identifies AVIC advanced-manufacturing forum Sep4; outside window"
+      },
+      {
+        "url": "https://news.northropgrumman.com/news/releases",
+        "status": "403 Forbidden"
+      },
+      {
+        "url": "https://news.northropgrumman.com/",
+        "status": "fetch error"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/news-releases?mobile=No&l=100",
+        "status": "cache miss; default and o=5/10/15 pages accessible"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/newsroom",
+        "status": "accessible but dynamic listing no results"
+      },
+      {
+        "url": "https://lockheedmartin.com/en-us/news/features/2026/Quantum-Innovation-Center-Advances-Quantum-Capabilities-with-Speed-and-Scale.html",
+        "status": "403"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/2026/four-ways-gps-satellites-are-being-engineered-for-the-future.html",
+        "status": "403"
+      },
+      {
+        "url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/2026-09-14-Boeing,-American-Airlines-Complete-First-737-MAX-Landing-Gear-Exchange",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/news-releases-statements?item=131723",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/2026-09-29-U-S-Navy-Selects-Boeing-for-F-A-XX-Program",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/news-releases-statements?item=131715",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-10-06-Lockheed-Martin-Announces-First-Flight-of-Moroccos-First-F-16-Block-72",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-21-Lockheed-Martin-Connects-F-35-Crews-Across-Multiple-Locations-for-Live-Mission-Rehearsal",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-17-Lockheed-Martin-Fast-Tracks-PAC-3-R-MSE-Components-in-Less-Than-One-Month-in-Partnership-with-GM-Defense",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/2026-09-16-Lockheed-Martin-Demonstrates-Legion-Sensor-System-with-Pod-to-Pod-Data-Link",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/lockheed-martin-secures-space-force-contracts-contracts-to-further-modernize-the-GPS-ground-segment",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-receives-16-million-to-qualify-rh45-technology-for-radiation-hardened-space-missions",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-completes-successful-critical-design-review-for-us-space-force-missile-warning-and-tracking-program",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/bae-systems-to-deliver-m-code-gps-for-u-s-navy-joint-precision-approach-and-landing-system",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://www.northropgrumman.com/what-we-do/events/b-21-east-gate-3-grand-opening",
+        "status": "primary opened; date and facts checked"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/news-releases-statements",
+        "status": "chronological listing reviewed through Sep9; Aug releases reached"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/news-releases?mobile=No",
+        "status": "latest five releases reviewed"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/news-releases?o=5",
+        "status": "five additional releases reviewed"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/news-releases?o=10",
+        "status": "five additional releases reviewed"
+      },
+      {
+        "url": "https://news.lockheedmartin.com/news-releases?o=15",
+        "status": "Sep10 through Aug30 reviewed; date window exhausted"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us",
+        "status": "technical links reviewed"
+      },
+      {
+        "url": "https://investor.northropgrumman.com/news-releases",
+        "status": "primary investor listing opened"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/2026/Quantum-Innovation-Center-Advances-Quantum-Capabilities-with-Speed-and-Scale.html",
+        "status": "403"
+      },
+      {
+        "url": "https://www.baesystems.com/en-us/article/delivering-electronic-warfare-systems-for-f-35-stealth-fighters",
+        "status": "primary opened; publication date and technical facts checked"
+      },
+      {
+        "url": "https://www.boeing.com/features/2026/09/ceo-737-10-certification-very-soon-more-to-do-to-stabilize-production",
+        "status": "primary opened; publication date and technical facts checked"
+      },
+      {
+        "url": "https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters",
+        "status": "primary opened; publication date and technical facts checked"
+      },
+      {
+        "url": "https://sustainability.lockheedmartin.com/en-us/news/features/2026/Driving-Innovation-Lockheed-Martins-PAC-3-MSE-Partnerships.html",
+        "status": "primary opened; publication date and technical facts checked"
+      },
+      {
+        "url": "https://lcecon.laytoncityutah.gov/northrop-grumman-opens-new-manufacturing-facility-in-layton-utah/",
+        "status": "opened; Sep9 publication date verified"
+      },
+      {
+        "url": "https://investor.northropgrumman.com/news-releases/news-release-details/meet-fortitudetm-single-chip-supercharging-data-speed-and-system",
+        "status": "403 Forbidden"
+      }
+    ],
+    "negative_findings": [
+      "Drone/UAS/counter-UAS/PHASA-35 articles excluded",
+      "Routine aircraft orders and generic financial releases excluded",
+      "Northrop Sentinel inert ICBM assembly not included in aircraft-focused engineering results",
+      "Lockheed quantum/GPS manufacturing feature candidates not included because primary open failed",
+      "AML3D Sep22 known prior candidate: official page returned403; not retained again on snippet alone.",
+      "Flow RVTech partnership July13 out of window; background only.",
+      "Vinci February thermo-mechanical product release outside window; October funding not evidence of new product launch.",
+      "Hyphen article crawled five months ago; event branding September2026 not publication evidence.",
+      "Poseidon unmanned aircraft excluded."
+    ],
+    "unverified_leads": [],
+    "discovery": {
+      "candidate_count": 4,
+      "organizations": [
+        "Flow Engineering",
+        "University of Stuttgart / DLR Stuttgart",
+        "Zenithon AI",
+        "Vinci"
+      ],
+      "advances_rotation": false
+    },
+    "history_review": {
+      "files": [
+        "gpt_handoff/company/2026-09-23.json",
+        "gpt_handoff/company/2026-10-07.json",
+        "gpt_handoff/company/2026-10-08.json"
+      ],
+      "note": "AECC AES100, Boeing landing-gear exchange and AirbusA350F-related signals may overlap earlier Scouts. Curator must consult publication history."
+    },
+    "concurrency_audit": {
+      "initial_receipt_check": "2026-10-08T21:11:51Z",
+      "initial_receipt_result": "404",
+      "write_policy": "Recheck receipt immediately before write; current SHA for replacement; state onlyafter verified datedcommit.",
+      "prewrite_receipt_check": "2026-10-08T21:17:24Z",
+      "prewrite_receipt_result": "404",
+      "prewrite_handoff_result": "404",
+      "prewrite_state_blob": "72110d5ddea27a29471527c5e1e9c8eca07d57f3"
+    },
+    "query_recording_note": "Top-level searched_queries is a representative20-query subset; all81 actually executed searches are retained in research_plan.executed_queries. Index navigation/open actions are recorded separately and not counted as search queries."
+  }
+}
