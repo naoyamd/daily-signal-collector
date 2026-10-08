@@ -1,0 +1,2131 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-09T06:23:04.056193+09:00",
+  "items": [
+    {
+      "title": "CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning",
+      "url": "https://arxiv.org/abs/2610.04262",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-10-03",
+      "excerpt": "CADForge decomposes a single image into CAD components, reasons explicitly about geometric constraints, synthesizes CadQuery code and uses a review agent for refinement. Failure-guided tool construction and compact CAD memory support reuse. Reported gains are research reconstruction benchmarks, not manufacturing qualification.",
+      "authors": [
+        "Keyang Lu",
+        "Zhifei Yang",
+        "Tianao Dong",
+        "Mingzhe Xing",
+        "Zhen Xiao",
+        "Yikai Wang"
+      ],
+      "doi": "10.48550/arXiv.2610.04262",
+      "query": "\"CAD\" \"2026\" \"October 6\" arxiv",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "agents",
+        "geometry"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Label-free physics-informed strength reduction and a neural operator for the reliability of spatially variable slopes",
+      "url": "https://arxiv.org/abs/2610.04828",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-10-04",
+      "excerpt": "A label-free PINN supplies training data for a slope-reliability operator; Abaqus is used only for verification. On 52 random fields safety factors agree within 2–3% RMS, but 3% scatter can double a 0.001 failure probability. Strong illustration of how surrogate errors amplify in reliability tails; results refer to one mesh.",
+      "authors": [
+        "Apisit Robjanghvad",
+        "Sompote Youwai"
+      ],
+      "doi": "10.48550/arXiv.2610.04828",
+      "query": "\"neural operator\" \"Oct\" \"2026\"",
+      "tags": [
+        "engineering_ai",
+        "FEA",
+        "PINN",
+        "neural operator",
+        "uncertainty"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
+      "url": "https://arxiv.org/abs/2610.03265",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-10-02",
+      "excerpt": "SPEAR separates low/high-frequency latent features and merges experts using knowledge and routing similarity. Tests span twelve PDE datasets; authors report halving expert count while maintaining or improving accuracy. Pretraining and transfer benchmarks, not industrial CFD validation.",
+      "authors": [
+        "Dengdi Sun",
+        "Xiaoya Zhou",
+        "Xiao Wang",
+        "Wanli Lyu",
+        "Jin Tang",
+        "Bin Luo"
+      ],
+      "doi": "10.48550/arXiv.2610.03265",
+      "query": "\"neural operator\" \"Oct\" \"2026\"",
+      "tags": [
+        "engineering_ai",
+        "neural operator",
+        "MoE",
+        "PDE"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Green-Routed Neural Operators: Physics Determines Where the Network Reads",
+      "url": "https://arxiv.org/abs/2610.05337",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-10-04",
+      "excerpt": "GRNO uses governing equations to choose latent-feature read coordinates rather than treating transport fields only as values. Across five PDE systems it reports lowest mean final error in four over 40 autoregressive steps; interventions test the importance of routing direction and alignment.",
+      "authors": [
+        "Chenhao Si",
+        "Ming Yan"
+      ],
+      "doi": "10.48550/arXiv.2610.05337",
+      "query": "\"neural operator\" \"Oct\" \"2026\"",
+      "tags": [
+        "engineering_ai",
+        "neural operator",
+        "physics-informed",
+        "PDE"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Learning the Willmore flow with a lightweight neural operator",
+      "url": "https://arxiv.org/abs/2610.03534",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-10-02",
+      "excerpt": "A lightweight phase-field operator models Willmore flow. Radial kernels reduce spurious anisotropy, and radial Fourier profiles transfer learned 2D kernels into 3D. Demonstrations reconstruct curves and surfaces from unoriented point clouds without additional 3D training in the transferred model.",
+      "authors": [
+        "Elie Bretin",
+        "Roland Denis",
+        "Tokuhiro Eto",
+        "Simon Masnou"
+      ],
+      "doi": "10.48550/arXiv.2610.03534",
+      "query": "\"neural operator\" \"Oct\" \"2026\"",
+      "tags": [
+        "engineering_ai",
+        "geometry",
+        "neural operator",
+        "point clouds"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Reliability of AI/ML Computational Searches for Magnetic Materials: Databases, Validation, and Synthesizability",
+      "url": "https://arxiv.org/abs/2610.07552",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-06",
+      "excerpt": "The authors argue that magnetic-material discovery needs electronic, thermodynamic, kinetic and experimental validation, not merely more structures. A synthesis-window descriptor and Fe-Co-B example show why a T=0-favored ordered structure may be kinetically inaccessible. A validation framework rather than a new synthesized magnet.",
+      "authors": [
+        "Vladimir Antropov",
+        "Subhadip Pradhan",
+        "Kirill D. Belashchenko"
+      ],
+      "doi": "10.48550/arXiv.2610.07552",
+      "query": "materials chemistry AI discovery after:2026-10-06 before:2026-10-09",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "validation",
+        "synthesizability"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Dynamic Kinetic Evaluation Favors Compositionally Diverse Multicomponent Alloy Nanoparticles for Hydrogen Evolution",
+      "url": "https://arxiv.org/abs/2610.08040",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-06",
+      "excerpt": "ML energies, thermodynamic sampling, Bayesian optimization and kinetic Monte Carlo screen 85-atom nanoparticles in a nine-element space. Kinetic optimization favors Au-Co-Cu-Pd while static adsorption screening favors Pt-rich compositions. Computational comparison shows the importance of reaction pathways; no experimental catalyst validation claimed.",
+      "authors": [
+        "Koki Otsuka",
+        "Anh Khoa Augustin Lu",
+        "Koji Shimizu",
+        "Satoshi Watanabe"
+      ],
+      "doi": "10.48550/arXiv.2610.08040",
+      "query": "materials chemistry AI discovery after:2026-10-06 before:2026-10-09",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "catalysis",
+        "Bayesian optimization"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Evolutionary One-Step Generators: Fast and Diverse Sampling for Discrete Design",
+      "url": "https://arxiv.org/abs/2610.08367",
+      "source": "arXiv",
+      "source_kind": "paper",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-06",
+      "excerpt": "EGO trains compact discrete graph generators with evolution strategies and diversity/structural rewards. Authors report faster molecular scaffold completion and more distinct elite neural architectures. Estimated operations and observed wall-clock results use different baselines; chemical validity is not experimental efficacy.",
+      "authors": [
+        "Marcus Vukojevic",
+        "Erik Nielsen",
+        "Veronica Lachi",
+        "Andrea Passerini",
+        "Giovanni Iacca"
+      ],
+      "doi": "10.48550/arXiv.2610.08367",
+      "query": "materials chemistry AI discovery after:2026-10-06 before:2026-10-09",
+      "tags": [
+        "scientific_wildcards",
+        "chemistry",
+        "generative design"
+      ],
+      "organization": "Research collaboration",
+      "document_type": "preprint",
+      "language": "en",
+      "company": "Research collaboration"
+    },
+    {
+      "title": "Frontier Models Reconstruct 3D by Hill-Climbing a 2D Proxy",
+      "url": "https://benchcad.com/blog/2d-proxy",
+      "source": "BenchCAD",
+      "source_kind": "official",
+      "category": "AIによる設計",
+      "published_at": "2026-10-06",
+      "excerpt": "BenchCAD finds models frequently optimize rendered silhouette overlap instead of inspecting images. Removing self-renders preserved scores at roughly half API cost in one comparison. Fine internal geometry can remain wrong despite high 2D fit; experiments also show expert judgments favor appearance. A benchmark study with explicit limits.",
+      "authors": [
+        "BenchCAD Team"
+      ],
+      "query": "\"CAD\" \"2026\" \"October 7\" AI",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "benchmark",
+        "verification"
+      ],
+      "organization": "BenchCAD",
+      "document_type": "research_blog",
+      "language": "en",
+      "company": "BenchCAD",
+      "doi": null
+    },
+    {
+      "title": "ORNL selected for six Phase II Genesis Mission awards",
+      "url": "https://www.ornl.gov/news/ornl-selected-for-six-phase-ii-genesis-mission-awards/",
+      "source": "Oak Ridge National Laboratory",
+      "source_kind": "press_release",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-08",
+      "excerpt": "Six multi-year awards cover closed-loop quantum-material discovery, AI-assisted HPC software, rare-earth separation, accelerator operations, extreme-environment specs-to-silicon and a SPARC digital twin. These are funded project aims, including surrogate validation and intelligent design agents, rather than delivered scientific results.",
+      "authors": [
+        "Sumner S Brown Gibbs"
+      ],
+      "query": "site:ornl.gov/news \"October\" \"2026\"",
+      "tags": [
+        "scientific_wildcards",
+        "HPC",
+        "EDA",
+        "materials",
+        "agents",
+        "fusion"
+      ],
+      "organization": "Oak Ridge National Laboratory / DOE",
+      "document_type": "institutional_news",
+      "language": "en",
+      "company": "Oak Ridge National Laboratory / DOE",
+      "doi": null
+    },
+    {
+      "title": "Automation is shaping the future of American manufacturing",
+      "url": "https://www.ornl.gov/news/automation-shaping-the-future-of-american-manufacturing/",
+      "source": "Oak Ridge National Laboratory",
+      "source_kind": "corporate_tech",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-07",
+      "excerpt": "ORNL details three-arm MedUSA wire-arc additive manufacturing with coordinated deposition, sensing and adaptive control, alongside reinforced thermoforming and integrated machining/inspection. Future Foundries reports up to 68% shorter production time. This is a technical overview of ongoing work, not a wholly new system launch.",
+      "authors": [],
+      "query": "site:ornl.gov/news \"October\" \"2026\"",
+      "tags": [
+        "scientific_wildcards",
+        "robotics",
+        "additive manufacturing",
+        "control"
+      ],
+      "organization": "Oak Ridge National Laboratory",
+      "document_type": "institutional_news",
+      "language": "en",
+      "company": "Oak Ridge National Laboratory",
+      "doi": null
+    },
+    {
+      "title": "From legacy finite element modeling to explainable simulation: Technical requirements for XAI in computational mechanics",
+      "url": "https://link.springer.com/article/10.1007/s00466-026-02845-z",
+      "source": "Computational Mechanics / Springer",
+      "source_kind": "journal",
+      "category": "AIによる設計",
+      "published_at": "2026-09-11",
+      "excerpt": "Barna Szabó connects explainable simulation to control of model-form and discretization errors, hierarchical finite-element formulations and verification. Spherical-shell examples ground the argument. A methodological requirements paper; it does not establish a general explanation method for black-box neural surrogates.",
+      "authors": [
+        "Barna Szabó"
+      ],
+      "doi": "10.1007/s00466-026-02845-z",
+      "query": "\"finite element\" \"October\" \"2026\" \"AI\"",
+      "tags": [
+        "engineering_ai",
+        "FEA",
+        "XAI",
+        "verification"
+      ],
+      "document_type": "journal article",
+      "language": "en",
+      "organization": "Computational Mechanics / Springer",
+      "company": "Computational Mechanics / Springer"
+    },
+    {
+      "title": "AI Is Finally Learning How Products Work",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/ai-is-finally-learning-how-products-work/",
+      "source": "Autodesk",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-10-07",
+      "excerpt": "Autodesk explains context-aware Fusion Assistant workflows, including finding similar edges for repeated fillets and proposing parameter tables for review before creation. Geometry, design intent, constraints and lifecycle traceability frame the approach. Vendor examples illustrate workflow direction without independent productivity measurement.",
+      "authors": [
+        "Aishwarya Balamukundan"
+      ],
+      "query": "\"CAD\" \"2026\" \"October 7\" AI",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "product context",
+        "agents"
+      ],
+      "organization": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "Autodesk",
+      "doi": null
+    },
+    {
+      "title": "food4Rhino webinar: Talk to your Rhino – Raven AI V2 launch",
+      "url": "https://blog.rhino3d.com/2026/09/food4rhino-webinartalk-to-your-rhino.html",
+      "source": "Rhino / McNeel",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-09-25",
+      "excerpt": "Rhino announces an October 7 Raven CAD V2 session describing conversational editing of parametric geometry, integration with existing files, Rhino plug-in control and Grasshopper automation. Announcement verifies intended capabilities and event date; it does not by itself verify V2 general availability or measured performance.",
+      "authors": [],
+      "query": "\"CAD\" \"2026\" \"October 7\" AI",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "Rhino",
+        "agents"
+      ],
+      "organization": "Raven / Robert McNeel & Associates",
+      "document_type": "webinar announcement",
+      "language": "en",
+      "company": "Raven / Robert McNeel & Associates",
+      "doi": null
+    },
+    {
+      "title": "Native AI for MBSE: Lessons Learned and Measures from a Knowledge-Grounded Experimentation Platform",
+      "url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+      "source": "CMU Software Engineering Institute",
+      "source_kind": "paper",
+      "category": "AIによる設計",
+      "published_at": "2026-09-24",
+      "excerpt": "The workshop presentation compares unassisted SysML v2 generation, language validation and a full MCP/knowledge/skills toolchain. Validation removes language errors while knowledge and workflows improve modeling depth. Its pattern measure explicitly is not proof of semantic correctness; presentation took place September 23.",
+      "authors": [
+        "Colin Dempsey"
+      ],
+      "query": "site:sei.cmu.edu \"Native AI for MBSE: Lessons\"",
+      "tags": [
+        "engineering_ai",
+        "MBSE",
+        "SysML v2",
+        "MCP",
+        "validation"
+      ],
+      "organization": "Carnegie Mellon University Software Engineering Institute",
+      "document_type": "conference presentation",
+      "language": "en",
+      "company": "Carnegie Mellon University Software Engineering Institute",
+      "doi": null
+    },
+    {
+      "title": "AI-Augmented AADL in Visual Studio Code",
+      "url": "https://sei.cmu.edu/blog/ai-augmented-aadl-in-visual-studio-code/",
+      "source": "CMU Software Engineering Institute",
+      "source_kind": "official",
+      "category": "AIによる設計",
+      "published_at": "2026-09-16",
+      "excerpt": "SEI pairs an AADL language server and deterministic architecture analyses with an AI coding agent. A flight-controller example exercises latency, bus-load and mode reachability. Authors distinguish internally consistent model results from evidence that real-world requirements and assumptions are correct.",
+      "authors": [
+        "Colin Dempsey",
+        "Lutz Wrage"
+      ],
+      "query": "site:sei.cmu.edu \"AI-Augmented AADL in Visual Studio Code\"",
+      "tags": [
+        "engineering_ai",
+        "MBSE",
+        "AADL",
+        "verification"
+      ],
+      "organization": "Carnegie Mellon University Software Engineering Institute",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "Carnegie Mellon University Software Engineering Institute",
+      "doi": null
+    },
+    {
+      "title": "Gene-driven self-morphing microtubule-based active matter",
+      "url": "https://www.nature.com/articles/s41563-026-02767-4",
+      "source": "Nature Materials",
+      "source_kind": "journal",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-08",
+      "excerpt": "Cell-free gene expression embedded in microtubule networks programs steady, pulsed, arrested and oscillatory mechanical states. A reaction-mechanics model links circuit parameters to behavior. Experimental programmable-materials wildcard, not an AI result; publisher search extract verified while direct page fetch failed.",
+      "authors": [
+        "Rochelle Silverman",
+        "Erez Zerbib",
+        "David Garenne",
+        "Hillel Aharoni",
+        "Vincent Noireaux",
+        "Alexandra M. Tayar"
+      ],
+      "doi": "10.1038/s41563-026-02767-4",
+      "query": "site:nature.com/articles \"Published: 08 October 2026\" materials",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "active matter"
+      ],
+      "document_type": "journal article",
+      "language": "en",
+      "organization": "Nature Materials",
+      "company": "Nature Materials"
+    },
+    {
+      "title": "Universal hydrogen-free synthesis and elemental doping of two-dimensional transition metal selenides",
+      "url": "https://www.nature.com/articles/s41467-026-78372-5",
+      "source": "Nature Communications",
+      "source_kind": "journal",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-08",
+      "excerpt": "A hydrogen-free CVD method makes several classes of 2D transition-metal selenides and supports metal doping. Al-doped WSe2 films report 28.36 cm²/V/s hole mobility. Materials-processing wildcard; early accepted article, and direct fetch failed, so evidence is limited to the publisher’s indexed abstract.",
+      "authors": [
+        "Ping Man",
+        "Lok Wing Wong",
+        "Ka Ho Leung",
+        "Zhiqiang Guan",
+        "Tianren Chen",
+        "Honglin Chen",
+        "Jiangbo Peng",
+        "Mingjie Li",
+        "Chun-Sing Lee",
+        "Qingming Deng",
+        "Jiong Zhao",
+        "Thuc Hue Ly"
+      ],
+      "doi": "10.1038/s41467-026-78372-5",
+      "query": "site:nature.com/articles \"Published: 08 October 2026\" materials",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "semiconductors",
+        "CVD"
+      ],
+      "document_type": "peer-reviewed early article",
+      "language": "en",
+      "organization": "Nature Communications",
+      "company": "Nature Communications"
+    },
+    {
+      "title": "Sapphire discovery could reshape future brain-inspired electronics",
+      "url": "https://www.aps.anl.gov/APS-News/2026-10-02/sapphire-discovery-could-reshape-future-brain-inspired-electronics/2026-10-02",
+      "source": "Argonne / Advanced Photon Source",
+      "source_kind": "official",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-01",
+      "excerpt": "X-ray microscopy shows VO2 switching filaments induce strain tens of micrometers into sapphire, which feeds back on device behavior. Multiple devices and substrates were tested. The finding makes substrate mechanics relevant to neuromorphic-device design; the source article is dated October 1 despite the October 2 mirror URL.",
+      "authors": [
+        "Joseph E. Harmon"
+      ],
+      "query": "site:anl.gov \"October\" \"2026\" materials discovery",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "neuromorphic",
+        "characterization"
+      ],
+      "organization": "Argonne National Laboratory",
+      "document_type": "institutional_news",
+      "language": "en",
+      "company": "Argonne National Laboratory",
+      "doi": null
+    },
+    {
+      "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+      "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+      "source": "MIT News",
+      "source_kind": "official",
+      "category": "scientific_wildcards",
+      "published_at": "2026-09-29",
+      "excerpt": "A thin gel robot coated with light-responsive muscle cells swims at about four body lengths per minute and navigates a simple maze. Researchers manually steered the light source; this is a biohybrid actuation demonstration, not autonomous navigation. Thin 2D muscle layers offer a route to lighter biohybrid machines.",
+      "authors": [
+        "Jennifer Chu"
+      ],
+      "query": "site:news.mit.edu \"2026\" \"September\" \"robot\"",
+      "tags": [
+        "scientific_wildcards",
+        "robotics",
+        "biohybrid",
+        "soft robotics"
+      ],
+      "organization": "Massachusetts Institute of Technology",
+      "document_type": "institutional_news",
+      "language": "en",
+      "company": "Massachusetts Institute of Technology",
+      "doi": null
+    },
+    {
+      "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+      "url": "https://www.nature.com/articles/s41467-026-77376-5",
+      "source": "Nature Communications",
+      "source_kind": "journal",
+      "category": "scientific_wildcards",
+      "published_at": "2026-10-07",
+      "excerpt": "A two-channel, five-layer diffractive network classifies 81 optical topologies using Fourier-mode masks with roughly 1,000-fold fewer trainable parameters than pixel masks. Experiments test noisy detection and image transmission. Publisher indexed text verified; abstract and body disagree on 15 versus 14 encoding levels, so that detail is omitted.",
+      "authors": [
+        "Hadrian Bezuidenhout",
+        "Cade Peters",
+        "Ram Nandan Kumar",
+        "Andrew Forbes",
+        "Isaac Nape"
+      ],
+      "doi": "10.1038/s41467-026-77376-5",
+      "query": "site:nature.com \"Published: 07 October 2026\" \"machine learning\"",
+      "tags": [
+        "scientific_wildcards",
+        "optical computing",
+        "neural networks",
+        "South Africa",
+        "non_us_rotation"
+      ],
+      "organization": "University of the Witwatersrand",
+      "document_type": "journal article",
+      "language": "en",
+      "company": "University of the Witwatersrand"
+    },
+    {
+      "title": "LZ Sees Surprising Result in Search for Dark Matter",
+      "url": "https://www.nersc.gov/news-and-events/news/lz-sees-surprising-result-in-search-for-dark-matter",
+      "source": "NERSC",
+      "source_kind": "official",
+      "category": "scientific_wildcards",
+      "published_at": "2026-09-16",
+      "excerpt": "NERSC details the roughly 1 PB/year LZ workflow: near-real-time ESnet transfers, bias-mitigating signal salting, reduction within 24 hours, shared storage and analysis. A newly reported particle interaction remains below discovery significance. Useful HPC/experimental-data integration case; primary indexed text verified, direct fetch failed.",
+      "authors": [
+        "Elizabeth Ball",
+        "Lauren Biron"
+      ],
+      "query": "site:nersc.gov \"2026\" \"September\" science",
+      "tags": [
+        "scientific_wildcards",
+        "HPC",
+        "data infrastructure",
+        "experimental workflow"
+      ],
+      "organization": "NERSC / Lawrence Berkeley National Laboratory",
+      "document_type": "institutional_news",
+      "language": "en",
+      "company": "NERSC / Lawrence Berkeley National Laboratory",
+      "doi": null
+    },
+    {
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-07",
+      "excerpt": "AWS describes cached ACL pre-filtering followed by query-time permission verification with authoritative sources before passages reach the LLM. A Google Drive example uses user-specific impersonation tokens. This is a concrete enterprise RAG control, not a guarantee against every leakage route.",
+      "authors": [
+        "Amit Choudhary",
+        "Surendran Raju"
+      ],
+      "doi": null,
+      "query": "site:aws.amazon.com \"Rethinking access control for RAG\"",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "governance",
+        "access control",
+        "core_agents_models"
+      ],
+      "organization": "AWS",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "AWS"
+    },
+    {
+      "title": "Automate remediation post AWS DevOps Agent investigation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-07",
+      "excerpt": "A reference workflow connects DevOps Agent investigation summaries with Lambda Durable Functions, EventBridge and Bedrock to prepare validated remediation for human approval. It separates diagnosis from production changes; a tutorial architecture, not measured customer deployment outcomes.",
+      "authors": [
+        "Michele Scarimbolo"
+      ],
+      "doi": null,
+      "query": "site:aws.amazon.com \"Automate remediation post\"",
+      "tags": [
+        "agents_enterprise",
+        "DevOps",
+        "human oversight",
+        "core_agents_models"
+      ],
+      "organization": "AWS",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "AWS"
+    },
+    {
+      "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+      "source": "AWS / Cornerstone OnDemand",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-07",
+      "excerpt": "Cornerstone describes Orion AI, a multi-agent database operations system built with Bedrock and Strands Agents. The company reports diagnosis falling from 45 to 10 minutes, developed by a three-person team in six months. The 78% gain is a customer/vendor case-study claim, not independent evaluation.",
+      "authors": [
+        "Derek Ziehl",
+        "Harpreet Chawla",
+        "Madhu Pai",
+        "Nishchai JM"
+      ],
+      "doi": null,
+      "query": "site:aws.amazon.com \"How Cornerstone OnDemand cut\"",
+      "tags": [
+        "agents_enterprise",
+        "case study",
+        "database operations",
+        "core_agents_models"
+      ],
+      "organization": "AWS / Cornerstone OnDemand",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "AWS / Cornerstone OnDemand"
+    },
+    {
+      "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+      "source": "AWS / Qlik",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-07",
+      "excerpt": "Qlik details routing, answer and specialist-agent layers, regional sovereignty controls and grounding validation against retrieved sources. Customer examples include technical-document retrieval. The 40,000-plus figure is Qlik's customer base, not proven Qlik Answers deployment count.",
+      "authors": [
+        "Sunil Yerkola",
+        "Kent McLean",
+        "Sathisan Vannadil"
+      ],
+      "doi": null,
+      "query": "site:aws.amazon.com \"How Qlik built grounded\"",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "grounding",
+        "case study",
+        "core_agents_models"
+      ],
+      "organization": "AWS / Qlik",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "AWS / Qlik"
+    },
+    {
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+      "source": "AWS",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-02",
+      "excerpt": "A bounded MCP interface translates questions into typed operations while a deterministic rules engine makes compliance determinations. A completeness receipt accounts for every scanned record, including ambiguous and unreadable cases. Reference implementation, not validation of legal correctness.",
+      "authors": [
+        "Anand Komandooru"
+      ],
+      "doi": null,
+      "query": "site:aws.amazon.com/blogs \"2026\" \"08 OCT\" agent",
+      "tags": [
+        "agents_enterprise",
+        "MCP",
+        "governance",
+        "deterministic verification",
+        "core_agents_models"
+      ],
+      "organization": "AWS",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "AWS"
+    },
+    {
+      "title": "HPE teams with NVIDIA to bring secure, governed agentic AI into enterprise production",
+      "url": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-and-nvidia-bring-secure-governed-agentic-ai-into-enterprise-production.html",
+      "source": "HPE",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-28",
+      "excerpt": "HPE describes OpenShell runtime isolation and policy enforcement outside the agent process, plus Sentry monitoring on BlueField-4. OpenShell is described as generally available; its HPE Private Cloud AI integration and confidential-computing services are planned for Q4 2026.",
+      "authors": [],
+      "doi": null,
+      "query": "AI agent enterprise release October 8 2026 September 2026 governance official",
+      "tags": [
+        "agents_enterprise",
+        "security",
+        "runtime isolation",
+        "governance",
+        "core_agents_models"
+      ],
+      "organization": "HPE",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "HPE"
+    },
+    {
+      "title": "Introducing Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "source": "Mistral AI",
+      "source_kind": "official",
+      "category": "生成AI・基盤モデル",
+      "published_at": "2026-10-06",
+      "excerpt": "Mistral launched a public API preview of its multimodal MoE model and reports coding, agentic and domain benchmark gains. Weights are promised by the end of October, not yet released. An internal CAD/STEM preference evaluation is vendor evidence, not independent engineering validation.",
+      "authors": [
+        "Mistral"
+      ],
+      "doi": null,
+      "query": "site:mistral.ai/news \"October\" \"2026\" \"Large 4\"",
+      "tags": [
+        "models_open_weights",
+        "agents_enterprise",
+        "non_us_rotation",
+        "Europe",
+        "preview",
+        "weights pending",
+        "exploration_non_us"
+      ],
+      "organization": "Mistral AI",
+      "document_type": "model_announcement",
+      "language": "en",
+      "company": "Mistral AI"
+    },
+    {
+      "title": "Beam benchmark results updated October 8; weights remain pending",
+      "url": "https://www.reflection.ai/blog/introducing-beam",
+      "source": "Reflection AI",
+      "source_kind": "official",
+      "category": "生成AI・基盤モデル",
+      "published_at": "2026-10-05",
+      "excerpt": "October 8 update revises Beam benchmark results: DeepSWE v1.1 44.4, Terminal Bench v2.1 80.1, HLE without tools 36.2 (vendor reported). The Oct5 announcement was previously scouted; this dated evaluation update is the retained delta. Weights/model card remain promised later this month. Compute estimates exclude prefill, attention and serving overhead.",
+      "authors": [],
+      "doi": null,
+      "query": "site:reflection.ai \"Beam\" \"2026\"",
+      "tags": [
+        "models_open_weights",
+        "agents_enterprise",
+        "benchmark update",
+        "weights pending",
+        "core_agents_models",
+        "material_update"
+      ],
+      "organization": "Reflection AI",
+      "document_type": "model_announcement",
+      "language": "en",
+      "company": "Reflection AI"
+    },
+    {
+      "title": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+      "url": "https://cohere.com/blog/building-multilingual-bridges",
+      "source": "Cohere Labs",
+      "source_kind": "corporate_tech",
+      "category": "生成AI・基盤モデル",
+      "published_at": "2026-10-06",
+      "excerpt": "Cohere releases Tiny Aya L2-Thinker (3.35B) and multilingual reasoning data. Authors report over 93% in-language reasoning across 60 languages, with limited accuracy trade-offs on most tasks but a larger drop on competition math. Research results do not establish enterprise reliability.",
+      "authors": [
+        "Mehrnaz Mofakhami",
+        "Julia Kreutzer",
+        "Madeline Smith",
+        "Marzieh Fadaee"
+      ],
+      "doi": null,
+      "query": "site:cohere.com \"Tiny Aya\" \"Thinker\"",
+      "tags": [
+        "models_open_weights",
+        "multilingual",
+        "research",
+        "core_agents_models"
+      ],
+      "organization": "Cohere Labs",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "Cohere Labs"
+    },
+    {
+      "title": "North 2: Enterprise AI without compromises",
+      "url": "https://cohere.com/blog/introducing-north-2",
+      "source": "Cohere",
+      "source_kind": "official",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-05",
+      "excerpt": "North 2 introduces a redesigned agent harness, reusable skills, libraries and memory, model choice, and on-premises or air-gapped deployment. Admin controls cover permissions, token consumption tiers and user/group rate limits. These are vendor-announced capabilities, not demonstrated ROI.",
+      "authors": [
+        "Cohere Team"
+      ],
+      "doi": null,
+      "query": "site:cohere.com/blog \"North 2\"",
+      "tags": [
+        "agents_enterprise",
+        "governance",
+        "sovereign AI",
+        "core_agents_models"
+      ],
+      "organization": "Cohere",
+      "document_type": "product_announcement",
+      "language": "en",
+      "company": "Cohere"
+    },
+    {
+      "title": "Introducing North Small Translate",
+      "url": "https://cohere.com/blog/north-small-translate",
+      "source": "Cohere",
+      "source_kind": "official",
+      "category": "生成AI・基盤モデル",
+      "published_at": "2026-09-10",
+      "excerpt": "North Small Translate is a 218B-total/25B-active MoE supporting 50-plus languages. Downloadable weights use CC BY-NC 4.0 for research/noncommercial use; commercial use needs separate terms. Reported translation scores use model judging and should not be read as human-certified accuracy.",
+      "authors": [
+        "Cohere Team"
+      ],
+      "doi": null,
+      "query": "site:cohere.com/blog \"North Small Translate\" \"Sep\"",
+      "tags": [
+        "models_open_weights",
+        "translation",
+        "licensing",
+        "core_agents_models"
+      ],
+      "organization": "Cohere",
+      "document_type": "model_announcement",
+      "language": "en",
+      "company": "Cohere"
+    },
+    {
+      "title": "Introducing Embed 5: A new family of frontier embedding models",
+      "url": "https://cohere.com/blog/embed-5",
+      "source": "Cohere",
+      "source_kind": "official",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-30",
+      "excerpt": "Embed 5 Pro and Fast share an embedding space, allowing one document index with either query tier. Cohere describes multimodal retrieval, 100-plus languages and 128K context. Quantized private deployment is mentioned; this is not evidence of publicly downloadable open weights.",
+      "authors": [
+        "Cohere Team"
+      ],
+      "doi": null,
+      "query": "site:cohere.com/blog \"Introducing Embed 5\"",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "embeddings",
+        "core_agents_models"
+      ],
+      "organization": "Cohere",
+      "document_type": "model_announcement",
+      "language": "en",
+      "company": "Cohere"
+    },
+    {
+      "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+      "url": "https://mistral.ai/news/mistral-x-cloudera/",
+      "source": "Mistral AI / Cloudera",
+      "source_kind": "official",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-10",
+      "excerpt": "The partnership plans Mistral model inference on Cloudera across private/public cloud, on-premises and air-gapped environments, plus proprietary-data model training within controlled boundaries. It is an integration announcement, not evidence that every configuration is already generally available.",
+      "authors": [
+        "Mistral"
+      ],
+      "doi": null,
+      "query": "site:mistral.ai/news \"October\" \"2026\" \"Large 4\"",
+      "tags": [
+        "agents_enterprise",
+        "non_us_rotation",
+        "Europe",
+        "sovereign AI",
+        "exploration_non_us"
+      ],
+      "organization": "Mistral AI / Cloudera",
+      "document_type": "partnership_announcement",
+      "language": "en",
+      "company": "Mistral AI / Cloudera"
+    },
+    {
+      "title": "How Sarvam's voice agents work across Mahindra Finance's business",
+      "url": "https://www.sarvam.ai/stories/mahindra-finance-voice-agents",
+      "source": "Sarvam AI / Mahindra Finance",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-21",
+      "excerpt": "Mahindra AI built Sarvam voice agents for sales, collections and employee feedback in 12 Indian languages. The case study reports over 10 million calls and downstream CRM/loan-servicing integration. Scale is self-reported; no controlled ROI or customer-outcome evaluation is supplied.",
+      "authors": [],
+      "doi": null,
+      "query": "site:sarvam.ai \"2026\" \"September\"",
+      "tags": [
+        "agents_enterprise",
+        "non_us_rotation",
+        "India",
+        "voice agents",
+        "case study",
+        "exploration_non_us"
+      ],
+      "organization": "Sarvam AI / Mahindra Finance",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "Sarvam AI / Mahindra Finance"
+    },
+    {
+      "title": "Building AI Agents: A First-Principles Guide",
+      "url": "https://www.sarvam.ai/blogs/building-ai-agents",
+      "source": "Sarvam AI",
+      "source_kind": "corporate_tech",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-29",
+      "excerpt": "Sarvam's implementation guide builds a support agent with narrow tools, progressive skill loading, memory and human escalation. It distinguishes prompt instructions from code-enforced authorization and sandbox boundaries. Educational reference architecture rather than a new product or benchmark.",
+      "authors": [],
+      "doi": null,
+      "query": "site:sarvam.ai \"2026\" \"September\"",
+      "tags": [
+        "agents_enterprise",
+        "non_us_rotation",
+        "India",
+        "governance",
+        "tutorial",
+        "exploration_non_us"
+      ],
+      "organization": "Sarvam AI",
+      "document_type": "technical_blog",
+      "language": "en",
+      "company": "Sarvam AI"
+    },
+    {
+      "title": "Samsung at the Forefront of Korea's AI RAN Projects with KT and SK Telecom",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source": "Samsung Electronics",
+      "source_kind": "press_release",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-23",
+      "excerpt": "Samsung signed KT and SK Telecom AI RAN project contracts. Trials starting in October pair private 5G and edge AI with shipyard welding/painting robots and petrochemical patrol monitoring. This is a planned industrial validation program, not established production productivity evidence.",
+      "authors": [],
+      "doi": null,
+      "query": "site:news.samsung.com \"October\" \"2026\" \"AI\" enterprise",
+      "tags": [
+        "non_us_rotation",
+        "Korea",
+        "industrial AI",
+        "edge AI",
+        "exploration_non_us"
+      ],
+      "organization": "Samsung Electronics",
+      "document_type": "press_release",
+      "language": "en",
+      "company": "Samsung Electronics"
+    },
+    {
+      "title": "AI Agent Trust 2026: Verifiable CredentialsによるAIエージェント相互認証実証を発表予定",
+      "url": "https://www.gmogshd.com/news/news-17402",
+      "source": "GMO GlobalSign Holdings / VESS Labs",
+      "source_kind": "official",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-10-08",
+      "excerpt": "GMO and VESS Labs announce an October 14 event presenting joint verification work on Verifiable Credentials for mutual authentication between AI agents. Useful Japan governance signal; the October 8 notice does not yet disclose the experiment's results or prove deployment readiness.",
+      "authors": [],
+      "doi": null,
+      "query": "AI エージェント 2026年10月8日 2026年10月7日 発表",
+      "tags": [
+        "agents_enterprise",
+        "non_us_rotation",
+        "Japan",
+        "identity",
+        "governance",
+        "exploration_non_us"
+      ],
+      "organization": "GMO GlobalSign Holdings / VESS Labs",
+      "document_type": "event_announcement",
+      "language": "ja",
+      "company": "GMO GlobalSign Holdings / VESS Labs"
+    },
+    {
+      "title": "Alibaba Unveils Agentic Computer, AI Wearables and More at 2026 Apsara Conference",
+      "url": "https://www.alibabacloud.com/blog/603599",
+      "source": "Alibaba Cloud",
+      "source_kind": "official",
+      "category": "企業AI・エージェント",
+      "published_at": "2026-09-25",
+      "excerpt": "Qwen Book combines models, OS, context, runtime and controls under an OS-as-harness design. QwenNote A2 connects captured meetings to QwenWork/DingTalk tasks and went on sale September 22. Vendor feature descriptions should be distinguished from independently measured workflow performance.",
+      "authors": [
+        "Gabbie Fu",
+        "Claire Mo"
+      ],
+      "doi": null,
+      "query": "site:alibabacloud.com/blog \"2026\" \"October\" Qwen",
+      "tags": [
+        "agents_enterprise",
+        "non_us_rotation",
+        "China",
+        "agent harness",
+        "exploration_non_us"
+      ],
+      "organization": "Alibaba Cloud",
+      "document_type": "product_announcement",
+      "language": "en",
+      "company": "Alibaba Cloud"
+    },
+    {
+      "title": "State of AI Report 2026",
+      "url": "https://www.stateof.ai/",
+      "source": "Nathan Benaich / Air Street Capital",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-08",
+      "excerpt": "第9版、244スライドの年次調査。モデル評価、エージェント、科学、ロボティクス、計算基盤、政策・安全性を横断。前年予測の採点は達成2・部分達成5・未達3。投資家による公開資料の統合分析であり、統計的な企業調査ではない。ポートフォリオ企業への利害関係を明示。PDF本体は取得サイズ上限超過、公開解説ページを確認。",
+      "authors": [
+        "Nathan Benaich",
+        "Air Street Capital"
+      ],
+      "doi": null,
+      "query": "\"State of AI\" \"October\" \"2026\" report survey -site:reddit.com",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "Nathan Benaich / Air Street Capital",
+      "company": "Nathan Benaich / Air Street Capital",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Business insights and impact on the UK economy: 8 October 2026",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+      "source": "Office for National Statistics",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-08",
+      "excerpt": "BICS第165波、9月21日〜10月4日の任意調査による企業数加重推計。AI利用は全企業30%、250人以上51%。AI使用の10人以上企業で事務職への影響38%、創造・設計職24%、人員減6%、増員1%未満。開発中の公式統計で標本誤差・非標本誤差に注意。因果的な生産性効果ではない。",
+      "authors": [],
+      "doi": null,
+      "query": "AI productivity survey October 2026 site:gov.uk",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "Office for National Statistics",
+      "company": "Office for National Statistics",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Global AI Pulse Q3 2026",
+      "url": "https://kpmg.com/in/en/insights/2026/10/global-ai-pulse-q3-2026.html",
+      "source": "KPMG",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-05",
+      "excerpt": "20地域の上級管理職2,131人を7月23日〜8月26日に調査。正式なAI管理層55%、AI価値を費用と一貫して照合12%、測定可能な価値あり89%。エージェントの顕著な従業員利用34%（Q1は25%）。自己申告・コンサル企業の調査でありROIを独立実測した結果ではない。PDFの方法と該当数値を確認。",
+      "authors": [],
+      "doi": null,
+      "query": "AI enterprise survey October 2026 ROI industrial manufacturing report",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "KPMG",
+      "company": "KPMG",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "The State of Autonomous IT Operations: Riverbed Global Survey 2026",
+      "url": "https://www.riverbed.com/press-releases/global-survey-finds-agentic-ai-reshaping-it/",
+      "source": "Riverbed / Coleman Parkes Research",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-06",
+      "excerpt": "7カ国1,200人の事業責任者・ITリーダー・技術者をColeman Parkesが7月調査。90%が2年以内の人間監督型/高度自律ITを見込み、77%は承認なしのAI判断に慎重。AI対応環境41%、全社AI運用8%、現在のIT自動化平均19%。ベンダー委託の自己申告。公式検索本文で確認、直接ページ取得は失敗。",
+      "authors": [],
+      "doi": null,
+      "query": "site:riverbed.com \"October\" \"2026\" survey autonomous",
+      "tags": [
+        "reports_surveys",
+        "survey"
+      ],
+      "organization": "Riverbed / Coleman Parkes Research",
+      "company": "Riverbed / Coleman Parkes Research",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "The 2026 CUPA-HR CHRO Survey",
+      "url": "https://www.cupahr.org/resource/the-2026-cupa-hr-chro-survey/",
+      "source": "CUPA-HR",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-02",
+      "excerpt": "6月16〜30日に米45州とプエルトリコの大学CHRO236人が回答、回答率10%。26%は全学AI方針に関与せず、21%のHR部門にAI戦略なし。AI戦略のある部門では利用奨励64%、適用機会評価58%、試行48%。自己申告かつ高等教育限定で、一般企業への直接外挿は不可。",
+      "authors": [
+        "Jacqueline Bichsel",
+        "Andy Brantley",
+        "Rob Shomaker"
+      ],
+      "doi": null,
+      "query": "AI adoption survey report October 2026 September 2026 productivity workforce university research",
+      "tags": [
+        "reports_surveys",
+        "survey"
+      ],
+      "organization": "CUPA-HR",
+      "company": "CUPA-HR",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "More than just Plug and Play: Early Evidence on Organisational Capital and AI Adoption",
+      "url": "https://www.productivity.ac.uk/research/more-than-just-plug-and-play-early-evidence-on-organisational-capital-and-ai-adoption/",
+      "source": "The Productivity Institute",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-09-28",
+      "excerpt": "英国MES2020/2023のパネルを分析。技術利用の有効回答7,525から分析別制約を適用。基準時点の管理実践、とくに業績測定が後のAI採用と関連。管理スコア最上位・最下位十分位で採用率差は約10ポイント。10人未満企業、農業・金融・公共部門を除外。観察研究で因果効果とは断定しない。",
+      "authors": [
+        "Diane Coyle",
+        "Nghi Nguyen",
+        "John Poquiz",
+        "Rebecca Riley"
+      ],
+      "doi": null,
+      "query": "AI adoption survey report October 2026 September 2026 productivity workforce university research",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "The Productivity Institute",
+      "company": "The Productivity Institute",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Faculty Perspectives on AI in Higher Education",
+      "url": "https://www.ncfdd.org/white-paper/faculty-perspectives-ai-higher-education/",
+      "source": "NCFDD",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-09-29",
+      "excerpt": "教員・大学管理者1,659人の調査。AIによる教育評価、研究、業務負荷と専門実務を扱い、学内のAI関連期待が一貫していると答えたのは6.6%。分野とAI経験で差がある。公開要約のみ確認、詳細報告書・標本抽出法は未取得。ページは9月29日と10月1日の二つの日付を表示。",
+      "authors": [
+        "Megan Sherwood"
+      ],
+      "doi": null,
+      "query": "AI adoption survey report October 2026 September 2026 productivity workforce university research",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "NCFDD",
+      "company": "NCFDD",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Agentic AI in organisations: Early insights from practitioner interviews",
+      "url": "https://www.oecd.org/en/publications/agentic-ai-in-organisations_1257a26f-en.html",
+      "source": "OECD",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-09-16",
+      "excerpt": "74組織に接触し25組織へ半構造化インタビュー。開発者、導入企業、政府を含み、業務・産業最適化・ソフトウェア・科学研究の実装と統治を整理。独立した性能測定を含まず、組織の見解に基づく定性研究。サンプル選択と急速な技術変化による限界を明示。",
+      "authors": [
+        "Merve Hickok",
+        "Rentaro Iida",
+        "Luis Aranda",
+        "Kasumi Sugimoto"
+      ],
+      "doi": "10.1787/1257a26f-en",
+      "query": "AI adoption report September October 2026 site:oecd.org",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "OECD",
+      "company": "OECD",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Proceeding report from Madrid conference on the responsible scale of AI in healthcare",
+      "url": "https://www.oecd.org/en/publications/proceeding-report-from-madrid-conference-on-the-responsible-scale-of-ai-in-healthcare_cf9439c3-en.html",
+      "source": "OECD",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-07",
+      "excerpt": "スペイン保健省とOECDによる会議に34カ国・35提携組織から142専門家が参加。安全なAI拡大に向け信頼、基盤整備、持続可能な経済モデルを整理した39ページの議事報告。医療導入の集計的な有効性試験や代表標本調査ではない。",
+      "authors": [
+        "OECD"
+      ],
+      "doi": "10.1787/cf9439c3-en",
+      "query": "AI adoption report September October 2026 site:oecd.org",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "OECD",
+      "company": "OECD",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "Chief Economists’ Outlook: September 2026",
+      "url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "source": "World Economic Forum",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-09-22",
+      "excerpt": "首席エコノミスト共同体への調査と協議に基づく見通し。AIへの期待とともに、データセンター拡大に伴う地域反発、光熱費上昇、雇用創出の限定性を指摘。経済学者の予測で実現済みの効果ではない。公開要約確認、PDF取得失敗のため標本数や詳細数値は保持しない。",
+      "authors": [],
+      "doi": null,
+      "query": "AI survey September October 2026 site:weforum.org",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "World Economic Forum",
+      "company": "World Economic Forum",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "AI Transformation Report, October 2026",
+      "url": "https://openfutureforum.com/research/ai-transformation-report-october-2026",
+      "source": "Open Future Forum",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-02",
+      "excerpt": "91人の選択的なネットワーク標本で本番導入46%、AI停止が費用や採用計画を変える「埋め込み」13%。75人の対応データでは費用の完全可視性が本番導入61%、探索22%。新しい横断尺度であり、33ポイント差を移行率・失敗率と解釈できない。10月3日更新、回答は9月30日まで。",
+      "authors": [
+        "Murray Newlands"
+      ],
+      "doi": null,
+      "query": "\"State of AI\" \"October\" \"2026\" report survey -site:reddit.com",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "Open Future Forum",
+      "company": "Open Future Forum",
+      "document_type": "report",
+      "language": "en"
+    },
+    {
+      "title": "The State of AI in Massachusetts 2026 Research Report",
+      "url": "https://aiweek.boston/survey/results",
+      "source": "Boston AI Week",
+      "source_kind": "technical_report",
+      "category": "AI調査・企業導入",
+      "published_at": "2026-10-01",
+      "excerpt": "6月25日〜9月28日の地域AIコミュニティ110人の任意調査。毎日AI利用85%、測定可能な価値75%、投資/努力増加見込み83%、住居/人材定着を最大の不足47%。一般企業・住民の代表標本ではない。全文は登録制のため公開結果のみ確認、登録や情報送信は行っていない。",
+      "authors": [],
+      "doi": null,
+      "query": "\"State of AI\" \"October\" \"2026\" report survey -site:reddit.com",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "organization": "Boston AI Week",
+      "company": "Boston AI Week",
+      "document_type": "report",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "CAD CAE neural operator engineering AI after:2026-10-06 before:2026-10-09",
+    "materials chemistry AI discovery after:2026-10-06 before:2026-10-09",
+    "site:ornl.gov \"2026\" \"October\" AI",
+    "site:nature.com \"2026\" \"October\" \"surrogate\"",
+    "site:arxiv.org/abs/2610 \"neural operator\"",
+    "site:arxiv.org/abs/2610 \"CAD\"",
+    "site:arxiv.org/abs/2610 \"finite element\"",
+    "site:ornl.gov/news \"October\" \"2026\"",
+    "\"neural operator\" \"Oct\" \"2026\"",
+    "\"CAD\" \"Oct\" \"2026\" \"arxiv\"",
+    "\"finite element\" \"October\" \"2026\" \"AI\"",
+    "\"surrogate\" \"October\" \"2026\" engineering",
+    "\"CAD\" \"2026\" \"October 7\" AI",
+    "\"CAD\" \"2026\" \"October 6\" arxiv",
+    "site:news.mit.edu/2026 \"October\" \"materials\"",
+    "site:lbl.gov \"October\" \"2026\" \"AI\"",
+    "\"MBSE\" \"September\" \"2026\" \"AI\" -site:arxiv.org",
+    "\"CFD\" \"October\" \"2026\" \"AI\" -UAV -drone",
+    "site:nature.com/articles \"Published: 08 October 2026\" materials",
+    "site:cadence.com \"October\" \"2026\" AI"
+  ],
+  "warnings": [
+    "All dates within 2026-09-09 to 2026-10-08. Journal issue dates alone were not accepted as fresh publication dates; several ScienceDirect October issue papers excluded.",
+    "Nature Oct8 articles and SEI AADL retained using substantial primary publisher indexed extracts; source-open failures disclosed in their excerpts and evidence.",
+    "Raven item is a dated event announcement, not verified general availability. Autodesk and ORNL automation articles discuss ongoing capabilities rather than demonstrating a new launch.",
+    "arXiv magnetic-materials page has internally inconsistent generated author-count text; explicit Authors list contains three authors and is used.",
+    "Optical-neural detector paper has 15-level abstract versus 14-level image-demo text; excerpt omits inconsistent detail. Direct fetch failed but extensive primary indexed full text was reviewed.",
+    "Mistral Large 4 and Reflection Beam weights were not yet released on opened announcement pages",
+    "Reflection source has October 8 benchmark update; original publication date retained October 5",
+    "DeepSeek official news page and updates page conflict over V4-Pro retirement/routing; suppressed release duplicate rather than amplify either assertion",
+    "AWS main blog index opened stale Oct 2 snapshot while tracked variant/search showed Oct 7/8; individual article pages opened to verify selected items",
+    "Samsung is adjacent industrial AI/edge infrastructure rather than enterprise language-agent deployment",
+    "GMO notice announces forthcoming presentation, not disclosed experimental findings",
+    "Author/date and performance statements are primary vendor assertions, not independently validated",
+    "Riverbed direct fetch failed twice; official indexed press-release body provides findings, recheck primary body before selection.",
+    "State of AI PDF exceeds web fetch limit (33,115,329 bytes); official live report introduction verified, no claims of reviewing all 244 slides.",
+    "NCFDD page has September29 and October1 dates; original/updated distinction inferred only.",
+    "Boston full report registration-gated; public summary only; no personal data submitted.",
+    "WEF PDF could not be fetched; no unsupported numerical results included.",
+    "VC-specific Menlo query and JETRO query returned no qualifying fresh item.",
+    "Gallup October5 result already published; excluded. Older Cisco/Stanford/KPMG manufacturing/Deloitte reports not padded into pool.",
+    "Per-item results distinguish vendor claims, computational studies, qualitative interviews, planned capabilities and measured effects; source limitations are retained.",
+    "Exploratory/report mix is guidance, not filler quota. Actual lane counts and full executed-query trace are preserved.",
+    "Reflection Beam was retained despite earlier Scout URL because the source explicitly revises benchmark results October8; no already-published URL was retained."
+  ],
+  "checked_sources": [
+    {
+      "name": "engineering_ai",
+      "status": "found",
+      "query": "\"CAD\" \"2026\" \"October 6\" arxiv"
+    },
+    {
+      "name": "agents_enterprise",
+      "status": "found",
+      "query": "site:aws.amazon.com \"Rethinking access control for RAG\""
+    },
+    {
+      "name": "models_open_weights",
+      "status": "found",
+      "query": "site:mistral.ai/news \"October\" \"2026\" \"Large 4\""
+    },
+    {
+      "name": "reports_surveys",
+      "status": "found",
+      "query": "\"State of AI\" \"October\" \"2026\" report survey -site:reddit.com"
+    },
+    {
+      "name": "scientific_wildcards",
+      "status": "found",
+      "query": "materials chemistry AI discovery after:2026-10-06 before:2026-10-09"
+    },
+    {
+      "name": "non_us_rotation",
+      "status": "found",
+      "query": "site:nature.com \"Published: 07 October 2026\" \"machine learning\""
+    },
+    {
+      "name": "Menlo VC report search",
+      "status": "no_new_finding",
+      "warning": "Fresh report search returned no qualifying in-window report."
+    },
+    {
+      "name": "JETRO report search",
+      "status": "no_new_finding",
+      "warning": "Returned earlier survey; excluded rather than padding recent pool."
+    }
+  ],
+  "research_plan": {
+    "execution": {
+      "stage": "Research Scout",
+      "policy_version": 2,
+      "local_date": "2026-10-09",
+      "started_at": "2026-10-09T06:16:30+09:00",
+      "completed_at": "2026-10-09T06:23:04.056193+09:00",
+      "status": "complete",
+      "planned_query_count": 18,
+      "executed_query_count": 95
+    },
+    "query_lanes": [
+      "engineering_ai",
+      "agents_enterprise",
+      "models_open_weights",
+      "reports_surveys",
+      "scientific_wildcards",
+      "non_us_rotation"
+    ],
+    "lookback_days": 30,
+    "query_trace": [
+      {
+        "query": "CAD CAE neural operator engineering AI after:2026-10-06 before:2026-10-09",
+        "executed": true
+      },
+      {
+        "query": "materials chemistry AI discovery after:2026-10-06 before:2026-10-09",
+        "executed": true
+      },
+      {
+        "query": "site:ornl.gov \"2026\" \"October\" AI",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com \"2026\" \"October\" \"surrogate\"",
+        "executed": true
+      },
+      {
+        "query": "site:arxiv.org/abs/2610 \"neural operator\"",
+        "executed": true
+      },
+      {
+        "query": "site:arxiv.org/abs/2610 \"CAD\"",
+        "executed": true
+      },
+      {
+        "query": "site:arxiv.org/abs/2610 \"finite element\"",
+        "executed": true
+      },
+      {
+        "query": "site:ornl.gov/news \"October\" \"2026\"",
+        "executed": true
+      },
+      {
+        "query": "\"neural operator\" \"Oct\" \"2026\"",
+        "executed": true
+      },
+      {
+        "query": "\"CAD\" \"Oct\" \"2026\" \"arxiv\"",
+        "executed": true
+      },
+      {
+        "query": "\"finite element\" \"October\" \"2026\" \"AI\"",
+        "executed": true
+      },
+      {
+        "query": "\"surrogate\" \"October\" \"2026\" engineering",
+        "executed": true
+      },
+      {
+        "query": "\"CAD\" \"2026\" \"October 7\" AI",
+        "executed": true
+      },
+      {
+        "query": "\"CAD\" \"2026\" \"October 6\" arxiv",
+        "executed": true
+      },
+      {
+        "query": "site:news.mit.edu/2026 \"October\" \"materials\"",
+        "executed": true
+      },
+      {
+        "query": "site:lbl.gov \"October\" \"2026\" \"AI\"",
+        "executed": true
+      },
+      {
+        "query": "\"MBSE\" \"September\" \"2026\" \"AI\" -site:arxiv.org",
+        "executed": true
+      },
+      {
+        "query": "\"CFD\" \"October\" \"2026\" \"AI\" -UAV -drone",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com/articles \"Published: 08 October 2026\" materials",
+        "executed": true
+      },
+      {
+        "query": "site:cadence.com \"October\" \"2026\" AI",
+        "executed": true
+      },
+      {
+        "query": "site:sei.cmu.edu \"Native AI for MBSE: Lessons\"",
+        "executed": true
+      },
+      {
+        "query": "site:sei.cmu.edu \"AI-Augmented AADL in Visual Studio Code\"",
+        "executed": true
+      },
+      {
+        "query": "site:nvidia.com \"October\" \"2026\" simulation engineering",
+        "executed": true
+      },
+      {
+        "query": "site:ansys.com \"October\" \"2026\" AI",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com/articles/s41563-026-02767-4 \"Department\"",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com/articles/s41467-026-78372-5 \"08 October 2026\"",
+        "executed": true
+      },
+      {
+        "query": "\"AI-Assisted\" \"EDA\" \"October\" \"2026\" -drone -UAV",
+        "executed": true
+      },
+      {
+        "query": "\"CFD\" \"2026\" \"October 8\"",
+        "executed": true
+      },
+      {
+        "query": "site:anl.gov \"October\" \"2026\" materials discovery",
+        "executed": true
+      },
+      {
+        "query": "site:newscenter.lbl.gov \"2026\" \"October\" chemistry",
+        "executed": true
+      },
+      {
+        "query": "site:olcf.ornl.gov \"2026/10\"",
+        "executed": true
+      },
+      {
+        "query": "site:riken.jp \"2026\" \"10\" \"AI\"",
+        "executed": true
+      },
+      {
+        "query": "site:ethz.ch \"October\" \"2026\" robot",
+        "executed": true
+      },
+      {
+        "query": "site:news.mit.edu \"2026\" \"September\" \"robot\"",
+        "executed": true
+      },
+      {
+        "query": "site:science.org \"2026\" \"October\" \"robot\"",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com \"Published: 07 October 2026\" \"machine learning\"",
+        "executed": true
+      },
+      {
+        "query": "site:mpg.de \"2026\" \"September\" robot learning",
+        "executed": true
+      },
+      {
+        "query": "site:epfl.ch \"2026\" \"October\" materials",
+        "executed": true
+      },
+      {
+        "query": "site:nersc.gov \"2026\" \"September\" science",
+        "executed": true
+      },
+      {
+        "query": "site:phys.org \"October 8, 2026\" \"robot\"",
+        "executed": true
+      },
+      {
+        "query": "site:nature.com/articles/s41467-026-77376-5 \"Abstract\"",
+        "executed": true
+      },
+      {
+        "query": "site:nersc.gov/news-and-events/news/lz-sees-surprising-result \"NERSC\" \"data\"",
+        "executed": true
+      },
+      {
+        "query": "site:llnl.gov \"October\" \"2026\" \"simulation\"",
+        "executed": true
+      },
+      {
+        "query": "site:sciencedaily.com/releases/2026/10 \"materials\"",
+        "executed": true
+      },
+      {
+        "query": "AI agent enterprise release October 8 2026 September 2026 governance official",
+        "executed": true
+      },
+      {
+        "query": "open weights model October 2026 September 2026 release Qwen Mistral DeepSeek",
+        "executed": true
+      },
+      {
+        "query": "AI エージェント 2026年10月8日 2026年10月7日 発表",
+        "executed": true
+      },
+      {
+        "query": "site:mistral.ai/news \"October\" \"2026\" \"Large 4\"",
+        "executed": true
+      },
+      {
+        "query": "site:reflection.ai \"Beam\" \"2026\"",
+        "executed": true
+      },
+      {
+        "query": "site:cohere.com \"Tiny Aya\" \"Thinker\"",
+        "executed": true
+      },
+      {
+        "query": "site:lgai research EXAONE September October 2026",
+        "executed": true
+      },
+      {
+        "query": "site:research.lge.com \"2026\" \"09\" EXAONE",
+        "executed": true
+      },
+      {
+        "query": "site:sarvam.ai \"2026\" \"September\"",
+        "executed": true
+      },
+      {
+        "query": "site:api-docs.deepseek.com \"2026/09\" \"V4.1\"",
+        "executed": true
+      },
+      {
+        "query": "site:nttdata.com \"2026\" \"10\" \"AI\" agent",
+        "executed": true
+      },
+      {
+        "query": "site:news.skhynix.com \"September\" \"2026\" AI model",
+        "executed": true
+      },
+      {
+        "query": "site:lgnewsroom.com \"2026/09\" EXAONE",
+        "executed": true
+      },
+      {
+        "query": "site:news.samsung.com \"October\" \"2026\" \"AI\" enterprise",
+        "executed": true
+      },
+      {
+        "query": "site:ibm.com \"October 8, 2026\" \"agent\"",
+        "executed": true
+      },
+      {
+        "query": "site:aws.amazon.com/blogs \"2026\" \"08 OCT\" agent",
+        "executed": true
+      },
+      {
+        "query": "site:cloud.google.com/blog \"October 8, 2026\" agent",
+        "executed": true
+      },
+      {
+        "query": "site:anthropic.com \"2026\" \"October 8\"",
+        "executed": true
+      },
+      {
+        "query": "site:nec.com \"2026\" \"10\" エージェント",
+        "executed": true
+      },
+      {
+        "query": "site:aws.amazon.com \"Rethinking access control for RAG\"",
+        "executed": true
+      },
+      {
+        "query": "site:aws.amazon.com \"Automate remediation post\"",
+        "executed": true
+      },
+      {
+        "query": "site:aws.amazon.com \"How Cornerstone OnDemand cut\"",
+        "executed": true
+      },
+      {
+        "query": "site:aws.amazon.com \"How Qlik built grounded\"",
+        "executed": true
+      },
+      {
+        "query": "AI エージェント 開発 発表 2026年10月8日 site:fujitsu.com",
+        "executed": true
+      },
+      {
+        "query": "AI エージェント RAG 2026年10月 site:hitachi.co.jp",
+        "executed": true
+      },
+      {
+        "query": "site:huggingface.co \"GLM-5.3\" \"September\"",
+        "executed": true
+      },
+      {
+        "query": "site:navercorp.com \"2026\" \"09\" AI",
+        "executed": true
+      },
+      {
+        "query": "\"2026年10月8日\" \"AIエージェント\" -site:prtimes.jp",
+        "executed": true
+      },
+      {
+        "query": "site:research.lge.com \"EXAONE\" \"2026\" September October",
+        "executed": true
+      },
+      {
+        "query": "site:api-docs.deepseek.com/news \"2026\" \"09\"",
+        "executed": true
+      },
+      {
+        "query": "site:cohere.com/blog \"North 2\"",
+        "executed": true
+      },
+      {
+        "query": "site:cohere.com/blog \"North Small Translate\" \"Sep\"",
+        "executed": true
+      },
+      {
+        "query": "site:cohere.com/blog \"Introducing Embed 5\"",
+        "executed": true
+      },
+      {
+        "query": "site:api-docs.deepseek.com/news \"V4.1-Flash\"",
+        "executed": true
+      },
+      {
+        "query": "site:huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "executed": true
+      },
+      {
+        "query": "site:alibabacloud.com/blog \"2026\" \"October\" Qwen",
+        "executed": true
+      },
+      {
+        "query": "site:qwen.ai/blog \"2026\" \"09\"",
+        "executed": true
+      },
+      {
+        "query": "site:stepfun.com \"2026\" \"September\" \"5\"",
+        "executed": true
+      },
+      {
+        "query": "site:navercorp.com \"2026.09\" \"AI\"",
+        "executed": true
+      },
+      {
+        "query": "AI adoption survey report October 2026 September 2026 productivity workforce university research",
+        "executed": true
+      },
+      {
+        "query": "AI enterprise survey October 2026 ROI industrial manufacturing report",
+        "executed": true
+      },
+      {
+        "query": "AI spending workforce adoption report September 2026 government industry association",
+        "executed": true
+      },
+      {
+        "query": "site.riverbed.com \"2026\" \"90%\" agentic survey",
+        "executed": true
+      },
+      {
+        "query": "site:riverbed.com \"October\" \"2026\" survey autonomous",
+        "executed": true
+      },
+      {
+        "query": "AI adoption report September October 2026 site:oecd.org",
+        "executed": true
+      },
+      {
+        "query": "AI survey September October 2026 site:weforum.org",
+        "executed": true
+      },
+      {
+        "query": "AI report survey October 2026 site:menlovc.com",
+        "executed": true
+      },
+      {
+        "query": "AI adoption survey September 2026 site:jetro.go.jp",
+        "executed": true
+      },
+      {
+        "query": "AI productivity survey October 2026 site:gov.uk",
+        "executed": true
+      },
+      {
+        "query": "\"State of AI\" \"October\" \"2026\" report survey -site:reddit.com",
+        "executed": true
+      },
+      {
+        "query": "\"AI\" \"survey\" \"September 2026\" \"manufacturing\" -site:reddit.com",
+        "executed": true
+      }
+    ],
+    "coverage": {
+      "lane_item_counts": {
+        "engineering_ai": 11,
+        "agents_enterprise": 15,
+        "models_open_weights": 4,
+        "reports_surveys": 12,
+        "scientific_wildcards": 11,
+        "non_us_rotation": 8
+      },
+      "retained_item_count": 52,
+      "source_domain_count": 31,
+      "domain_counts": {
+        "arxiv.org": 8,
+        "benchcad.com": 1,
+        "ornl.gov": 2,
+        "link.springer.com": 1,
+        "autodesk.com": 1,
+        "blog.rhino3d.com": 1,
+        "sei.cmu.edu": 2,
+        "nature.com": 3,
+        "aps.anl.gov": 1,
+        "news.mit.edu": 1,
+        "nersc.gov": 1,
+        "aws.amazon.com": 5,
+        "hpe.com": 1,
+        "mistral.ai": 2,
+        "reflection.ai": 1,
+        "cohere.com": 4,
+        "sarvam.ai": 2,
+        "news.samsung.com": 1,
+        "gmogshd.com": 1,
+        "alibabacloud.com": 1,
+        "stateof.ai": 1,
+        "ons.gov.uk": 1,
+        "kpmg.com": 1,
+        "riverbed.com": 1,
+        "cupahr.org": 1,
+        "productivity.ac.uk": 1,
+        "ncfdd.org": 1,
+        "oecd.org": 2,
+        "weforum.org": 1,
+        "openfutureforum.com": 1,
+        "aiweek.boston": 1
+      },
+      "targets_are_soft": true,
+      "exploratory_item_count": 18,
+      "report_item_count": 12,
+      "exploratory_percent": 34.6,
+      "report_percent": 23.1
+    },
+    "source_verification": [
+      {
+        "url": "https://arxiv.org/abs/2610.04262",
+        "evidence": ", abstract and submission history"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.04828",
+        "evidence": "lines 8–27"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.03265",
+        "evidence": "lines 8–26"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.05337",
+        "evidence": "lines 8–27"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.03534",
+        "evidence": "lines 8–28"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.07552",
+        "evidence": "lines 8–27; author list includes three names despite inconsistent generated '1 other' text"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.08040",
+        "evidence": "lines 8–27"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.08367",
+        "evidence": "lines 8–27"
+      },
+      {
+        "url": "https://benchcad.com/blog/2d-proxy",
+        "evidence": "lines 2–50, 86–91"
+      },
+      {
+        "url": "https://www.ornl.gov/news/ornl-selected-for-six-phase-ii-genesis-mission-awards/",
+        "evidence": "lines 526–560; date line 530"
+      },
+      {
+        "url": "https://www.ornl.gov/news/automation-shaping-the-future-of-american-manufacturing/",
+        "evidence": "lines 639–644 for date;  lines 553–565 for technical details"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00466-026-02845-z",
+        "evidence": "publication date and abstract;  source opened"
+      },
+      {
+        "url": "https://www.autodesk.com/products/fusion-360/blog/ai-is-finally-learning-how-products-work/",
+        "evidence": "lines 26–28 and 83–101"
+      },
+      {
+        "url": "https://blog.rhino3d.com/2026/09/food4rhino-webinartalk-to-your-rhino.html",
+        "evidence": "dated source;  opened"
+      },
+      {
+        "url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+        "evidence": "lines 4–23"
+      },
+      {
+        "url": "https://sei.cmu.edu/blog/ai-augmented-aadl-in-visual-studio-code/",
+        "evidence": "primary indexed full text;  date; direct fetch timed out"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41563-026-02767-4",
+        "evidence": "dated abstract and authors;  corroborates date;  fetch failure"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-026-78372-5",
+        "evidence": "date authors abstract;  fetch failure"
+      },
+      {
+        "url": "https://www.aps.anl.gov/APS-News/2026-10-02/sapphire-discovery-could-reshape-future-brain-inspired-electronics/2026-10-02",
+        "evidence": "lines 18–35, institutional source opened; original article date is Oct1"
+      },
+      {
+        "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+        "evidence": "dated primary text;  opened;  lines 172–178 manual steering"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-026-77376-5",
+        "evidence": "detailed publisher text including authors, affiliations, date, abstract and methods;  open failure"
+      },
+      {
+        "url": "https://www.nersc.gov/news-and-events/news/lz-sees-surprising-result-in-search-for-dark-matter",
+        "evidence": "primary full indexed text with date and workflow;  fetch failed"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "evidence_location": "body lines 210-267; byline/date line 212"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "evidence_location": "article title, date/byline and implementation body"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+        "evidence_location": "article introduction and diagnosis comparison"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+        "evidence_location": "article byline and architecture/customer examples"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+        "evidence_location": "lines 210-252,426-428"
+      },
+      {
+        "url": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-and-nvidia-bring-secure-governed-agentic-ai-into-enterprise-production.html",
+        "evidence_location": "lines 340-375"
+      },
+      {
+        "url": "https://mistral.ai/news/mistral-large-4/",
+        "evidence_location": "Oct 6 heading; preview/weight promise; lines 159-183 internal benchmark caveats"
+      },
+      {
+        "url": "https://www.reflection.ai/blog/introducing-beam",
+        "evidence_location": "lines 21-39; 79 update dated 10/8/26; 85-86 compute caveat"
+      },
+      {
+        "url": "https://cohere.com/blog/building-multilingual-bridges",
+        "evidence_location": "lines 150-182,216-224; model/data links"
+      },
+      {
+        "url": "https://cohere.com/blog/introducing-north-2",
+        "evidence_location": "North 2 body 178-236; product index date line 161"
+      },
+      {
+        "url": "https://cohere.com/blog/north-small-translate",
+        "evidence_location": "date heading; lines 177-200 license/architecture"
+      },
+      {
+        "url": "https://cohere.com/blog/embed-5",
+        "evidence_location": "lines 150-185"
+      },
+      {
+        "url": "https://mistral.ai/news/mistral-x-cloudera/",
+        "evidence_location": "Sep 10 heading; lines 29-36"
+      },
+      {
+        "url": "https://www.sarvam.ai/stories/mahindra-finance-voice-agents",
+        "evidence_location": "lines 3-47"
+      },
+      {
+        "url": "https://www.sarvam.ai/blogs/building-ai-agents",
+        "evidence_location": "Sep 29 heading; anatomy, authorization and sandbox sections"
+      },
+      {
+        "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+        "evidence_location": "Sep 23 heading; October planned trials"
+      },
+      {
+        "url": "https://www.gmogshd.com/news/news-17402",
+        "evidence_location": "lines 105-132"
+      },
+      {
+        "url": "https://www.alibabacloud.com/blog/603599",
+        "evidence_location": "lines 18-59"
+      },
+      {
+        "url": "https://www.stateof.ai/",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://kpmg.com/in/en/insights/2026/10/global-ai-pulse-q3-2026.html",
+        "evidence_location": "KPMG PDF https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf pages3,11–13,20–21; methodology on landing page."
+      },
+      {
+        "url": "https://www.riverbed.com/press-releases/global-survey-finds-agentic-ai-reshaping-it/",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://www.cupahr.org/resource/the-2026-cupa-hr-chro-survey/",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://www.productivity.ac.uk/research/more-than-just-plug-and-play-early-evidence-on-organisational-capital-and-ai-adoption/",
+        "evidence_location": "PDF https://www.productivity.ac.uk/wp-content/uploads/2026/09/WP082-More-than-Just-Plug-and-Play-September-2026.pdf pages11,21,22: sample and limitations."
+      },
+      {
+        "url": "https://www.ncfdd.org/white-paper/faculty-perspectives-ai-higher-education/",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://www.oecd.org/en/publications/agentic-ai-in-organisations_1257a26f-en.html",
+        "evidence_location": "PDF https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/agentic-ai-in-organisations_1f17d235/1257a26f-en.pdf pages5,7–11: authors, sample, qualitative limits."
+      },
+      {
+        "url": "https://www.oecd.org/en/publications/proceeding-report-from-madrid-conference-on-the-responsible-scale-of-ai-in-healthcare_cf9439c3-en.html",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://openfutureforum.com/research/ai-transformation-report-october-2026",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      },
+      {
+        "url": "https://aiweek.boston/survey/results",
+        "evidence_location": "Official publisher page text/date/abstract; report details in excerpt; additional PDF evidence recorded below"
+      }
+    ],
+    "prior_history": {
+      "research_files": [
+        "gpt_handoff/research/2026-10-07.json",
+        "gpt_handoff/research/2026-10-08.json"
+      ],
+      "company_files": [
+        "gpt_handoff/company/2026-10-09.json"
+      ],
+      "publication_index": "gpt_handoff/state/published-index.json",
+      "duplicate_suppression": []
+    },
+    "coverage_notes": [
+      [
+        {
+          "lane": "CAD/CAE/FEA",
+          "result": "CADForge, BenchCAD, Fusion context workflows, XAI computational mechanics, Raven V2 announcement"
+        },
+        {
+          "lane": "neural operators/surrogates",
+          "result": "SPEAR, GRNO, PINN slope reliability, Willmore flow; eight arXiv entries maximum across all lanes"
+        },
+        {
+          "lane": "MBSE",
+          "result": "SEI SysML v2 evaluation and AADL verification workflow"
+        },
+        {
+          "lane": "materials/chemistry",
+          "result": "magnetic materials validation, kinetic catalyst optimization, discrete molecular generator, two Oct8 experimental materials papers"
+        },
+        {
+          "lane": "HPC/EDA",
+          "result": "ORNL Oct8 Genesis Phase II includes AI4HPC and AXESS; targeted Cadence/NVIDIA/Ansys October searches yielded no qualifying new primary dated release"
+        },
+        {
+          "lane": "robotics/manufacturing",
+          "result": "ORNL MedUSA adaptive control overview"
+        },
+        {
+          "lane": "MIT/LBNL October",
+          "result": "Queries produced mostly old or irrelevant entries; no selected item"
+        },
+        {
+          "lane": "Expanded non-US and HPC/robotics searches",
+          "result": "MIT biohybrid robot, Argonne neuromorphic substrate coupling, Wits optical neural detector, NERSC experiment workflow retained. RIKEN, EPFL, Max Planck, LLNL, LBNL targeted searches returned old, undated, irrelevant, or duplicate material; no filler retained."
+        }
+      ],
+      [
+        {
+          "lane": "agents_enterprise",
+          "result": "Fresh verified enterprise RAG, DevOps, orchestration, identity and controlled-runtime items"
+        },
+        {
+          "lane": "models_open_weights",
+          "result": "Cohere downloadable weights plus clearly labeled Mistral and Reflection future weights announcements"
+        },
+        {
+          "lane": "Japan",
+          "result": "GMO/VESS Oct 8; Fujitsu, Hitachi, NEC targeted searches yielded no fresh verified qualifying result"
+        },
+        {
+          "lane": "China",
+          "result": "Alibaba agentic computer; DeepSeek V4.1 release suppressed as historical duplicate; GLM searches mostly third-party conversions, excluded; Qwen page rendering unreliable"
+        },
+        {
+          "lane": "Europe",
+          "result": "Mistral preview and Cloudera partnership; Fortran modernization suppressed as publication duplicate"
+        },
+        {
+          "lane": "Korea",
+          "result": "Samsung industrial AI RAN; LG/EXAONE and Naver targeted searches yielded no verified in-window model release"
+        },
+        {
+          "lane": "India",
+          "result": "Sarvam Mahindra case study and agent implementation guide; voice platform Sept 2 release excluded out of window"
+        }
+      ],
+      []
+    ],
+    "material_updates": [
+      {
+        "url": "https://www.reflection.ai/blog/introducing-beam",
+        "previous_source": "gpt_handoff/research/2026-10-07.json",
+        "delta": "Explicit October8 vendor benchmark-results update; weights still pending."
+      }
+    ],
+    "contracts": {
+      "config_sha": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "readme_sha": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "policy_sha": "52d83678fcf304dcc49b4f487260398909561ee0"
+    }
+  }
+}
