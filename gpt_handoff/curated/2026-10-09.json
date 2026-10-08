@@ -1,0 +1,2598 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-10-09T07:12:27.978276+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-10-09.json",
+      "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+      "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8",
+      "generated_at": "2026-10-09T06:17:02.718568+09:00"
+    },
+    {
+      "path": "gpt_handoff/research/2026-10-09.json",
+      "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+      "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+      "generated_at": "2026-10-09T06:23:04.056193+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "CAD再構成の生成手順と幾何評価",
+      "item_ids": [
+        "r-cadforge",
+        "r-benchcad-proxy"
+      ]
+    },
+    {
+      "signal": "製造・燃焼・実機試験の検証工程",
+      "item_ids": [
+        "c-waam-boeing",
+        "c-stuttgart-injector",
+        "c-a350f-flight"
+      ]
+    },
+    {
+      "signal": "代理モデル誤差とMBSE意味検証",
+      "item_ids": [
+        "r-slope-reliability",
+        "r-sei-mbse"
+      ]
+    },
+    {
+      "signal": "企業AIの権限境界と実装評価",
+      "item_ids": [
+        "r-rag-live-acl",
+        "r-mistral-large4-preview"
+      ]
+    },
+    {
+      "signal": "年次総覧・政府統計・企業調査を分母ごとに読む",
+      "item_ids": [
+        "r-stateai2026",
+        "r-ons-ai-adoption",
+        "r-kpmg-pulse"
+      ]
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": [
+      "r-cadforge",
+      "r-benchcad-proxy",
+      "c-waam-boeing"
+    ],
+    "ordered_ids": [
+      "r-cadforge",
+      "r-benchcad-proxy",
+      "c-waam-boeing",
+      "r-slope-reliability",
+      "r-sei-mbse",
+      "c-stuttgart-injector",
+      "c-a350f-flight",
+      "r-rag-live-acl",
+      "r-mistral-large4-preview",
+      "r-stateai2026",
+      "r-ons-ai-adoption",
+      "r-kpmg-pulse"
+    ],
+    "wildcard_order": [
+      "w-kinetic-alloy-screening",
+      "w-tinyaya-language",
+      "w-samsung-industrial-ran"
+    ],
+    "central_signals": [
+      "生成できることと幾何・意味・実物が正しいことを分離",
+      "現場検証の工程と企業AI統治の対応",
+      "調査の母集団・測定方法・自己申告を区別"
+    ],
+    "tensions_or_caveats": [
+      "BenchCADは一モデル中心の実験で全モデルへ一般化しない",
+      "航空認証・実環境燃焼試験は未完了",
+      "State of AIは公開解説の検証で全244枚を読んだとは言わない",
+      "Mistral重みは将来予定",
+      "調査の導入率と因果的な生産性・雇用効果を混同しない"
+    ],
+    "desired_depth": {
+      "overview": [
+        350,
+        700
+      ],
+      "lead": [
+        500,
+        900
+      ],
+      "standard": [
+        280,
+        520
+      ],
+      "report": [
+        700,
+        1300
+      ],
+      "wildcards": [
+        220,
+        420
+      ],
+      "unit": "Japanese prose characters",
+      "retain": "All selected and wildcards, claims, methodological caveats and report metrics unless final verification fails"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 82,
+    "input_counts": {
+      "company": 30,
+      "research": 52
+    },
+    "deduplicated_item_count": 80,
+    "dedup_definition": "82 normalized candidates; no within-day identical event duplicates; remove 1 exact published URL and 1 semantic published event. A350F physical-flight material delta retained.",
+    "source_domain_count": 43,
+    "organization_count": 49,
+    "selected_source_domain_count": 11,
+    "selected_organization_count": 11,
+    "regions_observed": [
+      "US",
+      "UK",
+      "continental Europe",
+      "China",
+      "Japan",
+      "Korea",
+      "India",
+      "Canada",
+      "global surveys"
+    ],
+    "lanes": {
+      "engineering_ai": 11,
+      "agents_enterprise": 15,
+      "models_open_weights": 4,
+      "reports_surveys": 12,
+      "scientific_wildcards": 11,
+      "non_us_rotation": 8
+    },
+    "known_gaps": [
+      "Company is partial due disclosed AVIC/Northrop/Lockheed access gaps, but all seven mandatory sources have coverage entries.",
+      "BenchCAD verified using full indexed primary text; direct open failed.",
+      "State of AI full PDF not retrieved; official narrative only.",
+      "Backlog excerpts retain Scout evidence and require renewed verification before publication."
+    ],
+    "input_validation": {
+      "company": {
+        "strict_valid": true,
+        "execution": {
+          "stage": "company_scout",
+          "policy_version": 2,
+          "local_date": "2026-10-09",
+          "started_at": "2026-10-09T06:11:39+09:00",
+          "completed_at": "2026-10-09T06:17:02.718568+09:00",
+          "status": "partial",
+          "planned_query_count": 81,
+          "executed_query_count": 81
+        },
+        "age_hours": 0.905
+      },
+      "research": {
+        "strict_valid": true,
+        "execution": {
+          "stage": "Research Scout",
+          "policy_version": 2,
+          "local_date": "2026-10-09",
+          "started_at": "2026-10-09T06:16:30+09:00",
+          "completed_at": "2026-10-09T06:23:04.056193+09:00",
+          "status": "complete",
+          "planned_query_count": 18,
+          "executed_query_count": 95
+        },
+        "age_hours": 0.805
+      }
+    },
+    "publication_history": {
+      "index_path": "gpt_handoff/state/published-index.json",
+      "index_blob_sha": "934699037f9df6608015bd702b932d395809c18d",
+      "index_entry_count": 17,
+      "recent_receipts": [
+        "gpt_handoff/published/2026-10-07.json",
+        "gpt_handoff/published/2026-10-08.json"
+      ],
+      "exact_url_window_days": 90,
+      "semantic_event_window_days": 30
+    },
+    "classification_counts": {
+      "selected": 12,
+      "wildcards": 3,
+      "backlog": 20,
+      "rejected": 47
+    },
+    "all_input_indices_accounted_for": true
+  },
+  "selected": [
+    {
+      "id": "r-cadforge",
+      "event_key": "r-cadforge:2026-10-03",
+      "tier": "lead",
+      "title": "CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning",
+      "primary_url": "https://arxiv.org/abs/2610.04262",
+      "supporting_urls": [],
+      "published_at": "2026-10-03",
+      "organization": "Research collaboration",
+      "company": "Research collaboration",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "Converts a single image into editable CadQuery programs using an agentic pipeline.",
+        "Decomposes objects into CAD components, infers constraints and translates them into modeling parameters.",
+        "A review agent inspects geometry and gives iterative refinement feedback.",
+        "Adds failure-guided tool construction and compact parametric CAD memory.",
+        "Authors report better reconstruction fidelity and perceptual quality than baselines on single- and multi-part objects."
+      ],
+      "claims": [
+        {
+          "text": "Converts a single image into editable CadQuery programs using an agentic pipeline.",
+          "source_url": "https://arxiv.org/abs/2610.04262",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 16"
+        },
+        {
+          "text": "Decomposes objects into CAD components, infers constraints and translates them into modeling parameters.",
+          "source_url": "https://arxiv.org/abs/2610.04262",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 17"
+        },
+        {
+          "text": "A review agent inspects geometry and gives iterative refinement feedback.",
+          "source_url": "https://arxiv.org/abs/2610.04262",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 17"
+        },
+        {
+          "text": "Adds failure-guided tool construction and compact parametric CAD memory.",
+          "source_url": "https://arxiv.org/abs/2610.04262",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 18"
+        },
+        {
+          "text": "Authors report better reconstruction fidelity and perceptual quality than baselines on single- and multi-part objects.",
+          "source_url": "https://arxiv.org/abs/2610.04262",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 18"
+        }
+      ],
+      "why_it_matters": "生成CADの構成・制約・レビューを分離した手順。",
+      "practical_implication": "編集可能性だけでなく寸法拘束と製造可能性を別評価する。",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "agents",
+        "geometry"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 0,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "verified_primary",
+        "date_evidence": "arXiv abstract page lines 8,26; v1 submitted 03:39:54 UTC"
+      },
+      "caveats": [
+        "Preprint; comparative gains are author-reported, without quantitative values in the abstract.",
+        "Does not establish manufacturability or production qualification."
+      ],
+      "source": "arXiv",
+      "publisher": "arXiv"
+    },
+    {
+      "id": "r-benchcad-proxy",
+      "event_key": "r-benchcad-proxy:2026-10-06",
+      "tier": "lead",
+      "title": "Frontier Models Reconstruct 3D by Hill-Climbing a 2D Proxy",
+      "primary_url": "https://benchcad.com/blog/2d-proxy",
+      "supporting_urls": [
+        "https://benchcad.com/"
+      ],
+      "published_at": "2026-10-06",
+      "organization": "BenchCAD",
+      "company": "BenchCAD",
+      "category": "AIによる設計",
+      "source_kind": "official",
+      "factual_points": [
+        "On 98 BenchCAD 1.0 parts, removing self-render viewing produced a score difference of −0.002, with 95% interval ±0.05, at about half API cost.",
+        "About five-sixths of roughly 400 inspected runs used rendered silhouette overlap in code.",
+        "Perturbing three camera views by 15 degrees lowered 3D score from 0.786 to 0.722 on 100 parts.",
+        "Failure examples retain incorrect wall thickness, bore geometry or teeth despite high silhouette agreement."
+      ],
+      "claims": [
+        {
+          "text": "On 98 BenchCAD 1.0 parts, removing self-render viewing produced a score difference of −0.002, with 95% interval ±0.05, at about half API cost.",
+          "source_url": "https://benchcad.com/blog/2d-proxy",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Seeing its own part does not help; introduction"
+        },
+        {
+          "text": "About five-sixths of roughly 400 inspected runs used rendered silhouette overlap in code.",
+          "source_url": "https://benchcad.com/blog/2d-proxy",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "The model measures its part instead"
+        },
+        {
+          "text": "Perturbing three camera views by 15 degrees lowered 3D score from 0.786 to 0.722 on 100 parts.",
+          "source_url": "https://benchcad.com/blog/2d-proxy",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Does climbing the proxy improve the 3D part?"
+        },
+        {
+          "text": "Failure examples retain incorrect wall thickness, bore geometry or teeth despite high silhouette agreement.",
+          "source_url": "https://benchcad.com/blog/2d-proxy",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Where the climb stops"
+        }
+      ],
+      "why_it_matters": "画像への適合と三次元幾何の正しさが乖離する評価上の問題。",
+      "practical_implication": "外観スコアに加え肉厚・穴・歯形を独立の形状検証で評価する。",
+      "tags": [
+        "engineering_ai",
+        "CAD",
+        "benchmark",
+        "verification"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 8,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "verified_indexed_primary",
+        "date_evidence": "Indexed primary post header; BenchCAD home Latest also lists October 6"
+      },
+      "caveats": [
+        "Quantitative experiments concern one frontier model; other named-model tests count code behavior only.",
+        "Examples are selected; 3D score is voxel IoU on a 64-cubed grid.",
+        "Direct open failed twice; full indexed primary text and official home date corroborate the content."
+      ],
+      "source": "BenchCAD",
+      "publisher": "BenchCAD"
+    },
+    {
+      "id": "c-waam-boeing",
+      "event_key": "c-waam-boeing:2026-09-21",
+      "tier": "lead",
+      "title": "Partnership between ORNL, Boeing advances manufacturing for aircraft parts",
+      "primary_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+      "supporting_urls": [],
+      "published_at": "2026-09-21",
+      "organization": "Boeing",
+      "company": "Boeing",
+      "category": "manufacturing",
+      "source_kind": "official",
+      "factual_points": [
+        "ORNL and Boeing developed a nearly two-ton steel stamp-form die, six feet tall and four feet wide, printed over eight weeks.",
+        "The tooling supports thermoplastic composites and is intended for Boeing participation in NASA HiCAM.",
+        "Arc-1 WAAM combines mild-steel structure with stainless-steel working surface and curved thermal channels.",
+        "Temporary ribs and 32 simulation iterations compensated warping to within a few millimeters before finishing.",
+        "Baker Industries annealed the tool, removed ribs and completed fabrication to Boeing requirements."
+      ],
+      "claims": [
+        {
+          "text": "ORNL and Boeing developed a nearly two-ton steel stamp-form die, six feet tall and four feet wide, printed over eight weeks.",
+          "source_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 533–534"
+        },
+        {
+          "text": "The tooling supports thermoplastic composites and is intended for Boeing participation in NASA HiCAM.",
+          "source_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 534–536"
+        },
+        {
+          "text": "Arc-1 WAAM combines mild-steel structure with stainless-steel working surface and curved thermal channels.",
+          "source_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 547,551–552"
+        },
+        {
+          "text": "Temporary ribs and 32 simulation iterations compensated warping to within a few millimeters before finishing.",
+          "source_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Line 553"
+        },
+        {
+          "text": "Baker Industries annealed the tool, removed ribs and completed fabrication to Boeing requirements.",
+          "source_url": "https://www.ornl.gov/news/partnership-between-ornl-boeing-advances-manufacturing-aircraft-parts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Line 554"
+        }
+      ],
+      "why_it_matters": "大規模積層造形の実用化に形状補償と仕上げ工程が不可欠。",
+      "practical_implication": "造形・シミュレーション反復・熱処理を一体の製造検証として扱う。",
+      "tags": [
+        "WAAM",
+        "thermoplastic composites",
+        "tooling",
+        "HiCAM"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 8,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8",
+        "verification_method": "verified_primary",
+        "date_evidence": "ORNL line 530"
+      },
+      "caveats": [
+        "Tooling demonstration, not a flight-qualified printed aircraft part.",
+        "Not every final-tool component was printed (line 561).",
+        "No quantified head-to-head cost/time saving given."
+      ],
+      "source": "Oak Ridge National Laboratory",
+      "publisher": "Oak Ridge National Laboratory"
+    },
+    {
+      "id": "r-slope-reliability",
+      "event_key": "r-slope-reliability:2026-10-04",
+      "tier": "standard",
+      "title": "Label-free physics-informed strength reduction and a neural operator for the reliability of spatially variable slopes",
+      "primary_url": "https://arxiv.org/abs/2610.04828",
+      "supporting_urls": [],
+      "published_at": "2026-10-04",
+      "organization": "Research collaboration",
+      "company": "Research collaboration",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "Label-free PINN uses virtual-work loss on a finite-element mesh for non-associated Mohr-Coulomb strength reduction.",
+        "Safety factors match Abaqus within 2–3% RMS across 52 random fields; shear-band plastic strain remains under-resolved.",
+        "The operator is trained only on PINN results; Abaqus is verification only.",
+        "Authors report million-field predictions in seconds.",
+        "A 3% safety-factor scatter can inflate a 0.001 failure probability up to twofold."
+      ],
+      "claims": [
+        {
+          "text": "Label-free PINN uses virtual-work loss on a finite-element mesh for non-associated Mohr-Coulomb strength reduction.",
+          "source_url": "https://arxiv.org/abs/2610.04828",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 16"
+        },
+        {
+          "text": "Safety factors match Abaqus within 2–3% RMS across 52 random fields; shear-band plastic strain remains under-resolved.",
+          "source_url": "https://arxiv.org/abs/2610.04828",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 17"
+        },
+        {
+          "text": "The operator is trained only on PINN results; Abaqus is verification only.",
+          "source_url": "https://arxiv.org/abs/2610.04828",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract lines 17–18"
+        },
+        {
+          "text": "Authors report million-field predictions in seconds.",
+          "source_url": "https://arxiv.org/abs/2610.04828",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 17"
+        },
+        {
+          "text": "A 3% safety-factor scatter can inflate a 0.001 failure probability up to twofold.",
+          "source_url": "https://arxiv.org/abs/2610.04828",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line 18"
+        }
+      ],
+      "why_it_matters": "平均誤差が小さくても破壊確率の裾では誤差が増幅。",
+      "practical_implication": "代理モデルを確率評価に使う際は誤差分布と希少事象の感度を確認する。",
+      "tags": [
+        "engineering_ai",
+        "FEA",
+        "PINN",
+        "neural operator",
+        "uncertainty"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 1,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "verified_primary",
+        "date_evidence": "arXiv lines 8,27; v1 submitted 00:20:47 UTC"
+      },
+      "caveats": [
+        "Preprint and one studied slope/mesh; reliability-tail sensitivity limits extrapolation.",
+        "No independent deployment validation established."
+      ],
+      "source": "arXiv",
+      "publisher": "arXiv"
+    },
+    {
+      "id": "r-sei-mbse",
+      "event_key": "r-sei-mbse:2026-09-24",
+      "tier": "standard",
+      "title": "Native AI for MBSE: Lessons Learned and Measures from a Knowledge-Grounded Experimentation Platform",
+      "primary_url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+      "supporting_urls": [],
+      "published_at": "2026-09-24",
+      "organization": "Carnegie Mellon University Software Engineering Institute",
+      "company": "Carnegie Mellon University Software Engineering Institute",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "Presentation evaluates frontier models on standardized SysML v2 modeling tasks.",
+        "Compares unassisted generation, language validation, and validation plus MCP server, knowledge base and workflow skills.",
+        "Knowledge-pattern measure covers requirements/traceability, structure, behavior, analysis, verification, organization and views.",
+        "Validation removes broad language-error classes; retrieval and workflows improve depth and consistency."
+      ],
+      "claims": [
+        {
+          "text": "Presentation evaluates frontier models on standardized SysML v2 modeling tasks.",
+          "source_url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Lines 10,21"
+        },
+        {
+          "text": "Compares unassisted generation, language validation, and validation plus MCP server, knowledge base and workflow skills.",
+          "source_url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Line 21"
+        },
+        {
+          "text": "Knowledge-pattern measure covers requirements/traceability, structure, behavior, analysis, verification, organization and views.",
+          "source_url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Line 22"
+        },
+        {
+          "text": "Validation removes broad language-error classes; retrieval and workflows improve depth and consistency.",
+          "source_url": "https://sei.cmu.edu/library/native-ai-for-mbse-lessons-learned-and-measures-from-a-knowledge-grounded-experimentation-platform/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Line 22"
+        }
+      ],
+      "why_it_matters": "言語文法の検証と意味的な設計品質を区別したMBSE評価。",
+      "practical_implication": "構文通過率と要求へのトレーサビリティを別々に監査する。",
+      "tags": [
+        "engineering_ai",
+        "MBSE",
+        "SysML v2",
+        "MCP",
+        "validation"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 14,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "verified_primary",
+        "date_evidence": "SEI landing page line 4; presentation date September 23 at line 20"
+      },
+      "caveats": [
+        "Conference presentation, not proof of production deployment.",
+        "The source explicitly says pattern evidence is not proof of semantic correctness (line 23)."
+      ],
+      "source": "CMU Software Engineering Institute",
+      "publisher": "CMU Software Engineering Institute"
+    },
+    {
+      "id": "c-stuttgart-injector",
+      "event_key": "c-stuttgart-injector:2026-09-24",
+      "tier": "standard",
+      "title": "Stuttgart and DLR advance laboratory-tested, fuel-flexible printed injectors",
+      "primary_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+      "supporting_urls": [],
+      "published_at": "2026-09-24",
+      "organization": "University of Stuttgart / DLR Stuttgart",
+      "company": "University of Stuttgart / DLR Stuttgart",
+      "category": "燃焼器・積層造形",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Stuttgart and DLR are developing printed, fuel-flexible injectors for compact gas turbines.",
+        "Design tolerates printed-surface roughness and demonstrated clean combustion in laboratory work.",
+        "Nozzles accommodate fuels including hydrogen and kerosene, according to researchers.",
+        "Next steps are nozzle/process optimization and prototype tests under real-world conditions with DLR Stuttgart.",
+        "BMFTR provides EUR 1.5 million through end-2029 via VIP+ for AMFlexInj."
+      ],
+      "claims": [
+        {
+          "text": "Stuttgart and DLR are developing printed, fuel-flexible injectors for compact gas turbines.",
+          "source_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 40–44"
+        },
+        {
+          "text": "Design tolerates printed-surface roughness and demonstrated clean combustion in laboratory work.",
+          "source_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 48–49"
+        },
+        {
+          "text": "Nozzles accommodate fuels including hydrogen and kerosene, according to researchers.",
+          "source_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Lines 54–55"
+        },
+        {
+          "text": "Next steps are nozzle/process optimization and prototype tests under real-world conditions with DLR Stuttgart.",
+          "source_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Line 57"
+        },
+        {
+          "text": "BMFTR provides EUR 1.5 million through end-2029 via VIP+ for AMFlexInj.",
+          "source_url": "https://www.f07.uni-stuttgart.de/en/institute/news/news/Cleaner-gas-turbines-using-additive-manufacturing/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Line 59"
+        }
+      ],
+      "why_it_matters": "燃料柔軟性と造形粗さへの耐性を燃焼器設計へ同時に取り込む。",
+      "practical_implication": "燃焼試験と製造プロセスの対応を追い、実機・実環境検証とは区別する。",
+      "tags": [
+        "discovery_candidate",
+        "combustion",
+        "additive manufacturing",
+        "fuel flexibility"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 27,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8",
+        "verification_method": "verified_primary",
+        "date_evidence": "University news header line 37"
+      },
+      "caveats": [
+        "Laboratory-only testing is explicit; real-world testing is planned.",
+        "Do not describe as aircraft-engine qualification or completed field validation.",
+        "No numerical emissions, cost or efficiency reduction reported."
+      ],
+      "source": "University of Stuttgart",
+      "publisher": "University of Stuttgart"
+    },
+    {
+      "id": "c-a350f-flight",
+      "event_key": "airbus:a350f-first-physical-flight:2026-09-29",
+      "tier": "standard",
+      "title": "Airbus A350F freighter successfully performs its maiden flight",
+      "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-a350f-freighter-successfully-performs-its-maiden-flight",
+      "supporting_urls": [
+        "https://www.airbus.com/en/newsroom/stories/2026-09-a350f-first-flight-new-freighter-aircraft-takes-to-the-sky"
+      ],
+      "published_at": "2026-09-29",
+      "organization": "Airbus",
+      "company": "Airbus",
+      "category": "aircraft_testing",
+      "source_kind": "press_release",
+      "factual_points": [
+        "MSN700 completed its first flight on September 29, lasting 4 hours 10 minutes and reaching 25,000 feet.",
+        "Airbus describes comparing actual aerodynamics and structural response with predictive models before switching from direct to normal control law.",
+        "Flight-test instrumentation records thousands of parameters and transmits real-time telemetry.",
+        "Certification flight testing has started; the first flight does not constitute type certification."
+      ],
+      "claims": [
+        {
+          "text": "MSN700 completed its first flight on September 29, lasting 4 hours 10 minutes and reaching 25,000 feet.",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-a350f-freighter-successfully-performs-its-maiden-flight",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Press release opening"
+        },
+        {
+          "text": "Airbus describes comparing actual aerodynamics and structural response with predictive models before switching from direct to normal control law.",
+          "source_url": "https://www.airbus.com/en/newsroom/stories/2026-09-a350f-first-flight-new-freighter-aircraft-takes-to-the-sky",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Engineering account, Validating control laws"
+        },
+        {
+          "text": "Flight-test instrumentation records thousands of parameters and transmits real-time telemetry.",
+          "source_url": "https://www.airbus.com/en/newsroom/stories/2026-09-a350f-first-flight-new-freighter-aircraft-takes-to-the-sky",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Engineering account, FTI suite"
+        },
+        {
+          "text": "Certification flight testing has started; the first flight does not constitute type certification.",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-a350f-freighter-successfully-performs-its-maiden-flight",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Press release, test campaign paragraph"
+        }
+      ],
+      "why_it_matters": "仮想試験の成果を実機の挙動と照合する工程が具体的に示される。",
+      "practical_implication": "モデル予測、許容閾値、実測データの対応を設計検証計画に組み込む参考。",
+      "tags": [
+        "A350F",
+        "flight_test",
+        "control_laws",
+        "telemetry"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 2,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8",
+        "material_delta": "September15 publication covered September14 virtual-flight preparation; September29 completed physical first flight and model-to-flight comparison are material new evidence.",
+        "previous_event_key": "airbus:a350f-virtual-first-flight:2026-09-14"
+      },
+      "source": "Airbus",
+      "publisher": "Airbus"
+    },
+    {
+      "id": "r-rag-live-acl",
+      "event_key": "aws:rag-query-time-authoritative-acl:2026-10-07",
+      "tier": "standard",
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+      "supporting_urls": [],
+      "published_at": "2026-10-07",
+      "organization": "AWS",
+      "company": "AWS",
+      "category": "企業AI・エージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "AWS describes cached ACL pre-filtering followed by real-time checks against the authoritative document source.",
+        "In the Google Drive example, user-specific impersonation tokens check candidate-document permissions before passages reach the LLM.",
+        "The architecture addresses stale replicated permissions, but the source is a vendor implementation explanation rather than an independent security evaluation."
+      ],
+      "claims": [
+        {
+          "text": "AWS describes cached ACL pre-filtering followed by real-time checks against the authoritative document source.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "How AWS solves this / Architecture"
+        },
+        {
+          "text": "In the Google Drive example, user-specific impersonation tokens check candidate-document permissions before passages reach the LLM.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Google Drive example, stages 1–2"
+        },
+        {
+          "text": "The architecture addresses stale replicated permissions, but the source is a vendor implementation explanation rather than an independent security evaluation.",
+          "source_url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Business problem and implementation sections"
+        }
+      ],
+      "why_it_matters": "検索精度に加え、検索時点のアクセス権を保証する実装が企業RAGの成立条件になる。",
+      "practical_implication": "権限変更直後のテストと検索結果をモデルへ渡す前の認可境界を評価する。",
+      "tags": [
+        "agents_enterprise",
+        "RAG",
+        "governance",
+        "access control",
+        "core_agents_models"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 22,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      },
+      "source": "AWS",
+      "publisher": "AWS"
+    },
+    {
+      "id": "r-mistral-large4-preview",
+      "event_key": "mistral:large4-preview:2026-10-06",
+      "tier": "standard",
+      "title": "Introducing Mistral Large 4",
+      "primary_url": "https://mistral.ai/news/mistral-large-4/",
+      "supporting_urls": [],
+      "published_at": "2026-10-06",
+      "organization": "Mistral AI",
+      "company": "Mistral AI",
+      "category": "生成AI・基盤モデル",
+      "source_kind": "official",
+      "factual_points": [
+        "Mistral Large 4 is available as a public API preview; weights are promised for the end of October and are not yet released.",
+        "The company describes a native multimodal MoE with one trillion total parameters and 52 billion active parameters.",
+        "Its internal expert comparison with GLM-5.3 favors ML4 on CAD and STEM tasks; this is vendor-reported preference evidence, not engineering qualification.",
+        "Scientific-code and document/drawing workflows are presented, but demonstrations and benchmark claims do not establish reliability for a particular design process."
+      ],
+      "claims": [
+        {
+          "text": "Mistral Large 4 is available as a public API preview; weights are promised for the end of October and are not yet released.",
+          "source_url": "https://mistral.ai/news/mistral-large-4/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Opening, October6 date"
+        },
+        {
+          "text": "The company describes a native multimodal MoE with one trillion total parameters and 52 billion active parameters.",
+          "source_url": "https://mistral.ai/news/mistral-large-4/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Frontier performance"
+        },
+        {
+          "text": "Its internal expert comparison with GLM-5.3 favors ML4 on CAD and STEM tasks; this is vendor-reported preference evidence, not engineering qualification.",
+          "source_url": "https://mistral.ai/news/mistral-large-4/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Human Evaluation"
+        },
+        {
+          "text": "Scientific-code and document/drawing workflows are presented, but demonstrations and benchmark claims do not establish reliability for a particular design process.",
+          "source_url": "https://mistral.ai/news/mistral-large-4/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Science and Math; Multimodal"
+        }
+      ],
+      "why_it_matters": "技術図面と科学コードを同じ評価対象に置くモデルが増える一方、重み公開予定と現時点の利用条件は区別が必要。",
+      "practical_implication": "プレビューは隔離した設計支援評価に限定し、CADの幾何・寸法・制約と生成コードの正しさを別に試験する。",
+      "tags": [
+        "models_open_weights",
+        "agents_enterprise",
+        "non_us_rotation",
+        "Europe",
+        "preview",
+        "weights pending",
+        "exploration_non_us"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 28,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      },
+      "source": "Mistral AI",
+      "publisher": "Mistral AI"
+    },
+    {
+      "id": "r-stateai2026",
+      "event_key": "r-stateai2026:2026-10-08",
+      "tier": "report",
+      "title": "State of AI Report 2026",
+      "primary_url": "https://www.stateof.ai/",
+      "supporting_urls": [
+        "https://press.airstreet.com/p/state-of-ai-2026"
+      ],
+      "published_at": "2026-10-08",
+      "organization": "Nathan Benaich / Air Street Capital",
+      "company": "Nathan Benaich / Air Street Capital",
+      "category": "AI調査・企業導入",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "Report's previous predictions scorecard: 2 hits, 5 partial, 3 misses",
+        "Cited controlled coding study: unchanged GLM-5.1 weights, altered tools/context/feedback; 52.5% to 65.5% success on 100 SWE-bench Verified tasks",
+        "Cited Anthropic internal index: Claude led 26% of measured model R&D in August, below 1% in February; researchers supervise",
+        "Cited Epoch estimate across five benchmarks: fixed-score inference cost fell 47% quarterly since 2023"
+      ],
+      "claims": [
+        {
+          "text": "Report's previous predictions scorecard: 2 hits, 5 partial, 3 misses",
+          "source_url": "https://www.stateof.ai/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Official page line95"
+        },
+        {
+          "text": "Cited controlled coding study: unchanged GLM-5.1 weights, altered tools/context/feedback; 52.5% to 65.5% success on 100 SWE-bench Verified tasks",
+          "source_url": "https://www.stateof.ai/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Official page line36"
+        },
+        {
+          "text": "Cited Anthropic internal index: Claude led 26% of measured model R&D in August, below 1% in February; researchers supervise",
+          "source_url": "https://www.stateof.ai/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Official page line41"
+        },
+        {
+          "text": "Cited Epoch estimate across five benchmarks: fixed-score inference cost fell 47% quarterly since 2023",
+          "source_url": "https://www.stateof.ai/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Official page line59"
+        }
+      ],
+      "why_it_matters": "年次総覧はモデル単体からツール・科学・推論費用へ評価の視野を広げる。",
+      "practical_implication": "個別研究の数値は元の測定条件へ戻り、投資家の見通しと観測事実を区別する。",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 5,
+        "reader_value": 5
+      },
+      "weighted_score": 4.3,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 40,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "Official narrative and announcement checked; embedded full report failed retrieval"
+      },
+      "report_details": {
+        "publisher": "Nathan Benaich / Air Street Capital",
+        "published_at": "2026-10-08",
+        "sample_size": "Statistical sample not applicable; synthesis across studies",
+        "methodology": "Nathan Benaich/Air Street Capital synthesis of research, company disclosures and policy; ninth annual edition, 244 slides; only public narrative verified, not full slide deck",
+        "geographies": "Global synthesis; individual studies have different populations",
+        "key_metrics": [
+          {
+            "metric": "Report's previous predictions scorecard: 2 hits, 5 partial, 3 misses",
+            "source_url": "https://www.stateof.ai/",
+            "evidence_location": "Official page line95"
+          },
+          {
+            "metric": "Cited controlled coding study: unchanged GLM-5.1 weights, altered tools/context/feedback; 52.5% to 65.5% success on 100 SWE-bench Verified tasks",
+            "source_url": "https://www.stateof.ai/",
+            "evidence_location": "Official page line36"
+          },
+          {
+            "metric": "Cited Anthropic internal index: Claude led 26% of measured model R&D in August, below 1% in February; researchers supervise",
+            "source_url": "https://www.stateof.ai/",
+            "evidence_location": "Official page line41"
+          },
+          {
+            "metric": "Cited Epoch estimate across five benchmarks: fixed-score inference cost fell 47% quarterly since 2023",
+            "source_url": "https://www.stateof.ai/",
+            "evidence_location": "Official page line59"
+          }
+        ],
+        "comparison_to_previous": "Previous prediction scorecard retained; not a consistent year-on-year survey panel.",
+        "practical_meaning": "個別研究の数値は元の測定条件へ戻り、投資家の見通しと観測事実を区別する。",
+        "caveats": [
+          "Investor-authored with portfolio interests disclosed. Numerical findings below are attributed by the official narrative to underlying studies, not independently revalidated here. Do not claim full slide review."
+        ]
+      },
+      "source": "Nathan Benaich / Air Street Capital",
+      "publisher": "Nathan Benaich / Air Street Capital"
+    },
+    {
+      "id": "r-ons-ai-adoption",
+      "event_key": "r-ons-ai-adoption:2026-10-08",
+      "tier": "report",
+      "title": "Business insights and impact on the UK economy: 8 October 2026",
+      "primary_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+      "supporting_urls": [],
+      "published_at": "2026-10-08",
+      "organization": "Office for National Statistics",
+      "company": "Office for National Statistics",
+      "category": "AI調査・企業導入",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "September AI use: 30% overall; 51% among businesses with 250+ employees",
+        "Among businesses with 10+ employees, 38% used AI; LLM text generation 21%, visual creation 19%",
+        "ONS narrative reports administrative/clerical roles affected at 38% and creative/design at 24% among 10+ employee AI users; Figure 2 also includes respondents unsure whether they use AI.",
+        "Among 10+ employee AI users, 6% reported headcount reductions; fewer than 1% increases"
+      ],
+      "claims": [
+        {
+          "text": "September AI use: 30% overall; 51% among businesses with 250+ employees",
+          "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Section 3 Figure 1; lines 127–140"
+        },
+        {
+          "text": "Among businesses with 10+ employees, 38% used AI; LLM text generation 21%, visual creation 19%",
+          "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Section 3; lines 140–142"
+        },
+        {
+          "text": "ONS narrative reports administrative/clerical roles affected at 38% and creative/design at 24% among 10+ employee AI users; Figure 2 also includes respondents unsure whether they use AI.",
+          "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Section 3 roles; lines 149–163"
+        },
+        {
+          "text": "Among 10+ employee AI users, 6% reported headcount reductions; fewer than 1% increases",
+          "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Section 3 headcount paragraph after Figure 2"
+        }
+      ],
+      "why_it_matters": "企業規模と職種の分母を明示した政府統計は導入率の外挿を点検できる。",
+      "practical_implication": "自社に近い企業規模で比較し、雇用への因果効果とは解釈しない。",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 5,
+        "reader_value": 5
+      },
+      "weighted_score": 4.3,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 41,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "Full official HTML accessible after initial retrieval error"
+      },
+      "report_details": {
+        "publisher": "Office for National Statistics",
+        "published_at": "2026-10-08",
+        "sample_size": "38,592 sampled; 9,933 responses (25.7%)",
+        "methodology": "Voluntary fortnightly BICS Wave 165; business-count-weighted estimates Fieldwork: 2026-09-21 to 2026-10-04; business population excludes agriculture, finance/insurance and public services",
+        "geographies": "UK production industries; Great Britain construction, retail and services (BICS frame)",
+        "key_metrics": [
+          {
+            "metric": "September AI use: 30% overall; 51% among businesses with 250+ employees",
+            "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+            "evidence_location": "Section 3 Figure 1; lines 127–140"
+          },
+          {
+            "metric": "Among businesses with 10+ employees, 38% used AI; LLM text generation 21%, visual creation 19%",
+            "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+            "evidence_location": "Section 3; lines 140–142"
+          },
+          {
+            "metric": "ONS narrative reports administrative/clerical roles affected at 38% and creative/design at 24% among 10+ employee AI users; Figure 2 also includes respondents unsure whether they use AI.",
+            "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+            "evidence_location": "Section 3 roles; lines 149–163"
+          },
+          {
+            "metric": "Among 10+ employee AI users, 6% reported headcount reductions; fewer than 1% increases",
+            "source_url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8october2026",
+            "evidence_location": "Section 3 headcount paragraph after Figure 2"
+          }
+        ],
+        "comparison_to_previous": "No previous-wave change asserted.",
+        "practical_meaning": "自社に近い企業規模で比較し、雇用への因果効果とは解釈しない。",
+        "caveats": [
+          "Official statistics in development; sampling/non-sampling error. Private-sector frame excludes several industries including agriculture, finance/insurance and public services. Self-reports do not establish causal productivity or employment effects. Figure 2 includes unsure AI users; narrative describes users, so retain this denominator caveat.",
+          "Role-impact chart includes unsure AI users according to figure note; do not imply all businesses are the denominator."
+        ]
+      },
+      "source": "Office for National Statistics",
+      "publisher": "Office for National Statistics"
+    },
+    {
+      "id": "r-kpmg-pulse",
+      "event_key": "r-kpmg-pulse:2026-10-05",
+      "tier": "report",
+      "title": "Global AI Pulse Q3 2026",
+      "primary_url": "https://kpmg.com/in/en/insights/2026/10/global-ai-pulse-q3-2026.html",
+      "supporting_urls": [
+        "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf"
+      ],
+      "published_at": "2026-10-05",
+      "organization": "KPMG",
+      "company": "KPMG",
+      "category": "AI調査・企業導入",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "55% report a formal AI management/control layer; 86% in established-ROI group",
+        "89% report measurable AI value; 12% consistently assess value against cost",
+        "34% of surveyed leaders report significant employee adoption of AI agents in their organizations, versus 25% in Q1.",
+        "53% place AI-informed decision accountability at C-suite level or above",
+        "Established-ROI comparison group n=208; experimentation n=268"
+      ],
+      "claims": [
+        {
+          "text": "55% report a formal AI management/control layer; 86% in established-ROI group",
+          "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "PDF pp10–11, zero-based9–10; lines335–362"
+        },
+        {
+          "text": "89% report measurable AI value; 12% consistently assess value against cost",
+          "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "PDF pp20–21, zero-based19–20; lines701–740"
+        },
+        {
+          "text": "34% of surveyed leaders report significant employee adoption of AI agents in their organizations, versus 25% in Q1.",
+          "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "PDF p13, zero-based12; lines462–466"
+        },
+        {
+          "text": "53% place AI-informed decision accountability at C-suite level or above",
+          "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "PDF p13, zero-based12; lines446–481"
+        },
+        {
+          "text": "Established-ROI comparison group n=208; experimentation n=268",
+          "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "PDF p25, zero-based24; lines961–963"
+        }
+      ],
+      "why_it_matters": "価値があるという自己申告と費用対効果の継続測定を分ける大型調査。",
+      "practical_implication": "成果の実感に加え費用・評価基準・責任者を導入時から記録する。",
+      "tags": [
+        "reports_surveys",
+        "report"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 5,
+        "reader_value": 5
+      },
+      "weighted_score": 4.3,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 42,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59",
+        "verification_method": "Official landing page and 30-page PDF checked"
+      },
+      "report_details": {
+        "publisher": "KPMG",
+        "published_at": "2026-10-05",
+        "sample_size": "2,131 senior leaders; subgroup n=208 established ROI, n=268 experimentation",
+        "methodology": "Online quarterly survey; 2,131 senior leaders across 20 countries/territories/jurisdictions Fieldwork: 2026-07-23 to 2026-08-26; Revenue >=US$50M; >=US$100M in ten named markets including Japan, US and UK; US tracking sample >=US$1B",
+        "geographies": "20 countries/territories/jurisdictions",
+        "key_metrics": [
+          {
+            "metric": "55% report a formal AI management/control layer; 86% in established-ROI group",
+            "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+            "evidence_location": "PDF pp10–11, zero-based9–10; lines335–362"
+          },
+          {
+            "metric": "89% report measurable AI value; 12% consistently assess value against cost",
+            "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+            "evidence_location": "PDF pp20–21, zero-based19–20; lines701–740"
+          },
+          {
+            "metric": "34% of surveyed leaders report significant employee adoption of AI agents in their organizations, versus 25% in Q1.",
+            "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+            "evidence_location": "PDF p13, zero-based12; lines462–466"
+          },
+          {
+            "metric": "53% place AI-informed decision accountability at C-suite level or above",
+            "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+            "evidence_location": "PDF p13, zero-based12; lines446–481"
+          },
+          {
+            "metric": "Established-ROI comparison group n=208; experimentation n=268",
+            "source_url": "https://kpmg.com/content/dam/kpmgsites/xx/pdf/2026/09/global-ai-pulse.pdf.coredownload.inline.pdf",
+            "evidence_location": "PDF p25, zero-based24; lines961–963"
+          }
+        ],
+        "comparison_to_previous": "34% of surveyed leaders report significant employee adoption of AI agents in their organizations, versus 25% in Q1. Repeated survey, not necessarily same-person panel.",
+        "practical_meaning": "成果の実感に加え費用・評価基準・責任者を導入時から記録する。",
+        "caveats": [
+          "Consultancy survey, self-reported outcomes, not independently measured ROI. Large-organization sample, not all businesses. Value-cost question excludes early-stage respondents; do not equate 12% with audited positive ROI."
+        ]
+      },
+      "source": "KPMG",
+      "publisher": "KPMG"
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "w-kinetic-alloy-screening",
+      "event_key": "research:kinetic-alloy-nanoparticle-screening:2026-10-06",
+      "tier": "standard",
+      "title": "Dynamic Kinetic Evaluation Favors Compositionally Diverse Multicomponent Alloy Nanoparticles for Hydrogen Evolution",
+      "primary_url": "https://arxiv.org/abs/2610.08040",
+      "supporting_urls": [],
+      "published_at": "2026-10-06",
+      "organization": "Research collaboration",
+      "company": "Research collaboration",
+      "category": "scientific_wildcards",
+      "source_kind": "paper",
+      "factual_points": [
+        "The study combines ML energy prediction, Monte Carlo, Bayesian optimization and kinetic Monte Carlo on 85-atom nanoparticles in a nine-element design space.",
+        "Static adsorption-energy screening favors Pt-rich candidates, whereas kinetic evaluation favors Au33Co20Cu6Pd26 among tested candidates.",
+        "The evidence is computational reaction-pathway analysis, not experimental catalyst validation."
+      ],
+      "claims": [
+        {
+          "text": "The study combines ML energy prediction, Monte Carlo, Bayesian optimization and kinetic Monte Carlo on 85-atom nanoparticles in a nine-element design space.",
+          "source_url": "https://arxiv.org/abs/2610.08040",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract lines16–18"
+        },
+        {
+          "text": "Static adsorption-energy screening favors Pt-rich candidates, whereas kinetic evaluation favors Au33Co20Cu6Pd26 among tested candidates.",
+          "source_url": "https://arxiv.org/abs/2610.08040",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract line17"
+        },
+        {
+          "text": "The evidence is computational reaction-pathway analysis, not experimental catalyst validation.",
+          "source_url": "https://arxiv.org/abs/2610.08040",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract and stated methods"
+        }
+      ],
+      "why_it_matters": "最適化する指標を静的な物性から反応経路へ変えると最適組成も変わる。",
+      "practical_implication": "材料探索で高速代理指標と最終用途の物理過程のずれを検証する。",
+      "tags": [
+        "scientific_wildcards",
+        "materials",
+        "catalysis",
+        "Bayesian optimization"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 6,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      },
+      "source": "arXiv",
+      "publisher": "arXiv"
+    },
+    {
+      "id": "w-tinyaya-language",
+      "event_key": "cohere:tiny-aya-l2-thinker:2026-10-06",
+      "tier": "standard",
+      "title": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+      "primary_url": "https://cohere.com/blog/building-multilingual-bridges",
+      "supporting_urls": [],
+      "published_at": "2026-10-06",
+      "organization": "Cohere Labs",
+      "company": "Cohere Labs",
+      "category": "生成AI・基盤モデル",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Cohere releases Tiny Aya L2-Thinker (3.35B) and multilingual reasoning data.",
+        "Authors report over 93% in-language reasoning across 60 languages using mixed English, multilingual reasoning and non-reasoning data.",
+        "This measures generated reasoning-language behavior; it does not certify answer correctness or enterprise reliability."
+      ],
+      "claims": [
+        {
+          "text": "Cohere releases Tiny Aya L2-Thinker (3.35B) and multilingual reasoning data.",
+          "source_url": "https://cohere.com/blog/building-multilingual-bridges",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Key takeaways lines180–182"
+        },
+        {
+          "text": "Authors report over 93% in-language reasoning across 60 languages using mixed English, multilingual reasoning and non-reasoning data.",
+          "source_url": "https://cohere.com/blog/building-multilingual-bridges",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Key takeaways"
+        },
+        {
+          "text": "This measures generated reasoning-language behavior; it does not certify answer correctness or enterprise reliability.",
+          "source_url": "https://cohere.com/blog/building-multilingual-bridges",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Evaluation scope"
+        }
+      ],
+      "why_it_matters": "多言語モデルの評価を回答の言語だけでなく途中の言語一貫性へ広げる研究。",
+      "practical_implication": "対象言語の精度と推論言語比率を別々に測り、表示された推論を内部処理の完全な説明とみなさない。",
+      "tags": [
+        "models_open_weights",
+        "multilingual",
+        "research",
+        "core_agents_models"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 30,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      },
+      "source": "Cohere Labs",
+      "publisher": "Cohere Labs"
+    },
+    {
+      "id": "w-samsung-industrial-ran",
+      "event_key": "samsung:kt-skt-industrial-ai-ran-trials:2026-09-23",
+      "tier": "standard",
+      "title": "Samsung at the Forefront of Korea's AI RAN Projects with KT and SK Telecom",
+      "primary_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "supporting_urls": [],
+      "published_at": "2026-09-23",
+      "organization": "Samsung Electronics",
+      "company": "Samsung Electronics",
+      "category": "企業AI・エージェント",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Samsung signed contracts for KT and SK Telecom AI RAN projects, with private-5G industrial trials planned to begin in October.",
+        "Use cases include shipyard welding/painting robots and petrochemical patrol monitoring with local edge-AI processing.",
+        "These are announced validation programs; production productivity and safety outcomes are not established in this release."
+      ],
+      "claims": [
+        {
+          "text": "Samsung signed contracts for KT and SK Telecom AI RAN projects, with private-5G industrial trials planned to begin in October.",
+          "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Announcement lines74–76"
+        },
+        {
+          "text": "Use cases include shipyard welding/painting robots and petrochemical patrol monitoring with local edge-AI processing.",
+          "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Shipyard and petrochemical sections"
+        },
+        {
+          "text": "These are announced validation programs; production productivity and safety outcomes are not established in this release.",
+          "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Program scope"
+        }
+      ],
+      "why_it_matters": "現場AIの応答性はモデルだけでなく通信とエッジ配置に依存する。",
+      "practical_implication": "製造現場では遅延・通信断・監視範囲を含めた実証結果を追う。",
+      "tags": [
+        "non_us_rotation",
+        "Korea",
+        "industrial AI",
+        "edge AI",
+        "exploration_non_us"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.1,
+      "confidence": "high",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 37,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      },
+      "source": "Samsung Electronics",
+      "publisher": "Samsung Electronics"
+    }
+  ],
+  "backlog": [
+    {
+      "id": "b-research-3",
+      "rank": 1,
+      "title": "Green-Routed Neural Operators: Physics Determines Where the Network Reads",
+      "primary_url": "https://arxiv.org/abs/2610.05337",
+      "published_at": "2026-10-04",
+      "organization": "Research collaboration",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "GRNO uses governing equations to choose latent-feature read coordinates rather than treating transport fields only as values. Across five PDE systems it reports lowest mean final error in four over 40 autoregressive steps; interventions test the importance of routing direction and alignment."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 3,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-2",
+      "rank": 2,
+      "title": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
+      "primary_url": "https://arxiv.org/abs/2610.03265",
+      "published_at": "2026-10-02",
+      "organization": "Research collaboration",
+      "category": "AIによる設計",
+      "source_kind": "paper",
+      "factual_points": [
+        "SPEAR separates low/high-frequency latent features and merges experts using knowledge and routing similarity. Tests span twelve PDE datasets; authors report halving expert count while maintaining or improving accuracy. Pretraining and transfer benchmarks, not industrial CFD validation."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 2,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-15",
+      "rank": 3,
+      "title": "AI-Augmented AADL in Visual Studio Code",
+      "primary_url": "https://sei.cmu.edu/blog/ai-augmented-aadl-in-visual-studio-code/",
+      "published_at": "2026-09-16",
+      "organization": "Carnegie Mellon University Software Engineering Institute",
+      "category": "AIによる設計",
+      "source_kind": "official",
+      "factual_points": [
+        "SEI pairs an AADL language server and deterministic architecture analyses with an AI coding agent. A flight-controller example exercises latency, bus-load and mode reachability. Authors distinguish internally consistent model results from evidence that real-world requirements and assumptions are correct."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 15,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-company-26",
+      "rank": 4,
+      "title": "Flow Engineering raises $50M Series B for agentic hardware systems engineering",
+      "primary_url": "https://www.flowengineering.com/blog/series-b-press-release",
+      "published_at": "2026-09-30",
+      "organization": "Flow Engineering",
+      "category": "AI設計・MBSE",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Flow announced $50M Series B at $750M valuation. Its agents connect requirements, CAD, simulation, code and tests; plans include review, branching and evaluation controls. Rivian usage grew from 40 to 1,500 users in seven months, per company. Discovery: traceable systems-engineering workflow is worth monitoring; cycle-time gains are aspirations."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 26,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "b-research-11",
+      "rank": 5,
+      "title": "From legacy finite element modeling to explainable simulation: Technical requirements for XAI in computational mechanics",
+      "primary_url": "https://link.springer.com/article/10.1007/s00466-026-02845-z",
+      "published_at": "2026-09-11",
+      "organization": "Computational Mechanics / Springer",
+      "category": "AIによる設計",
+      "source_kind": "journal",
+      "factual_points": [
+        "Barna Szabó connects explainable simulation to control of model-form and discretization errors, hierarchical finite-element formulations and verification. Spherical-shell examples ground the argument. A methodological requirements paper; it does not establish a general explanation method for black-box neural surrogates."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 11,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-47",
+      "rank": 6,
+      "title": "Agentic AI in organisations: Early insights from practitioner interviews",
+      "primary_url": "https://www.oecd.org/en/publications/agentic-ai-in-organisations_1257a26f-en.html",
+      "published_at": "2026-09-16",
+      "organization": "OECD",
+      "category": "AI調査・企業導入",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "74組織に接触し25組織へ半構造化インタビュー。開発者、導入企業、政府を含み、業務・産業最適化・ソフトウェア・科学研究の実装と統治を整理。独立した性能測定を含まず、組織の見解に基づく定性研究。サンプル選択と急速な技術変化による限界を明示。"
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 47,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-45",
+      "rank": 7,
+      "title": "More than just Plug and Play: Early Evidence on Organisational Capital and AI Adoption",
+      "primary_url": "https://www.productivity.ac.uk/research/more-than-just-plug-and-play-early-evidence-on-organisational-capital-and-ai-adoption/",
+      "published_at": "2026-09-28",
+      "organization": "The Productivity Institute",
+      "category": "AI調査・企業導入",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "英国MES2020/2023のパネルを分析。技術利用の有効回答7,525から分析別制約を適用。基準時点の管理実践、とくに業績測定が後のAI採用と関連。管理スコア最上位・最下位十分位で採用率差は約10ポイント。10人未満企業、農業・金融・公共部門を除外。観察研究で因果効果とは断定しない。"
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 45,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-26",
+      "rank": 8,
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+      "published_at": "2026-10-02",
+      "organization": "AWS",
+      "category": "企業AI・エージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "A bounded MCP interface translates questions into typed operations while a deterministic rules engine makes compliance determinations. A completeness receipt accounts for every scanned record, including ambiguous and unreadable cases. Reference implementation, not validation of legal correctness."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 26,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-23",
+      "rank": 9,
+      "title": "Automate remediation post AWS DevOps Agent investigation",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+      "published_at": "2026-10-07",
+      "organization": "AWS",
+      "category": "企業AI・エージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "A reference workflow connects DevOps Agent investigation summaries with Lambda Durable Functions, EventBridge and Bedrock to prepare validated remediation for human approval. It separates diagnosis from production changes; a tutorial architecture, not measured customer deployment outcomes."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 23,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-9",
+      "rank": 10,
+      "title": "ORNL selected for six Phase II Genesis Mission awards",
+      "primary_url": "https://www.ornl.gov/news/ornl-selected-for-six-phase-ii-genesis-mission-awards/",
+      "published_at": "2026-10-08",
+      "organization": "Oak Ridge National Laboratory / DOE",
+      "category": "scientific_wildcards",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Six multi-year awards cover closed-loop quantum-material discovery, AI-assisted HPC software, rare-earth separation, accelerator operations, extreme-environment specs-to-silicon and a SPARC digital twin. These are funded project aims, including surrogate validation and intelligent design agents, rather than delivered scientific results."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 9,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-5",
+      "rank": 11,
+      "title": "Reliability of AI/ML Computational Searches for Magnetic Materials: Databases, Validation, and Synthesizability",
+      "primary_url": "https://arxiv.org/abs/2610.07552",
+      "published_at": "2026-10-06",
+      "organization": "Research collaboration",
+      "category": "scientific_wildcards",
+      "source_kind": "paper",
+      "factual_points": [
+        "The authors argue that magnetic-material discovery needs electronic, thermodynamic, kinetic and experimental validation, not merely more structures. A synthesis-window descriptor and Fe-Co-B example show why a T=0-favored ordered structure may be kinetically inaccessible. A validation framework rather than a new synthesized magnet."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 5,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-27",
+      "rank": 12,
+      "title": "HPE teams with NVIDIA to bring secure, governed agentic AI into enterprise production",
+      "primary_url": "https://www.hpe.com/us/en/newsroom/blog-post/2026/09/hpe-and-nvidia-bring-secure-governed-agentic-ai-into-enterprise-production.html",
+      "published_at": "2026-09-28",
+      "organization": "HPE",
+      "category": "企業AI・エージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "HPE describes OpenShell runtime isolation and policy enforcement outside the agent process, plus Sentry monitoring on BlueField-4. OpenShell is described as generally available; its HPE Private Cloud AI integration and confidential-computing services are planned for Q4 2026."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 27,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-company-29",
+      "rank": 13,
+      "title": "Vinci raises $250M to expand continuous physics reasoning beyond semiconductors",
+      "primary_url": "https://www.businesswire.com/news/home/20261006307372/en/Vinci-Raises-%24250M-Series-B-at-%241.5B-Valuation-to-Build-the-Intelligence-Infrastructure-for-a-New-Era-of-Hardware-Engineering",
+      "published_at": "2026-10-06",
+      "organization": "Vinci",
+      "category": "AI設計・CAE",
+      "source_kind": "press_release",
+      "factual_points": [
+        "Vinci announced $250M Series B at $1.5B valuation. It reports zero-shot thermal, thermo-mechanical and convective-fluid analysis combining agents, a physics model and GPU kernels; >15bn-DOF runs in minutes are vendor claims. Discovery: expansion toward aircraft and multi-physics engineering merits monitoring; aerospace deployment is not established."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 29,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "b-research-29",
+      "rank": 14,
+      "title": "Beam benchmark results updated October 8; weights remain pending",
+      "primary_url": "https://www.reflection.ai/blog/introducing-beam",
+      "published_at": "2026-10-05",
+      "organization": "Reflection AI",
+      "category": "生成AI・基盤モデル",
+      "source_kind": "official",
+      "factual_points": [
+        "October 8 update revises Beam benchmark results: DeepSWE v1.1 44.4, Terminal Bench v2.1 80.1, HLE without tools 36.2 (vendor reported). The Oct5 announcement was previously scouted; this dated evaluation update is the retained delta. Weights/model card remain promised later this month. Compute estimates exclude prefill, attention and serving overhead."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 29,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-33",
+      "rank": 15,
+      "title": "Introducing Embed 5: A new family of frontier embedding models",
+      "primary_url": "https://cohere.com/blog/embed-5",
+      "published_at": "2026-09-30",
+      "organization": "Cohere",
+      "category": "企業AI・エージェント",
+      "source_kind": "official",
+      "factual_points": [
+        "Embed 5 Pro and Fast share an embedding space, allowing one document index with either query tier. Cohere describes multimodal retrieval, 100-plus languages and 128K context. Quantized private deployment is mentioned; this is not evidence of publicly downloadable open weights."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 33,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-31",
+      "rank": 16,
+      "title": "North 2: Enterprise AI without compromises",
+      "primary_url": "https://cohere.com/blog/introducing-north-2",
+      "published_at": "2026-10-05",
+      "organization": "Cohere",
+      "category": "企業AI・エージェント",
+      "source_kind": "official",
+      "factual_points": [
+        "North 2 introduces a redesigned agent harness, reusable skills, libraries and memory, model choice, and on-premises or air-gapped deployment. Admin controls cover permissions, token consumption tiers and user/group rate limits. These are vendor-announced capabilities, not demonstrated ROI."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 31,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-research-24",
+      "rank": 17,
+      "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+      "published_at": "2026-10-07",
+      "organization": "AWS / Cornerstone OnDemand",
+      "category": "企業AI・エージェント",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Cornerstone describes Orion AI, a multi-agent database operations system built with Bedrock and Strands Agents. The company reports diagnosis falling from 45 to 10 minutes, developed by a three-person team in six months. The 78% gain is a customer/vendor case-study claim, not independent evaluation."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 24,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "b-company-1",
+      "rank": 18,
+      "title": "央广网报道丨从蓝天到能源重器：国产燃气轮机自主攻关之路",
+      "primary_url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216541422877/index.html",
+      "published_at": "2026-09-22",
+      "organization": "Aero Engine Corporation of China (AECC)",
+      "category": "engine_technology",
+      "source_kind": "official",
+      "factual_points": [
+        "AECC's dated report describes aero-derived Taihang turbine advances in hot-section life, stable low-emission combustion, dual-fuel switching and domestic controls. Taihang7 units have accumulated over 90,000 operating hours in offshore service; AECC describes an integrated 1–110 MW product platform."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 1,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "b-company-19",
+      "rank": 19,
+      "title": "BAE Systems completes successful Critical Design Review for U.S. Space Force missile warning and tracking program",
+      "primary_url": "https://www.baesystems.com/en-us/article/bae-systems-completes-successful-critical-design-review-for-us-space-force-missile-warning-and-tracking-program",
+      "published_at": "2026-09-21",
+      "organization": "BAE Systems",
+      "category": "space",
+      "source_kind": "press_release",
+      "factual_points": [
+        "MEO Epoch 2 passed critical design review 14 months after award. Digital modeling, simulation and model-based systems engineering supported the 10-spacecraft design and early component production using the Trek bus and infrared payload heritage."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 19,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "b-company-28",
+      "rank": 20,
+      "title": "SOSV HAX backs Zenithon's $10M seed round for extreme-physics world models",
+      "primary_url": "https://hax.co/sosv-hax-backs-zenithon-to-build-world-models-for-plasma-physics/",
+      "published_at": "2026-09-30",
+      "organization": "Zenithon AI",
+      "category": "scientific AI・シミュレーション",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Investor HAX confirms participating in Zenithon's $10M seed round for plasma world models targeting fusion, semiconductor manufacturing and aerospace. Million-fold speed claims are investor-reported without disclosed benchmark controls. Discovery: extreme-physics surrogates and targeted experimental data generation merit continued validation monitoring."
+      ],
+      "reason": "保存価値は高いが、今回の主題と多様性に照らし採用上位候補に次ぐ。再採用前に原典の完全検証が必要。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 28,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "id": "x-company-0",
+      "title": "喜报！AES100发动机获唯一特等奖",
+      "primary_url": "https://www.aecc.cn/aecc/xwzx/jtyw/2026092216480883373/index.html",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 0,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-3",
+      "title": "Countdown to A350F first flight: Preparing for the sky",
+      "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-09-countdown-to-a350f-first-flight-preparing-for-the-sky",
+      "reason": "既公開URL・仮想初飛行イベント。新規の実機初飛行は別項目c-a350f-flightに採用。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 3,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-4",
+      "title": "Airbus invests into UK manufacturing to support global production ramp-up",
+      "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-invests-into-uk-manufacturing-to-support-global-production-ramp-up",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 4,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-5",
+      "title": "Shaping the future of flight testing",
+      "primary_url": "https://www.airbus.com/en/newsroom/stories/2026-10-shaping-the-future-of-flight-testing",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 5,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-6",
+      "title": "Airbus strengthens A320 Family delivery capacity in Toulouse with a new delivery centre",
+      "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-strengthens-a320-family-delivery-capacity-in-toulouse-with-a-new-delivery-centre",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 6,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-7",
+      "title": "Airbus delivers first aircraft from its second A320 Family Final Assembly Line in China",
+      "primary_url": "https://www.airbus.com/en/newsroom/press-releases/2026-09-airbus-delivers-first-aircraft-from-its-second-fal-in-china",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 7,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-9",
+      "title": "Boeing, American Airlines Complete First 737 MAX Landing Gear Exchange",
+      "primary_url": "https://boeing.mediaroom.com/2026-09-14-Boeing,-American-Airlines-Complete-First-737-MAX-Landing-Gear-Exchange",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 9,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-10",
+      "title": "Boeing Secures Order For First Full-Rate Production Grey Wolf Helicopters",
+      "primary_url": "https://boeing.mediaroom.com/news-releases-statements?item=131723",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 10,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-11",
+      "title": "U.S. Navy Selects Boeing for F/A-XX Program",
+      "primary_url": "https://boeing.mediaroom.com/2026-09-29-U-S-Navy-Selects-Boeing-for-F-A-XX-Program",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 11,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-12",
+      "title": "Satellite constellation set to level up service",
+      "primary_url": "https://boeing.mediaroom.com/news-releases-statements?item=131715",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 12,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-13",
+      "title": "Lockheed Martin Announces First Flight of Morocco’s First F 16 Block 72",
+      "primary_url": "https://news.lockheedmartin.com/2026-10-06-Lockheed-Martin-Announces-First-Flight-of-Moroccos-First-F-16-Block-72",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 13,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-14",
+      "title": "Lockheed Martin Connects F-35 Crews Across Multiple Locations for Live Mission Rehearsal",
+      "primary_url": "https://news.lockheedmartin.com/2026-09-21-Lockheed-Martin-Connects-F-35-Crews-Across-Multiple-Locations-for-Live-Mission-Rehearsal",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 14,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-15",
+      "title": "Lockheed Martin Fast-Tracks PAC-3 MSE Components in Less Than One Month in Partnership with GM Defense",
+      "primary_url": "https://news.lockheedmartin.com/2026-09-17-Lockheed-Martin-Fast-Tracks-PAC-3-R-MSE-Components-in-Less-Than-One-Month-in-Partnership-with-GM-Defense",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 15,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-16",
+      "title": "Lockheed Martin Demonstrates Legion Sensor System with Pod-to-Pod Data Link",
+      "primary_url": "https://news.lockheedmartin.com/2026-09-16-Lockheed-Martin-Demonstrates-Legion-Sensor-System-with-Pod-to-Pod-Data-Link",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 16,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-17",
+      "title": "Lockheed Martin Secures U.S. Space Force Contracts to Further Modernize the GPS Ground Segment",
+      "primary_url": "https://news.lockheedmartin.com/lockheed-martin-secures-space-force-contracts-contracts-to-further-modernize-the-GPS-ground-segment",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 17,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-18",
+      "title": "BAE Systems receives $16 million to qualify RH45 technology for radiation-hardened space missions",
+      "primary_url": "https://www.baesystems.com/en-us/article/bae-systems-receives-16-million-to-qualify-rh45-technology-for-radiation-hardened-space-missions",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 18,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-20",
+      "title": "BAE Systems to deliver M-Code GPS for U.S. Navy joint precision approach and landing system",
+      "primary_url": "https://www.baesystems.com/en-us/article/bae-systems-to-deliver-m-code-gps-for-u-s-navy-joint-precision-approach-and-landing-system",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 20,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-21",
+      "title": "Northrop Grumman Opens New Manufacturing Facility in Layton, Utah",
+      "primary_url": "https://lcecon.laytoncityutah.gov/northrop-grumman-opens-new-manufacturing-facility-in-layton-utah/",
+      "reason": "Northrop East Gate 3の同一イベントは既公開。自治体URLへの差し替えだけでは新情報にならない。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 21,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-22",
+      "title": "Delivering electronic warfare systems for F-35 stealth fighters",
+      "primary_url": "https://www.baesystems.com/en-us/article/delivering-electronic-warfare-systems-for-f-35-stealth-fighters",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 22,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-23",
+      "title": "CEO: 737-10 certification very soon, more to do to stabilize production",
+      "primary_url": "https://www.boeing.com/features/2026/09/ceo-737-10-certification-very-soon-more-to-do-to-stabilize-production",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 23,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-24",
+      "title": "Boeing secures order for 22 more F-15EX fighters",
+      "primary_url": "https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 24,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-company-25",
+      "title": "Driving Innovation: Lockheed Martin’s PAC-3 MSE Partnerships",
+      "primary_url": "https://sustainability.lockheedmartin.com/en-us/news/features/2026/Driving-Innovation-Lockheed-Martins-PAC-3-MSE-Partnerships.html",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/company/2026-10-09.json",
+        "candidate_index": 25,
+        "index_base": 0,
+        "blob_sha": "dab895f2c63c1f1d5d10c84bb0ba4b9e44e2d50e",
+        "commit": "7235cbe25e903efcd5118692634aa90f9676bbd8"
+      }
+    },
+    {
+      "id": "x-research-4",
+      "title": "Learning the Willmore flow with a lightweight neural operator",
+      "primary_url": "https://arxiv.org/abs/2610.03534",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 4,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-7",
+      "title": "Evolutionary One-Step Generators: Fast and Diverse Sampling for Discrete Design",
+      "primary_url": "https://arxiv.org/abs/2610.08367",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 7,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-10",
+      "title": "Automation is shaping the future of American manufacturing",
+      "primary_url": "https://www.ornl.gov/news/automation-shaping-the-future-of-american-manufacturing/",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 10,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-12",
+      "title": "AI Is Finally Learning How Products Work",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/ai-is-finally-learning-how-products-work/",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 12,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-13",
+      "title": "food4Rhino webinar: Talk to your Rhino – Raven AI V2 launch",
+      "primary_url": "https://blog.rhino3d.com/2026/09/food4rhino-webinartalk-to-your-rhino.html",
+      "reason": "イベント・予定の告知で、実装公開や結果の検証が未完了。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 13,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-16",
+      "title": "Gene-driven self-morphing microtubule-based active matter",
+      "primary_url": "https://www.nature.com/articles/s41563-026-02767-4",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 16,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-17",
+      "title": "Universal hydrogen-free synthesis and elemental doping of two-dimensional transition metal selenides",
+      "primary_url": "https://www.nature.com/articles/s41467-026-78372-5",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 17,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-18",
+      "title": "Sapphire discovery could reshape future brain-inspired electronics",
+      "primary_url": "https://www.aps.anl.gov/APS-News/2026-10-02/sapphire-discovery-could-reshape-future-brain-inspired-electronics/2026-10-02",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 18,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-19",
+      "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+      "primary_url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 19,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-20",
+      "title": "Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training",
+      "primary_url": "https://www.nature.com/articles/s41467-026-77376-5",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 20,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-21",
+      "title": "LZ Sees Surprising Result in Search for Dark Matter",
+      "primary_url": "https://www.nersc.gov/news-and-events/news/lz-sees-surprising-result-in-search-for-dark-matter",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 21,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-25",
+      "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 25,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-32",
+      "title": "Introducing North Small Translate",
+      "primary_url": "https://cohere.com/blog/north-small-translate",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 32,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-34",
+      "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+      "primary_url": "https://mistral.ai/news/mistral-x-cloudera/",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 34,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-35",
+      "title": "How Sarvam's voice agents work across Mahindra Finance's business",
+      "primary_url": "https://www.sarvam.ai/stories/mahindra-finance-voice-agents",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 35,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-36",
+      "title": "Building AI Agents: A First-Principles Guide",
+      "primary_url": "https://www.sarvam.ai/blogs/building-ai-agents",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 36,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-38",
+      "title": "AI Agent Trust 2026: Verifiable CredentialsによるAIエージェント相互認証実証を発表予定",
+      "primary_url": "https://www.gmogshd.com/news/news-17402",
+      "reason": "イベント・予定の告知で、実装公開や結果の検証が未完了。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 38,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-39",
+      "title": "Alibaba Unveils Agentic Computer, AI Wearables and More at 2026 Apsara Conference",
+      "primary_url": "https://www.alibabacloud.com/blog/603599",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 39,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-43",
+      "title": "The State of Autonomous IT Operations: Riverbed Global Survey 2026",
+      "primary_url": "https://www.riverbed.com/press-releases/global-survey-finds-agentic-ai-reshaping-it/",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 43,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-44",
+      "title": "The 2026 CUPA-HR CHRO Survey",
+      "primary_url": "https://www.cupahr.org/resource/the-2026-cupa-hr-chro-survey/",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 44,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-46",
+      "title": "Faculty Perspectives on AI in Higher Education",
+      "primary_url": "https://www.ncfdd.org/white-paper/faculty-perspectives-ai-higher-education/",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 46,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-48",
+      "title": "Proceeding report from Madrid conference on the responsible scale of AI in healthcare",
+      "primary_url": "https://www.oecd.org/en/publications/proceeding-report-from-madrid-conference-on-the-responsible-scale-of-ai-in-healthcare_cf9439c3-en.html",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 48,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-49",
+      "title": "Chief Economists’ Outlook: September 2026",
+      "primary_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 49,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-50",
+      "title": "AI Transformation Report, October 2026",
+      "primary_url": "https://openfutureforum.com/research/ai-transformation-report-october-2026",
+      "reason": "今回の主題に対する追加価値・鮮度・根拠の厚さが採用候補および保存上位20件より低い。原候補はScoutに保持。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 50,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    },
+    {
+      "id": "x-research-51",
+      "title": "The State of AI in Massachusetts 2026 Research Report",
+      "primary_url": "https://aiweek.boston/survey/results",
+      "reason": "アクセス制限または限定された公開要約が残り、今回の選択肢中では検証・主題適合が弱い。",
+      "provenance": {
+        "source_file": "gpt_handoff/research/2026-10-09.json",
+        "candidate_index": 51,
+        "index_base": 0,
+        "blob_sha": "678d84c1598a31a70915be9396e8ef9578a0761b",
+        "commit": "746da3084c0d2d049f02a5803f4f80ae1a94fb59"
+      }
+    }
+  ],
+  "warnings": [
+    "AVIC article bodies, Northrop newsroom and selected Lockheed corporate features had access restrictions; detailed access records retained.",
+    "Vendor/investor performance and efficiency claims are self-reported, not independently established.",
+    "Scout retains in-window previously seen events for downstream semantic deduplication; no claim of exclusive newness.",
+    "All dates within 2026-09-09 to 2026-10-08. Journal issue dates alone were not accepted as fresh publication dates; several ScienceDirect October issue papers excluded.",
+    "Nature Oct8 articles and SEI AADL retained using substantial primary publisher indexed extracts; source-open failures disclosed in their excerpts and evidence.",
+    "Raven item is a dated event announcement, not verified general availability. Autodesk and ORNL automation articles discuss ongoing capabilities rather than demonstrating a new launch.",
+    "arXiv magnetic-materials page has internally inconsistent generated author-count text; explicit Authors list contains three authors and is used.",
+    "Optical-neural detector paper has 15-level abstract versus 14-level image-demo text; excerpt omits inconsistent detail. Direct fetch failed but extensive primary indexed full text was reviewed.",
+    "Mistral Large 4 and Reflection Beam weights were not yet released on opened announcement pages",
+    "Reflection source has October 8 benchmark update; original publication date retained October 5",
+    "DeepSeek official news page and updates page conflict over V4-Pro retirement/routing; suppressed release duplicate rather than amplify either assertion",
+    "AWS main blog index opened stale Oct 2 snapshot while tracked variant/search showed Oct 7/8; individual article pages opened to verify selected items",
+    "Samsung is adjacent industrial AI/edge infrastructure rather than enterprise language-agent deployment",
+    "GMO notice announces forthcoming presentation, not disclosed experimental findings",
+    "Author/date and performance statements are primary vendor assertions, not independently validated",
+    "Riverbed direct fetch failed twice; official indexed press-release body provides findings, recheck primary body before selection.",
+    "State of AI PDF exceeds web fetch limit (33,115,329 bytes); official live report introduction verified, no claims of reviewing all 244 slides.",
+    "NCFDD page has September29 and October1 dates; original/updated distinction inferred only.",
+    "Boston full report registration-gated; public summary only; no personal data submitted.",
+    "WEF PDF could not be fetched; no unsupported numerical results included.",
+    "VC-specific Menlo query and JETRO query returned no qualifying fresh item.",
+    "Gallup October5 result already published; excluded. Older Cisco/Stanford/KPMG manufacturing/Deloitte reports not padded into pool.",
+    "Per-item results distinguish vendor claims, computational studies, qualitative interviews, planned capabilities and measured effects; source limitations are retained.",
+    "Exploratory/report mix is guidance, not filler quota. Actual lane counts and full executed-query trace are preserved.",
+    "Reflection Beam was retained despite earlier Scout URL because the source explicitly revises benchmark results October8; no already-published URL was retained.",
+    "Report numbers retain source attribution; third-party results cited by State of AI were not independently replicated.",
+    "No articles written; summary/editorial plan are structural notes only."
+  ]
+}
