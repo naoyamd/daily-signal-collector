@@ -1,0 +1,1176 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-12T06:13:01+09:00",
+  "items": [
+    {
+      "title": "Boost for Italy’s world-class engineering as Edgewing lands in Turin",
+      "url": "https://www.leonardo.com/en/press-release-detail/-/detail/09-10-2026-boost-for-italy-s-world-class-engineering-as-edgewing-lands-in-turin",
+      "source": "Leonardo",
+      "source_kind": "press_release",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-10-09",
+      "excerpt": "Edgewing opened a Turin engineering hub for the Italy-Japan-UK GCAP aircraft. Engineers from all three nations will support the advanced concept and assessment phase and establish digital capabilities for design and development.",
+      "query": "site:leonardo.com \"2026\" (\"October\" OR \"September\") (\"engineering\" OR \"manufacturing\" OR \"AI\" OR \"materials\")",
+      "tags": [
+        "GCAP",
+        "digital engineering",
+        "aircraft design",
+        "engineering hub"
+      ],
+      "organization": "Leonardo / Edgewing",
+      "company": "Leonardo",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "ispace, Leonardo and Telespazio Sign Memorandum of Understanding to Collaborate on Lunar Exploration",
+      "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/ispace-leonardo-telespazio-mou-lunar-exploration",
+      "source": "Leonardo",
+      "source_kind": "official",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-10-06",
+      "excerpt": "The companies signed an MoU to explore lunar communications, navigation and transportation collaboration, including Leonardo’s space robotics and AI capabilities. Potential work includes interoperability, user terminals and Moonlight satellite transportation.",
+      "query": "site:leonardo.com \"2026\" (\"October\" OR \"September\") (\"engineering\" OR \"manufacturing\" OR \"AI\" OR \"materials\")",
+      "tags": [
+        "AI",
+        "space robotics",
+        "lunar infrastructure",
+        "systems engineering"
+      ],
+      "organization": "Leonardo / Telespazio / ispace",
+      "company": "Leonardo",
+      "document_type": "corporate_news",
+      "language": "en"
+    },
+    {
+      "title": "Leonardo selected to help shape Europe’s future sovereign Earth observation capability",
+      "url": "https://www.leonardo.com/en/press-release-detail/-/detail/17-09-2026-leonardo-selected-to-help-shape-europe-s-future-sovereign-earth-observation-capability",
+      "source": "Leonardo",
+      "source_kind": "press_release",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-17",
+      "excerpt": "ESA awarded Leonardo a funded study for the future EU Earth Observation Governmental Service architecture. The consortium will assess gaps and architectural alternatives spanning sensors, space systems, ground infrastructure, processing and services.",
+      "query": "site:leonardo.com/en (\"12.09.2026\" OR \"September 2026\" OR \"October 2026\" OR \"2026-09\" OR \"2026-10\") -drone -UAV -UAS -eVTOL",
+      "tags": [
+        "systems architecture",
+        "Earth observation",
+        "ESA",
+        "engineering study"
+      ],
+      "organization": "Leonardo",
+      "company": "Leonardo",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Leonardo, MAFA and BELTCON to supply baggage automation for Medina airport Terminal 2",
+      "url": "https://www.leonardo.com/en/press-release-detail/-/detail/15-09-2026-leonardo-mafa-and-beltcon-to-deliver-advanced-baggage-handling-system-for-prince-mohammed-bin-abdulaziz-international-airport",
+      "source": "Leonardo",
+      "source_kind": "press_release",
+      "category": "民間・軍用航空機",
+      "published_at": "2026-09-15",
+      "excerpt": "A new Terminal 2 contract introduces Leonardo’s MBHS cross-belt sorter in Saudi Arabia. Leonardo will supply the sorter and Sort Allocation Computer for baggage routing and airport-system integration with MAFA and BELTCON.",
+      "query": "site:leonardo.com/en (\"12.09.2026\" OR \"September 2026\" OR \"October 2026\" OR \"2026-09\" OR \"2026-10\") -drone -UAV -UAS -eVTOL",
+      "tags": [
+        "industrial automation",
+        "sorter",
+        "system integration",
+        "airport services"
+      ],
+      "organization": "Leonardo / MAFA / BELTCON",
+      "company": "Leonardo",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Innovative solutions for the next generation of business jets: Liebherr at NBAA-BACE 2026",
+      "url": "https://www.liebherr.com/de-de/n/innovative-solutions-for-the-next-generation-of-business-jets-liebherr-at-nbaa-bace-2026-291200-7170845",
+      "source": "Liebherr-Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-10-08",
+      "excerpt": "Liebherr’s planned NBAA-BACE display covers landing gear, air-management systems and modular electromechanical actuators for business jets. The company highlights smaller actuators, electrification, weight reduction and compact installation requirements.",
+      "query": "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+      "tags": [
+        "business jets",
+        "actuators",
+        "electrification",
+        "landing gear",
+        "air management"
+      ],
+      "organization": "Liebherr-Aerospace & Transportation SAS",
+      "company": "Liebherr-Aerospace",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Liebherr-Aerospace and China Airlines reach an agreement for Airbus A350 nose landing gear overhaul",
+      "url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-and-china-airlines-reach-an-agreement-for-airbus-a350-nose-landing-gear-overhaul-288512-7170845",
+      "source": "Liebherr-Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-09-22",
+      "excerpt": "China Airlines selected Liebherr for nose-landing-gear exchange and overhaul across 18 Airbus A350 aircraft. The campaign starts in 2026 and runs through 2031, with asset exchanges supporting maintenance planning and fleet availability.",
+      "query": "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+      "tags": [
+        "MRO",
+        "landing gear",
+        "Airbus A350",
+        "China Airlines",
+        "Asia"
+      ],
+      "organization": "Liebherr-Aerospace",
+      "company": "Liebherr-Aerospace",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Liebherr-Aerospace participates in MRO Asia-Pacific 2026",
+      "url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-participates-in-mro-asia-pacific-2026-287872-7170845",
+      "source": "Liebherr-Aerospace",
+      "source_kind": "news",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-09-18",
+      "excerpt": "Liebherr announced it would present Asia-Pacific customer-service solutions at MRO Asia-Pacific in Singapore on September 22–24, 2026. The official news listing confirms the publication date and event details; the article body was not retrievable.",
+      "query": "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+      "tags": [
+        "MRO",
+        "customer services",
+        "Asia-Pacific",
+        "Singapore",
+        "official_listing_only"
+      ],
+      "organization": "Liebherr-Aerospace",
+      "company": "Liebherr-Aerospace",
+      "document_type": "corporate_news",
+      "language": "en"
+    },
+    {
+      "title": "Woodward to Provide Actuation System for Aircraft Folding Wing Demonstrator",
+      "url": "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/",
+      "source": "Woodward",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-10-07",
+      "excerpt": "Woodward will supply Airbus' ground-based folding-wing demonstrator with an actuation system, including a power delivery unit and high-power hinge actuator. Work includes hydraulic-versus-electric design trade studies; testing is planned in Bremen and Bristol.",
+      "query": "site.woodward.com (news OR newsroom OR technology OR investor) after:2026-09-11 before:2026-10-13",
+      "tags": [
+        "aerospace",
+        "Airbus",
+        "actuation",
+        "folding_wing",
+        "electromechanical",
+        "hydraulics",
+        "design_trade_studies"
+      ],
+      "organization": "Woodward, Inc.",
+      "company": "Woodward",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Woodward Plans to Transition Its Santa Clarita, California, Aerospace Controls Production to Spartanburg, South Carolina",
+      "url": "https://www.woodward.com/press-release/woodward-plans-to-transition-its-santa-clarita-california-aerospace-controls-production-to-spartanburg-south-carolina/",
+      "source": "Woodward",
+      "source_kind": "press_release",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-09-21",
+      "excerpt": "Woodward plans to transfer military fixed-wing and rotorcraft flight-control actuation production to Spartanburg. The new plant is expected online in summer 2027, also producing Airbus A350 spoiler actuation systems. Santa Clarita operations are expected to end by December 2027.",
+      "query": "site.woodward.com (news OR newsroom OR technology OR investor) after:2026-09-11 before:2026-10-13",
+      "tags": [
+        "aerospace",
+        "manufacturing",
+        "flight_controls",
+        "actuation",
+        "Airbus_A350",
+        "Spartanburg"
+      ],
+      "organization": "Woodward, Inc.",
+      "company": "Woodward",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Parker Hannifin 2026 Annual Report",
+      "url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000142/phfy26ararscompliant.pdf",
+      "source": "Parker Hannifin Investor Relations",
+      "source_kind": "official",
+      "category": "航空機エンジン・部品",
+      "published_at": "2026-09-18",
+      "excerpt": "Parker’s September 18 annual-report filing records FY2026 company-wide R&D of $267 million and development-contract pre-production expense of $43 million. It cites aircraft platforms and MRO demand as aerospace growth drivers; Aerospace Systems backlog was $8.498 billion at June 30. These are issuer-reported figures.",
+      "query": "site.parker.com (aerospace OR propulsion OR manufacturing OR MRO) (news OR press OR technology) after:2026-09-11 before:2026-10-13",
+      "tags": [
+        "aerospace",
+        "research_and_development",
+        "MRO",
+        "manufacturing",
+        "annual_report",
+        "secondary_priority"
+      ],
+      "organization": "Parker-Hannifin Corporation",
+      "company": "Parker Aerospace",
+      "document_type": "annual_report",
+      "language": "en"
+    },
+    {
+      "title": "Howmet Aerospace to Host Webcast and Announce Third Quarter 2026 Results",
+      "url": "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/",
+      "source": "Howmet Aerospace",
+      "source_kind": "press_release",
+      "category": "航空機材料・部品",
+      "published_at": "2026-10-01",
+      "excerpt": "Howmet scheduled its Q3 2026 results for October 29, with release and slides at about 7 a.m. ET and a webcast at 10 a.m. ET. This is an investor-calendar notice rather than a new engineering or manufacturing result.",
+      "query": "site:howmet.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+      "tags": [
+        "Howmet Aerospace",
+        "investor relations",
+        "earnings calendar",
+        "aerospace components",
+        "low technical relevance"
+      ],
+      "organization": "Howmet Aerospace Inc.",
+      "company": "Howmet Aerospace",
+      "document_type": "earnings webcast announcement",
+      "language": "en"
+    },
+    {
+      "title": "AI Readiness Starts with Product Data: 5 Trends Shaping the Future of Electronics and High Tech",
+      "url": "https://www.ptc.com/en/blogs/electronics-high-tech/ai-readiness-starts-with-product-data-trends",
+      "source": "PTC",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-05",
+      "excerpt": "PTC's E&HT Exchange recap identifies connected lifecycle data, PLM–ERP integration and interoperable digital threads as prerequisites for engineering AI. It discusses knowledge reuse and change-impact analysis; it reports no measured productivity gain or controlled validation.",
+      "query": "(\"aerospace\" OR \"engineering AI\" OR \"CFD\") (research OR manufacturing OR simulation) after:2026-09-12 before:2026-10-13 (site:ihi.co.jp OR site:ptc.com OR site:luminarycloud.com OR site:physicsx.ai)",
+      "tags": [
+        "discovery_candidate",
+        "engineering AI",
+        "PLM",
+        "digital thread",
+        "vendor perspective"
+      ],
+      "organization": "PTC",
+      "company": "PTC",
+      "document_type": "technical blog / event synthesis",
+      "language": "en"
+    },
+    {
+      "title": "「LH₂ BOG圧縮機」が川崎LH₂ターミナル向けに採用",
+      "url": "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html",
+      "source": "IHI",
+      "source_kind": "press_release",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-10-07",
+      "excerpt": "IHI says its rotating-machinery subsidiary's liquid-hydrogen boil-off-gas compressor was selected for Kawasaki's LH₂ terminal. The design uses vacuum insulation for approximately −240°C gas intake, a three-chamber seal arrangement and cryogenic-compatible materials. This is terrestrial hydrogen infrastructure, not an aircraft engine.",
+      "query": "site:ihi.co.jp 2026 10 航空 エンジン 技術 ニュース after:2026-09-12 before:2026-10-13",
+      "tags": [
+        "discovery_candidate",
+        "cryogenic hydrogen",
+        "compressor",
+        "materials",
+        "adjacent engineering"
+      ],
+      "organization": "IHI",
+      "company": "IHI",
+      "document_type": "product selection / engineering release",
+      "language": "ja"
+    },
+    {
+      "title": "ドイツ子会社 Steinmüller Engineering GmbHの持分の譲渡に関するお知らせ",
+      "url": "https://www.ihi.co.jp/all_news/2026/ir/__icsFiles/afieldfile/2026/09/29/260929n-j.pdf",
+      "source": "IHI",
+      "source_kind": "official",
+      "category": "技術サービス",
+      "published_at": "2026-09-29",
+      "excerpt": "IHI resolved to sell all shares in Steinmüller Engineering to a Mutares subsidiary, with closing planned for mid-October. The unit provides combustion/incineration, flue-gas treatment, heat-exchange and engineering-consulting services. This is a pending engineering-services portfolio change, not a completed sale.",
+      "query": "site:ihi.co.jp 2026 10 航空 エンジン 技術 ニュース after:2026-09-12 before:2026-10-13",
+      "tags": [
+        "discovery_candidate",
+        "engineering services",
+        "combustion",
+        "heat exchange",
+        "pending transaction"
+      ],
+      "organization": "IHI",
+      "company": "IHI",
+      "document_type": "corporate disclosure",
+      "language": "ja"
+    },
+    {
+      "title": "PhysicsX Launches Asia-Pacific Hub in Singapore to Scale AI-Powered Industrial Engineering Across the Region",
+      "url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+      "source": "PhysicsX",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-10-08",
+      "excerpt": "PhysicsX announced a Singapore hub and a five-year S$40 million partnership with A*STAR for AI engineering simulation and manufacturing. It says the hub has 20 staff and targets more than 100 within three years. Maritime, advanced manufacturing, semiconductors and biotechnology are named; no measured speedup is reported.",
+      "query": "site:physicsx.ai (\"September\" OR \"October\") \"2026\"",
+      "tags": [
+        "discovery_candidate",
+        "physics AI",
+        "engineering simulation",
+        "advanced manufacturing",
+        "Singapore",
+        "research partnership"
+      ],
+      "organization": "PhysicsX",
+      "company": "PhysicsX",
+      "document_type": "R&D partnership and regional hub announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:leonardo.com \"2026\" (\"October\" OR \"September\") (\"engineering\" OR \"manufacturing\" OR \"AI\" OR \"materials\")",
+    "site:avioaero.com \"2026\" (\"October\" OR \"September\")",
+    "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+    "site:leonardo.com/en (\"12.09.2026\" OR \"September 2026\" OR \"October 2026\" OR \"2026-09\" OR \"2026-10\") -drone -UAV -UAS -eVTOL",
+    "site:avioaero.com (settembre OR ottobre OR September OR October) 2026 (news OR research OR AI OR engine)",
+    "site:liebherr.com (\"2026-09\" OR \"2026-10\" OR \"September 2026\" OR \"October 2026\") (\"Aerospace\" OR \"aviation\")",
+    "site.woodward.com (news OR newsroom OR technology OR investor) after:2026-09-11 before:2026-10-13",
+    "site.parker.com (aerospace OR propulsion OR manufacturing OR MRO) (news OR press OR technology) after:2026-09-11 before:2026-10-13",
+    "site.parker.com aerospace September October 2026 news technology engineering manufacturing",
+    "site.woodward.com (\"2026\" \"September\" OR \"2026\" \"October\") (AI OR simulation OR digital OR engineering OR aerospace)",
+    "site:howmet.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+    "site:precast.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+    "\"Howmet\" after:2026-09-11 before:2026-10-13 (technology OR manufacturing OR materials OR research OR AI OR engine)",
+    "\"Precision Castparts\" after:2026-09-11 before:2026-10-13 (technology OR manufacturing OR materials OR research OR AI OR engine OR news)",
+    "(\"aerospace\" OR \"engineering AI\" OR \"CFD\") (research OR manufacturing OR simulation) after:2026-09-12 before:2026-10-13 (site:ihi.co.jp OR site:ptc.com OR site:luminarycloud.com OR site:physicsx.ai)",
+    "(\"aerospace\" OR \"AI design\" OR \"simulation\") after:2026-09-12 before:2026-10-13 (site:nvidia.com OR site:dassault-aviation.com OR site:saab.com)",
+    "site:ihi.co.jp 2026 10 航空 エンジン 技術 ニュース after:2026-09-12 before:2026-10-13",
+    "site:physicsx.ai (\"September\" OR \"October\") \"2026\""
+  ],
+  "warnings": [
+    "Partial access coverage: Parker Aerospace main-division pages returned errors; official investor filings remained accessible. Liebherr September 18 MRO article body was unavailable; only official dated-listing facts were retained.",
+    "Scout preserves dated low-signal IR, industrial-automation and space-system adjacencies for downstream assessment; it does not turn them into technical breakthroughs or completed deployments.",
+    "Howmet item is an earnings-calendar notice only. Parker report covers fiscal 2026 ended June 30 and is dated by its September 18 public filing, not by the reporting-period end.",
+    "Company claims and planned milestones are source-verified announcements, not independently proven performance. Vendor outcomes and projections remain attributed.",
+    "No stale or undated evergreen material retained. Source calendar dates are preserved where time zones are unstated; search-engine recency labels were not used as publication evidence.",
+    "China Airlines A350 landing-gear overhaul event also appeared in the September 23 company handoff under a different Liebherr locale URL. Downstream Curator must apply published-history deduplication.",
+    "Broad topic hygiene excludes configured uncrewed-aircraft and air-taxi subjects. Incidental references in GCAP or actuator source pages are not retained as candidate claims.",
+    "Searched_queries records 18 distinct executed searches within the 20-query envelope; two repeated discovery queries were verification retries. Query-attempt total 20 is recorded separately.",
+    "PDF visual-verification attempts for Parker returned cache-miss errors. Parsed PDF text and dated official filing index support the retained figures; this verification limitation is preserved."
+  ],
+  "checked_sources": [
+    {
+      "name": "Leonardo",
+      "status": "found",
+      "query": "site:leonardo.com \"2026\" (\"October\" OR \"September\") (\"engineering\" OR \"manufacturing\" OR \"AI\" OR \"materials\")",
+      "warning": "Search results did not surface Leonardo candidates; direct official homepage, press archive, and linked news articles supplied verified findings. Initial archive guesses failed; actual archive reachable at /en/media-hub/press-releases."
+    },
+    {
+      "name": "Avio Aero",
+      "status": "no_new_finding",
+      "query": "site:avioaero.com \"2026\" (\"October\" OR \"September\")",
+      "warning": "Opened /news, /news/articles and /news/press-releases. Latest listed article is 2026-07-31 and latest press release is 2026-07-20, both before window. Undated innovation pages and certificate validity dates excluded."
+    },
+    {
+      "name": "Liebherr-Aerospace",
+      "status": "found",
+      "query": "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+      "warning": "Verified October 8 and September 22 full articles. September 18 candidate verified from official dated listing; article body unavailable. Locale-dependent cached pages showed different latest entries, reconciled with official group and aerospace homepages."
+    },
+    {
+      "name": "Woodward",
+      "status": "found",
+      "query": "site.woodward.com (news OR newsroom OR technology OR investor) after:2026-09-11 before:2026-10-13",
+      "warning": "Official corporate newsroom and IR checked. Two dated substantive aerospace findings. September 16 dividend excluded as nontechnical."
+    },
+    {
+      "name": "Parker Aerospace",
+      "status": "found",
+      "query": "site.parker.com aerospace September October 2026 news technology engineering manufacturing",
+      "warning": "Official IR press-release list, filings, annual report, and proxy checked. Annual report is lower-priority background. Official IR press list's latest release was August 20, outside window. Main Parker division pages did not return usable content; public indexed search was used for technical/news coverage."
+    },
+    {
+      "name": "Howmet Aerospace",
+      "status": "found",
+      "query": "site:howmet.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+      "warning": "One in-window official IR calendar notice; no substantive technical development found. News archive, financial archive, newsroom, events calendar, and Technology & Markets Day page checked."
+    },
+    {
+      "name": "Precision Castparts",
+      "status": "no_new_finding",
+      "query": "site:precast.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+      "warning": "Both queries completed; official corporate and subsidiary technical pages reachable. No dated in-window relevant publication found."
+    }
+  ],
+  "research_plan": {
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-12",
+      "started_at": "2026-10-12T06:08:00+09:00",
+      "completed_at": "2026-10-12T06:13:01+09:00",
+      "status": "partial",
+      "planned_query_count": 18,
+      "executed_query_count": 18,
+      "query_count_basis": "distinct executed search strings; open/click/find verification is not counted as search",
+      "query_attempt_count": 20,
+      "retry_query_count": 2
+    },
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "Leonardo",
+          "category": "民間・軍用航空機",
+          "domains": [
+            "leonardo.com"
+          ]
+        },
+        {
+          "name": "Avio Aero",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "avioaero.com"
+          ]
+        },
+        {
+          "name": "Liebherr-Aerospace",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "liebherr.com"
+          ]
+        },
+        {
+          "name": "Woodward",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "woodward.com"
+          ]
+        },
+        {
+          "name": "Parker Aerospace",
+          "category": "航空機エンジン・部品",
+          "domains": [
+            "parker.com"
+          ]
+        },
+        {
+          "name": "Howmet Aerospace",
+          "category": "航空機材料・部品",
+          "domains": [
+            "howmet.com"
+          ]
+        },
+        {
+          "name": "Precision Castparts",
+          "category": "航空機材料・部品",
+          "domains": [
+            "precast.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "cursor_start": 40,
+      "cursor_next": 47,
+      "state_blob": "71c22ad91e786e5e8fa276e8ec948de7866ffaf4",
+      "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "selection_basis": "Valid explicit state authoritative. Indices 40–46 select the four Sep 23-last-checked sources followed by the first three Sep 24-last-checked sources in the configured fair rotation. Recent Sep 23 and Oct 9 handoff coverage reviewed.",
+      "discovery_organizations": [
+        {
+          "name": "PTC",
+          "reason": "Outside the mandatory watchlist; dated engineering-AI and lifecycle-data analysis adds PLM and digital-thread coverage."
+        },
+        {
+          "name": "IHI",
+          "reason": "Outside the mandatory watchlist; dated cryogenic-compressor engineering and engineering-services portfolio changes extend Japanese propulsion-adjacent supply-chain coverage."
+        },
+        {
+          "name": "PhysicsX",
+          "reason": "Outside the mandatory watchlist; newly announced A*STAR simulation/manufacturing research partnership adds engineering-AI and Singapore ecosystem coverage."
+        }
+      ]
+    },
+    "lookback": {
+      "start": "2026-09-12",
+      "end": "2026-10-12T06:13:01+09:00",
+      "timezone": "Asia/Tokyo",
+      "days": 30
+    },
+    "source_configuration": {
+      "config_blob": "388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "readme_blob": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "policy_blob": "52d83678fcf304dcc49b4f487260398909561ee0",
+      "validator_blob": "27b1a33274c673786f1568c0159e1e83812be109"
+    },
+    "executed_queries": [
+      {
+        "query": "site:leonardo.com \"2026\" (\"October\" OR \"September\") (\"engineering\" OR \"manufacturing\" OR \"AI\" OR \"materials\")",
+        "status": "executed"
+      },
+      {
+        "query": "site:avioaero.com \"2026\" (\"October\" OR \"September\")",
+        "status": "executed"
+      },
+      {
+        "query": "site:liebherr.com \"2026\" (\"October\" OR \"September\") \"Aerospace\"",
+        "status": "executed"
+      },
+      {
+        "query": "site:leonardo.com/en (\"12.09.2026\" OR \"September 2026\" OR \"October 2026\" OR \"2026-09\" OR \"2026-10\") -drone -UAV -UAS -eVTOL",
+        "status": "executed"
+      },
+      {
+        "query": "site:avioaero.com (settembre OR ottobre OR September OR October) 2026 (news OR research OR AI OR engine)",
+        "status": "executed"
+      },
+      {
+        "query": "site:liebherr.com (\"2026-09\" OR \"2026-10\" OR \"September 2026\" OR \"October 2026\") (\"Aerospace\" OR \"aviation\")",
+        "status": "executed"
+      },
+      {
+        "query": "site.woodward.com (news OR newsroom OR technology OR investor) after:2026-09-11 before:2026-10-13",
+        "status": "executed"
+      },
+      {
+        "query": "site.parker.com (aerospace OR propulsion OR manufacturing OR MRO) (news OR press OR technology) after:2026-09-11 before:2026-10-13",
+        "status": "executed"
+      },
+      {
+        "query": "site.parker.com aerospace September October 2026 news technology engineering manufacturing",
+        "status": "executed"
+      },
+      {
+        "query": "site.woodward.com (\"2026\" \"September\" OR \"2026\" \"October\") (AI OR simulation OR digital OR engineering OR aerospace)",
+        "status": "executed"
+      },
+      {
+        "query": "site:howmet.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+        "status": "executed"
+      },
+      {
+        "query": "site:precast.com (\"2026\" \"September\" OR \"2026\" \"October\") (news OR aerospace OR manufacturing OR materials)",
+        "status": "executed"
+      },
+      {
+        "query": "\"Howmet\" after:2026-09-11 before:2026-10-13 (technology OR manufacturing OR materials OR research OR AI OR engine)",
+        "status": "executed"
+      },
+      {
+        "query": "\"Precision Castparts\" after:2026-09-11 before:2026-10-13 (technology OR manufacturing OR materials OR research OR AI OR engine OR news)",
+        "status": "executed"
+      },
+      {
+        "query": "(\"aerospace\" OR \"engineering AI\" OR \"CFD\") (research OR manufacturing OR simulation) after:2026-09-12 before:2026-10-13 (site:ihi.co.jp OR site:ptc.com OR site:luminarycloud.com OR site:physicsx.ai)",
+        "status": "executed"
+      },
+      {
+        "query": "(\"aerospace\" OR \"AI design\" OR \"simulation\") after:2026-09-12 before:2026-10-13 (site:nvidia.com OR site:dassault-aviation.com OR site:saab.com)",
+        "status": "executed"
+      },
+      {
+        "query": "site:ihi.co.jp 2026 10 航空 エンジン 技術 ニュース after:2026-09-12 before:2026-10-13",
+        "status": "executed"
+      },
+      {
+        "query": "site:physicsx.ai (\"September\" OR \"October\") \"2026\"",
+        "status": "executed"
+      }
+    ],
+    "query_retries": [
+      "(\"aerospace\" OR \"engineering AI\" OR \"CFD\") (research OR manufacturing OR simulation) after:2026-09-12 before:2026-10-13 (site:ihi.co.jp OR site:ptc.com OR site:luminarycloud.com OR site:physicsx.ai)",
+      "(\"aerospace\" OR \"AI design\" OR \"simulation\") after:2026-09-12 before:2026-10-13 (site:nvidia.com OR site:dassault-aviation.com OR site:saab.com)"
+    ],
+    "claim_evidence": [
+      {
+        "claims": [
+          {
+            "text": "Edgewing opened a Turin site supporting GCAP engineering, with engineers from Italy, Japan and the UK.",
+            "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/09-10-2026-boost-for-italy-s-world-class-engineering-as-edgewing-lands-in-turin",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article body paragraphs 1, 4–5; lines 51–56"
+          },
+          {
+            "text": "Leonardo says Edgewing is establishing digital capabilities while completing the advanced concept and assessment phase ahead of design and development.",
+            "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/09-10-2026-boost-for-italy-s-world-class-engineering-as-edgewing-lands-in-turin",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article paragraph beginning Edgewing launched in 2025; line 60"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-09",
+          "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/09-10-2026-boost-for-italy-s-world-class-engineering-as-edgewing-lands-in-turin",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "The subject is the crewed combat-aircraft engineering hub. An incidental reference to directing drones is not retained as a candidate claim.",
+          "The article is a company announcement, not an independently assessed technical result."
+        ],
+        "primary_url": "https://www.leonardo.com/en/press-release-detail/-/detail/09-10-2026-boost-for-italy-s-world-class-engineering-as-edgewing-lands-in-turin"
+      },
+      {
+        "claims": [
+          {
+            "text": "The MoU explores lunar infrastructure and transportation cooperation, with Leonardo robotics and AI capabilities included.",
+            "source_url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/ispace-leonardo-telespazio-mou-lunar-exploration",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article body introductory bullets and paragraphs 1–4; lines 52–57"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-06",
+          "source_url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/ispace-leonardo-telespazio-mou-lunar-exploration",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "An exploratory MoU, not a completed deployment or binding implementation milestone."
+        ],
+        "primary_url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/ispace-leonardo-telespazio-mou-lunar-exploration"
+      },
+      {
+        "claims": [
+          {
+            "text": "ESA awarded a funded architectural study, covering gap analysis and alternative end-to-end Earth-observation system designs.",
+            "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/17-09-2026-leonardo-selected-to-help-shape-europe-s-future-sovereign-earth-observation-capability",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article body paragraphs 1–5; lines 51–56"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-17",
+          "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/17-09-2026-leonardo-selected-to-help-shape-europe-s-future-sovereign-earth-observation-capability",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Architectural-study award; it does not establish delivery of an operational constellation."
+        ],
+        "primary_url": "https://www.leonardo.com/en/press-release-detail/-/detail/17-09-2026-leonardo-selected-to-help-shape-europe-s-future-sovereign-earth-observation-capability"
+      },
+      {
+        "claims": [
+          {
+            "text": "Leonardo will provide an MBHS cross-belt sorter and Sort Allocation Computer for the airport Terminal 2 baggage system.",
+            "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/15-09-2026-leonardo-mafa-and-beltcon-to-deliver-advanced-baggage-handling-system-for-prince-mohammed-bin-abdulaziz-international-airport",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article body paragraphs 1–5; lines 51–55"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-15",
+          "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/15-09-2026-leonardo-mafa-and-beltcon-to-deliver-advanced-baggage-handling-system-for-prince-mohammed-bin-abdulaziz-international-airport",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Broader industrial automation/airport services candidate rather than CAE or propulsion research."
+        ],
+        "primary_url": "https://www.leonardo.com/en/press-release-detail/-/detail/15-09-2026-leonardo-mafa-and-beltcon-to-deliver-advanced-baggage-handling-system-for-prince-mohammed-bin-abdulaziz-international-airport"
+      },
+      {
+        "claims": [
+          {
+            "text": "Liebherr announced a business-jet showcase of landing gear, air-management equipment and electromechanical actuators for October 20–22, 2026.",
+            "source_url": "https://www.liebherr.com/de-de/n/innovative-solutions-for-the-next-generation-of-business-jets-liebherr-at-nbaa-bace-2026-291200-7170845",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article introduction and sections on landing gear, air management and actuators; lines 34–57"
+          },
+          {
+            "text": "Liebherr highlights smaller modular electromechanical actuators and business-jet electrification, weight and installation-space requirements.",
+            "source_url": "https://www.liebherr.com/de-de/n/innovative-solutions-for-the-next-generation-of-business-jets-liebherr-at-nbaa-bace-2026-291200-7170845",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article lines 37–39 and actuator section lines 50–53"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-08",
+          "source_url": "https://www.liebherr.com/de-de/n/innovative-solutions-for-the-next-generation-of-business-jets-liebherr-at-nbaa-bace-2026-291200-7170845",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Announcement precedes the exhibition; it does not claim the show has occurred.",
+          "The actuator section mentions an AAM origin. Only the explicitly stated business-jet applicability is retained; no eVTOL or air-taxi claim is included."
+        ],
+        "primary_url": "https://www.liebherr.com/de-de/n/innovative-solutions-for-the-next-generation-of-business-jets-liebherr-at-nbaa-bace-2026-291200-7170845"
+      },
+      {
+        "claims": [
+          {
+            "text": "The agreement covers nose-gear exchange and overhaul for 18 A350 aircraft and is scheduled to run from 2026 through 2031.",
+            "source_url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-and-china-airlines-reach-an-agreement-for-airbus-a350-nose-landing-gear-overhaul-288512-7170845",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Article opening paragraphs; lines 34–40"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-22",
+          "source_url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-and-china-airlines-reach-an-agreement-for-airbus-a350-nose-landing-gear-overhaul-288512-7170845",
+          "evidence_location": "Publication date immediately below/above article title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Schedule and fleet coverage are attributed to the company release."
+        ],
+        "primary_url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-and-china-airlines-reach-an-agreement-for-airbus-a350-nose-landing-gear-overhaul-288512-7170845"
+      },
+      {
+        "claims": [
+          {
+            "text": "The official news listing announces Asia-Pacific customer-service solutions at the Singapore show on September 22–24, 2026.",
+            "source_url": "https://www.liebherr.com/de-de/aerospace-und-verkehrstechnik/news-and-events/news-und-presse/news-listenseite-7170846",
+            "verification_status": "partially_verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Official Aerospace news listing, item dated 18.09.2026; lines 64–70"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-18",
+          "source_url": "https://www.liebherr.com/de-de/aerospace-und-verkehrstechnik/news-and-events/news-und-presse/news-listenseite-7170846",
+          "evidence_location": "News-listing publication date directly above linked title",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Article URL was verified as a link from the official listing, but article fetches returned cache-miss errors.",
+          "Only facts visible in the official listing are used; no product or technical-performance inference."
+        ],
+        "primary_url": "https://www.liebherr.com/de-de/n/liebherr-aerospace-participates-in-mro-asia-pacific-2026-287872-7170845"
+      },
+      {
+        "claims": [
+          {
+            "text": "Woodward was selected for Airbus' ground-based folding-wing research demonstrator.",
+            "source_url": "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Opening paragraph, web lines 89-90"
+          },
+          {
+            "text": "The package includes a power delivery unit and high-power hinge actuator, with hydraulic/electric trade studies and Bremen/Bristol testing.",
+            "source_url": "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Second paragraph, web line 90"
+          }
+        ],
+        "date_evidence": {
+          "text": "October 7, 2026",
+          "source_url": "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/",
+          "evidence_location": "Date under headline, web line 83; dateline line 89",
+          "verification_status": "verified",
+          "date_type": "publication_date",
+          "published_at": "2026-10-07"
+        },
+        "caveats": [
+          "Research demonstrator, not a production-aircraft award or demonstrated aerodynamic result."
+        ],
+        "primary_url": "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/"
+      },
+      {
+        "claims": [
+          {
+            "text": "Military fixed-wing and rotorcraft actuation production is planned to move to Spartanburg.",
+            "source_url": "https://www.woodward.com/press-release/woodward-plans-to-transition-its-santa-clarita-california-aerospace-controls-production-to-spartanburg-south-carolina/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Web line 91"
+          },
+          {
+            "text": "Spartanburg is expected online in summer 2027, including A350 spoiler actuation; Santa Clarita closure is expected no later than December 2027.",
+            "source_url": "https://www.woodward.com/press-release/woodward-plans-to-transition-its-santa-clarita-california-aerospace-controls-production-to-spartanburg-south-carolina/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Web line 94"
+          }
+        ],
+        "date_evidence": {
+          "text": "September 21, 2026",
+          "source_url": "https://www.woodward.com/press-release/woodward-plans-to-transition-its-santa-clarita-california-aerospace-controls-production-to-spartanburg-south-carolina/",
+          "evidence_location": "Date under headline, web line 83; dateline line 90",
+          "verification_status": "verified",
+          "date_type": "publication_date",
+          "published_at": "2026-09-21"
+        },
+        "caveats": [
+          "Transfer, opening, and closure dates are company plans, not completed milestones."
+        ],
+        "primary_url": "https://www.woodward.com/press-release/woodward-plans-to-transition-its-santa-clarita-california-aerospace-controls-production-to-spartanburg-south-carolina/"
+      },
+      {
+        "claims": [
+          {
+            "text": "Company-wide FY2026 independent R&D was $267 million; development-contract pre-production expense was $43 million.",
+            "source_url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000142/phfy26ararscompliant.pdf",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "PDF page 70, Note 15; web lines 3094-3097"
+          },
+          {
+            "text": "The shareholder letter identifies new aircraft platforms and sustained MRO demand as aerospace growth supports.",
+            "source_url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000142/phfy26ararscompliant.pdf",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "PDF page 5, Positive Cycle Trends Ahead; web lines 169-174"
+          },
+          {
+            "text": "Aerospace Systems backlog was $8.498 billion at June 30, 2026.",
+            "source_url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000142/phfy26ararscompliant.pdf",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "PDF page 33, Aerospace Systems Backlog; web lines 1451-1455"
+          }
+        ],
+        "date_evidence": {
+          "text": "09/18/26 ARS — Annual Report to Security Holders",
+          "source_url": "https://investors.parker.com/sec-filings/all-sec-filings",
+          "evidence_location": "Official filings table, web line 65; linked PDF matches item URL. Shareholder letter is dated September 2026 (PDF page 5).",
+          "verification_status": "verified",
+          "date_type": "public_filing_date",
+          "published_at": "2026-09-18"
+        },
+        "caveats": [
+          "Lower-priority corporate report, not a new technical-project announcement. Report covers FY2026 ended June 30; publication date is the September 18 ARS filing. R&D amounts are company-wide, not Aerospace-only.",
+          "PDF text and dated filing index were readable. PDF screenshot attempts for numeric evidence pages returned cache-miss errors; figures were checked in extracted Note 15 and Aerospace Systems backlog text, not visually rendered."
+        ],
+        "primary_url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000142/phfy26ararscompliant.pdf"
+      },
+      {
+        "claims": [
+          {
+            "text": "Howmet announced that third-quarter 2026 financial results would be released on October 29, 2026, with materials available at approximately 7:00 a.m. ET.",
+            "source_url": "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Release body, paragraph immediately below title/date; extracted lines 65–65"
+          },
+          {
+            "text": "The conference call and webcast are scheduled for 10:00 a.m. ET on October 29, 2026.",
+            "source_url": "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Conference Call Information, extracted lines 69–74"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-01",
+          "source_url": "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/",
+          "verification_status": "verified",
+          "evidence_location": "Release heading (line 63) and Pittsburgh dateline (line 65); corroborated by official newsroom and archive"
+        },
+        "caveats": [
+          "IR schedule only. No new technology, capacity, materials, engine, or manufacturing milestone is described. Preserve as low-priority dated candidate; exclude from a strictly technical shortlist.",
+          "October 29 is the future event date, not publication date."
+        ],
+        "primary_url": "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/"
+      },
+      {
+        "claims": [
+          {
+            "text": "PTC's event recap argues that engineering AI depends on connected lifecycle information and PLM–ERP integration.",
+            "source_url": "https://www.ptc.com/en/blogs/electronics-high-tech/ai-readiness-starts-with-product-data-trends",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Sections 1 and 3; lines 13–20 and 39–54"
+          },
+          {
+            "text": "The article advocates interoperable digital threads rather than siloed lifecycle systems.",
+            "source_url": "https://www.ptc.com/en/blogs/electronics-high-tech/ai-readiness-starts-with-product-data-trends",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Section 4; lines 61–68"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-05",
+          "source_url": "https://www.ptc.com/en/blogs/electronics-high-tech/ai-readiness-starts-with-product-data-trends",
+          "verification_status": "verified",
+          "evidence_location": "Explicit publication date at article or PDF heading"
+        },
+        "caveats": [
+          "Vendor-authored synthesis; no sample size, methods, quantified benchmark or independent validation."
+        ],
+        "primary_url": "https://www.ptc.com/en/blogs/electronics-high-tech/ai-readiness-starts-with-product-data-trends"
+      },
+      {
+        "claims": [
+          {
+            "text": "IHI announced selection of its subsidiary's LH₂ boil-off-gas compressor for the Kawasaki LH₂ terminal.",
+            "source_url": "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html",
+            "verification_status": "verified",
+            "attribution_type": "official_fact",
+            "evidence_location": "Main announcement; lines 90–103"
+          },
+          {
+            "text": "IHI describes approximately −240°C direct gas intake using vacuum insulation, a three-chamber sealing arrangement and cryogenic-compatible materials.",
+            "source_url": "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Main features; lines 112–119"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-07",
+          "source_url": "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html",
+          "verification_status": "verified",
+          "evidence_location": "Explicit publication date at article or PDF heading"
+        },
+        "caveats": [
+          "Vendor technical specifications, not independently tested performance.",
+          "Adjacent industrial rotating-machinery signal; no aerospace application or completed terminal operation is claimed."
+        ],
+        "primary_url": "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html"
+      },
+      {
+        "claims": [
+          {
+            "text": "IHI decided to transfer its entire Steinmüller Engineering holding to mutares Holding 106 GmbH.",
+            "source_url": "https://www.ihi.co.jp/all_news/2026/ir/__icsFiles/afieldfile/2026/09/29/260929n-j.pdf",
+            "verification_status": "verified",
+            "attribution_type": "official_fact",
+            "evidence_location": "PDF page 1 opening announcement; lines 10–14"
+          },
+          {
+            "text": "The unit supplies combustion/incineration, flue-gas treatment, heat-exchange and consulting services; the transfer was planned for mid-October 2026.",
+            "source_url": "https://www.ihi.co.jp/all_news/2026/ir/__icsFiles/afieldfile/2026/09/29/260929n-j.pdf",
+            "verification_status": "verified",
+            "attribution_type": "official_fact",
+            "evidence_location": "PDF page 1 lines 17–19 and page 2 schedule lines 39–49"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-29",
+          "source_url": "https://www.ihi.co.jp/all_news/2026/ir/__icsFiles/afieldfile/2026/09/29/260929n-j.pdf",
+          "verification_status": "verified",
+          "evidence_location": "Explicit publication date at article or PDF heading"
+        },
+        "caveats": [
+          "Pending transaction; no completion evidence was located in this pass.",
+          "Industrial engineering-services adjacency, not an aircraft-specific development."
+        ],
+        "primary_url": "https://www.ihi.co.jp/all_news/2026/ir/__icsFiles/afieldfile/2026/09/29/260929n-j.pdf"
+      },
+      {
+        "claims": [
+          {
+            "text": "PhysicsX announced an Asia-Pacific hub in Singapore and reported 20 local employees, with a goal exceeding 100 within three years.",
+            "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Release opening; lines 14–18"
+          },
+          {
+            "text": "PhysicsX and A*STAR announced a five-year S$40 million collaboration applying AI to engineering simulation and manufacturing across maritime, advanced manufacturing, semiconductor manufacturing and biotechnology.",
+            "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+            "verification_status": "verified",
+            "attribution_type": "official_fact",
+            "evidence_location": "Partnership section; lines 24–29"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-08",
+          "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+          "verification_status": "verified",
+          "evidence_location": "Explicit publication date at article or PDF heading"
+        },
+        "caveats": [
+          "Commitments and growth targets are prospective; no benchmark, deployed capability validation or realized return is supplied.",
+          "Partnership details are verified as an official announcement, not independently corroborated expenditure."
+        ],
+        "primary_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region"
+      }
+    ],
+    "coverage_audit": {
+      "mandatory_source_count": 7,
+      "checked_source_count": 7,
+      "status_counts": {
+        "found": 5,
+        "no_new_finding": 2
+      },
+      "candidate_item_count": 15,
+      "mandatory_candidate_count": 11,
+      "discovery_item_count": 4,
+      "discovery_organization_count": 3,
+      "spillover_trigger_threshold": 5,
+      "spillover_used": false,
+      "spillover_reason": "More than five source-verified dated candidates found across mandatory sources.",
+      "regions_observed": [
+        "Italy",
+        "United Kingdom",
+        "Japan",
+        "Germany",
+        "France",
+        "United States",
+        "Taiwan",
+        "Singapore",
+        "Saudi Arabia"
+      ],
+      "known_gaps": [
+        "Parker main-division technical pages unavailable",
+        "Liebherr September 18 article body unavailable",
+        "No qualifying dated Avio Aero or Precision Castparts signal in the bounded search"
+      ]
+    },
+    "excluded_or_background": [
+      {
+        "title": "Turin hosts the first national site for the GCAP Programme",
+        "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/gcap-turin-first-national-site",
+        "published_at": "2026-10-09",
+        "reason": "Duplicate event of retained Edgewing press release; corroborates site opening and digital engineering context."
+      },
+      {
+        "title": "Learning for the future: a new year with STEMLab and Leonardo’s FSL programs",
+        "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/stemlab-fsl-percorsi-scuole-leonardo",
+        "published_at": "2026-10-08",
+        "reason": "School education / outreach; digital-twin and generative-AI curriculum, not an engineering deployment."
+      },
+      {
+        "title": "Future AI Research: Leonardo’s contribution to the project",
+        "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/future-ai-research-contributo-leonardo",
+        "published_at": "2026-08-06",
+        "reason": "Outside date window; also contains drone research."
+      },
+      {
+        "title": "Sustainable mobility: Leonardo’s contribution to the MOST project",
+        "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/mobilita-sostenibile-contributo",
+        "published_at": "2026-08-07",
+        "reason": "Outside date window."
+      },
+      {
+        "title": "Quantum technology, Leonardo’s role in the NQSTI Project",
+        "url": "https://www.leonardo.com/en/news-and-stories-detail/-/detail/tecnologia-quantistica-ruolo-leonardo-progetto-nqsti",
+        "published_at": "2026-08-04",
+        "reason": "Outside date window."
+      },
+      {
+        "title": "Parker 2026 Proxy Statement",
+        "url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0001308179-26-000394/ph-20260915.htm",
+        "date": "2026-09-18",
+        "reason": "Reviewed; AI content concerns corporate risk oversight, not engineering-AI methods or deployment. Technology/product overview is evergreen."
+      },
+      {
+        "title": "Woodward Announces Declaration of Dividend",
+        "date": "2026-09-16",
+        "reason": "Financial distribution with no relevant engineering or aerospace operations signal."
+      },
+      {
+        "title": "Howmet Aerospace to Present at 2026 Jefferies Global Industrials Conference",
+        "url": "https://www.howmet.com/events/howmet-aerospace-to-present-at-2026-jefferies-global-industrials-conference/",
+        "reason": "Published August 26, 2026; event September 9, 2026. Both outside window."
+      },
+      {
+        "title": "Howmet Aerospace Technology and Markets Day 2026",
+        "url": "https://www.howmet.com/technology-markets-day-2026/",
+        "reason": "Official events calendar dates event to March 10, 2026; outside window."
+      },
+      {
+        "title": "PCC Structurals Solidification Modeling",
+        "url": "https://www.pccstructurals.com/capabilities/solidification-modeling.html",
+        "reason": "Relevant ProCast, CFD and multiphysics capability descriptions, but undated evergreen content."
+      },
+      {
+        "title": "TIMET Research & Development",
+        "url": "https://www.timet.com/capabilities/research-development/",
+        "reason": "Relevant titanium alloy and processing capabilities, but undated evergreen content."
+      },
+      {
+        "title": "Wyman-Gordon Documents & Technical Information",
+        "url": "https://www.wyman.com/documents/",
+        "reason": "Relevant modeling and process capability descriptions, but no within-window publication date."
+      },
+      {
+        "title": "Special Metals Tech Center",
+        "url": "https://www.specialmetals.com/tech-center/",
+        "reason": "Relevant technical literature hub, but no dated within-window candidate identified."
+      },
+      {
+        "url": "https://www.physicsx.ai/newsroom/dael-williamson-joins-physicsx-as-chief-technology-and-platform-officer",
+        "reason": "Dated personnel appointment, without a new technical capability or measured engineering result."
+      },
+      {
+        "url": "https://www.ihi.co.jp/technology/techinfo/contents_no/1202126_13491.html",
+        "reason": "Relevant intake CFD technical article, but no in-window date verified; current technical issue linked from July23 outside-window announcement."
+      }
+    ],
+    "checked_public_sections": {
+      "Leonardo": [
+        "official homepage",
+        "press-release archive",
+        "news-and-stories articles"
+      ],
+      "Avio Aero": [
+        "news",
+        "news/articles",
+        "news/press-releases"
+      ],
+      "Liebherr-Aerospace": [
+        "group homepage",
+        "Aerospace news list",
+        "dated press-release pages"
+      ],
+      "Woodward": [
+        "corporate newsroom",
+        "press releases",
+        "investor relations"
+      ],
+      "Parker Aerospace": [
+        "indexed technical searches",
+        "investor press list",
+        "SEC filings",
+        "annual report",
+        "proxy statement"
+      ],
+      "Howmet Aerospace": [
+        "https://www.howmet.com/news-releases/",
+        "https://www.howmet.com/news-releases/?newsyear=2026",
+        "https://www.howmet.com/investors/financial-releases/",
+        "https://www.howmet.com/newsroom/",
+        "https://www.howmet.com/events-calendar/",
+        "https://www.howmet.com/technology-markets-day-2026/",
+        "https://www.howmet.com/press-release/2026-10-01/howmet-aerospace-to-host-webcast-and-announce-third-quarter-2026-results/"
+      ],
+      "Precision Castparts": [
+        "https://www.precast.com/",
+        "https://www.precast.com/about/",
+        "https://www.precast.com/operations/pcc-investment-cast-products/",
+        "https://www.precast.com/operations/forged-products/",
+        "https://www.precast.com/operations/metals-products.html",
+        "https://www.pccstructurals.com/",
+        "https://www.pccstructurals.com/capabilities/solidification-modeling.html",
+        "https://www.pccairfoils.com/",
+        "https://www.wyman.com/",
+        "https://www.wyman.com/documents/",
+        "https://www.timet.com/",
+        "https://www.timet.com/capabilities/research-development/",
+        "https://www.specialmetals.com/",
+        "https://www.specialmetals.com/tech-center/"
+      ]
+    },
+    "publication_guard": {
+      "receipt_path": "gpt_handoff/published/2026-10-12.json",
+      "initial_check": "NOT_FOUND / HTTP404",
+      "prewrite_check": "NOT_FOUND / HTTP404",
+      "prewrite_checked_at": "2026-10-11T21:13:50.083Z"
+    },
+    "state_update_plan": {
+      "path": "gpt_handoff/state/company-watch.json",
+      "advance_only_after_verified_handoff_commit": true,
+      "preserve_prior_last_checked_and_warnings": true,
+      "do_not_advance_twice_for_same_local_date": true
+    },
+    "validation_audit": {
+      "status": "passed",
+      "strict_schema": true,
+      "execution_metadata": true,
+      "mandatory_coverage": true,
+      "claim_evidence_mapping": true,
+      "dated_within_window": true,
+      "excluded_topic_hygiene": true,
+      "claim_count": 26,
+      "item_count": 15,
+      "unique_urls": 15,
+      "no_article_or_curation": true,
+      "validator": "scripts.web_scout.diagnose_scout_handoff",
+      "validator_blob": "27b1a33274c673786f1568c0159e1e83812be109"
+    }
+  }
+}
