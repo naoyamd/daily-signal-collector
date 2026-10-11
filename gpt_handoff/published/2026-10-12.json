@@ -1,0 +1,335 @@
+{
+  "schema": "daily-signal-published/v1",
+  "published_at": "2026-10-12T07:27:48+09:00",
+  "article_repository": "naoyamd/daily-signal",
+  "article_path": "content/daily/2026-10-12-daily-signal.md",
+  "article_commit": "7f730757860e2be9b17e0ef79403620503e0d030",
+  "curated_source": "gpt_handoff/curated/2026-10-12.json",
+  "curated_commit": "227b5ec566231da7186b623d84b8a1965f90c7ea",
+  "curated_blob_sha": "791ce55e43961a160a091779e31c65c95c49f61a",
+  "published_item_ids": [
+    "r-simscale-varisco-physics-ai-impeller-workflow",
+    "r-surrogate-numerical-provenance",
+    "r-cadworld-saved-artifact-benchmark",
+    "r-nvidia-neural-cae-predictive-uncertainty",
+    "c-woodward-airbus-folding-wing-actuation",
+    "c-physicsx-astar-singapore-partnership",
+    "r-tohoku-bulk-metal-automated-experiments",
+    "r-nvidia-cuopt-mpdlp-distributed-lp",
+    "r-atlassian-mcp-220-tools",
+    "r-jetbrains-mellum21-open-coding-model",
+    "revalize-manufacturing-ai-measurement-20260929",
+    "spendesk-european-ai-payment-panel-20261005",
+    "c-ihi-lh2-bog-compressor-selection",
+    "r-eth-roche-active-geometric-reaction-learning",
+    "r-tohoku-silicate-glass-thermal-conductivity"
+  ],
+  "event_keys": [
+    "simscale-varisco-physics-ai-impeller-workflow:2026-09-23",
+    "surrogate-numerical-provenance:2026-10-07",
+    "cadworld-saved-artifact-benchmark:2026-09-14",
+    "nvidia-neural-cae-predictive-uncertainty:2026-09-21",
+    "woodward-airbus-folding-wing-actuation:2026-10-07",
+    "physicsx-astar-singapore-partnership:2026-10-08",
+    "tohoku-bulk-metal-automated-experiments:2026-10-02",
+    "nvidia-cuopt-mpdlp-distributed-lp:2026-10-07",
+    "atlassian-mcp-220-tools:2026-10-06",
+    "jetbrains-mellum21-open-coding-model:2026-10-08",
+    "revalize:manufacturing-ai-survey:2026-09-29",
+    "spendesk:european-spend-report:2026-10-05",
+    "ihi-lh2-bog-compressor-selection:2026-10-07",
+    "eth-roche-active-geometric-reaction-learning:2026-10-09",
+    "tohoku-silicate-glass-thermal-conductivity:2026-10-05"
+  ],
+  "primary_urls": [
+    "https://www.simscale.com/press/atlas-copco-cuts-industrial-pump-design-cycles/",
+    "https://arxiv.org/abs/2610.09255",
+    "https://arxiv.org/abs/2609.16251",
+    "https://arxiv.org/abs/2609.25430",
+    "https://www.woodward.com/press-release/woodward-to-provide-actuation-system-for-aircraft-folding-wing-demonstrator/",
+    "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+    "https://www.tohoku.ac.jp/japanese/2026/10/press20261002-03-AI.html",
+    "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+    "https://www.atlassian.com/blog/company-news/team26-europe-atlassian-mcp",
+    "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+    "https://revalizesoftware.com/newsroom/ai-in-manufacturing-report-2026/",
+    "https://www.spendesk.com/blog/european-spend-insights-2026/",
+    "https://www.ihi.co.jp/all_news/2026/industrial_general_machine/1202210_13803.html",
+    "https://www.nature.com/articles/s43588-026-01063-0",
+    "https://www.tohoku.ac.jp/japanese/2026/10/press20261005-02-glasses.html"
+  ],
+  "organizations": [
+    "SimScale / Atlas Copco Varisco",
+    "Ridham Patel (affiliation unverified)",
+    "Georgia Institute of Technology / North Carolina State University / Marquette University / Saros Lab / CAMEL-AI / Eigent.AI / National University of Singapore",
+    "NVIDIA",
+    "Woodward, Inc.",
+    "PhysicsX",
+    "Tohoku University / NIMS / LaboRobo",
+    "Atlassian",
+    "JetBrains",
+    "Revalize",
+    "Spendesk",
+    "IHI",
+    "ETH Zurich / Roche",
+    "Tohoku University"
+  ],
+  "tags": [
+    "engineering_ai",
+    "CFD",
+    "surrogates",
+    "optimization",
+    "turbomachinery",
+    "industrial deployment",
+    "neural operator",
+    "verification",
+    "discretization",
+    "CAD",
+    "FreeCAD",
+    "computer use",
+    "benchmark",
+    "CAM",
+    "FEA",
+    "CAE",
+    "crash",
+    "uncertainty",
+    "aerospace",
+    "Airbus",
+    "actuation",
+    "folding_wing",
+    "electromechanical",
+    "hydraulics",
+    "design_trade_studies",
+    "discovery_candidate",
+    "physics AI",
+    "engineering simulation",
+    "advanced manufacturing",
+    "Singapore",
+    "research partnership",
+    "scientific_wildcards",
+    "materials",
+    "laboratory automation",
+    "metals",
+    "robotics",
+    "Japan",
+    "HPC",
+    "GPU",
+    "supply chain",
+    "energy systems",
+    "agents_enterprise",
+    "MCP",
+    "exploration_MCP",
+    "context engineering",
+    "core_agents_models",
+    "models_open_weights",
+    "coding agents",
+    "MoE",
+    "non_us_rotation",
+    "Europe",
+    "exploration_non_us",
+    "reports_surveys",
+    "manufacturing",
+    "PLM",
+    "CPQ",
+    "ROI",
+    "sponsored survey",
+    "US",
+    "AI spending",
+    "SaaS",
+    "design software",
+    "procurement",
+    "vendor transaction data",
+    "cryogenic hydrogen",
+    "compressor",
+    "adjacent engineering",
+    "chemistry",
+    "active learning",
+    "GNN",
+    "closed-loop research",
+    "Switzerland",
+    "thermal conductivity",
+    "glass",
+    "experimental validation"
+  ],
+  "title": "工学AIの全工程を測る：CAD成果物の検証、実験自動化、製造業の導入と支出",
+  "quality_metrics": {
+    "curated_selected_count": 12,
+    "published_selected_count": 12,
+    "curated_wildcard_count": 3,
+    "published_wildcard_count": 3,
+    "curated_claim_count": 43,
+    "published_claim_count": 43,
+    "dropped_item_ids": [],
+    "dropped_claim_count": 0,
+    "verification_failure_count": 1,
+    "report_metric_count": 6,
+    "published_report_metric_count": 6,
+    "article_character_count": 13103
+  },
+  "validation": {
+    "article_sha256": "6d2bf693c0e3b65f22b561d4eabeee1b00de6804afe50ac91a1c09cae68ff34a",
+    "existing_validator": "passed",
+    "validator_unit_tests": {
+      "passed": 14,
+      "failed": 0
+    },
+    "independent_semantic_qa": "passed",
+    "prose_character_budgets": "passed",
+    "selected_retention_ratio": 1.0,
+    "wildcard_retention_ratio": 1.0,
+    "claim_retention_ratio": 1.0,
+    "report_metric_retention_ratio": 1.0,
+    "depth_audit": [
+      {
+        "type": "overview",
+        "characters": 436,
+        "budget": [
+          350,
+          700
+        ]
+      },
+      {
+        "id": "r-simscale-varisco-physics-ai-impeller-workflow",
+        "type": "lead",
+        "characters": 547,
+        "budget": [
+          500,
+          900
+        ]
+      },
+      {
+        "id": "r-surrogate-numerical-provenance",
+        "type": "lead",
+        "characters": 578,
+        "budget": [
+          500,
+          900
+        ]
+      },
+      {
+        "id": "r-cadworld-saved-artifact-benchmark",
+        "type": "lead",
+        "characters": 613,
+        "budget": [
+          500,
+          900
+        ]
+      },
+      {
+        "id": "r-nvidia-neural-cae-predictive-uncertainty",
+        "type": "standard",
+        "characters": 387,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "c-woodward-airbus-folding-wing-actuation",
+        "type": "standard",
+        "characters": 315,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "c-physicsx-astar-singapore-partnership",
+        "type": "standard",
+        "characters": 364,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-tohoku-bulk-metal-automated-experiments",
+        "type": "standard",
+        "characters": 367,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-nvidia-cuopt-mpdlp-distributed-lp",
+        "type": "standard",
+        "characters": 371,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-atlassian-mcp-220-tools",
+        "type": "standard",
+        "characters": 333,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-jetbrains-mellum21-open-coding-model",
+        "type": "standard",
+        "characters": 333,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "revalize-manufacturing-ai-measurement-20260929",
+        "type": "report",
+        "characters": 810,
+        "budget": [
+          700,
+          1300
+        ]
+      },
+      {
+        "id": "spendesk-european-ai-payment-panel-20261005",
+        "type": "report",
+        "characters": 839,
+        "budget": [
+          700,
+          1300
+        ]
+      },
+      {
+        "id": "c-ihi-lh2-bog-compressor-selection",
+        "type": "wildcard",
+        "characters": 265,
+        "budget": [
+          220,
+          420
+        ]
+      },
+      {
+        "id": "r-eth-roche-active-geometric-reaction-learning",
+        "type": "wildcard",
+        "characters": 278,
+        "budget": [
+          220,
+          420
+        ]
+      },
+      {
+        "id": "r-tohoku-silicate-glass-thermal-conductivity",
+        "type": "wildcard",
+        "characters": 275,
+        "budget": [
+          220,
+          420
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "item_id": "r-jetbrains-mellum21-open-coding-model",
+      "date_published": "日付不明",
+      "reason": "Final official article/archive access confirmed substantive content but date not retrievable; existing curated date not asserted."
+    }
+  ]
+}
