@@ -1,0 +1,517 @@
+{
+  "schema": "daily-signal-published/v1",
+  "published_at": "2026-10-12T22:30:49.712Z",
+  "article_repository": "naoyamd/daily-signal",
+  "article_path": "content/daily/2026-10-13-daily-signal.md",
+  "article_commit": "d40178757112cbd95751db4fec2be5228d5176da",
+  "curated_source": "gpt_handoff/curated/2026-10-13.json",
+  "curated_commit": "b51a1e043928887b296e4258fff4ce57b0fb00d9",
+  "curated_blob_sha": "618292ff82056249e4cf4260d41fd54db7446096",
+  "published_item_ids": [
+    "r-simscale-agent-validation-cases",
+    "r-nvidia-assembly-qualification-gap",
+    "r-factorized-turbulence-experts",
+    "c-enovia-fd04-ai",
+    "c-siemens-logistics-twin",
+    "r-diffusion-turbulence-constraints",
+    "r-chn-t1-validation-data",
+    "r-thinkingbox-backend-outcomes",
+    "r-google-data-agent-kit-ga",
+    "r-lightonocr3",
+    "r-servicetitan-ai-trades-survey",
+    "r-cuda-green-contexts",
+    "r-carbon-a-genome-annotation",
+    "r-riken-quantum-hpc-users"
+  ],
+  "event_keys": [
+    "simscale-agent-validation-cases:2026-10-01",
+    "nvidia-assembly-qualification-gap:2026-10-07",
+    "factorized-turbulence-experts:2026-10-08",
+    "enovia-fd04-ai:2026-10-02",
+    "siemens-logistics-twin:2026-10-09",
+    "diffusion-turbulence-constraints:2026-10-06",
+    "chn-t1-validation-data:2026-09-15",
+    "thinkingbox-backend-outcomes:2026-10-03",
+    "google-data-agent-kit-ga:2026-09-30",
+    "lightonocr3:2026-10-08",
+    "servicetitan-ai-trades-survey:2026-09-29",
+    "cuda-green-contexts:2026-10-06",
+    "carbon-a-genome-annotation:2026-10-08",
+    "riken-quantum-hpc-users:2026-10-09"
+  ],
+  "primary_urls": [
+    "https://www.simscale.com/blog/agentic-unlocks-recap/",
+    "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+    "https://www.nature.com/articles/s44172-026-00802-5",
+    "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+    "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+    "https://www.nature.com/articles/s41467-026-78265-7",
+    "https://www.nature.com/articles/s41597-026-08265-1",
+    "https://huggingface.co/blog/microsoft/thinkingbox",
+    "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+    "https://huggingface.co/blog/lightonai/lightonocr-3",
+    "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+    "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+    "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+    "https://www.riken.jp/pr/news/2026/20261009_1/index.html"
+  ],
+  "organizations": [
+    "SimScale; Convion; Dexory; CoLab",
+    "NVIDIA",
+    "Institute of Mechanics, Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+    "Dassault Systèmes",
+    "Siemens Digital Industries Software",
+    "Tianyi Li, Michele Buzzicotti et al.",
+    "High Speed Aerodynamics Institute, China Aerodynamics Research and Development Center",
+    "Microsoft / Hugging Face",
+    "Google Cloud",
+    "LightOn",
+    "ServiceTitan / Thrive Analytics",
+    "Hugging Face Bio",
+    "RIKEN / SoftBank"
+  ],
+  "tags": [
+    "engineering_ai",
+    "engineering agents",
+    "CFD",
+    "surrogate optimization",
+    "CAD/CAE integration",
+    "scientific_wildcards",
+    "robotics",
+    "manufacturing",
+    "mixture of experts",
+    "turbulence",
+    "physics-guided AI",
+    "engineering AI",
+    "ENOVIA",
+    "PLM",
+    "AURA",
+    "EBOM",
+    "change management",
+    "system simulation",
+    "digital twin",
+    "Simcenter Amesim",
+    "physical AI",
+    "diffusion models",
+    "physics constraints",
+    "aerodynamics",
+    "validation dataset",
+    "data-driven modeling",
+    "agents_enterprise",
+    "agents",
+    "MCP",
+    "evaluation",
+    "stateful workflows",
+    "OpenEnv",
+    "data infrastructure",
+    "coding agents",
+    "RAG/data",
+    "IAM",
+    "models_open_weights",
+    "open weights",
+    "OCR",
+    "Europe",
+    "France",
+    "reports_surveys",
+    "AI adoption",
+    "productivity",
+    "trades",
+    "GPU",
+    "HPC",
+    "inference",
+    "scientific AI",
+    "biology",
+    "genome annotation",
+    "non_us_rotation",
+    "Japan"
+  ],
+  "title": "工学AIを受入基準で測る：設計変更、製造ロボット、業務状態と生産性",
+  "quality_metrics": {
+    "curated_selected_count": 12,
+    "published_selected_count": 12,
+    "curated_wildcard_count": 2,
+    "published_wildcard_count": 2,
+    "curated_claim_count": 51,
+    "published_claim_count": 51,
+    "dropped_item_ids": [],
+    "dropped_claim_count": 0,
+    "verification_failure_count": 3,
+    "report_metric_count": 5,
+    "published_report_metric_count": 5,
+    "article_character_count": 11099
+  },
+  "validation": {
+    "article_sha256": "738aa6e9697d4b43e51ad35c3dd3f36ff7c091e4bfa69b782bc62d068713f4c2",
+    "existing_validator": "passed",
+    "validator_unit_tests": {
+      "passed": 14,
+      "failed": 0
+    },
+    "independent_semantic_qa": "passed",
+    "prose_character_budgets": "passed",
+    "selected_retention_ratio": 1,
+    "wildcard_retention_ratio": 1,
+    "claim_retention_ratio": 1,
+    "report_metric_retention_ratio": 1,
+    "depth_audit": [
+      {
+        "type": "overview",
+        "characters": 397,
+        "budget": [
+          350,
+          700
+        ]
+      },
+      {
+        "id": "r-simscale-agent-validation-cases",
+        "type": "lead",
+        "characters": 600,
+        "budget": [
+          500,
+          900
+        ]
+      },
+      {
+        "id": "r-nvidia-assembly-qualification-gap",
+        "type": "lead",
+        "characters": 572,
+        "budget": [
+          500,
+          900
+        ]
+      },
+      {
+        "id": "r-factorized-turbulence-experts",
+        "type": "standard",
+        "characters": 329,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "c-enovia-fd04-ai",
+        "type": "standard",
+        "characters": 336,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "c-siemens-logistics-twin",
+        "type": "standard",
+        "characters": 348,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-diffusion-turbulence-constraints",
+        "type": "standard",
+        "characters": 350,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-chn-t1-validation-data",
+        "type": "standard",
+        "characters": 370,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-thinkingbox-backend-outcomes",
+        "type": "standard",
+        "characters": 376,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-google-data-agent-kit-ga",
+        "type": "standard",
+        "characters": 389,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-lightonocr3",
+        "type": "standard",
+        "characters": 381,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-servicetitan-ai-trades-survey",
+        "type": "report",
+        "characters": 782,
+        "budget": [
+          700,
+          1300
+        ]
+      },
+      {
+        "id": "r-cuda-green-contexts",
+        "type": "standard",
+        "characters": 372,
+        "budget": [
+          280,
+          520
+        ]
+      },
+      {
+        "id": "r-carbon-a-genome-annotation",
+        "type": "wildcard",
+        "characters": 262,
+        "budget": [
+          220,
+          420
+        ]
+      },
+      {
+        "id": "r-riken-quantum-hpc-users",
+        "type": "wildcard",
+        "characters": 258,
+        "budget": [
+          220,
+          420
+        ]
+      }
+    ],
+    "claim_retention_audit": [
+      {
+        "item_id": "r-simscale-agent-validation-cases",
+        "curated_claim_count": 4,
+        "published_claim_count": 4,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.simscale.com/blog/agentic-unlocks-recap/"
+        ]
+      },
+      {
+        "item_id": "r-nvidia-assembly-qualification-gap",
+        "curated_claim_count": 4,
+        "published_claim_count": 4,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/"
+        ]
+      },
+      {
+        "item_id": "r-factorized-turbulence-experts",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.nature.com/articles/s44172-026-00802-5"
+        ]
+      },
+      {
+        "item_id": "c-enovia-fd04-ai",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/"
+        ]
+      },
+      {
+        "item_id": "c-siemens-logistics-twin",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/"
+        ]
+      },
+      {
+        "item_id": "r-diffusion-turbulence-constraints",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41467-026-78265-7"
+        ]
+      },
+      {
+        "item_id": "r-chn-t1-validation-data",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41597-026-08265-1"
+        ]
+      },
+      {
+        "item_id": "r-thinkingbox-backend-outcomes",
+        "curated_claim_count": 4,
+        "published_claim_count": 4,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://huggingface.co/blog/microsoft/thinkingbox",
+          "https://arxiv.org/abs/2608.19741"
+        ]
+      },
+      {
+        "item_id": "r-google-data-agent-kit-ga",
+        "curated_claim_count": 4,
+        "published_claim_count": 4,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent"
+        ]
+      },
+      {
+        "item_id": "r-lightonocr3",
+        "curated_claim_count": 4,
+        "published_claim_count": 4,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://huggingface.co/blog/lightonai/lightonocr-3"
+        ]
+      },
+      {
+        "item_id": "r-servicetitan-ai-trades-survey",
+        "curated_claim_count": 7,
+        "published_claim_count": 7,
+        "claim_indices_retained": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity"
+        ]
+      },
+      {
+        "item_id": "r-cuda-green-contexts",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/"
+        ]
+      },
+      {
+        "item_id": "r-carbon-a-genome-annotation",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
+        ]
+      },
+      {
+        "item_id": "r-riken-quantum-hpc-users",
+        "curated_claim_count": 3,
+        "published_claim_count": 3,
+        "claim_indices_retained": [
+          0,
+          1,
+          2
+        ],
+        "dropped_claim_indices": [],
+        "evidence_urls": [
+          "https://www.riken.jp/pr/news/2026/20261009_1/index.html"
+        ]
+      }
+    ],
+    "material_verification_failure_count": 0,
+    "verification_failure_count_definition": "Three direct primary-page access failures; exact-title verification recovered matching publisher-indexed abstracts and dates, so no material claims were dropped."
+  },
+  "warnings": [
+    {
+      "item_ids": [
+        "r-factorized-turbulence-experts",
+        "r-diffusion-turbulence-constraints",
+        "r-chn-t1-validation-data"
+      ],
+      "reason": "Direct publisher opens failed at identity/cookie redirects. Exact-title checks recovered the corresponding publisher-indexed abstracts and dates. Public copy preserves abstract-only limits; full methods and raw data were not inspected."
+    },
+    {
+      "item_id": "c-enovia-fd04-ai",
+      "reason": "Publication timestamp retained from the pinned input's matching official article:published_time and JSON-LD evidence. Final text extraction reconfirmed features but did not expose timestamp metadata."
+    }
+  ]
+}
