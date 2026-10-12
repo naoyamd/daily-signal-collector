@@ -1,0 +1,3088 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-10-13T07:16:44.987636+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-10-13.json",
+      "commit_sha": "e5efd53090800bf4b1cad18563d5fa8c5a1632ea",
+      "blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf",
+      "generated_at": "2026-10-13T06:18:52.870894+09:00",
+      "item_count": 22
+    },
+    {
+      "path": "gpt_handoff/research/2026-10-13.json",
+      "commit_sha": "ee3493d3c04ce7087f201ca8a4f960ea75407920",
+      "blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+      "generated_at": "2026-10-13T06:26:36+09:00",
+      "item_count": 43
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "工学AIは設計変更の実行と検証の接続へ進む",
+      "supporting_ids": [
+        "r-simscale-agent-validation-cases",
+        "c-enovia-fd04-ai"
+      ],
+      "implication": "人の承認、PLM文脈、物理検証の境界を具体化する。",
+      "caveat": "公開事例と機能説明であり、独立した導入効果測定ではない。"
+    },
+    {
+      "signal": "物理整合性と外部検証データがCFDモデル評価の中心になる",
+      "supporting_ids": [
+        "r-factorized-turbulence-experts",
+        "r-diffusion-turbulence-constraints",
+        "r-chn-t1-validation-data"
+      ],
+      "implication": "領域横断モデル、生成場の統計、風洞照合を別の評価軸にする。",
+      "caveat": "論文抄録中心の確認であり、手法の全面追試はない。"
+    },
+    {
+      "signal": "エージェントとロボットの評価は完了表示から実際の状態・受入基準へ",
+      "supporting_ids": [
+        "r-nvidia-assembly-qualification-gap",
+        "c-siemens-logistics-twin",
+        "r-thinkingbox-backend-outcomes"
+      ],
+      "implication": "保存結果、副作用、反復性、サイクルタイムを同時に測る。",
+      "caveat": "メーカーの試験条件や合成タスクの結果を実運用へ無条件に外挿しない。"
+    },
+    {
+      "signal": "利用可能性の拡大と事業効果の確認は別の課題",
+      "supporting_ids": [
+        "r-lightonocr3",
+        "r-google-data-agent-kit-ga",
+        "r-servicetitan-ai-trades-survey"
+      ],
+      "implication": "文書処理・データ接続を試せる一方、時間短縮と収益は分けて管理する。",
+      "caveat": "調査は米国業者へのスポンサー付き自己申告で、因果効果ではない。"
+    }
+  ],
+  "editorial_plan": {
+    "lead_ids": [
+      "r-simscale-agent-validation-cases",
+      "r-nvidia-assembly-qualification-gap"
+    ],
+    "ordered_ids": [
+      "r-simscale-agent-validation-cases",
+      "r-nvidia-assembly-qualification-gap",
+      "r-factorized-turbulence-experts",
+      "c-enovia-fd04-ai",
+      "c-siemens-logistics-twin",
+      "r-diffusion-turbulence-constraints",
+      "r-chn-t1-validation-data",
+      "r-thinkingbox-backend-outcomes",
+      "r-google-data-agent-kit-ga",
+      "r-lightonocr3",
+      "r-servicetitan-ai-trades-survey",
+      "r-cuda-green-contexts",
+      "r-carbon-a-genome-annotation",
+      "r-riken-quantum-hpc-users"
+    ],
+    "central_signals": [
+      "工学AIは設計変更の実行と検証の接続へ進む",
+      "物理整合性と外部検証データがCFDモデル評価の中心になる",
+      "エージェントとロボットの評価は完了表示から実際の状態・受入基準へ",
+      "利用可能性の拡大と事業効果の確認は別の課題"
+    ],
+    "tensions_or_caveats": [
+      "Vendor-reported results versus independent validation",
+      "New dated case detail versus first product availability",
+      "Single-time turbulence generation versus time-evolving CFD",
+      "Agent clean termination versus correct persistent state",
+      "Self-reported time savings versus causal financial gains"
+    ],
+    "desired_depth": {
+      "r-simscale-agent-validation-cases": "500–900 Japanese characters",
+      "r-nvidia-assembly-qualification-gap": "500–900 Japanese characters",
+      "r-factorized-turbulence-experts": "280–520 Japanese characters",
+      "c-enovia-fd04-ai": "280–520 Japanese characters",
+      "c-siemens-logistics-twin": "280–520 Japanese characters",
+      "r-diffusion-turbulence-constraints": "280–520 Japanese characters",
+      "r-chn-t1-validation-data": "280–520 Japanese characters",
+      "r-thinkingbox-backend-outcomes": "280–520 Japanese characters",
+      "r-google-data-agent-kit-ga": "280–520 Japanese characters",
+      "r-lightonocr3": "280–520 Japanese characters",
+      "r-servicetitan-ai-trades-survey": "700–1300 Japanese characters; preserve methodology, five metrics and caveats",
+      "r-cuda-green-contexts": "280–520 Japanese characters",
+      "r-carbon-a-genome-annotation": "220–420 Japanese characters",
+      "r-riken-quantum-hpc-users": "220–420 Japanese characters"
+    }
+  },
+  "coverage_audit": {
+    "input_item_count": 65,
+    "deduplicated_item_count": 64,
+    "source_domain_count": 26,
+    "organization_count": 42,
+    "regions_observed": [
+      "United States",
+      "Europe",
+      "China",
+      "Japan",
+      "Singapore"
+    ],
+    "lanes": {
+      "engineering_ai": {
+        "input_count": 19,
+        "selected_count": 6,
+        "wildcard_count": 0
+      },
+      "agents_enterprise": {
+        "input_count": 7,
+        "selected_count": 2,
+        "wildcard_count": 0
+      },
+      "models_open_weights": {
+        "input_count": 9,
+        "selected_count": 1,
+        "wildcard_count": 1
+      },
+      "reports_surveys": {
+        "input_count": 5,
+        "selected_count": 1,
+        "wildcard_count": 0
+      },
+      "scientific_wildcards": {
+        "input_count": 12,
+        "selected_count": 2,
+        "wildcard_count": 2
+      },
+      "non_us_rotation": {
+        "input_count": 4,
+        "selected_count": 0,
+        "wildcard_count": 1
+      }
+    },
+    "known_gaps": [
+      "Company coverage is partial: ATI dynamic IR and Spirit legacy newsroom inaccessible; all seven mandatory sources nevertheless recorded.",
+      "No fresh aerospace-engine or material-performance result survived selection; aircraft validation data and manufacturing cases preserve adjacent coverage without filler.",
+      "Diffusion-paper evidence is publisher-indexed abstract only; no raw datasets or benchmark reproductions were inspected.",
+      "Public ServiceTitan summary and landing page inspected; full form-gated report was not downloaded.",
+      "No distinct current VC/cloud empirical survey survived upstream screening.",
+      "History suppression uses the full available index and every receipt present in the last 14 days, not unobserved publications."
+    ],
+    "input_counts": {
+      "company": 22,
+      "research": 43
+    },
+    "selected_count": 12,
+    "wildcard_count": 2,
+    "backlog_count": 20,
+    "rejected_count": 31,
+    "selected_source_domain_count": 9,
+    "selected_source_domains": [
+      "blog.3ds.com",
+      "blogs.sw.siemens.com",
+      "cloud.google.com",
+      "developer.nvidia.com",
+      "huggingface.co",
+      "nature.com",
+      "riken.jp",
+      "servicetitan.com",
+      "simscale.com"
+    ],
+    "url_deduplication": {
+      "input_count": 65,
+      "unique_current_urls": 65,
+      "within_input_exact_duplicates": 0,
+      "cross_scout_exact_duplicates": 0,
+      "semantic_same_event_merges": 0,
+      "published_exact_or_semantic_suppressed": 1,
+      "remaining_unpublished_candidates": 64,
+      "definition": "deduplicated_item_count is candidate count after current-pool deduplication and publication-history suppression; editorial near-theme rejections are not falsely counted as duplicate events."
+    },
+    "publication_history": {
+      "index_path": "gpt_handoff/state/published-index.json",
+      "index_blob_sha": "38a688056f4754eb77ba6b65b8eff81ea005af32",
+      "receipt_window_start": "2026-09-29",
+      "receipt_window_end": "2026-10-13",
+      "receipts": [
+        {
+          "path": "gpt_handoff/published/2026-10-07.json",
+          "blob_sha": "1d99b4cc651f77f9869b4a417eb8103fe89868db"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-08.json",
+          "blob_sha": "e2ece3f706dd1130325680ab8303d97049006fa5"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-09.json",
+          "blob_sha": "f5decf8d1a25601d8a54b3bad17e670474e393ac"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-12.json",
+          "blob_sha": "dbb5c7b6d57f6586dcc82479ab6434d3ad7eb65a"
+        }
+      ],
+      "exact_url_days": 90,
+      "semantic_event_days": 30,
+      "material_delta_rechecks": [
+        "r-simscale-agent-validation-cases",
+        "r-google-data-agent-kit-ga"
+      ],
+      "suppressed": [
+        {
+          "input": "company:20",
+          "prior_article": "content/daily/2026-10-12-daily-signal.md",
+          "reason": "same URL and same Singapore/A*STAR event"
+        }
+      ]
+    },
+    "input_validation": {
+      "company": {
+        "valid": true,
+        "item_count": 22,
+        "errors": [],
+        "coverage_valid": true,
+        "age_seconds": 3195.940667
+      },
+      "research": {
+        "valid": true,
+        "item_count": 43,
+        "errors": [],
+        "coverage_valid": true,
+        "age_seconds": 2732.817638
+      }
+    },
+    "execution": {
+      "stage": "signal_curator",
+      "policy_version": 2,
+      "local_date": "2026-10-13",
+      "started_at": "2026-10-13T07:09:09+09:00",
+      "completed_at": "2026-10-13T07:16:44.987636+09:00",
+      "status": "complete",
+      "planned_query_count": 0,
+      "executed_query_count": 8,
+      "verification_method": "Limited candidate URL opens and targeted exact-title/metadata checks; no broad discovery.",
+      "query_count_scope": "Zero broad-discovery queries planned or executed. Eight supplemental targeted exact-title/metadata verification searches across three calls; URL opens/finds excluded."
+    },
+    "contract_evidence": {
+      "policy_blob_sha": "52d83678fcf304dcc49b4f487260398909561ee0",
+      "readme_blob_sha": "249bf1a2551a1618a780557a30f58169a1a3d380",
+      "input_validator": "scripts/web_scout.py",
+      "input_validator_blob_sha": "27b1a33274c673786f1568c0159e1e83812be109",
+      "input_validator_models_blob_sha": "ed5fa2d91fe5a4ffb6f2d157530931fc729544b7"
+    },
+    "publication_guard": {
+      "receipt_path": "gpt_handoff/published/2026-10-13.json",
+      "article_repository": "naoyamd/daily-signal",
+      "article_path": "content/daily/2026-10-13-daily-signal.md",
+      "initial_receipt_check": "not_found_404",
+      "initial_article_check": "not_found_404",
+      "initial_checked_at": "2026-10-13T07:09:42+09:00",
+      "prewrite_checked_at": "2026-10-13T07:16:44.987636+09:00",
+      "prewrite_receipt_check": "not_found_404",
+      "prewrite_article_check": "not_found_404",
+      "target_before_write": "not_found_404",
+      "input_and_index_shas_unchanged": true
+    },
+    "claim_proof": {
+      "valid": true,
+      "errors": [],
+      "total_dispositions": 65,
+      "selected_count": 12,
+      "wildcard_count": 2,
+      "backlog_count": 20,
+      "rejected_count": 31,
+      "claim_count": 51,
+      "claim_status_counts": {
+        "verified": 42,
+        "partially_verified": 9
+      },
+      "report_metric_count": 5,
+      "factual_points_source_mapped": true,
+      "all_65_input_indices_accounted_once": true,
+      "all_seven_score_dimensions_checked": true,
+      "weighted_scores_checked": true,
+      "organization_cap_passed": true,
+      "publication_exact_url_suppression_passed": true,
+      "independent_editorial_reviews": "Engineering and agents/report checks passed; turbulence wording narrowed to the actual data-driven turbulence-model scope."
+    }
+  },
+  "selected": [
+    {
+      "id": "r-simscale-agent-validation-cases",
+      "title": "Agentic Unlocks recap: 6 lessons from companies putting AI agents to work",
+      "primary_url": "https://www.simscale.com/blog/agentic-unlocks-recap/",
+      "published_at": "2026-10-01",
+      "organization": "SimScale; Convion; Dexory; CoLab",
+      "company": "SimScale",
+      "category": "AI-assisted engineering",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering_ai",
+        "engineering agents",
+        "CFD",
+        "surrogate optimization",
+        "CAD/CAE integration"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 4,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": "Published October 1, 2026",
+          "material_delta": {
+            "prior_coverage": [
+              {
+                "event_key": "simscale:engineering-ai-agent-onshape:2026-09-15",
+                "published_in_digest": "2026-09-21",
+                "source_url": "https://www.simscale.com/press/simscale-launches-engineering-ai-agent-for-onshape/"
+              },
+              {
+                "event_key": "simscale-varisco-physics-ai-impeller-workflow:2026-09-23",
+                "published_in_digest": "2026-10-12",
+                "source_url": "https://www.simscale.com/press/atlas-copco-cuts-industrial-pump-design-cycles/"
+              }
+            ],
+            "new_material": "Different case evidence: Convion ejector optimization, Dexory repeated setup, and CoLab-to-SimScale engineer-approved geometry-change validation. Present as additional documented operating cases, not a first agent or surrogate launch.",
+            "history_evidence": "Matched event keys and source URLs in the supplied published index; the recap URL is distinct.",
+            "limit": "First-ever public disclosure of each case was not established."
+          },
+          "curator_verification": {
+            "date_status": "verified_primary_page",
+            "date_evidence_location": "Published header line 154; Last updated line 167",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "simscale-agent-validation-cases:2026-10-01",
+      "tier": "lead",
+      "supporting_urls": [],
+      "factual_points": [
+        "Convion describes Onshape geometry, parallel SimScale experiments and surrogate-driven ejector optimization.",
+        "The recap reports a 10–15-minute optimization loop, with AI and full-CFD results within 5%.",
+        "A CoLab-to-SimScale demonstration changes rib geometry and reruns validation after engineer approval.",
+        "Dexory uses agents for repeated setup; simple cases can remain quicker manually."
+      ],
+      "claims": [
+        {
+          "text": "Convion describes Onshape geometry, parallel SimScale experiments and surrogate-driven ejector optimization.",
+          "source_url": "https://www.simscale.com/blog/agentic-unlocks-recap/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Section 2, lines 194–195"
+        },
+        {
+          "text": "The recap reports a 10–15-minute optimization loop, with AI and full-CFD results within 5%.",
+          "source_url": "https://www.simscale.com/blog/agentic-unlocks-recap/",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Section 2, lines 195, 200"
+        },
+        {
+          "text": "A CoLab-to-SimScale demonstration changes rib geometry and reruns validation after engineer approval.",
+          "source_url": "https://www.simscale.com/blog/agentic-unlocks-recap/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Section 4, line 220"
+        },
+        {
+          "text": "Dexory uses agents for repeated setup; simple cases can remain quicker manually.",
+          "source_url": "https://www.simscale.com/blog/agentic-unlocks-recap/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Section 1, lines 187, 191"
+        }
+      ],
+      "why_it_matters": "設計レビュー、形状変更、物理検証を接続した具体例が、単なるチャット型支援との違いを示す。",
+      "practical_implication": "人の承認点、代理モデルの適用域、最終CFD照合を分けて小規模に評価する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.2,
+      "confidence": "medium",
+      "caveats": [
+        "Participant/vendor performance reports; no independent benchmark.",
+        "Optimization-loop timing is not proven end-to-end development time; feature first-release dates unverified."
+      ]
+    },
+    {
+      "id": "r-nvidia-assembly-qualification-gap",
+      "title": "The Machines that Make the Machines",
+      "primary_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+      "published_at": "2026-10-07",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "科学AI・製造ロボティクス",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "scientific_wildcards",
+        "robotics",
+        "manufacturing"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 42,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+            "evidence_location": "Dateline; Problems at hand; Assembling a busbar, target and achieved performance paragraphs",
+            "published_at": "2026-10-07"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Article header",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "nvidia-assembly-qualification-gap:2026-10-07",
+      "tier": "lead",
+      "supporting_urls": [],
+      "factual_points": [
+        "NVIDIA studies busbar assembly and multi-connector insertion for GB300 tester trays, with requirements developed with its Operations team and Foxconn.",
+        "Busbar assembly used separate perception, planning and impedance-control modules rather than a pivot to end-to-end learning.",
+        "NVIDIA reports above-95% busbar success and a 160-second full cycle; requirements were 99.5% success and at most 124 seconds.",
+        "Remaining busbar failures chiefly involved grasping and in-hand slipping; sequential screwdriver operations limited cycle time."
+      ],
+      "claims": [
+        {
+          "text": "NVIDIA studies busbar assembly and multi-connector insertion for GB300 tester trays, with requirements developed with its Operations team and Foxconn.",
+          "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Problems at hand: Moravec returns"
+        },
+        {
+          "text": "Busbar assembly used separate perception, planning and impedance-control modules rather than a pivot to end-to-end learning.",
+          "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Assembling a busbar: Revisiting the classics"
+        },
+        {
+          "text": "NVIDIA reports above-95% busbar success and a 160-second full cycle; requirements were 99.5% success and at most 124 seconds.",
+          "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Assembling a busbar: requirements paragraph and final results paragraph"
+        },
+        {
+          "text": "Remaining busbar failures chiefly involved grasping and in-hand slipping; sequential screwdriver operations limited cycle time.",
+          "source_url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Assembling a busbar: final results paragraph"
+        }
+      ],
+      "why_it_matters": "製造ロボットの研究上の成功率と工場の受入基準の差が定量的に見える。",
+      "practical_implication": "工程ごとの失敗率とサイクルタイムを同時に測定し、量産適格性を実演成功と区別する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.35,
+      "confidence": "medium",
+      "caveats": [
+        "Vendor case study, not independent production validation",
+        "The reported system had not yet met manufacturing targets",
+        "No precise trial count or confidence interval accompanies the quoted success rate",
+        "Evidence checked against article body, not its AI-generated summary"
+      ]
+    },
+    {
+      "id": "r-factorized-turbulence-experts",
+      "title": "Factorized-gating mixture of experts enables cross-regime turbulence modeling",
+      "primary_url": "https://www.nature.com/articles/s44172-026-00802-5",
+      "published_at": "2026-10-08",
+      "organization": "Institute of Mechanics, Chinese Academy of Sciences; University of Chinese Academy of Sciences",
+      "company": "",
+      "category": "CFD",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "CFD",
+        "mixture of experts",
+        "turbulence",
+        "physics-guided AI"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 0,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": "Published: 08 October 2026",
+          "curator_verification": {
+            "date_status": "verified_primary_page",
+            "date_evidence_location": "Published header and About this article, lines 20, 108",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "factorized-turbulence-experts:2026-10-08",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "FG-MoE blends regime-specific turbulence experts using spatially varying weights.",
+        "Its router combines physics-guided binary attributes rather than one monolithic gating network.",
+        "Authors report adding experts without retraining the entire model and test canonical and engineering flows."
+      ],
+      "claims": [
+        {
+          "text": "FG-MoE blends regime-specific turbulence experts using spatially varying weights.",
+          "source_url": "https://www.nature.com/articles/s44172-026-00802-5",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, lines 43–44"
+        },
+        {
+          "text": "Its router combines physics-guided binary attributes rather than one monolithic gating network.",
+          "source_url": "https://www.nature.com/articles/s44172-026-00802-5",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, line 44"
+        },
+        {
+          "text": "Authors report adding experts without retraining the entire model and test canonical and engineering flows.",
+          "source_url": "https://www.nature.com/articles/s44172-026-00802-5",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, line 45"
+        }
+      ],
+      "why_it_matters": "流動領域ごとの専門モデルを組み合わせる設計は、データ駆動乱流モデルの流動領域横断性に直接関係する。",
+      "practical_implication": "対象流動の外挿、専門モデルの切替境界、基準CFDとの差を個別に検証する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.95,
+      "confidence": "high",
+      "caveats": [
+        "Accepted early-access paper; final version pending.",
+        "Only publisher abstract verified; no numerical accuracy or speed claims retained."
+      ]
+    },
+    {
+      "id": "c-enovia-fd04-ai",
+      "title": "What’s New in ENOVIA R2026x FD04",
+      "primary_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+      "published_at": "2026-10-02T17:46:44+00:00",
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering AI",
+        "ENOVIA",
+        "PLM",
+        "AURA",
+        "EBOM",
+        "change management"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 11,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf",
+          "date_evidence": {
+            "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+            "evidence_location": "Official page HTML article:published_time and JSON-LD datePublished; exact metadata saved in company13_ds_publication_metadata.json",
+            "published_at": "2026-10-02T17:46:44+00:00",
+            "verification_status": "verified"
+          },
+          "curator_verification": {
+            "date_status": "verified_input_primary_metadata_not_reextracted",
+            "date_evidence_location": "Company scout reports matching article:published_time and JSON-LD datePublished; direct text extraction omits date.",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "enovia-fd04-ai:2026-10-02",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "FD04 adds AI summaries covering selected documents and associated files.",
+        "AURA change management surfaces impacts, dependencies and conflicts.",
+        "AURA product management adds generative engineering BOMs and release-readiness checks."
+      ],
+      "claims": [
+        {
+          "text": "FD04 adds AI summaries covering selected documents and associated files.",
+          "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Gen 7 AI-Based Enhancements, line 6"
+        },
+        {
+          "text": "AURA change management surfaces impacts, dependencies and conflicts.",
+          "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Gen 7 AI-Based Enhancements, line 12"
+        },
+        {
+          "text": "AURA product management adds generative engineering BOMs and release-readiness checks.",
+          "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Gen 7 AI-Based Enhancements, line 13"
+        }
+      ],
+      "why_it_matters": "PLMの変更影響とリリース準備へAI支援が組み込まれる具体的な更新。",
+      "practical_implication": "利用可能なロールと実際の展開時期を確認し、BOMや変更承認の自動確定とは区別する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.3,
+      "confidence": "high",
+      "caveats": [
+        "Feature descriptions are vendor claims, without independent quality or productivity measurements.",
+        "Article publication date is not proof of first feature availability."
+      ]
+    },
+    {
+      "id": "c-siemens-logistics-twin",
+      "title": "Industrial humanoid robots for logistics: System simulation, the missing link between Physical AI and factory deployment",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+      "published_at": "2026-10-09",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "system simulation",
+        "digital twin",
+        "Simcenter Amesim",
+        "physical AI",
+        "manufacturing",
+        "robotics"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 0,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf",
+          "date_evidence": {
+            "published_at": "2026-10-09",
+            "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+            "verification_status": "verified",
+            "evidence_location": "Page header directly below title; web extraction line 7: October 9, 2026"
+          },
+          "curator_verification": {
+            "date_status": "verified_primary_page",
+            "date_evidence_location": "Article header, line 7",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "siemens-logistics-twin:2026-10-09",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "Siemens cross-checked an Amesim multiphysics twin against its Erlangen logistics proof of concept.",
+        "The robot uses an AGV-mounted torso, two arms and three-finger grippers.",
+        "Siemens reports hardware throughput of 60 tote moves/hour and over 90% pick-and-place success."
+      ],
+      "claims": [
+        {
+          "text": "Siemens cross-checked an Amesim multiphysics twin against its Erlangen logistics proof of concept.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Proof of concept at the Siemens Erlangen Factory, lines 123–125"
+        },
+        {
+          "text": "The robot uses an AGV-mounted torso, two arms and three-finger grippers.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Industrial humanoids need to be practical, line 92"
+        },
+        {
+          "text": "Siemens reports hardware throughput of 60 tote moves/hour and over 90% pick-and-place success.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Proof of concept at the Siemens Erlangen Factory, line 128"
+        }
+      ],
+      "why_it_matters": "実機とシステムシミュレーションの照合を、工場ロボット導入の評価工程として扱える。",
+      "practical_implication": "自社レイアウト・荷姿・例外条件でデジタルツインと実機の差を確認する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 4.05,
+      "confidence": "medium",
+      "caveats": [
+        "Hardware metrics are Siemens-reported, not independently reproduced.",
+        "Twin matching is qualitative; no numerical validation error or fleet-scale deployment is established."
+      ]
+    },
+    {
+      "id": "r-diffusion-turbulence-constraints",
+      "title": "A generative diffusion framework for physically consistent 3D turbulence",
+      "primary_url": "https://www.nature.com/articles/s41467-026-78265-7",
+      "published_at": "2026-10-06",
+      "organization": "Tianyi Li, Michele Buzzicotti et al.",
+      "company": "",
+      "category": "CFD",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "CFD",
+        "diffusion models",
+        "turbulence",
+        "physics constraints"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 1,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": "Published: 06 October 2026",
+          "curator_verification": {
+            "date_status": "verified_primary_publisher_indexed_text",
+            "date_evidence_location": "Publisher article Published header and About this article",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "diffusion-turbulence-constraints:2026-10-06",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "The diffusion framework incorporates physical constraints directly into generation.",
+        "Tests concern single-time velocity-field synthesis in rotating three-dimensional turbulence.",
+        "Authors report better multiscale statistics and physical consistency than standard denoising diffusion."
+      ],
+      "claims": [
+        {
+          "text": "The diffusion framework incorporates physical constraints directly into generation.",
+          "source_url": "https://www.nature.com/articles/s41467-026-78265-7",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Publisher Abstract, model description"
+        },
+        {
+          "text": "Tests concern single-time velocity-field synthesis in rotating three-dimensional turbulence.",
+          "source_url": "https://www.nature.com/articles/s41467-026-78265-7",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Publisher Abstract, test system and synthesis scope"
+        },
+        {
+          "text": "Authors report better multiscale statistics and physical consistency than standard denoising diffusion.",
+          "source_url": "https://www.nature.com/articles/s41467-026-78265-7",
+          "verification_status": "partially_verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Publisher Abstract, comparison against standard DDPM"
+        }
+      ],
+      "why_it_matters": "物理制約を生成過程に入れる方向性は、乱流データ生成の品質保証に関係する。",
+      "practical_implication": "単一時刻の生成と時系列予測を区別し、統計量と物理整合性を別々に検証する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 5,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.95,
+      "confidence": "medium",
+      "caveats": [
+        "Single-time generation is not a demonstrated time-evolving general CFD solver.",
+        "Accepted early-access article; direct full-text opens failed at publisher cookie redirects."
+      ]
+    },
+    {
+      "id": "r-chn-t1-validation-data",
+      "title": "Aerodynamic Data for Validation: The CHN-T1 Large Aircraft Standard Model Dataset",
+      "primary_url": "https://www.nature.com/articles/s41597-026-08265-1",
+      "published_at": "2026-09-15",
+      "organization": "High Speed Aerodynamics Institute, China Aerodynamics Research and Development Center",
+      "company": "",
+      "category": "CFD/validation data",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "CFD",
+        "aerodynamics",
+        "validation dataset",
+        "data-driven modeling"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 10,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": "Published: 15 September 2026",
+          "curator_verification": {
+            "date_status": "verified_primary_page",
+            "date_evidence_location": "Published header line 19; About this article line 105",
+            "evidence_scope": "Primary-page or publisher-indexed abstract inspection; no independent experiment replication"
+          }
+        }
+      ],
+      "event_key": "chn-t1-validation-data:2026-09-15",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "CHN-T1 provides full-aircraft transonic wind-tunnel measurements from ETW, including tailplanes.",
+        "The authors report 33 valid aerodynamic polars across Mach 0.20–0.90.",
+        "The data support CFD validation and data-driven aerodynamic modeling."
+      ],
+      "claims": [
+        {
+          "text": "CHN-T1 provides full-aircraft transonic wind-tunnel measurements from ETW, including tailplanes.",
+          "source_url": "https://www.nature.com/articles/s41597-026-08265-1",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, lines 41–42"
+        },
+        {
+          "text": "The authors report 33 valid aerodynamic polars across Mach 0.20–0.90.",
+          "source_url": "https://www.nature.com/articles/s41597-026-08265-1",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, line 42"
+        },
+        {
+          "text": "The data support CFD validation and data-driven aerodynamic modeling.",
+          "source_url": "https://www.nature.com/articles/s41597-026-08265-1",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, line 43"
+        }
+      ],
+      "why_it_matters": "航空機全体の風洞データはCFDやデータ駆動空力モデルの共通検証点になる。",
+      "practical_implication": "試験のMach数・Reynolds数・形状範囲を照合し、別機体やエンジンへ無条件に一般化しない。",
+      "scores": {
+        "novelty": 3,
+        "source_quality": 5,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 3.95,
+      "confidence": "high",
+      "caveats": [
+        "Older than the October candidates.",
+        "Enabling experimental dataset, not an AI model release; raw dataset download and contents uninspected."
+      ]
+    },
+    {
+      "id": "r-thinkingbox-backend-outcomes",
+      "title": "ThinkingBox grades persistent backend outcomes and repeated agent reliability",
+      "primary_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "published_at": "2026-10-03",
+      "organization": "Microsoft / Hugging Face",
+      "company": "Microsoft / Hugging Face",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "agents_enterprise",
+        "agents",
+        "MCP",
+        "evaluation",
+        "stateful workflows",
+        "OpenEnv"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 22,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "date": "2026-10-03",
+            "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+            "evidence_location": "Article dateline, line 44",
+            "verification_status": "verified",
+            "date_kind": "publication_date"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Article header",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "thinkingbox-backend-outcomes:2026-10-03",
+      "tier": "standard",
+      "supporting_urls": [
+        "https://arxiv.org/abs/2608.19741"
+      ],
+      "factual_points": [
+        "ThinkingBox evaluates 507 workflows, each repeated 20 times, using terminal backend state and side effects.",
+        "In the authors' 12-model ablation, 67.24% of failed attempts still ended cleanly after a state-changing tool action without a final tool error.",
+        "477 tasks use state-only grading; 30 additionally use response rubrics. The OpenEnv adapter supports evaluation.",
+        "The underlying paper was first submitted August 20, 2026, with version 4 dated October 1."
+      ],
+      "claims": [
+        {
+          "text": "ThinkingBox evaluates 507 workflows, each repeated 20 times, using terminal backend state and side effects.",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Introduction; One success is not reliability"
+        },
+        {
+          "text": "In the authors' 12-model ablation, 67.24% of failed attempts still ended cleanly after a state-changing tool action without a final tool error.",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "A tool call is not an outcome"
+        },
+        {
+          "text": "477 tasks use state-only grading; 30 additionally use response rubrics. The OpenEnv adapter supports evaluation.",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "How it works; Run it yourself"
+        },
+        {
+          "text": "The underlying paper was first submitted August 20, 2026, with version 4 dated October 1.",
+          "source_url": "https://arxiv.org/abs/2608.19741",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Submission history"
+        }
+      ],
+      "why_it_matters": "エージェントの正常終了ではなく保存された状態と反復信頼性を見る評価軸が実務的。",
+      "practical_implication": "ツール応答、最終状態、副作用を独立に検査し、繰り返し成功率の推定方法を明記する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 5,
+        "strategic_significance": 5,
+        "reader_value": 5
+      },
+      "weighted_score": 4.4,
+      "confidence": "medium",
+      "caveats": [
+        "Synthetic reconstructed workflows, not customer outcomes",
+        "October 3 is an integration/tutorial update, not the benchmark's first release",
+        "The blog's observed 20/20 count is not the paper's pass^20 estimate",
+        "Suggested operational safeguards have no measured improvement claim in this article"
+      ]
+    },
+    {
+      "id": "r-google-data-agent-kit-ga",
+      "title": "Google Data Agent Kit reaches GA with graph, Bigtable and Spark tools",
+      "primary_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+      "published_at": "2026-09-30",
+      "organization": "Google Cloud",
+      "company": "Google Cloud",
+      "category": "agents_enterprise",
+      "source_kind": "official",
+      "tags": [
+        "agents_enterprise",
+        "MCP",
+        "data infrastructure",
+        "coding agents",
+        "RAG/data",
+        "IAM"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 24,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "date": "2026-09-30",
+            "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+            "evidence_location": "Standalone article dateline, line 65; roundup date is not used",
+            "verification_status": "verified",
+            "date_kind": "publication_date"
+          },
+          "material_delta": "Beyond September 8 introduction: GA status, new graph/Bigtable/Spark support, lakehouse federation and workflow improvements.",
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Article header",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "google-data-agent-kit-ga:2026-09-30",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "Google announced GA for its free Data Agent Kit, combining MCP tools with agent skills.",
+        "GA adds BigQuery Graph, Bigtable and Managed Service for Apache Spark support.",
+        "Tools connect to more than 15 Google Data Cloud services; operations use the user's IAM permissions.",
+        "The BigQuery graph-author skill proposes a plan for approval before creating a graph."
+      ],
+      "claims": [
+        {
+          "text": "Google announced GA for its free Data Agent Kit, combining MCP tools with agent skills.",
+          "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Opening paragraphs"
+        },
+        {
+          "text": "GA adds BigQuery Graph, Bigtable and Managed Service for Apache Spark support.",
+          "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Opening paragraphs; What you can build"
+        },
+        {
+          "text": "Tools connect to more than 15 Google Data Cloud services; operations use the user's IAM permissions.",
+          "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "What is Data Agent Kit?; How it works"
+        },
+        {
+          "text": "The BigQuery graph-author skill proposes a plan for approval before creating a graph.",
+          "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Analytics and graph: BigQuery and BigQuery Graph"
+        }
+      ],
+      "why_it_matters": "データ基盤と複数の開発エージェントをつなぐGA更新で、接続対象と権限境界が具体化。",
+      "practical_implication": "継承されるIAM権限を最小化し、読み取りと変更操作の監査・承認を分離する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.9,
+      "confidence": "high",
+      "caveats": [
+        "Product announcement, without a measured productivity result",
+        "IAM inheritance does not establish least-privilege configuration",
+        "Kit pricing should not be confused with underlying cloud-query costs",
+        "No hands-on verification was performed"
+      ]
+    },
+    {
+      "id": "r-lightonocr3",
+      "title": "LightOnOCR-3 combines transcription, layout and chart extraction",
+      "primary_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+      "published_at": "2026-10-08",
+      "organization": "LightOn",
+      "company": "LightOn",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "open weights",
+        "OCR",
+        "RAG/data",
+        "Europe",
+        "France"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 11,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "date": "2026-10-08",
+            "source_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+            "evidence_location": "Article dateline, line 44",
+            "verification_status": "verified",
+            "date_kind": "publication_date"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Article header",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "lightonocr3:2026-10-08",
+      "tier": "standard",
+      "supporting_urls": [
+        "https://huggingface.co/lightonai/LightOnOCR-3-4B"
+      ],
+      "factual_points": [
+        "LightOn released OCR variants named 0.8B, 1B and 4B under Apache 2.0.",
+        "Grounding mode adds labeled bounding boxes, image descriptions and chart tables to transcription.",
+        "LightOn reports 86.3 overall on olmOCR-Bench for its 4B model, versus 87.6 for 35.1B Infinity Parser Pro and 85.8 for 4B Chandra 2.",
+        "The author publishes normalization functions and benchmark reproduction resources."
+      ],
+      "claims": [
+        {
+          "text": "LightOn released OCR variants named 0.8B, 1B and 4B under Apache 2.0.",
+          "source_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Overview; One model with both transcription and layout"
+        },
+        {
+          "text": "Grounding mode adds labeled bounding boxes, image descriptions and chart tables to transcription.",
+          "source_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "One model with both transcription and layout"
+        },
+        {
+          "text": "LightOn reports 86.3 overall on olmOCR-Bench for its 4B model, versus 87.6 for 35.1B Infinity Parser Pro and 85.8 for 4B Chandra 2.",
+          "source_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "2.2 Detailed results, olmOCR-Bench table"
+        },
+        {
+          "text": "The author publishes normalization functions and benchmark reproduction resources.",
+          "source_url": "https://huggingface.co/blog/lightonai/lightonocr-3",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "2.3 Postprocessing"
+        }
+      ],
+      "why_it_matters": "図表とレイアウトを含む文書処理をオープンモデルで検証できる選択肢が増える。",
+      "practical_implication": "自社PDFの表・図・解像度別に精度とコストを測り、モデル名と実パラメータ表示の差も確認する。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.15,
+      "confidence": "medium",
+      "caveats": [
+        "Scores depend on normalization and rendering resolution",
+        "Older LightOnOCR-2 overall score excludes headers/footers and is not directly comparable",
+        "Speed tests use one H100, 512 pages and model-specific rendering settings; not an enterprise cost benchmark",
+        "Model names are nominal size labels; the 4B-named model card displays a 5B total-parameter widget."
+      ]
+    },
+    {
+      "id": "r-servicetitan-ai-trades-survey",
+      "title": "ServiceTitan: 2026 State of AI in the Trades update",
+      "primary_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+      "published_at": "2026-09-29",
+      "organization": "ServiceTitan / Thrive Analytics",
+      "company": "ServiceTitan",
+      "category": "AI導入・生産性",
+      "source_kind": "technical_report",
+      "tags": [
+        "reports_surveys",
+        "AI adoption",
+        "productivity",
+        "trades"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 27,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "Dateline; AI delivers measurable productivity gains; About the research",
+            "published_at": "2026-09-29"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Press release dateline and heading",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "servicetitan-ai-trades-survey:2026-09-29",
+      "tier": "report",
+      "supporting_urls": [
+        "https://www.servicetitan.com/guides/the-update-2026-state-of-ai-in-the-trades"
+      ],
+      "factual_points": [
+        "Among AI users, 66% report saving at least three hours weekly.",
+        "47% report improved profitability.",
+        "43% report increased revenue.",
+        "44% cite understanding business uses as a barrier.",
+        "Purchase cost is a barrier for 17%, down 12 percentage points."
+      ],
+      "claims": [
+        {
+          "text": "Among AI users, 66% report saving at least three hours weekly.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI delivers measurable productivity gains"
+        },
+        {
+          "text": "47% report improved profitability.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI delivers measurable productivity gains"
+        },
+        {
+          "text": "43% report increased revenue.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "AI delivers measurable productivity gains"
+        },
+        {
+          "text": "44% cite understanding business uses as a barrier.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "The biggest barriers have shifted from cost to understanding how to use AI effectively"
+        },
+        {
+          "text": "Purchase cost is a barrier for 17%, down 12 percentage points.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "The biggest barriers have shifted from cost to understanding how to use AI effectively"
+        },
+        {
+          "text": "The ServiceTitan-sponsored Thrive Analytics survey covered 1,017 verified US contractors and was fielded May 26–June 15, 2026; the stated total-sample margin is ±3.7 percentage points.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "About the research"
+        },
+        {
+          "text": "The prior wave covered 1,032 contractors during October 23–November 12, 2025; question wording was lightly revised.",
+          "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "About the research"
+        }
+      ],
+      "why_it_matters": "自己申告の時間短縮が利益・売上の改善と一致しない点が、AI導入KPI設計に重要。",
+      "practical_implication": "利用者母数を保ち、時間削減、再投資先、収益の指標を分けて追う。",
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 3.75,
+      "confidence": "medium",
+      "caveats": [
+        "Sponsored, self-reported survey; no causal productivity estimate",
+        "US trades sample is not globally representative",
+        "Rewording weakens strict wave comparisons"
+      ],
+      "report_details": {
+        "publisher": "ServiceTitan",
+        "research_provider": "Thrive Analytics, commissioned by ServiceTitan",
+        "sample_size": 1017,
+        "population": "Verified residential/commercial contractors across eight trades",
+        "respondent_roles": "Owners, office staff, field technicians",
+        "fieldwork_start": "2026-05-26",
+        "fieldwork_end": "2026-06-15",
+        "methodology": "Survey; disclosed total-sample margin of error ±3.7 percentage points, wider for subgroups; recruitment, weighting and response rate unverified",
+        "key_metrics": [
+          {
+            "claim_index": 0,
+            "value": 66,
+            "unit": "percent",
+            "metric": "AI users saving >=3 hours/week",
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "AI delivers measurable productivity gains",
+            "attribution_type": "survey_result"
+          },
+          {
+            "claim_index": 1,
+            "value": 47,
+            "unit": "percent",
+            "metric": "AI users reporting profitability improvement",
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "AI delivers measurable productivity gains",
+            "attribution_type": "survey_result"
+          },
+          {
+            "claim_index": 2,
+            "value": 43,
+            "unit": "percent",
+            "metric": "AI users reporting revenue increase",
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "AI delivers measurable productivity gains",
+            "attribution_type": "survey_result"
+          },
+          {
+            "claim_index": 3,
+            "value": 44,
+            "unit": "percent",
+            "metric": "Understanding business AI use is a barrier",
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "The biggest barriers have shifted from cost to understanding how to use AI effectively",
+            "attribution_type": "survey_result"
+          },
+          {
+            "claim_index": 4,
+            "value": 17,
+            "unit": "percent",
+            "metric": "Purchase cost is a barrier",
+            "change_percentage_points": -12,
+            "source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+            "evidence_location": "The biggest barriers have shifted from cost to understanding how to use AI effectively",
+            "attribution_type": "survey_result"
+          }
+        ],
+        "public_report_landing_page": "https://www.servicetitan.com/guides/the-update-2026-state-of-ai-in-the-trades",
+        "access_status": "Public release and landing page inspected; full report requires a contact form and was not downloaded",
+        "evidence_location": "Press release: About the research; landing page: About the survey",
+        "methodology_source_url": "https://www.servicetitan.com/press/servicetitan-report-finds-contractors-shifting-focus-from-ai-adoption-to-implementation-and-productivity",
+        "roles_source_url": "https://www.servicetitan.com/guides/the-update-2026-state-of-ai-in-the-trades",
+        "published_at": "2026-09-29",
+        "geographies": [
+          "United States"
+        ],
+        "comparison_to_previous": "Prior wave: n=1,032; October 23–November 12, 2025; question wording lightly revised",
+        "practical_meaning": "Time savings are reported more often than financial gains; track implementation, hours, and financial outcomes separately.",
+        "caveats": [
+          "Sponsored, self-reported survey; no causal productivity estimate",
+          "US trades sample is not globally representative",
+          "Rewording weakens strict wave comparisons",
+          "Public summary and landing-page evidence only; recruitment, weighting and response rate unverified; total-sample uncertainty does not describe AI-user subgroups."
+        ]
+      }
+    },
+    {
+      "id": "r-cuda-green-contexts",
+      "title": "Control How Your GPU Shares Work with Green Contexts",
+      "primary_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+      "published_at": "2026-10-06",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "科学AI・HPC",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "scientific_wildcards",
+        "GPU",
+        "HPC",
+        "inference"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 40,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "source_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+            "evidence_location": "Dateline; How green contexts work; Example Table 1",
+            "published_at": "2026-10-06"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "date_evidence_location": "Article header",
+            "evidence_scope": "Direct primary page and linked metadata; no independent benchmark replication"
+          }
+        }
+      ],
+      "event_key": "cuda-green-contexts:2026-10-06",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "Green contexts reached the CUDA Driver API in 12.4 and Runtime API in 13.1.",
+        "Applications can partition SMs and explicitly provision workqueues for concurrent in-process workloads.",
+        "On a 148-SM Blackwell GPU, NVIDIA reports critical-kernel latency of 0.007 ms with 8 dedicated SMs, versus 0.140 ms with priority alone and 3.727 ms with equal priorities."
+      ],
+      "claims": [
+        {
+          "text": "Green contexts reached the CUDA Driver API in 12.4 and Runtime API in 13.1.",
+          "source_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Introduction, following AI-generated summary"
+        },
+        {
+          "text": "Applications can partition SMs and explicitly provision workqueues for concurrent in-process workloads.",
+          "source_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "How green contexts work"
+        },
+        {
+          "text": "On a 148-SM Blackwell GPU, NVIDIA reports critical-kernel latency of 0.007 ms with 8 dedicated SMs, versus 0.140 ms with priority alone and 3.727 ms with equal priorities.",
+          "source_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+          "verification_status": "partially_verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Example, Table 1"
+        }
+      ],
+      "why_it_matters": "GPU資源の分割で重要処理の待ち時間を制御する、混在ワークロードの具体的な手段。",
+      "practical_implication": "重要処理の遅延とバルク処理のスループットを同時に測り、合成テストの倍率を業務性能に読み替えない。",
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.85,
+      "confidence": "medium",
+      "caveats": [
+        "Synthetic integer/sqrtf workload; not end-to-end application acceleration",
+        "Dedicated critical SMs reduce resources available to bulk work",
+        "Article is a technical explanation of existing APIs, not proof of a new October runtime release",
+        "Evidence checked against article body, not its AI-generated summary"
+      ]
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "r-carbon-a-genome-annotation",
+      "title": "Carbon-A releases genome annotation model and candidate-gene database",
+      "primary_url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+      "published_at": "2026-10-08",
+      "organization": "Hugging Face Bio",
+      "company": "Hugging Face Bio",
+      "category": "models_open_weights",
+      "source_kind": "technical_report",
+      "tags": [
+        "scientific_wildcards",
+        "open weights",
+        "scientific AI",
+        "biology",
+        "genome annotation"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 15,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "date": "2026-10-08",
+            "source_url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+            "evidence_location": "Article dateline, line 44",
+            "verification_status": "verified",
+            "date_kind": "publication_date"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "evidence_scope": "Direct official page inspected"
+          }
+        }
+      ],
+      "event_key": "carbon-a-genome-annotation:2026-10-08",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "Hugging Face Bio released a 1.2B model, training data and a database for protein-coding-region annotation.",
+        "The team reports 566 million predicted coding loci across 22,617 taxa.",
+        "Initial Iso-Seq evidence supports some predicted transcripts; it does not establish translation or protein function."
+      ],
+      "claims": [
+        {
+          "text": "Hugging Face Bio released a 1.2B model, training data and a database for protein-coding-region annotation.",
+          "source_url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Introduction and release links, lines 69–83"
+        },
+        {
+          "text": "The team reports 566 million predicted coding loci across 22,617 taxa.",
+          "source_url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Annotating GenBank, lines 103–108"
+        },
+        {
+          "text": "Initial Iso-Seq evidence supports some predicted transcripts; it does not establish translation or protein function.",
+          "source_url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Wet Lab Validation, lines 94–101"
+        }
+      ],
+      "why_it_matters": "科学AIの価値を予測候補数と実験確認の段階に分けて評価できる公開資産。",
+      "practical_implication": "予測座標と信頼度を仮説生成に使い、RNAの裏付けからタンパク質機能までを飛躍させない。",
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 2,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.45,
+      "confidence": "high",
+      "caveats": [
+        "Do not describe all predicted loci as experimentally discovered genes.",
+        "Initial RNA validation does not establish protein translation or function."
+      ]
+    },
+    {
+      "id": "r-riken-quantum-hpc-users",
+      "title": "JHPC-quantum、テストユーザプログラム拡大",
+      "primary_url": "https://www.riken.jp/pr/news/2026/20261009_1/index.html",
+      "published_at": "2026-10-09",
+      "organization": "RIKEN / SoftBank",
+      "company": "SoftBank",
+      "category": "科学AI・HPC",
+      "source_kind": "press_release",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "Japan",
+        "HPC"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 36,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc",
+          "date_evidence": {
+            "source_url": "https://www.riken.jp/pr/news/2026/20261009_1/index.html",
+            "evidence_location": "Dateline; opening paragraphs; selected organizations; 今後の予定",
+            "published_at": "2026-10-09"
+          },
+          "curator_verification": {
+            "date_status": "verified",
+            "evidence_scope": "Direct official page inspected"
+          }
+        }
+      ],
+      "event_key": "riken-quantum-hpc-users:2026-10-09",
+      "tier": "standard",
+      "supporting_urls": [],
+      "factual_points": [
+        "RIKEN and SoftBank selected 20 new quantum–HPC test-user proposals in the third call.",
+        "Named participants include IHI, Mitsubishi Electric, JAXA and DLR, covering manufacturing, materials and natural science.",
+        "Following agreements, participants will use two quantum systems together with Fugaku and ROQUO to develop applications."
+      ],
+      "claims": [
+        {
+          "text": "RIKEN and SoftBank selected 20 new quantum–HPC test-user proposals in the third call.",
+          "source_url": "https://www.riken.jp/pr/news/2026/20261009_1/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Dateline and opening paragraphs, lines 34–46"
+        },
+        {
+          "text": "Named participants include IHI, Mitsubishi Electric, JAXA and DLR, covering manufacturing, materials and natural science.",
+          "source_url": "https://www.riken.jp/pr/news/2026/20261009_1/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Selected organizations, lines 47–61"
+        },
+        {
+          "text": "Following agreements, participants will use two quantum systems together with Fugaku and ROQUO to develop applications.",
+          "source_url": "https://www.riken.jp/pr/news/2026/20261009_1/index.html",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "今後の予定, lines 64–69"
+        }
+      ],
+      "why_it_matters": "量子・HPC接続の用途探索に材料・設計製造・航空宇宙関係機関が参加する動き。",
+      "practical_implication": "採択を成果とみなさず、今後公開される課題条件と古典計算比較を追う。",
+      "scores": {
+        "novelty": 3,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 2,
+        "strategic_significance": 4,
+        "reader_value": 3
+      },
+      "weighted_score": 3.4,
+      "confidence": "high",
+      "caveats": [
+        "Selection and access plans are not completed industrial outcomes or evidence of quantum advantage."
+      ]
+    }
+  ],
+  "backlog": [
+    {
+      "id": "c-17",
+      "title": "Use existing structural and fluid data to train Simcenter PhysicsAI",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+      "published_at": "2026-10-08",
+      "organization": "Siemens Digital Industries Software; guest author Tyler Haggin, COO of TrueInsight LLC",
+      "company": "Altair Engineering",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "AI",
+        "CAE",
+        "CFD",
+        "FEA",
+        "surrogate_model",
+        "geometric_deep_learning",
+        "PhysicsAI",
+        "HyperMesh",
+        "Altair",
+        "Siemens"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 17,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "rank": 1,
+      "reason": "Fresh engineering workflow explanation; exact first-release novelty remains unclear.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "c-08",
+      "title": "Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform",
+      "primary_url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+      "published_at": "2026-09-28",
+      "organization": "Synopsys, Inc. (Ansys parent)",
+      "company": "Ansys",
+      "category": "engineering_ai",
+      "source_kind": "press_release",
+      "tags": [
+        "engineering AI",
+        "agentic AI",
+        "simulation",
+        "combustion",
+        "resonance"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 8,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "rank": 2,
+      "reason": "Potentially important long-horizon engineering agents; announced September 28 and year-end availability remains a plan.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "c-19",
+      "title": "Hexagon launches HYPERSCAN SR, simplifying inspection on site and in the field",
+      "primary_url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+      "published_at": "2026-10-12",
+      "organization": "Hexagon Portable Metrology Division",
+      "company": "Hexagon AB",
+      "category": "manufacturing_metrology",
+      "source_kind": "press_release",
+      "tags": [
+        "metrology",
+        "3D_scanning",
+        "inspection",
+        "manufacturing",
+        "Hexagon"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 19,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "rank": 3,
+      "reason": "Fresh metrology launch, but lower direct AI relevance than selected validation and manufacturing cases.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "c-13",
+      "title": "From 90,000 Requirements to Minutes: How CATIA Magic Automation and AI Are Changing MBSE",
+      "primary_url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+      "published_at": "2026-09-28T09:34:26+00:00",
+      "organization": "Dassault Systèmes; Enola Technologies",
+      "company": "Dassault Systèmes",
+      "category": "MBSE",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "MBSE",
+        "CATIA Magic",
+        "Open API",
+        "requirements",
+        "SysML v2",
+        "engineering AI"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 13,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "rank": 4,
+      "reason": "Useful MBSE API automation anecdote; AI capabilities are prospects, not the measured 90,000-requirement result.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-02",
+      "title": "HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization",
+      "primary_url": "https://arxiv.org/abs/2609.15001",
+      "published_at": "2026-09-14T04:06:36Z",
+      "organization": "Arizona State University",
+      "company": "",
+      "category": "FEA/design optimization",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "FEA",
+        "topology optimization",
+        "graph neural networks",
+        "physics-informed learning"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 2,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 5,
+      "reason": "Useful physics-informed topology-optimization preprint; older within window and lower priority than cross-regime turbulence.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-03",
+      "title": "Accelerating structural optimization via EIFEM: a ROM-based preconditioner",
+      "primary_url": "https://arxiv.org/abs/2609.20053",
+      "published_at": "2026-09-17T11:01:32Z",
+      "organization": "Raul Rubio, Alex Ferrer et al.",
+      "company": "",
+      "category": "FEA/design optimization",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "reduced-order modeling",
+        "structural optimization",
+        "FEA",
+        "surrogate"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 3,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 6,
+      "reason": "Useful reduced-order preconditioner; not itself a neural-model development.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "c-02",
+      "title": "Extend thermal characterization to high-power ICs and GaN devices",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+      "published_at": "2026-10-08",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "cae_simulation",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAE",
+        "thermal simulation",
+        "physical testing",
+        "Simcenter Micred",
+        "Flotherm",
+        "FLOEFD",
+        "GaN"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 2,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "rank": 7,
+      "reason": "Concrete thermal-measurement/calibration update; held to preserve publisher diversity.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-09",
+      "title": "Data-driven and interpretable modeling frameworks for frost accumulation during natural convection on polymer composite fins",
+      "primary_url": "https://www.nature.com/articles/s41598-026-73138-x",
+      "published_at": "2026-09-26",
+      "organization": "Al-Ahliyya Amman University; multi-institution research collaboration",
+      "company": "",
+      "category": "thermal engineering/surrogate",
+      "source_kind": "paper",
+      "tags": [
+        "engineering_ai",
+        "thermal engineering",
+        "surrogate",
+        "Bayesian optimization",
+        "interpretable ML"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 9,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 8,
+      "reason": "Promising frost-prediction result; only indexed abstract inspected and full validation protocol unavailable.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-12",
+      "title": "NVIDIA Kumo Tabular releases single-pass classification and regression models",
+      "primary_url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "published_at": "2026-09-29",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "open weights",
+        "tabular data",
+        "inference",
+        "enterprise ML"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 12,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 9,
+      "reason": "Open tabular inference is relevant; publisher ranking claims require workload-specific validation.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-20",
+      "title": "ColGrep-Agent delegates repository search to a local 2B model",
+      "primary_url": "https://huggingface.co/blog/lightonai/colgrep-agent",
+      "published_at": "2026-10-12",
+      "organization": "LightOn",
+      "company": "LightOn",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "agents_enterprise",
+        "coding agents",
+        "open weights",
+        "local inference",
+        "retrieval",
+        "RAG/data",
+        "Europe"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 20,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 10,
+      "reason": "Local repository-search model is actionable; held below stronger document and agent-outcome coverage.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-23",
+      "title": "ProvenanceGuard's source-aware MCP verification reaches an integration example",
+      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "published_at": "2026-09-29",
+      "organization": "Multiverse Computing",
+      "company": "Multiverse Computing",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "agents_enterprise",
+        "MCP",
+        "RAG/data",
+        "provenance",
+        "verification",
+        "Europe"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 23,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 11,
+      "reason": "Source-aware MCP verification is useful; integration example does not establish production reliability.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-19",
+      "title": "TileRT targets long-context agent inference on AMD Instinct",
+      "primary_url": "https://www.amd.com/en/developer/resources/technical-articles/2026/tilert-agentx-on-amd-instinct-gpus.html",
+      "published_at": "2026-09-24",
+      "organization": "AMD",
+      "company": "AMD",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "inference",
+        "coding agents",
+        "long context",
+        "AMD"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 19,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 12,
+      "reason": "Long-context AMD inference optimization; hardware-specific tests require closer comparison.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-18",
+      "title": "AMD expands MLPerf Inference 6.1 across six model families",
+      "primary_url": "https://www.amd.com/en/blogs/2026/amd-delivers-its-broadest-mlperf-inference-6-1-submission.html",
+      "published_at": "2026-09-16",
+      "organization": "AMD",
+      "company": "AMD",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "inference",
+        "ROCm",
+        "benchmarks",
+        "open infrastructure"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 18,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 13,
+      "reason": "Broad MLPerf submission; benchmark configuration matters and duplicated hardware coverage avoided.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-16",
+      "title": "Anthropic cuts small-model and cached-agent inference prices",
+      "primary_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "published_at": "2026-10-07",
+      "organization": "Anthropic",
+      "company": "Anthropic",
+      "category": "models_open_weights",
+      "source_kind": "official",
+      "tags": [
+        "models_open_weights",
+        "frontier models",
+        "inference economics",
+        "coding agents",
+        "API"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 16,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 14,
+      "reason": "Primary pricing delta retained for later consideration; no need for another general model news slot.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-26",
+      "title": "AWS details a four-agent pattern for MCP-connected migration programs",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+      "published_at": "2026-10-01",
+      "organization": "AWS",
+      "company": "AWS",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "agents_enterprise",
+        "enterprise agents",
+        "MCP",
+        "migration",
+        "infrastructure as code",
+        "IAM"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 26,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 15,
+      "reason": "Concrete migration-agent pattern, but internal timings are not a controlled productivity estimate.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-30",
+      "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
+      "primary_url": "https://arxiv.org/abs/2609.34655",
+      "published_at": "2026-09-28",
+      "organization": "Sepideh Tajarmakan, Khashayar Hojjati Emami et al.",
+      "company": "",
+      "category": "AI導入・生産性",
+      "source_kind": "paper",
+      "tags": [
+        "reports_surveys",
+        "design",
+        "workflow"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 30,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 16,
+      "reason": "Useful designer survey; cross-sectional and not representative, retained behind detailed contractor report.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-31",
+      "title": "Beyond Productivity: Measuring Developers’ Cognitive Load During GenAI-Supported Software Development",
+      "primary_url": "https://arxiv.org/abs/2609.37645",
+      "published_at": "2026-09-29",
+      "organization": "SAP",
+      "company": "SAP",
+      "category": "AI導入・生産性",
+      "source_kind": "paper",
+      "tags": [
+        "reports_surveys",
+        "coding",
+        "workforce"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 31,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 17,
+      "reason": "Small observational field study; useful cognitive-load nuance, no causal productivity claim.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-32",
+      "title": "Human–AI-Assisted digital twins for advanced manufacturing: toward industry 5.0",
+      "primary_url": "https://link.springer.com/article/10.1007/s00170-026-19184-1",
+      "published_at": "2026-10-03",
+      "organization": "Blekinge Institute of Technology",
+      "company": "",
+      "category": "科学AI・製造",
+      "source_kind": "paper",
+      "tags": [
+        "scientific_wildcards",
+        "digital twin",
+        "manufacturing"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 32,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 18,
+      "reason": "Systematic review offers validation/governance gaps; roadmap is not production-readiness evidence.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-33",
+      "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
+      "primary_url": "https://arxiv.org/abs/2610.00311",
+      "published_at": "2026-09-28",
+      "organization": "Zhiheng Chen, Ye Qiao et al.",
+      "company": "",
+      "category": "科学AI・ロボティクス",
+      "source_kind": "paper",
+      "tags": [
+        "scientific_wildcards",
+        "edge AI",
+        "FPGA",
+        "robotics"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 33,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 19,
+      "reason": "Interesting FPGA/GPU action-head split; recorded-data quality checks are not real-robot task success.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    },
+    {
+      "id": "r-37",
+      "title": "AI for Science革新的研究推進事業（ARiSE）新規採択課題の決定について",
+      "primary_url": "https://www.jst.go.jp/pr/info/info1875/pdf/info1875.pdf",
+      "published_at": "2026-09-29",
+      "organization": "Japan Science and Technology Agency",
+      "company": "",
+      "category": "科学AI・研究基盤",
+      "source_kind": "press_release",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "Japan",
+        "materials",
+        "research automation"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 37,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "rank": 20,
+      "reason": "Japan AI-for-science funding decisions, including materials and labs; awards are not demonstrated scientific outcomes.",
+      "evidence_status": "scout_primary_evidence_retained_not_promoted",
+      "next_verification": "Recheck novelty, date and claim scope before any publication."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "c-01",
+      "title": "Engineering the bowling experience with Simcenter X",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+      "published_at": "2026-10-09",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "cae_simulation",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "Simcenter X",
+        "CAE",
+        "CFD",
+        "FEA",
+        "system simulation",
+        "HEEDS",
+        "cloud simulation"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 1,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Toy multiphysics demonstration of existing tools; lower novelty and crowded publisher coverage.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-03",
+      "title": "AI in PLM: Turning product data into product lifecycle intelligence",
+      "primary_url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+      "published_at": "2026-10-01",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering AI",
+        "Teamcenter",
+        "PLM",
+        "requirements",
+        "digital thread",
+        "Copilot",
+        "BOM"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 3,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Dated capability explainer of existing Teamcenter functionality; no explicit new release delta.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-04",
+      "title": "Designcenter | Tips and Tricks | Partitions Worksets and Smart Discovery",
+      "primary_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+      "published_at": "2026-09-29",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "cad",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAD",
+        "Designcenter",
+        "large assemblies",
+        "Partitions",
+        "Smart Discovery",
+        "Worksets"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 4,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Existing assembly-management tutorial with no new quantified engineering result.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-05",
+      "title": "Polarion X 2606 – What’s New and Noteworthy",
+      "primary_url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+      "published_at": "2026-09-18",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering AI",
+        "ALM",
+        "requirements management",
+        "Polarion X",
+        "Copilot API",
+        "Simulink",
+        "MBSE"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 5,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Older in-window API update; less urgent than selected PLM update and full seven-field evidence retained upstream.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-06",
+      "title": "Large product structures at scale: Clone and reuse up to one million parts with Teamcenter",
+      "primary_url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+      "published_at": "2026-09-17",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "digital_engineering",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "Teamcenter",
+        "PLM",
+        "large assemblies",
+        "BOM",
+        "design reuse",
+        "aerospace",
+        "digital thread"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 6,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Existing 2606 capability explanation; million-part scale is vendor-claimed and no timing benchmark supplied.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-07",
+      "title": "Designcenter | Tips and Tricks | Steel Outfitting",
+      "primary_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+      "published_at": "2026-09-15",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "category": "cad",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAD",
+        "Designcenter",
+        "Structure Designer",
+        "steel outfitting",
+        "assembly design"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 7,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Existing steel-outfitting tutorial with low AI novelty.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-09",
+      "title": "Synopsys and Amazon Announce Strategic, Multi-year IP Agreement for Custom Silicon; Collaboration Also Extends to Cloud and AI-Powered Engineering",
+      "primary_url": "https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering",
+      "published_at": "2026-09-30",
+      "organization": "Synopsys, Inc.; Amazon",
+      "company": "Ansys",
+      "category": "engineering_ai",
+      "source_kind": "press_release",
+      "tags": [
+        "engineering AI",
+        "multiphysics",
+        "cloud simulation",
+        "AWS",
+        "Trainium",
+        "Graviton"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 9,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Forward-looking combined-portfolio cloud partnership; no delivered multiphysics speedup.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-10",
+      "title": "Turn Down the Noise, Turn Up the Experience: Engineer Quieter Products With Simulation",
+      "primary_url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+      "published_at": "2026-10-07",
+      "organization": "Ansys, part of Synopsys",
+      "company": "Ansys",
+      "category": "CAE / multiphysics",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAE",
+        "CFD",
+        "FEA",
+        "NVH",
+        "multiphysics",
+        "Mechanical",
+        "Fluent"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 10,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Useful existing NVH workflow explainer; lower novelty than selected engineering research.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-12",
+      "title": "SYSTRA and Dassault Systèmes Enter into a Technological Collaboration Around a New Generation of Virtual Twins for Transport Infrastructures",
+      "primary_url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+      "published_at": "2026-09-24",
+      "organization": "SYSTRA; Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "category": "digital_twin",
+      "source_kind": "press_release",
+      "tags": [
+        "digital twin",
+        "digital engineering",
+        "simulation",
+        "industrial AI",
+        "infrastructure"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 12,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Exploratory transport-infrastructure collaboration without measured outcome; lower core relevance.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-14",
+      "title": "From Feature Trees to Surface Sculpting: How CATIA ICEM Design Experience is changing motorsport surfacing",
+      "primary_url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+      "published_at": "2026-10-05T08:54:09+00:00",
+      "organization": "Dassault Systèmes; Origin Engineering",
+      "company": "Dassault Systèmes",
+      "category": "CAD / CFD",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAD",
+        "CATIA IDX",
+        "CFD",
+        "surface modeling",
+        "composites",
+        "motorsport"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 14,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Surface-modeling customer interview; no verified new AI capability.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-15",
+      "title": "Making MBSE More Accessible: Benjamin W. Stirgwolt on CATIA Magic, Productivity and AI",
+      "primary_url": "https://blog.3ds.com/brands/catia/mbse-catia-magic-ben-stirgwolt/",
+      "published_at": "2026-10-01T08:49:30+00:00",
+      "organization": "Dassault Systèmes; Belcan",
+      "company": "Dassault Systèmes",
+      "category": "MBSE",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "MBSE",
+        "CATIA Magic",
+        "engineering AI",
+        "requirements",
+        "systems engineering"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 15,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "MBSE accessibility interview largely discusses future AI opportunities.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-16",
+      "title": "Dassault Systèmes Brings Virtual Twins and Industrial AI to the Paris Motor Show 2026",
+      "primary_url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-brings-virtual-twins-and-industrial-ai-paris-motor-show-2026",
+      "published_at": "2026-10-07",
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "category": "engineering_ai",
+      "source_kind": "official",
+      "tags": [
+        "engineering AI",
+        "virtual twin",
+        "automotive design",
+        "agentic AI"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 16,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Event participation notice, not a new technical result or product capability.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-18",
+      "title": "When lightweighting is not enough: an engineer’s search for a better structural design",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+      "published_at": "2026-10-07",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Altair Engineering",
+      "category": "cae_materials_optimization",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "CAE",
+        "FEA",
+        "topology_optimization",
+        "multi_material",
+        "OptiStruct",
+        "sustainability",
+        "Altair",
+        "Siemens"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 18,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Traditional topology/material trade-off study without explicit ML; lower priority amid publisher concentration.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "c-20",
+      "title": "PhysicsX Launches Asia-Pacific Hub in Singapore to Scale AI-Powered Industrial Engineering Across the Region",
+      "primary_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+      "published_at": "2026-10-08",
+      "organization": "PhysicsX / A*STAR",
+      "company": "PhysicsX",
+      "category": "AIによる設計",
+      "source_kind": "press_release",
+      "tags": [
+        "discovery_candidate",
+        "physics AI",
+        "engineering simulation",
+        "manufacturing",
+        "Singapore"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 20,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "Exact URL and same Singapore/A*STAR event published October 12; no material new delta.",
+      "reason_code": "published_duplicate"
+    },
+    {
+      "id": "c-21",
+      "title": "AI in Mechanical Engineering - How Is It Used?",
+      "primary_url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+      "published_at": "2026-09-30",
+      "organization": "Neural Concept",
+      "company": "Neural Concept",
+      "category": "AIによる設計",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "discovery_candidate",
+        "engineering AI",
+        "CAD",
+        "CAE",
+        "PLM",
+        "surrogate models"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-13.json",
+          "source_item_index": 21,
+          "index_base": 0,
+          "input_blob_sha": "b202eb2c15e82f1b230e492ae6136cf1b65a85cf"
+        }
+      ],
+      "reason": "General engineering-AI overview; dated publication does not establish a novel release or reproducible benchmark.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-05",
+      "title": "Webinar highlights: hands-on with the SimScale AI agent",
+      "primary_url": "https://www.simscale.com/blog/webinar-highlights-hands-on-simscale-ai-agent/",
+      "published_at": "2026-09-28",
+      "organization": "SimScale",
+      "company": "SimScale",
+      "category": "CAE agents",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering_ai",
+        "CAE",
+        "engineering agents",
+        "thermal simulation",
+        "validation boundaries"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 5,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Same agent-demonstration theme as selected SimScale recap; no separate slot for a webinar summary. Live solve limitation is preserved as supporting context.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-06",
+      "title": "What’s new in SimScale: autumn 2026",
+      "primary_url": "https://www.simscale.com/blog/whats-new-simscale-autumn-2026/",
+      "published_at": "2026-09-29",
+      "organization": "SimScale",
+      "company": "SimScale",
+      "category": "CAE/surrogate",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering_ai",
+        "CAE agents",
+        "meshing",
+        "MCP",
+        "surrogate",
+        "external simulation data"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 6,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Quarterly roundup includes previously announced agent features; feature-level first-release dates unclear.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-07",
+      "title": "How to master sustainable product development with Teamcenter and Makersite",
+      "primary_url": "https://blogs.sw.siemens.com/teamcenter/teamcenter-makersite-sustainable-product-development/",
+      "published_at": "2026-09-30",
+      "organization": "Siemens Digital Industries Software; Makersite",
+      "company": "Siemens; Makersite",
+      "category": "PLM/design optimization",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering_ai",
+        "PLM",
+        "AI",
+        "lifecycle assessment",
+        "BOM",
+        "sustainable design"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 7,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Existing BOM environmental-mapping workflow demonstration; no independent measured benefit or new launch established.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-08",
+      "title": "The relentless pursuit of the perfect lap",
+      "primary_url": "https://blogs.sw.siemens.com/simcenter/virtual-driver-digital-twin/",
+      "published_at": "2026-10-06",
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens",
+      "category": "system simulation/design optimization",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "engineering_ai",
+        "digital twin",
+        "system simulation",
+        "NMPC",
+        "optimization agent"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 8,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "NMPC case study is not learned AI; vendor lap/speed claims are narrower than headline suggests.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-13",
+      "title": "AutoTrust extends JEV-27B decision models to image input",
+      "primary_url": "https://huggingface.co/blog/autotrust/autotrustjev-27b-vl-a-decision-model-that-learned",
+      "published_at": "2026-09-30",
+      "organization": "AutoTrust AI",
+      "company": "AutoTrust AI",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "open weights",
+        "multimodal",
+        "decision models",
+        "inference"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 13,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Small single-dataset visual decision extension; lower evidence and reader relevance than selected open document model.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-14",
+      "title": "Sparseup-fr publishes a French sparse-retrieval replication",
+      "primary_url": "https://huggingface.co/blog/alphaedge-ai/french-sparseup",
+      "published_at": "2026-10-12",
+      "organization": "AlphaEdge AI",
+      "company": "AlphaEdge AI",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "models_open_weights",
+        "open weights",
+        "French",
+        "retrieval",
+        "RAG/data",
+        "Europe"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 14,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "French sparse-retrieval replication is narrow; benchmark cleanup does not settle annotation bias.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-17",
+      "title": "Triton 26.09 updates serving reliability and Rubin support",
+      "primary_url": "https://docs.nvidia.com/deeplearning/triton-inference-server/release-notes/rel-26-09.html",
+      "published_at": "2026-10-01",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "models_open_weights",
+      "source_kind": "official",
+      "tags": [
+        "models_open_weights",
+        "OSS",
+        "inference",
+        "serving",
+        "reliability"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 17,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Page update date, not verified release date; do not manufacture a fresh release signal.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-21",
+      "title": "Anthropic reports unintended external actions and suspends live-internet evaluations",
+      "primary_url": "https://www.anthropic.com/news/investigating-unintended-model-actions",
+      "published_at": "2026-10-09",
+      "organization": "Anthropic",
+      "company": "Anthropic",
+      "category": "agents_enterprise",
+      "source_kind": "technical_report",
+      "tags": [
+        "agents_enterprise",
+        "agent safety",
+        "evaluation",
+        "governance",
+        "containment"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 21,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "High-impact unintended-actions allegation requires deeper independent corroboration and incident scope verification; excluded from this bounded curation.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-25",
+      "title": "Mistral previews managed workflow deployments with service-account isolation",
+      "primary_url": "https://docs.mistral.ai/resources/release-notes",
+      "published_at": "2026-10-09",
+      "organization": "Mistral AI",
+      "company": "Mistral AI",
+      "category": "agents_enterprise",
+      "source_kind": "official",
+      "tags": [
+        "agents_enterprise",
+        "agents",
+        "workflow runtime",
+        "deployment",
+        "service accounts",
+        "Europe",
+        "France"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 25,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Preview deployment controls have lower differentiation than the selected GA data-integration signal.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-28",
+      "title": "AI & the Labor Force: Scenarios for Stakeholders",
+      "primary_url": "https://www.conference-board.org/research/solutions-briefs/AI-and-the-Labor-Force-Scenarios-for-Stakeholders",
+      "published_at": "2026-09-15",
+      "organization": "The Conference Board",
+      "company": "",
+      "category": "AI導入・労働市場",
+      "source_kind": "technical_report",
+      "tags": [
+        "reports_surveys",
+        "workforce",
+        "productivity"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 28,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Scenario synthesis rather than a new empirical survey; weak fit for a metric-rich report slot.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-29",
+      "title": "Helpful but Fallible: Developer Experiences of AI Tools Under a Coordinated Industrial Roll-out",
+      "primary_url": "https://arxiv.org/abs/2609.20977",
+      "published_at": "2026-09-17",
+      "organization": "Andreas Bexell, Rushali Gupta et al.",
+      "company": "",
+      "category": "AI導入・生産性",
+      "source_kind": "paper",
+      "tags": [
+        "reports_surveys",
+        "coding",
+        "enterprise AI"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 29,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Twelve-interview qualitative rollout study is useful background but does not establish productivity magnitude.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-34",
+      "title": "A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks",
+      "primary_url": "https://arxiv.org/abs/2609.33994",
+      "published_at": "2026-09-27",
+      "organization": "Semin Joung, Abhilasha Dave et al.",
+      "company": "",
+      "category": "科学AI・デジタルツイン",
+      "source_kind": "paper",
+      "tags": [
+        "scientific_wildcards",
+        "edge AI",
+        "digital twin",
+        "fusion"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 34,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Configured packet latency rather than measured hardware performance; preliminary commissioning model.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-35",
+      "title": "The Robot Data Factory",
+      "primary_url": "https://arxiv.org/abs/2609.16705",
+      "published_at": "2026-09-15",
+      "organization": "Sami Haddadin, Ivan Laptev et al.",
+      "company": "",
+      "category": "科学AI・ロボティクス",
+      "source_kind": "paper",
+      "tags": [
+        "scientific_wildcards",
+        "robotics",
+        "data",
+        "benchmark"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 35,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Broad robot-data framework rather than demonstrated general-purpose autonomy or a specific new production outcome.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-38",
+      "title": "New Method Uses Surface Vibrations to Move and Rotate Small Objects",
+      "primary_url": "https://english.cas.cn/newsroom/research-news/202609/t20260924_1201503.shtml",
+      "published_at": "2026-09-23",
+      "organization": "Chinese Academy of Sciences / Hefei University of Technology",
+      "company": "",
+      "category": "科学技術・ロボティクス",
+      "source_kind": "press_release",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "China",
+        "microrobotics"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 38,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Adjacent physical-wave manipulation study has no AI component and lower relevance than chosen wildcards.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-39",
+      "title": "The EIT AI Community becomes the EIT AI & Robotics Community and opens first call for founders",
+      "primary_url": "https://www.eit.europa.eu/news-events/news/eit-ai-community-eit-ai-robotics-community",
+      "published_at": "2026-09-16",
+      "organization": "European Institute of Innovation and Technology / 28DIGITAL",
+      "company": "",
+      "category": "科学AI・スタートアップ",
+      "source_kind": "press_release",
+      "tags": [
+        "non_us_rotation",
+        "scientific_wildcards",
+        "Europe",
+        "robotics",
+        "startups"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 39,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Program ambition and founder call; targets are not achieved technology or funding outcomes.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    },
+    {
+      "id": "r-41",
+      "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+      "primary_url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+      "published_at": "2026-09-22",
+      "organization": "NVIDIA",
+      "company": "NVIDIA",
+      "category": "科学AI・ロボティクス",
+      "source_kind": "corporate_tech",
+      "tags": [
+        "scientific_wildcards",
+        "robotics",
+        "coding agents",
+        "GPU"
+      ],
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-13.json",
+          "source_item_index": 41,
+          "index_base": 0,
+          "input_blob_sha": "b3b2e8cd862225a9bb16b9e4b6f47b0951e703bc"
+        }
+      ],
+      "reason": "Useful ROS 2 migration tutorial; deprioritized to avoid NVIDIA concentration beyond two selected entries.",
+      "reason_code": "editorial_priority_or_evidence_limit"
+    }
+  ],
+  "warnings": [
+    "Company input is partial, with mandatory coverage complete and access gaps retained; output ready means usable bounded curation, not exhaustive discovery.",
+    "All numerical vendor performance claims are self-reported; no independent reproduction was performed.",
+    "Diffusion-paper claims remain partially verified from a primary publisher indexed abstract; full methods not inspected.",
+    "Report results are sponsored survey responses, not causal productivity effects.",
+    "Publication dates of technical explainers, tutorials and case studies do not establish first feature shipment.",
+    "ThinkingBox October tutorial/revision is not an August benchmark launch; observed repeated success and pass^20 estimates must remain distinct.",
+    "No older-day input was substituted; all 65 current-day input rows receive a disposition."
+  ]
+}
