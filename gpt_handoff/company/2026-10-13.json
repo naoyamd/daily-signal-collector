@@ -1,0 +1,1940 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-13T06:18:52.870894+09:00",
+  "items": [
+    {
+      "title": "Industrial humanoid robots for logistics: System simulation, the missing link between Physical AI and factory deployment",
+      "url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+      "source": "Siemens Digital Industries Software, Simcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "engineering_ai",
+      "published_at": "2026-10-09",
+      "excerpt": "Siemens describes cross-checking a Simcenter Amesim multiphysics digital twin against an Erlangen factory logistics robot proof-of-concept. Siemens reports hardware throughput of 60 tote moves per hour and over 90% pick-and-place success.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "system simulation",
+        "digital twin",
+        "Simcenter Amesim",
+        "physical AI",
+        "manufacturing",
+        "robotics"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Engineering the bowling experience with Simcenter X",
+      "url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+      "source": "Siemens Digital Industries Software, Simcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "cae_simulation",
+      "published_at": "2026-10-09",
+      "excerpt": "Siemens presents a multiphysics bowling demonstration combining Amesim trajectory simulation, HEEDS design exploration, STAR-CCM+ aerodynamics and Simcenter 3D/Nastran structural impact analysis through Simcenter X.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "Simcenter X",
+        "CAE",
+        "CFD",
+        "FEA",
+        "system simulation",
+        "HEEDS",
+        "cloud simulation"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Extend thermal characterization to high-power ICs and GaN devices",
+      "url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+      "source": "Siemens Digital Industries Software, Simcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "cae_simulation",
+      "published_at": "2026-10-08",
+      "excerpt": "Siemens introduces a high-power sensing current generator for Simcenter Micred T3STER, targeting high-power ICs and low-resistance GaN devices. Measurements and compact thermal RC models can feed Simcenter Flotherm and FLOEFD model calibration.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "CAE",
+        "thermal simulation",
+        "physical testing",
+        "Simcenter Micred",
+        "Flotherm",
+        "FLOEFD",
+        "GaN"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "product_update_technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "AI in PLM: Turning product data into product lifecycle intelligence",
+      "url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+      "source": "Siemens Digital Industries Software, Teamcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "engineering_ai",
+      "published_at": "2026-10-01",
+      "excerpt": "Siemens explains how Teamcenter Copilot uses lifecycle context for engineering-change impact analysis, requirements quality, test generation and workflow automation. It describes AI-supported BOM work, Microsoft 365 integration and agentic workflows.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "engineering AI",
+        "Teamcenter",
+        "PLM",
+        "requirements",
+        "digital thread",
+        "Copilot",
+        "BOM"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Designcenter | Tips and Tricks | Partitions Worksets and Smart Discovery",
+      "url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+      "source": "Siemens Digital Industries Software, Designcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "cad",
+      "published_at": "2026-09-29",
+      "excerpt": "Siemens demonstrates complex CAD assembly management using Partitions to reorganize systems, Smart Discovery to filter nearby or volume-defined components, and Worksets to save reusable assembly views.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "CAD",
+        "Designcenter",
+        "large assemblies",
+        "Partitions",
+        "Smart Discovery",
+        "Worksets"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical_tutorial",
+      "language": "en"
+    },
+    {
+      "title": "Polarion X 2606 – What’s New and Noteworthy",
+      "url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+      "source": "Siemens Digital Industries Software, Polarion blog",
+      "source_kind": "corporate_tech",
+      "category": "engineering_ai",
+      "published_at": "2026-09-18",
+      "excerpt": "Siemens announces Polarion X 2606 with a new Copilot API for custom reports, scripts and widgets. The release expands REST integration and updates the Simulink connector; Copilot requires an add-on and the customer's own LLM connection.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "engineering AI",
+        "ALM",
+        "requirements management",
+        "Polarion X",
+        "Copilot API",
+        "Simulink",
+        "MBSE"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "product_release_technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Large product structures at scale: Clone and reuse up to one million parts with Teamcenter",
+      "url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+      "source": "Siemens Digital Industries Software, Teamcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "digital_engineering",
+      "published_at": "2026-09-17",
+      "excerpt": "Siemens details Teamcenter 2606 structure-cloning improvements using bulk processing and parallel execution for assemblies containing up to one million parts, while preserving engineering relationships and context. Aerospace is a stated target industry.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "Teamcenter",
+        "PLM",
+        "large assemblies",
+        "BOM",
+        "design reuse",
+        "aerospace",
+        "digital thread"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "product_update_technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Designcenter | Tips and Tricks | Steel Outfitting",
+      "url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+      "source": "Siemens Digital Industries Software, Designcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "cad",
+      "published_at": "2026-09-15",
+      "excerpt": "Siemens demonstrates Structure Designer workflows for steel outfitting: converting sketches into 3D platforms, adding configurable handrails, and checking structures in the context of a full ship assembly with linked model updates.",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "tags": [
+        "CAD",
+        "Designcenter",
+        "Structure Designer",
+        "steel outfitting",
+        "assembly design"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Siemens Digital Industries Software",
+      "document_type": "technical_tutorial",
+      "language": "en"
+    },
+    {
+      "title": "Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform",
+      "url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+      "source": "Synopsys Newsroom",
+      "source_kind": "press_release",
+      "category": "engineering_ai",
+      "published_at": "2026-09-28",
+      "excerpt": "Synopsys announced AgentEngineer and Autopilot for multi-step engineering workflows, including simulation and analysis. The portfolio covers tasks such as combustion and resonance; the company says more than 50 engagements are underway, with availability planned for year-end 2026.",
+      "query": "direct exploration: Ansys press releases → Synopsys Newsroom → AgentEngineer blog → linked press release",
+      "tags": [
+        "engineering AI",
+        "agentic AI",
+        "simulation",
+        "combustion",
+        "resonance"
+      ],
+      "organization": "Synopsys, Inc. (Ansys parent)",
+      "company": "Ansys",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Synopsys and Amazon Announce Strategic, Multi-year IP Agreement for Custom Silicon; Collaboration Also Extends to Cloud and AI-Powered Engineering",
+      "url": "https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering",
+      "source": "Synopsys Newsroom",
+      "source_kind": "press_release",
+      "category": "engineering_ai",
+      "published_at": "2026-09-30",
+      "excerpt": "Synopsys says its expanded Amazon agreement includes simulation, agentic AI and work to accelerate multiphysics on AWS Trainium and Graviton. The partners plan physics-based simulation and custom AI-agent workflows for designing, analyzing, optimizing and validating chips and systems.",
+      "query": "direct exploration: Ansys press releases → Synopsys Newsroom",
+      "tags": [
+        "engineering AI",
+        "multiphysics",
+        "cloud simulation",
+        "AWS",
+        "Trainium",
+        "Graviton"
+      ],
+      "organization": "Synopsys, Inc.; Amazon",
+      "company": "Ansys",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "Turn Down the Noise, Turn Up the Experience: Engineer Quieter Products With Simulation",
+      "url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+      "source": "Ansys Advantage Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAE / multiphysics",
+      "published_at": "2026-10-07",
+      "excerpt": "Ansys describes linked electromagnetic, CFD and structural workflows for noise and vibration. Examples connect Maxwell/Motor-CAD forces to Mechanical, Fluent pressure data to structural response, and Mechanical Sound Insights or PyAnsys Sound to psychoacoustic evaluation.",
+      "query": "direct exploration: https://www.ansys.com/blog",
+      "tags": [
+        "CAE",
+        "CFD",
+        "FEA",
+        "NVH",
+        "multiphysics",
+        "Mechanical",
+        "Fluent"
+      ],
+      "organization": "Ansys, part of Synopsys",
+      "company": "Ansys",
+      "document_type": "technical blog",
+      "language": "en"
+    },
+    {
+      "title": "What’s New in ENOVIA R2026x FD04",
+      "url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+      "source": "Dassault Systèmes ENOVIA Blog",
+      "source_kind": "corporate_tech",
+      "category": "engineering_ai",
+      "published_at": "2026-10-02T17:46:44+00:00",
+      "excerpt": "Dassault describes ENOVIA R2026x FD04 AI additions: document summaries and AURA support for change impacts, generative engineering BOMs and release readiness. The post also details improved resource allocation and supplier-item sourcing definitions.",
+      "query": "direct exploration: https://blog.3ds.com/",
+      "tags": [
+        "engineering AI",
+        "ENOVIA",
+        "PLM",
+        "AURA",
+        "EBOM",
+        "change management"
+      ],
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "document_type": "product-update technical blog",
+      "language": "en"
+    },
+    {
+      "title": "SYSTRA and Dassault Systèmes Enter into a Technological Collaboration Around a New Generation of Virtual Twins for Transport Infrastructures",
+      "url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+      "source": "Dassault Systèmes Newsroom",
+      "source_kind": "press_release",
+      "category": "digital_twin",
+      "published_at": "2026-09-24",
+      "excerpt": "SYSTRA and Dassault announced collaboration on virtual twins for rail and transport infrastructure. Their stated aim is to connect data, models and scientific AI for lifecycle design, simulation and decisions, using the 3DEXPERIENCE platform.",
+      "query": "site:3ds.com \"2026\" \"October\" \"press\"",
+      "tags": [
+        "digital twin",
+        "digital engineering",
+        "simulation",
+        "industrial AI",
+        "infrastructure"
+      ],
+      "organization": "SYSTRA; Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "document_type": "press release",
+      "language": "en"
+    },
+    {
+      "title": "From 90,000 Requirements to Minutes: How CATIA Magic Automation and AI Are Changing MBSE",
+      "url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+      "source": "Dassault Systèmes CATIA Blog",
+      "source_kind": "corporate_tech",
+      "category": "MBSE",
+      "published_at": "2026-09-28T09:34:26+00:00",
+      "excerpt": "A Dassault interview with Enola Technologies describes CATIA Magic Open API scripts processing over 90,000 legacy requirements and linking verification/test data. Enola reports reducing a months-long process to minutes; AI and SysML v2 are discussed as further opportunities.",
+      "query": "direct exploration: https://blog.3ds.com/",
+      "tags": [
+        "MBSE",
+        "CATIA Magic",
+        "Open API",
+        "requirements",
+        "SysML v2",
+        "engineering AI"
+      ],
+      "organization": "Dassault Systèmes; Enola Technologies",
+      "company": "Dassault Systèmes",
+      "document_type": "customer-interview technical blog",
+      "language": "en"
+    },
+    {
+      "title": "From Feature Trees to Surface Sculpting: How CATIA ICEM Design Experience is changing motorsport surfacing",
+      "url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+      "source": "Dassault Systèmes CATIA Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD / CFD",
+      "published_at": "2026-10-05T08:54:09+00:00",
+      "excerpt": "Origin Engineering’s Daniel Vass describes CATIA IDX’s hybrid parametric and surface-sculpting approach. A compound-curvature example uses fewer construction elements and spans; the interview explains implications for CFD meshing, composite lay-up and downstream production geometry.",
+      "query": "direct exploration: https://blog.3ds.com/",
+      "tags": [
+        "CAD",
+        "CATIA IDX",
+        "CFD",
+        "surface modeling",
+        "composites",
+        "motorsport"
+      ],
+      "organization": "Dassault Systèmes; Origin Engineering",
+      "company": "Dassault Systèmes",
+      "document_type": "customer-interview technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Making MBSE More Accessible: Benjamin W. Stirgwolt on CATIA Magic, Productivity and AI",
+      "url": "https://blog.3ds.com/brands/catia/mbse-catia-magic-ben-stirgwolt/",
+      "source": "Dassault Systèmes CATIA Blog",
+      "source_kind": "corporate_tech",
+      "category": "MBSE",
+      "published_at": "2026-10-01T08:49:30+00:00",
+      "excerpt": "A Dassault interview with former Belcan MBSE director Benjamin Stirgwolt discusses connected requirements and architecture in CATIA Magic. It outlines possible AI assistance for requirements review, missing-information detection and model queries, alongside implementation planning and usability.",
+      "query": "direct exploration: https://blog.3ds.com/",
+      "tags": [
+        "MBSE",
+        "CATIA Magic",
+        "engineering AI",
+        "requirements",
+        "systems engineering"
+      ],
+      "organization": "Dassault Systèmes; Belcan",
+      "company": "Dassault Systèmes",
+      "document_type": "customer-interview technical blog",
+      "language": "en"
+    },
+    {
+      "title": "Dassault Systèmes Brings Virtual Twins and Industrial AI to the Paris Motor Show 2026",
+      "url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-brings-virtual-twins-and-industrial-ai-paris-motor-show-2026",
+      "source": "Dassault Systèmes Newsroom",
+      "source_kind": "official",
+      "category": "engineering_ai",
+      "published_at": "2026-10-07",
+      "excerpt": "Dassault announced its Paris Motor Show participation for October 12–18, presenting virtual twins and industrial AI for vehicle engineering. The notice links virtual performance prediction with faster mechanical and physics-driven design and lists two engineering/agentic-AI conference sessions.",
+      "query": "site:3ds.com \"2026\" \"October\" \"press\"",
+      "tags": [
+        "engineering AI",
+        "virtual twin",
+        "automotive design",
+        "agentic AI"
+      ],
+      "organization": "Dassault Systèmes",
+      "company": "Dassault Systèmes",
+      "document_type": "media alert",
+      "language": "en"
+    },
+    {
+      "title": "Use existing structural and fluid data to train Simcenter PhysicsAI",
+      "url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+      "source": "Siemens Digital Industries Software / Simcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "engineering_ai",
+      "published_at": "2026-10-08",
+      "excerpt": "Siemens describes training PhysicsAI on existing structural and fluid solver archives to predict fields on new geometry. The workflow combines geometric deep learning, several model architectures and validation checks while retaining full-fidelity solvers for final verification.",
+      "query": "Direct exploration: https://altair.com/blog redirected to the Simcenter blog; latest-post link.",
+      "tags": [
+        "AI",
+        "CAE",
+        "CFD",
+        "FEA",
+        "surrogate_model",
+        "geometric_deep_learning",
+        "PhysicsAI",
+        "HyperMesh",
+        "Altair",
+        "Siemens"
+      ],
+      "organization": "Siemens Digital Industries Software; guest author Tyler Haggin, COO of TrueInsight LLC",
+      "company": "Altair Engineering",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "When lightweighting is not enough: an engineer’s search for a better structural design",
+      "url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+      "source": "Siemens Digital Industries Software / Simcenter blog",
+      "source_kind": "corporate_tech",
+      "category": "cae_materials_optimization",
+      "published_at": "2026-10-07",
+      "excerpt": "A Siemens engineering study uses OptiStruct on an automotive engine cradle to examine topology choices across steel/aluminum, recycled sourcing, cost and CO2 pricing. Its reported results show that mass-only and emissions-oriented objectives can favor different feasible designs.",
+      "query": "Direct exploration: https://altair.com/blog redirected to the Simcenter blog; latest-post link.",
+      "tags": [
+        "CAE",
+        "FEA",
+        "topology_optimization",
+        "multi_material",
+        "OptiStruct",
+        "sustainability",
+        "Altair",
+        "Siemens"
+      ],
+      "organization": "Siemens Digital Industries Software",
+      "company": "Altair Engineering",
+      "document_type": "technical_blog_with_white_paper",
+      "language": "en"
+    },
+    {
+      "title": "Hexagon launches HYPERSCAN SR, simplifying inspection on site and in the field",
+      "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+      "source": "Hexagon AB official press release",
+      "source_kind": "press_release",
+      "category": "manufacturing_metrology",
+      "published_at": "2026-10-12",
+      "excerpt": "Hexagon announced a wireless optical-tracking 3D scanner for production, supplier-site and field inspection. The company describes dynamic tracking, direct transfer to Geomagic or PolyWorks, and an automation integrator kit. This is adjacent to the core CAE/aerospace scope.",
+      "query": "site:hexagon.com \"October 2026\" manufacturing AI",
+      "tags": [
+        "metrology",
+        "3D_scanning",
+        "inspection",
+        "manufacturing",
+        "Hexagon"
+      ],
+      "organization": "Hexagon Portable Metrology Division",
+      "company": "Hexagon AB",
+      "document_type": "product_launch_press_release",
+      "language": "en"
+    },
+    {
+      "title": "PhysicsX Launches Asia-Pacific Hub in Singapore to Scale AI-Powered Industrial Engineering Across the Region",
+      "url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+      "source": "PhysicsX",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-10-08",
+      "excerpt": "PhysicsX announced a Singapore engineering hub and a five-year S$40 million A*STAR collaboration on AI-powered engineering simulation and manufacturing. It reports 20 local employees and a goal exceeding 100 within three years.",
+      "query": "engineering AI simulation CAD aerospace September October 2026 PhysicsX Neural Concept nTop",
+      "tags": [
+        "discovery_candidate",
+        "physics AI",
+        "engineering simulation",
+        "manufacturing",
+        "Singapore"
+      ],
+      "organization": "PhysicsX / A*STAR",
+      "company": "PhysicsX",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "AI in Mechanical Engineering - How Is It Used?",
+      "url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+      "source": "Neural Concept",
+      "source_kind": "corporate_tech",
+      "category": "AIによる設計",
+      "published_at": "2026-09-30",
+      "excerpt": "Neural Concept published a technical overview of geometry-aware AI linking CAD, CAE and PLM. It discusses held-out validation, training-domain limits and design-space exploration; its general speedup claims are vendor statements without a new reproducible benchmark.",
+      "query": "engineering AI simulation CAD aerospace September October 2026 PhysicsX Neural Concept nTop",
+      "tags": [
+        "discovery_candidate",
+        "engineering AI",
+        "CAD",
+        "CAE",
+        "PLM",
+        "surrogate models"
+      ],
+      "organization": "Neural Concept",
+      "company": "Neural Concept",
+      "document_type": "technical_blog",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site.atimaterials.com 2026 September October news aerospace",
+    "site.spiritaero.com 2026 September October news",
+    "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+    "\"ATI\" \"September\" \"2026\" \"titanium\"",
+    "\"Spirit AeroSystems\" \"2026\" \"September\" OR \"October\" -site:spiriteo.com",
+    "site:ansys.com \"2026\" \"October\" news",
+    "site:3ds.com \"2026\" \"October\" \"press\"",
+    "site:ansys.synopsys.com (\"September\" OR \"October\") \"2026\" simulation",
+    "site:blog.3ds.com \"2026\" (\"September\" OR \"October\") (\"MBSE\" OR \"SIMULIA\" OR \"CATIA\")",
+    "(\"Ansys\" OR \"Dassault Systèmes\") (\"September\" OR \"October\") \"2026\" simulation AI -site:3ds.com -site:ansys.com -site:ansys.synopsys.com",
+    "site:hexagon.com \"2026\" (\"September\" OR \"October\") (\"AI\" OR \"simulation\" OR \"aerospace\")",
+    "site:altair.com \"2026\" (\"September\" OR \"October\") (\"AI\" OR \"simulation\" OR \"aerospace\")",
+    "site:hexagon.com \"September 2026\" simulation",
+    "site:hexagon.com \"October 2026\" manufacturing AI",
+    "site:siemens.com Altair \"September\" \"2026\"",
+    "engineering AI simulation CAD aerospace September October 2026 PhysicsX Neural Concept nTop",
+    "site.ihi.co.jp 2026 10 技術 航空 エンジン",
+    "site:ptc.com \"2026\" \"October\" digital thread AI",
+    "site:luminarycloud.com \"October\" \"2026\"",
+    "site:neuralconcept.com \"September\" \"2026\" \"announces\""
+  ],
+  "warnings": [
+    "No eligible verified-date ATI or Spirit-specific technical item found in checked sources; this is not a claim of exhaustive absence.",
+    "ATI dynamic IR archive text did not render; Spirit legacy newsroom and investor portal were inaccessible.",
+    "Technical claims are corporate claims unless noted otherwise.",
+    "No coverage claim of exhaustive indexing. Broken/dynamic Ansys resource search and partial SIMULIA index extraction limit publication discovery.",
+    "No peer-reviewed paper was verified within this bounded pass. No search-index crawl timestamp was substituted for a publication date.",
+    "Ansys parent-level candidates must be labeled Synopsys/combined portfolio; do not imply specifically named Ansys product releases.",
+    "For Dassault blogs, publication dates come from matching article:published_time and JSON-LD datePublished, not modification dates. The original HTML was fetched successfully without login.",
+    "All quantified or qualitative capability benefits remain attributed vendor/customer claims. No independent validation was performed.",
+    "No drone/UAV/UAS/eVTOL/air-taxi item is included.",
+    "Some official index listings are dynamic and were not fully extracted; this is a bounded search, not proof of no publication.",
+    "Simcenter blog page 2 failed with and without trailing slash.",
+    "Legacy Altair IR/resource URLs unavailable; Siemens technical content accessible.",
+    "No separate peer-reviewed paper verified in window."
+  ],
+  "checked_sources": [
+    {
+      "name": "ATI (ATI Inc.)",
+      "status": "no_new_finding",
+      "query": "site.atimaterials.com 2026 September October news aerospace ; \"ATI\" \"September\" \"2026\" \"titanium\"",
+      "warning": "No verified eligible new item from checked sources; not proof of absence ; IR archive dynamic rendering limits coverage"
+    },
+    {
+      "name": "Spirit AeroSystems",
+      "status": "no_new_finding",
+      "query": "site.spiritaero.com 2026 September October news ; \"Spirit AeroSystems\" \"2026\" \"September\" OR \"October\" -site:spiriteo.com",
+      "warning": "Legacy newsroom and IR unavailable; coverage partial ; Boeing corporate news without explicit Spirit relevance was not substituted ; No verified eligible new item; not proof of absence"
+    },
+    {
+      "name": "Siemens Digital Industries Software",
+      "status": "found",
+      "query": "site.blogs.sw.siemens.com 2026 October simulation artificial intelligence",
+      "warning": "Simcenter pagination page 2 inaccessible via direct/click variants ; Corporate and supplier claims are attributed ; No independent paper counted without verified date"
+    },
+    {
+      "name": "Ansys",
+      "status": "found",
+      "query": "site:ansys.com \"2026\" \"October\" news",
+      "warning": "Mandatory domain checked directly; official redirects and notices route current content to ansys.synopsys.com and parent Synopsys newsroom/IR. Three qualifying candidates, two explicitly parent-level."
+    },
+    {
+      "name": "Dassault Systèmes",
+      "status": "found",
+      "query": "site:3ds.com \"2026\" \"October\" \"press\"",
+      "warning": "Six qualifying candidates covering releases, technical blogs and a media alert. IR and science sections checked; no additional in-window relevant paper found."
+    },
+    {
+      "name": "Hexagon AB",
+      "status": "found",
+      "query": "site:hexagon.com \"2026\" (\"September\" OR \"October\") (\"AI\" OR \"simulation\" OR \"aerospace\")",
+      "warning": "Bounded coverage; some dynamic indexes were not fully extracted. Manufacturing metrology retained as an adjacent technical signal."
+    },
+    {
+      "name": "Altair Engineering",
+      "status": "found",
+      "query": "site:altair.com \"2026\" (\"September\" OR \"October\") (\"AI\" OR \"simulation\" OR \"aerospace\")",
+      "warning": "Legacy Altair IR/resource URLs unavailable; current Siemens technical publications were accessible."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "ATI (ATI Inc.)",
+          "category": "航空機材料・部品",
+          "domains": [
+            "atimaterials.com"
+          ]
+        },
+        {
+          "name": "Spirit AeroSystems",
+          "category": "航空機・主要サプライヤー",
+          "domains": [
+            "spiritaero.com",
+            "boeing.com"
+          ]
+        },
+        {
+          "name": "Siemens Digital Industries Software",
+          "category": "CAD・CAE",
+          "domains": [
+            "sw.siemens.com",
+            "siemens.com"
+          ]
+        },
+        {
+          "name": "Ansys",
+          "category": "CAD・CAE",
+          "domains": [
+            "ansys.com"
+          ]
+        },
+        {
+          "name": "Dassault Systèmes",
+          "category": "CAD・CAE",
+          "domains": [
+            "3ds.com"
+          ]
+        },
+        {
+          "name": "Hexagon AB",
+          "category": "CAD・CAE",
+          "domains": [
+            "hexagon.com"
+          ]
+        },
+        {
+          "name": "Altair Engineering",
+          "category": "CAD・CAE",
+          "domains": [
+            "altair.com",
+            "siemens.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "cursor_start": 47,
+      "cursor_next": 5,
+      "state_blob": "d88db4a68625bdf1eb6ad89b3e2a4508d5c2460c",
+      "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "selection_basis": "Valid explicit state authoritative; seven consecutive sources 47,48,0,1,2,3,4, all in oldest last_checked cohort (2026-09-24). Recent 2026-10-09 and 2026-10-12 handoffs reviewed. No spillover: at least five verified dated mandatory candidates."
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-13",
+      "started_at": "2026-10-13T06:12:51+09:00",
+      "completed_at": "2026-10-13T06:18:52.870894+09:00",
+      "status": "partial",
+      "planned_query_count": 20,
+      "executed_query_count": 20
+    },
+    "lookback": {
+      "start_date": "2026-09-13",
+      "end_date": "2026-10-13",
+      "timezone": "Asia/Tokyo"
+    },
+    "claim_evidence": [
+      {
+        "primary_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+        "claims": [
+          {
+            "text": "Digital twin was compared with Erlangen factory proof-of-concept; throughput and success rate are Siemens-reported",
+            "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Proof of concept at the Siemens Erlangen Factory, lines 123–129; Cross-check describes matching factory behavior; hardware demonstration metrics follow"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-09",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/industrial-humanoid-robots-for-logistics-system-simulation-the-missing-link-between-physical-ai-and-factory-deployment/",
+          "verification_status": "verified",
+          "evidence_location": "Page header directly below title; web extraction line 7: October 9, 2026"
+        },
+        "caveats": [
+          "Corporate technical case study, not independent validation",
+          "Publication date is verified; underlying demonstration date is not specified",
+          "No aerospace customer deployment is claimed"
+        ],
+        "discovery": "Direct exploration of Simcenter latest-posts index"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+        "claims": [
+          {
+            "text": "New generator extends testing to high-power ICs and low-resistance GaN",
+            "source_url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "What's new in Simcenter MICRED thermal testing, lines 15–19; Extend a proven thermal transient testing platform, lines 49–58; New module's stated use cases and modular architecture"
+          },
+          {
+            "text": "Export supports thermal model calibration in Flotherm and FLOEFD",
+            "source_url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Calibrate thermal simulation models, lines 72–74; Export of measured thermal data and compact RC models"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-08",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/extend-thermal-characterization-to-high-power-ics-and-gan-devices/",
+          "verification_status": "verified",
+          "evidence_location": "Page header below title, line 8: October 8, 2026"
+        },
+        "caveats": [
+          "Vendor-reported functionality; no independent performance benchmark or pricing",
+          "Relevant through simulation calibration, not a demonstrated aerospace application"
+        ],
+        "discovery": "Direct exploration of Simcenter Product Updates section"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+        "claims": [
+          {
+            "text": "2606 launches Copilot API with customer-provided LLM and add-on",
+            "source_url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Opening release statement and Extend AI into your own customizations with the Polarion Copilot API, lines 15–29; Launch, custom-content integration and prerequisites specified"
+          },
+          {
+            "text": "REST API expansion and Simulink 2026a connector update",
+            "source_url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Enhanced integration capabilities, lines 70–80; OpenAPI documentation and connector tested against Simulink 2026a"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-18",
+          "source_url": "https://blogs.sw.siemens.com/polarion/polarion-x-2606-whats-new-and-noteworthy/",
+          "verification_status": "verified",
+          "evidence_location": "Header below title, line 7: September 18, 2026"
+        },
+        "caveats": [
+          "Vendor release description; no independent benchmark",
+          "Copilot is not included without its add-on and LLM connection"
+        ],
+        "discovery": "Direct exploration of Siemens Aerospace & Defense blog index"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+        "claims": [
+          {
+            "text": "2606 supports million-part structure cloning through bulk/parallel processing",
+            "source_url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Clone large product structures with up to one million parts, lines 21–23; Version, claimed scale and implementation approach specified"
+          },
+          {
+            "text": "Aerospace relevance and retained engineering context",
+            "source_url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Built for complex engineering programs, lines 28–36; Preserve engineering context, lines 39–45; Aerospace reuse scenarios and preservation of relationships, ownership and design data"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-17",
+          "source_url": "https://blogs.sw.siemens.com/teamcenter/large-product-structures-teamcenter/",
+          "verification_status": "verified",
+          "evidence_location": "Header below title, line 7: September 17, 2026"
+        },
+        "caveats": [
+          "Publication details an existing 2606 capability; not evidence the release first shipped September 17",
+          "Million-part scale is a vendor claim; no measured elapsed time or independent benchmark provided"
+        ],
+        "discovery": "Direct exploration of Teamcenter and Aerospace & Defense blog indexes"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+        "claims": [
+          {
+            "text": "The demonstration uses Amesim, HEEDS, STAR-CCM+ and Simcenter 3D/Nastran for connected multiphysics analyses",
+            "source_url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Simulating success through Simulating a bowling pin’s worst nightmare sections, web extraction lines 29–49"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-09",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+          "verification_status": "verified",
+          "evidence_location": "Header directly under title, line 7: October 9, 2026"
+        },
+        "caveats": [
+          "Dated technical demonstration of existing capabilities, not a new release",
+          "Toy example; no aerospace deployment or quantified engineering productivity gain is demonstrated"
+        ],
+        "discovery": "Direct Simcenter latest-posts exploration"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+        "claims": [
+          {
+            "text": "Siemens describes Copilot support for engineering changes, requirements analysis, test recommendations and lifecycle workflows",
+            "source_url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Teamcenter brings AI into the product lifecycle, lines 90–107, particularly 98–99"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-01",
+          "source_url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+          "verification_status": "verified",
+          "evidence_location": "Header directly under title, line 7: October 1, 2026"
+        },
+        "caveats": [
+          "Dated capability explainer, not proof of a new October release",
+          "The linked release overview is dated June 12, 2026",
+          "Vendor benefits are not independently benchmarked"
+        ],
+        "discovery": "Direct Teamcenter latest-posts exploration"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+        "claims": [
+          {
+            "text": "The tutorial demonstrates assembly repartitioning, proximity/volume filtering and saved Workset configurations",
+            "source_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Getting started with Partitions, Using Smart Discovery and Saving time with Worksets sections, lines 24–41"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-29",
+          "source_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+          "verification_status": "verified",
+          "evidence_location": "Header directly under title, line 7: September 29, 2026"
+        },
+        "caveats": [
+          "Dated practical tutorial for existing capabilities, not a newly shipped feature announcement",
+          "No measured productivity or accuracy gain is provided"
+        ],
+        "discovery": "Direct Designcenter latest-posts exploration"
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+        "claims": [
+          {
+            "text": "Structure Designer uses linked sketches for 3D platforms and supports handrails and full-assembly context",
+            "source_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Sketching and building platforms, Making safety improvements with handrails, and Designing in the context of your full ship assembly, lines 26–41"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-15",
+          "source_url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+          "verification_status": "verified",
+          "evidence_location": "Header directly under title, line 7: September 15, 2026"
+        },
+        "caveats": [
+          "Dated tutorial describing existing CAD capabilities, not a new release",
+          "Marine and industrial demonstration; no aerospace-specific application claimed"
+        ],
+        "discovery": "Direct Designcenter latest-posts exploration"
+      },
+      {
+        "primary_url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+        "claims": [
+          {
+            "source_url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+            "evidence_location": "Main announcement and “Portfolio of Long-Horizon Agents Across Silicon-to-System Design,” web lines 73–80",
+            "text": "Announcement includes simulation-and-analysis workflows and combustion/resonance task agents.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+            "evidence_location": "“Availability and Resources,” web lines 100–101",
+            "text": "The vendor reports over 50 engagements and plans availability for the end of 2026.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform",
+          "evidence_location": "Dateline at web line 73",
+          "published_at": "2026-09-28",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Parent-company announcement covering the combined portfolio; no specific Ansys-branded SKU is named.",
+          "Planned availability is forward-looking, not evidence of general availability.",
+          "Performance figures in other engineering domains should not be generalized to CAE."
+        ]
+      },
+      {
+        "primary_url": "https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering",
+        "claims": [
+          {
+            "source_url": "https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering",
+            "evidence_location": "Main body, web lines 68–69",
+            "text": "The collaboration extends to multiphysics acceleration on Trainium and Graviton and planned simulation/agentic engineering workflows.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering",
+          "evidence_location": "Main release dateline, web line 65",
+          "published_at": "2026-09-30",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "This is the Ansys parent’s combined portfolio, not an Ansys-specific release.",
+          "Acceleration and custom-agent work are plans; no delivered CAE speedup is established here."
+        ]
+      },
+      {
+        "primary_url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+        "claims": [
+          {
+            "source_url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+            "evidence_location": "“Take a Multiphysics Approach,” web lines 339–349",
+            "text": "The article describes Maxwell/Motor-CAD-to-Mechanical and Fluent-to-structural acoustic workflows.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+            "evidence_location": "“Consider How Sound is Perceived,” web lines 365–366",
+            "text": "Psychoacoustic analysis and Python-enabled sound post-processing are described.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://ansys.synopsys.com/blog/engineer-quieter-products-with-simulation",
+          "evidence_location": "Visible date immediately below article heading, web line 325",
+          "published_at": "2026-10-07",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Dated capability/workflow publication, not a new software release or independently validated benchmark."
+        ]
+      },
+      {
+        "primary_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+        "claims": [
+          {
+            "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+            "evidence_location": "“Gen 7 AI-Based Enhancements,” web lines 6–15",
+            "text": "FD04 adds document summarization and AURA capabilities for change management, engineering definitions and product portfolios.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+            "evidence_location": "“Highlighted Role-Based Features & Enhancements,” web lines 19–29",
+            "text": "Resource allocation scheduling and a consolidated supplier Supply Definition are described.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://blog.3ds.com/brands/enovia/whats-new-in-enovia-r2026x-fd04/",
+          "evidence_location": "Official page HTML article:published_time and JSON-LD datePublished; exact metadata saved in company13_ds_publication_metadata.json",
+          "published_at": "2026-10-02T17:46:44+00:00",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Vendor feature description; no independent productivity measurement.",
+          "Publication timestamp is distinct from the actual software rollout date, which was not established."
+        ]
+      },
+      {
+        "primary_url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+        "claims": [
+          {
+            "source_url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+            "evidence_location": "Opening dateline and introductory paragraphs, web lines 3–6",
+            "text": "The companies announced a digital-engineering collaboration for rail and infrastructure virtual twins.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+            "evidence_location": "Main technical description, web lines 8–9",
+            "text": "The release connects lifecycle simulation with real-world data, models and scientific AI.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://www.3ds.com/newsroom/press-releases/systra-and-dassault-systemes-enter-technological-collaboration-around-new-generation-virtual-twins-transport-infrastructures",
+          "evidence_location": "Opening dateline, web line 3",
+          "published_at": "2026-09-24",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Exploratory collaboration and vendor-stated objectives; no quantified operational outcome or production deployment is reported."
+        ]
+      },
+      {
+        "primary_url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+        "claims": [
+          {
+            "source_url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+            "evidence_location": "“Using the CATIA Magic Open API to automate the work,” web lines 33–41",
+            "text": "Enola describes reusable API automation for a customer’s more than 90,000 requirements, reporting months-to-minutes execution.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+            "evidence_location": "AI and SysML v2 sections, web lines 54–79",
+            "text": "AI model checking and SysML v2 textual interaction are discussed as opportunities.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://blog.3ds.com/brands/catia/catia-magic-automation-david-fields-enola/",
+          "evidence_location": "Official page HTML article:published_time and JSON-LD datePublished; exact metadata saved in company13_ds_publication_metadata.json",
+          "published_at": "2026-09-28T09:34:26+00:00",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Customer anecdote hosted by the vendor; no independently reproduced benchmark or named customer.",
+          "The requirements result is API/script automation, not a demonstrated AI result.",
+          "Future AI possibilities must not be described as shipped capabilities."
+        ]
+      },
+      {
+        "primary_url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+        "claims": [
+          {
+            "source_url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+            "evidence_location": "“IDX Combines Parametric Modeling and Surface Sculpting,” lines 28–36; “A Concrete Example,” lines 45–57",
+            "text": "IDX combines parametric modeling with explicit sculpting; the example simplifies compound-curvature geometry.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+            "evidence_location": "“Better Surfaces Can Support Better Results,” web lines 58–62",
+            "text": "The interview relates surface definition to CFD meshing and composite design.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://blog.3ds.com/brands/catia/catia-idx-motorsport-surfacing/",
+          "evidence_location": "Official page HTML article:published_time and JSON-LD datePublished; exact metadata saved in company13_ds_publication_metadata.json",
+          "published_at": "2026-10-05T08:54:09+00:00",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Dated technical customer discussion rather than a product launch.",
+          "Benefits are the interviewee’s experience; no quantitative CFD accuracy or speed benchmark is established."
+        ]
+      },
+      {
+        "primary_url": "https://blog.3ds.com/brands/catia/mbse-catia-magic-ben-stirgwolt/",
+        "claims": [
+          {
+            "source_url": "https://blog.3ds.com/brands/catia/mbse-catia-magic-ben-stirgwolt/",
+            "evidence_location": "Connected model and usability sections, lines 7–36; “Bringing AI into the CATIA Magic workflow,” lines 49–58",
+            "text": "The interview discusses CATIA Magic model-based information access and prospective AI support.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://blog.3ds.com/brands/catia/mbse-catia-magic-ben-stirgwolt/",
+          "evidence_location": "Official page HTML article:published_time and JSON-LD datePublished; exact metadata saved in company13_ds_publication_metadata.json",
+          "published_at": "2026-10-01T08:49:30+00:00",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Lower-priority dated technical perspective, not a new release or validated performance study.",
+          "The cited AI use cases are prospective; the post does not establish their availability or measured benefit."
+        ]
+      },
+      {
+        "primary_url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-brings-virtual-twins-and-industrial-ai-paris-motor-show-2026",
+        "claims": [
+          {
+            "source_url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-brings-virtual-twins-and-industrial-ai-paris-motor-show-2026",
+            "evidence_location": "Media alert body, web lines 2–7",
+            "text": "The company announced participation and a virtual-twin/industrial-AI engineering focus.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://www.3ds.com/newsroom",
+          "evidence_location": "Newsroom “All publications” card for this exact title, web lines 48–52",
+          "published_at": "2026-10-07",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Event announcement with vendor-stated benefits; no new released feature or benchmark.",
+          "The publication date is from the official listing; October 12–18 in the body is the event period."
+        ]
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+        "claims": [
+          {
+            "source_url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+            "evidence_location": "Opening paragraphs and 'The solvers', lines 16–30.",
+            "evidence": "Vendor describes solver-result ingestion and geometric models for full-field prediction.",
+            "caveats": "Vendor/partner capability account, not independently benchmarked.",
+            "text": "PhysicsAI trains on existing CAE results, including OptiStruct, Radioss, Nastran and STAR-CCM+.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+            "evidence_location": "'Knowing when to trust the prediction' and 'Where this fits', lines 42–60.",
+            "evidence": "Discusses held-out validation, similarity scores, data curation and final full-fidelity analysis.",
+            "caveats": "Do not generalize the illustrative sub-1% error or seconds-versus-hours statement into universal performance guarantees.",
+            "text": "Workflow retains solver validation and acknowledges training-data limitations.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "claim": "Publication date is 8 October 2026.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+          "evidence_location": "Article header, line 7 in retrieved page.",
+          "evidence": "October 8, 2026",
+          "caveats": "Date only; no publication time exposed.",
+          "published_at": "2026-10-08",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Newly published technical workflow article, not a new software-release announcement.",
+          "Former Altair technology is now published under Siemens Simcenter branding."
+        ]
+      },
+      {
+        "primary_url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+        "claims": [
+          {
+            "source_url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+            "evidence_location": "Study setup lines 24–26; solver attribution line 42.",
+            "evidence": "Automotive cradle case study compares objectives, recycling assumptions and carbon-price levels.",
+            "caveats": "Vendor-authored case study; findings are scenario-dependent and automotive-specific.",
+            "text": "OptiStruct study models steel/aluminum choices with mass, cost and CO2 considerations.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "source_url": "https://resources.sw.siemens.com/en-US/white-paper-analyzing-min-mass-and-min-co2-scenarios/",
+            "evidence_location": "Landing-page title and summary, lines 0–4; linked from blog line 45.",
+            "evidence": "Landing page identifies an OptiStruct cradle topology study involving recycled materials and carbon pricing.",
+            "caveats": "Full report and independent publication date not exposed; do not assign the blog date to the paper.",
+            "text": "Linked white paper provides the study context.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "claim": "Publication date is 7 October 2026.",
+          "source_url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+          "evidence_location": "Article header, line 7.",
+          "evidence": "October 7, 2026",
+          "caveats": "Date only; no time exposed.",
+          "published_at": "2026-10-07",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "No independent validation of numerical study results.",
+          "New technical publication; not a new product announcement or demonstrated aerospace deployment."
+        ]
+      },
+      {
+        "primary_url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+        "claims": [
+          {
+            "source_url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+            "evidence_location": "Technical description lines 473–479.",
+            "evidence": "WiFi/battery operation; common-coordinate dynamic tracking; Geomagic/PolyWorks transfer and integrator kit.",
+            "caveats": "Capabilities and performance are Hexagon claims.",
+            "text": "Release describes wireless tracking, software transfer and integration with robotic systems.",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "date_evidence": {
+          "claim": "Publication and launch date is 12 October 2026.",
+          "source_url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+          "evidence_location": "Date beneath title, line 463; opening dateline line 471; availability line 481.",
+          "evidence": "12 October 2026",
+          "caveats": "No timestamp; do not infer precise launch hour.",
+          "published_at": "2026-10-12",
+          "verification_status": "verified"
+        },
+        "caveats": [
+          "Release's application list does not establish a specific aerospace deployment, AI capability, CAD release or CAE innovation.",
+          "Manufacturing-metrology adjacency is retained for broad recall; no aerospace deployment is established."
+        ]
+      },
+      {
+        "primary_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+        "claims": [
+          {
+            "text": "PhysicsX announced a Singapore hub with 20 employees and a target exceeding 100 within three years.",
+            "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Release opening, paragraphs 1–2; extracted lines 17–18"
+          },
+          {
+            "text": "PhysicsX and A*STAR announced a five-year S$40 million collaboration on AI capabilities for engineering and manufacturing.",
+            "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "A Five-Year Strategic Partnership With A*STAR; extracted lines 24–29"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-10-08",
+          "source_url": "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+          "verification_status": "verified",
+          "evidence_location": "Date heading, line 4; Singapore dateline, line 17"
+        },
+        "caveats": [
+          "Announcement and prospective commitments, not independently established outcomes or expenditure.",
+          "Same URL appeared in 2026-10-12 Scout; preserved for recall, with downstream publication-history deduplication required."
+        ]
+      },
+      {
+        "primary_url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+        "claims": [
+          {
+            "text": "The article describes geometry-aware AI connected to CAD, simulation and PLM workflows.",
+            "source_url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Key Takeaways and AI Tools; extracted lines 42–57"
+          },
+          {
+            "text": "The article recommends held-out validation and warns that prediction reliability is limited by training-data coverage.",
+            "source_url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "When to use which approach, line 77; Measuring AI Performance, lines 101–105"
+          }
+        ],
+        "date_evidence": {
+          "published_at": "2026-09-30",
+          "source_url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering",
+          "verification_status": "verified",
+          "evidence_location": "Author/date heading, line 21"
+        },
+        "caveats": [
+          "Dated technical overview, not a newly launched product or independently reproduced result.",
+          "Older customer examples and generic unverified performance percentages are not treated as new results."
+        ]
+      }
+    ],
+    "checked_public_sections": {
+      "ATI (ATI Inc.)": [
+        {
+          "section": "Corporate home",
+          "url": "https://atimaterials.com/",
+          "result": "Accessible; highlighted dated releases mainly 2025"
+        },
+        {
+          "section": "Newsroom / Recent Stories / In the News / Partnerships",
+          "url": "https://www.atimaterials.com/newsroom/pages/default.aspx",
+          "result": "Accessible; investigated technical story and partner links"
+        },
+        {
+          "section": "IR news and events",
+          "url": "https://ir.atimaterials.com/news-events/default.aspx",
+          "result": "Page accessible but dynamic Latest News/archive lists absent from extracted content"
+        },
+        {
+          "section": "IR overview / latest quarterly publication",
+          "url": "https://ir.atimaterials.com/investors-home/default.aspx",
+          "result": "Latest quarterly content Q2 2026; earnings article verified August 6, outside window"
+        },
+        {
+          "section": "Technical capability stories",
+          "url": "https://www.atimaterials.com/newsroom/Pages/Pressing-Demands.aspx",
+          "result": "Relevant press-capacity story but no publication date; excluded"
+        },
+        {
+          "section": "Materials technical story",
+          "url": "https://www.atimaterials.com/newsroom/Pages/Specialty-Steel-to-the-Stars.aspx",
+          "result": "Relevant ULA fuel-tank steel story but no publication date; excluded"
+        },
+        {
+          "section": "Partner source",
+          "url": "https://boomsupersonic.com/partners",
+          "result": "ATI partnership evidence is undated evergreen; excluded"
+        },
+        {
+          "section": "Linked trade technical publication",
+          "url": "https://www.defenseandmunitions.com/article/ati-corp-large-format-metal-am-for-the-defense-industry/",
+          "result": "Published April 4, 2025, updated April 7, 2025; excluded"
+        }
+      ],
+      "Spirit AeroSystems": [
+        {
+          "section": "Official home / corporate status",
+          "url": "https://www.spiritaero.com/",
+          "result": "Accessible; confirms wholly owned by Boeing as of December 8, 2025"
+        },
+        {
+          "section": "Legacy newsroom",
+          "url": "https://www.spiritaero.com/newsroom/",
+          "result": "Unreachable via web tool"
+        },
+        {
+          "section": "Legacy IR",
+          "url": "https://investors.spiritaero.com/",
+          "result": "Unreachable via web tool"
+        },
+        {
+          "section": "Suppliers overview",
+          "url": "https://www.spiritaero.com/suppliers/suppliers-overview/",
+          "result": "Accessible but undated supplier-process content"
+        },
+        {
+          "section": "Boeing news releases",
+          "url": "https://boeing.mediaroom.com/news-releases-statements",
+          "result": "Inspected releases from October 5 through September 13; no Spirit-specific technical candidate"
+        },
+        {
+          "section": "Boeing innovation",
+          "url": "https://www.boeing.com/innovation",
+          "result": "Accessible; mostly evergreen categories and technical-fellow profiles; no dated Spirit-specific finding"
+        },
+        {
+          "section": "Boeing investor relations",
+          "url": "https://investors.boeing.com/investors/overview/default.aspx",
+          "result": "Accessible corporate navigation; no verified in-window Spirit-specific technical publication"
+        },
+        {
+          "section": "Acquisition source",
+          "url": "https://boeing.mediaroom.com/2025-12-08-Boeing-Completes-Acquisition-of-Spirit-AeroSystems",
+          "result": "December 8, 2025, outside window"
+        },
+        {
+          "section": "Public search / regional trade-news discovery",
+          "url": "https://www.bizjournals.com/bizjournals/organization/spirit-aerosystems",
+          "result": "In-window headlines are labor/tax/profile or Boeing software-story references; no usable primary technical finding"
+        }
+      ],
+      "Siemens Digital Industries Software": [
+        {
+          "section": "Official newsroom",
+          "url": "https://news.siemens.com/en-us/",
+          "result": "Accessible highlights but dynamic headline archive absent from extracted content"
+        },
+        {
+          "section": "Software newsroom legacy route",
+          "url": "https://newsroom.sw.siemens.com/en-US/",
+          "result": "Redirects to Siemens newsroom"
+        },
+        {
+          "section": "Simcenter latest posts",
+          "url": "https://blogs.sw.siemens.com/simcenter/",
+          "result": "Accessible dated technical posts"
+        },
+        {
+          "section": "Simcenter product updates",
+          "url": "https://blogs.sw.siemens.com/simcenter/category/product-updates/",
+          "result": "Accessible; yielded Oct 8 Micred item"
+        },
+        {
+          "section": "Designcenter latest posts",
+          "url": "https://blogs.sw.siemens.com/designcenter/",
+          "result": "September 29 assembly-management and September 15 steel-outfitting tutorials verified in full text and retained as dated capability descriptions"
+        },
+        {
+          "section": "Teamcenter latest posts",
+          "url": "https://blogs.sw.siemens.com/teamcenter/",
+          "result": "Accessible; yielded Sept 17 structure cloning"
+        },
+        {
+          "section": "Aerospace & Defense blog",
+          "url": "https://blogs.sw.siemens.com/aerospace-defense/",
+          "result": "Accessible; yielded Sept 18 Polarion X release"
+        },
+        {
+          "section": "Tecnomatix technical blog",
+          "url": "https://blogs.sw.siemens.com/tecnomatix/",
+          "result": "Accessible; recent posts largely workflow/tutorial or history; latest release posts June, outside window"
+        },
+        {
+          "section": "Research/white paper",
+          "url": "https://resources.sw.siemens.com/en-US/white-paper-analyzing-min-mass-and-min-co2-scenarios/",
+          "result": "Accessible abstract; no publication date; not independently counted"
+        },
+        {
+          "section": "Supplier technical source",
+          "url": "https://www.trueinsight.io/blog/physicsai-walkthrough",
+          "result": "Accessible linked PhysicsAI walkthrough; not independently counted"
+        },
+        {
+          "section": "Siemens investor relations",
+          "url": "https://www.siemens.com/global/en/company/investor-relations.html",
+          "result": "Web tool failed on unsupported text/markdown content"
+        },
+        {
+          "section": "Verified dated technical blog",
+          "url": "https://blogs.sw.siemens.com/simcenter/engineering-the-bowling-experience-with-simcenter-x/",
+          "result": "Full text and visible publication date verified; capability/release caveats in claim_evidence"
+        },
+        {
+          "section": "Verified dated technical blog",
+          "url": "https://blogs.sw.siemens.com/teamcenter/ai-in-plm-teamcenter/",
+          "result": "Full text and visible publication date verified; capability/release caveats in claim_evidence"
+        },
+        {
+          "section": "Verified dated technical blog",
+          "url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-partitions-smart-discovery-and-worksets/",
+          "result": "Full text and visible publication date verified; capability/release caveats in claim_evidence"
+        },
+        {
+          "section": "Verified dated technical blog",
+          "url": "https://blogs.sw.siemens.com/designcenter/designcenter-tips-and-tricks-steel-outfitting/",
+          "result": "Full text and visible publication date verified; capability/release caveats in claim_evidence"
+        }
+      ],
+      "Ansys": [
+        {
+          "company": "Ansys",
+          "section": "official news",
+          "url": "https://www.ansys.com/news-center",
+          "result": "Opened; redirects to ansys.synopsys.com; featured legacy news not assumed new."
+        },
+        {
+          "company": "Ansys",
+          "section": "press releases",
+          "url": "https://ansys.synopsys.com/news-center/press-releases",
+          "result": "Opened; notice routes current releases to Synopsys newsroom. Site search reports an error."
+        },
+        {
+          "company": "Ansys",
+          "section": "parent newsroom and press archive",
+          "url": "https://www.synopsys.com/newsroom.html",
+          "result": "Opened current news and September 28/30 candidate releases; also read https://news.synopsys.com/."
+        },
+        {
+          "company": "Ansys",
+          "section": "technical blogs",
+          "url": "https://www.ansys.com/blog",
+          "result": "Opened current list and three latest posts; excluded two with eVTOL/VTOL-unmanned content."
+        },
+        {
+          "company": "Ansys",
+          "section": "white papers / resource center",
+          "url": "https://ansys.synopsys.com/resource-center",
+          "result": "Opened through official White Papers link. Site search unavailable; no dated candidate verified."
+        },
+        {
+          "company": "Ansys",
+          "section": "academic research",
+          "url": "https://ansys.synopsys.com/academic/researchers",
+          "result": "Opened official researcher section; no in-window publication verified."
+        },
+        {
+          "company": "Ansys",
+          "section": "investor relations",
+          "url": "https://investors.ansys.com/",
+          "result": "Read acquisition/IR routing notice and followed https://investor.synopsys.com/overview/default.aspx."
+        }
+      ],
+      "Dassault Systèmes": [
+        {
+          "company": "Dassault Systèmes",
+          "section": "newsroom / media alerts",
+          "url": "https://www.3ds.com/newsroom",
+          "result": "Read first current publications page; verified Sept 24 and Oct 7 entries."
+        },
+        {
+          "company": "Dassault Systèmes",
+          "section": "technical blogs",
+          "url": "https://blog.3ds.com/",
+          "result": "Read latest and brand lists; opened CATIA, ENOVIA and SIMULIA candidates; verified publication metadata from original HTML."
+        },
+        {
+          "company": "Dassault Systèmes",
+          "section": "SIMULIA publications",
+          "url": "https://blog.3ds.com/brands/simulia/",
+          "result": "Opened brand index; article list extraction incomplete. Latest linked MODSIM article checked separately and rejected as Sept 7."
+        },
+        {
+          "company": "Dassault Systèmes",
+          "section": "investor relations",
+          "url": "https://investor.3ds.com/",
+          "result": "Read recent releases; Oct 5 voting-rights report irrelevant to scope; July earnings outside window."
+        },
+        {
+          "company": "Dassault Systèmes",
+          "section": "research / science",
+          "url": "https://www.3ds.com/science",
+          "result": "Read Applied Science, science programs and publications/events. No qualifying newly dated paper. Initial /research URL failed; correct linked science section accessible."
+        },
+        {
+          "company": "Dassault Systèmes",
+          "section": "supplier/partner news",
+          "url": "https://exemplar.com/en/home-en/",
+          "result": "Read verified Dassault partner homepage. October event date alone did not establish publication date; not admitted."
+        }
+      ],
+      "Hexagon AB": [
+        {
+          "company": "Hexagon AB",
+          "section": "Official newsroom",
+          "url": "https://hexagon.com/en/about/news-media",
+          "result": "Reachable; dynamic listing yielded loading placeholder. Search located dated releases."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Press releases",
+          "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-launches-hyperscan-sr-simplifying-inspection-on-site-and-in-the-field",
+          "result": "Verified 12 October 2026 new product launch."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Media alerts",
+          "url": "https://hexagon.com/about/news-media/media-alerts/2026/hexagon-previews-faster-route-through-complex-turning-and-mill-turn-programs-with-ncsimul-at-imts",
+          "result": "7 September 2026; outside lookback."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Manufacturing Intelligence blog",
+          "url": "https://blog.manufacturing.hexagon.com/",
+          "result": "Latest dated highlighted post 25 September 2026 Future Skills Challenge; recruitment campaign, not selected."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Engineering simulation blog",
+          "url": "https://blog.manufacturing.hexagon.com/advanced-manufacturing/engineering-simulation-software/",
+          "result": "Only surfaced feature checklist dated 25 April 2017."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "AI blog",
+          "url": "https://blog.manufacturing.hexagon.com/digital-transformation-in-manufacturing/ai-in-manufacturing/",
+          "result": "Surfaced articles are historical; first article verified January 2025."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Digital twin blog",
+          "url": "https://blog.manufacturing.hexagon.com/digital-transformation-in-manufacturing/digital-twin/",
+          "result": "First article verified October 2025."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Aerospace blog",
+          "url": "https://blog.manufacturing.hexagon.com/future-of-manufacturing/future-of-aerospace/",
+          "result": "First article verified August 2025."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "R&D",
+          "url": "https://hexagon.com/about/research-development",
+          "result": "Evergreen 2025 R&D statistics; no in-window publication date."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Resource library/reports",
+          "url": "https://hexagon.com/resources/resource-library",
+          "result": "Page reachable but dynamic results not exposed; no dated report verified. Filter URL initially failed."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "Investor relations",
+          "url": "https://investors.hexagon.com/",
+          "result": "Latest displayed corporate release 7 September 2026; Q3 results announcement for 23 October is future."
+        },
+        {
+          "company": "Hexagon AB",
+          "section": "IR reports",
+          "url": "https://investors.hexagon.com/financial-information/reports-and-presentations",
+          "result": "Embedded report listing not exposed by extraction."
+        }
+      ],
+      "Altair Engineering": [
+        {
+          "company": "Altair Engineering",
+          "section": "Altair newsroom",
+          "url": "https://altair.com/newsroom",
+          "redirect": "https://news.siemens.com/en-us/",
+          "result": "Official redirect verified; newsroom index partly dynamic."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Altair blog",
+          "url": "https://altair.com/blog",
+          "redirect": "https://blogs.sw.siemens.com/simcenter/",
+          "result": "Official redirect verified; October posts reviewed."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Simcenter technical blog",
+          "url": "https://blogs.sw.siemens.com/simcenter/",
+          "result": "PhysicsAI and OptiStruct candidates verified. Feko retrospective excluded."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Product updates",
+          "url": "https://blogs.sw.siemens.com/simcenter/category/product-updates/",
+          "result": "Reviewed recent dated entries; no additional former-Altair core candidate in window."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "PhysicsAI product topic",
+          "url": "https://blogs.sw.siemens.com/simcenter/product/simcenter-physicsai/",
+          "result": "8 October candidate; other displayed entries before window."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "OptiStruct product topic",
+          "url": "https://blogs.sw.siemens.com/simcenter/product/simcenter-optistruct/",
+          "result": "Extracted index lagged current article; displayed entries before window."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Research/white paper",
+          "url": "https://resources.sw.siemens.com/en-US/white-paper-analyzing-min-mass-and-min-co2-scenarios/",
+          "result": "Linked technical white-paper landing page inspected; no independent publication date or downloadable full report exposed. Use dated blog as candidate."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "PhysicsAI technical documentation",
+          "url": "https://help.altair.com/hwdesktop/hwx/topics/reference/extensions/physicsai_r.htm",
+          "result": "Reachable; technical documentation linked by dated blog, not independently dated."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Resource library",
+          "url": "https://altair.com/resource-library",
+          "result": "Unreachable via web tool."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Altair IR",
+          "url": "https://investor.altair.com/",
+          "result": "Unreachable via web tool."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Siemens IR fallback",
+          "url": "https://www.siemens.com/global/en/company/investor-relations.html",
+          "result": "Unreachable; alternate https://www.siemens.com/en-us/company/investor-relations/ also failed extraction (unsupported text/markdown)."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Supplier/channel partner",
+          "url": "https://www.trueinsight.io/blog",
+          "result": "Latest displayed entry verified 25 August 2026, outside window. Linked PhysicsAI walkthrough dated 5 December 2024."
+        },
+        {
+          "company": "Altair Engineering",
+          "section": "Corporate ownership context",
+          "url": "https://news.siemens.com/en-us/siemens-altair-engineering-closing/",
+          "result": "Official 26 March 2025 release verifies Siemens acquired Altair; context only, not in-window candidate."
+        }
+      ],
+      "Discovery": [
+        "Neural Concept technical blog",
+        "PhysicsX newsroom",
+        "nTop Summit recordings",
+        "IHI homepage and technical index",
+        "Luminary query results"
+      ]
+    },
+    "excluded_or_background": [
+      {
+        "title": "Use existing structural and fluid data to train Simcenter PhysicsAI",
+        "url": "https://blogs.sw.siemens.com/simcenter/use-existing-structural-and-fluid-data-to-train-simcenter-physicsai/",
+        "published_at": "2026-10-08",
+        "reason": "Verified relevant; deduplicated under Altair ownership"
+      },
+      {
+        "title": "When lightweighting is not enough: an engineer’s search for a better structural design",
+        "url": "https://blogs.sw.siemens.com/simcenter/when-lightweighting-is-not-enough-an-engineers-search-for-a-better-structural-design/",
+        "published_at": "2026-10-07",
+        "reason": "Verified relevant; deduplicated under Altair ownership"
+      },
+      {
+        "title": "Bring laboratory-grade thermal verification to inverter manufacturing",
+        "url": "https://blogs.sw.siemens.com/simcenter/thermal-verification-to-inverter-manufacturing/",
+        "published_at": "2026-09-15",
+        "reason": "Index date and abstract seen, but full-text retry failed; not retained"
+      },
+      {
+        "title": "ATI Announces Second Quarter 2026 Results",
+        "url": "https://ir.atimaterials.com/news-events/news-details/2026/ATI-Announces-Second-Quarter-2026-Results/default.aspx",
+        "published_at": "2026-08-06",
+        "reason": "Outside publication window"
+      },
+      {
+        "title": "ATI press capacity and ULA steel stories",
+        "reason": "No verified publication dates"
+      },
+      {
+        "title": "Simcenter Technology Conference Italia 2026",
+        "url": "https://resources.sw.siemens.com/th-TH/simcenter-technology-conference-italia-2026/",
+        "reason": "October 6, 2026 is event date, not verified publication date"
+      },
+      {
+        "title": "Plant Simulation Realize Club 2026",
+        "url": "https://blogs.sw.siemens.com/tecnomatix/join-discrete-event-peers-and-experts-at-the-plant-at-the-plant-simulation-realize-club-2026/",
+        "published_at": "2026-08-21",
+        "reason": "October 12 event date must not replace August 21 publication date"
+      },
+      {
+        "title": "Optimize Mission-Critical Optical Systems With Multiphysics Simulation",
+        "url": "https://ansys.synopsys.com/blog/optimize-mission-critical-optical-systems",
+        "date": "2026-10-06",
+        "reason": "Excluded because the article explicitly uses eVTOL as an application example."
+      },
+      {
+        "title": "The Next Generation of Aerospace Innovation Starts With Simulation",
+        "url": "https://ansys.synopsys.com/blog/next-generation-aerospace-innovation",
+        "date": "2026-10-05",
+        "reason": "Excluded because BluJ electric/hydrogen-electric VTOL and unmanned logistics are a central case."
+      },
+      {
+        "title": "Simplify Vehicle Development with Modular MODSIM",
+        "url": "https://blog.3ds.com/brands/simulia/simplify-vehicle-development-modular-modsim/",
+        "date": "2026-09-07T09:00:00+00:00",
+        "reason": "Outside lookback. Official HTML publication date Sept 7; modified Sept 9. Not revived by current homepage placement."
+      },
+      {
+        "title": "Dassault Systèmes outstanding shares and voting rights",
+        "url": "https://investor.3ds.com/news-releases/news-release-details/dassault-systemes-declaration-number-outstanding-shares-and-89",
+        "date": "2026-10-05",
+        "reason": "Current but routine capital disclosure, unrelated to technical scope."
+      },
+      {
+        "title": "Ansys CFD & DEM Process Engineering Summit 2026",
+        "url": "https://ansys.synopsys.com/events/ansys-process-engineering-summit-uk-2026",
+        "date": null,
+        "reason": "Event date Oct 15 is not a publication date. No in-window publication date verified."
+      },
+      {
+        "title": "Exemplar Innovation Experience 2026",
+        "url": "https://exemplar.com/en/home-en/",
+        "date": null,
+        "reason": "Event dates Oct 8–9 verified, publication date not established."
+      },
+      {
+        "title": "Ansys / Dassault science and research landing pages",
+        "url": "https://www.3ds.com/science",
+        "date": null,
+        "reason": "Undated evergreen content not admitted."
+      },
+      {
+        "title": "Synopsys AgentEngineer technical blog",
+        "url": "https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html",
+        "date": "2026-09-28",
+        "reason": "Consolidated into the linked primary press release to avoid duplicate coverage."
+      },
+      {
+        "title": "Hexagon NCSIMUL Selective Simulation IMTS preview",
+        "url": "https://hexagon.com/about/news-media/media-alerts/2026/hexagon-previews-faster-route-through-complex-turning-and-mill-turn-programs-with-ncsimul-at-imts",
+        "published_at": "2026-09-07",
+        "reason": "Before lookback."
+      },
+      {
+        "title": "Hexagon and Oracle Red Bull Sim Racing launch a global search for hidden manufacturing talent",
+        "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-and-oracle-red-bull-sim-racing-launch-a-global-search-for-hidden-manufacturing-talent",
+        "published_at": "2026-09-08",
+        "reason": "Before lookback."
+      },
+      {
+        "title": "Future Skills Challenge 2026: bringing people and careers together",
+        "url": "https://blog.manufacturing.hexagon.com/future-of-manufacturing/manufacturing-trends/future-skills-bringing-people-and-careers-together/",
+        "published_at": "2026-09-25",
+        "reason": "In-window recruitment/competition campaign, not substantive technical development."
+      },
+      {
+        "title": "Simcenter Feko: Milestones in FEKO history – Part 1",
+        "url": "https://blogs.sw.siemens.com/simcenter/simcenter-feko-history-part-1/",
+        "published_at": "2026-10-09",
+        "reason": "In-window publication but retrospective 1991–2013 history; exclude evergreen/historical filler."
+      },
+      {
+        "title": "Simcenter Technology Conference 2026 - Madrid",
+        "url": "https://resources.sw.siemens.com/es-MX/simcenter-technology-conference-2026-madrid/",
+        "published_at": null,
+        "event_date": "2026-09-29",
+        "reason": "Event date is not a publication date; no verified publication date."
+      },
+      {
+        "title": "Simcenter Realize Club Mölndal",
+        "url": "https://resources.sw.siemens.com/en-GB/simcenter-realize-club-moelndal-sweden-september-10/",
+        "published_at": null,
+        "event_date": "2026-09-10",
+        "reason": "Event date before lookback; no verified publication date."
+      },
+      {
+        "title": "Customizing Hotkeys and Ribbons in Simcenter HyperMesh 2026",
+        "url": "https://www.trueinsight.io/blog/hotkeys-hypermesh",
+        "published_at": "2026-08-25",
+        "reason": "Supplier technical post before lookback."
+      },
+      {
+        "title": "Step-by-Step Walkthrough: Using Altair PhysicsAI",
+        "url": "https://www.trueinsight.io/blog/physicsai-walkthrough",
+        "published_at": "2024-12-05",
+        "reason": "Historical supplier walkthrough linked by current article."
+      },
+      {
+        "title": "Reverse Engineering Tools: Feature Checklist",
+        "url": "https://blog.manufacturing.hexagon.com/advanced-manufacturing/engineering-simulation-software/reverse-engineering-tools-feature-checklist/",
+        "published_at": "2017-04-25",
+        "reason": "Historical."
+      },
+      {
+        "title": "Fermi’s paradox and the silence of data in manufacturing",
+        "url": "https://blog.manufacturing.hexagon.com/digital-transformation-in-manufacturing/ai-in-manufacturing/fermis-paradox-and-the-silence-of-data-in-manufacturing/",
+        "published_at": "2025-01-16",
+        "reason": "Historical."
+      },
+      {
+        "title": "The future of aerospace: Breaking the quality vs. speed trade-off in manufacturing",
+        "url": "https://blog.manufacturing.hexagon.com/future-of-manufacturing/future-of-aerospace/the-future-of-aerospace-breaking-the-quality-vs-speed-trade-off-in-manufacturing/",
+        "published_at": "2025-08-01",
+        "reason": "Historical."
+      },
+      {
+        "title": "Why the automotive aftermarket is embracing 3D reverse engineering",
+        "url": "https://blog.manufacturing.hexagon.com/digital-transformation-in-manufacturing/digital-twin/why-the-automotive-aftermarket-is-embracing-3d-reverse-engineering/",
+        "published_at": "2025-10-31",
+        "reason": "Historical."
+      },
+      {
+        "title": "Why faster scanners don’t always mean faster inspection",
+        "url": "https://blog.manufacturing.hexagon.com/metrology-measurement/laser-scanners/why-faster-scanners-dont-always-mean-faster-inspection/",
+        "published_at": "2026-07-21",
+        "reason": "Before lookback."
+      },
+      {
+        "url": "https://resources.ntop.com/ntop-summit-2026/",
+        "reason": "Technically relevant conference recordings but no verifiable within-window publication date."
+      },
+      {
+        "url": "https://www.ihi.co.jp/products/aeroengine_space_defense/aircraft_engines/",
+        "reason": "Undated evergreen product overview."
+      },
+      {
+        "url": "https://legal.luminarycloud.com/terms.html",
+        "reason": "Legal terms update, not a technical candidate."
+      },
+      {
+        "url": "https://www.neuralconcept.com/post/innovative-product-design-trends-and-insights-for-2024",
+        "reason": "September 5, 2024 date; outside lookback despite 2026 title."
+      }
+    ],
+    "discovery_candidates": [
+      {
+        "organization": "PhysicsX",
+        "reason": "Outside the configured company watchlist; direct physics-AI engineering platform and industrial simulation partnership signal.",
+        "urls": [
+          "https://www.physicsx.ai/newsroom/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region"
+        ]
+      },
+      {
+        "organization": "Neural Concept",
+        "reason": "Outside the configured company watchlist; geometry-aware engineering AI and validation guidance directly relates to AI-assisted CAD/CAE.",
+        "urls": [
+          "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering"
+        ]
+      }
+    ],
+    "coverage_audit": {
+      "mandatory_source_count": 7,
+      "checked_source_count": 7,
+      "status_counts": {
+        "no_new_finding": 2,
+        "found": 5
+      },
+      "candidate_item_count": 22,
+      "mandatory_candidate_count": 20,
+      "discovery_item_count": 2,
+      "discovery_organization_count": 2,
+      "spillover_used": false,
+      "spillover_reason": "At least five verified dated mandatory candidates.",
+      "known_gaps": [
+        "No eligible verified-date ATI or Spirit-specific technical item found in checked sources; this is not a claim of exhaustive absence.",
+        "ATI dynamic IR archive text did not render; Spirit legacy newsroom and investor portal were inaccessible.",
+        "Technical claims are corporate claims unless noted otherwise.",
+        "No coverage claim of exhaustive indexing. Broken/dynamic Ansys resource search and partial SIMULIA index extraction limit publication discovery.",
+        "No peer-reviewed paper was verified within this bounded pass. No search-index crawl timestamp was substituted for a publication date.",
+        "Ansys parent-level candidates must be labeled Synopsys/combined portfolio; do not imply specifically named Ansys product releases.",
+        "For Dassault blogs, publication dates come from matching article:published_time and JSON-LD datePublished, not modification dates. The original HTML was fetched successfully without login.",
+        "All quantified or qualitative capability benefits remain attributed vendor/customer claims. No independent validation was performed.",
+        "No drone/UAV/UAS/eVTOL/air-taxi item is included.",
+        "Some official index listings are dynamic and were not fully extracted; this is a bounded search, not proof of no publication.",
+        "Simcenter blog page 2 failed with and without trailing slash.",
+        "Legacy Altair IR/resource URLs unavailable; Siemens technical content accessible.",
+        "No separate peer-reviewed paper verified in window."
+      ],
+      "domain_counts": {
+        "blogs.sw.siemens.com": 10,
+        "news.synopsys.com": 2,
+        "ansys.synopsys.com": 1,
+        "blog.3ds.com": 4,
+        "www.3ds.com": 2,
+        "hexagon.com": 1,
+        "www.physicsx.ai": 1,
+        "www.neuralconcept.com": 1
+      }
+    },
+    "publication_guard": {
+      "receipt_path": "gpt_handoff/published/2026-10-13.json",
+      "initial_check": "NOT_FOUND / HTTP404",
+      "prewrite_check": "NOT_FOUND / HTTP404",
+      "prewrite_checked_at": "2026-10-12T21:19:15.274413+00:00"
+    },
+    "state_update_plan": {
+      "path": "gpt_handoff/state/company-watch.json",
+      "advance_only_after_verified_handoff_commit": true,
+      "preserve_prior_last_checked_and_warnings": true,
+      "do_not_advance_twice_for_same_local_date": true
+    },
+    "validation_audit": {
+      "status": "passed",
+      "strict_schema": true,
+      "execution_metadata": true,
+      "mandatory_coverage": true,
+      "claim_evidence_mapping": true,
+      "dated_within_window": true,
+      "excluded_topic_hygiene": true,
+      "claim_count": 35,
+      "item_count": 22,
+      "unique_urls": 22,
+      "no_article_or_curation": true,
+      "validator": "scripts.web_scout.diagnose_scout_handoff",
+      "validator_blob": "27b1a33274c673786f1568c0159e1e83812be109"
+    }
+  }
+}
