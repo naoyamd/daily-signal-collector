@@ -1,15 +1,15 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-10-11T21:14:21.126Z",
+  "updated_at": "2026-10-12T21:19:38.417Z",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 47,
+  "next_index": 5,
   "last_checked": {
-    "Siemens Digital Industries Software": "2026-09-24T06:16:04+09:00",
-    "Ansys": "2026-09-24T06:16:04+09:00",
-    "Dassault Systèmes": "2026-09-24T06:16:04+09:00",
-    "Hexagon AB": "2026-09-24T06:16:04+09:00",
-    "Altair Engineering": "2026-09-24T06:16:04+09:00",
+    "Siemens Digital Industries Software": "2026-10-13T06:18:52.870894+09:00",
+    "Ansys": "2026-10-13T06:18:52.870894+09:00",
+    "Dassault Systèmes": "2026-10-13T06:18:52.870894+09:00",
+    "Hexagon AB": "2026-10-13T06:18:52.870894+09:00",
+    "Altair Engineering": "2026-10-13T06:18:52.870894+09:00",
     "Cadence Design Systems": "2026-09-24T06:16:04+09:00",
     "Autodesk": "2026-09-24T06:16:04+09:00",
     "MSC Software": "2026-09-25T06:19:30+09:00",
@@ -52,16 +52,16 @@
     "Parker Aerospace": "2026-10-12T06:13:01+09:00",
     "Howmet Aerospace": "2026-10-12T06:13:01+09:00",
     "Precision Castparts": "2026-10-12T06:13:01+09:00",
-    "ATI (ATI Inc.)": "2026-09-24T06:16:04+09:00",
-    "Spirit AeroSystems": "2026-09-24T06:16:04+09:00"
+    "ATI (ATI Inc.)": "2026-10-13T06:18:52.870894+09:00",
+    "Spirit AeroSystems": "2026-10-13T06:18:52.870894+09:00"
   },
   "last_run": {
-    "local_date": "2026-10-12",
-    "path": "gpt_handoff/company/2026-10-12.json",
-    "commit": "a940979f448cc0281f9e8326ed40b98c67f01e80",
+    "local_date": "2026-10-13",
+    "path": "gpt_handoff/company/2026-10-13.json",
+    "commit": "e5efd53090800bf4b1cad18563d5fa8c5a1632ea",
     "status": "partial",
     "checked_source_count": 7,
-    "candidate_item_count": 15
+    "candidate_item_count": 22
   },
   "warnings": [
     "watchlist_hash records current config/sources.yaml Git blob; rotation remains valid for this configuration.",
@@ -72,6 +72,8 @@
     "2026-10-09 checked seven mandatory sources33–39;30 verified dated candidates,4 Discovery candidate items. Cursor advanced once33→40 only after dated handoff commit verified byte-for-byte.",
     "2026-10-09 AVIC article bodies and some US corporate pages had access restrictions; partial scope/evidence warnings retained in handoff.",
     "2026-10-12 checked seven mandatory sources at indices 40–46; 15 dated candidates, including 4 Discovery items from 3 organizations. No spillover was needed. Cursor advanced once 40→47 only after the dated handoff commit was verified byte-for-byte.",
-    "2026-10-12 Parker main-division pages and the Liebherr September 18 article body were unavailable; official IR/listing evidence and access limitations are preserved in the partial handoff."
+    "2026-10-12 Parker main-division pages and the Liebherr September 18 article body were unavailable; official IR/listing evidence and access limitations are preserved in the partial handoff.",
+    "2026-10-13 checked seven mandatory sources at indices 47,48,0–4; 22 dated candidates, including 2 Discovery items from 2 organizations. No spillover was needed. Cursor advanced once 47→5 only after the dated handoff commit was verified byte-for-byte.",
+    "2026-10-13 ATI dynamic IR archive, Spirit legacy newsroom/IR and some Ansys/Hexagon/Altair indexes were unavailable or incompletely extracted; partial coverage and evidence caveats are preserved in the handoff."
   ]
 }
