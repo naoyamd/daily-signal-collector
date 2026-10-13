@@ -1,46 +1,2439 @@
+Warning: truncated output (original token count: 37072)
+Total output lines: 2961
+
 {
   "schema": "daily-signal-curated/v1",
-  "generated_at": "2026-10-14T07:03:15+09:00",
-  "source_files": [],
-  "status": "blocked",
-  "summary": [],
+  "generated_at": "2026-10-14T07:16:19.992091+09:00",
+  "source_files": [
+    {
+      "path": "gpt_handoff/company/2026-10-14.json",
+      "blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+      "commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7",
+      "generated_at": "2026-10-13T21:38:57.439Z"
+    },
+    {
+      "path": "gpt_handoff/research/2026-10-14.json",
+      "blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+      "commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06",
+      "generated_at": "2026-10-14T07:10:06.623377+09:00"
+    }
+  ],
+  "status": "ready",
+  "summary": [
+    {
+      "signal": "設計・ソルバーの自動化と、接続形状・収束・物理量による受入判定",
+      "supporting_ids": [
+        "c-comsol-codex-solver-tuning",
+        "c-autodesk-interface-preserving-design",
+        "r-nvidia-agent-sensor-twin-disassembly-demos"
+      ]
+    },
+    {
+      "signal": "ニューラル作用素の残差保証と実測適応を別の評価問題として扱う",
+      "supporting_ids": [
+        "r-ino-residual-bounded-cpu-operator",
+        "r-retain-repair-real-data-operator"
+      ]
+    },
+    {
+      "signal": "エージェント権限境界、レビュー評価、専用分類器の実運用計測",
+      "supporting_ids": [
+        "r-strands-box-temporal-policy-preview",
+        "r-github-modernbert-secret-classifier",
+        "r-github-reviewbench-open-review-evaluation"
+      ]
+    },
+    {
+      "signal": "AI費用・導入・雇用見通しを母集団と観測方法に分けて読む",
+      "supporting_ids": [
+        "r-cloudzero-september-billing",
+        "r-jpc-ai-employment-2026"
+      ]
+    }
+  ],
   "editorial_plan": {
-    "lead_ids": [],
-    "ordered_ids": [],
-    "central_signals": [],
-    "tensions_or_caveats": [
-      "Both required same-day committed Scout inputs are missing."
+    "lead_ids": [
+      "c-comsol-codex-solver-tuning",
+      "c-autodesk-interface-preserving-design",
+      "r-ino-residual-bounded-cpu-operator"
     ],
-    "desired_depth": {}
+    "ordered_ids": [
+      "c-comsol-codex-solver-tuning",
+      "c-autodesk-interface-preserving-design",
+      "r-ino-residual-bounded-cpu-operator",
+      "r-retain-repair-real-data-operator",
+      "c-comsol-kaplan-coupled-vibration",
+      "r-nvidia-agent-sensor-twin-disassembly-demos",
+      "r-strands-box-temporal-policy-preview",
+      "r-github-modernbert-secret-classifier",
+      "r-github-reviewbench-open-review-evaluation",
+      "r-cloudzero-september-billing",
+      "r-jpc-ai-employment-2026"
+    ],
+    "central_signals": [
+      "設計・ソルバーの自動化と、接続形状・収束・物理量による受入判定",
+      "ニューラル作用素の残差保証と実測適応を別の評価問題として扱う",
+      "エージェント権限境界、レビュー評価、専用分類器の実運用計測",
+      "AI費用・導入・雇用見通しを母集団と観測方法に分けて読む"
+    ],
+    "tensions_or_caveats": [
+      "ベンダー例・著者ベンチマークは独立検証と区別",
+      "残差保証の前提と実測適応の汎化を混同しない",
+      "サンドボックスの未観測範囲を省かない",
+      "費用パネルと小規模選択的企業調査を全国代表値・因果ROIと扱わない"
+    ],
+    "desired_depth": {
+      "c-comsol-codex-solver-tuning": {
+        "tier": "lead",
+        "japanese_character_budget": [
+          500,
+          900
+        ],
+        "preserve_claim_count": 3,
+        "preserve_caveats": [
+          "Single vendor demonstration; no general speedup guarantee",
+          "Distinct technical implementation beyond the Sep 17 COMSOL 2027 launch and older agentic overview"
+        ]
+      },
+      "c-autodesk-interface-preserving-design": {
+        "tier": "lead",
+        "japanese_character_budget": [
+          500,
+          900
+        ],
+        "preserve_claim_count": 2,
+        "preserve_caveats": [
+          "Research methods, not a released Fusion feature",
+          "Numerical acceleration claims omitted because supporting papers could not be opened"
+        ]
+      },
+      "r-ino-residual-bounded-cpu-operator": {
+        "tier": "lead",
+        "japanese_character_budget": [
+          500,
+          900
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Preprint; coercivity and exact-boundary assumptions matter. Reported cross-hardware speed ratios are not universal solver speedups."
+        ]
+      },
+      "r-retain-repair-real-data-operator": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Preprint and author-reported benchmark; no claimed broad industrial validation or guaranteed physical consistency."
+        ]
+      },
+      "c-comsol-kaplan-coupled-vibration": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 3,
+        "preserve_caveats": [
+          "Linear, small-deformation example; not an operating-turbine validation",
+          "Moving-fluid and viscous effects require more advanced treatment"
+        ]
+      },
+      "r-nvidia-agent-sensor-twin-disassembly-demos": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Vendor demonstration, human directed; no independent productivity baseline or real-world reliability result. Distinct event from the prior manufacturing/assembly article."
+        ]
+      },
+      "r-strands-box-temporal-policy-preview": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Developer preview; coverage gaps and a wider trusted computing base prevent treating it as a complete behavioral-security guarantee."
+        ]
+      },
+      "r-github-modernbert-secret-classifier": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Vendor production results; alert acceptance is an operational proxy, not a universal precision/recall measurement. Exact-URL search recovered source after direct open failed."
+        ]
+      },
+      "r-github-reviewbench-open-review-evaluation": {
+        "tier": "standard",
+        "japanese_character_budget": [
+          280,
+          520
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "Research preview and vendor-built benchmark. Expert agreement was an internal independent-labeling exercise, not independent external validation of model quality."
+        ]
+      },
+      "r-cloudzero-september-billing": {
+        "tier": "report",
+        "japanese_character_budget": [
+          700,
+          1300
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "ベンダー顧客パネルであり全企業代表ではない",
+          "AIに帰属可能なクラウド費用のみでSaaS内包分等は対象外",
+          "請求比率から因果的ROIは推定できない"
+        ]
+      },
+      "r-jpc-ai-employment-2026": {
+        "tier": "report",
+        "japanese_character_budget": [
+          700,
+          1300
+        ],
+        "preserve_claim_count": 4,
+        "preserve_caveats": [
+          "無作為の全国代表標本ではない",
+          "回答33社と少なく非回答バイアスがある",
+          "企業担当者の自己申告・見通しで因果推論ではない",
+          "PDF再取得によりScoutで不明だった標本数を確定"
+        ]
+      },
+      "r-virtual-sensing-full-service-energy": {
+        "tier": "wildcard",
+        "japanese_character_budget": [
+          220,
+          420
+        ],
+        "preserve_claim_count": 4
+      },
+      "w-huawei-atlas960e-npo": {
+        "tier": "wildcard",
+        "japanese_character_budget": [
+          220,
+          420
+        ],
+        "preserve_claim_count": 3
+      }
+    }
   },
   "coverage_audit": {
-    "input_item_count": 0,
-    "deduplicated_item_count": 0,
-    "source_domain_count": 0,
-    "organization_count": 0,
-    "regions_observed": [],
+    "input_item_count": 72,
+    "deduplicated_item_count": 70,
+    "source_domain_count": 9,
+    "organization_count": 12,
+    "regions_observed": [
+      "US",
+      "Japan",
+      "China",
+      "Europe",
+      "Korea"
+    ],
     "lanes": {
-      "company_watchlist": "not_assessed_missing_input",
-      "engineering_ai": "not_assessed_missing_input",
-      "agents_enterprise": "not_assessed_missing_input",
-      "models_open_weights": "not_assessed_missing_input",
-      "reports_surveys": "not_assessed_missing_input",
-      "scientific_wildcards": "not_assessed_missing_input",
-      "non_us_rotation": "not_assessed_missing_input"
+      "engineering_ai": 6,
+      "agents_enterprise": 3,
+      "reports_surveys": 2,
+      "scientific_wildcards": 2,
+      "models_open_weights": 0,
+      "non_us_rotation": "Japan survey, China infrastructure; research-author geography not inferred"
     },
     "known_gaps": [
-      "Counts represent available committed inputs only, not completed exploration or zero findings.",
-      "Exact input blob/commit identifiers do not exist for the missing inputs; source_files intentionally empty.",
-      "Publication-history deduplication and evidence/retention audits not performed because input readiness failed."
-    ]
+      "Selected set has no frontier/open-weight model announcement: inaccessible LiquidAI and weakly verified hosted-release candidates held rather than quota-filled.",
+      "Both strict-valid Scout runs are partial with documented source-access limitations, complete mandatory coverage and fresh same-day execution evidence.",
+      "Company exploration concentrates on CAE software; no new verified aircraft/engine certification result selected.",
+      "Ireland government report PDF could not be re-opened; retained in backlog.",
+      "Research report32 direct access failed; exact same primary URL indexed full text provided date/tables.",
+      "JPC full PDF successfully recovered, correcting Scout sample-size uncertainty to33 respondents from92 targets."
+    ],
+    "input_counts": {
+      "company": 31,
+      "research": 41
+    },
+    "dedup_groups": [
+      {
+        "source": "company",
+        "indices": [
+          5,
+          6,
+          10
+        ],
+        "representative_index": 6,
+        "disposition": "backlog"
+      }
+    ],
+    "historical_suppressed": [
+      {
+        "source": "company",
+        "index": 4,
+        "reason": "exact ChipStack URL published Sep24"
+      },
+      {
+        "source": "company",
+        "index": 19,
+        "reason": "COMSOL2027 sameevent published Sep17; no materialdelta"
+      }
+    ],
+    "history_checks": {
+      "index_path": "gpt_handoff/state/published-index.json",
+      "index_blob_sha": "fef66bca36f9d8b0188cf526f4356c303d2183ab",
+      "index_entry_count": 20,
+      "receipts": [
+        {
+          "path": "gpt_handoff/published/2026-09-30.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-01.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-02.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-03.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-04.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-05.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-06.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-07.json",
+          "blob_sha": "1d99b4cc651f77f9869b4a417eb8103fe89868db",
+          "status": "read"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-08.json",
+          "blob_sha": "e2ece3f706dd1130325680ab8303d97049006fa5",
+          "status": "read"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-09.json",
+          "blob_sha": "f5decf8d1a25601d8a54b3bad17e670474e393ac",
+          "status": "read"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-10.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-11.json",
+          "blob_sha": null,
+          "status": "not_found"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-12.json",
+          "blob_sha": "dbb5c7b6d57f6586dcc82479ab6434d3ad7eb65a",
+          "status": "read"
+        },
+        {
+          "path": "gpt_handoff/published/2026-10-13.json",
+          "blob_sha": "974fc963cd911b1268eb1f53fb28004d1bf5aa0d",
+          "status": "read"
+        }
+      ],
+      "exact_url_window_days": 90,
+      "semantic_event_window_days": 30
+    },
+    "input_dispositions": [
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 0,
+        "disposition": "rejected",
+        "reason": "Academic partnership announcement has limited concrete technical change"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 1,
+        "disposition": "backlog",
+        "reason": "Promising SI/PI automation; not independently reopened in assigned verification pass"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 2,
+        "disposition": "backlog",
+        "reason": "Useful signoff guidance; a process article rather than verified new release"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 3,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Relevant customer CFD workflow; older interview and no fresh verified delta Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 4,
+        "disposition": "rejected",
+        "reason": "Exact URL and ChipStack RTL-generation event already published Sep 24; no new delta"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 5,
+        "disposition": "rejected",
+        "reason": "Merged into company index6 AU announcement cluster retained in backlog; not a separate event."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 6,
+        "disposition": "backlog",
+        "reason": "Concrete CAD/manufacturing roadmap; previews explicitly labeled"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 7,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Separate connected-operations facet; not verified sufficiently for selection Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 8,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Acquisition/fabrication workflow has potential; not reopened Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 9,
+        "disposition": "backlog",
+        "reason": "Dated acquisition-completion delta is potentially useful; not reopened"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 10,
+        "disposition": "rejected",
+        "reason": "Merged into company index6 AU announcement cluster retained in backlog; not a separate event."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 11,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: AU recap overlaps selected cluster; no verified post-AU release delta Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 12,
+        "disposition": "backlog",
+        "reason": "Concrete PMI authoring update; not reopened in assigned pass"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 13,
+        "disposition": "backlog",
+        "reason": "Potential Oct 6 access/pricing delta; requires separate verification rather than blanket AU dedup"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 14,
+        "disposition": "rejected",
+        "reason": "Evergreen collection positioning, no distinct engineering development established"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 15,
+        "disposition": "rejected",
+        "reason": "Evergreen iLogic explainer, no newly released capability established"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 16,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 17,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Research demonstrator; lower relevance than component/solver evidence Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 18,
+        "disposition": "rejected",
+        "reason": "Upcoming webinar promotion, not a substantive verified technical result"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 19,
+        "disposition": "rejected",
+        "reason": "Same COMSOL 2027 release event published Sep 17 via wire URL; no delta"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 20,
+        "disposition": "rejected",
+        "reason": "Partnership intent without technical performance or deployed-workflow evidence"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 21,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 22,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 23,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful reduced-model technique; COMSOL coverage cap and no fresh verification Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 24,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Potential measurement-backed case; not reopened and COMSOL cap Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 25,
+        "disposition": "rejected",
+        "reason": "Evergreen visualization guidance rather than significant engineering news"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 26,
+        "disposition": "backlog",
+        "reason": "Recent acoustic solver tutorial; not reopened in assigned verification pass"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 27,
+        "disposition": "rejected",
+        "reason": "Broad multibody-dynamics positioning with limited new result"
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 28,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Product release with MCP preview; inspect availability and URL/version mismatch before use Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 29,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Supply agreement concerns future capacity; lower technical/AI relevance Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/company/2026-10-14.json",
+        "source_item_index": 30,
+        "disposition": "backlog",
+        "reason": "Relevant discovery company but vendor-only unquantified proof of concept"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 0,
+        "disposition": "backlog",
+        "reason": "Primary URL inaccessible twice; model and speed claims not independently checked here."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 1,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful local-inference packaging, but not shortlisted over stronger engineering/evaluation evidence. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 2,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful retrieval benchmark; held for diversity and direct benchmark validation. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 3,
+        "disposition": "backlog",
+        "reason": "Niche self-reported speech adaptation; keep for aviation-specific issue."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 4,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 5,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 6,
+        "disposition": "backlog",
+        "reason": "Primary URL inaccessible in curator verification; announced and future availability need direct source check."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 7,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Preview-heavy vendor roadmap; no production efficacy established. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 8,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Managed-agent integration is narrower than selected architecture/control coverage. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 9,
+        "disposition": "backlog",
+        "reason": "Verified reserve; avoid overconcentration in Microsoft/GitHub and overlap with Strands controls."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 10,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: 2027 hardware roadmap and vendor projections; not current deployed result. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 11,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Internal playbook evaluation; overlap with selected code-review benchmark. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 12,
+        "disposition": "backlog",
+        "reason": "Mixed current and future releases; avoid reporting upcoming product as available."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 13,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Hosted speech model mislabeled by scout as open-weights lane; October 5 release less relevant. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 14,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 15,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Vendor architecture case study; worthwhile reserve but not directly reverified. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 16,
+        "disposition": "backlog",
+        "reason": "Hosted release not open weights; safety evaluation still forthcoming per scout."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 17,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Mutable release notes; current model release does not beat concrete engineering/control stories. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 18,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Abstract verified; broad first-of-kind framing unsupported independently and weaker practical validation than INO. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 19,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 20,
+        "disposition": "backlog",
+        "reason": "Abstract verified; useful memory/geometry result but avoid neural-operator saturation. Not the older stiff-PDE MENO event in history."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 21,
+        "disposition": "wildcard"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 22,
+        "disposition": "backlog",
+        "reason": "Abstract verified; promising noisy-label transport surrogate, reserve for domain-specific depth; huge speedups must remain task-bounded author claims."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 23,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 24,
+        "disposition": "backlog",
+        "reason": "Abstract verified; strong preconditioned-loss study, reserve to avoid three similar operator-training stories."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 25,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Abstract verified; kernel/boundary acoustics method is narrower than selected simulation-to-real and residual-bounded methods. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 26,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Quantum/HPC adjacent item not reverified in this nominated shortlist. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 27,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Funding announcement, not achieved scientific outcome. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 28,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Funding and planned autonomous-science infrastructure; not operational result. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 29,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Manufacturing automation overview; limited concrete new measured delta. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 30,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Older robotics demonstration; not reverified in this shortlist. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 31,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 32,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 33,
+        "disposition": "selected"
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 34,
+        "disposition": "backlog",
+        "reason": "Useful adjacent report, but lower priority than the two methodologically distinct selected reports."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 35,
+        "disposition": "backlog",
+        "reason": "Useful adjacent report, but lower priority than the two methodologically distinct selected reports."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 36,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 37,
+        "disposition": "backlog",
+        "reason": "Useful adjacent report, but lower priority than the two methodologically distinct selected reports."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 38,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 39,
+        "disposition": "rejected",
+        "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence."
+      },
+      {
+        "source_file": "gpt_handoff/research/2026-10-14.json",
+        "source_item_index": 40,
+        "disposition": "wildcard"
+      }
+    ],
+    "retention_audit": {
+      "selected_items": 11,
+      "wildcard_items": 2,
+      "claim_count": 47,
+      "report_metric_count": 7,
+      "all_input_indices_accounted": true,
+      "unverified_material_selected_claims": 0
+    }
   },
-  "selected": [],
-  "wildcards": [],
-  "backlog": [],
-  "rejected": [],
+  "selected": [
+    {
+      "id": "c-comsol-codex-solver-tuning",
+      "event_key": "comsol:codex-java-solver-tuning:2026-09-18",
+      "tier": "lead",
+      "title": "Using Agentic Workflows with COMSOL Multiphysics®",
+      "primary_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+      "supporting_urls": [],
+      "published_at": "2026-09-18",
+      "organization": "COMSOL",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "COMSOL demonstrates a Java wrapper linking Codex to a live model.",
+        "COMSOL reports nine experiments, 25% fewer nonlinear iterations and 30% faster computation in its example.",
+        "It warns that weaker stopping criteria can create misleading speed gains; physical outputs must be checked."
+      ],
+      "claims": [
+        {
+          "text": "COMSOL demonstrates a Java wrapper linking Codex to a live model.",
+          "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "How to Connect COMSOL and Codex, lines 74–94",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "COMSOL reports nine experiments, 25% fewer nonlinear iterations and 30% faster computation in its example.",
+          "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Heat Sink Model results, line 144",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "It warns that weaker stopping criteria can create misleading speed gains; physical outputs must be checked.",
+          "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Considerations When Using Agents, lines 154–159",
+          "verification_date": "2026-10-14"
+        }
+      ],
+      "why_it_matters": "It provides an implementable engineering-agent loop with a concrete warning about optimizing the wrong objective.",
+      "practical_implication": "Preserve convergence tolerances and compare physical outputs before accepting faster settings.",
+      "tags": [
+        "agentic AI",
+        "Codex",
+        "CFD",
+        "solver tuning",
+        "API"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 4,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 21,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7",
+          "material_delta": "Sep18 Java/client-server implementation, nine solver experiments and validity controls beyond already-published Sep17 COMSOL2027 release; no repeat of launch-only claims."
+        }
+      ],
+      "verification_date": "2026-10-14",
+      "caveats": [
+        "Single vendor demonstration; no general speedup guarantee",
+        "Distinct technical implementation beyond the Sep 17 COMSOL 2027 launch and older agentic overview"
+      ],
+      "weighted_score": 4.35
+    },
+    {
+      "id": "c-autodesk-interface-preserving-design",
+      "event_key": "autodesk:interface-preserving-topology-rom:2026-10-06",
+      "tier": "lead",
+      "title": "A Part Is Never Alone: Designing Components That Respect Their Connections",
+      "primary_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+      "supporting_urls": [],
+      "published_at": "2026-10-06",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Autodesk describes C-HSE updates that preserve cylindrical and planar interfaces while allowing their position and size to change.",
+        "Its second method combines hierarchical deformation, rigid-feature preservation and reduced-order modeling."
+      ],
+      "claims": [
+        {
+          "text": "Autodesk describes C-HSE updates that preserve cylindrical and planar interfaces while allowing their position and size to change.",
+          "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Act One, paragraphs on C-HSE (lines 89–99)",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "Its second method combines hierarchical deformation, rigid-feature preservation and reduced-order modeling.",
+          "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Act Two (lines 103–113)",
+          "verification_date": "2026-10-14"
+        }
+      ],
+      "why_it_matters": "Assembly-compatible geometry is a useful acceptance criterion for generated designs.",
+      "practical_implication": "Test interface validity and full-order simulation agreement across the intended design range.",
+      "tags": [
+        "CAE",
+        "FEA",
+        "topology optimization",
+        "reduced-order model",
+        "generative design",
+        "CAD"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 16,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7"
+        }
+      ],
+      "verification_date": "2026-10-14",
+      "caveats": [
+        "Research methods, not a released Fusion feature",
+        "Numerical acceleration claims omitted because supporting papers could not be opened"
+      ],
+      "weighted_score": 4.1
+    },
+    {
+      "id": "r-ino-residual-bounded-cpu-operator",
+      "event_key": "ino-residual-bounded-cpu-operator:2026-09-29",
+      "tier": "lead",
+      "title": "Interpolating Neural Operator (INO): A Data-Free and Efficient Approach for Learning PDE Solution Operators",
+      "primary_url": "https://arxiv.org/abs/2609.36701",
+      "supporting_urls": [],
+      "published_at": "2026-09-29",
+      "organization": "Jiachen Guo, Ye Lu, Naichen Shi, Thomas J. R. Hughes and Wing Kam Liu",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "factual_points": [
+        "INO learns a PDE solution operator directly from its weak form without simulation-labelled training data.",
+        "Its multilinear nodal-parameter construction converts training into alternating one-dimensional linear solves on one CPU core.",
+        "For coercive problems, the authors provide a computable residual bound per prediction; inputs outside the trained leading-coordinate ranges can fall back to a conventional solver.",
+        "The authors report 3–80 times shorter training on one CPU core than physics-informed baselines on one GPU for their one- and two-dimensional tests."
+      ],
+      "claims": [
+        {
+          "text": "INO learns a PDE solution operator directly from its weak form without simulation-labelled training data.",
+          "source_url": "https://arxiv.org/abs/2609.36701",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, first paragraph"
+        },
+        {
+          "text": "Its multilinear nodal-parameter construction converts training into alternating one-dimensional linear solves on one CPU core.",
+          "source_url": "https://arxiv.org/abs/2609.36701",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, architecture paragraph"
+        },
+        {
+          "text": "For coercive problems, the authors provide a computable residual bound per prediction; inputs outside the trained leading-coordinate ranges can fall back to a conventional solver.",
+          "source_url": "https://arxiv.org/abs/2609.36701",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, residual-bound and input-range paragraph"
+        },
+        {
+          "text": "The authors report 3–80 times shorter training on one CPU core than physics-informed baselines on one GPU for their one- and two-dimensional tests.",
+          "source_url": "https://arxiv.org/abs/2609.36701",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract, final comparison paragraph"
+        }
+      ],
+      "why_it_matters": "Combines lower training-data requirements with a per-prediction acceptance mechanism.",
+      "practical_implication": "Evaluate residual bounds and out-of-domain routing on one existing PDE family before considering deployment.",
+      "tags": [
+        "neural-operators",
+        "PDE",
+        "CPU",
+        "error-bounds",
+        "preprint",
+        "self_reported_benchmark"
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "source_quality": 4,
+        "evidence_strength": 3.5,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2.5,
+        "strategic_significance": 4,
+        "reader_value": 4.5
+      },
+      "weighted_score": 4.125,
+      "confidence": "medium",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 19,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Preprint; coercivity and exact-boundary assumptions matter. Reported cross-hardware speed ratios are not universal solver speedups."
+      ]
+    },
+    {
+      "id": "r-retain-repair-real-data-operator",
+      "event_key": "retain-repair-real-data-operator:2026-09-30",
+      "tier": "standard",
+      "title": "Beyond Simulation: Retain-and-Repair Neural Operators for Real-World Adaptation",
+      "primary_url": "https://arxiv.org/abs/2609.39387",
+      "supporting_urls": [],
+      "published_at": "2026-09-30",
+      "organization": "Woojin Cho and Junghwan Park",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "factual_points": [
+        "R²NO first fine-tunes a simulation-pretrained operator on real observations, then freezes that source predictor.",
+        "A repair module proposes refinements, and spectral cells use ridge-regression combinations fitted on held-out real data.",
+        "The source prediction remains a candidate in every spectral cell, allowing the combination to retain useful pretrained behavior.",
+        "The authors report better results than full fine-tuning and iterative refinement across all tested RealPDEBench systems and six backbones."
+      ],
+      "claims": [
+        {
+          "text": "R²NO first fine-tunes a simulation-pretrained operator on real observations, then freezes that source predictor.",
+          "source_url": "https://arxiv.org/abs/2609.39387",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, method paragraph"
+        },
+        {
+          "text": "A repair module proposes refinements, and spectral cells use ridge-regression combinations fitted on held-out real data.",
+          "source_url": "https://arxiv.org/abs/2609.39387",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, spectral ensemble description"
+        },
+        {
+          "text": "The source prediction remains a candidate in every spectral cell, allowing the combination to retain useful pretrained behavior.",
+          "source_url": "https://arxiv.org/abs/2609.39387",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, source-retention paragraph"
+        },
+        {
+          "text": "The authors report better results than full fine-tuning and iterative refinement across all tested RealPDEBench systems and six backbones.",
+          "source_url": "https://arxiv.org/abs/2609.39387",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract, RealPDEBench result"
+        }
+      ],
+      "why_it_matters": "Addresses the practical simulation-to-measurement gap without requiring one global adaptation depth.",
+      "practical_implication": "Compare against plain fine-tuning with an untouched measurement test set; audit whether held-out fitting leaks deployment conditions.",
+      "tags": [
+        "neural-operators",
+        "sim-to-real",
+        "scientific-ai",
+        "preprint",
+        "self_reported_benchmark"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2.5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "weighted_score": 3.9,
+      "confidence": "medium",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 23,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Preprint and author-reported benchmark; no claimed broad industrial validation or guaranteed physical consistency."
+      ]
+    },
+    {
+      "id": "c-comsol-kaplan-coupled-vibration",
+      "event_key": "comsol:kaplan-blade-acoustic-structure-clearance:2026-09-23",
+      "tier": "standard",
+      "title": "Modeling Acoustic–Structure Interaction in Kaplan Turbine Blades Using COMSOL®",
+      "primary_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+      "supporting_urls": [],
+      "published_at": "2026-09-23",
+      "organization": "COMSOL; Lightness by Design",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "The example uses linear frequency-domain acoustics–structure coupling with periodic boundaries.",
+        "Its first modeled eigenfrequency is 104 Hz in water versus 193 Hz in air.",
+        "Eigenfrequencies approach a plateau near a 150 mm gap in this geometry."
+      ],
+      "claims": [
+        {
+          "text": "The example uses linear frequency-domain acoustics–structure coupling with periodic boundaries.",
+          "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Acoustic–Structure Interaction and Example, lines 71–89",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "Its first modeled eigenfrequency is 104 Hz in water versus 193 Hz in air.",
+          "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Results table, lines 100–111",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "Eigenfrequencies approach a plateau near a 150 mm gap in this geometry.",
+          "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Results, lines 113–116",
+          "verification_date": "2026-10-14"
+        }
+      ],
+      "why_it_matters": "It makes environmental and clearance assumptions visible in turbomachinery vibration analysis.",
+      "practical_implication": "Include the surrounding fluid and check clearance sensitivity before transferring dry-mode results.",
+      "tags": [
+        "FEA",
+        "acoustic–structure interaction",
+        "turbine",
+        "vibration"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 2,
+        "strategic_significance": 3,
+        "reader_value": 4
+      },
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 22,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7"
+        }
+      ],
+      "verification_date": "2026-10-14",
+      "caveats": [
+        "Linear, small-deformation example; not an operating-turbine validation",
+        "Moving-fluid and viscous effects require more advanced treatment"
+      ],
+      "weighted_score": 3.7
+    },
+    {
+      "id": "r-nvidia-agent-sensor-twin-disassembly-demos",
+      "event_key": "nvidia-agent-sensor-twin-disassembly-demos:2026-10-08",
+      "tier": "standard",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "primary_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "supporting_urls": [],
+      "published_at": "2026-10-08",
+      "organization": "NVIDIA",
+      "category": "engineering_ai",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "NVIDIA describes developer-directed agents assembling simulation applications with Omniverse physics, rendering and scene libraries.",
+        "In its sensor-validation example, developers guided agents to compare simulated camera and LiDAR outputs with recordings and refine OpenUSD scenes against those metrics.",
+        "In its disassembly example, a developer directed an agent to model a car suspension in Onshape, configure Isaac Sim and design a wrench for available bolt clearance.",
+        "NVIDIA reports component removal in simulation; this is not evidence of physical robot deployment."
+      ],
+      "claims": [
+        {
+          "text": "NVIDIA describes developer-directed agents assembling simulation applications with Omniverse physics, rendering and scene libraries.",
+          "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Introduction, October 8 date"
+        },
+        {
+          "text": "In its sensor-validation example, developers guided agents to compare simulated camera and LiDAR outputs with recordings and refine OpenUSD scenes against those metrics.",
+          "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Use Sensor Differences to Create and Improve Digital Twins"
+        },
+        {
+          "text": "In its disassembly example, a developer directed an agent to model a car suspension in Onshape, configure Isaac Sim and design a wrench for available bolt clearance.",
+          "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Test Robotic Disassembly With Computer-Aided Design and Simulation"
+        },
+        {
+          "text": "NVIDIA reports component removal in simulation; this is not evidence of physical robot deployment.",
+          "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Same disassembly section"
+        }
+      ],
+      "why_it_matters": "Links generated CAD and simulation edits to measurable sensor and task outcomes.",
+      "practical_implication": "Pilot a bounded CAD-to-simulation task with explicit clearance and sensor-error acceptance tests and engineer review.",
+      "tags": [
+        "CAD",
+        "simulation",
+        "agents",
+        "digital-twins"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 4.5
+      },
+      "weighted_score": 4.025,
+      "confidence": "high for source description; medium for performance or external validity",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 31,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06",
+          "material_delta": "Oct8 sensor-difference calibration and Onshape/IsaacSim disassembly demonstrations, distinct from Oct7 assembly-qualification article published Oct13."
+        }
+      ],
+      "caveats": [
+        "Vendor demonstration, human directed; no independent productivity baseline or real-world reliability result. Distinct event from the prior manufacturing/assembly article."
+      ]
+    },
+    {
+      "id": "r-strands-box-temporal-policy-preview",
+      "event_key": "strands-box-temporal-policy-preview:2026-10-07",
+      "tier": "standard",
+      "title": "Strands Box adds history-aware agent sandbox policies",
+      "primary_url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/",
+      "supporting_urls": [],
+      "published_at": "2026-10-07",
+      "organization": "AWS",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Strands Box launched October 7 as an Apache-2.0 developer preview combining OS containment with Dogwood policy enforcement.",
+        "Policy decisions can use shared event history across network, shell, Python and MCP enforcement points.",
+        "The egress gateway can insert real credentials while the agent receives placeholders.",
+        "Direct filesystem grants remain containment-bounded but do not appear in Dogwood policy history; initial OS support is macOS."
+      ],
+      "claims": [
+        {
+          "text": "Strands Box launched October 7 as an Apache-2.0 developer preview combining OS containment with Dogwood policy enforcement.",
+          "source_url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Launch paragraph"
+        },
+        {
+          "text": "Policy decisions can use shared event history across network, shell, Python and MCP enforcement points.",
+          "source_url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Inside Strands Box"
+        },
+        {
+          "text": "The egress gateway can insert real credentials while the agent receives placeholders.",
+          "source_url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Egress and authentication section"
+        },
+        {
+          "text": "Direct filesystem grants remain containment-bounded but do not appear in Dogwood policy history; initial OS support is macOS.",
+          "source_url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Inside Strands Box coverage limitation; What’s next OS support"
+        }
+      ],
+      "why_it_matters": "Moves agent authorization from prompts to observable runtime operations and accumulated history.",
+      "practical_implication": "Test a representative read-then-network restriction and enumerate direct filesystem accesses outside the policy trace.",
+      "tags": [
+        "agents_enterprise"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4.5,
+        "evidence_strength": 3.5,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4.5,
+        "reader_value": 4.5
+      },
+      "weighted_score": 4.225,
+      "confidence": "high for source description; medium for performance or external validity",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 14,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Developer preview; coverage gaps and a wider trusted computing base prevent treating it as a complete behavioral-security guarantee."
+      ]
+    },
+    {
+      "id": "r-github-modernbert-secret-classifier",
+      "event_key": "github-modernbert-secret-classifier:2026-10-13",
+      "tier": "standard",
+      "title": "GitHub replaces remote LLM secret classification with ModernBERT",
+      "primary_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "supporting_urls": [],
+      "published_at": "2026-10-13",
+      "organization": "GitHub",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "GitHub describes a two-stage secret scanner: regex candidate retrieval followed by a contextual ModernBERT classifier.",
+        "GitHub reports 11.5% higher repository-owner-weighted alert acceptance than its previous LLM pipeline.",
+        "GitHub reports an 86% reduction in median post-push scan execution time and more than 98% low…7072 tokens truncated…{
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 1
+        }
+      ]
+    },
+    {
+      "id": "c-held-2",
+      "title": "How to Verify and Signoff AI-Generated Design Data",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+      "published_at": "2026-10-07",
+      "organization": "Cadence Design Systems",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Cadence outlines verification and signoff controls for agent-generated design changes, tying approved design intent to simulation, formal checks, implementation analysis and reproducible engineering evidence.",
+      "reason": "Useful signoff guidance; a process article rather than verified new release",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 2
+        }
+      ]
+    },
+    {
+      "id": "c-autodesk-au-design-workflows",
+      "event_key": "autodesk:au2026-design-workflow-preview:2026-09-15",
+      "tier": "standard",
+      "title": "Autodesk advances AI for design and manufacturing at AU 2026",
+      "primary_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+      "supporting_urls": [
+        "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+        "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era"
+      ],
+      "published_at": "2026-09-15",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Autodesk describes AutoTimeline for editable parametric geometry, AutoAssemble for assemblies and System Modeler for manufacturing automation.",
+        "The next-generation cross-product Assistant is a preview; a standalone experience is planned for 2027.",
+        "APS Workflow MCP is in development with private-beta signup."
+      ],
+      "claims": [
+        {
+          "text": "Autodesk describes AutoTimeline for editable parametric geometry, AutoAssemble for assemblies and System Modeler for manufacturing automation.",
+          "source_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "New AI capabilities, lines 188–195",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "The next-generation cross-product Assistant is a preview; a standalone experience is planned for 2027.",
+          "source_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Press release, lines 169–174",
+          "verification_date": "2026-10-14"
+        },
+        {
+          "text": "APS Workflow MCP is in development with private-beta signup.",
+          "source_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Build section, lines 30–34",
+          "verification_date": "2026-10-14"
+        }
+      ],
+      "why_it_matters": "The roadmap spans editable CAD, assembly, manufacturing and enterprise context.",
+      "practical_implication": "Distinguish available capabilities from previews when planning a pilot.",
+      "tags": [
+        "AI design",
+        "CAD",
+        "CAM",
+        "PLM",
+        "parametric modeling",
+        "manufacturing automation"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 5,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4
+      },
+      "confidence": "medium",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 5,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7"
+        },
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 6,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7"
+        },
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 10,
+          "source_blob_sha": "b58401c4fcafabca4d15d4e058672660f7f69168",
+          "source_commit_sha": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7"
+        }
+      ],
+      "verification_date": "2026-10-14",
+      "caveats": [
+        "September announcement with limited freshness",
+        "Fusion Compute MCP beta was already covered Sep 18 and is excluded from this item’s claims",
+        "No measured productivity gain established"
+      ],
+      "weighted_score": 4.0,
+      "reason": "Older preview-heavy AU roadmap; useful reserve but stronger verified technical items prioritized."
+    },
+    {
+      "id": "c-held-9",
+      "title": "The next chapter of interoperability starts with connected data",
+      "primary_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+      "published_at": "2026-09-30",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk’s September30 update confirms completion of its acquisition of select BIMDeX technology assets and IP, with some staff joining Autodesk. The technology supports CAD/BIM/manufacturing interoperability and preservation of design intent.",
+      "reason": "Dated acquisition-completion delta is potentially useful; not reopened",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 9
+        }
+      ]
+    },
+    {
+      "id": "c-held-12",
+      "title": "Product Manufacturing Information Comes to Fusion: Keep Manufacturing Intent with the Model",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/",
+      "published_at": "2026-09-29",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Fusion added PMI authoring in the Design workspace, including hole/thread and leader notes. Manufacturing and inspection workflows can consume model-linked requirements, and imported PMI can be converted to editable native PMI.",
+      "reason": "Concrete PMI authoring update; not reopened in assigned pass",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 12
+        }
+      ]
+    },
+    {
+      "id": "c-held-13",
+      "title": "Changes to Autodesk Assistant in Fusion",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/",
+      "published_at": "2026-10-01",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk detailed Fusion Assistant’s expanded workflows and monthly Flex-token beta allowances for design-working/task-performing AI. The post also recaps three Fusion MCP servers, agentic PLM and Assistant expansion across Inventor, Moldflow and Vault.",
+      "reason": "Potential Oct 6 access/pricing delta; requires separate verification rather than blanket AU dedup",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 13
+        }
+      ]
+    },
+    {
+      "id": "c-held-26",
+      "title": "Practical High-Frequency Acoustic Simulation with the Actran Radiosity Solver",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+      "published_at": "2026-10-11",
+      "organization": "Cadence",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Cadence explains Actran’s energy-based radiosity solver for high-frequency acoustic design, including geometry-based view factors, surface-only discretization, and cabin, factory, and urban-noise examples.",
+      "reason": "Recent acoustic solver tutorial; not reopened in assigned verification pass",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 26
+        }
+      ]
+    },
+    {
+      "id": "c-held-30",
+      "title": "Hyundai uses Monumo’s Anser AI Platform to transform the way EV motors are designed",
+      "primary_url": "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed",
+      "published_at": "2026-09-21",
+      "organization": "Monumo / Hyundai",
+      "category": "AIによる設計",
+      "source_kind": "press_release",
+      "excerpt": "Monumo reports a Hyundai proof of concept using Anser AI for EV motor simulation and optimization, identifying alternative designs and performance/material-cost trade-offs. No quantitative result or independent validation is provided. Discovery: physics-grounded AI and motor-design optimization offer continuing engineering-monitoring value.",
+      "reason": "Relevant discovery company but vendor-only unquantified proof of concept",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 30
+        }
+      ]
+    },
+    {
+      "id": "r-held-0",
+      "title": "LFM2.5-24B-A2B enables on-device reasoning agents",
+      "primary_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "published_at": "2026-10-13",
+      "organization": "Liquid AI",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "excerpt": "24B total/2B active parameters; context expands from32K to131K. Open weights are released. Vendor reports LiveClaw48.09 and184tokens/s onM5Max; results depend on hardware/harness and are not independently replicated.",
+      "reason": "Primary URL inaccessible twice; model and speed claims not independently checked here.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 0
+        }
+      ]
+    },
+    {
+      "id": "r-held-3",
+      "title": "NVIDIA demonstrates staged domain adaptation for aviation speech",
+      "primary_url": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
+      "published_at": "2026-10-13",
+      "organization": "NVIDIA",
+      "category": "scientific_wildcards",
+      "source_kind": "corporate_tech",
+      "excerpt": "ATC speech tutorial uses separate training/development/test roles and staged adaptation. Vendor reports Nemotron WER77.00→22.46% on a two-hour ATCO2 benchmark; general-English WER3.50→3.63%. Refined checkpoints are planned, not yet released.",
+      "reason": "Niche self-reported speech adaptation; keep for aviation-specific issue.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 3
+        }
+      ]
+    },
+    {
+      "id": "r-held-6",
+      "title": "Workday expands Sana orchestration into enterprise AI interfaces",
+      "primary_url": "https://newsroom.workday.com/2026-10-13-Workday-to-Bring-Sana-Everywhere-Employees-Work,-Including-Claude,-Gemini-Enterprise,-Microsoft-Copilot,-Microsoft-Teams,-and-Slack",
+      "published_at": "2026-10-13",
+      "organization": "Workday",
+      "category": "agents_enterprise",
+      "source_kind": "press_release",
+      "excerpt": "Sana applies Workday permissions and approvals before coordinating actions from other AI tools. Existing self-service is GA in Gemini Enterprise/Copilot/Teams/Slack; broader Sana arrives late2026. Claude Cowork is early access now; Copilot SanaMCP early access is planned for late2026.",
+      "reason": "Primary URL inaccessible in curator verification; announced and future availability need direct source check.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 6
+        }
+      ]
+    },
+    {
+      "id": "r-held-9",
+      "title": "Microsoft describes four enforceable boundaries for production agents",
+      "primary_url": "https://commandline.microsoft.com/ai-agent-copilot-autopilot-layered-model-production-network-incidents-on-call-engineers/",
+      "published_at": "2026-10-13",
+      "organization": "Microsoft",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "excerpt": "Azure Networking engineer describes identity, typed-tool, mutation-approval and time/playbook boundaries. Model parses output into validated schemas; deterministic code chooses actions. Production mutations pause for approval; repeated successful reasoning can become deterministic playbooks. Experience report, not independent efficacy study.",
+      "reason": "Verified reserve; avoid overconcentration in Microsoft/GitHub and overlap with Strands controls.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 9
+        }
+      ]
+    },
+    {
+      "id": "r-held-12",
+      "title": "NVIDIA updates local-agent stack ahead of RTX Spark launch",
+      "primary_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "published_at": "2026-10-13",
+      "organization": "NVIDIA",
+      "category": "scientific_wildcards",
+      "source_kind": "corporate_tech",
+      "excerpt": "PAIR exits beta with llama.cpp support; Broadcast2.3 adds offline processing andMCP controls. Nemotron3.5Bolt74B-A9B/24GB is announced forOct15, not available at this check. RTX Spark launchesOct16. OpenShell/MXC integration maturity differs by agent; Hermes integration planned laterOctober.",
+      "reason": "Mixed current and future releases; avoid reporting upcoming product as available.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 12
+        }
+      ]
+    },
+    {
+      "id": "r-held-16",
+      "title": "Meta releases Muse Wonder and Wonder Full for agent workflows",
+      "primary_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "published_at": "2026-10-12",
+      "organization": "Meta",
+      "category": "models_open_weights",
+      "source_kind": "official",
+      "excerpt": "Wonder is available via Meta Model API and Muse Code; Wonder Full is available to Muse Code subscribers. Meta describes cross-conversation Active Memory and persistent Active Focus. Consumer Muse rollout is forthcoming, initially for subscribers. Additional safety evaluation report is still forthcoming; no open-weight release is established.",
+      "reason": "Hosted release not open weights; safety evaluation still forthcoming per scout.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 16
+        }
+      ]
+    },
+    {
+      "id": "r-held-20",
+      "title": "MENO: Memory-Efficient Neural Operator",
+      "primary_url": "https://arxiv.org/abs/2609.27739",
+      "published_at": "2026-09-23",
+      "organization": "",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "excerpt": "MENO uses a Manifold Function Encoder with memory use independent of data resolution. It supports arbitrary domains and discretizations, including inputs and outputs on different manifolds; reproducible code is linked.",
+      "reason": "Abstract verified; useful memory/geometry result but avoid neural-operator saturation. Not the older stiff-PDE MENO event in history.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 20
+        }
+      ]
+    },
+    {
+      "id": "r-held-22",
+      "title": "PTNO: Training Neural Operators with Noisy Monte Carlo Estimates for Particle Transport Problems",
+      "primary_url": "https://arxiv.org/abs/2609.40090",
+      "published_at": "2026-09-30",
+      "organization": "",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "excerpt": "PTNO trains particle-transport surrogates directly from noisy, low-cost Monte Carlo labels. It addresses variance and high dynamic range, with demonstrations in fusion-neutron transport and radiative transfer.",
+      "reason": "Abstract verified; promising noisy-label transport surrogate, reserve for domain-specific depth; huge speedups must remain task-bounded author claims.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 22
+        }
+      ]
+    },
+    {
+      "id": "r-held-24",
+      "title": "Preconditioned Physics-Informed Neural Operator Training",
+      "primary_url": "https://arxiv.org/abs/2609.36216",
+      "published_at": "2026-09-28",
+      "organization": "",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "excerpt": "A multigrid-based preconditioned residual loss improves physics-informed operator training without adding inference cost. Authors report 4–25 times higher accuracy than earlier label-free methods on Poisson, Allen-Cahn and stationary Stokes tests.",
+      "reason": "Abstract verified; strong preconditioned-loss study, reserve to avoid three similar operator-training stories.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 24
+        }
+      ]
+    },
+    {
+      "id": "r-held-34",
+      "title": "A Sectoral Study on Artificial Intelligence in Enterprise in Ireland",
+      "primary_url": "https://www.enterprise.gov.ie/en/publications/a-sectoral-study-on-ai-in-enterprise-in-ireland.html",
+      "published_at": "2026-10-13",
+      "organization": "Department of Enterprise, Tourism and Employment; Accenture",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "excerpt": "New 291-page government-commissioned study maps AI opportunities and barriers in manufacturing, tourism, construction and ICT. It combines enterprise statistics with 30 interviews and workshops; manufacturing subsectors show 20.5% AI use, with micro firms excluded.",
+      "reason": "High-value Ireland sectoral report retained with Scout evidence; primary PDF could not be re-opened in this Curator pass, so not selected.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 34
+        }
+      ]
+    },
+    {
+      "id": "r-held-35",
+      "title": "AI Investment Is Outpacing Organizations’ Ability to Realize Value, New HTEC Research Finds",
+      "primary_url": "https://htec.com/insights/media-coverage/ai-investment-is-outpacing-organizations-ability-to-realize-value-new-htec-research-finds/",
+      "published_at": "2026-09-15",
+      "organization": "HTEC; Censuswide",
+      "category": "reports_surveys",
+      "source_kind": "press_release",
+      "excerpt": "Censuswide surveyed 1,500 C-level executives for HTEC: 79% report increasing AI investment, by 31% on average; 77% say value is more constrained by people and processes than technology. Only 24% report comprehensive employee AI enablement.",
+      "reason": "Vendor-sponsored executive survey retained, but billing observations and fully recovered Japan sample add more methodological diversity today.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 35
+        }
+      ]
+    },
+    {
+      "id": "r-held-37",
+      "title": "AI Labor Market Tracker: September 2026",
+      "primary_url": "https://www.reveliolabs.com/ai-labor-market-tracker/us/september-2026",
+      "published_at": "2026-10-01",
+      "organization": "Revelio Labs",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "excerpt": "Revelio’s monthly tracker finds new AI-adopting firms down 17% versus July and 48% from April’s peak. Job-posting data show adoption still expanding cumulatively; 90% of annual work-activity change occurs within occupations rather than shifts between occupations.",
+      "reason": "Useful labor-adoption proxy, but source has inconsistent headcount-growth figures; do not reuse disputed metric without resolution.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 37
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": "c-held-0",
+      "title": "New Platform for CAE Multiphysics Innovation and Talent Development",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+      "published_at": "2026-10-05",
+      "organization": "Cadence Design Systems",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Cadence and Jilin University expanded their joint CFD laboratory into a CAE multiphysics laboratory, broadening research and teaching to system simulation, multiphysics analysis and intelligent vehicle development.",
+      "reason": "Academic partnership announcement has limited concrete technical change",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 0
+        }
+      ]
+    },
+    {
+      "id": "c-held-3",
+      "title": "Professionals in CFD with Iva Papeš from Vertiv",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv",
+      "published_at": "2026-09-17",
+      "organization": "Cadence Design Systems",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "A Vertiv engineering interview explains use of Cadence Reality DC Design for internal and external CFD, cooling-capacity checks, hotspot detection and outdoor heat-recirculation analysis during data-center design.",
+      "reason": "Lower priority for this edition: Relevant customer CFD workflow; older interview and no fresh verified delta Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 3
+        }
+      ]
+    },
+    {
+      "id": "c-held-4",
+      "title": "Cadence Expands ChipStack AI Super Agent with a New Agent for RTL Generation and Early PPA Optimization",
+      "primary_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+      "published_at": "2026-09-22",
+      "organization": "Cadence Design Systems",
+      "category": "CAD・CAE",
+      "source_kind": "press_release",
+      "excerpt": "Cadence introduced an RTL Generation Agent for ChipStack that generates and revises RTL from natural-language specifications with EDA-based verification and PPA optimization. Honda R&D is evaluating the technology.",
+      "reason": "Exact URL and ChipStack RTL-generation event already published Sep 24; no new delta",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 4
+        }
+      ]
+    },
+    {
+      "id": "c-held-5",
+      "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
+      "primary_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+      "published_at": "2026-09-15",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "press_release",
+      "excerpt": "Autodesk previewed a next-generation Assistant spanning products, projects and teams, using project context and specialized design, simulation and manufacturing tools. Assistant Builder is intended to connect customers’ agents and tools.",
+      "reason": "Merged into company index6 AU announcement cluster retained in backlog; not a separate event.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 5
+        }
+      ]
+    },
+    {
+      "id": "c-held-7",
+      "title": "Closing the loop: how operations data improves Design & Make",
+      "primary_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+      "published_at": "2026-09-15",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk announced Tandem–FlexSim process-simulation integration and showed connections with Forma and MaintainX, using design, manufacturing and operational data to test facility changes and inform future engineering decisions.",
+      "reason": "Lower priority for this edition: Separate connected-operations facet; not verified sufficiently for selection Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 7
+        }
+      ]
+    },
+    {
+      "id": "c-held-8",
+      "title": "A More Connected Path from Design to Fabrication in Inventor",
+      "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/",
+      "published_at": "2026-09-25",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk completed acquisition of select Klietsch technology and IP associated with SolidSteel parametric and DSTV Assistant for Inventor, adding structural-steel detailing, connection, drawing, BOM and fabrication-data capabilities.",
+      "reason": "Lower priority for this edition: Acquisition/fabrication workflow has potential; not reopened Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 8
+        }
+      ]
+    },
+    {
+      "id": "c-held-10",
+      "title": "The new APS: A developer platform for the AI era",
+      "primary_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+      "published_at": "2026-09-14",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk outlined AI-native APS tools including an in-development Workflow MCP for composing API calls, Fusion Compute MCP public beta and new Automation API compute options in private beta.",
+      "reason": "Merged into company index6 AU announcement cluster retained in backlog; not a separate event.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 10
+        }
+      ]
+    },
+    {
+      "id": "c-held-11",
+      "title": "What’s New and Next for Fusion Manufacturing: 5 Announcements from IMTS and Autodesk University",
+      "primary_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+      "published_at": "2026-10-06",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Fusion’s manufacturing roadmap covers full turn-mill machine simulation, local documents, visual System Modeler workflows, automated CAM programming and Fusion Compute MCP. The article distinguishes planned capabilities from the MCP public beta.",
+      "reason": "Lower priority for this edition: AU recap overlaps selected cluster; no verified post-AU release delta Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 11
+        }
+      ]
+    },
+    {
+      "id": "c-held-14",
+      "title": "Autodesk Product Design & Manufacturing Collection for Enterprise Manufacturing: Scalability, Multi-Site Operations, and Global Teams",
+      "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/",
+      "published_at": "2026-10-13",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk explains enterprise use of PDMC for multi-site design, simulation, factory planning and data management, with Inventor iLogic configuration rules intended to reuse engineering knowledge and support consistent product-development workflows.",
+      "reason": "Evergreen collection positioning, no distinct engineering development established",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 14
+        }
+      ]
+    },
+    {
+      "id": "c-held-15",
+      "title": "What is iLogic in Autodesk Inventor? A Practical Guide for Design Automation",
+      "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/",
+      "published_at": "2026-10-08",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "An Autodesk guide explains iLogic rules, parameters and forms for configurable mechanical models, automated drawings and assemblies, and reusable engineering standards.",
+      "reason": "Evergreen iLogic explainer, no newly released capability established",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 15
+        }
+      ]
+    },
+    {
+      "id": "c-held-17",
+      "title": "Project Quill: Sketch It. Say It. Shape It.",
+      "primary_url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/",
+      "published_at": "2026-09-15",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Autodesk Research demonstrated Project Quill, combining pen sketches, voice input and AI models to create and iteratively revise architectural 3D designs. Integration with Forma and Autodesk Assistant is an area of research.",
+      "reason": "Lower priority for this edition: Research demonstrator; lower relevance than component/solver evidence Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 17
+        }
+      ]
+    },
+    {
+      "id": "c-held-18",
+      "title": "[NEW WEBINAR] - AI at work for you: The future of engineering - October 27, 2026",
+      "primary_url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820",
+      "published_at": "2026-10-06",
+      "organization": "Autodesk",
+      "category": "CAD・CAE",
+      "source_kind": "official",
+      "excerpt": "An Autodesk employee announced an October27 webinar on AI for engineering and manufacturing, including Assistant, design assistance, drawing automation and manufacturing-workflow demonstrations.",
+      "reason": "Upcoming webinar promotion, not a substantive verified technical result",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 18
+        }
+      ]
+    },
+    {
+      "id": "c-held-19",
+      "title": "System-Level Modeling and Agentic AI Take the Spotlight in COMSOL Multiphysics® Version 2027",
+      "primary_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+      "published_at": "2026-09-16",
+      "organization": "COMSOL",
+      "category": "CAD・CAE",
+      "source_kind": "press_release",
+      "excerpt": "COMSOL announced a planned release of version 2027 in autumn 2026 with system-level models coupled to multiphysics, an MCP server for AI agents, an Electric Motor Module, and Application Builder support on macOS and Linux.",
+      "reason": "Same COMSOL 2027 release event published Sep 17 via wire URL; no delta",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 19
+        }
+      ]
+    },
+    {
+      "id": "c-held-20",
+      "title": "COMSOL Named Official Multiphysics Partner of Formula E",
+      "primary_url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+      "published_at": "2026-10-07",
+      "organization": "COMSOL; Formula E",
+      "category": "CAD・CAE",
+      "source_kind": "press_release",
+      "excerpt": "A multiyear Formula E partnership will use COMSOL simulation for interacting vehicle physics and explore simulation apps, digital twins, and AI-assisted engineering workflows.",
+      "reason": "Partnership intent without technical performance or deployed-workflow evidence",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 20
+        }
+      ]
+    },
+    {
+      "id": "c-held-23",
+      "title": "Leveraging the mBVD Circuit Model for MEMS Resonator Design",
+      "primary_url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+      "published_at": "2026-09-21",
+      "organization": "COMSOL",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "COMSOL describes reducing finite-element piezoresonator results to a modified Butterworth–Van Dyke equivalent circuit for faster system-level simulation of MEMS/RF designs.",
+      "reason": "Lower priority for this edition: Useful reduced-model technique; COMSOL coverage cap and no fresh verification Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 23
+        }
+      ]
+    },
+    {
+      "id": "c-held-24",
+      "title": "Optimizing Temperature and Pressure Sensor Placement for In-Package Microwave Heating",
+      "primary_url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+      "published_at": "2026-09-29",
+      "organization": "COMSOL; GEPEA–Oniris; CTCPA",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "A food-process simulation case study models how wireless sensor orientation affects microwave heating and reflected power, with COMSOL RF results compared against measurements.",
+      "reason": "Lower priority for this edition: Potential measurement-backed case; not reopened and COMSOL cap Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 24
+        }
+      ]
+    },
+    {
+      "id": "c-held-25",
+      "title": "Accessible Color Tables to Aid in Accurate Perception of Results",
+      "primary_url": "https://www.comsol.com/blogs/accessible-color-tables-to-aid-in-accurate-perception-of-results",
+      "published_at": "2026-09-17",
+      "organization": "COMSOL",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "COMSOL explains accessible, perceptually uniform color tables for communicating simulation results, including guidance for stress, flow, temperature, and electromagnetic field plots.",
+      "reason": "Evergreen visualization guidance rather than significant engineering news",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 25
+        }
+      ]
+    },
+    {
+      "id": "c-held-27",
+      "title": "Why Multibody Dynamics Simulation Belongs in Every Robotics Leader's Toolkit",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+      "published_at": "2026-10-05",
+      "organization": "Cadence",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Cadence describes Adams modeling of complete industrial robots, including flexible bodies, motors, gears, controls, cable motion and collisions, to support earlier design and validation.",
+      "reason": "Broad multibody-dynamics positioning with limited new result",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 27
+        }
+      ]
+    },
+    {
+      "id": "c-held-28",
+      "title": "Cadence VTD 2026.2: Smarter Simulation for ADAS and Automated Driving",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+      "published_at": "2026-10-05",
+      "organization": "Cadence",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "VTD 2026.2 adds early-preview MCP servers for AI-assisted documentation lookup and configuration inspection/editing, alongside simulation robustness, vehicle behavior, and standards improvements.",
+      "reason": "Lower priority for this edition: Product release with MCP preview; inspect availability and URL/version mismatch before use Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 28
+        }
+      ]
+    },
+    {
+      "id": "c-held-29",
+      "title": "Dynamis Power Solutions and Siemens Energy Support Growing U.S. Power Demand with More Than 1.7 GW of Mobile Power Solutions",
+      "primary_url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+      "published_at": "2026-09-30",
+      "organization": "Siemens Energy / Dynamis Power Solutions",
+      "category": "ガスタービン・技術サービス",
+      "source_kind": "press_release",
+      "excerpt": "Dynamis and Siemens Energy announced an agreement for 119 SGT-400 gas-turbine cores for DT18 mobile power packages, with first deliveries in 2027. The cores will be manufactured at Lincoln, UK. More than 1.7 GW is planned; this is a supply commitment, not delivered capacity.",
+      "reason": "Lower priority for this edition: Supply agreement concerns future capacity; lower technical/AI relevance Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/company/2026-10-14.json",
+          "source_item_index": 29
+        }
+      ]
+    },
+    {
+      "id": "r-held-1",
+      "title": "Llama Windows packages local llama.cpp inference",
+      "primary_url": "https://huggingface.co/blog/huggingface/llama-windows",
+      "published_at": "2026-10-13",
+      "organization": "Hugging Face / ggml-org",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "excerpt": "Free open-source Windows11 tray app runs llama.cpp, downloads Hub models and exposes a local OpenAI-compatible API. Supports Windows onArm; vendor says no administrator rights required. Model downloads still require network access.",
+      "reason": "Lower priority for this edition: Useful local-inference packaging, but not shortlisted over stronger engineering/evaluation evidence. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 1
+        }
+      ]
+    },
+    {
+      "id": "r-held-2",
+      "title": "UIBK-Embedding-v1 combines dense and late-interaction retrieval",
+      "primary_url": "https://huggingface.co/blog/abdoelsayed/uibk-embedding-v1",
+      "published_at": "2026-10-12",
+      "organization": "University of Innsbruck / Abdelrahman Abdallah",
+      "category": "scientific_wildcards",
+      "source_kind": "technical_report",
+      "excerpt": "179M-parameter English model combines dense and ColBERT scores within one MaxSim search and PLAID index. Apache2.0 weights. Authors report59.79 BEIR nDCG@10 and70.55 NanoBEIR; benchmark comparisons are self-reported.",
+      "reason": "Lower priority for this edition: Useful retrieval benchmark; held for diversity and direct benchmark validation. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 2
+        }
+      ]
+    },
+    {
+      "id": "r-held-7",
+      "title": "DigitalOcean launches agent evaluation and data service previews",
+      "primary_url": "https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-Launches-Agent-Learning-and-Data-Services-for-Recursively-Self-Improving-AI-Agents/default.aspx",
+      "published_at": "2026-10-12",
+      "organization": "DigitalOcean",
+      "category": "agents_enterprise",
+      "source_kind": "press_release",
+      "excerpt": "Insights, Signals and Evaluations/Simulations enter public preview to record traces, identify failures and test changes. Data Services and Inference Router optimizer remain private preview. Automated workflow improvement is planned; current human approvals remain. Preview services are not production-supported.",
+      "reason": "Lower priority for this edition: Preview-heavy vendor roadmap; no production efficacy established. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 7
+        }
+      ]
+    },
+    {
+      "id": "r-held-8",
+      "title": "DigitalOcean integrates Bright Data tools into Managed Agents",
+      "primary_url": "https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-and-Bright-Data-Unlock-the-Web-for-AI-Agents/default.aspx",
+      "published_at": "2026-10-13",
+      "organization": "DigitalOcean / Bright Data",
+      "category": "agents_enterprise",
+      "source_kind": "press_release",
+      "excerpt": "Bright Data search/access/extraction tools become available through ActionGateway in Managed Agents public preview, without a separate BrightData account/key. Dataset integration with Agent Data Services and BrightData's own hosted agents are future phases, not present availability.",
+      "reason": "Lower priority for this edition: Managed-agent integration is narrower than selected architecture/control coverage. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 8
+        }
+      ]
+    },
+    {
+      "id": "r-held-10",
+      "title": "Azure Maia300 planned for multi-gigawatt inference deployments",
+      "primary_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "published_at": "2026-10-12",
+      "organization": "Microsoft",
+      "category": "scientific_wildcards",
+      "source_kind": "corporate_tech",
+      "excerpt": "Maia200 already serves production Copilot workloads; Maia300 deployment starts2027. Microsoft specifies eightHBM4 stacks,18TB/s bandwidth and950W TDP;96accelerators per167kW rack. Claimed40% moretokens/MW and up to7× rackthroughput are vendor projections/comparisons.",
+      "reason": "Lower priority for this edition: 2027 hardware roadmap and vendor projections; not current deployed result. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 10
+        }
+      ]
+    },
+    {
+      "id": "r-held-11",
+      "title": "AX Practitioner Playbook provides coding-agent evaluation methods",
+      "primary_url": "https://developer.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+      "published_at": "2026-10-09",
+      "organization": "Microsoft",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "excerpt": "New playbook and companion skill cover execution gates, calibrated criteria, trajectory diagnosis and source-level fixes for coding agents. Microsoft cites46CosmosDB AgentKit improvements and95% average answer score across330playbook questions; internal evaluation, not independent validation.",
+      "reason": "Lower priority for this edition: Internal playbook evaluation; overlap with selected code-review benchmark. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 11
+        }
+      ]
+    },
+    {
+      "id": "r-held-13",
+      "title": "Amazon Nova2.5Sonic reaches GA for real-time voice agents",
+      "primary_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-Sonic/",
+      "published_at": "2026-10-05",
+      "organization": "AWS",
+      "category": "models_open_weights",
+      "source_kind": "corporate_tech",
+      "excerpt": "Speech-to-speech model enters GA in four AWS regions including Tokyo. Supports seven languages,256K context and asynchronous tool calls. AWS claims lower latency and better reasoning/tool accuracy without publishing metrics here; this is a hosted model, not open weights.",
+      "reason": "Lower priority for this edition: Hosted speech model mislabeled by scout as open-weights lane; October 5 release less relevant. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 13
+        }
+      ]
+    },
+    {
+      "id": "r-held-15",
+      "title": "Postman details tool scoping and context architecture for Agent Mode",
+      "primary_url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
+      "published_at": "2026-10-09",
+      "organization": "AWS",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "excerpt": "Joint Postman/AWS case study narrows170+tools to about15 per task; vendor tests saw errors rise above roughly40 visible tools. State-changing actions require user approval. Bedrock retention and cache TTLs depend on model;40million is Postman's developer community, not confirmed agent users.",
+      "reason": "Lower priority for this edition: Vendor architecture case study; worthwhile reserve but not directly reverified. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 15
+        }
+      ]
+    },
+    {
+      "id": "r-held-17",
+      "title": "Gemini October13 release adds Argon access and macOS coding agents",
+      "primary_url": "https://gemini.google/release-notes/",
+      "published_at": "2026-10-13",
+      "organization": "Google",
+      "category": "agents_enterprise",
+      "source_kind": "official",
+      "excerpt": "Gemini 4 Argon begins global rollout to Pro/Ultra subscribers. Antigravity coding agents are integrated into Gemini macOS, with plan approval before background build/test and review notification. Customize adds skills and 40+ connected services, with regional/language limits. This is a dated availability update, not a new benchmark result.",
+      "reason": "Lower priority for this edition: Mutable release notes; current model release does not beat concrete engineering/control stories. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 17
+        }
+      ]
+    },
+    {
+      "id": "r-held-18",
+      "title": "Theory Guided and Interpretable Neural Operator Design for Partial Differential Equation Learning",
+      "primary_url": "https://arxiv.org/abs/2609.33715",
+      "published_at": "2026-09-27",
+      "organization": "",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "excerpt": "AFDONet combines adaptive Fourier decomposition with a variational-autoencoder architecture for nonlinear PDEs on smooth manifolds; authors report favorable accuracy on sharp-gradient and manifold benchmarks.",
+      "reason": "Lower priority for this edition: Abstract verified; broad first-of-kind framing unsupported independently and weaker practical validation than INO. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 18
+        }
+      ]
+    },
+    {
+      "id": "r-held-25",
+      "title": "KernelOnet: An Interpretable Neural Operator Based on Kernel Functions",
+      "primary_url": "https://arxiv.org/abs/2609.35938",
+      "published_at": "2026-09-28",
+      "organization": "",
+      "category": "engineering_ai",
+      "source_kind": "paper",
+      "excerpt": "KernelOnet uses explicit learnable, physics-informed or hybrid kernels instead of an implicit trunk network, supporting boundary-only unsupervised training in suitable problems and acoustic propagation in exterior domains.",
+      "reason": "Lower priority for this edition: Abstract verified; kernel/boundary acoustics method is narrower than selected simulation-to-real and residual-bounded methods. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 25
+        }
+      ]
+    },
+    {
+      "id": "r-held-26",
+      "title": "Breaking a quantum computing bottleneck",
+      "primary_url": "https://www.ornl.gov/news/breaking-a-quantum-computing-bottleneck/",
+      "published_at": "2026-10-12",
+      "organization": "Oak Ridge National Laboratory",
+      "category": "scientific_wildcards",
+      "source_kind": "official",
+      "excerpt": "ORNL reports a quantum fluid-dynamics algorithm developed with Frontier supercomputer support, targeting a computational bottleneck with potential applications in microfluidics, groundwater and porous-media flow.",
+      "reason": "Lower priority for this edition: Quantum/HPC adjacent item not reverified in this nominated shortlist. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 26
+        }
+      ]
+    },
+    {
+      "id": "r-held-27",
+      "title": "ORNL selected for six Phase II Genesis Mission awards",
+      "primary_url": "https://www.ornl.gov/news/ornl-selected-for-six-phase-ii-genesis-mission-awards/",
+      "published_at": "2026-10-08",
+      "organization": "Oak Ridge National Laboratory",
+      "category": "scientific_wildcards",
+      "source_kind": "official",
+      "excerpt": "Six multi-year projects will advance AI-enabled work in materials, microelectronics, quantum computing, accelerator operations, HPC software and fusion, building on Genesis Mission Phase I.",
+      "reason": "Lower priority for this edition: Funding announcement, not achieved scientific outcome. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 27
+        }
+      ]
+    },
+    {
+      "id": "r-held-28",
+      "title": "DOE announces four national laboratory-led selections to advance robotics, automation for autonomous scientific discovery",
+      "primary_url": "https://www.ornl.gov/news/doe-announces-four-national-laboratory-led-selections-to-advance-robotics-automation-for-autonomous-scientific-discovery/",
+      "published_at": "2026-10-08",
+      "organization": "US Department of Energy",
+      "category": "scientific_wildcards",
+      "source_kind": "official",
+      "excerpt": "Four DOE laboratory projects will develop reusable robotics and autonomous-science infrastructure, including skills, digital twins, provenance and cross-lab evaluation. The announcement lists $30 million total funding, with future amounts contingent on appropriations.",
+      "reason": "Lower priority for this edition: Funding and planned autonomous-science infrastructure; not operational result. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 28
+        }
+      ]
+    },
+    {
+      "id": "r-held-29",
+      "title": "Automation is shaping the future of American manufacturing",
+      "primary_url": "https://www.ornl.gov/news/automation-shaping-the-future-of-american-manufacturing/",
+      "published_at": "2026-10-07",
+      "organization": "Oak Ridge National Laboratory",
+      "category": "scientific_wildcards",
+      "source_kind": "official",
+      "excerpt": "ORNL describes manufacturing systems combining robotics, sensing and advanced controls, including an automated workflow for additive manufacturing, machining and inspection aimed at shorter production times.",
+      "reason": "Lower priority for this edition: Manufacturing automation overview; limited concrete new measured delta. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 29
+        }
+      ]
+    },
+    {
+      "id": "r-held-30",
+      "title": "Robotic lab sets up and runs optics experiments on demand",
+      "primary_url": "https://news.mit.edu/2026/robotic-lab-runs-optics-experiments-on-demand-0917",
+      "published_at": "2026-09-17",
+      "organization": "Massachusetts Institute of Technology",
+      "category": "scientific_wildcards",
+      "source_kind": "official",
+      "excerpt": "MIT demonstrated a reconfigurable robotic optics lab that assembles and tunes components with micron-scale precision, builds laser cavities, and dismantles experiments for reuse. Remote access is described as future work.",
+      "reason": "Lower priority for this edition: Older robotics demonstration; not reverified in this shortlist. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 30
+        }
+      ]
+    },
+    {
+      "id": "r-held-36",
+      "title": "State of Markets II",
+      "primary_url": "https://a16z.com/state-of-markets-ii/",
+      "published_at": "2026-09-30",
+      "organization": "Andreessen Horowitz",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "excerpt": "a16z’s second market report examines AI infrastructure economics and shallow enterprise adoption: nearly 30% of S&P500 companies report quantifiable AI impact, but only about 2% report a tracked metric. The publication connects compute demand with capital-market spending.",
+      "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 36
+        }
+      ]
+    },
+    {
+      "id": "r-held-38",
+      "title": "The 2026 CUPA-HR CHRO Survey: Challenges, AI Adoption and Remote/Hybrid Work",
+      "primary_url": "https://www.cupahr.org/resource/the-2026-cupa-hr-chro-survey/",
+      "published_at": "2026-10-02",
+      "organization": "CUPA-HR",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "excerpt": "Survey of 236 higher-education HR chiefs finds only 25% rank AI adoption/integration among their top five priorities. AI already assists routine recruiting text: 82% use it for standard emails, 77% for job descriptions and 75% for interview questions.",
+      "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 38
+        }
+      ]
+    },
+    {
+      "id": "r-held-39",
+      "title": "WGU Workforce Decoded: 60% of Employers Say AI Makes Real Skills Harder to Evaluate",
+      "primary_url": "https://www.wgu.edu/newsroom/press-release/2026/09/ai-has-made-real-skills-harder-to-evaluate.html",
+      "published_at": "2026-09-30",
+      "organization": "Western Governors University; Centiment",
+      "category": "reports_surveys",
+      "source_kind": "press_release",
+      "excerpt": "WGU’s national survey of 3,128 hiring professionals finds 60% say AI makes candidates’ real skills harder to assess. The share still working out how to evaluate AI skills doubled from16% in2025 to32% in2026.",
+      "reason": "Lower priority for this edition: Useful adjacent report, but lower priority than the two methodologically distinct selected reports. Not selected as publication-ready evidence.",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 39
+        }
+      ]
+    }
+  ],
   "warnings": [
-    "missing_input: gpt_handoff/company/2026-10-14.json returned GitHub NOT_FOUND (404). No committed same-day input was available.",
-    "missing_input: gpt_handoff/research/2026-10-14.json returned GitHub NOT_FOUND (404). No committed same-day input was available.",
-    "No previous-day artifacts or uncommitted local drafts were used. Input freshness, execution/coverage, duplicate suppression, claim verification and selection cannot be assessed until both committed inputs are available."
+    "Replaces earlier blocked output only after both exact committed same-day inputs became available.",
+    "Publication-history gaps for missing dated receipts supplemented by20-entry published index; missing receipts do not imply no prior publication.",
+    "Primary-source claims are verified as reported, not independently replicated technical performance.",
+    "No publishable introduction, article body or conclusion generated; editorial material only.",
+    "Only assigned candidate pages and their supporting paper links were opened; unassigned dispositions are screening judgments on scout records, not fresh verification.",
+    "Autodesk supporting DOI links returned tool errors; research claims are attributed to Autodesk, and the unvalidated 1,800x cost claim is deliberately omitted.",
+    "Liquid AI primary URL remained inaccessible after two opens; exact-URL lookup surfaced a vendor alternate but it was not followed because scope was existing URLs only. No performance claims promoted.",
+    "Workday primary URL inaccessible in curator check; left in backlog.",
+    "Preprints were verified against arXiv abstracts and metadata, not independently reproduced or fully peer reviewed.",
+    "No exact URL matches in publication history. Semantic comparison was made against published event keys. NVIDIA simulation demos are a distinct workflow demonstration from October 7 assembly-qualification coverage; do not reuse its generic manufacturing narrative.",
+    "Scored items are recommendations for parent curation, not a final publication contract."
   ]
 }
