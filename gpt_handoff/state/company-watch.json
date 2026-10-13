@@ -1,22 +1,22 @@
 {
   "schema": "daily-signal-company-state/v1",
   "policy_version": 2,
-  "updated_at": "2026-10-12T21:19:38.417Z",
+  "updated_at": "2026-10-13T22:05:31.632Z",
   "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
-  "next_index": 5,
+  "next_index": 12,
   "last_checked": {
     "Siemens Digital Industries Software": "2026-10-13T06:18:52.870894+09:00",
     "Ansys": "2026-10-13T06:18:52.870894+09:00",
     "Dassault Systèmes": "2026-10-13T06:18:52.870894+09:00",
     "Hexagon AB": "2026-10-13T06:18:52.870894+09:00",
     "Altair Engineering": "2026-10-13T06:18:52.870894+09:00",
-    "Cadence Design Systems": "2026-09-24T06:16:04+09:00",
-    "Autodesk": "2026-09-24T06:16:04+09:00",
-    "MSC Software": "2026-09-25T06:19:30+09:00",
-    "COMSOL": "2026-09-25T06:19:30+09:00",
-    "ESI Group": "2026-09-25T06:19:30+09:00",
-    "NUMECA International": "2026-09-25T06:19:30+09:00",
-    "Siemens Energy": "2026-09-25T06:19:30+09:00",
+    "Cadence Design Systems": "2026-10-13T21:38:57.439Z",
+    "Autodesk": "2026-10-13T21:38:57.439Z",
+    "MSC Software": "2026-10-13T21:38:57.439Z",
+    "COMSOL": "2026-10-13T21:38:57.439Z",
+    "ESI Group": "2026-10-13T21:38:57.439Z",
+    "NUMECA International": "2026-10-13T21:38:57.439Z",
+    "Siemens Energy": "2026-10-13T21:38:57.439Z",
     "Baker Hughes": "2026-09-25T06:19:30+09:00",
     "Mitsubishi Power": "2026-09-25T06:19:30+09:00",
     "Solar Turbines": "2026-09-25T06:19:30+09:00",
@@ -56,12 +56,12 @@
     "Spirit AeroSystems": "2026-10-13T06:18:52.870894+09:00"
   },
   "last_run": {
-    "local_date": "2026-10-13",
-    "path": "gpt_handoff/company/2026-10-13.json",
-    "commit": "e5efd53090800bf4b1cad18563d5fa8c5a1632ea",
+    "local_date": "2026-10-14",
+    "path": "gpt_handoff/company/2026-10-14.json",
+    "commit": "2d9983994c709af98775f0f5df4b94e4bd1e5ae7",
     "status": "partial",
     "checked_source_count": 7,
-    "candidate_item_count": 22
+    "candidate_item_count": 31
   },
   "warnings": [
     "watchlist_hash records current config/sources.yaml Git blob; rotation remains valid for this configuration.",
@@ -74,6 +74,8 @@
     "2026-10-12 checked seven mandatory sources at indices 40–46; 15 dated candidates, including 4 Discovery items from 3 organizations. No spillover was needed. Cursor advanced once 40→47 only after the dated handoff commit was verified byte-for-byte.",
     "2026-10-12 Parker main-division pages and the Liebherr September 18 article body were unavailable; official IR/listing evidence and access limitations are preserved in the partial handoff.",
     "2026-10-13 checked seven mandatory sources at indices 47,48,0–4; 22 dated candidates, including 2 Discovery items from 2 organizations. No spillover was needed. Cursor advanced once 47→5 only after the dated handoff commit was verified byte-for-byte.",
-    "2026-10-13 ATI dynamic IR archive, Spirit legacy newsroom/IR and some Ansys/Hexagon/Altair indexes were unavailable or incompletely extracted; partial coverage and evidence caveats are preserved in the handoff."
+    "2026-10-13 ATI dynamic IR archive, Spirit legacy newsroom/IR and some Ansys/Hexagon/Altair indexes were unavailable or incompletely extracted; partial coverage and evidence caveats are preserved in the handoff.",
+    "2026-10-14 checked seven mandatory sources at indices 5–11; 31 candidates including 1 Discovery item from Monumo. Cursor advanced once 5→12 only after exact dated handoff commit verification. No spillover required.",
+    "2026-10-14 retained partial coverage warnings for dynamic Cadence/Siemens pages and migrated ESI/NUMECA access; no verified new ESI/NUMECA item. Research timestamps preserved through save recovery."
   ]
 }
