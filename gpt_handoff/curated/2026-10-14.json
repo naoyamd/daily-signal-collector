@@ -1,0 +1,46 @@
+{
+  "schema": "daily-signal-curated/v1",
+  "generated_at": "2026-10-14T07:03:15+09:00",
+  "source_files": [],
+  "status": "blocked",
+  "summary": [],
+  "editorial_plan": {
+    "lead_ids": [],
+    "ordered_ids": [],
+    "central_signals": [],
+    "tensions_or_caveats": [
+      "Both required same-day committed Scout inputs are missing."
+    ],
+    "desired_depth": {}
+  },
+  "coverage_audit": {
+    "input_item_count": 0,
+    "deduplicated_item_count": 0,
+    "source_domain_count": 0,
+    "organization_count": 0,
+    "regions_observed": [],
+    "lanes": {
+      "company_watchlist": "not_assessed_missing_input",
+      "engineering_ai": "not_assessed_missing_input",
+      "agents_enterprise": "not_assessed_missing_input",
+      "models_open_weights": "not_assessed_missing_input",
+      "reports_surveys": "not_assessed_missing_input",
+      "scientific_wildcards": "not_assessed_missing_input",
+      "non_us_rotation": "not_assessed_missing_input"
+    },
+    "known_gaps": [
+      "Counts represent available committed inputs only, not completed exploration or zero findings.",
+      "Exact input blob/commit identifiers do not exist for the missing inputs; source_files intentionally empty.",
+      "Publication-history deduplication and evidence/retention audits not performed because input readiness failed."
+    ]
+  },
+  "selected": [],
+  "wildcards": [],
+  "backlog": [],
+  "rejected": [],
+  "warnings": [
+    "missing_input: gpt_handoff/company/2026-10-14.json returned GitHub NOT_FOUND (404). No committed same-day input was available.",
+    "missing_input: gpt_handoff/research/2026-10-14.json returned GitHub NOT_FOUND (404). No committed same-day input was available.",
+    "No previous-day artifacts or uncommitted local drafts were used. Input freshness, execution/coverage, duplicate suppression, claim verification and selection cannot be assessed until both committed inputs are available."
+  ]
+}
