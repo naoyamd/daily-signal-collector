@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 37072)
-Total output lines: 2961
-
 {
   "schema": "daily-signal-curated/v1",
   "generated_at": "2026-10-14T07:16:19.992091+09:00",
@@ -1351,7 +1348,532 @@ Total output lines: 2961
       "factual_points": [
         "GitHub describes a two-stage secret scanner: regex candidate retrieval followed by a contextual ModernBERT classifier.",
         "GitHub reports 11.5% higher repository-owner-weighted alert acceptance than its previous LLM pipeline.",
-        "GitHub reports an 86% reduction in median post-push scan execution time and more than 98% low…7072 tokens truncated…{
+        "GitHub reports an 86% reduction in median post-push scan execution time and more than 98% lower serving cost.",
+        "The faster classifier made generic-secret detection feasible during push protection, according to GitHub."
+      ],
+      "claims": [
+        {
+          "text": "GitHub describes a two-stage secret scanner: regex candidate retrieval followed by a contextual ModernBERT classifier.",
+          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "How our pipeline works / What we enabled"
+        },
+        {
+          "text": "GitHub reports 11.5% higher repository-owner-weighted alert acceptance than its previous LLM pipeline.",
+          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Repository owner-weighted acceptance paragraph"
+        },
+        {
+          "text": "GitHub reports an 86% reduction in median post-push scan execution time and more than 98% lower serving cost.",
+          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Impact / previous LLM pipeline comparison"
+        },
+        {
+          "text": "The faster classifier made generic-secret detection feasible during push protection, according to GitHub.",
+          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "What we enabled"
+        }
+      ],
+      "why_it_matters": "A narrow trained classifier can improve deployment economics when the decision is measurable and repetitive.",
+      "practical_implication": "Use task-specific acceptance, scan latency and cost metrics when comparing a general LLM with a compact classifier.",
+      "tags": [
+        "agents_enterprise",
+        "benchmark_security_or_rag_exploration"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4.5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 4.5
+      },
+      "weighted_score": 4.225,
+      "confidence": "high for source description; medium for performance or external validity",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 4,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Vendor production results; alert acceptance is an operational proxy, not a universal precision/recall measurement. Exact-URL search recovered source after direct open failed."
+      ]
+    },
+    {
+      "id": "r-github-reviewbench-open-review-evaluation",
+      "event_key": "github-reviewbench-open-review-evaluation:2026-10-05",
+      "tier": "standard",
+      "title": "ReviewBench evaluates AI code-review agents with auditable findings",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+      "supporting_urls": [],
+      "published_at": "2026-10-05",
+      "organization": "GitHub",
+      "category": "agents_enterprise",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "ReviewBench contains 219 public pull requests across 19 languages, with sampling informed by 103.9 million GitHub pull requests.",
+        "Its reference findings combine human review, model-generated candidates and static analysis under a common validation rubric.",
+        "GitHub reports 96.6% agreement when senior engineers uninvolved in dataset construction re-labelled ground-truth findings.",
+        "Grounded recall is the headline cross-agent comparison; augmented recall uses an agent-dependent expanded denominator."
+      ],
+      "claims": [
+        {
+          "text": "ReviewBench contains 219 public pull requests across 19 languages, with sampling informed by 103.9 million GitHub pull requests.",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Representative benchmark corpus; How ReviewBench works"
+        },
+        {
+          "text": "Its reference findings combine human review, model-generated candidates and static analysis under a common validation rubric.",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Broad ground truth discovery"
+        },
+        {
+          "text": "GitHub reports 96.6% agreement when senior engineers uninvolved in dataset construction re-labelled ground-truth findings.",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Internally audited and reproducibly evaluated"
+        },
+        {
+          "text": "Grounded recall is the headline cross-agent comparison; augmented recall uses an agent-dependent expanded denominator.",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "verification_status": "verified",
+          "attribution_type": "official_fact",
+          "evidence_location": "Metrics that measure both known and newly discovered issues"
+        }
+      ],
+      "why_it_matters": "Makes review-agent evaluation inspectable and exposes how changing denominators alter comparisons.",
+      "practical_implication": "Reproduce results with the same dataset, judge and matcher versions; retain a private code-review holdout.",
+      "tags": [
+        "agents_enterprise",
+        "benchmark_security_or_rag_exploration"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4.5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 4.5,
+        "strategic_significance": 4,
+        "reader_value": 4.5
+      },
+      "weighted_score": 4.175,
+      "confidence": "high for source description; medium for performance or external validity",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 5,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Research preview and vendor-built benchmark. Expert agreement was an internal independent-labeling exercise, not independent external validation of model quality."
+      ]
+    },
+    {
+      "id": "r-cloudzero-september-billing",
+      "event_key": "r-cloudzero-september-billing:2026-10-13",
+      "tier": "report",
+      "title": "Your AI Economics Pulse for October 2026",
+      "primary_url": "https://www.cloudzero.com/blog/ai-economics-pulse-october-2026/",
+      "supporting_urls": [],
+      "published_at": "2026-10-13",
+      "organization": "CloudZero",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "CloudZeroは2026年10月13日、継続比較できる顧客422組織の匿名・集計クラウド請求データによる9月観測を公表した。",
+        "AI支出比率の中央値は8月2.66%から9月3.02%へ、第75百分位は11.12%から12.55%へ上昇した。",
+        "月間AI支出1,000ドル以上の組織比率は67.7%から68.0%へ。既存支出企業の増額と新規利用拡大は同じ指標ではない。",
+        "別標本の財務担当者252人の調査とは母集団も測定方法も異なる。請求パネルはSaaSに内包されたAI費用等を含まず、企業全体のAI費用やROIを測っていない。"
+      ],
+      "claims": [
+        {
+          "text": "CloudZeroは2026年10月13日、継続比較できる顧客422組織の匿名・集計クラウド請求データによる9月観測を公表した。",
+          "source_url": "https://www.cloudzero.com/blog/ai-economics-pulse-october-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "October13 masthead; Share/Breadth tables; FAQ, original-source indexed full text recovered after direct-open failure"
+        },
+        {
+          "text": "AI支出比率の中央値は8月2.66%から9月3.02%へ、第75百分位は11.12%から12.55%へ上昇した。",
+          "source_url": "https://www.cloudzero.com/blog/ai-economics-pulse-october-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "October13 masthead; Share/Breadth tables; FAQ, original-source indexed full text recovered after direct-open failure"
+        },
+        {
+          "text": "月間AI支出1,000ドル以上の組織比率は67.7%から68.0%へ。既存支出企業の増額と新規利用拡大は同じ指標ではない。",
+          "source_url": "https://www.cloudzero.com/blog/ai-economics-pulse-october-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "October13 masthead; Share/Breadth tables; FAQ, original-source indexed full text recovered after direct-open failure"
+        },
+        {
+          "text": "別標本の財務担当者252人の調査とは母集団も測定方法も異なる。請求パネルはSaaSに内包されたAI費用等を含まず、企業全体のAI費用やROIを測っていない。",
+          "source_url": "https://www.cloudzero.com/blog/ai-economics-pulse-october-2026/",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "October13 masthead; Share/Breadth tables; FAQ, original-source indexed full text recovered after direct-open failure"
+        }
+      ],
+      "why_it_matters": "利用企業数だけでは費用増を説明できず、利用強度と会計上の捕捉範囲を分ける必要がある。",
+      "practical_implication": "ワークロード別の利用量・請求額・成果を併記し、ベンダー顧客パネルを自社や全企業の代表値と扱わない。",
+      "tags": [
+        "AI spending",
+        "cloud",
+        "billing panel",
+        "adoption"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 4,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.05,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 32,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "report_details": {
+        "publisher": "CloudZero",
+        "published_at": "2026-10-13",
+        "sample_size": "継続比較パネル422顧客組織。別の意識調査252人は統合しない。",
+        "methodology": "匿名化・集計した継続顧客クラウド請求の2026年9月観測。直接アクセス失敗後に同一一次URLの検索抽出本文・表で再確認。",
+        "geographies": [
+          "顧客パネルの地理的代表性は不明"
+        ],
+        "key_metrics": [
+          {
+            "metric": "AI支出比率中央値",
+            "value": "3.02%",
+            "previous": "2.66%（8月）"
+          },
+          {
+            "metric": "第75百分位",
+            "value": "12.55%",
+            "previous": "11.12%（8月）"
+          },
+          {
+            "metric": "月間AI支出1,000ドル以上の組織比率",
+            "value": "68.0%",
+            "previous": "67.7%（8月）"
+          }
+        ],
+        "comparison_to_previous": "8月との同一パネル比較。表示丸めのため中央値差は単純計算0.36ポイント、記事の37bpは非丸め値由来と明記される。差分の独自精密化をしない。",
+        "practical_meaning": "支出増と導入拡大、請求観測と担当者自己申告を分離して予算管理する。",
+        "caveats": [
+          "ベンダー顧客パネルであり全企業代表ではない",
+          "AIに帰属可能なクラウド費用のみでSaaS内包分等は対象外",
+          "請求比率から因果的ROIは推定できない"
+        ]
+      }
+    },
+    {
+      "id": "r-jpc-ai-employment-2026",
+      "event_key": "r-jpc-ai-employment-2026:2026-09-30",
+      "tier": "report",
+      "title": "Japan Productivity Center publishes Productivity Annual Report 2026",
+      "primary_url": "https://www.jpc-net.jp/research/detail/008214.html",
+      "supporting_urls": [
+        "https://www.jpc-net.jp/research/assets/pdf/innocon20260930_nenji2026.pdf"
+      ],
+      "published_at": "2026-09-30",
+      "organization": "Japan Productivity Center",
+      "category": "reports_surveys",
+      "source_kind": "technical_report",
+      "factual_points": [
+        "日本生産性本部は9月30日に生産性年次報告2026を公表。人事関連活動参加92社に7月6〜17日のWeb調査を行い33社回答、回収率35.9%。回答の21社は製造業。",
+        "全社的AI導入は72.7%、AIを前提としたビジネスモデル転換を目的に挙げた企業は45.5%。",
+        "現時点で会社全体の従業員数が変化なしとの回答は93.9%。今後5〜10年に減少すると予想する回答は51.5%。",
+        "企業2社・産業別労組2組織と有識者へのヒアリングも収録。現在の自己申告と将来予想を分け、33社の選択的標本を日本全企業へ一般化しない。"
+      ],
+      "claims": [
+        {
+          "text": "日本生産性本部は9月30日に生産性年次報告2026を公表。人事関連活動参加92社に7月6〜17日のWeb調査を行い33社回答、回収率35.9%。回答の21社は製造業。",
+          "source_url": "https://www.jpc-net.jp/research/assets/pdf/innocon20260930_nenji2026.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Original release Sep30; full report printed pp28–32, downloaded PDF text and rendered page images verified"
+        },
+        {
+          "text": "全社的AI導入は72.7%、AIを前提としたビジネスモデル転換を目的に挙げた企業は45.5%。",
+          "source_url": "https://www.jpc-net.jp/research/assets/pdf/innocon20260930_nenji2026.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Original release Sep30; full report printed pp28–32, downloaded PDF text and rendered page images verified"
+        },
+        {
+          "text": "現時点で会社全体の従業員数が変化なしとの回答は93.9%。今後5〜10年に減少すると予想する回答は51.5%。",
+          "source_url": "https://www.jpc-net.jp/research/assets/pdf/innocon20260930_nenji2026.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Original release Sep30; full report printed pp28–32, downloaded PDF text and rendered page images verified"
+        },
+        {
+          "text": "企業2社・産業別労組2組織と有識者へのヒアリングも収録。現在の自己申告と将来予想を分け、33社の選択的標本を日本全企業へ一般化しない。",
+          "source_url": "https://www.jpc-net.jp/research/assets/pdf/innocon20260930_nenji2026.pdf",
+          "verification_status": "verified",
+          "attribution_type": "survey_result",
+          "evidence_location": "Original release Sep30; full report printed pp28–32, downloaded PDF text and rendered page images verified"
+        }
+      ],
+      "why_it_matters": "AI導入率、業務変革目的、実際の雇用変化、将来予想の間に時間差と測定対象の違いがある。",
+      "practical_implication": "自社評価でも導入有無だけでなく職務内容・配置・実測成果を追跡し、将来予想を既成の人員削減事実と扱わない。",
+      "tags": [
+        "Japan",
+        "workforce",
+        "AI adoption",
+        "survey"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 5,
+        "evidence_strength": 4,
+        "engineering_relevance": 4,
+        "enterprise_relevance": 5,
+        "strategic_significance": 4,
+        "reader_value": 5
+      },
+      "weighted_score": 4.2,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 33,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "report_details": {
+        "publisher": "公益財団法人日本生産性本部",
+        "published_at": "2026-09-30",
+        "sample_size": "対象92社、有効回答33社（35.9%）。うち製造業21社。",
+        "methodology": "人事関連諸活動参加企業を意図的に絞り2026年7月6〜17日にWeb調査。企業2社・産業別労組2組織、有識者ヒアリングを併記。",
+        "geographies": [
+          "日本"
+        ],
+        "key_metrics": [
+          {
+            "metric": "全社的AI導入",
+            "value": "72.7%"
+          },
+          {
+            "metric": "ビジネスモデル転換を導入目的とする",
+            "value": "45.5%"
+          },
+          {
+            "metric": "現時点の会社全体従業員数は変化なし",
+            "value": "93.9%"
+          },
+          {
+            "metric": "5〜10年後の会社全体従業員数減少を予想",
+            "value": "51.5%"
+          }
+        ],
+        "comparison_to_previous": "同一定義・同一標本の前年差は確認できない。現状と将来予想の差は時系列実績差ではない。",
+        "practical_meaning": "製造業が多い小規模標本で、AI展開と職務・雇用変化を分けて測る設計に有用。",
+        "caveats": [
+          "無作為の全国代表標本ではない",
+          "回答33社と少なく非回答バイアスがある",
+          "企業担当者の自己申告・見通しで因果推論ではない",
+          "PDF再取得によりScoutで不明だった標本数を確定"
+        ]
+      }
+    }
+  ],
+  "wildcards": [
+    {
+      "id": "r-virtual-sensing-full-service-energy",
+      "event_key": "virtual-sensing-full-service-energy:2026-09-24",
+      "tier": "standard",
+      "title": "Energy-efficient operation of neural operators for virtual sensing",
+      "primary_url": "https://arxiv.org/abs/2609.30580",
+      "supporting_urls": [],
+      "published_at": "2026-09-24",
+      "organization": "Jason Yoo, Samrendra Roy, Souvik Chakraborty and Syed Bahauddin Alam",
+      "category": "scientific_wildcards",
+      "source_kind": "paper",
+      "factual_points": [
+        "The study examines reuse of fixed-geometry spatial computation in a heat-exchanger virtual-sensing service.",
+        "At fixed clocks in 15 W mode, authors report 22.0–22.5% lower operating energy for reuse plus graph replay than eager execution, including preparation and waiting.",
+        "The reuse benefit relative to graph replay was about 1% at one request per second and 20% at forty requests per second.",
+        "Preparation, artifact construction and worker replacement introduce costs beyond repeated inference."
+      ],
+      "claims": [
+        {
+          "text": "The study examines reuse of fixed-geometry spatial computation in a heat-exchanger virtual-sensing service.",
+          "source_url": "https://arxiv.org/abs/2609.30580",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, setup"
+        },
+        {
+          "text": "At fixed clocks in 15 W mode, authors report 22.0–22.5% lower operating energy for reuse plus graph replay than eager execution, including preparation and waiting.",
+          "source_url": "https://arxiv.org/abs/2609.30580",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract, 15 W comparison"
+        },
+        {
+          "text": "The reuse benefit relative to graph replay was about 1% at one request per second and 20% at forty requests per second.",
+          "source_url": "https://arxiv.org/abs/2609.30580",
+          "verification_status": "verified",
+          "attribution_type": "self_reported_benchmark",
+          "evidence_location": "Abstract, request-frequency comparison"
+        },
+        {
+          "text": "Preparation, artifact construction and worker replacement introduce costs beyond repeated inference.",
+          "source_url": "https://arxiv.org/abs/2609.30580",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Abstract, preparation costs"
+        }
+      ],
+      "why_it_matters": "Operational energy depends on reuse rate and service lifetime, not only per-inference kernels.",
+      "practical_implication": "Measure representative request schedules, preparation and worker churn before claiming energy savings.",
+      "tags": [
+        "neural-operators",
+        "energy-efficiency",
+        "virtual-sensing",
+        "preprint",
+        "self_reported_benchmark"
+      ],
+      "scores": {
+        "novelty": 4,
+        "source_quality": 4,
+        "evidence_strength": 3.5,
+        "engineering_relevance": 4.5,
+        "enterprise_relevance": 3,
+        "strategic_significance": 3.5,
+        "reader_value": 4.5
+      },
+      "weighted_score": 3.925,
+      "confidence": "medium",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "verification_method": "existing primary URL opened; source text and date checked",
+          "history_check": "No exact URL or same-event hit found in supplied index",
+          "source_item_index": 21,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ],
+      "caveats": [
+        "Single-service preprint and fixed-power hardware setting; percentages should not be generalized to other workloads."
+      ]
+    },
+    {
+      "id": "w-huawei-atlas960e-npo",
+      "event_key": "w-huawei-atlas960e-npo:2026-09-17",
+      "tier": "standard",
+      "title": "Huawei launches NPO-based Atlas 960E SuperPoD",
+      "primary_url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+      "supporting_urls": [],
+      "published_at": "2026-09-17",
+      "organization": "Huawei",
+      "category": "scientific_wildcards",
+      "source_kind": "corporate_tech",
+      "factual_points": [
+        "Huaweiは9月17日、NPO光エンジンHi-ONEとUnifiedBusを用いるAtlas960E SuperPoDを発表した。",
+        "同社説明では単一SuperPoDは最大4,096 NPU、FP8で8 EFLOPS、FP4で16 EFLOPS。これらはベンダー公表仕様で独立測定ではない。",
+        "Hi-ONEによる光接続統合と液冷構成を提示した。実ワークロード効率・供給地域・導入費用は本発表から確定できない。"
+      ],
+      "claims": [
+        {
+          "text": "Huaweiは9月17日、NPO光エンジンHi-ONEとUnifiedBusを用いるAtlas960E SuperPoDを発表した。",
+          "source_url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Huawei original release September17,2026, paragraphs Atlas960E/Hi-ONE"
+        },
+        {
+          "text": "同社説明では単一SuperPoDは最大4,096 NPU、FP8で8 EFLOPS、FP4で16 EFLOPS。これらはベンダー公表仕様で独立測定ではない。",
+          "source_url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Huawei original release September17,2026, paragraphs Atlas960E/Hi-ONE"
+        },
+        {
+          "text": "Hi-ONEによる光接続統合と液冷構成を提示した。実ワークロード効率・供給地域・導入費用は本発表から確定できない。",
+          "source_url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+          "verification_status": "verified",
+          "attribution_type": "official_claim",
+          "evidence_location": "Huawei original release September17,2026, paragraphs Atlas960E/Hi-ONE"
+        }
+      ],
+      "why_it_matters": "GPU単体性能だけでなく、光接続・メモリ・冷却を含むシステム設計が大規模推論基盤の比較軸となる。",
+      "practical_implication": "理論演算値をアプリ実効性能へ換算せず、電力・ソフトウェア互換性・提供条件を別途評価する。",
+      "tags": [
+        "China",
+        "AI infrastructure",
+        "optical interconnect",
+        "compute"
+      ],
+      "scores": {
+        "novelty": 3,
+        "source_quality": 4,
+        "evidence_strength": 3,
+        "engineering_relevance": 3,
+        "enterprise_relevance": 3,
+        "strategic_significance": 4,
+        "reader_value": 3
+      },
+      "weighted_score": 3.25,
+      "confidence": "high",
+      "provenance": [
+        {
+          "source_file": "gpt_handoff/research/2026-10-14.json",
+          "source_item_index": 40,
+          "source_blob_sha": "f70f69373a05dfbb642e7042e4c5c77fc55f0ddf",
+          "source_commit_sha": "de152f0d5d011c2bce8d70910851f3534ed6ea06"
+        }
+      ]
+    }
+  ],
+  "backlog": [
+    {
+      "id": "c-held-1",
+      "title": "Streamlining SI/PI Analysis with Clarity 3D Solver’s New ACE Technology",
+      "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology",
+      "published_at": "2026-10-08",
+      "organization": "Cadence Design Systems",
+      "category": "CAD・CAE",
+      "source_kind": "corporate_tech",
+      "excerpt": "Cadence describes Clarity ACE automation for partitioning, channel extraction and parallel electromagnetic simulations, with layout integration through Allegro X and Virtuoso. The post points to a new webinar and technical overview.",
+      "reason": "Promising SI/PI automation; not independently reopened in assigned verification pass",
+      "provenance": [
+        {
           "source_file": "gpt_handoff/company/2026-10-14.json",
           "source_item_index": 1
         }
