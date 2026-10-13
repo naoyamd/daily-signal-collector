@@ -1,0 +1,2408 @@
+{
+  "schema": "daily-signal-scout/v2",
+  "generated_at": "2026-10-13T21:38:57.439Z",
+  "items": [
+    {
+      "title": "New Platform for CAE Multiphysics Innovation and Talent Development",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+      "source": "Cadence Academic Network",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-05",
+      "excerpt": "Cadence and Jilin University expanded their joint CFD laboratory into a CAE multiphysics laboratory, broadening research and teaching to system simulation, multiphysics analysis and intelligent vehicle development.",
+      "query": "direct: https://community.cadence.com/ > Academic Network",
+      "tags": [
+        "CAE",
+        "CFD",
+        "multiphysics",
+        "system simulation",
+        "university collaboration"
+      ],
+      "organization": "Cadence Design Systems",
+      "company": "Cadence Design Systems",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Streamlining SI/PI Analysis with Clarity 3D Solver’s New ACE Technology",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology",
+      "source": "Cadence System, PCB, & Package Design Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-08",
+      "excerpt": "Cadence describes Clarity ACE automation for partitioning, channel extraction and parallel electromagnetic simulations, with layout integration through Allegro X and Virtuoso. The post points to a new webinar and technical overview.",
+      "query": "direct: https://community.cadence.com/ > latest blogs",
+      "tags": [
+        "CAE",
+        "EM simulation",
+        "workflow automation",
+        "Clarity",
+        "ECAD"
+      ],
+      "organization": "Cadence Design Systems",
+      "company": "Cadence Design Systems",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "How to Verify and Signoff AI-Generated Design Data",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+      "source": "Cadence Artificial Intelligence Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-07",
+      "excerpt": "Cadence outlines verification and signoff controls for agent-generated design changes, tying approved design intent to simulation, formal checks, implementation analysis and reproducible engineering evidence.",
+      "query": "direct: https://community.cadence.com/ > Artificial Intelligence",
+      "tags": [
+        "AI design",
+        "agentic AI",
+        "EDA",
+        "verification",
+        "design provenance"
+      ],
+      "organization": "Cadence Design Systems",
+      "company": "Cadence Design Systems",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Professionals in CFD with Iva Papeš from Vertiv",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv",
+      "source": "Cadence Computational Fluid Dynamics Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-17",
+      "excerpt": "A Vertiv engineering interview explains use of Cadence Reality DC Design for internal and external CFD, cooling-capacity checks, hotspot detection and outdoor heat-recirculation analysis during data-center design.",
+      "query": "direct: https://community.cadence.com/cadence_blogs_8/b/cfd",
+      "tags": [
+        "CFD",
+        "digital twin",
+        "thermal engineering",
+        "data center",
+        "customer application"
+      ],
+      "organization": "Cadence Design Systems",
+      "company": "Cadence Design Systems",
+      "document_type": "customer_interview",
+      "language": "en"
+    },
+    {
+      "title": "Cadence Expands ChipStack AI Super Agent with a New Agent for RTL Generation and Early PPA Optimization",
+      "url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+      "source": "Cadence Newsroom",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-22",
+      "excerpt": "Cadence introduced an RTL Generation Agent for ChipStack that generates and revises RTL from natural-language specifications with EDA-based verification and PPA optimization. Honda R&D is evaluating the technology.",
+      "query": "direct: previously published-index URL supplied by coordinator",
+      "tags": [
+        "AI design",
+        "agentic AI",
+        "EDA",
+        "RTL",
+        "PPA"
+      ],
+      "organization": "Cadence Design Systems",
+      "company": "Cadence Design Systems",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
+      "url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+      "source": "Autodesk News",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk previewed a next-generation Assistant spanning products, projects and teams, using project context and specialized design, simulation and manufacturing tools. Assistant Builder is intended to connect customers’ agents and tools.",
+      "query": "direct: https://adsknews.autodesk.com/en/au-2026/",
+      "tags": [
+        "AI design",
+        "agentic AI",
+        "CAD",
+        "simulation",
+        "manufacturing",
+        "Autodesk Assistant"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Autodesk advances AI for design and manufacturing at AU 2026",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+      "source": "Autodesk News",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk described AutoTimeline for editable parametric geometry, AutoAssemble, System Modeler manufacturing automation and agentic PLM. It also outlined Assistant workflows in Inventor and Vault and plans for Inventor as a Fusion Connected Client.",
+      "query": "direct: https://adsknews.autodesk.com/en/au-2026/",
+      "tags": [
+        "AI design",
+        "CAD",
+        "CAM",
+        "PLM",
+        "parametric modeling",
+        "manufacturing automation"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "corporate_blog",
+      "language": "en"
+    },
+    {
+      "title": "Closing the loop: how operations data improves Design & Make",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+      "source": "Autodesk News",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk announced Tandem–FlexSim process-simulation integration and showed connections with Forma and MaintainX, using design, manufacturing and operational data to test facility changes and inform future engineering decisions.",
+      "query": "direct: https://adsknews.autodesk.com/en/au-2026/",
+      "tags": [
+        "digital twin",
+        "simulation",
+        "FlexSim",
+        "Tandem",
+        "manufacturing",
+        "operations"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "corporate_blog",
+      "language": "en"
+    },
+    {
+      "title": "A More Connected Path from Design to Fabrication in Inventor",
+      "url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/",
+      "source": "Autodesk Design & Manufacturing",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-25",
+      "excerpt": "Autodesk completed acquisition of select Klietsch technology and IP associated with SolidSteel parametric and DSTV Assistant for Inventor, adding structural-steel detailing, connection, drawing, BOM and fabrication-data capabilities.",
+      "query": "direct: https://www.autodesk.com/blogs/design-and-manufacturing/",
+      "tags": [
+        "CAD",
+        "Inventor",
+        "manufacturing automation",
+        "structural steel",
+        "acquisition"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "corporate_blog",
+      "language": "en"
+    },
+    {
+      "title": "The next chapter of interoperability starts with connected data",
+      "url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+      "source": "Autodesk Platform Services",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-30",
+      "excerpt": "Autodesk’s September30 update confirms completion of its acquisition of select BIMDeX technology assets and IP, with some staff joining Autodesk. The technology supports CAD/BIM/manufacturing interoperability and preservation of design intent.",
+      "query": "direct: APS September News Recap > linked interoperability article",
+      "tags": [
+        "CAD",
+        "interoperability",
+        "BIM",
+        "manufacturing",
+        "AI foundation",
+        "acquisition",
+        "material_update"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "dated_material_update",
+      "language": "en"
+    },
+    {
+      "title": "The new APS: A developer platform for the AI era",
+      "url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+      "source": "Autodesk Platform Services",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-14",
+      "excerpt": "Autodesk outlined AI-native APS tools including an in-development Workflow MCP for composing API calls, Fusion Compute MCP public beta and new Automation API compute options in private beta.",
+      "query": "direct: APS September News Recap > linked developer-platform article",
+      "tags": [
+        "AI design",
+        "MCP",
+        "workflow automation",
+        "Fusion",
+        "API"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "What’s New and Next for Fusion Manufacturing: 5 Announcements from IMTS and Autodesk University",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-06",
+      "excerpt": "Fusion’s manufacturing roadmap covers full turn-mill machine simulation, local documents, visual System Modeler workflows, automated CAM programming and Fusion Compute MCP. The article distinguishes planned capabilities from the MCP public beta.",
+      "query": "direct: https://www.autodesk.com/products/fusion-360/blog/ > Manufacturing",
+      "tags": [
+        "CAD",
+        "CAM",
+        "machine simulation",
+        "manufacturing automation",
+        "MCP",
+        "AI design"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Product Manufacturing Information Comes to Fusion: Keep Manufacturing Intent with the Model",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-29",
+      "excerpt": "Fusion added PMI authoring in the Design workspace, including hole/thread and leader notes. Manufacturing and inspection workflows can consume model-linked requirements, and imported PMI can be converted to editable native PMI.",
+      "query": "direct: https://www.autodesk.com/products/fusion-360/blog/ > Manufacturing",
+      "tags": [
+        "CAD",
+        "PMI",
+        "model-based definition",
+        "manufacturing",
+        "inspection",
+        "digital thread"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Changes to Autodesk Assistant in Fusion",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/",
+      "source": "Autodesk Fusion Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-01",
+      "excerpt": "Autodesk detailed Fusion Assistant’s expanded workflows and monthly Flex-token beta allowances for design-working/task-performing AI. The post also recaps three Fusion MCP servers, agentic PLM and Assistant expansion across Inventor, Moldflow and Vault.",
+      "query": "direct: https://www.autodesk.com/products/fusion-360/blog/ > Latest",
+      "tags": [
+        "AI design",
+        "CAD",
+        "CAM",
+        "PLM",
+        "MCP",
+        "product availability"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "product_update",
+      "language": "en"
+    },
+    {
+      "title": "Autodesk Product Design & Manufacturing Collection for Enterprise Manufacturing: Scalability, Multi-Site Operations, and Global Teams",
+      "url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/",
+      "source": "Autodesk Design & Manufacturing",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-13",
+      "excerpt": "Autodesk explains enterprise use of PDMC for multi-site design, simulation, factory planning and data management, with Inventor iLogic configuration rules intended to reuse engineering knowledge and support consistent product-development workflows.",
+      "query": "site:autodesk.com \"2026\" \"October\" (AI OR manufacturing OR design)",
+      "tags": [
+        "CAD",
+        "CAE",
+        "manufacturing",
+        "design automation",
+        "PDM",
+        "Inventor"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "What is iLogic in Autodesk Inventor? A Practical Guide for Design Automation",
+      "url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/",
+      "source": "Autodesk Design & Manufacturing",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-08",
+      "excerpt": "An Autodesk guide explains iLogic rules, parameters and forms for configurable mechanical models, automated drawings and assemblies, and reusable engineering standards.",
+      "query": "direct: https://www.autodesk.com/blogs/design-and-manufacturing/",
+      "tags": [
+        "CAD",
+        "Inventor",
+        "design automation",
+        "configuration",
+        "manufacturing"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "A Part Is Never Alone: Designing Components That Respect Their Connections",
+      "url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+      "source": "Autodesk Research",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-06",
+      "excerpt": "Autodesk Research describes interface-preserving topology optimization and shape deformation with reduced-order simulation. Both methods preserve joint geometry while allowing component-shape exploration, with links to two Computers and Structures papers.",
+      "query": "direct: https://www.research.autodesk.com/ > Latest Publications and Stories",
+      "tags": [
+        "CAE",
+        "FEA",
+        "topology optimization",
+        "reduced-order model",
+        "generative design",
+        "CAD"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "research_blog",
+      "language": "en"
+    },
+    {
+      "title": "Project Quill: Sketch It. Say It. Shape It.",
+      "url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/",
+      "source": "Autodesk Research",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-15",
+      "excerpt": "Autodesk Research demonstrated Project Quill, combining pen sketches, voice input and AI models to create and iteratively revise architectural 3D designs. Integration with Forma and Autodesk Assistant is an area of research.",
+      "query": "direct: https://www.research.autodesk.com/ > Latest Publications and Stories",
+      "tags": [
+        "AI design",
+        "CAD",
+        "multimodal",
+        "3D modeling",
+        "research",
+        "Forma"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "research_blog",
+      "language": "en"
+    },
+    {
+      "title": "[NEW WEBINAR] - AI at work for you: The future of engineering - October 27, 2026",
+      "url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820",
+      "source": "Autodesk Community",
+      "source_kind": "official",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-06",
+      "excerpt": "An Autodesk employee announced an October27 webinar on AI for engineering and manufacturing, including Assistant, design assistance, drawing automation and manufacturing-workflow demonstrations.",
+      "query": "site:autodesk.com \"2026\" \"October\" (AI OR manufacturing OR design)",
+      "tags": [
+        "AI design",
+        "CAD",
+        "manufacturing",
+        "webinar",
+        "Autodesk Assistant"
+      ],
+      "organization": "Autodesk",
+      "company": "Autodesk",
+      "document_type": "webinar_announcement",
+      "language": "en"
+    },
+    {
+      "title": "System-Level Modeling and Agentic AI Take the Spotlight in COMSOL Multiphysics® Version 2027",
+      "url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+      "source": "COMSOL",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-16",
+      "excerpt": "COMSOL announced a planned release of version 2027 in autumn 2026 with system-level models coupled to multiphysics, an MCP server for AI agents, an Electric Motor Module, and Application Builder support on macOS and Linux.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "agentic AI",
+        "MCP",
+        "system simulation",
+        "multiphysics",
+        "electric motors"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "COMSOL Named Official Multiphysics Partner of Formula E",
+      "url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+      "source": "COMSOL",
+      "source_kind": "press_release",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-07",
+      "excerpt": "A multiyear Formula E partnership will use COMSOL simulation for interacting vehicle physics and explore simulation apps, digital twins, and AI-assisted engineering workflows.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "digital twin",
+        "AI-assisted modeling",
+        "multiphysics",
+        "automotive"
+      ],
+      "organization": "COMSOL; Formula E",
+      "company": "COMSOL",
+      "document_type": "press_release",
+      "language": "en"
+    },
+    {
+      "title": "Using Agentic Workflows with COMSOL Multiphysics®",
+      "url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+      "source": "COMSOL Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-18",
+      "excerpt": "A technical walkthrough connects Codex to a live COMSOL model through the Java API and uses an agent to investigate nonlinear solver settings for a heat-sink CFD model.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "agentic AI",
+        "Codex",
+        "CFD",
+        "solver tuning",
+        "API"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Modeling Acoustic–Structure Interaction in Kaplan Turbine Blades Using COMSOL®",
+      "url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+      "source": "COMSOL Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-23",
+      "excerpt": "A guest technical article uses coupled acoustic–structure modeling of a Kaplan turbine blade to capture how surrounding water and blade-to-wall clearance change vibration response.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "FEA",
+        "acoustic–structure interaction",
+        "turbine",
+        "vibration"
+      ],
+      "organization": "COMSOL; Lightness by Design",
+      "company": "COMSOL",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Leveraging the mBVD Circuit Model for MEMS Resonator Design",
+      "url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+      "source": "COMSOL Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-21",
+      "excerpt": "COMSOL describes reducing finite-element piezoresonator results to a modified Butterworth–Van Dyke equivalent circuit for faster system-level simulation of MEMS/RF designs.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "FEA",
+        "MEMS",
+        "reduced model",
+        "system simulation",
+        "multiphysics"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Optimizing Temperature and Pressure Sensor Placement for In-Package Microwave Heating",
+      "url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+      "source": "COMSOL Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-29",
+      "excerpt": "A food-process simulation case study models how wireless sensor orientation affects microwave heating and reflected power, with COMSOL RF results compared against measurements.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "manufacturing",
+        "RF simulation",
+        "process design",
+        "multiphysics"
+      ],
+      "organization": "COMSOL; GEPEA–Oniris; CTCPA",
+      "company": "COMSOL",
+      "document_type": "technical_case_study",
+      "language": "en"
+    },
+    {
+      "title": "Accessible Color Tables to Aid in Accurate Perception of Results",
+      "url": "https://www.comsol.com/blogs/accessible-color-tables-to-aid-in-accurate-perception-of-results",
+      "source": "COMSOL Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-09-17",
+      "excerpt": "COMSOL explains accessible, perceptually uniform color tables for communicating simulation results, including guidance for stress, flow, temperature, and electromagnetic field plots.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI",
+      "tags": [
+        "CAE postprocessing",
+        "scientific visualization",
+        "accessibility"
+      ],
+      "organization": "COMSOL",
+      "company": "COMSOL",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Practical High-Frequency Acoustic Simulation with the Actran Radiosity Solver",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+      "source": "Cadence Physical Systems Simulation Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-11",
+      "excerpt": "Cadence explains Actran’s energy-based radiosity solver for high-frequency acoustic design, including geometry-based view factors, surface-only discretization, and cabin, factory, and urban-noise examples.",
+      "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+      "tags": [
+        "Actran",
+        "acoustics",
+        "CAE",
+        "manufacturing",
+        "aerospace"
+      ],
+      "organization": "Cadence",
+      "company": "MSC Software",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Why Multibody Dynamics Simulation Belongs in Every Robotics Leader's Toolkit",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+      "source": "Cadence Physical Systems Simulation Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-05",
+      "excerpt": "Cadence describes Adams modeling of complete industrial robots, including flexible bodies, motors, gears, controls, cable motion and collisions, to support earlier design and validation.",
+      "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+      "tags": [
+        "Adams",
+        "multibody dynamics",
+        "robotics",
+        "manufacturing",
+        "co-simulation"
+      ],
+      "organization": "Cadence",
+      "company": "MSC Software",
+      "document_type": "technical_blog",
+      "language": "en"
+    },
+    {
+      "title": "Cadence VTD 2026.2: Smarter Simulation for ADAS and Automated Driving",
+      "url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+      "source": "Cadence Physical Systems Simulation Blog",
+      "source_kind": "corporate_tech",
+      "category": "CAD・CAE",
+      "published_at": "2026-10-05",
+      "excerpt": "VTD 2026.2 adds early-preview MCP servers for AI-assisted documentation lookup and configuration inspection/editing, alongside simulation robustness, vehicle behavior, and standards improvements.",
+      "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+      "tags": [
+        "VTD",
+        "agentic AI",
+        "MCP",
+        "digital twin",
+        "virtual testing",
+        "ADAS"
+      ],
+      "organization": "Cadence",
+      "company": "MSC Software",
+      "document_type": "product_release_blog",
+      "language": "en"
+    },
+    {
+      "title": "Dynamis Power Solutions and Siemens Energy Support Growing U.S. Power Demand with More Than 1.7 GW of Mobile Power Solutions",
+      "url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+      "source": "Dynamis Power Solutions",
+      "source_kind": "press_release",
+      "category": "ガスタービン・技術サービス",
+      "published_at": "2026-09-30",
+      "excerpt": "Dynamis and Siemens Energy announced an agreement for 119 SGT-400 gas-turbine cores for DT18 mobile power packages, with first deliveries in 2027. The cores will be manufactured at Lincoln, UK. More than 1.7 GW is planned; this is a supply commitment, not delivered capacity.",
+      "query": "\"Siemens Energy\" \"Dynamis\" \"119\" September 2026 official",
+      "tags": [
+        "gas turbine",
+        "manufacturing",
+        "SGT-400",
+        "mobile power",
+        "supply agreement"
+      ],
+      "organization": "Siemens Energy / Dynamis Power Solutions",
+      "company": "Siemens Energy",
+      "document_type": "industry news",
+      "language": "en"
+    },
+    {
+      "title": "Hyundai uses Monumo’s Anser AI Platform to transform the way EV motors are designed",
+      "url": "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed",
+      "source": "Monumo",
+      "source_kind": "press_release",
+      "category": "AIによる設計",
+      "published_at": "2026-09-21",
+      "excerpt": "Monumo reports a Hyundai proof of concept using Anser AI for EV motor simulation and optimization, identifying alternative designs and performance/material-cost trade-offs. No quantitative result or independent validation is provided. Discovery: physics-grounded AI and motor-design optimization offer continuing engineering-monitoring value.",
+      "query": "(\"gas turbine\" OR \"engineering AI\" OR \"CFD\") (research OR launch OR design) after:2026-09-13 before:2026-10-14 -drone -UAV -eVTOL",
+      "tags": [
+        "discovery_candidate",
+        "AI-assisted design",
+        "motor optimization",
+        "simulation",
+        "vendor claim"
+      ],
+      "organization": "Monumo / Hyundai",
+      "company": "Monumo",
+      "document_type": "corporate announcement",
+      "language": "en"
+    }
+  ],
+  "searched_queries": [
+    "site:cadence.com \"2026\" \"October\" (AI OR CFD OR design OR simulation)",
+    "site:autodesk.com \"2026\" \"October\" (AI OR manufacturing OR design)",
+    "site:numeca.de \"2026\"",
+    "site:cadence.com (\"September\" OR \"October\") \"2026\" (\"CFD\" OR \"Fidelity\" OR \"NUMECA\")",
+    "site:autodesk.com (\"September\" OR \"October\") \"2026\" (\"AI\" OR \"Fusion\") -site:forums.autodesk.com -2025",
+    "\"NUMECA\" \"2026\" (\"September\" OR \"October\")",
+    "site:comsol.com/blogs/ 2026 October September simulation AI",
+    "site:esi-group.com 2026 September October simulation digital twin",
+    "site:hexagon.com \"2026\" \"October\" \"MSC\"",
+    "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+    "(site:esi-group.com OR site:keysight.com) (\"ESI\" OR \"Virtual Performance\" OR \"PAM-CRASH\" OR \"simulation\") after:2026-09-13 before:2026-10-14",
+    "(\"Nastran\" OR \"PAM-CRASH\" OR \"SimulationX\") (\"September 2026\" OR \"October 2026\") AI design manufacturing",
+    "site:keysight.com (\"ESI\" OR \"Virtual Prototyping\" OR \"PAM\" OR \"SimulationX\") \"2026\" \"September\"",
+    "site:siemens-energy.com (September OR October) 2026 (turbine OR manufacturing OR AI OR technology) after:2026-09-13 before:2026-10-14",
+    "(\"gas turbine\" OR \"engineering AI\" OR \"CFD\") (research OR launch OR design) after:2026-09-13 before:2026-10-14 -drone -UAV -eVTOL",
+    "site:siemens-energy.com \"2026\" (\"September\" OR \"October\") (\"gas turbine\" OR \"digital twin\" OR \"additive\")",
+    "\"Siemens Energy\" \"October\" \"2026\" turbine news",
+    "\"Siemens Energy\" \"September\" \"2026\" technology manufacturing",
+    "\"Dynamis\" \"119\" \"Siemens\" site:siemens-energy.com OR site:dynamispower.com",
+    "\"Siemens Energy\" \"Dynamis\" \"119\" September 2026 official"
+  ],
+  "warnings": [
+    "Partial source access: dynamic/restricted corporate indexes were incompletely extracted; scope and claim caveats remain explicit. No exhaustive-absence claim.",
+    "All retained items have visible in-window publication dates, except BIMDeX explicitly carries a substantive September30 closing update on an existing article.",
+    "Search engine date snippets were not treated as publication evidence. Event dates were separated from publication dates.",
+    "Articles are vendor sources; product-benefit and research-performance statements are not independently validated.",
+    "No drone/UAV/UAS/eVTOL/air-taxi focused item retained.",
+    "Coverage is broad but not exhaustive: dynamically rendered Cadence releases and inaccessible NUMECA site limit certainty.",
+    "Some educational/recap items are retained for high recall; curator should prioritize novelty and resolve same-event overlaps.",
+    "Publication times/time zones absent for articles; date-only published_at retained without inventing timestamps.",
+    "No login, form submission, downloads behind forms, or private sources used.",
+    "Source line locations refer to web-tool text extraction; section names allow relocation.",
+    "No drone/UAV/UAS/eVTOL/air-taxi items included.",
+    "Published-index records COMSOL version 2027 announcement is already in published index via GlobeNewswire on September 17 (source release September 16). Same event, no material delta identified; retain scout record for Curator deduplication.",
+    "ESI /news and /blog redirect to Keysight. RF/ADS agentic-AI announcement is not an ESI CAE launch. MSC legacy domain redirects to Hexagon and fails extraction; Cadence official CAE section supplied direct MSC-portfolio evidence.",
+    "Siemens Energy global/US dynamic release and story indexes were not fully extracted; the official customer announcement recovered the supply event.",
+    "Technical capability/performance descriptions remain vendor claims unless explicitly labeled otherwise.",
+    "Executed 20 search queries plus direct public-page exploration; all query strings retained. BIMDeX date denotes a verified substantive closing update, not an inferred original publication date."
+  ],
+  "checked_sources": [
+    {
+      "name": "Cadence Design Systems",
+      "status": "found",
+      "query": "site:cadence.com \"2026\" \"October\" (AI OR CFD OR design OR simulation)",
+      "warning": "Cadence newsroom listing renders dynamically without individual release rows; direct known release and official blog sections were verified."
+    },
+    {
+      "name": "Autodesk",
+      "status": "found",
+      "query": "site:autodesk.com \"2026\" \"October\" (AI OR manufacturing OR design)"
+    },
+    {
+      "name": "MSC Software",
+      "status": "found",
+      "warning": "Cadence CAE blog is accessible although legacy MSC/Hexagon pages have extraction failures. Separate adjacent Cadence results supplied.",
+      "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14"
+    },
+    {
+      "name": "COMSOL",
+      "status": "found",
+      "warning": "Includes newly dated technical guidance and one 2025-research recap, explicitly labeled. Formula E duplicate deduplicated.",
+      "query": "site:comsol.com/blogs/ 2026 October September simulation AI"
+    },
+    {
+      "name": "ESI Group",
+      "status": "no_new_finding",
+      "warning": "No verified ESI-specific in-window publication. Migrated technical-blog listing inaccessible, so coverage incomplete; separate parent-company RF announcement supplied."
+    },
+    {
+      "name": "NUMECA International",
+      "status": "no_new_finding",
+      "query": "\"NUMECA\" \"2026\" (\"September\" OR \"October\")",
+      "warning": "No in-window NUMECA-specific official candidate verified. Cadence CFD section inspected; numeca.de and www.numeca.de returned access errors, so independent local-company coverage is incomplete."
+    },
+    {
+      "name": "Siemens Energy",
+      "status": "found",
+      "query": "\"Siemens Energy\" \"Dynamis\" \"119\" September 2026 official",
+      "warning": "Siemens dynamic indexes incomplete; official customer release provides verified dated agreement evidence."
+    }
+  ],
+  "research_plan": {
+    "watchlist": {
+      "active_sources": [
+        {
+          "name": "Cadence Design Systems",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com"
+          ]
+        },
+        {
+          "name": "Autodesk",
+          "category": "CAD・CAE",
+          "domains": [
+            "autodesk.com"
+          ]
+        },
+        {
+          "name": "MSC Software",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "hexagon.com",
+            "mscsoftware.com"
+          ]
+        },
+        {
+          "name": "COMSOL",
+          "category": "CAD・CAE",
+          "domains": [
+            "comsol.com"
+          ]
+        },
+        {
+          "name": "ESI Group",
+          "category": "CAD・CAE",
+          "domains": [
+            "esi-group.com",
+            "keysight.com"
+          ]
+        },
+        {
+          "name": "NUMECA International",
+          "category": "CAD・CAE",
+          "domains": [
+            "cadence.com",
+            "numeca.de"
+          ]
+        },
+        {
+          "name": "Siemens Energy",
+          "category": "ガスタービン・技術サービス",
+          "domains": [
+            "siemens-energy.com"
+          ]
+        }
+      ],
+      "spillover_sources": [],
+      "cursor_start": 5,
+      "cursor_next": 12,
+      "state_blob": "74ccf05c9e5e1e99038e3bed5d152fe697244e3e",
+      "watchlist_hash": "config-blob:388e7404e43bb186fcde3ef47b7d060027efae7c",
+      "selection_basis": "Valid explicit state is authoritative; seven sources at indices5–11. Cadence/Autodesk last checked September24, others September25; recent October12/13 handoffs reviewed. No favorite-based selection."
+    },
+    "execution": {
+      "stage": "company_scout",
+      "policy_version": 2,
+      "local_date": "2026-10-14",
+      "started_at": "2026-10-14T06:12:53+09:00",
+      "completed_at": "2026-10-13T21:38:57.439Z",
+      "status": "partial",
+      "planned_query_count": 20,
+      "executed_query_count": 20
+    },
+    "lookback": {
+      "from": "2026-09-14",
+      "through": "2026-10-14T06:33:03.987842+09:00",
+      "days": 30,
+      "date_rule": "Verified publication dates, never crawl/update/event dates as substitutes."
+    },
+    "scope": {
+      "priority_areas": [
+        {
+          "name": "AIによる設計",
+          "share": 30,
+          "scope": "生成設計・設計支援AI・最適化・MDO・サロゲートモデル"
+        },
+        {
+          "name": "大手航空機メーカー",
+          "share": 25,
+          "scope": "民間・軍用航空機の設計・製造・認証・試験"
+        },
+        {
+          "name": "航空機用エンジン",
+          "share": 25,
+          "scope": "タービン・燃焼器・材料・推進・保守・設計解析"
+        },
+        {
+          "name": "CAD・CAE",
+          "share": 20,
+          "scope": "CAD・CAE・CFD・FEA・PLM・MBSE・デジタルスレッド"
+        }
+      ],
+      "exclude_terms": [
+        "drone",
+        "UAV",
+        "UAS",
+        "eVTOL",
+        "air taxi",
+        "urban air mobility",
+        "ドローン",
+        "無人機",
+        "空飛ぶクルマ"
+      ],
+      "domain_groups": {
+        "ai_design_research": [
+          "ntrs.nasa.gov",
+          "nasa.gov",
+          "jaxa.jp",
+          "nims.go.jp",
+          "aist.go.jp",
+          "arc.aiaa.org",
+          "asmedigitalcollection.asme.org",
+          "sae.org"
+        ],
+        "civil_aircraft": [
+          "airbus.com",
+          "boeing.com",
+          "embraer.com",
+          "dassault-aviation.com",
+          "bombardier.com",
+          "comac.cc",
+          "mhi.com",
+          "subaru.co.jp",
+          "gknaerospace.com",
+          "spiritaero.com"
+        ],
+        "military_aircraft": [
+          "lockheedmartin.com",
+          "northropgrumman.com",
+          "boeing.com",
+          "airbus.com",
+          "baesystems.com",
+          "leonardo.com",
+          "saab.com",
+          "dassault-aviation.com",
+          "mhi.com",
+          "global.kawasaki.com",
+          "subaru.co.jp",
+          "avic.com.cn"
+        ],
+        "aircraft_engines": [
+          "geaerospace.com",
+          "rtx.com",
+          "rolls-royce.com",
+          "safran-group.com",
+          "mtu.de",
+          "ihi.co.jp",
+          "cfmaeroengines.com",
+          "honeywellaerospace.com",
+          "hanwhaaerospace.com",
+          "aecc.cn",
+          "avioaero.com"
+        ],
+        "cad_cae": [
+          "ansys.com",
+          "siemens.com",
+          "sw.siemens.com",
+          "3ds.com",
+          "altair.com",
+          "cadence.com",
+          "comsol.com",
+          "esi-group.com",
+          "keysight.com",
+          "mscsoftware.com",
+          "numeca.de",
+          "hexagon.com",
+          "ptc.com",
+          "autodesk.com",
+          "nvidia.com"
+        ],
+        "engineering_services": [
+          "siemens-energy.com",
+          "bakerhughes.com",
+          "power.mhi.com",
+          "solarturbines.com",
+          "chromalloy.com",
+          "questglobal.com",
+          "cyient.com",
+          "capgemini.com"
+        ],
+        "aerospace_supply_chain": [
+          "gknaerospace.com",
+          "liebherr.com",
+          "woodward.com",
+          "parker.com",
+          "howmet.com",
+          "precast.com",
+          "atimaterials.com",
+          "spiritaero.com"
+        ]
+      },
+      "method": "Official news, technical blogs, product research and IR, followed by technology-led reverse discovery and primary verification. Broad hygiene only; no editorial selection."
+    },
+    "claim_evidence": [
+      {
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+          "published_at": "2026-10-05",
+          "verification_status": "verified",
+          "evidence_location": "Article header, line36"
+        },
+        "claims": [
+          {
+            "text": "Joint laboratory unveiled during September 2026 visit",
+            "evidence_location": "lines43-45,51",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Expanded beyond fluid simulation to system simulation and multiphysics",
+            "evidence_location": "lines55-59",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Publication date is October5; underlying visit occurred in September with no exact event day."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology",
+          "published_at": "2026-10-08",
+          "verification_status": "verified",
+          "evidence_location": "Article header, line42"
+        },
+        "claims": [
+          {
+            "text": "Automates partitioning/channel extraction and supports parallel solves",
+            "evidence_location": "lines50-64",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Integrates with Virtuoso and Allegro X",
+            "evidence_location": "line67",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Electronics-focused rather than mechanical CAD/CAE; retained for broad recall. No quantified performance claim included."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pcb/posts/streamlining-si-pi-analysis-with-clarity-s-new-ace-technology"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+          "published_at": "2026-10-07",
+          "verification_status": "verified",
+          "evidence_location": "Article header, line48"
+        },
+        "claims": [
+          {
+            "text": "Agent orchestration uses Cadence EDA engines and governed execution",
+            "evidence_location": "lines56-60",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Approved requirements, constraints and provenance remain authoritative",
+            "evidence_location": "lines69-78",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Verification checks and reproducible results support signoff",
+            "evidence_location": "lines83-111",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Technical guidance, not a new product launch; ChipStack-related thematic overlap with previously published release."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/artificial-intelligence/posts/how-to-verify-and-sign-off-ai-generated-design-data"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv",
+          "published_at": "2026-09-17",
+          "verification_status": "verified",
+          "evidence_location": "Article header, line44"
+        },
+        "claims": [
+          {
+            "text": "Vertiv uses Reality DC Design daily for cooling-system development",
+            "evidence_location": "line71",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Internal and external CFD assess airflow, cooling capacity, wind and recirculation",
+            "evidence_location": "lines72-77",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Customer interview/application evidence, not a new CFD solver release; should not be attributed specifically to NUMECA."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/cfd/posts/professionals-in-cfd-with-iva-papes-from-vertiv"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+          "published_at": "2026-09-22",
+          "verification_status": "verified",
+          "evidence_location": "Release date, line7: 09/22/2026"
+        },
+        "claims": [
+          {
+            "text": "New agent supports generation, analysis and refinement from natural language",
+            "evidence_location": "lines9-17",
+            "source_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Honda evaluation",
+            "evidence_location": "lines19-23",
+            "source_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Select early-access availability expected Q4 2026",
+            "evidence_location": "line31",
+            "source_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Exact URL already published in prior Daily Signal dated September24; curator should suppress duplicate.",
+          "Vendor publication is September22, not September24.",
+          "Claims of 24% area/18% power savings derive from vendor early evaluations, not independent validation.",
+          "Not generally available; select early-access customers expected Q4 2026."
+        ],
+        "primary_url": "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+          "published_at": "2026-09-15",
+          "verification_status": "verified",
+          "evidence_location": "Header line163; dateline line170"
+        },
+        "claims": [
+          {
+            "text": "Next-generation cross-product Assistant preview",
+            "evidence_location": "lines170-178",
+            "source_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Personal Pulse, Assistant Spaces, Builder and AI Orchestrator",
+            "evidence_location": "lines189-194",
+            "source_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Expanded experience is not yet generally available; details planned for 2027",
+            "evidence_location": "lines199-215",
+            "source_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Next-generation capabilities are a preview; do not confuse with existing in-product Assistant availability.",
+          "Same AU2026 announcement cluster as manufacturing and operations posts; retain for curator grouping."
+        ],
+        "primary_url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+          "published_at": "2026-09-15",
+          "verification_status": "verified",
+          "evidence_location": "Header line163"
+        },
+        "claims": [
+          {
+            "text": "AutoTimeline, AutoAssemble, System Modeler and agentic PLM described",
+            "evidence_location": "lines188-193",
+            "source_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Inventor/Vault Assistant and future Fusion Connected Client",
+            "evidence_location": "lines194-195",
+            "source_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Mix of current Assistant functionality and future/in-development capabilities; no blanket general-availability claim.",
+          "Same-event overlap with broad AU2026 press release."
+        ],
+        "primary_url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+          "published_at": "2026-09-15",
+          "verification_status": "verified",
+          "evidence_location": "Header line163"
+        },
+        "claims": [
+          {
+            "text": "Tandem combines BIM/manufacturing data and sensor context",
+            "evidence_location": "lines188-193",
+            "source_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "New Tandem–FlexSim integration",
+            "evidence_location": "lines194-196",
+            "source_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "MaintainX maintenance workflow demonstration",
+            "evidence_location": "lines198-203",
+            "source_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "AU2026 announced/shown integration; do not infer all integrations generally available.",
+          "MaintainX acquisition itself was announced earlier; this is the in-window connected-operations update."
+        ],
+        "primary_url": "https://adsknews.autodesk.com/en/news/autodesk-connected-operations-au-2026/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/",
+          "published_at": "2026-09-25",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line10"
+        },
+        "claims": [
+          {
+            "text": "Completed acquisition of selected technology/IP",
+            "evidence_location": "line22",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Capabilities and intended Inventor/PDMC/Fusion direction",
+            "evidence_location": "lines23-33",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Selected technology/IP acquisition, not stated as acquisition of the entire Klietsch company.",
+          "Future Autodesk integration remains planned."
+        ],
+        "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/a-more-connected-path-from-design-to-fabrication-in-inventor/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+          "published_at": "2026-09-30",
+          "verification_status": "verified",
+          "evidence_location": "Header line2 and explicitly dated update line10"
+        },
+        "claims": [
+          {
+            "text": "Acquisition completed; subset of team joined Autodesk",
+            "evidence_location": "line10",
+            "source_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Technology spans CAD/BIM/design/manufacturing",
+            "evidence_location": "lines24-32",
+            "source_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Existing contracts/support remain with Srinsoft",
+            "evidence_location": "line35",
+            "source_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "September30 is a substantive update/closing date on an existing announcement page; original publication day not exposed.",
+          "Do not describe as acquisition of all BIMDeX operations."
+        ],
+        "primary_url": "https://aps.autodesk.com/blog/next-chapter-interoperability-starts-connected-data"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+          "published_at": "2026-09-14",
+          "verification_status": "verified",
+          "evidence_location": "Header line2"
+        },
+        "claims": [
+          {
+            "text": "Workflow MCP API sequencing and private beta",
+            "evidence_location": "lines30-34",
+            "source_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Fusion Compute MCP public beta and Automation API private-beta compute",
+            "evidence_location": "lines56-58",
+            "source_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Fusion Compute MCP is same-event overlap with previously published exact URL https://www.autodesk.com/products/fusion-360/blog/fusion-compute-mcp/ ; unique APS Workflow MCP content may be separately useful.",
+          "Contains development/preview claims."
+        ],
+        "primary_url": "https://aps.autodesk.com/blog/new-aps-developer-platform-ai-era"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+          "published_at": "2026-10-06",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line28"
+        },
+        "claims": [
+          {
+            "text": "Planned full turn-mill simulation",
+            "evidence_location": "lines48-57",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Local data and visual System Modeler development",
+            "evidence_location": "lines58-79",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Automated CAM exploration and Compute MCP public beta",
+            "evidence_location": "lines80-102",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Forward-looking disclaimer",
+            "evidence_location": "line113",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Roadmap/recap, mostly forward-looking rather than delivered features.",
+          "Fusion Compute MCP repeats already-published announcement; other manufacturing roadmap elements are distinct."
+        ],
+        "primary_url": "https://www.autodesk.com/products/fusion-360/blog/fusion-manufacturing-innovations-imts-au/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/",
+          "published_at": "2026-09-29",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line28"
+        },
+        "claims": [
+          {
+            "text": "Native PMI commands and eligible subscription offerings",
+            "evidence_location": "lines40-53",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "ASME/ISO annotations and downstream consumption",
+            "evidence_location": "lines56-73,102-117",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Available through stated Fusion for Manufacturing/Design or relevant extension entitlements; not every base offering."
+        ],
+        "primary_url": "https://www.autodesk.com/products/fusion-360/blog/product-manufacturing-information-comes-to-fusion-keep-manufacturing-intent-with-the-model/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/",
+          "published_at": "2026-10-01",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line28"
+        },
+        "claims": [
+          {
+            "text": "Assistant availability and expanded capabilities",
+            "evidence_location": "lines41-46",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Monthly token allowance and usage distinction",
+            "evidence_location": "lines49-80",
+            "source_url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "URL mentions October6 but publication header is October1; use header date.",
+          "AI use allowance is beta and quantities may change.",
+          "MCP/PLM portion repeats AU2026 announcements."
+        ],
+        "primary_url": "https://www.autodesk.com/products/fusion-360/blog/changes-to-autodesk-assistant-in-autodesk-fusion-beginning-october-6th/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/",
+          "published_at": "2026-10-13",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line10"
+        },
+        "claims": [
+          {
+            "text": "Integrated collection and multi-site use",
+            "evidence_location": "lines22-52",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "iLogic configuration and reusable engineering knowledge",
+            "evidence_location": "lines59-98",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Newly dated explanatory/marketing article, not a new feature launch."
+        ],
+        "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/pdmc-enterprise-manufacturing-global-product-development/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/",
+          "published_at": "2026-10-08",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line11"
+        },
+        "claims": [
+          {
+            "text": "Rule-based CAD automation and parameters",
+            "evidence_location": "lines23-52",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Product, drawing, assembly and standards use cases",
+            "evidence_location": "lines53-89",
+            "source_url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Educational guide about existing technology, not a new iLogic release."
+        ],
+        "primary_url": "https://www.autodesk.com/blogs/design-and-manufacturing/what-is-ilogic-in-autodesk-inventor/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+          "published_at": "2026-10-06",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line75"
+        },
+        "claims": [
+          {
+            "text": "Interface-preserving topology method",
+            "evidence_location": "lines89-99",
+            "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Feature-preserving deformation and model-order reduction",
+            "evidence_location": "lines103-118",
+            "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Two linked papers",
+            "evidence_location": "lines126-127",
+            "source_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Article publication is October6; underlying papers may predate the window and their dates were not separately verified.",
+          "Approximately1800x reduced evaluation cost is a vendor-reported research-case result, not a general product speed claim."
+        ],
+        "primary_url": "https://www.research.autodesk.com/blog/a-part-is-never-alone-designing-components-respect-connections/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/",
+          "published_at": "2026-09-15",
+          "verification_status": "verified",
+          "evidence_location": "Author/date line75"
+        },
+        "claims": [
+          {
+            "text": "Sketch/voice combination generates and revises design",
+            "evidence_location": "lines77-82",
+            "source_url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Research targets Forma/Assistant; AU demonstration",
+            "evidence_location": "lines83-85",
+            "source_url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Research prototype, not an announced generally available product."
+        ],
+        "primary_url": "https://www.research.autodesk.com/blog/project-quill-sketch-say-shape/"
+      },
+      {
+        "date_evidence": {
+          "source_url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820",
+          "published_at": "2026-10-06",
+          "verification_status": "verified",
+          "evidence_location": "Employee post date lines81-83 and96-98"
+        },
+        "claims": [
+          {
+            "text": "October27 event",
+            "evidence_location": "lines114-116",
+            "source_url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Design/manufacturing AI demonstration topics",
+            "evidence_location": "lines120-132",
+            "source_url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Publication date October6; event is future October27.",
+          "Official employee community post; lower news value than primary product announcements."
+        ],
+        "primary_url": "https://forums.autodesk.com/t5/inventor-forum/new-webinar-ai-at-work-for-you-the-future-of-engineering-october/td-p/14291820"
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Upcoming version combines system models with 1D/2D/3D multiphysics and introduces motor modeling",
+            "evidence_location": "Lines 50–52 and 57–72",
+            "source_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "MCP enables agents to modify models, run simulations, inspect outputs",
+            "evidence_location": "Advancing AI-Assisted Simulation with Agentic Workflows, lines 64–68",
+            "source_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Announcement of a forthcoming release, not evidence of general availability."
+        ],
+        "primary_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+          "published_at": "2026-09-16",
+          "verification_status": "verified",
+          "evidence_location": "Dateline at line 50; press-release gallery also lists September 16, 2026"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Multiyear technical partnership announced",
+            "evidence_location": "Lines 53–56",
+            "source_url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "AI-assisted models, agentic workflows and digital twins are areas of interest",
+            "evidence_location": "Formula E CTO statement, lines 60–62",
+            "source_url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Digital-twin and agentic benefits are prospective, not measured deployment results.",
+          "COMSOL blog article on the same date is a duplicate partnership signal; retained as corroborating source only."
+        ],
+        "primary_url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/press-release/comsol-named-official-multiphysics-partner-of-formula-e-14742",
+          "published_at": "2026-10-07",
+          "verification_status": "verified",
+          "evidence_location": "Dateline at line 53; gallery October 7, 2026"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Client–server interaction uses generated Java API code",
+            "evidence_location": "Lines 64–78",
+            "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Demonstration explores solver parameters for a heat-sink model",
+            "evidence_location": "Demonstration: Heat Sink Model, lines 110–113",
+            "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Tutorial proof of concept; no universal speedup claimed in this record."
+        ],
+        "primary_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+          "published_at": "2026-09-18",
+          "verification_status": "verified",
+          "evidence_location": "Date below Andreas Bick byline, line 54"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Coupled acoustics captures surrounding-fluid influence on vibration",
+            "evidence_location": "Lines 56–68",
+            "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Example varies blade-to-pipe-wall gap",
+            "evidence_location": "Simulating the Surrounding Media, lines 67–70",
+            "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Hydropower turbine example, not an aircraft engine."
+        ],
+        "primary_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/blogs/modeling-acoustic-structure-interaction-in-kaplan-turbine-blades-using-comsol",
+          "published_at": "2026-09-23",
+          "verification_status": "verified",
+          "evidence_location": "Date below Tobias Jonsson byline, line 54"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Finite-element results are condensed into a lumped circuit model",
+            "evidence_location": "Opening explanation, lines 55–56",
+            "source_url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Piezoelectric FEM combines electrostatics and solid mechanics",
+            "evidence_location": "Representing a Piezoelectric Resonator in a FEM Manner, line 70",
+            "source_url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [],
+        "primary_url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/blogs/leveraging-the-mbvd-circuit-model-for-mems-resonator-design",
+          "published_at": "2026-09-21",
+          "verification_status": "verified",
+          "evidence_location": "Date below Sergey Yankin byline, line 54"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "3D geometry and RF analysis assess sensor placement",
+            "evidence_location": "Building the COMSOL Model and Simulation-Based Insights, lines 57–69",
+            "source_url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "VNA measurements generally agree with modeled reflected power",
+            "evidence_location": "Lines 71–79",
+            "source_url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Newly dated blog revisits research presented at COMSOL Conference 2025; not a newly published 2026 research paper."
+        ],
+        "primary_url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/blogs/optimizing-temperature-and-pressure-sensor-placement-for-in-package-microwave-heating",
+          "published_at": "2026-09-29",
+          "verification_status": "verified",
+          "evidence_location": "Date below Steven William Collins byline, line 54"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Describes built-in accessible palettes and appropriate physical quantities",
+            "evidence_location": "Built-In Accessible Color Tables, lines 61–70",
+            "source_url": "https://www.comsol.com/blogs/accessible-color-tables-to-aid-in-accurate-perception-of-results",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Workflow guidance; not a new solver or product release. Lower-priority technical signal."
+        ],
+        "primary_url": "https://www.comsol.com/blogs/accessible-color-tables-to-aid-in-accurate-perception-of-results",
+        "date_evidence": {
+          "source_url": "https://www.comsol.com/blogs/accessible-color-tables-to-aid-in-accurate-perception-of-results",
+          "published_at": "2026-09-17",
+          "verification_status": "verified",
+          "evidence_location": "Date below Dixita Patel byline, line 54"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Radiosity models acoustic energy exchange and precomputes view factors",
+            "evidence_location": "An Energy-Based Alternative, lines 48–51",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Example cabin analysis takes under one minute; industrial examples take minutes",
+            "evidence_location": "Use Cases, lines 57–60",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Performance figures are vendor-reported examples, not independent benchmarks.",
+          "Links a new white paper; white-paper publication date not independently verified."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/practical-high-frequency-acoustic-simulation-with-the-actran-radiosity-solver",
+          "published_at": "2026-10-11",
+          "verification_status": "verified",
+          "evidence_location": "Date below title, line 36"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "Adams represents robot mechanical components and controls together",
+            "evidence_location": "A Different Approach: Simulate the Whole System, Early, line 57",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "Supports control co-simulation and evaluation of cables/collision forces",
+            "evidence_location": "Lines 59–68",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "Technical/marketing guidance rather than a software-version release."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/why-multibody-dynamics-simulation-belongs-in-every-robotics-leader-s-toolkit",
+          "published_at": "2026-10-05",
+          "verification_status": "verified",
+          "evidence_location": "Date below title, line 40"
+        }
+      },
+      {
+        "date_basis": "Explicit publication date in article body",
+        "claims": [
+          {
+            "text": "VTD 2026.2 introduces VtdDocs and VtdConfig MCP integrations",
+            "evidence_location": "AI-Assisted Engineering Workflows, lines 64–67",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          },
+          {
+            "text": "VTD supports virtual driving scenarios and SIL/HIL/DIL validation",
+            "evidence_location": "What Is Cadence VTD?, lines 61–63",
+            "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+            "verification_status": "verified",
+            "attribution_type": "official_claim"
+          }
+        ],
+        "caveats": [
+          "MCP integrations are explicitly early-preview.",
+          "URL slug says 2026-1, but visible title and body consistently describe 2026.2."
+        ],
+        "primary_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+        "date_evidence": {
+          "source_url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/vtd-2026-1",
+          "published_at": "2026-10-05",
+          "verification_status": "verified",
+          "evidence_location": "Date below title, line 53"
+        }
+      },
+      {
+        "primary_url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+        "claims": [
+          {
+            "text": "The companies announced 119 SGT-400 cores for DT18 packages, with first delivery in 2027 and manufacturing in Lincoln.",
+            "source_url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Release opening lines32–37 and manufacturing paragraph42."
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+          "published_at": "2026-09-30",
+          "verification_status": "verified",
+          "evidence_location": "Date heading line30 and Houston dateline line35."
+        },
+        "caveats": [
+          "Planned deliveries and capacity, not commissioning evidence.",
+          "Secondary syndicated stories consolidated under this official customer release."
+        ]
+      },
+      {
+        "primary_url": "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed",
+        "claims": [
+          {
+            "text": "Monumo reports completion of a Hyundai EV-motor design proof of concept using Anser AI, including alternative motor designs and performance/material-cost trade-offs.",
+            "source_url": "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed",
+            "verification_status": "verified",
+            "attribution_type": "official_claim",
+            "evidence_location": "Body paragraphs1–4, extracted lines27–38"
+          }
+        ],
+        "date_evidence": {
+          "source_url": "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed",
+          "published_at": "2026-09-21",
+          "verification_status": "verified",
+          "evidence_location": "Page date heading lines18/23; September17 in body is the underlying announcement date."
+        },
+        "caveats": [
+          "Vendor account of proof of concept; no independent test, quantified improvement or production adoption established.",
+          "Future collaboration is prospective."
+        ]
+      }
+    ],
+    "checked_public_sections": [
+      {
+        "company": "Cadence Design Systems",
+        "url": "https://newsroom.cadence.com/overview/default.aspx",
+        "section": "Newsroom overview",
+        "status": "checked",
+        "finding": "Official context and press-release archive link"
+      },
+      {
+        "company": "Cadence Design Systems",
+        "url": "https://newsroom.cadence.com/press-releases/default.aspx",
+        "section": "Press releases",
+        "status": "partial",
+        "finding": "Dynamic archive returned only search controls, no release listing"
+      },
+      {
+        "company": "Cadence Design Systems",
+        "url": "https://community.cadence.com/",
+        "section": "Latest blogs, AI, Academic Network, System/PCB/Package",
+        "status": "checked",
+        "finding": "Verified in-window items; Actran/Adams/VTD left to parallel MSC worker"
+      },
+      {
+        "company": "Cadence Design Systems",
+        "url": "https://community.cadence.com/cadence_blogs_8/b/cfd",
+        "section": "Computational Fluid Dynamics",
+        "status": "checked",
+        "finding": "Newest article September17; earlier technical CFD articles July/August or older"
+      },
+      {
+        "company": "NUMECA International",
+        "url": "https://numeca.de/",
+        "section": "Home/news entrypoint",
+        "status": "unreachable",
+        "finding": "Web tool access error"
+      },
+      {
+        "company": "NUMECA International",
+        "url": "https://www.numeca.de/",
+        "section": "Alternate www entrypoint",
+        "status": "unreachable",
+        "finding": "Web tool access error"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://adsknews.autodesk.com/en/",
+        "section": "Official newsroom",
+        "status": "checked",
+        "finding": "AU2026 hub and current articles inspected"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://adsknews.autodesk.com/en/au-2026/",
+        "section": "AU2026 announcements",
+        "status": "checked",
+        "finding": "September15 press release, manufacturing and operations verified"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://investors.autodesk.com/news-events/press-releases",
+        "section": "Investor-relations press releases",
+        "status": "checked",
+        "finding": "October6 leadership item and September15 AI release; prior results August27 outside window"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://www.autodesk.com/blogs/design-and-manufacturing/",
+        "section": "Design & Manufacturing technical blog",
+        "status": "checked",
+        "finding": "PDMC, iLogic, Klietsch candidate bodies verified"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://www.autodesk.com/products/fusion-360/blog/",
+        "section": "Fusion latest, manufacturing, product engineering",
+        "status": "checked",
+        "finding": "Manufacturing roadmap, PMI, Assistant updates verified"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://aps.autodesk.com/blog/september-news-recap-2",
+        "section": "APS news and reverse links",
+        "status": "checked",
+        "finding": "Linked APS platform and BIMDeX body dates verified; recap not added as duplicate"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://www.research.autodesk.com/",
+        "section": "Research latest publications/stories",
+        "status": "checked",
+        "finding": "October6 interface-preservation and September15 Quill bodies verified"
+      },
+      {
+        "company": "COMSOL",
+        "section": "newsroom",
+        "url": "https://www.comsol.com/press-releases",
+        "result": "found",
+        "detail": "Two in-window press releases; next older entry September 3."
+      },
+      {
+        "company": "COMSOL",
+        "section": "technical blog",
+        "url": "https://www.comsol.com/blogs/",
+        "result": "found",
+        "detail": "Six in-window posts, September 17 through October 7; next older September 1. All six opened; Formula E blog duplicates release."
+      },
+      {
+        "company": "COMSOL",
+        "section": "research",
+        "url": "https://www.comsol.com/papers-presentations",
+        "result": "no_new_finding",
+        "detail": "Collection shown is Conference 2025; no day-level in-window publication evidence for individual papers."
+      },
+      {
+        "company": "COMSOL",
+        "section": "technology reverse exploration",
+        "url": "https://www.comsol.com/blogs/using-agentic-workflows-with-comsol-multiphysics",
+        "result": "found",
+        "detail": "AI/CFD search recovered agentic workflow; index exploration recovered FEA/acoustics and model reduction articles."
+      },
+      {
+        "company": "MSC Software",
+        "section": "legacy company site",
+        "url": "https://www.mscsoftware.com",
+        "result": "unreachable",
+        "detail": "Redirect to Hexagon MSC division URL failed in web tool."
+      },
+      {
+        "company": "MSC Software",
+        "section": "Hexagon newsroom",
+        "url": "https://hexagon.com/en/about/news-media",
+        "result": "unreachable",
+        "detail": "Page loads but news component only returns Loading component; no article list available."
+      },
+      {
+        "company": "MSC Software",
+        "section": "Hexagon IR",
+        "url": "https://investors.hexagon.com/",
+        "result": "no_new_finding",
+        "detail": "Visible latest linked press release September 7; dynamic components incomplete."
+      },
+      {
+        "company": "MSC Software",
+        "section": "Cadence newsroom",
+        "url": "https://newsroom.cadence.com/press-releases/default.aspx",
+        "result": "unreachable",
+        "detail": "Reachable shell but no press-release list in extraction. Direct homepage feature checked and dated April 15, excluded."
+      },
+      {
+        "company": "MSC Software",
+        "section": "technical blog",
+        "url": "https://community.cadence.com/cadence_blogs_8/b/pss",
+        "result": "found",
+        "detail": "Full CAE index through pre-window dates opened. Three direct MSC-portfolio in-window items, plus one adjacent BETA CAE hotfix."
+      },
+      {
+        "company": "MSC Software",
+        "section": "CFD blog",
+        "url": "https://community.cadence.com/cadence_blogs_8/b/cfd",
+        "result": "no_new_finding",
+        "detail": "One in-window career/profile interview about Vertiv/Reality DC; no new MSC-product signal. Older technical posts excluded."
+      },
+      {
+        "company": "MSC Software",
+        "section": "research / white papers",
+        "url": "https://www.cadence.com/en_US/home/resources/white-papers.html",
+        "result": "no_new_finding",
+        "detail": "Visible dated entries are older than window."
+      },
+      {
+        "company": "MSC Software",
+        "section": "technical product briefs",
+        "url": "https://www.cadence.com/en_US/home/resources/product-briefs.html",
+        "result": "no_new_finding",
+        "detail": "September 23 Actran listing body opened but no article date/new release claim and includes 2025.2 features. September 17 MSC Apex listing body inaccessible; neither promoted."
+      },
+      {
+        "company": "MSC Software",
+        "section": "technology reverse exploration",
+        "url": "https://documentation.cadence.com/msc/home.html",
+        "result": "no_new_finding",
+        "detail": "Search recovered 2026.x documentation but no verified publication dates; not used as new items."
+      },
+      {
+        "company": "ESI Group",
+        "section": "legacy newsroom",
+        "url": "https://www.esi-group.com/news",
+        "result": "no_new_finding",
+        "detail": "Redirects to Keysight newsroom. Initial page stale September 10; followed official All Announcements to catalog current through October 12."
+      },
+      {
+        "company": "ESI Group",
+        "section": "newsroom current catalog",
+        "url": "https://www.keysight.com/us/en/about/newsroom/catalog.html?filters=content-type:press-releases&srtby=MOST_RECENT",
+        "result": "no_new_finding",
+        "detail": "Read full 20-item listing to pre-window dates. RF agentic-AI release is adjacent only; remaining in-window posts concern RF instruments, network/semiconductor testing or 6G."
+      },
+      {
+        "company": "ESI Group",
+        "section": "technical blog",
+        "url": "https://www.esi-group.com/blog",
+        "result": "unreachable",
+        "detail": "Redirects to https://www.keysight.com/blogs/en/tech/sim-des/; extraction contains only Related Tags. Direct target and main Keysight blog tried, no article listing obtained."
+      },
+      {
+        "company": "ESI Group",
+        "section": "IR",
+        "url": "https://investor.keysight.com/investor-news-and-events/financial-press-releases/default.aspx",
+        "result": "no_new_finding",
+        "detail": "Latest dated financial release August 28, before window."
+      },
+      {
+        "company": "ESI Group",
+        "section": "technology reverse exploration",
+        "url": "https://www.keysight.com/us/en/products/design-engineering-software/computer-aided-engineering-software/integrated-physics-suite.html",
+        "result": "no_new_finding",
+        "detail": "Drop/shock/vibration CAE product page opened. Undated, no verified in-window announcement; excluded."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "Global press hub",
+        "url": "https://www.siemens-energy.com/global/en/home/press-releases.html",
+        "result": "Dynamic listing returned Loading; indexed dated snippet provided September3 SGT-800 story and September24 board notice."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "US press hub and portal",
+        "url": "https://www.siemens-energy.com/us/en/home/press.html",
+        "result": "Portal reachable; visible releases older than window. US full listing and alternate host returned Loading."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "Stories",
+        "url": "https://www.siemens-energy.com/global/en/home/stories.html",
+        "result": "Dynamic listing returned Loading."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "Innovation and industrial AI",
+        "url": "https://www.siemens-energy.com/global/en/home/innovations.html",
+        "result": "Reachable evergreen technology descriptions; AI-design and agentic engineering page had no verified publication date."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "IR research/publications",
+        "url": "https://www.siemens-energy.com/global/en/home/investor-relations/publications-ad-hoc.html",
+        "result": "Reachable current financial conference calendar; no new dated technical report verified."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "Official customer reverse-discovery",
+        "url": "https://dynamisps.com/dynamis-power-solutions-and-siemens-energy-support-growing-u-s-power-demand-with-more-than-1-7-gw-of-mobile-power-solutions/",
+        "result": "Dynamisps.com official release date and full body verified; earlier unverified dynamispower.com route failed."
+      },
+      {
+        "company": "Monumo",
+        "section": "Homepage latest/news/technical blog",
+        "url": "https://monumo.ai",
+        "result": "September21 Hyundai PoC verified; June24 technical FEM blog is background only."
+      },
+      {
+        "company": "Siemens Energy",
+        "section": "SGT-400 technical product",
+        "url": "https://www.siemens-energy.com/us/en/home/products-services/product/sgt-400.html",
+        "result": "Reachable undated official technical page; background cannot confirm the commercial order."
+      }
+    ],
+    "excluded_or_background": [
+      {
+        "company": "NUMECA International",
+        "url": "https://tenders.infralens.in/gem/amc-of-nucleeca-cadence-software-733289",
+        "reason": "Published September12 outside window; third-party procurement maintenance item"
+      },
+      {
+        "company": "NUMECA International",
+        "url": "https://yousoftly.ir/software/numeca-fine-open-10-1/",
+        "reason": "Unofficial software-download site; unsupported AI-enhancement claims excluded"
+      },
+      {
+        "company": "NUMECA International",
+        "url": "https://www.yeyulingfeng.com/a/1103170.html",
+        "reason": "Unverified third-party agent/NUMECA write-up, not an official company source"
+      },
+      {
+        "company": "NUMECA International",
+        "reason": "Search returned similarly named unrelated French machining firms; excluded"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://forums.autodesk.com/t5/community-blog-d-m-english/digital-factory-virtual-summit-2026-register-now/ba-p/14203055",
+        "reason": "July24 publication outside window despite October8 event"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://www.autodesk.com/campaigns/apac/webinars/fusion-features-you-may-have-missed",
+        "reason": "October29 event date only; publication date not established"
+      },
+      {
+        "company": "Autodesk",
+        "url": "https://www.autodesk.com/products/fusion-360/blog/fusion-compute-mcp/",
+        "reason": "Coordinator identified exact URL as previously published; retained related candidates with duplicate caveats, no separate unverified-date item added"
+      },
+      {
+        "company": "Cadence Design Systems",
+        "reason": "Actran, Adams and VTD official blog items handled by parallel worker, not duplicated here"
+      },
+      {
+        "title": "Multiphysics Simulation Brings Fast, Reliable Innovation to Electric Motorsport",
+        "url": "https://www.comsol.com/blogs/multiphysics-simulation-brings-fast-reliable-innovation-to-electric-motorsport",
+        "date": "2026-10-07",
+        "reason": "Duplicate partnership signal of selected press release; byline date line 54 and body lines 56–57 corroborate."
+      },
+      {
+        "title": "Using Agentic AI with COMSOL",
+        "url": "https://www.comsol.com/events/webinar/using-agentic-ai-with-comsol-139431",
+        "date": "2026-10-13",
+        "reason": "Displayed date is webinar event time, not publication date."
+      },
+      {
+        "title": "Cadence Actran Advanced Acoustic Simulator",
+        "url": "https://www.cadence.com/en_US/home/resources/product-briefs/actran-pb.html",
+        "date": "2026-09-23",
+        "reason": "Official index date only; body undated, overview of existing functionality including 2025.2. Not promoted as new product/technical change."
+      },
+      {
+        "title": "MSC Apex Frequency response analysis",
+        "url": "https://www.cadence.com/en_US/home/resources/product-briefs.html",
+        "date": "2026-09-17",
+        "reason": "Official index dated, linked body failed twice; not body-verified."
+      },
+      {
+        "title": "Agentic AI Within the Simulation Engineering Space",
+        "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space/",
+        "date": "2026-08-27",
+        "reason": "Before window."
+      },
+      {
+        "title": "Cadence and NVIDIA Expand Partnership to Reinvent Engineering for the Age of AI and Accelerated Computing",
+        "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-and-nvidia-expand-partnership-to-reinvent-engineering.html",
+        "date": "2026-04-15",
+        "reason": "Featured on current homepage but article publication date before window."
+      },
+      {
+        "item": {
+          "title": "BETA CAE 2025.2 HF3 Software Release Available",
+          "url": "https://community.cadence.com/cadence_blogs_8/b/pss/posts/cadence-beta-cae-announces-the-release-of-2025-2-3-version-of-its-software-suite",
+          "source": "Cadence Physical Systems Simulation Blog",
+          "source_kind": "official_product_release",
+          "category": "CAD・CAE",
+          "published_at": "2026-09-29",
+          "excerpt": "Cadence’s BETA CAE hotfix addresses ANSA, EPILYSIS, META, FATIQ, SPDRM and KOMVOS issues, including CFD meshing, ADAMS export, Nastran material IDs and machine-learning optimization environment detection.",
+          "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+          "tags": [
+            "CAE",
+            "CFD",
+            "FEA",
+            "Adams interoperability",
+            "machine learning",
+            "SPDM"
+          ],
+          "organization": "Cadence BETA CAE Software",
+          "company": "Cadence Design Systems",
+          "document_type": "release_notes",
+          "language": "en"
+        },
+        "reason": "Adjacent parent-company finding, separated for correct company attribution and cross-worker deduplication."
+      },
+      {
+        "item": {
+          "title": "New Platform for CAE Multiphysics Innovation and Talent Development",
+          "url": "https://community.cadence.com/cadence_blogs_8/b/can/posts/new-platform-for-cae-multiphysics-innovation-and-talent-development",
+          "source": "Cadence Academic Network Blog",
+          "source_kind": "official_blog",
+          "category": "CAD・CAE",
+          "published_at": "2026-10-05",
+          "excerpt": "Cadence and Jilin University unveiled an expanded CAE multiphysics joint laboratory, broadening an existing CFD collaboration into system simulation, multiphysics analysis and intelligent vehicle development.",
+          "query": "(site:hexagon.com OR site:cadence.com OR site:mscsoftware.com) (\"MSC\" OR \"Nastran\" OR \"Adams\") after:2026-09-13 before:2026-10-14",
+          "tags": [
+            "CAE",
+            "multiphysics",
+            "research collaboration",
+            "CFD",
+            "system simulation"
+          ],
+          "organization": "Cadence; Jilin University",
+          "company": "Cadence Design Systems",
+          "document_type": "research_collaboration_blog",
+          "language": "en"
+        },
+        "reason": "Adjacent parent-company finding, separated for correct company attribution and cross-worker deduplication."
+      },
+      {
+        "item": {
+          "title": "Keysight Advances its Design Software with Agentic AI",
+          "url": "https://www.keysight.com/us/en/about/newsroom/catalog/news-release.2026.1006_pr26-095-keysight-advances-its-design-software-with-agentic-ai.html",
+          "source": "Keysight Newsroom",
+          "source_kind": "official_press_release",
+          "category": "CAD・CAE",
+          "published_at": "2026-10-06",
+          "excerpt": "Keysight announced MCP servers, workflow macro recording and Python generation in ADS 2027 and RF Circuit Simulation Professional, enabling AI agents to automate RF design and validate outputs through simulation.",
+          "query": "(site:esi-group.com OR site:keysight.com) (\"ESI\" OR \"Virtual Performance\" OR \"PAM-CRASH\" OR \"simulation\") after:2026-09-13 before:2026-10-14",
+          "tags": [
+            "agentic AI",
+            "MCP",
+            "RF simulation",
+            "design automation"
+          ],
+          "organization": "Keysight Technologies",
+          "company": "Keysight Technologies",
+          "document_type": "press_release",
+          "language": "en"
+        },
+        "reason": "Adjacent parent-company finding, separated for correct company attribution and cross-worker deduplication."
+      },
+      {
+        "url": "https://monumo.ai/latest/ai-accelerated-fem-solvers-improving-convergence-with-better-initialisation",
+        "published_at": "2026-06-24",
+        "reason": "Outside window, background only."
+      },
+      {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/solutions-usecase/industrial-AI.html",
+        "reason": "Undated official AI design/simulation and digital-twin overview; no new-publication date."
+      },
+      {
+        "url": "https://www.turbomachinerynews.com/2026/09/siemens-energy-takes-next-generation-sgt-800-technology-live-at-german-chemical-park/",
+        "reason": "September17 secondary retelling of September3 official announcement, outside window; no material new delta established."
+      }
+    ],
+    "discovery_candidates": [
+      {
+        "organization": "Monumo",
+        "reason": "Non-watchlist physics-grounded AI and motor-design optimization organization with an in-window Hyundai PoC announcement.",
+        "urls": [
+          "https://monumo.ai/latest/hyundai-uses-monumo-s-anser-ai-platform-to-transform-the-way-ev-motors-are-designed"
+        ]
+      }
+    ],
+    "coverage_audit": {
+      "mandatory_source_count": 7,
+      "checked_source_count": 7,
+      "status_counts": {
+        "found": 5,
+        "no_new_finding": 2
+      },
+      "candidate_item_count": 31,
+      "mandatory_candidate_count": 30,
+      "discovery_item_count": 1,
+      "discovery_organization_count": 1,
+      "spillover_used": false,
+      "spillover_reason": "At least five verified dated mandatory candidates; no spillover required.",
+      "domain_counts": {
+        "community.cadence.com": 7,
+        "newsroom.cadence.com": 1,
+        "adsknews.autodesk.com": 3,
+        "www.autodesk.com": 6,
+        "aps.autodesk.com": 2,
+        "www.research.autodesk.com": 2,
+        "forums.autodesk.com": 1,
+        "www.comsol.com": 7,
+        "dynamisps.com": 1,
+        "monumo.ai": 1
+      },
+      "known_gaps": [
+        "Partial source access: dynamic/restricted corporate indexes were incompletely extracted; scope and claim caveats remain explicit. No exhaustive-absence claim.",
+        "All retained items have visible in-window publication dates, except BIMDeX explicitly carries a substantive September30 closing update on an existing article.",
+        "Search engine date snippets were not treated as publication evidence. Event dates were separated from publication dates.",
+        "Articles are vendor sources; product-benefit and research-performance statements are not independently validated.",
+        "No drone/UAV/UAS/eVTOL/air-taxi focused item retained.",
+        "Coverage is broad but not exhaustive: dynamically rendered Cadence releases and inaccessible NUMECA site limit certainty.",
+        "Some educational/recap items are retained for high recall; curator should prioritize novelty and resolve same-event overlaps.",
+        "Publication times/time zones absent for articles; date-only published_at retained without inventing timestamps.",
+        "No login, form submission, downloads behind forms, or private sources used.",
+        "Source line locations refer to web-tool text extraction; section names allow relocation.",
+        "No drone/UAV/UAS/eVTOL/air-taxi items included.",
+        "Published-index records COMSOL version 2027 announcement is already in published index via GlobeNewswire on September 17 (source release September 16). Same event, no material delta identified; retain scout record for Curator deduplication.",
+        "ESI /news and /blog redirect to Keysight. RF/ADS agentic-AI announcement is not an ESI CAE launch. MSC legacy domain redirects to Hexagon and fails extraction; Cadence official CAE section supplied direct MSC-portfolio evidence.",
+        "Siemens Energy global/US dynamic release and story indexes were not fully extracted; the official customer announcement recovered the supply event.",
+        "Technical capability/performance descriptions remain vendor claims unless explicitly labeled otherwise.",
+        "Executed 20 search queries plus direct public-page exploration; all query strings retained. BIMDeX date denotes a verified substantive closing update, not an inferred original publication date."
+      ]
+    },
+    "publication_guard": {
+      "receipt_path": "gpt_handoff/published/2026-10-14.json",
+      "initial_check": "NOT_FOUND / HTTP404",
+      "prewrite_check": "NOT_FOUND / HTTP404",
+      "prewrite_checked_at": "2026-10-13T22:04:52.065Z"
+    },
+    "state_update_plan": {
+      "path": "gpt_handoff/state/company-watch.json",
+      "advance_only_after_verified_handoff_commit": true,
+      "preserve_prior_last_checked_and_warnings": true,
+      "do_not_advance_twice_for_same_local_date": true
+    },
+    "publication_history_check": {
+      "index_blob": "fef66bca36f9d8b0188cf526f4356c303d2183ab",
+      "exact_urls_previously_published": [
+        "https://newsroom.cadence.com/press-releases/press-release-details/2026/Cadence-Expands-ChipStack-AI-Super-Agent-with-a-New-Agent-for-RTL-Generation-and-Early-PPA-Optimization/default.aspx"
+      ],
+      "policy": "Scouts preserve recall; Curator must apply90-day URL and30-day event suppression; known COMSOL2027 event published September17 via syndicated URL.",
+      "known_semantic_duplicates": [
+        {
+          "candidate_url": "https://www.comsol.com/press-release/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027-14722",
+          "prior_url": "https://www.globenewswire.com/news-release/2026/09/16/3363286/0/en/system-level-modeling-and-agentic-ai-take-the-spotlight-in-comsol-multiphysics-version-2027.html",
+          "material_delta": false
+        }
+      ]
+    },
+    "validation_audit": {
+      "status": "passed",
+      "validator": "scripts.web_scout.diagnose_scout_handoff",
+      "strict_schema": true,
+      "execution_metadata": true,
+      "mandatory_coverage": true,
+      "claim_evidence_mapping": true,
+      "dated_within_window": true,
+      "excluded_topic_hygiene": true,
+      "claim_count": 67,
+      "item_count": 31,
+      "unique_urls": 31,
+      "max_excerpt_chars": 342,
+      "item_retention_ratio": 1,
+      "claim_retention_ratio": 1,
+      "no_article_or_curation": true,
+      "validator_blob": "27b1a33274c673786f1568c0159e1e83812be109"
+    }
+  }
+}
